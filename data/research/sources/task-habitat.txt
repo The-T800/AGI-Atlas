@@ -1,0 +1,761 @@
+<!DOCTYPE html>
+<html lang="en" prefix="og: http://ogp.me/ns#">
+<head>
+  <meta charset="UTF-8" />
+  <title>AI Habitat</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,600,600i%7CSource+Code+Pro:400,400i,600" />
+  <link rel="stylesheet" href="/static/theme.compiled.css" />
+  <link rel="icon" href="/static/habitat-blue.png" type="image/png" />
+  <link rel="canonical" href="/" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#478cc3" />
+  <meta name="twitter:site" content="@ai_habitat" />
+  <meta name="twitter:site:id" content="1090794734010822657" />
+  <meta property="og:site_name" content="AI Habitat" />
+  <meta property="og:title" content="AI Habitat" />
+  <meta name="twitter:title" content="AI Habitat" />
+  <meta property="og:url" content="/" />
+  <meta property="og:description" content="A platform for embodied AI research." />
+  <meta name="twitter:description" content="A platform for embodied AI research." />
+  <meta property="og:image" content="https://aihabitat.org/static/habitat-blue.png" />
+  <meta name="twitter:image" content="https://aihabitat.org/static/habitat-blue.png" />
+  <meta name="twitter:card" content="summary" />
+  <meta property="og:type" content="page" />
+</head>
+<body>
+<header><nav id="navigation">
+  <div class="m-container">
+    <div class="m-row">
+      <a href="/" id="m-navbar-brand" class="m-col-t-9 m-col-m-none m-left-m"><img src="/static/habitat.svg" alt="" />Habitat</a>
+      <a id="m-navbar-show" href="#navigation" title="Show navigation" class="m-col-t-3 m-hide-m m-text-right"></a>
+      <a id="m-navbar-hide" href="#" title="Hide navigation" class="m-col-t-3 m-hide-m m-text-right"></a>
+      <div id="m-navbar-collapse" class="m-col-t-12 m-show-m m-col-m-none m-right-m">
+        <div class="m-row">
+          <ol class="m-col-t-12 m-col-m-none">
+            <li>
+              <a href="/" id="m-navbar-current">About</a>
+              <ol>
+                <li><a href="https://aihabitat.org/habitat3/">Habitat 3 (2023)</a></li>
+                <li><a href="https://ai.meta.com/blog/habitat-20-training-home-assistant-robots-with-faster-simulation-and-new-benchmarks/">Habitat 2 (2021)</a></li>
+                <li><a href="https://arxiv.org/abs/1904.01201">Habitat (2019)</a></li>
+              </ol>
+            </li>
+            <li>
+              <a href="/challenge/">Challenge</a>
+              <ol>
+                <li><a href="/challenge/2023_homerobot_ovmm/">2023 OVMM</a></li>
+                <li><a href="/challenge/2023/">2023 Nav</a></li>
+                <li><a href="/challenge/2022_rearrange/">2022 Rearrange</a></li>
+                <li><a href="/challenge/2022/">2022 Nav</a></li>
+                <li><a href="/challenge/2021/">2021 Nav</a></li>
+                <li><a href="/challenge/2020/">2020 Nav</a></li>
+                <li><a href="/challenge/2019/">2019 Nav</a></li>
+              </ol>
+            </li>
+            <li>
+              <a href="/workshop/">Workshop</a>
+              <ol>
+                <li><a href="https://embodied-ai.org/">2021</a></li>
+                <li><a href="https://embodied-ai.org/">2020</a></li>
+                <li><a href="/workshop/2019/">2019</a></li>
+              </ol>
+            </li>
+            <li>
+              <a href="/docs/resource_index/">Resources</a>
+              <ol>
+                <li><a href="/docs/resource_index/">Resource Index</a></li>
+                <li><a href="/docs/concepts/">Concepts and Terminology</a></li>
+                <li><a href="/docs/habitat-sim/">Habitat Sim Docs</a></li>
+                <li><a href="/docs/habitat-lab/">Habitat Lab Docs</a></li>
+                <li><a href="/tutorial/2020/">ECCV 2020 tutorial series</a></li>
+              </ol>
+            </li>
+            <li>
+              <a href="/datasets/">Datasets</a>
+              <ol>
+                <li><a href="https://huggingface.co/ai-habitat">ai-habitat on HuggingFace 🤗</a></li>
+                <li><a href="https://3dlg-hcvc.github.io/hssd/">HSSD</a></li>
+                <li><a href="/datasets/replica_cad/">ReplicaCAD</a></li>
+                <li><a href="/datasets/hm3d/">HM3D</a></li>
+                <li><a href="/datasets/hm3d-semantics/">HM3D-Semantics</a></li>
+              </ol>
+            </li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav></header>
+<main>
+<article>
+  <div class="m-container m-container-inflatable">
+    <div class="m-row">
+      <div class="m-col-l-10 m-push-l-1">
+        <h1>AI Habitat</h1>
+<!-- content -->
+<video autoplay controls="" playsinline="" center="" loop="" muted="" poster="/static/video-poster.png" class="video-bg" id="video-bg" width=100% style="margin-top: -3rem">
+    <source src="https://dl.fbaipublicfiles.com/habitat/video/AI_HABITAT_EDIT_V86_1280_2000.mp4" type="video/mp4" poster="/static/fair.png" alt="HTML5 background video">
+</video><p>
+<br />
+</p>
+<p>📢 Habitat 3.0 is out. Find more information on <a href="https://aihabitat.org/habitat3/">the project page</a></p>
+<p>📢 Habitat Navigation Challenge 2023 is live now! You can find it <a href="https://aihabitat.org/challenge/2023/">here</a></p>
+<p><strong>What is Embodied AI?</strong></p>
+<p>“AI is … the science and engineering of making intelligent machines.”
+- <a href="http://jmc.stanford.edu/artificial-intelligence/what-is-ai/index.html">John McCarthy</a></p>
+<p>Embodied AI is the science and engineering of intelligent machines with a physical or virtual embodiment (typically, robots and egocentric personal assistants).
+The <a href="https://dl.acm.org/doi/10.1162/1064546053278973">embodiment hypothesis</a> is the idea that “intelligence emerges in the interaction of an agent with an environment and as a result of sensorimotor activity”.</p>
+<p><strong>What is AI Habitat?</strong></p>
+<p>Habitat is a simulation platform for research in Embodied AI.</p>
+<p>Our goal is to advance the science and engineering of Embodied AI.
+Imagine walking up to a home robot and asking
+<em>“Hey robot – can you go check if my laptop is on my desk? And if so, bring it to me”</em>.
+Or asking an egocentric AI assistant (sitting on your smart glasses): <em>“Hey – where did I last see my keys?”</em>.</p>
+<p>AI Habitat enables training of such embodied AI agents (virtual robots and egocentric assistants) in a highly
+photorealistic &amp; efficient 3D simulator, before transferring the learned skills to reality.</p>
+<p>This empowers a paradigm shift from ‘internet AI’ based on static
+datasets (e.g. ImageNet, COCO, VQA) to embodied AI where agents act within
+realistic environments, bringing to the fore active perception, long-term
+planning, learning from interaction, and holding a dialog grounded in an
+environment.</p>
+<p><strong>Why Simulation?</strong></p>
+<p>Training/testing embodied AI agents in the real world is</p>
+<ul>
+<li><strong>Slow</strong>: the real world runs no faster than real time and cannot be parallelized,</li>
+<li><strong>Dangerous</strong>: poorly-trained agents can unwittingly injure themselves or the human wearing the egocentric device, the environment, or others,</li>
+<li><strong>Expensive</strong>: both the agent and the environment(s) in which they execute are expensive,</li>
+<li><strong>Difficult to control/reproduce</strong>: replicating conditions (particularly corner-cases) or experiments is often difficult.</li>
+</ul>
+<p>Simulations can run orders of magnitude faster than real-time and can be parallelized over a cluster;
+training/testing in simulation is safe, cheap, and enables fair systematic benchmarking of progress.
+Once a promising approach has been developed and tested in simulation,
+it can be transferred to <a href="https://abhiskk.github.io/sim2real">physical platforms</a>.</p>
+<p><strong>Why the name</strong> <span class="m-text m-strong m-em">Habitat</span><strong>?</strong> Because that’s where AI agents live and learn 🙂.</p>
+<p>Overall, Habitat consists of
+<a href="https://github.com/facebookresearch/habitat-sim">Habitat-Sim</a>,
+<a href="https://github.com/facebookresearch/habitat-lab">Habitat-Lab</a>, and
+<a href="https://github.com/facebookresearch/habitat-challenge">Habitat Challenge</a>.</p>
+<section id="habitat-sim">
+<h2><a href="#habitat-sim">Habitat-Sim</a></h2>
+<p>A high-performance physics-enabled 3D simulator with support for:</p>
+<ul>
+<li>3D scans of indoor/outdoor spaces (e.g. <a href="https://aihabitat.org/datasets/hm3d/">HM3D</a>, <a href="https://niessner.github.io/Matterport/">MatterPort3D</a>, <a href="http://gibsonenv.stanford.edu/database/">Gibson</a>, <a href="https://github.com/facebookresearch/Replica-Dataset">Replica</a>)</li>
+<li>CAD models of spaces and piecewise-rigid objects (e.g. <a href="https://aihabitat.org/datasets/replica_cad/">ReplicaCAD</a>, <a href="https://www.ycbbenchmarks.com/">YCB</a>, <a href="https://app.ignitionrobotics.org/GoogleResearch/fuel/collections/Google%20Scanned%20Objects">Google Scanned Objects</a>),</li>
+<li>Configurable sensors (RGB-D cameras, egomotion sensing)</li>
+<li>Robots described via URDF (mobile manipulators like <a href="http://docs.fetchrobotics.com/">Fetch</a>, fixed-base arms like <a href="https://www.franka.de/">Franka</a>, quadrupeds like <a href="https://www.unitree.com/products/aliengo/">AlienGo</a>),</li>
+<li>Rigid-body mechanics (via <a href="https://github.com/bulletphysics/bullet3">Bullet</a>).</li>
+</ul>
+<p>The design philosophy of Habitat is to prioritize simulation speed over the breadth of simulation capabilities. When rendering a scene from the Matterport3D dataset, Habitat-Sim achieves several thousand frames per second (FPS) running single-threaded and reaches over 10,000 FPS multi-process on a single GPU. Habitat-Sim simulates a Fetch robot interacting in ReplicaCAD scenes at over 8,000 steps per second (SPS), where each ‘step’ involves rendering 1 RGBD observation (128×128 pixels) and rigid-body dynamics for 1/30sec.</p>
+<ul>
+<li>Github repository: <a href="https://github.com/facebookresearch/habitat-sim">facebookresearch/habitat-sim</a></li>
+</ul>
+</section>
+<section id="habitat-lab">
+<h2><a href="#habitat-lab">Habitat-Lab</a></h2>
+<p>Habitat-Lab is a modular high-level library for end-to-end development in
+embodied AI — defining embodied AI tasks (e.g. navigation, interaction, instruction
+following, question answering), configuring embodied agents (physical form,
+sensors, capabilities), training these agents (via imitation or reinforcement
+learning, or no learning at all as in classical SensePlanAct pipelines), and benchmarking their
+performance on the defined tasks using standard metrics.</p>
+<ul>
+<li>Github repository: <a href="https://github.com/facebookresearch/habitat-lab">facebookresearch/habitat-lab</a></li>
+</ul>
+</section>
+<section id="habitat-challenge">
+<h2><a href="#habitat-challenge">Habitat Challenge</a></h2>
+<p>An annual autonomous navigation challenge (hosted on the
+<a href="https://evalai.cloudcv.org/">EvalAI</a> platform) that aims to benchmark and
+accelerate progress in embodied AI. Unlike classical ‘internet AI’ image
+dataset-based challenges (e.g.,
+<a href="http://www.image-net.org/challenges/LSVRC/">ImageNet LSVRC</a>,
+<a href="http://cocodataset.org/">COCO</a>,
+<a href="https://visualqa.org/">VQA</a>), this is a challenge where participants
+<em>upload code not predictions</em>. The uploaded agents are evaluated in novel
+(unseen) environments to test for generalization.</p>
+<p>The first iteration (in 2019) of this challenge was held in conjuction with the
+Habitat: Embodied Agents Challenge and Workshop
+at CVPR 2019. Starting in 2020, the Habitat challenge is held in conjunction with
+the <a href="https://embodied-ai.org/">Embodied AI</a> workshop at CVPR.</p>
+<p>Approximate stats over the years:</p>
+<ul>
+<li>2021: Total teams: 45. Total submissions: 400.</li>
+<li>2020: Total teams: 27. Total submissions: 563.</li>
+<li>2019: Total teams: 16. Total submissions: 150.</li>
+</ul>
+</section>
+<section id="team-current-contributors">
+<h2><a href="#team-current-contributors">Team: Current Contributors</a></h2>
+<div class="m-row">
+<div class="m-col-l-2 m-col-s-3 m-col-t-6 m-push-l-3 m-push-s-1">
+<div class="m-image m-badge">
+<a href="https://github.com/aclegg3"><img src="/static/heads/alex.png" style="height: 100px" /></a>
+</div>
+<p class="m-text-center m-noindent"><a class="m-flat" href="https://github.com/aclegg3">Alexander Clegg</a><span class="m-text m-sup">1</span></p>
+</div>
+<div class="m-col-l-2 m-col-s-3 m-col-t-6 m-push-l-3 m-push-s-1">
+<div class="m-image m-badge">
+<a href="http://johnmturner.com"><img src="/static/heads/john.png" style="height: 100px" /></a>
+</div>
+<p class="m-text-center m-noindent"><a class="m-flat" href="http://johnmturner.com">John Turner</a><span class="m-text m-sup">1</span></p>
+</div>
+<div class="m-col-l-2 m-col-s-3 m-col-t-6 m-push-l-3 m-push-s-1 m-push-t-3">
+<div class="m-image m-badge">
+<a href="https://magnum.graphics/"><img src="/static/heads/mosra.jpg" style="height: 100px" /></a>
+</div>
+<p class="m-text-center m-noindent"><a class="m-flat" href="https://magnum.graphics/">Vladimír Vondruš</a></p>
+</div>
+</div>
+</section>
+<section id="team-past-contributors">
+<h2><a href="#team-past-contributors">Team: Past Contributors</a></h2>
+<div class="m-row">
+<div class="m-col-l-2 m-col-s-3 m-col-t-6">
+<div class="m-image m-badge">
+<a href="https://github.com/vincentpierre"><img src="/static/heads/vincentpierre.png" style="height: 100px" /></a>
+</div>
+<p class="m-text-center m-noindent"><a class="m-flat" href="https://github.com/vincentpierre">Vincent-Pierre Berges</a><span class="m-text m-sup">1</span></p>
+</div>
+<div class="m-col-l-2 m-col-s-3 m-col-t-6">
+<div class="m-image m-badge">
+<a href="https://www.linkedin.com/in/mandeepbaines"><img src="/static/heads/mandeep.png" style="height: 100px" /></a>
+</div>
+<p class="m-text-center m-noindent"><a class="m-flat" href="https://www.linkedin.com/in/mandeepbaines">Mandeep Baines</a><span class="m-text m-sup">1</span></p>
+</div>
+<div class="m-col-l-2 m-col-s-3 m-col-t-6">
+<div class="m-image m-badge">
+<a href="https://cc.gatech.edu/~dbatra"><img src="/static/heads/dhruv.png" style="height: 100px" /></a>
+</div>
+<p class="m-text-center m-noindent"><a class="m-flat" href="https://cc.gatech.edu/~dbatra">Dhruv Batra</a><span class="m-text m-sup">1,2</span></p>
+</div>
+<div class="m-col-l-2 m-col-s-3 m-col-t-6">
+<div class="m-image m-badge">
+<a href="https://talkingtorobots.com/yonatanbisk.html"><img src="/static/heads/yonatan.png" style="height: 100px" /></a>
+</div>
+<p class="m-text-center m-noindent"><a class="m-flat" href="https://talkingtorobots.com/yonatanbisk.html">Yonatan Bisk</a><span class="m-text m-sup">1, 7</span></p>
+</div>
+<div class="m-clearfix-s">
+</div>
+<div class="m-col-l-2 m-col-s-3 m-col-t-6">
+<div class="m-image m-badge">
+<a href="https://matthewchang.github.io/"><img src="/static/heads/matthew_chang.jpg" style="height: 100px" /></a>
+</div>
+<p class="m-text-center m-noindent"><a class="m-flat" href="https://matthewchang.github.io/">Matthew Chang</a><span class="m-text m-sup">1</span></p>
+</div>
+<div class="m-col-l-2 m-col-s-3 m-col-t-6">
+<div class="m-image m-badge">
+<a href="https://angelxuanchang.github.io/"><img src="/static/heads/angel.png" style="height: 100px" /></a>
+</div>
+<p class="m-text-center m-noindent"><a class="m-flat" href="https://angelxuanchang.github.io/">Angel Xuan Chang</a><span class="m-text m-sup">3</span></p>
+</div>
+<div class="m-clearfix-l m-show-l">
+</div>
+<div class="m-col-l-2 m-col-s-3 m-col-t-6">
+<div class="m-image m-badge">
+<a href="https://devendrachaplot.github.io/"><img src="/static/heads/dchaplot.png" style="height: 100px" /></a>
+</div>
+<p class="m-text-center m-noindent"><a class="m-flat" href="https://devendrachaplot.github.io/">Devendra Chaplot</a><span class="m-text m-sup">1</span></p>
+</div>
+<div class="m-col-l-2 m-col-s-3 m-col-t-6">
+<div class="m-image m-badge">
+<a href="https://github.com/0mdc"><img src="/static/heads/mikael.png" style="height: 100px" /></a>
+</div>
+<p class="m-text-center m-noindent"><a class="m-flat" href="https://github.com/0mdc">Mikaël Dallaire Côté</a><span class="m-text m-sup">1</span></p>
+</div>
+<div class="m-clearfix-s">
+</div>
+<div class="m-col-l-2 m-col-s-3 m-col-t-6">
+<div class="m-image m-badge">
+<a href="https://rutadesai.github.io/"><img src="/static/heads/ruta.jpg" style="height: 100px" /></a>
+</div>
+<p class="m-text-center m-noindent"><a class="m-flat" href="https://rutadesai.github.io/">Ruta Desai</a><span class="m-text m-sup">1</span></p>
+</div>
+<div class="m-col-l-2 m-col-s-3 m-col-t-6">
+<div class="m-image m-badge">
+<a href="https://www.linkedin.com/in/galuba/"><img src="/static/heads/wojciech.png" style="height: 100px" /></a>
+</div>
+<p class="m-text-center m-noindent"><a class="m-flat" href="https://www.linkedin.com/in/galuba/">Wojciech Galuba</a><span class="m-text m-sup">1</span></p>
+</div>
+<div class="m-col-l-2 m-col-s-3 m-col-t-6">
+<div class="m-image m-badge">
+<a href="https://github.com/sanchitgarg"><img src="/static/heads/sanchit.png" style="height: 100px" /></a>
+</div>
+<p class="m-text-center m-noindent"><a class="m-flat" href="https://github.com/sanchitgarg">Sanchit Garg</a><span class="m-text m-sup">1</span></p>
+</div>
+<div class="m-col-l-2 m-col-s-3 m-col-t-6">
+<div class="m-image m-badge">
+<a href="https://www.linkedin.com/in/samerhenry"><img src="/static/heads/sam_henry.jpg" style="height: 100px" /></a>
+</div>
+<p class="m-text-center m-noindent"><a class="m-flat" href="https://www.linkedin.com/in/samerhenry">Samir Henry</a><span class="m-text m-sup">1</span></p>
+</div>
+<div class="m-clearfix-l m-show-l">
+</div>
+<div class="m-clearfix-s">
+</div>
+<div class="m-col-l-2 m-col-s-3 m-col-t-6">
+<div class="m-image m-badge">
+<a href="https://clay.earth/profile/michal-hlavac"><img src="/static/heads/michal.jpg" style="height: 100px" /></a>
+</div>
+<p class="m-text-center m-noindent"><a class="m-flat" href="https://clay.earth/profile/michal-hlavac">Michal Hlavac</a><span class="m-text m-sup">1</span></p>
+</div>
+<div class="m-col-l-2 m-col-s-3 m-col-t-6">
+<div class="m-image m-badge">
+<a href="https://github.com/bhavanajain"><img src="/static/heads/bhavana.png" style="height: 100px" /></a>
+</div>
+<p class="m-text-center m-noindent"><a class="m-flat" href="https://github.com/bhavanajain">Bhavana Jain</a><span class="m-text m-sup">1</span></p>
+</div>
+<div class="m-col-l-2 m-col-s-3 m-col-t-6">
+<div class="m-image m-badge">
+<a href="https://abhiskk.github.io"><img src="/static/heads/abhishek.png" style="height: 100px" /></a>
+</div>
+<p class="m-text-center m-noindent"><a class="m-flat" href="https://abhiskk.github.io">Abhishek Kadian</a><span class="m-text m-sup">1</span></p>
+</div>
+<div class="m-col-l-2 m-col-s-3 m-col-t-6">
+<div class="m-image m-badge">
+<a href="https://github.com/kalakris"><img src="/static/heads/mrinal.jpg" style="height: 100px" /></a>
+</div>
+<p class="m-text-center m-noindent"><a class="m-flat" href="https://github.com/kalakris">Mrinal Kalakrishnan</a><span class="m-text m-sup">1</span></p>
+</div>
+<div class="m-clearfix-s">
+</div>
+<div class="m-col-l-2 m-col-s-3 m-col-t-6">
+<div class="m-image m-badge">
+<a href="https://goodspiderr.artstation.com/"><img src="/static/heads/vlad_k.jpg" style="height: 100px" /></a>
+</div>
+<p class="m-text-center m-noindent"><a class="m-flat" href="https://goodspiderr.artstation.com/">Vladimir Karashchuk</a><span class="m-text m-sup">1</span></p>
+</div>
+<div class="m-col-l-2 m-col-s-3 m-col-t-6">
+<div class="m-image m-badge">
+<a href="https://faculty.cc.gatech.edu/~zk15/"><img src="/static/heads/zsolt.jpg" style="height: 100px" /></a>
+</div>
+<p class="m-text-center m-noindent"><a class="m-flat" href="https://faculty.cc.gatech.edu/~zk15/">Zsolt Kira</a> <span class="m-text m-sup">2</span></p>
+</div>
+<div class="m-clearfix-l m-show-l">
+</div>
+<div class="m-col-l-2 m-col-s-3 m-col-t-6">
+<div class="m-image m-badge">
+<a href="http://vladlen.info"><img src="/static/heads/vladlen.png" style="height: 100px" /></a>
+</div>
+<p class="m-text-center m-noindent"><a class="m-flat" href="http://vladlen.info">Vladlen Koltun</a></p>
+</div>
+<div class="m-col-l-2 m-col-s-3 m-col-t-6">
+<div class="m-image m-badge">
+<a href="https://jacobkrantz.github.io/"><img src="/static/heads/jacob.jpg" style="height: 100px" /></a>
+</div>
+<p class="m-text-center m-noindent"><a class="m-flat" href="https://jacobkrantz.github.io/">Jacob Krantz</a><span class="m-text m-sup">1</span></p>
+</div>
+<div class="m-clearfix-s">
+</div>
+<div class="m-col-l-2 m-col-s-3 m-col-t-6">
+<div class="m-image m-badge">
+<a href="https://www.linkedin.com/in/jia-liu-a1221a2/"><img src="/static/heads/jia.png" style="height: 100px" /></a>
+</div>
+<p class="m-text-center m-noindent"><a class="m-flat" href="https://www.linkedin.com/in/jia-liu-a1221a2/">Jia Liu</a><span class="m-text m-sup">1</span></p>
+</div>
+<div class="m-col-l-2 m-col-s-3 m-col-t-6">
+<div class="m-image m-badge">
+<a href="https://maksymets.com/"><img src="/static/heads/oleksandr.png" style="height: 100px" /></a>
+</div>
+<p class="m-text-center m-noindent"><a class="m-flat" href="https://maksymets.com/">Oleksandr Maksymets</a><span class="m-text m-sup">1</span></p>
+</div>
+<div class="m-col-l-2 m-col-s-3 m-col-t-6">
+<div class="m-image m-badge">
+<a href="https://www.artstation.com/noahmaestre"><img src="/static/heads/noah.jpg" style="height: 100px" /></a>
+</div>
+<p class="m-text-center m-noindent"><a class="m-flat" href="https://www.artstation.com/noahmaestre">Noah Maestre</a><span class="m-text m-sup">1</span></p>
+</div>
+<div class="m-col-l-2 m-col-s-3 m-col-t-6">
+<div class="m-image m-badge">
+<a href="https://people.eecs.berkeley.edu/~malik"><img src="/static/heads/jitendra.png" style="height: 100px" /></a>
+</div>
+<p class="m-text-center m-noindent"><a class="m-flat" href="https://people.eecs.berkeley.edu/~malik">Jitendra Malik</a><span class="m-text m-sup">1,4</span></p>
+</div>
+<div class="m-clearfix-l m-show-l">
+</div>
+<div class="m-clearfix-s">
+</div>
+<div class="m-col-l-2 m-col-s-3 m-col-t-6">
+<div class="m-image m-badge">
+<a href="https://roozbehm.info/"><img src="/static/heads/roozbehM.jpg" style="height: 100px" /></a>
+</div>
+<p class="m-text-center m-noindent"><a class="m-flat" href="https://roozbehm.info/">Roozbeh Mottaghi</a><span class="m-text m-sup">1,5</span></p>
+</div>
+<div class="m-col-l-2 m-col-s-3 m-col-t-6">
+<div class="m-image m-badge">
+<a href="https://github.com/zephirefaith"><img src="/static/heads/priyam.jpg" style="height: 100px" /></a>
+</div>
+<p class="m-text-center m-noindent"><a class="m-flat" href="https://github.com/zephirefaith">Priyam Parashar</a><span class="m-text m-sup">1</span></p>
+</div>
+<div class="m-col-l-2 m-col-s-3 m-col-t-6">
+<div class="m-image m-badge">
+<a href="https://deviparikh.com/"><img src="/static/heads/devi.png" style="height: 100px" /></a>
+</div>
+<p class="m-text-center m-noindent"><a class="m-flat" href="https://deviparikh.com/">Devi Parikh</a><span class="m-text m-sup">1,2</span></p>
+</div>
+<div class="m-col-l-2 m-col-s-3 m-col-t-6">
+<div class="m-image m-badge">
+<a href="https://github.com/rpartsey"><img src="/static/heads/ruslan.png" style="height: 100px" /></a>
+</div>
+<p class="m-text-center m-noindent"><a class="m-flat" href="https://github.com/rpartsey">Ruslan Partsey</a><span class="m-text m-sup">1</span></p>
+</div>
+<div class="m-clearfix-s">
+</div>
+<div class="m-col-l-2 m-col-s-3 m-col-t-6">
+<div class="m-image m-badge">
+<a href="https://sidpatki.github.io/"><img src="/static/heads/siddharth.png" style="height: 100px" /></a>
+</div>
+<p class="m-text-center m-noindent"><a class="m-flat" href="https://sidpatki.github.io/">Siddharth Patki</a><span class="m-text m-sup">1</span></p>
+</div>
+<div class="m-col-l-2 m-col-s-3 m-col-t-6">
+<div class="m-image m-badge">
+<a href="https://github.com/isprasad1507"><img src="/static/heads/ishita.png" style="height: 100px" /></a>
+</div>
+<p class="m-text-center m-noindent"><a class="m-flat" href="https://github.com/isprasad1507">Ishita Prasad</a><span class="m-text m-sup">1</span></p>
+</div>
+<div class="m-clearfix-l m-show-l">
+</div>
+<div class="m-col-l-2 m-col-s-3 m-col-t-6">
+<div class="m-image m-badge">
+<a href="https://www.xavierpuigf.com/"><img src="/static/heads/xavi.png" style="height: 100px" /></a>
+</div>
+<p class="m-text-center m-noindent"><a class="m-flat" href="https://www.xavierpuigf.com/">Xavi Puig</a><span class="m-text m-sup">1</span></p>
+</div>
+<div class="m-col-l-2 m-col-s-3 m-col-t-6">
+<div class="m-image m-badge">
+<a href="https://ai.meta.com/people/423502423531745/akshara-rai/"><img src="/static/heads/akshararai.jpg" style="height: 100px" /></a>
+</div>
+<p class="m-text-center m-noindent"><a class="m-flat" href="https://ai.meta.com/people/423502423531745/akshara-rai/">Akshara Rai</a><span class="m-text m-sup">1</span></p>
+</div>
+<div class="m-clearfix-s">
+</div>
+<div class="m-col-l-2 m-col-s-3 m-col-t-6">
+<div class="m-image m-badge">
+<a href="https://www.linkedin.com/in/johnrreynav"><img src="/static/heads/john_reyna.jpg" style="height: 100px" /></a>
+</div>
+<p class="m-text-center m-noindent"><a class="m-flat" href="https://www.linkedin.com/in/johnrreyna">John Reyna</a><span class="m-text m-sup">1</span></p>
+</div>
+<div class="m-col-l-2 m-col-s-3 m-col-t-6">
+<div class="m-image m-badge">
+<a href="https://github.com/tusharsangam"><img src="/static/heads/tushar.jpg" style="height: 100px" /></a>
+</div>
+<p class="m-text-center m-noindent"><a class="m-flat" href="https://github.com/tusharsangam">Tushar Sangam</a><span class="m-text m-sup">1</span></p>
+</div>
+<div class="m-col-l-2 m-col-s-3 m-col-t-6">
+<div class="m-image m-badge">
+<a href="http://msavva.github.io"><img src="/static/heads/manolis.png" style="height: 100px" /></a>
+</div>
+<p class="m-text-center m-noindent"><a class="m-flat" href="http://msavva.github.io">Manolis Savva</a><span class="m-text m-sup">3</span></p>
+</div>
+<div class="m-col-l-2 m-col-s-3 m-col-t-6">
+<div class="m-image m-badge">
+<a href="https://github.com/randymeta"><img src="/static/heads/randy.jpg" style="height: 100px" /></a>
+</div>
+<p class="m-text-center m-noindent"><a class="m-flat" href="https://github.com/randymeta">Randy Schultheis</a><span class="m-text m-sup">1</span></p>
+</div>
+<div class="m-clearfix-l m-show-l">
+</div>
+<div class="m-clearfix-s">
+</div>
+<div class="m-col-l-2 m-col-s-3 m-col-t-6">
+<div class="m-image m-badge">
+<a href="https://kavitshah.netlify.app/"><img src="/static/heads/kavit.jpg" style="height: 100px" /></a>
+</div>
+<p class="m-text-center m-noindent"><a class="m-flat" href="https://kavitshah.netlify.app/">Kavit Shah</a><span class="m-text m-sup">1</span></p>
+</div>
+<div class="m-col-l-2 m-col-s-3 m-col-t-6">
+<div class="m-image m-badge">
+<a href="https://apsdehal.in/"><img src="/static/heads/aman.png" style="height: 100px" /></a>
+</div>
+<p class="m-text-center m-noindent"><a class="m-flat" href="https://apsdehal.in/">Amanpreet Singh</a><span class="m-text m-sup">1</span></p>
+</div>
+<div class="m-col-l-2 m-col-s-3 m-col-t-6">
+<div class="m-image m-badge">
+<a href="http://people.csail.mit.edu/jstraub"><img src="/static/heads/julian.png" style="height: 100px" /></a>
+</div>
+<p class="m-text-center m-noindent"><a class="m-flat" href="http://people.csail.mit.edu/jstraub">Julian Straub</a><span class="m-text m-sup">1</span></p>
+</div>
+<div class="m-col-l-2 m-col-s-3 m-col-t-6">
+<div class="m-image m-badge">
+<a href="https://github.com/danieltmeta"><img src="/static/heads/daniel.jpg" style="height: 100px" /></a>
+</div>
+<p class="m-text-center m-noindent"><a class="m-flat" href="https://github.com/danieltmeta">Daniel Tran</a> <span class="m-text m-sup">1</span></p>
+</div>
+<div class="m-clearfix-s">
+</div>
+<div class="m-col-l-2 m-col-s-3 m-col-t-6">
+<div class="m-image m-badge">
+<a href="https://www.joannetruong.com/"><img src="/static/heads/joanne.jpg" style="height: 100px" /></a>
+</div>
+<p class="m-text-center m-noindent"><a class="m-flat" href="https://www.joannetruong.com/">Joanne Truong</a> <span class="m-text m-sup">1</span></p>
+</div>
+<div class="m-col-l-2 m-col-s-3 m-col-t-6">
+<div class="m-image m-badge">
+<a href="https://www.ericundersander.com"><img src="/static/heads/eundersander.png" style="height: 100px" /></a>
+</div>
+<p class="m-text-center m-noindent"><a class="m-flat" href="https://www.ericundersander.com">Eric Undersander</a><span class="m-text m-sup">1</span></p>
+</div>
+<div class="m-clearfix-l m-show-l">
+</div>
+<div class="m-col-l-2 m-col-s-3 m-col-t-6">
+<div class="m-image m-badge">
+<a href="https://github.com/jimmytyyang"><img src="/static/heads/jimmy.jpg" style="height: 100px" /></a>
+</div>
+<p class="m-text-center m-noindent"><a class="m-flat" href="https://github.com/jimmytyyang">Jimmy Yang</a><span class="m-text m-sup">1</span></p>
+</div>
+<div class="m-col-l-2 m-col-s-3 m-col-t-6">
+<div class="m-image m-badge">
+<a href="http://www.yilizhao.net"><img src="/static/heads/yili.png" style="height: 100px" /></a>
+</div>
+<p class="m-text-center m-noindent"><a class="m-flat" href="http://www.yilizhao.net">Yili Zhao</a><span class="m-text m-sup">1</span></p>
+</div>
+</div>
+</section>
+<section id="team-past-students-interns-and-residents">
+<h2><a href="#team-past-students-interns-and-residents">Team: Past Students, Interns, and Residents</a></h2>
+<div class="m-row">
+<div class="m-col-l-2 m-col-s-3 m-col-t-6">
+<div class="m-image m-badge">
+<a href="https://dexter1691.github.io/"><img src="/static/heads/harsh.jpg" style="height: 100px" /></a>
+</div>
+<p class="m-text-center m-noindent"><a class="m-flat" href="https://dexter1691.github.io/">Harsh Agrawal</a><span class="m-text m-sup">2</span></p>
+</div>
+<div class="m-col-l-2 m-col-s-3 m-col-t-6">
+<div class="m-image m-badge">
+<a href="https://tml.stanford.edu/people/joao-pedro-araujo"><img src="/static/heads/joao.jpg" style="height: 100px" /></a>
+</div>
+<p class="m-text-center m-noindent"><a class="m-flat" href="https://tml.stanford.edu/people/joao-pedro-araujo">Joao Pedro Araujo</a><span class="m-text m-sup">6</span></p>
+</div>
+<div class="m-col-l-2 m-col-s-3 m-col-t-6">
+<div class="m-image m-badge">
+<a href="https://github.com/SergioArnaud"><img src="/static/heads/sergio.png" style="height: 100px" /></a>
+</div>
+<p class="m-text-center m-noindent"><a class="m-flat" href="https://github.com/SergioArnaud">Sergio Arnaud</a><span class="m-text m-sup">1</span></p>
+</div>
+<div class="m-col-l-2 m-col-s-3 m-col-t-6">
+<div class="m-image m-badge">
+<a href="https://homangab.github.io/"><img src="/static/heads/homanga.jpg" style="height: 100px" /></a>
+</div>
+<p class="m-text-center m-noindent"><a class="m-flat" href="https://homangab.github.io/">Homanga Bharadhwaj</a><span class="m-text m-sup">1,7</span></p>
+</div>
+<div class="m-clearfix-s">
+</div>
+<div class="m-col-l-2 m-col-s-3 m-col-t-6">
+<div class="m-image m-badge">
+<a href="https://gchhablani.github.io/"><img src="/static/heads/gunjan.png" style="height: 100px" /></a>
+</div>
+<p class="m-text-center m-noindent"><a class="m-flat" href="https://gchhablani.github.io/">Gunjan Chhablani</a><span class="m-text m-sup">1</span></p>
+</div>
+<div class="m-col-l-2 m-col-s-3 m-col-t-6">
+<div class="m-image m-badge">
+<a href="https://theophilegervet.github.io/"><img src="/static/heads/theo.jpg" style="height: 100px" /></a>
+</div>
+<p class="m-text-center m-noindent"><a class="m-flat" href="https://theophilegervet.github.io/">Theo Gervet</a> <span class="m-text m-sup">7</span></p>
+</div>
+<div class="m-clearfix-l m-show-l">
+</div>
+<div class="m-col-l-2 m-col-s-3 m-col-t-6">
+<div class="m-image m-badge">
+<a href="https://skylion007.github.io"><img src="/static/heads/aaron.png" style="height: 100px" /></a>
+</div>
+<p class="m-text-center m-noindent"><a class="m-flat" href="https://skylion007.github.io/">Aaron Gokaslan</a> <span class="m-text m-sup">1</span></p>
+</div>
+<div class="m-col-l-2 m-col-s-3 m-col-t-6">
+<div class="m-image m-badge">
+<a href="http://herobotics.me/"><img src="/static/heads/jerry.png" style="height: 100px" /></a>
+</div>
+<p class="m-text-center m-noindent"><a class="m-flat" href="http://herobotics.me/">Jerry (Zhi-Yang) He</a><span class="m-text m-sup">6</span></p>
+</div>
+<div class="m-clearfix-s">
+</div>
+<div class="m-col-l-2 m-col-s-3 m-col-t-6">
+<div class="m-image m-badge">
+<a href="https://mukulkhanna.github.io/"><img src="/static/heads/mukul.jpg" style="height: 100px" /></a>
+</div>
+<p class="m-text-center m-noindent"><a class="m-flat" href="https://mukulkhanna.github.io/">Mukul Khanna</a><span class="m-text m-sup">2</span></p>
+</div>
+<div class="m-col-l-2 m-col-s-3 m-col-t-6">
+<div class="m-image m-badge">
+<a href="https://lijiaman.github.io/"><img src="/static/heads/jiaman.jpg" style="height: 100px" /></a>
+</div>
+<p class="m-text-center m-noindent"><a class="m-flat" href="https://lijiaman.github.io/">Jiaman Li</a><span class="m-text m-sup">6</span></p>
+</div>
+<div class="m-col-l-2 m-col-s-3 m-col-t-6">
+<div class="m-image m-badge">
+<a href="https://easypapersniper.github.io/"><img src="/static/heads/tianyu.png" style="height: 100px" /></a>
+</div>
+<p class="m-text-center m-noindent"><a class="m-flat" href="https://easypapersniper.github.io/">Tianyu Li</a><span class="m-text m-sup">2</span></p>
+</div>
+<div class="m-col-l-2 m-col-s-3 m-col-t-6">
+<div class="m-image m-badge">
+<a href="https://soyeonm.github.io/"><img src="/static/heads/tiffany.png" style="height: 100px" /></a>
+</div>
+<p class="m-text-center m-noindent"><a class="m-flat" href="https://soyeonm.github.io/">So Yeon Tiffany Min</a><span class="m-text m-sup">7</span></p>
+</div>
+<div class="m-clearfix-l m-show-l">
+</div>
+<div class="m-clearfix-s">
+</div>
+<div class="m-col-l-2 m-col-s-3 m-col-t-6">
+<div class="m-image m-badge">
+<a href="https://maithili.github.io/"><img src="/static/heads/maithili.png" style="height: 100px" /></a>
+</div>
+<p class="m-text-center m-noindent"><a class="m-flat" href="https://maithili.github.io/">Maithili Patel</a><span class="m-text m-sup">2</span></p>
+</div>
+<div class="m-col-l-2 m-col-s-3 m-col-t-6">
+<div class="m-image m-badge">
+<a href="https://ram81.github.io/"><img src="/static/heads/ram.jpg" style="height: 100px" /></a>
+</div>
+<p class="m-text-center m-noindent"><a class="m-flat" href="https://ram81.github.io/">Ram Ramrakhya</a> <span class="m-text m-sup">2</span></p>
+</div>
+<div class="m-col-l-2 m-col-s-3 m-col-t-6">
+<div class="m-image m-badge">
+<a href="https://arunram.me/"><img src="/static/heads/arun.jpg" style="height: 100px" /></a>
+</div>
+<p class="m-text-center m-noindent"><a class="m-flat" href="https://arunram.me/">Arun Ramachandran</a> <span class="m-text m-sup">2</span></p>
+</div>
+<div class="m-col-l-2 m-col-s-3 m-col-t-6">
+<div class="m-image m-badge">
+<a href="https://srama2512.github.io/"><img src="/static/heads/santhosh.jpg" style="height: 100px" /></a>
+</div>
+<p class="m-text-center m-noindent"><a class="m-flat" href="https://srama2512.github.io/">Santhosh Ramakrishnan</a> <span class="m-text m-sup">1</span></p>
+</div>
+<div class="m-clearfix-s">
+</div>
+<div class="m-col-l-2 m-col-s-3 m-col-t-6">
+<div class="m-image m-badge">
+<a href="https://www.andrewszot.com/"><img src="/static/heads/andrew.jpg" style="height: 100px" /></a>
+</div>
+<p class="m-text-center m-noindent"><a class="m-flat" href="https://www.andrewszot.com/">Andrew Szot</a><span class="m-text m-sup">2</span></p>
+</div>
+<div class="m-col-l-2 m-col-s-3 m-col-t-6">
+<div class="m-image m-badge">
+<a href="https://wijmans.xyz"><img src="/static/heads/erik.png" style="height: 100px" /></a>
+</div>
+<p class="m-text-center m-noindent"><a class="m-flat" href="https://wijmans.xyz">Erik Wijmans</a><span class="m-text m-sup">1,2</span></p>
+</div>
+<div class="m-clearfix-l m-show-l">
+</div>
+<div class="m-col-l-2 m-col-s-3 m-col-t-6">
+<div class="m-image m-badge">
+<a href="https://karmeshyadav.com"><img src="/static/heads/karmeshyadav.png" style="height: 100px" /></a>
+</div>
+<p class="m-text-center m-noindent"><a class="m-flat" href="https://karmeshyadav.com">Karmesh Yadav</a><span class="m-text m-sup">1, 2</span></p>
+</div>
+<div class="m-col-l-2 m-col-s-3 m-col-t-6">
+<div class="m-image m-badge">
+<a href="https://yvsriram.github.io/"><img src="/static/heads/sriram.png" style="height: 100px" /></a>
+</div>
+<p class="m-text-center m-noindent"><a class="m-flat" href="https://yvsriram.github.io/">Sriram Yenamandra</a><span class="m-text m-sup">2</span></p>
+</div>
+<div class="m-clearfix-s">
+</div>
+<div class="m-col-l-2 m-col-s-3 m-col-t-6">
+<div class="m-image m-badge">
+<a href="http://naoki.io/index.html"><img src="/static/heads/naoki.jpg" style="height: 100px" /></a>
+</div>
+<p class="m-text-center m-noindent"><a class="m-flat" href="http://naoki.io/index.html">Naoki Yokoyama</a><span class="m-text m-sup">2</span></p>
+</div>
+</div>
+<ul>
+<li>1 - AI at Meta</li>
+<li>2 - Georgia Institute of Technology</li>
+<li>3 - Simon Fraser University</li>
+<li>4 - Berkeley</li>
+<li>5 - University of Washington</li>
+<li>6 - Stanford University</li>
+<li>7 - Carnegie Mellon University</li>
+</ul>
+</section>
+<section id="citing-habitat">
+<h2><a href="#citing-habitat">Citing Habitat</a></h2>
+<p>If you use the Habitat platform in your research, please cite the <a href="https://arxiv.org/abs/1904.01201">Habitat</a>, <a href="https://arxiv.org/abs/2106.14405">Habitat 2.0</a>, and <a href="https://arxiv.org/abs/2310.13724">Habitat 3.0</a> papers:</p>
+<pre class="m-console-wrap m-code"><span class="nc">@misc</span><span class="p">{</span><span class="nl">puig2023habitat3</span><span class="p">,</span>
+<span class="w">  </span><span class="na">title</span><span class="w">  </span><span class="p">=</span><span class="w"> </span><span class="s">{Habitat 3.0: A Co-Habitat for Humans, Avatars and Robots}</span><span class="p">,</span>
+<span class="w">  </span><span class="na">author</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="s">{Xavi Puig and Eric Undersander and Andrew Szot and Mikael Dallaire Cote and Ruslan Partsey and Jimmy Yang and Ruta Desai and Alexander William Clegg and Michal Hlavac and Tiffany Min and Theo Gervet and Vladimír Vondruš and Vincent-Pierre Berges and John Turner and Oleksandr Maksymets and Zsolt Kira and Mrinal Kalakrishnan and Jitendra Malik and Devendra Singh Chaplot and Unnat Jain and Dhruv Batra and Akshara Rai and Roozbeh Mottaghi}</span><span class="p">,</span>
+<span class="w">  </span><span class="na">year</span><span class="p">=</span><span class="s">{2023}</span><span class="p">,</span>
+<span class="w">  </span><span class="na">archivePrefix</span><span class="p">=</span><span class="s">{arXiv}</span><span class="p">,</span>
+<span class="p">}</span>
+
+<span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">szot2021habitat</span><span class="p">,</span>
+<span class="w">  </span><span class="na">title</span><span class="w">     </span><span class="p">=</span><span class="w">     </span><span class="s">{Habitat 2.0: Training Home Assistants to Rearrange their Habitat}</span><span class="p">,</span>
+<span class="w">  </span><span class="na">author</span><span class="w">    </span><span class="p">=</span><span class="w">     </span><span class="s">{Andrew Szot and Alex Clegg and Eric Undersander and Erik Wijmans and Yili Zhao and John Turner and Noah Maestre and Mustafa Mukadam and Devendra Chaplot and Oleksandr Maksymets and Aaron Gokaslan and Vladimir Vondrus and Sameer Dharur and Franziska Meier and Wojciech Galuba and Angel Chang and Zsolt Kira and Vladlen Koltun and Jitendra Malik and Manolis Savva and Dhruv Batra}</span><span class="p">,</span>
+<span class="w">  </span><span class="na">booktitle</span><span class="w"> </span><span class="p">=</span><span class="w">     </span><span class="s">{Advances in Neural Information Processing Systems (NeurIPS)}</span><span class="p">,</span>
+<span class="w">  </span><span class="na">year</span><span class="w">      </span><span class="p">=</span><span class="w">     </span><span class="s">{2021}</span>
+<span class="p">}</span>
+
+<span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">habitat19iccv</span><span class="p">,</span>
+<span class="w">  </span><span class="na">title</span><span class="w">     </span><span class="p">=</span><span class="w">     </span><span class="s">{Habitat: {A} {P}latform for {E}mbodied {AI} {R}esearch}</span><span class="p">,</span>
+<span class="w">  </span><span class="na">author</span><span class="w">    </span><span class="p">=</span><span class="w">     </span><span class="s">{{Manolis Savva*} and {Abhishek Kadian*} and {Oleksandr Maksymets*} and Yili Zhao and Erik Wijmans and Bhavana Jain and Julian Straub and Jia Liu and Vladlen Koltun and Jitendra Malik and Devi Parikh and Dhruv Batra}</span><span class="p">,</span>
+<span class="w">  </span><span class="na">booktitle</span><span class="w"> </span><span class="p">=</span><span class="w">     </span><span class="s">{Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)}</span><span class="p">,</span>
+<span class="w">  </span><span class="na">year</span><span class="w">      </span><span class="p">=</span><span class="w">     </span><span class="s">{2019}</span>
+<span class="p">}</span></pre>
+</section>
+<section id="contact">
+<h2><a href="#contact">Contact</a></h2>
+<p>Please read  <a href="https://aihabitat.org/docs/">the documentation here</a>.</p>
+<p>To connect with Habitat developers and the community, please reach out on our <a href="https://github.com/facebookresearch/habitat-lab/discussions">Discussions forum</a> with questions, suggestions, and feedback or to share your own AI Habitat applications and extensions.</p>
+</section>
+<section id="acknowledgments">
+<h2><a href="#acknowledgments">Acknowledgments</a></h2>
+<p>The Habitat project would not have been possible without the support and
+contributions of many individuals. We are grateful to
+Xinlei Chen, Georgia Gkioxari, Daniel Gordon, Leonidas
+Guibas, Saurabh Gupta, Jerry (Zhi-Yang) He, Rishabh Jain, Or Litany, Joel
+Marcey, Dmytro Mishkin, Marcus Rohrbach, Amanpreet Singh, Yuandong Tian, Yuxin
+Wu, Fei Xia, Deshraj Yadav, Amir Zamir, and Jiazhi Zhang for their help.</p>
+</section>
+<!-- /content -->
+      </div>
+    </div>
+  </div>
+</article>
+</main>
+<footer><nav>
+  <div class="m-container">
+    <div class="m-row">
+      <div class="m-col-s-3 m-col-t-6">
+        <h3><a href="/">AI Habitat</a></h3>
+        <ul>
+          <li><a href="/challenge/">Challenge</a></li>
+          <li><a href="/workshop/">Workshop</a></li>
+          <li><a href="/tutorial/">Tutorial</a></li>
+        </ul>
+      </div>
+      <div class="m-col-s-3 m-col-t-6">
+        <h3><a href="/docs/resource_index/">Resources</a></h3>
+        <ul>
+          <li><a href="/docs/habitat-sim/">Habitat Sim</a></li>
+          <li><a href="/docs/habitat-lab/">Habitat Lab</a></li>
+          <li><a href="/docs/resource_index/">Resource Index</a></li>
+        </ul>
+      </div>
+      <div class="m-clearfix-t"></div>
+      <div class="m-col-s-3 m-col-t-6">
+        <h3>GitHub</h3>
+        <ul>
+          <li><a href="https://github.com/facebookresearch/habitat-sim">Habitat Sim</a></li>
+          <li><a href="https://github.com/facebookresearch/habitat-lab">Habitat Lab</a></li>
+          <li><a href="https://github.com/facebookresearch/spot-sim2real">Spot Sim2Real</a></li>
+        </ul>
+      </div>
+      <div class="m-col-s-3 m-col-t-6">
+        <h3>Contact</h3>
+        <ul>
+          <li><a href="/cdn-cgi/l/email-protection#4d252c2f24392c390d2b2f632e2220">E-mail</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="m-row">
+      <div class="m-col-l-10 m-push-l-1">
+        <p>
+        AI Habitat. Copyright © 2026 Meta Platforms, Inc.<br />
+        <a href="https://opensource.fb.com/legal/terms">Terms of Use</a> <a href="https://opensource.fb.com/legal/privacy">Privacy Policy</a> <a href="/cookie-policy">Cookie Policy</a><br />
+        Site powered by <a href="https://getpelican.com">Pelican</a> and
+        <a href="https://mcss.mosra.cz">m.css</a>.<br />
+        </p>
+      </div>
+    </div>
+  </div>
+</nav></footer>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

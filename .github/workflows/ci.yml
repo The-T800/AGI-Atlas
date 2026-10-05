@@ -23,6 +23,11 @@ jobs:
           python-version: ${{ matrix.python-version }}
       - name: Install
         run: uv sync --locked --extra dev
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Subject evidence UI logic
+        run: node --test tests/subject_ui.test.cjs
       - name: Lint and test
         run: |
           uv run python scripts/check_public_metadata.py

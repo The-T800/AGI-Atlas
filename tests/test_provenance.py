@@ -54,3 +54,36 @@ def test_epoch_tables_reproducible_offline(monkeypatch):
         committed = yaml.safe_load((REPO / "data/research" / name).read_text(encoding="utf-8"))
         assert committed == build()
         assert committed["models"]
+
+
+def test_source_url_changes_invalidate_cached_snapshot(tmp_path, monkeypatch):
+    monkeypatch.syspath_prepend(str(REPO / "scripts"))
+    collector = importlib.import_module("collect_sources")
+    monkeypatch.setattr(collector, "ROOT", tmp_path)
+    content = b"original task description"
+    (tmp_path / "task.txt").write_bytes(content)
+    record = {
+        "url": "https://example.org/old",
+        "sha256": hashlib.sha256(content).hexdigest(),
+    }
+    assert collector.snapshot_current("task", record["url"], record)
+    assert not collector.snapshot_current("task", "https://example.org/new", record)
+    (tmp_path / "task.txt").write_bytes(b"tampered")
+    assert not collector.snapshot_current("task", record["url"], record)
+
+
+def test_reviewed_topic_links_reference_downloaded_task_evidence():
+    import csv
+
+    root = REPO / "data"
+    manifest = json.loads((root / "research/sources/manifest.json").read_text(encoding="utf-8"))
+    task_sources = {entry["url"] for entry in manifest if entry["id"].startswith("task-")}
+    with (root / "mappings/benchmark_openalex.tsv").open(encoding="utf-8") as stream:
+        links = list(csv.DictReader(stream, delimiter="\t"))
+    reviewed = [
+        m
+        for m in links
+        if m["target_level"] == "topic" and m["target_id"] not in {"T10743", "T12123"}
+    ]
+    assert reviewed
+    assert all(m["evidence_url"] in task_sources for m in reviewed)

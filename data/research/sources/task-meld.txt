@@ -1,0 +1,91 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>MELD</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <meta name="viewport" content="width=device-width">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>MELD: Multimodal EmotionLines Dataset </h1>
+        <p>A dataset for Emotion Recognition in Multiparty Conversations</p>
+        <p class="view"><a href="https://github.com/declare-lab/MELD/">View the Project on GitHub</a></p>
+        <p class="view"><a href="https://arxiv.org/pdf/1810.02508.pdf">Download the paper</a></p>
+        <ul>
+          <li><a href="https://web.eecs.umich.edu/~mihalcea/downloads/MELD.Raw.tar.gz">Download <strong>Data</strong></a></li>
+          <li><a href="https://huggingface.co/datasets/declare-lab/MELD/resolve/main/MELD.Raw.tar.gz">Download <strong>Data (Link 2)</strong></a></li> 
+          <li><a href="https://web.eecs.umich.edu/~mihalcea/downloads/MELD.Features.Models.tar.gz">Download <strong>Features</strong></a></li>
+          <li><a href="https://huggingface.co/datasets/declare-lab/MELD/resolve/main/MELD.Features.Models.tar.gz">Download <strong>Features (Link 2)</strong></a></li>
+          <li><a href="https://github.com/declare-lab/MELD/">Fork On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <p> Multimodal EmotionLines Dataset (MELD) has been created by enhancing and extending EmotionLines dataset. MELD contains the same dialogue instances available in EmotionLines, but it also encompasses audio and visual modality along with text. MELD has more than 1400 dialogues and 13000 utterances from Friends TV series. Multiple speakers participated in the dialogues. Each utterance in a dialogue has been labeled by any of these seven emotions -- Anger, Disgust, Sadness, Joy, Neutral, Surprise and Fear. MELD also has sentiment (positive, negative and neutral) annotation for each utterance.<p>
+        <br>
+        <h2> How to Download the data?</h2>
+        To download the dataset enter either of the following commands:
+        <br>
+        <pre> wget https://web.eecs.umich.edu/~mihalcea/downloads/MELD.Raw.tar.gz </pre>
+        <pre>wget https://huggingface.co/datasets/declare-lab/MELD/resolve/main/MELD.Raw.tar.gz</pre>
+        <h2>Example dialogue</h2>
+       <!-- <img src="emotion_shift.jpeg" alt="Example">-->
+       <img id="myImg" src="emotion_shift.jpeg" alt="Example dialogue" style="width:100%;max-width:500px">
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01">
+  <div id="caption"></div>
+</div>
+        <br>
+        <br>
+        <h2>Dataset statistics</h2>
+      <!--  <img src="sc1.png" alt="Stat1">
+        <img src="sc2.png" alt="Stat2">
+        <br>
+        <img src="sc3.png" alt="Stat3">-->
+        <img src="sc4.png" alt="Stat4">
+        <h2>Citation</h2>
+        <p>Please cite the following papers if you use this dataset in your work.</p>
+        <br>
+        <pre>S. Poria, D. Hazarika, N. Majumder, G. Naik, R. Mihalcea,<br>E. Cambria. MELD: A Multimodal Multi-Party Dataset<br>for Emotion Recognition in Conversation. (2018)
+        </pre>
+        <pre>Chen, S.Y., Hsu, C.C., Kuo, C.C. and Ku, L.W.<br>EmotionLines: An Emotion Corpus of Multi-Party<br>Conversations. arXiv preprint arXiv:1802.08379 (2018).
+        </pre>
+      </section>
+      <footer>
+      </footer>
+    </div>
+    <script>
+// Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById('myImg');
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+    modal.style.display = "none";
+}
+</script>
+    <script src="javascripts/scale.fix.js"></script>
+  </body>
+</html>

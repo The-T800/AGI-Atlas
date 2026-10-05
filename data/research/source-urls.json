@@ -28,5 +28,19 @@
   "epoch-method-math5": "https://epoch.ai/benchmarks/math-level-5",
   "epoch-method-swe": "https://epoch.ai/benchmarks/swe-bench-verified",
   "epoch-method-simpleqa": "https://epoch.ai/benchmarks/simpleqa-verified",
-  "epoch-eci-page": "https://epoch.ai/eci"
+  "epoch-eci-page": "https://epoch.ai/eci",
+  "task-libri": "https://www.openslr.org/12",
+  "task-aishell": "https://www.openslr.org/33/",
+  "task-meld": "https://affective-meld.github.io/",
+  "task-habitat": "https://aihabitat.org/",
+  "task-flores": "https://raw.githubusercontent.com/facebookresearch/flores/main/flores200/README.md",
+  "task-spider": "https://raw.githubusercontent.com/taoyds/spider/master/README.md",
+  "task-ocrbench": "https://raw.githubusercontent.com/Yuliang-Liu/MultimodalOCR/main/README.md",
+  "task-cc-ocr": "https://raw.githubusercontent.com/AlibabaResearch/AdvancedLiterateMachinery/main/README.md",
+  "task-omnidocbench": "https://raw.githubusercontent.com/opendatalab/OmniDocBench/main/README.md",
+  "task-medxpertqa": "https://raw.githubusercontent.com/TsinghuaC3I/MedXpertQA/main/README.md",
+  "task-metaworld": "https://raw.githubusercontent.com/Farama-Foundation/Metaworld/main/README.md",
+  "task-libero": "https://raw.githubusercontent.com/Lifelong-Robot-Learning/LIBERO/master/README.md",
+  "task-calvin": "https://raw.githubusercontent.com/mees/calvin/main/README.md",
+  "task-bird": "https://bird-bench.github.io/"
 }

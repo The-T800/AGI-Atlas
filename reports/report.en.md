@@ -11,7 +11,18 @@ Taxonomy release: 2026-09-23 · taxonomy retrieved: 2026-10-05 · latest score-s
 | Denominator | Size | Measured | Score where measured | **AI reached** |
 | --- | --- | ---: | ---: | ---: |
 | Jobs: O*NET 31.0 work activities | 923 jobs · 2087 activities | 7.01% | 42.4% | **0.91%** |
-| Subjects: OpenAlex research topics | 4516 OpenAlex topics | 0.04% (Topic-level mappings 0.04%) | — | **—** |
+| Subjects: OpenAlex research topics | 4516 OpenAlex topics | 10 / 4516 topics linked; 6 with task results | — | **—** |
+
+Subject links: 70 / 187 benchmarks; 45 have results, 5 have dated results within the past year.
+
+| Level | Total | Explicit links | Including descendants | Result evidence | Recent evidence |
+| --- | ---: | ---: | ---: | ---: | ---: |
+| Domain | 4 | 0 | 4 | 4 | 2 |
+| Field | 26 | 15 | 15 | 13 | 5 |
+| Subfield | 252 | 9 | 13 | 9 | 1 |
+| Topic | 4516 | 10 | 10 | 6 | 1 |
+
+These are link and evidence counts, not subject scores. Parent links provide context; pending mapping does not mean no benchmark exists.
 
 ## By occupation group
 
@@ -50,7 +61,7 @@ Taxonomy release: 2026-09-23 · taxonomy retrieved: 2026-10-05 · latest score-s
 | Business, Management and Accounting | 146 | 13 |
 | Chemical Engineering | 13 | 0 |
 | Chemistry | 101 | 14 |
-| Computer Science | 302 | 31 |
+| Computer Science | 302 | 41 |
 | Decision Sciences | 60 | 0 |
 | Earth and Planetary Sciences | 57 | 1 |
 | Economics, Econometrics and Finance | 107 | 12 |
@@ -65,7 +76,7 @@ Taxonomy release: 2026-09-23 · taxonomy retrieved: 2026-10-05 · latest score-s
 | Nursing | 21 | 0 |
 | Pharmacology, Toxicology and Pharmaceutics | 25 | 0 |
 | Physics and Astronomy | 104 | 13 |
-| Psychology | 144 | 15 |
+| Psychology | 144 | 16 |
 | Social Sciences | 764 | 13 |
 | Veterinary | 11 | 0 |
 | Dentistry | 13 | 0 |

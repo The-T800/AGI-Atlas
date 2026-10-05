@@ -207,7 +207,9 @@ def _onet(root: Path, plan: ProgressPlan, values: dict, benchmarks: set) -> dict
     }
 
 
-def build_progress(data_dir: Path | str, saturation: dict, benchmarks: set) -> dict:
+def build_progress(
+    data_dir: Path | str, saturation: dict, benchmarks: set, groups: list[dict] | None = None
+) -> dict:
     root = Path(data_dir)
     plan = read_model(root / "research/progress.yaml", ProgressPlan)
     values = benchmark_values(saturation)
@@ -216,5 +218,5 @@ def build_progress(data_dir: Path | str, saturation: dict, benchmarks: set) -> d
         "coverage_factor": plan.coverage_factor,
         "scored_benchmarks": len(values),
         "onet": _onet(root, plan, values, benchmarks),
-        "openalex": build_subjects(root, benchmarks),
+        "openalex": build_subjects(root, benchmarks, groups),
     }

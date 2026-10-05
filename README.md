@@ -23,7 +23,7 @@ All 30 retained benchmark source URLs were refreshed on **2026-10-05**. Retrieva
 
 ## How to read the subject map
 
-Matrix cells count distinct benchmarks with a task-based subject link and capability annotation. They do not average unrelated benchmark scores. Broad exam mappings stay at field level; a combined MMLU score is never copied to every child topic. Detailed links are conservative: only 2 topics currently have explicit task mappings; the full 4,516-topic directory is available for further evidence curation. Unassigned benchmarks retain their capability labels.
+Matrix cells count distinct benchmarks with a task-based subject link and capability annotation. They do not average unrelated benchmark scores. Broad exam mappings stay at field level; a combined MMLU score is never copied to every child topic. Currently 70 of 187 benchmarks have subject links, 45 have verified results, and 5 have dated results within the last year. The coverage table separates all four levels: 15 fields, 13 subfields and 10 topics have task links including descendants. Six of those topics have benchmark results; this is task evidence, not a subject score. The full 4,516-topic directory distinguishes explicit evidence, parent context and pending mappings. Unassigned benchmarks retain their capability labels.
 
 Unmeasured topics stay **unknown**, not failed. There is **no OpenAlex mastery percentage or AGI completion percentage**. The former Nature proxy index has been retired. Official topic names and descriptions are preserved in English; domain and field labels have unofficial Chinese translations.
 

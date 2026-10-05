@@ -1,0 +1,159 @@
+**This is the repository of the [OCRBench](./OCRBench/README.md) & [OCRBench v2](./OCRBench_v2/README.md) & [MDPBench](./MDPBench/README.md).**
+
+## 🏆 Latest Leaderboard Highlights
+
+### MDPBench — Updated July 20, 2026
+
+<p align="center">
+  <a href="https://github.com/Yuliang-Liu/MultimodalOCR/tree/main/MDPBench">
+    <img
+      src="https://github.com/user-attachments/assets/f939bf03-3b0b-4c9b-abf0-202d690a9eb6"
+      width="850"
+      alt="MDPBench Leaderboard Highlight"
+    />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://huggingface.co/spaces/Delores-Lin/MDPBench-leaderboard">
+    <b>View MDPBench and the full leaderboard →</b>
+  </a>
+</p>
+
+<br>
+
+### OCRBench v2 — Updated June 2026
+
+<p align="center">
+  <a href="https://99franklin.github.io/ocrbench_v2/">
+    <img
+      src="https://github.com/user-attachments/assets/bd132bf5-7767-45f8-88bf-d029c54bda61"
+      width="850"
+      alt="OCRBench v2 Leaderboard Highlight"
+    />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://99franklin.github.io/ocrbench_v2/">
+    <b>View OCRBench v2 and the full leaderboard →</b>
+  </a>
+</p>
+
+---
+
+
+> **MDPBench: A Benchmark for Multilingual Document Parsing in Real-World Scenarios**<br>
+> Zhang Li*, Zhibo Lin*, Qiang Liu, Ziyang Zhang, Shuo Zhang, Zidun Guo, Jiajun Song, Jiarui Zhang, Xiang Bai, Yuliang Liu <br>
+[![arXiv](https://img.shields.io/badge/Arxiv-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2603.28130) 
+[![HuggingFace](https://img.shields.io/badge/Dataset-HuggingFace-ffd21e.svg?logo=huggingface)](https://huggingface.co/datasets/Delores-Lin/MDPBench)
+[![ModelScope](https://img.shields.io/badge/Dataset-ModelScope-blue.svg)](https://modelscope.cn/datasets/DeloresLin/MDPBench)
+[![Leaderboard](https://img.shields.io/badge/Leaderboard-MDPBench-2563eb.svg?logo=huggingface)](https://huggingface.co/spaces/Delores-Lin/MDPBench-leaderboard)
+  
+**MDPBench** is the first benchmark for multilingual digital and photographed document parsing. Document parsing has made remarkable strides, yet almost exclusively on clean, digital, well-formatted pages in a handful of dominant languages. No systematic benchmark exists to evaluate how models perform on digital and photographed documents across diverse scripts and low-resource languages. MDPBench comprises 3,400 document images spanning 17 languages (Simplified Chinese, Traditional Chinese, English, Arabic, German, Spanish, French, Hindi, Indonesian, Italian, Japanese, Korean, Portuguese, Russian, Thai, Vietnamese), diverse scripts, and varied photographic conditions, with high-quality annotations produced through a rigorous pipeline of expert model labeling, manual correction, and human verification. To ensure fair comparison and prevent data leakage, we maintain separate public and private evaluation splits. Our comprehensive evaluation of both open-source and closed-source models uncovers a striking finding: while closed-source models (notably Gemini3-Pro) prove relatively robust, open-source alternatives suffer dramatic performance collapse, particularly on non-Latin scripts and real-world photographed documents, with an average drop of 17.8% on photographed documents and 14.0% on non-Latin scripts. These results reveal significant performance imbalances across languages and conditions, and point to concrete directions for building more inclusive, deployment-ready parsing systems.
+More details can be found in [MDPBench README](./MDPBench/README.md).
+
+<p align="center">
+    <img src="MDPBench/demo_data/MDPBench.jpg" width="80%" height="100%">
+<p>
+
+
+
+<div align="center" xmlns="http://www.w3.org/1999/html">
+<h1 align="center">
+OCRBench v2: An Improved Benchmark for Evaluating Large Multimodal Models on Visual Text Localization and Reasoning
+</h1>
+  
+[![Leaderboard](https://img.shields.io/badge/Leaderboard-OCRBenchV2-blue.svg?logo=google-analytics)](https://99franklin.github.io/ocrbench_v2/)
+[![arXiv](https://img.shields.io/badge/Arxiv-OCRBenchV2-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2501.00321)
+[![HuggingFace](https://img.shields.io/badge/dataset-black.svg?logo=HuggingFace)](https://huggingface.co/datasets/ling99/OCRBench_v2)
+[![GitHub issues](https://img.shields.io/github/issues/Yuliang-Liu/MultimodalOCR?color=critical&label=Issues)](https://github.com/Yuliang-Liu/MultimodalOCR/issues?q=is%3Aopen+is%3Aissue)
+[![GitHub closed issues](https://img.shields.io/github/issues-closed/Yuliang-Liu/MultimodalOCR?color=success&label=Issues)](https://github.com/Yuliang-Liu/MultimodalOCR/issues?q=is%3Aissue+is%3Aclosed)
+</div>
+
+
+> **OCRBench v2: An Improved Benchmark for Evaluating Large Multimodal Models on Visual Text Localization and Reasoning**<br>
+> Ling Fu, Zhebin Kuang, Jiajun Song, Mingxin Huang, Biao Yang, Yuzhe Li, Linghao Zhu, Qidi Luo, Xinyu Wang, Hao Lu, Zhang Li, Guozhi Tang, Bin Shan, Chunhui Lin, Qi Liu, Binghong Wu, Hao Feng, Hao Liu, Can Huang, Jingqun Tang, Wei Chen, Lianwen Jin, Yuliang Liu, Xiang Bai <br>
+[![arXiv](https://img.shields.io/badge/Arxiv-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2501.00321) 
+[![dataset](https://img.shields.io/badge/HuggingFace-Download-green?logo=huggingface)](https://huggingface.co/datasets/ling99/OCRBench_v2)
+[![Google Drive](https://img.shields.io/badge/Google%20Drive-Download-green?logo=google-drive)](https://drive.google.com/file/d/1Hk1TMu--7nr5vJ7iaNwMQZ_Iw9W_KI3C/view?usp=sharing)
+
+
+**OCRBench v2** is a large-scale bilingual text-centric benchmark with currently the most comprehensive set of tasks (4× more tasks than the previous multi-scene benchmark OCRBench), the widest coverage of scenarios (31 diverse scenarios including street scene, receipt, formula, diagram, and so on), and thorough evaluation metrics, with a total of 10, 000 human-verified question-answering pairs and a high proportion of difficult samples. More details can be found in [OCRBench v2 README](./OCRBench_v2/README.md).
+
+<p align="center">
+    <img src="https://v1.ax1x.com/2024/12/30/7VhCnP.jpg" width="88%" height="80%">
+<p>
+  
+> **OCRBench: On the Hidden Mystery of OCR in Large Multimodal Models**<br>
+> Yuliang Liu, Zhang Li, Mingxin Huang, Biao Yang, Wenwen Yu, Chunyuan Li, Xucheng Yin, Cheng-lin Liu, Lianwen Jin, Xiang Bai <br>
+[![arXiv](https://img.shields.io/badge/Arxiv-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2305.07895) 
+[![HuggingFace](https://img.shields.io/badge/Dataset-HuggingFace-ffd21e.svg?logo=huggingface)](https://huggingface.co/datasets/echo840/OCRBench)
+[![Leaderboard](https://img.shields.io/badge/Leaderboard-OCRBench-blue.svg?logo=google-analytics)](https://huggingface.co/spaces/echo840/ocrbench-leaderboard)
+[![Google Drive](https://img.shields.io/badge/Google%20Drive-Download-green?logo=google-drive)](https://github.com/Yuliang-Liu/MultimodalOCR/tree/main/OCRBench#Data)
+
+**OCRBench** is a comprehensive evaluation benchmark designed to assess the OCR capabilities of Large Multimodal Models. It comprises five components: Text Recognition, SceneText-Centric VQA, Document-Oriented VQA, Key Information Extraction, and Handwritten Mathematical Expression Recognition. The benchmark includes 1000 question-answer pairs, and all the answers undergo manual verification and correction to ensure a more precise evaluation. More details can be found in [OCRBench README](./OCRBench/README.md).
+
+<p align="center">
+  <img src="./OCRBench/images/all_data.png" width="88%" height="80%">
+</p>
+
+# News 
+* ```2026.09.24``` 🚀 [MDPBench](./MDPBench/README.md) has been accepted by [NeurIPS 2026 Datasets & Benchmarks Track](https://neurips.cc/Conferences/2026).
+* ```2026.04.01``` 🚀 We realese [MDPBench](./MDPBench/README.md), a benchmark for multilingual document parsing in real-world scenarios.
+* ```2026.03.31``` 🚀 The leaderboard has been updated to the latest release [Leaderboard](https://99franklin.github.io/ocrbench_v2/) (2026.03).
+* ```2025.09.30``` 🚀 The leaderboard has been updated (2025.09).
+* ```2025.09.18``` 🚀 OCRBench v2 has been accepted by [NeurIPS 2025 Datasets & Benchmarks Track](https://neurips.cc/virtual/2025/loc/mexico-city/poster/121614).
+* ```2025.06.21``` 🚀 We realese the private dataset of OCRBench v2 and  will update [Leaderboard](https://99franklin.github.io/ocrbench_v2/) every quarter.
+* ```2024.12.31``` 🚀 [OCRBench v2](./OCRBench_v2/README.md) is released.
+* ```2024.12.11``` 🚀 OCRBench has been accepted by [Science China Information Sciences](https://link.springer.com/article/10.1007/s11432-024-4235-6).
+* ```2024.05.19 ``` 🚀 We realese [DTVQA](https://github.com/ShuoZhang2003/DT-VQA), to explore the Capabilities of Large Multimodal Models on Dense Text.
+* ```2024.05.01 ``` 🚀 Thanks to [SWHL](https://github.com/Yuliang-Liu/MultimodalOCR/issues/29) for releasing [ChineseOCRBench](https://huggingface.co/datasets/SWHL/ChineseOCRBench).
+* ```2024.03.26 ``` 🚀 OCRBench is now supported in [lmms-eval](https://github.com/EvolvingLMMs-Lab/lmms-eval).
+* ```2024.03.12 ``` 🚀 We plan to construct OCRBench v2 to include more ocr tasks and data. Any contribution will be appreciated.
+* ```2024.02.25 ``` 🚀 OCRBench is now supported in [VLMEvalKit](https://github.com/open-compass/VLMEvalKit).
+
+
+# Other Related Multilingual Datasets
+| Data | Link | Description |
+| --- | --- | --- |
+| EST-VQA Dataset (CVPR 2020, English and Chinese) | [Link](https://github.com/xinke-wang/EST-VQA) | On the General Value of Evidence, and Bilingual Scene-Text Visual Question Answering. |
+| Swahili Dataset (ICDAR 2024) | [Link](https://arxiv.org/abs/2405.11437) | The First Swahili Language Scene Text Detection and Recognition Dataset. |
+| Urdu Dataset (ICDAR 2024) | [Link](https://arxiv.org/abs/2405.12533) | Dataset and Benchmark for Urdu Natural Scenes Text Detection, Recognition and Visual Question Answering. |
+| MTVQA (9 languages) | [Link](https://arxiv.org/abs/2405.11985) | MTVQA: Benchmarking Multilingual Text-Centric Visual Question Answering. |
+| EVOBC (Oracle Bone Script Evolution Dataset) | [Link](https://arxiv.org/abs/2401.12467) | We systematically collected ancient characters from authoritative texts and websites spanning six historical stages. |
+| HUST-OBC (Oracle Bone Script Character Dataset) | [Link](https://arxiv.org/abs/2401.15365) | For deciphering oracle bone script characters. |
+
+# Citation
+If you wish to refer to the baseline results published here, please use the following BibTeX entries:
+```BibTeX
+@article{Liu_2024,
+    title={OCRBench: on the hidden mystery of OCR in large multimodal models},
+    volume={67},
+    ISSN={1869-1919},
+    url={http://dx.doi.org/10.1007/s11432-024-4235-6},
+    DOI={10.1007/s11432-024-4235-6},
+    number={12},
+    journal={Science China Information Sciences},
+    publisher={Springer Science and Business Media LLC},
+    author={Liu, Yuliang and Li, Zhang and Huang, Mingxin and Yang, Biao and Yu, Wenwen and Li, Chunyuan and Yin, Xu-Cheng and Liu, Cheng-Lin and Jin, Lianwen and Bai, Xiang},
+    year={2024},
+    month=dec }
+  
+@misc{fu2024ocrbenchv2improvedbenchmark,
+    title={OCRBench v2: An Improved Benchmark for Evaluating Large Multimodal Models on Visual Text Localization and Reasoning}, 
+    author={Ling Fu and Biao Yang and Zhebin Kuang and Jiajun Song and Yuzhe Li and Linghao Zhu and Qidi Luo and Xinyu Wang and Hao Lu and Mingxin Huang and Zhang Li and Guozhi Tang and Bin Shan and Chunhui Lin and Qi Liu and Binghong Wu and Hao Feng and Hao Liu and Can Huang and Jingqun Tang and Wei Chen and Lianwen Jin and Yuliang Liu and Xiang Bai},
+    booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems Datasets and Benchmarks Track},
+    year={2025}
+}
+
+@misc{li2026mdpbenchbenchmarkmultilingualdocument,
+      title={MDPBench: A Benchmark for Multilingual Document Parsing in Real-World Scenarios}, 
+      author={Zhang Li and Zhibo Lin and Qiang Liu and Ziyang Zhang and Shuo Zhang and Zidun Guo and Jiajun Song and Jiarui Zhang and Xiang Bai and Yuliang Liu},
+      booktitle={The Fortieth Annual Conference on Neural Information Processing Systems Datasets and Benchmarks Track},
+    year={2026}
+}
+```
+
+
+

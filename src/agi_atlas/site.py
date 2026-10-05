@@ -225,7 +225,7 @@ def build_payload(data: AtlasData, data_dir: Path | str) -> dict:
             }
             for m in data.models
         },
-        "progress": build_progress(root, status, {b.id for b in data.benchmarks}),
+        "progress": build_progress(root, status, {b.id for b in data.benchmarks}, groups),
         "horizons": _horizons(root),
         "eci": _eci(root),
     }

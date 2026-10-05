@@ -209,5 +209,103 @@
     "observed_at": "2026-10-05",
     "sha256": "753fc05a9e3a31f2d2f08ec06ab0661f17ae5032490960c847f412f3bc8fee40",
     "bytes": 219771
+  },
+  {
+    "id": "task-libri",
+    "url": "https://www.openslr.org/12",
+    "observed_at": "2026-10-05",
+    "sha256": "9b012c60f8fe6a5435f96cf034c042ffe4222e7936c88cb835671413e74a5301",
+    "bytes": 8245
+  },
+  {
+    "id": "task-aishell",
+    "url": "https://www.openslr.org/33/",
+    "observed_at": "2026-10-05",
+    "sha256": "072e77c5f5a401eca59f7ba0c6608a4c6720f6c67227ab53c37f5745d7b019d9",
+    "bytes": 4011
+  },
+  {
+    "id": "task-meld",
+    "url": "https://affective-meld.github.io/",
+    "observed_at": "2026-10-05",
+    "sha256": "bc01019faae5bdbe27db69ccb86c4e9365c0b0c42382d0ff274c674cefefbc53",
+    "bytes": 4434
+  },
+  {
+    "id": "task-habitat",
+    "url": "https://aihabitat.org/",
+    "observed_at": "2026-10-05",
+    "sha256": "f9bb24f7eda42580c3e4df2adfb6ad2ec4ba4b58c57a4dfd5d30f464fa34be58",
+    "bytes": 44449
+  },
+  {
+    "id": "task-flores",
+    "url": "https://raw.githubusercontent.com/facebookresearch/flores/main/flores200/README.md",
+    "observed_at": "2026-10-05",
+    "sha256": "74ccbbe29feba9d92cb3ee472387579ab2aa5c0299d47dcec7614b2c06cd49fc",
+    "bytes": 11883
+  },
+  {
+    "id": "task-spider",
+    "url": "https://raw.githubusercontent.com/taoyds/spider/master/README.md",
+    "observed_at": "2026-10-05",
+    "sha256": "2240abbfbb499cc7f2ba0fd14fbab0e9ee5c99a5f7739f4cd5b4041da8298ec9",
+    "bytes": 10154
+  },
+  {
+    "id": "task-ocrbench",
+    "url": "https://raw.githubusercontent.com/Yuliang-Liu/MultimodalOCR/main/README.md",
+    "observed_at": "2026-10-05",
+    "sha256": "70f2cb6724c696e97fc0b385b4c3bcf8397ca1ea093a93d81ce74f4ae52184e5",
+    "bytes": 12098
+  },
+  {
+    "id": "task-cc-ocr",
+    "url": "https://raw.githubusercontent.com/AlibabaResearch/AdvancedLiterateMachinery/main/README.md",
+    "observed_at": "2026-10-05",
+    "sha256": "d8a682f021aec07795a4e8f6e64c888195047019cf5a161cf67ceb6ece9ce8f3",
+    "bytes": 11213
+  },
+  {
+    "id": "task-omnidocbench",
+    "url": "https://raw.githubusercontent.com/opendatalab/OmniDocBench/main/README.md",
+    "observed_at": "2026-10-05",
+    "sha256": "a799f3dabee0d8e2be9f990fc325c3fefadb8d7f8d0cf56148406547d495a3ad",
+    "bytes": 96525
+  },
+  {
+    "id": "task-medxpertqa",
+    "url": "https://raw.githubusercontent.com/TsinghuaC3I/MedXpertQA/main/README.md",
+    "observed_at": "2026-10-05",
+    "sha256": "63b725f43345e9f7c69468d6efd93371d73fbfc72302097d7c8ab6e7882d3745",
+    "bytes": 9181
+  },
+  {
+    "id": "task-metaworld",
+    "url": "https://raw.githubusercontent.com/Farama-Foundation/Metaworld/main/README.md",
+    "observed_at": "2026-10-05",
+    "sha256": "9c4ed3beec763d89dc1dd6a028077339d73284ab25f0c71d06817e480238995c",
+    "bytes": 8168
+  },
+  {
+    "id": "task-libero",
+    "url": "https://raw.githubusercontent.com/Lifelong-Robot-Learning/LIBERO/master/README.md",
+    "observed_at": "2026-10-05",
+    "sha256": "e87d5b284da3d7c127e1bc8282ea80b5da02aad3e9272c13adc96c4eca0eaa41",
+    "bytes": 8128
+  },
+  {
+    "id": "task-calvin",
+    "url": "https://raw.githubusercontent.com/mees/calvin/main/README.md",
+    "observed_at": "2026-10-05",
+    "sha256": "ade3f2d224f5f299be858681ab117524b6457e371963718518718529b2fd12f2",
+    "bytes": 21081
+  },
+  {
+    "id": "task-bird",
+    "url": "https://bird-bench.github.io/",
+    "observed_at": "2026-10-05",
+    "sha256": "fd87838abc6a2440dca3acbb2bf89776e1054603885337659f185709955a69bc",
+    "bytes": 333245
   }
 ]

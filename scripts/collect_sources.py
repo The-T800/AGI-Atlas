@@ -18,6 +18,16 @@ def snapshot_name(key, url):
     return f"{key}.zip" if url.split("?")[0].lower().endswith(".zip") else f"{key}.txt"
 
 
+def snapshot_current(key, url, record):
+    """A matching file hash cannot validate a snapshot from a different URL."""
+    path = ROOT / snapshot_name(key, url)
+    return (
+        record.get("url") == url
+        and path.exists()
+        and hashlib.sha256(path.read_bytes()).hexdigest() == record.get("sha256")
+    )
+
+
 def download(item):
     key, url = item
     try:
@@ -52,12 +62,8 @@ if __name__ == "__main__":
     records = {r["id"]: r for r in existing}
     pending = []
     for key, url in SOURCES.items():
-        path = ROOT / snapshot_name(key, url)
         record = records.get(key, {})
-        valid = path.exists() and hashlib.sha256(path.read_bytes()).hexdigest() == record.get(
-            "sha256"
-        )
-        if args.refresh or not valid:
+        if args.refresh or not snapshot_current(key, url, record):
             pending.append((key, url))
     with ThreadPoolExecutor(max_workers=8) as pool:
         results = list(pool.map(download, pending))

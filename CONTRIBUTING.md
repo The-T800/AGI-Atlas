@@ -62,6 +62,7 @@ uv run agi-atlas validate
 uv run agi-atlas report
 uv run agi-atlas site
 uv run pytest
+node --test tests/subject_ui.test.cjs # Node.js 22+; UI scope and freshness regressions
 uv run ruff check . && uv run ruff format --check .
 ```
 
@@ -71,3 +72,7 @@ Commit the regenerated `reports/` and `docs/index.html` together with your chang
 On Windows, set `PYTHONUTF8=1`. / Windows 下请设置 `PYTHONUTF8=1`。
 
 Academic topics follow the pinned OpenAlex directory. Preserve all four hierarchy levels and unique IDs. Broad task mappings never propagate scores into child topics. See [the classification notes](docs/subject-classification.md).
+
+Coverage counts must distinguish exact task links, descendant rollups and parent context.
+Count verified results across all comparison groups; label historical and undated evidence
+separately from recent results. Pending curation never means that no benchmark exists.

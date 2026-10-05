@@ -37,7 +37,12 @@ def _summary(payload: dict, lang: str) -> list[str]:
         s = d["summary"]
         measured = _pct(s["mapped_share"])
         if d is g:
-            measured += f" ({t('precise', lang)} {_pct(s['precise_share'])})"
+            measured = (
+                f"{s['mapped']} / {s['leaves']} "
+                + ("主题已挂靠" if lang == "zh" else "topics linked")
+                + f"; {s['scored']} "
+                + ("有任务成绩证据" if lang == "zh" else "with task results")
+            )
         lines.append(
             f"| {_cell(d['name'][lang])} | {size} | {measured} | {_pct(s['depth'])} | "
             f"**{_pct(s['progress'])}** |"
@@ -69,6 +74,46 @@ def render_report(data: AtlasData, data_dir: Path | str, lang: str = "en") -> st
         t("summary_head", lang),
         "",
         *_summary(payload, lang),
+        "",
+    ]
+    summary = g["summary"]
+    if lang == "zh":
+        lines += [
+            f"学科关联：{summary['linked_benchmarks']} / {len(data.benchmarks)} 个 Benchmark；"
+            f"其中 {summary['scored_benchmarks']} 个有成绩、{summary['recent_benchmarks']} "
+            "个有近一年日期明确的成绩。",
+            "",
+            "| 层级 | 总数 | 本层明确挂靠 | 含下级关联 | 有成绩证据 | 近一年成绩证据 |",
+        ]
+    else:
+        lines += [
+            f"Subject links: {summary['linked_benchmarks']} / {len(data.benchmarks)} benchmarks; "
+            f"{summary['scored_benchmarks']} have results, {summary['recent_benchmarks']} "
+            "have dated results within the past year.",
+            "",
+            "| Level | Total | Explicit links | Including descendants | Result evidence | "
+            "Recent evidence |",
+        ]
+    lines.append("| --- | ---: | ---: | ---: | ---: | ---: |")
+    for level, label in zip(
+        ("domain", "field", "subfield", "topic"),
+        ("大域", "学科", "子领域", "主题")
+        if lang == "zh"
+        else ("Domain", "Field", "Subfield", "Topic"),
+        strict=True,
+    ):
+        c = g["coverage"][level]
+        lines.append(
+            f"| {label} | {c['total']} | {c['direct']} | {c['linked']} | {c['scored']} | "
+            f"{c['recent']} |"
+        )
+    lines += [
+        "",
+        "以上为关联和证据数量，不是学科分数。上级关联仅作参考；待映射不等于不存在基准。"
+        if lang == "zh"
+        else "These are link and evidence counts, not subject scores. "
+        "Parent links provide context; "
+        "pending mapping does not mean no benchmark exists.",
         "",
         t("by_major_head", lang),
         "",

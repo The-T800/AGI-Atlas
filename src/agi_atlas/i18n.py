@@ -150,9 +150,21 @@ UI: dict[str, dict[str, str]] = {
         "en": "Every square is one kind of human work",
     },
     "mosaic_sub": {
-        "zh": "越亮表示 AI 得分越高；暗格表示还没有任何基准测量它。把鼠标移到格子上查看名称。",
-        "en": "Brighter means a higher AI score; dark squares have never been measured. "
+        "zh": "越亮表示工作代理得分越高；暗格表示尚未收录基准关联。把鼠标移到格子上查看名称。",
+        "en": "Brighter means a higher work proxy score; "
+        "dark squares lack a recorded benchmark link. "
         "Hover to see what each one is.",
+    },
+    "subject_mosaic_title": {
+        "zh": "每一格，都是一个科研主题",
+        "en": "Every square is one research topic",
+    },
+    "subject_mosaic_sub": {
+        "zh": "颜色表示证据状态：主题任务成绩、已挂靠暂无成绩、仅上级参考、待建立映射。"
+        "不表示学科掌握度；待映射不等于没有相关 Benchmark。",
+        "en": "Colors show task results, links without results, "
+        "parent context, or pending mapping. "
+        "They do not measure subject mastery; pending mapping does not mean no benchmark exists.",
     },
     "mosaic_jobs": {"zh": "职业 · {n} 项工作活动", "en": "Jobs · {n} activities"},
     "mosaic_disc": {"zh": "OpenAlex · {n} 个主题", "en": "OpenAlex topics · {n}"},
@@ -160,6 +172,19 @@ UI: dict[str, dict[str, str]] = {
         "zh": "{scored} 项有得分 · {noscore} 项有基准无成绩 · {blank} 项无基准",
         "en": "{scored} scored · {noscore} benchmarked, no score · {blank} unmeasured",
     },
+    "subject_mosaic_caption": {
+        "zh": "{scored} 个主题有成绩证据 · {noscore} 个已挂靠暂无成绩 · "
+        "{context} 个仅上级有关联 · {blank} 个待建立映射",
+        "en": "{scored} topics with result evidence · {noscore} linked without results · "
+        "{context} with parent context only · {blank} awaiting mapping",
+    },
+    "subject_legend_score": {
+        "zh": "有任务成绩证据（非学科分数）",
+        "en": "Task results, not subject scores",
+    },
+    "subject_legend_noscore": {"zh": "已挂靠、暂无成绩", "en": "Linked, no results"},
+    "subject_legend_context": {"zh": "仅上级有关联", "en": "Parent context only"},
+    "subject_legend_blank": {"zh": "待建立映射", "en": "Awaiting mapping"},
     "legend_score": {"zh": "AI 得分 0 → 100", "en": "AI score 0 → 100"},
     "legend_noscore": {"zh": "有基准、无成绩", "en": "Benchmark, no score"},
     "legend_blank": {"zh": "无基准", "en": "Unmeasured"},
