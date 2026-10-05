@@ -36,9 +36,9 @@ The Pages workflow deploys `docs/` on each push to `main` and supports manual re
 | --- | --- | --- |
 | Add a benchmark / 新增基准 | `data/research/catalog.tsv` (`id\|name\|path\|url\|tasks[\|direction]`) | `scripts/build_catalog.py` |
 | Add scores / 新增成绩 | Save the source in `data/research/source-urls.json`, run `scripts/collect_sources.py`, add a parser to `scripts/import_public_scores.py` | `scripts/import_public_scores.py`, `scripts/build_models.py` |
-| Map a benchmark to jobs or disciplines / 映射到职业或学科 | `data/mappings/benchmark_onet_dwa.tsv`, `benchmark_gbt13745.tsv` (`direct` or `partial` + reason) | — |
+| Map a benchmark to jobs or disciplines / 映射到职业或学科 | `data/mappings/benchmark_onet_dwa.tsv`, `benchmark_nature.tsv` (`partial` + reason + evidence URL for Nature topics) | — |
 | Change scoring factors / 改计分系数 | `data/research/progress.yaml` | — |
-| Translations / 译文 | `data/i18n/*.tsv`, UI text in `src/agi_atlas/i18n.py` (both `zh` and `en`) | `scripts/build_denominators.py` for denominator names |
+| Translations / 译文 | `data/i18n/*.tsv`, UI text in `src/agi_atlas/i18n.py` (both `zh` and `en`) | `scripts/build_denominators.py` for O*NET names; `scripts/build_nature.py` for Nature names |
 
 Generated files (`data/benchmarks/benchmarks.yaml`, `data/scores/frontier_scores.yaml`, `data/models/models.yaml`, `data/denominators/*.tsv`, `reports/`, `docs/index.html`) must not be edited by hand.
 生成文件请勿手改。
@@ -69,3 +69,5 @@ Commit the regenerated `reports/` and `docs/index.html` together with your chang
 请把重新生成的 `reports/` 与 `docs/index.html` 一并提交；CI 会重建并比对。
 
 On Windows, set `PYTHONUTF8=1`. / Windows 下请设置 `PYTHONUTF8=1`。
+
+Academic topics follow the pinned Nature directory. Keep cross-listings and count unique subject IDs once overall. See [the classification notes](docs/subject-classification.md).

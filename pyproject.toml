@@ -5,7 +5,7 @@ build-backend = "hatchling.build"
 [project]
 name = "agi-atlas"
 version = "0.2.0"
-description = "How far is AI from AGI? Every human job and discipline as the denominator, scored by benchmark SOTA."
+description = "How far is AI from AGI? O*NET work activities and Nature subject topics compared with benchmark results."
 readme = "README.md"
 requires-python = ">=3.12"
 license = "MIT"
@@ -25,8 +25,6 @@ dependencies = ["pydantic>=2.10,<3", "PyYAML>=6.0.2,<7", "typer>=0.15,<1"]
 
 [project.optional-dependencies]
 dev = ["pytest>=8.3,<10", "ruff>=0.11,<1"]
-# 仅重建分母表（解析 GB/T 13745 PDF）时需要。
-build = ["pypdf>=5,<7"]
 
 [project.scripts]
 agi-atlas = "agi_atlas.cli:app"

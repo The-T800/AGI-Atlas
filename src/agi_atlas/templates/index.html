@@ -3,10 +3,10 @@
 <head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>AGI Atlas</title>
-<meta name="description" content="How far is AI from AGI? Every human job and discipline as the denominator, scored by benchmark SOTA.">
+<meta name="description" content="How far is AI from AGI? O*NET work activities and Nature directory subjects, compared with published benchmark scores.">
 <meta name="theme-color" content="#0b0f14">
 <meta property="og:title" content="AGI Atlas · How far is AI from AGI?">
-<meta property="og:description" content="Every human job and discipline as the denominator, scored by benchmark SOTA.">
+<meta property="og:description" content="O*NET work activities and Nature directory subjects, compared with published benchmark scores.">
 <meta property="og:image" content="preview.png">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%230b0f14'/%3E%3Crect x='7' y='7' width='5' height='5' fill='%23f3cd6a'/%3E%3Crect x='13.5' y='7' width='5' height='5' fill='%23725a26'/%3E%3Crect x='20' y='7' width='5' height='5' fill='%23273140'/%3E%3Crect x='7' y='13.5' width='5' height='5' fill='%23b88a2e'/%3E%3Crect x='13.5' y='13.5' width='5' height='5' fill='%23273140'/%3E%3Crect x='20' y='13.5' width='5' height='5' fill='%23273140'/%3E%3Crect x='7' y='20' width='5' height='5' fill='%23273140'/%3E%3Crect x='13.5' y='20' width='5' height='5' fill='%23273140'/%3E%3Crect x='20' y='20' width='5' height='5' fill='%23273140'/%3E%3C/svg%3E">
@@ -134,6 +134,7 @@ footer .src a{margin-right:18px}
 .js .hero .reveal{transition-delay:calc(var(--d,0) * 120ms)}
 @media(max-width:900px){.links{display:none}.lang{margin-left:auto}.stats,.insights,.steps{grid-template-columns:1fr}.stats div+div{border-left:0;padding-left:0}.axis,.row{grid-template-columns:120px 1fr 76px;gap:12px}.hero{padding:72px 0 64px}section.block{padding:76px 0}.wrap{padding:0 20px}.steps{gap:32px}}
 @media(prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}.js .reveal{opacity:1;transform:none}.track .val{transform:none}html{scroll-behavior:auto}}
+.subject-directory{margin-top:32px}.subject-directory summary{cursor:pointer;padding:12px 0}.nature-group{border-top:1px solid var(--line)}.nature-topic{margin-left:20px;padding:0 12px 10px}.nature-topic a{display:inline-block;margin:5px 14px 5px 0}.nature-topic .note{margin:6px 0;overflow-wrap:anywhere}
 </style></head>
 <body>
 <header class="top" id="top"><div class="wrap">
@@ -152,7 +153,7 @@ footer .src a{margin-right:18px}
 
 <section class="block" id="mosaic-sec"><div class="wrap">
  <div class="reveal"><div class="eyebrow">01</div><h2 data-t="mosaic_title"></h2><p class="lede" data-t="mosaic_sub"></p></div>
- <div class="mosaic-head"><div class="seg" id="mseg"><button data-k="onet" aria-pressed="true"></button><button data-k="gbt13745" aria-pressed="false"></button></div><div class="caption" id="mcap"></div></div>
+ <div class="mosaic-head"><div class="seg" id="mseg"><button data-k="onet" aria-pressed="true"></button><button data-k="nature" aria-pressed="false"></button></div><div class="caption" id="mcap"></div></div>
  <div class="mosaic" id="mosaic"><canvas id="mcanvas" role="img"></canvas></div>
  <div class="legend"><span><span class="ramp"></span><span data-t="legend_score"></span></span><span><i style="background:var(--cell-none)"></i><span data-t="legend_noscore"></span></span><span><i style="background:var(--cell-blank);outline:1px solid var(--line2)"></i><span data-t="legend_blank"></span></span></div>
  <div class="insights reveal" id="insights"></div>
@@ -166,6 +167,7 @@ footer .src a{margin-right:18px}
 <section class="block" id="disciplines"><div class="wrap">
  <div class="reveal"><div class="eyebrow">03</div><h2 data-t="disc_title"></h2><p class="lede" id="disc-sub"></p></div>
  <div class="rank reveal" id="disc-rank"></div>
+ <details class="subject-directory"><summary data-t="nature_directory"></summary><p class="note" data-t="nature_topic_hint"></p><div id="nature-directory"></div></details>
 </div></section>
 
 <section class="block" id="method"><div class="wrap">
@@ -193,7 +195,7 @@ footer .src a{margin-right:18px}
 <script>
 'use strict';
 document.documentElement.classList.add('js');
-const D=JSON.parse(document.getElementById('atlas-data').textContent),P=D.progress,O=P.onet,G=P.gbt13745;
+const D=JSON.parse(document.getElementById('atlas-data').textContent),P=D.progress,O=P.onet,G=P.nature;
 const $=id=>document.getElementById(id);
 const stored=(()=>{try{return localStorage.getItem('atlas-lang')}catch(e){return null}})();
 let L=new URLSearchParams(location.search).get('lang')||stored||'en';if(!D.i18n[L])L='en';
@@ -237,16 +239,17 @@ function rankList(box,rows,max,opts){box.replaceChildren();const ax=el('div','ax
  add(rows.slice(0,opts.limit||rows.length));box.append(list);
  if(opts.limit&&rows.length>opts.limit){const b=el('button','more',T('show_rest',{n:rows.length-opts.limit}));b.addEventListener('click',()=>{add(rows.slice(opts.limit));b.remove()});box.append(b)}
  if(opts.cov){const k=el('div','rank-key'),s1=el('span'),s2=el('span'),i1=el('i'),i2=el('i');i1.style.cssText='height:10px;background:linear-gradient(90deg,var(--gold3),var(--gold))';i2.style.cssText='height:2px;background:var(--line2)';s1.append(i1,T('ai_reached'));s2.append(i2,T('measured'));k.append(s1,s2);box.append(k)}}
-function renderRanks(){rankList($('jobs-rank'),O.occupation_groups,25,{head:T('by_major'),cov:r=>r.mapped_share,sub:r=>fmt(r.occupations,0)+(L==='zh'?' 个职业':' occupations')});
+function renderNatureDirectory(){const box=$('nature-directory');box.replaceChildren();for(const group of G.groups){const section=el('details','nature-group');section.append(el('summary','',N(group.name)));for(const topic of G.subjects.filter(s=>s.groups.includes(group.id))){const row=el('details','nature-topic'),summary=el('summary','',N(topic.name)+' · '+pct(topic.points));row.append(summary,a('Nature ↗',topic.url));if(!topic.mappings.length)row.append(el('p','note',T('bar_blank')));for(const m of topic.mappings){const b=D.benchmarks.find(b=>b.id===m.benchmark_id);row.append(a((b?b.name:m.benchmark_id)+' ↗',m.evidence_url),el('p','note',m.reason))}section.append(row)}box.append(section)}}
+function renderRanks(){renderNatureDirectory();rankList($('jobs-rank'),O.occupation_groups,25,{head:T('by_major'),cov:r=>r.mapped_share,sub:r=>fmt(r.occupations,0)+(L==='zh'?' 个职业':' occupations')});
  $('disc-sub').textContent=T('disc_sub',{mapped:fmt(G.summary.mapped_share,0),precise:fmt(G.summary.precise,0)});
- rankList($('disc-rank'),G.groups,30,{head:T('by_discipline'),limit:15,sub:r=>fmt(r.leaves,0)+(L==='zh'?' 个细分学科':' disciplines'),right:r=>T('precise')+' '+r.precise})}
+ rankList($('disc-rank'),G.groups,Math.max(10,Math.ceil(Math.max(...G.groups.map(g=>g.progress))/10)*10),{head:T('by_discipline'),limit:15,sub:r=>fmt(r.leaves,0)+(L==='zh'?' 个主题':' subjects'),right:r=>T('precise')+' '+r.precise})}
 
 // —— 方法 ——
-function renderMethod(){const c=P.coverage_factor,bf=P.breadth_factor,s=$('steps');s.replaceChildren();
+function renderMethod(){const c=P.coverage_factor,s=$('steps');s.replaceChildren();
  [['step1_t',T('step1_b')],['step2_t',T('step2_b',{benchmarks:fmt(D.summary.benchmarks,0)})],['step3_t',T('step3_b')]].forEach(([t,b],i)=>{const d=el('div');d.append(el('div','k','0'+(i+1)),el('h3','',T(t)),el('p','',b));s.append(d)});
- const lines=L==='zh'?[['单项得分','= 覆盖系数 × 基准 SOTA','取最高的基准；没有基准 → 0'],['覆盖系数','= 直接 '+c.direct+' · 部分 '+c.partial,'学科仅按二级 / 一级出题时再 × '+bf.level2+' / '+bf.level1],['SOTA','= 最好成绩 ÷ 人类水平','无人类对照时 ÷ 100%'],['AI 已达到','= 分母全部单项的加权平均','']]:[['item score','= coverage × benchmark SOTA','best benchmark per item; none → 0'],['coverage','= direct '+c.direct+' · partial '+c.partial,'× '+bf.level2+' / '+bf.level1+' if only tested at level 2 / 1'],['SOTA','= best score ÷ human baseline','÷ 100% when there is none'],['AI reached','= weighted mean over every item','']];
+ const lines=L==='zh'?[['单项得分','= 覆盖系数 × 基准 SOTA','取最高的基准；没有基准 → 0'],['覆盖系数','= 直接 '+c.direct+' · 部分 '+c.partial,'Nature 主题采用部分任务映射'],['SOTA','= 最好成绩 ÷ 人类水平','无人类对照时 ÷ 100%'],['AI 已达到','= 分母全部单项的加权平均','']]:[['item score','= coverage × benchmark SOTA','best benchmark per item; none → 0'],['coverage','= direct '+c.direct+' · partial '+c.partial,'Nature subjects use partial task mappings'],['SOTA','= best score ÷ human baseline','÷ 100% when there is none'],['AI reached','= weighted mean over every item','']];
  const f=$('formula');f.replaceChildren();lines.forEach(([k,v,n])=>f.append(el('b','',k),el('code','',v),el('span','',n)));
- $('limits').textContent=T('limits')+(L==='zh'?'：':': ')+T('limits_body',{onet:N(O.limitation),gbt:N(G.limitation)})}
+ $('limits').textContent=T('limits')+(L==='zh'?'：':': ')+T('limits_body',{onet:N(O.limitation),subjects:N(G.limitation)})}
 
 // —— 基准与成绩 ——
 const benches=new Map(D.benchmarks.map(b=>[b.id,b]));
@@ -308,7 +311,7 @@ const VIEWS=['benchmarks','models','trend'];
 function show(v){if(!VIEWS.includes(v))v='benchmarks';VIEWS.forEach(id=>$(id).hidden=id!==v);document.querySelectorAll('.tabs button').forEach(b=>b.setAttribute('aria-selected',String(b.dataset.view===v)))}
 document.querySelectorAll('.tabs button').forEach(b=>b.addEventListener('click',()=>show(b.dataset.view)));
 
-function renderFooter(){$('snapshot').textContent=T('snapshot')+' '+D.snapshot;$('sources').replaceChildren(a('O*NET 31.0',O.source_url),a('GB/T 13745',G.source_url),a('METR',HZ.source_url),...(D.eci?[a('Epoch AI',D.eci.source_url)]:[]))}
+function renderFooter(){$('snapshot').textContent=T('snapshot')+' '+D.snapshot;$('sources').replaceChildren(a('O*NET 31.0',O.source_url),a('Nature subjects',G.source_url),a('METR',HZ.source_url),...(D.eci?[a('Epoch AI',D.eci.source_url)]:[]))}
 
 // —— 语言、滚动与入场 ——
 function render(first){document.documentElement.lang=L==='zh'?'zh-CN':'en';document.title='AGI Atlas · '+T('title');document.querySelectorAll('[data-t]').forEach(e=>e.textContent=T(e.dataset.t));$('lang').textContent=T('lang_switch');$('dlg-close').setAttribute('aria-label',T('close'));

@@ -32,3 +32,12 @@
 - Keep source provenance and both translations. Regenerate outputs through the
   documented scripts; do not edit generated datasets or `docs/index.html` by hand.
 - Run lint, formatting, tests, and the generated-output checks before publishing.
+
+## Subject reference set
+
+- Use the pinned Nature public subject directory for the academic reference set.
+- Preserve original subject IDs and cross-listings; count each subject once overall.
+- Do not treat a national curriculum or an arbitrary library shelf scheme as a complete
+  human knowledge taxonomy. Do not infer a hierarchy from links labelled "Related Subjects".
+- Keep benchmark mappings separate from source taxonomy, with evidence and partial-coverage
+  qualifications. Document denominator changes and recompute all reports and public copy.

@@ -13,7 +13,7 @@ from agi_atlas.site import write_site
 from agi_atlas.validator import DataValidationError
 
 app = typer.Typer(
-    help="AGI Atlas: how far AI is from AGI, measured against every human job and discipline.",
+    help="AGI Atlas: how far AI is from AGI, compared with O*NET work and Nature subjects.",
     no_args_is_help=True,
 )
 DataDir = Annotated[Path, typer.Option("--data-dir", help="Data directory.")]

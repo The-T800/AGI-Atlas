@@ -209,5 +209,12 @@
     "observed_at": "2026-10-04",
     "sha256": "f97ee6d2303462496dac7705fa2fe21da6977b499001182f3200fa665fbade4e",
     "bytes": 219769
+  },
+  {
+    "id": "nature-subject-directory",
+    "url": "https://www.nature.com/subjects",
+    "observed_at": "2026-10-05",
+    "sha256": "f7ce8954da7216a8552e55215320c0e99d0acdbcfa3514d4748cd8a707048857",
+    "bytes": 153635
   }
 ]

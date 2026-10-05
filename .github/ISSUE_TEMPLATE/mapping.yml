@@ -11,7 +11,7 @@ body:
   - type: input
     id: target
     attributes:
-      label: O*NET activity ID or GB/T 13745 code / 工作活动 ID 或学科代码
+      label: O*NET activity ID or Nature subject ID / 工作活动 ID 或 Nature 主题 ID
     validations:
       required: true
   - type: dropdown

@@ -9,7 +9,7 @@ from collections import defaultdict
 from pathlib import Path
 from typing import Literal
 
-from pydantic import Field, HttpUrl
+from pydantic import HttpUrl
 
 from agi_atlas.loader import read_model, read_yaml
 from agi_atlas.models import Record, Text
@@ -29,17 +29,10 @@ class Denominator(Record):
     limitation: Bilingual
 
 
-class Breadth(Record):
-    leaf: float = Field(gt=0, le=1)
-    level2: float = Field(gt=0, le=1)
-    level1: float = Field(gt=0, le=1)
-
-
 class ProgressPlan(Record):
     reviewed_on: Text
     coverage_factor: dict[Fit, float]
-    breadth_factor: Breadth
-    denominators: dict[Literal["onet", "gbt13745"], Denominator]
+    denominators: dict[Literal["onet", "nature"], Denominator]
 
 
 def read_tsv(path: Path) -> list[dict]:
@@ -217,61 +210,65 @@ def _onet(root: Path, plan: ProgressPlan, values: dict, benchmarks: set) -> dict
     }
 
 
-def _gbt(root: Path, plan: ProgressPlan, values: dict, benchmarks: set) -> dict:
-    nodes = {r["code"]: r for r in read_tsv(root / "denominators/gbt13745.tsv")}
-    children = defaultdict(list)
-    for r in nodes.values():
-        if r["parent"]:
-            children[r["parent"]].append(r["code"])
-    rows = _mapping(root / "mappings/benchmark_gbt13745.tsv", "code", set(nodes), benchmarks)
-
-    def is_other(code: str) -> bool:
-        return len(code) > 3 and code.endswith("99")
-
-    def leaves_under(code: str) -> list[str]:
-        if not children[code]:
-            return [] if is_other(code) else [code]
-        return [leaf for k in children[code] for leaf in leaves_under(k)]
-
-    def name(code: str) -> dict:
-        return {"zh": nodes[code]["name"], "en": nodes[code]["name_en"]}
-
-    b = plan.breadth_factor
+def _nature(root: Path, plan: ProgressPlan, values: dict, benchmarks: set) -> dict:
+    nodes = read_tsv(root / "denominators/nature-subjects.tsv")
+    categories = read_tsv(root / "denominators/nature-groups.tsv")
+    ids = {n["id"] for n in nodes}
+    if len(ids) != len(nodes):
+        raise DataValidationError("Duplicate Nature subject ID.")
+    category_ids = {c["id"] for c in categories}
+    rows = _mapping(root / "mappings/benchmark_nature.tsv", "subject_id", ids, benchmarks)
     links = defaultdict(list)
-    for r in rows:
-        level = nodes[r["code"]]["level"]
-        factor = b.leaf if not children[r["code"]] else (b.level2 if level == "2" else b.level1)
-        for leaf in leaves_under(r["code"]):
-            links[leaf].append({**r, "breadth": factor})
+    for row in rows:
+        links[row["subject_id"]].append({**row, "breadth": 1.0})
     leaves = []
-    for code in nodes:
-        if children[code] or is_other(code):
-            continue
-        points, best = _leaf_points(links[code], values, plan.coverage_factor)
+    for node in nodes:
+        memberships = node["groups"].split(";")
+        if not memberships or not set(memberships) <= category_ids:
+            raise DataValidationError("Unknown Nature category membership.")
+        points, best = _leaf_points(links[node["id"]], values, plan.coverage_factor)
         leaves.append(
             {
-                "id": code,
-                "name": name(code),
-                "group": code[:3],
+                "id": node["id"],
+                "name": {"en": node["name_en"], "zh": node["name_zh"]},
+                # First directory occurrence is only a mosaic layout choice, not a primary field.
+                "group": memberships[0],
+                "memberships": memberships,
                 "weight": 1.0,
-                "links": links[code],
+                "links": links[node["id"]],
                 "points": points,
                 "best": best,
             }
         )
     groups = [
-        {"id": code, "name": name(code), **_summary([x for x in leaves if x["group"] == code])}
-        for code in nodes
-        if nodes[code]["level"] == "1"
+        {
+            "id": c["id"],
+            "name": {"en": c["name_en"], "zh": c["name_zh"]},
+            **_summary([x for x in leaves if c["id"] in x["memberships"]]),
+        }
+        for c in categories
     ]
     return {
-        **plan.denominators["gbt13745"].model_dump(mode="json"),
-        "levels": {n: sum(r["level"] == n for r in nodes.values()) for n in ("1", "2", "3")},
+        **plan.denominators["nature"].model_dump(mode="json"),
+        "levels": {"1": len(categories), "2": len(nodes)},
+        "memberships": sum(len(x["memberships"]) for x in leaves),
         "summary": _summary(leaves),
         "groups": sorted(groups, key=lambda g: (-g["progress"], g["id"])),
         "top_leaves": _top(leaves),
-        "cell_groups": [name(c) for c in nodes if nodes[c]["level"] == "1"],
-        "cells": _cells(leaves, [c for c in nodes if nodes[c]["level"] == "1"]),
+        "cell_groups": [{"en": c["name_en"], "zh": c["name_zh"]} for c in categories],
+        "cells": _cells(leaves, [c["id"] for c in categories]),
+        "subjects": [
+            {
+                "id": x["id"],
+                "name": x["name"],
+                "groups": x["memberships"],
+                "url": "https://www.nature.com/subjects/" + x["id"],
+                "benchmark_ids": sorted({r["benchmark_id"] for r in x["links"]}),
+                "mappings": x["links"],
+                "points": round(x["points"] * 100, 2),
+            }
+            for x in leaves
+        ],
     }
 
 
@@ -282,8 +279,7 @@ def build_progress(data_dir: Path | str, saturation: dict, benchmarks: set) -> d
     return {
         "reviewed_on": plan.reviewed_on,
         "coverage_factor": plan.coverage_factor,
-        "breadth_factor": plan.breadth_factor.model_dump(),
         "scored_benchmarks": len(values),
         "onet": _onet(root, plan, values, benchmarks),
-        "gbt13745": _gbt(root, plan, values, benchmarks),
+        "nature": _nature(root, plan, values, benchmarks),
     }

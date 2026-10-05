@@ -24,7 +24,7 @@ def _pct(value: float | None) -> str:
 
 
 def _summary(payload: dict, lang: str) -> list[str]:
-    o, g = payload["progress"]["onet"], payload["progress"]["gbt13745"]
+    o, g = payload["progress"]["onet"], payload["progress"]["nature"]
     lines = [
         f"| {t('denominator', lang)} | {t('size', lang)} | {t('measured', lang)} | "
         f"{t('measured_depth', lang)} | **{t('ai_reached', lang)}** |",
@@ -45,10 +45,10 @@ def _summary(payload: dict, lang: str) -> list[str]:
     return lines
 
 
-def render_report(data: AtlasData, data_dir: Path | str, lang: str = "zh") -> str:
+def render_report(data: AtlasData, data_dir: Path | str, lang: str = "en") -> str:
     payload = build_payload(data, data_dir)
     p = payload["progress"]
-    o, g = p["onet"], p["gbt13745"]
+    o, g = p["onet"], p["nature"]
     other = "en" if lang == "zh" else "zh"
     lines = [
         f"# AGI Atlas · {t('title', lang)}",
@@ -111,19 +111,19 @@ def render_report(data: AtlasData, data_dir: Path | str, lang: str = "zh") -> st
             f"{t(b['status'], lang)} | "
             f"[{t(w['source_type'], lang)}](<{payload['sources'][w['source_url']]}>) |"
         )
-    c, bf = p["coverage_factor"], p["breadth_factor"]
+    c = p["coverage_factor"]
     colon = "：" if lang == "zh" else ": "
     lines += [
         "",
         t("how_head", lang),
         "",
-        t("how_body", lang, direct=c["direct"], partial=c["partial"], **bf),
+        t("how_body", lang, direct=c["direct"], partial=c["partial"]),
         "",
         f"**{t('limits', lang)}**{colon}"
-        + t("limits_body", lang, onet=o["limitation"][lang], gbt=g["limitation"][lang]),
+        + t("limits_body", lang, onet=o["limitation"][lang], subjects=g["limitation"][lang]),
         "",
         f"{t('source', lang)}{colon}[O*NET 31.0](<{o['source_url']}>) · "
-        f"[GB/T 13745](<{g['source_url']}>) · [METR](<{payload['horizons']['source_url']}>)"
+        f"[Nature subjects](<{g['source_url']}>) · [METR](<{payload['horizons']['source_url']}>)"
         + (f" · [Epoch AI ECI](<{payload['eci']['source_url']}>)" if payload["eci"] else ""),
         "",
     ]

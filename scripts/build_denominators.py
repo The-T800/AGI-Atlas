@@ -1,22 +1,19 @@
-"""从 O*NET 与 GB/T 13745 原始文件生成 AGI 分母表；原文件按固定哈希校验，不进仓库。
-
-原始文件较大（O*NET 任务评分约 39 MB），缓存在 .cache/denominators/；缺失时按下列地址下载。
-生成结果写入 data/denominators/，与哈希一同提交，任何人可重新下载并逐字节复核。
-"""
+"""Build O*NET activity tables and the pinned Nature public subject directory."""
 
 import csv
 import hashlib
 import io
 import json
-import re
 from collections import defaultdict
 from pathlib import Path
 from urllib.request import Request, urlopen
 
+from build_nature import build as build_nature
+
 ROOT = Path(__file__).resolve().parents[1]
 CACHE = ROOT / ".cache/denominators"
 OUT = ROOT / "data/denominators"
-# 名称译文：职业与工作活动为 en→zh，学科为 zh→en；缺译文时构建失败，避免页面出现单语混排。
+# Required English-to-Chinese occupation and activity labels.
 I18N = ROOT / "data/i18n"
 ONET_BASE = "https://www.onetcenter.org/dl_files/database/db_31_0_csv/"
 ONET_FILES = {
@@ -27,9 +24,6 @@ ONET_FILES = {
     "gwas_to_iwas_to_dwas.csv": "ae4e9f166187bfe8e6328a21470689ed188e7ed831090ace2a21c66cebb31a49",
     "job_zones.csv": "093f01891ac2e602a8cc6c859ecb619b5bc00eb50cd3f3c1134c05b704481944",
 }
-# 北京大学学科办转载的 GB/T 13745—2008 报批稿全文；2009 版正式发布时一级学科同为 62 个。
-GBT_URL = "https://xkb.pku.edu.cn/docs/2018-10/20220328083301969071.pdf"
-GBT_SHA256 = "bcaeae760d8f9891525ea9070949e5b20e051400026f9751f7f525e2a7d5dbf5"
 
 
 def fetch(name: str, url: str, sha256: str) -> bytes:
@@ -149,45 +143,7 @@ def build_onet() -> dict:
     }
 
 
-def build_gbt() -> dict:
-    from pypdf import PdfReader
-
-    content = fetch("gbt13745.pdf", GBT_URL, GBT_SHA256)
-    text = "\n".join(p.extract_text() or "" for p in PdfReader(io.BytesIO(content)).pages)
-    lines = [line.strip() for line in text.splitlines()]
-    # 正文从第一条“110 数学”代码行开始（之前是目次），到附录 A（新旧代码对照）之前结束。
-    start = next(i for i, line in enumerate(lines) if line == "110 数学")
-    end = next(i for i, line in enumerate(lines) if i > start and line.startswith("附 录"))
-    pattern = re.compile(r"^(\d{3}|\d{5}|\d{7})\s+(\S.*)$")
-    entries: dict[str, str] = {}
-    for line in lines[start:end]:
-        match = pattern.match(line)
-        if match and match[1] not in entries:
-            # “原名为…”“包括…”等是标准原注，保留在 note 列。
-            name, _, note = match[2].partition(" ")
-            entries[match[1]] = (name, note.strip())
-    level = {3: 1, 5: 2, 7: 3}
-    parent = {3: "", 5: 3, 7: 5}
-    name_en = translations("gbt13745.tsv", "code", "en")
-    records = [
-        [
-            code,
-            level[len(code)],
-            name,
-            name_en[code],
-            code[: parent[len(code)]] if parent[len(code)] else "",
-            note,
-        ]
-        for code, (name, note) in entries.items()
-    ]
-    counts = {n: sum(r[1] == n for r in records) for n in (1, 2, 3)}
-    if counts[1] != 62:
-        raise SystemExit(f"一级学科应为 62 个，解析得到 {counts[1]} 个")
-    write_tsv(OUT / "gbt13745.tsv", ["code", "level", "name", "name_en", "parent", "note"], records)
-    return {"level1": counts[1], "level2": counts[2], "level3": counts[3]}
-
-
 if __name__ == "__main__":
     OUT.mkdir(parents=True, exist_ok=True)
-    summary = {"onet": build_onet(), "gbt13745": build_gbt()}
+    summary = {"onet": build_onet(), "nature": build_nature()}
     print(json.dumps(summary, ensure_ascii=False))
