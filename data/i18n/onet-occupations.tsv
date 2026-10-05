@@ -1,0 +1,925 @@
+# O*NET 职业中文译名（非官方译名）。
+soc	en	zh
+11-1011.00	Chief Executives	首席执行官
+11-1011.03	Chief Sustainability Officers	首席可持续发展官
+11-1021.00	General and Operations Managers	总经理与运营经理
+11-1031.00	Legislators	立法人员
+11-2011.00	Advertising and Promotions Managers	广告与促销经理
+11-2021.00	Marketing Managers	市场营销经理
+11-2022.00	Sales Managers	销售经理
+11-2032.00	Public Relations Managers	公共关系经理
+11-2033.00	Fundraising Managers	筹款经理
+11-3012.00	Administrative Services Managers	行政事务经理
+11-3013.00	Facilities Managers	设施管理经理
+11-3013.01	Security Managers	安全保卫经理
+11-3021.00	Computer and Information Systems Managers	计算机与信息系统经理
+11-3031.00	Financial Managers	财务经理
+11-3031.01	Treasurers and Controllers	财务主管与审计主管
+11-3031.03	Investment Fund Managers	投资基金经理
+11-3051.00	Industrial Production Managers	工业生产经理
+11-3051.01	Quality Control Systems Managers	质量控制系统经理
+11-3051.02	Geothermal Production Managers	地热生产经理
+11-3051.03	Biofuels Production Managers	生物燃料生产经理
+11-3051.04	Biomass Power Plant Managers	生物质发电厂经理
+11-3051.06	Hydroelectric Production Managers	水力发电生产经理
+11-3061.00	Purchasing Managers	采购经理
+11-3071.00	Transportation, Storage, and Distribution Managers	运输仓储配送经理
+11-3071.04	Supply Chain Managers	供应链经理
+11-3111.00	Compensation and Benefits Managers	薪酬福利经理
+11-3121.00	Human Resources Managers	人力资源经理
+11-3131.00	Training and Development Managers	培训与发展经理
+11-9013.00	Farmers, Ranchers, and Other Agricultural Managers	农场主、牧场主及农业经理
+11-9021.00	Construction Managers	建筑施工经理
+11-9031.00	Education and Childcare Administrators, Preschool and Daycare	学前教育与托育管理人员
+11-9032.00	Education Administrators, Kindergarten through Secondary	中小学教育管理人员
+11-9033.00	Education Administrators, Postsecondary	高等教育管理人员
+11-9041.00	Architectural and Engineering Managers	建筑与工程经理
+11-9041.01	Biofuels/Biodiesel Technology and Product Development Managers	生物燃料技术与产品开发经理
+11-9051.00	Food Service Managers	餐饮服务经理
+11-9071.00	Gambling Managers	博彩经理
+11-9072.00	Entertainment and Recreation Managers, Except Gambling	娱乐休闲经理（不含博彩）
+11-9081.00	Lodging Managers	住宿业经理
+11-9111.00	Medical and Health Services Managers	医疗卫生服务经理
+11-9121.00	Natural Sciences Managers	自然科学经理
+11-9121.01	Clinical Research Coordinators	临床研究协调员
+11-9121.02	Water Resource Specialists	水资源专家
+11-9131.00	Postmasters and Mail Superintendents	邮政局长与邮政主管
+11-9141.00	Property, Real Estate, and Community Association Managers	物业与社区协会经理
+11-9151.00	Social and Community Service Managers	社会与社区服务经理
+11-9161.00	Emergency Management Directors	应急管理主任
+11-9171.00	Funeral Home Managers	殡仪馆经理
+11-9179.01	Fitness and Wellness Coordinators	健身与健康协调员
+11-9179.02	Spa Managers	水疗馆经理
+11-9199.01	Regulatory Affairs Managers	法规事务经理
+11-9199.02	Compliance Managers	合规经理
+11-9199.08	Loss Prevention Managers	防损经理
+11-9199.09	Wind Energy Operations Managers	风能运营经理
+11-9199.10	Wind Energy Development Managers	风能开发经理
+11-9199.11	Brownfield Redevelopment Specialists and Site Managers	污染场地再开发专家
+13-1011.00	Agents and Business Managers of Artists, Performers, and Athletes	艺人与运动员经纪人
+13-1021.00	Buyers and Purchasing Agents, Farm Products	农产品采购代理
+13-1022.00	Wholesale and Retail Buyers, Except Farm Products	批发零售采购员
+13-1023.00	Purchasing Agents, Except Wholesale, Retail, and Farm Products	采购代理（非批发零售农产品）
+13-1031.00	Claims Adjusters, Examiners, and Investigators	保险理赔员与调查员
+13-1032.00	Insurance Appraisers, Auto Damage	车损保险估价员
+13-1041.00	Compliance Officers	合规专员
+13-1041.01	Environmental Compliance Inspectors	环境合规检查员
+13-1041.03	Equal Opportunity Representatives and Officers	平等机会代表与专员
+13-1041.04	Government Property Inspectors and Investigators	政府财产检查员
+13-1041.06	Coroners	法医验尸官
+13-1041.07	Regulatory Affairs Specialists	法规事务专员
+13-1041.08	Customs Brokers	报关经纪人
+13-1051.00	Cost Estimators	成本估算师
+13-1071.00	Human Resources Specialists	人力资源专员
+13-1074.00	Farm Labor Contractors	农业劳务承包人
+13-1075.00	Labor Relations Specialists	劳资关系专员
+13-1081.00	Logisticians	物流师
+13-1081.01	Logistics Engineers	物流工程师
+13-1081.02	Logistics Analysts	物流分析师
+13-1082.00	Project Management Specialists	项目管理专员
+13-1111.00	Management Analysts	管理分析师
+13-1121.00	Meeting, Convention, and Event Planners	会议与活动策划师
+13-1131.00	Fundraisers	筹款人
+13-1141.00	Compensation, Benefits, and Job Analysis Specialists	薪酬福利与职位分析专员
+13-1151.00	Training and Development Specialists	培训与发展专员
+13-1161.00	Market Research Analysts and Marketing Specialists	市场调研与营销专员
+13-1161.01	Search Marketing Strategists	搜索营销策略师
+13-1199.04	Business Continuity Planners	业务连续性规划师
+13-1199.05	Sustainability Specialists	可持续发展专员
+13-1199.06	Online Merchants	网络商家
+13-1199.07	Security Management Specialists	安全管理专员
+13-2011.00	Accountants and Auditors	会计师与审计师
+13-2022.00	Appraisers of Personal and Business Property	个人与商业财产估价师
+13-2023.00	Appraisers and Assessors of Real Estate	房地产估价师
+13-2031.00	Budget Analysts	预算分析师
+13-2041.00	Credit Analysts	信贷分析师
+13-2051.00	Financial and Investment Analysts	金融与投资分析师
+13-2052.00	Personal Financial Advisors	个人理财顾问
+13-2053.00	Insurance Underwriters	保险承保人
+13-2054.00	Financial Risk Specialists	金融风险专员
+13-2061.00	Financial Examiners	金融检查员
+13-2071.00	Credit Counselors	信贷咨询师
+13-2072.00	Loan Officers	信贷员
+13-2081.00	Tax Examiners and Collectors, and Revenue Agents	税务稽查与征收员
+13-2082.00	Tax Preparers	报税员
+13-2099.01	Financial Quantitative Analysts	金融量化分析师
+13-2099.04	Fraud Examiners, Investigators and Analysts	反欺诈调查分析师
+15-1211.00	Computer Systems Analysts	计算机系统分析师
+15-1211.01	Health Informatics Specialists	健康信息学专员
+15-1212.00	Information Security Analysts	信息安全分析师
+15-1221.00	Computer and Information Research Scientists	计算机与信息研究科学家
+15-1231.00	Computer Network Support Specialists	计算机网络支持专员
+15-1232.00	Computer User Support Specialists	计算机用户支持专员
+15-1241.00	Computer Network Architects	计算机网络架构师
+15-1241.01	Telecommunications Engineering Specialists	电信工程专员
+15-1242.00	Database Administrators	数据库管理员
+15-1243.00	Database Architects	数据库架构师
+15-1243.01	Data Warehousing Specialists	数据仓库专员
+15-1244.00	Network and Computer Systems Administrators	网络与计算机系统管理员
+15-1251.00	Computer Programmers	计算机程序员
+15-1252.00	Software Developers	软件开发工程师
+15-1253.00	Software Quality Assurance Analysts and Testers	软件质量保证分析师与测试员
+15-1254.00	Web Developers	网页开发工程师
+15-1255.00	Web and Digital Interface Designers	网页与数字界面设计师
+15-1255.01	Video Game Designers	电子游戏设计师
+15-1299.01	Web Administrators	网站管理员
+15-1299.02	Geographic Information Systems Technologists and Technicians	地理信息系统技术员
+15-1299.03	Document Management Specialists	文档管理专员
+15-1299.04	Penetration Testers	渗透测试员
+15-1299.05	Information Security Engineers	信息安全工程师
+15-1299.06	Digital Forensics Analysts	数字取证分析师
+15-1299.07	Blockchain Engineers	区块链工程师
+15-1299.08	Computer Systems Engineers/Architects	计算机系统工程师/架构师
+15-1299.09	Information Technology Project Managers	信息技术项目经理
+15-2011.00	Actuaries	精算师
+15-2021.00	Mathematicians	数学家
+15-2031.00	Operations Research Analysts	运筹分析师
+15-2041.00	Statisticians	统计学家
+15-2041.01	Biostatisticians	生物统计学家
+15-2051.00	Data Scientists	数据科学家
+15-2051.01	Business Intelligence Analysts	商业智能分析师
+15-2051.02	Clinical Data Managers	临床数据管理员
+15-2099.01	Bioinformatics Technicians	生物信息学技术员
+17-1011.00	Architects, Except Landscape and Naval	建筑师（不含景观与船舶）
+17-1012.00	Landscape Architects	景观设计师
+17-1021.00	Cartographers and Photogrammetrists	制图员与摄影测量员
+17-1022.00	Surveyors	测量师
+17-1022.01	Geodetic Surveyors	大地测量师
+17-2011.00	Aerospace Engineers	航空航天工程师
+17-2021.00	Agricultural Engineers	农业工程师
+17-2031.00	Bioengineers and Biomedical Engineers	生物医学工程师
+17-2041.00	Chemical Engineers	化学工程师
+17-2051.00	Civil Engineers	土木工程师
+17-2051.01	Transportation Engineers	交通工程师
+17-2051.02	Water/Wastewater Engineers	水务与污水处理工程师
+17-2061.00	Computer Hardware Engineers	计算机硬件工程师
+17-2071.00	Electrical Engineers	电气工程师
+17-2072.00	Electronics Engineers, Except Computer	电子工程师（不含计算机）
+17-2072.01	Radio Frequency Identification Device Specialists	射频识别设备专员
+17-2081.00	Environmental Engineers	环境工程师
+17-2111.00	Health and Safety Engineers, Except Mining Safety Engineers and Inspectors	健康安全工程师（不含矿山安全）
+17-2111.02	Fire-Prevention and Protection Engineers	消防工程师
+17-2112.00	Industrial Engineers	工业工程师
+17-2112.01	Human Factors Engineers and Ergonomists	人因工程师
+17-2112.02	Validation Engineers	验证工程师
+17-2112.03	Manufacturing Engineers	制造工程师
+17-2121.00	Marine Engineers and Naval Architects	船舶工程师与船舶设计师
+17-2131.00	Materials Engineers	材料工程师
+17-2141.00	Mechanical Engineers	机械工程师
+17-2141.01	Fuel Cell Engineers	燃料电池工程师
+17-2141.02	Automotive Engineers	汽车工程师
+17-2151.00	Mining and Geological Engineers, Including Mining Safety Engineers	采矿与地质工程师
+17-2161.00	Nuclear Engineers	核工程师
+17-2171.00	Petroleum Engineers	石油工程师
+17-2199.03	Energy Engineers, Except Wind and Solar	能源工程师（不含风能太阳能）
+17-2199.05	Mechatronics Engineers	机电一体化工程师
+17-2199.06	Microsystems Engineers	微系统工程师
+17-2199.07	Photonics Engineers	光子学工程师
+17-2199.08	Robotics Engineers	机器人工程师
+17-2199.09	Nanosystems Engineers	纳米系统工程师
+17-2199.10	Wind Energy Engineers	风能工程师
+17-2199.11	Solar Energy Systems Engineers	太阳能系统工程师
+17-3011.00	Architectural and Civil Drafters	建筑与土木制图员
+17-3012.00	Electrical and Electronics Drafters	电气电子制图员
+17-3013.00	Mechanical Drafters	机械制图员
+17-3021.00	Aerospace Engineering and Operations Technologists and Technicians	航空航天工程技术员
+17-3022.00	Civil Engineering Technologists and Technicians	土木工程技术员
+17-3023.00	Electrical and Electronic Engineering Technologists and Technicians	电气电子工程技术员
+17-3024.00	Electro-Mechanical and Mechatronics Technologists and Technicians	机电一体化技术员
+17-3024.01	Robotics Technicians	机器人技术员
+17-3025.00	Environmental Engineering Technologists and Technicians	环境工程技术员
+17-3026.00	Industrial Engineering Technologists and Technicians	工业工程技术员
+17-3026.01	Nanotechnology Engineering Technologists and Technicians	纳米技术工程技术员
+17-3027.00	Mechanical Engineering Technologists and Technicians	机械工程技术员
+17-3027.01	Automotive Engineering Technicians	汽车工程技术员
+17-3028.00	Calibration Technologists and Technicians	计量校准技术员
+17-3029.01	Non-Destructive Testing Specialists	无损检测专员
+17-3029.08	Photonics Technicians	光子学技术员
+17-3031.00	Surveying and Mapping Technicians	测绘技术员
+19-1011.00	Animal Scientists	动物科学家
+19-1012.00	Food Scientists and Technologists	食品科学家与技术专家
+19-1013.00	Soil and Plant Scientists	土壤与植物科学家
+19-1021.00	Biochemists and Biophysicists	生物化学家与生物物理学家
+19-1022.00	Microbiologists	微生物学家
+19-1023.00	Zoologists and Wildlife Biologists	动物学家与野生动物生物学家
+19-1029.01	Bioinformatics Scientists	生物信息学科学家
+19-1029.02	Molecular and Cellular Biologists	分子与细胞生物学家
+19-1029.03	Geneticists	遗传学家
+19-1029.04	Biologists	生物学家
+19-1031.00	Conservation Scientists	自然资源保护科学家
+19-1031.02	Range Managers	草场管理员
+19-1031.03	Park Naturalists	公园自然资源讲解员
+19-1032.00	Foresters	林务员
+19-1041.00	Epidemiologists	流行病学家
+19-1042.00	Medical Scientists, Except Epidemiologists	医学科学家（不含流行病学家）
+19-2011.00	Astronomers	天文学家
+19-2012.00	Physicists	物理学家
+19-2021.00	Atmospheric and Space Scientists	大气与空间科学家
+19-2031.00	Chemists	化学家
+19-2032.00	Materials Scientists	材料科学家
+19-2041.00	Environmental Scientists and Specialists, Including Health	环境科学家与专员
+19-2041.01	Climate Change Policy Analysts	气候变化政策分析师
+19-2041.02	Environmental Restoration Planners	环境修复规划师
+19-2041.03	Industrial Ecologists	工业生态学家
+19-2042.00	Geoscientists, Except Hydrologists and Geographers	地球科学家（不含水文地理学家）
+19-2043.00	Hydrologists	水文学家
+19-2099.01	Remote Sensing Scientists and Technologists	遥感科学家与技术专家
+19-3011.00	Economists	经济学家
+19-3011.01	Environmental Economists	环境经济学家
+19-3022.00	Survey Researchers	调查研究员
+19-3032.00	Industrial-Organizational Psychologists	工业组织心理学家
+19-3033.00	Clinical and Counseling Psychologists	临床与咨询心理学家
+19-3034.00	School Psychologists	学校心理学家
+19-3039.02	Neuropsychologists	神经心理学家
+19-3039.03	Clinical Neuropsychologists	临床神经心理学家
+19-3041.00	Sociologists	社会学家
+19-3051.00	Urban and Regional Planners	城市与区域规划师
+19-3091.00	Anthropologists and Archeologists	人类学家与考古学家
+19-3092.00	Geographers	地理学家
+19-3093.00	Historians	历史学家
+19-3094.00	Political Scientists	政治学家
+19-3099.01	Transportation Planners	交通规划师
+19-4012.00	Agricultural Technicians	农业技术员
+19-4012.01	Precision Agriculture Technicians	精准农业技术员
+19-4013.00	Food Science Technicians	食品科学技术员
+19-4021.00	Biological Technicians	生物技术员
+19-4031.00	Chemical Technicians	化学技术员
+19-4042.00	Environmental Science and Protection Technicians, Including Health	环境科学与保护技术员
+19-4043.00	Geological Technicians, Except Hydrologic Technicians	地质技术员（不含水文）
+19-4044.00	Hydrologic Technicians	水文技术员
+19-4051.00	Nuclear Technicians	核技术员
+19-4051.02	Nuclear Monitoring Technicians	核监测技术员
+19-4061.00	Social Science Research Assistants	社会科学研究助理
+19-4071.00	Forest and Conservation Technicians	林业与自然保护技术员
+19-4092.00	Forensic Science Technicians	法庭科学技术员
+19-4099.01	Quality Control Analysts	质量控制分析员
+19-4099.03	Remote Sensing Technicians	遥感技术员
+19-5011.00	Occupational Health and Safety Specialists	职业健康安全专员
+19-5012.00	Occupational Health and Safety Technicians	职业健康安全技术员
+21-1011.00	Substance Abuse and Behavioral Disorder Counselors	药物滥用与行为障碍咨询师
+21-1012.00	Educational, Guidance, and Career Counselors and Advisors	教育与职业咨询顾问
+21-1013.00	Marriage and Family Therapists	婚姻家庭治疗师
+21-1014.00	Mental Health Counselors	心理健康咨询师
+21-1015.00	Rehabilitation Counselors	康复咨询师
+21-1021.00	Child, Family, and School Social Workers	儿童家庭与学校社会工作者
+21-1022.00	Healthcare Social Workers	医疗社会工作者
+21-1023.00	Mental Health and Substance Abuse Social Workers	心理健康与戒毒社会工作者
+21-1091.00	Health Education Specialists	健康教育专员
+21-1092.00	Probation Officers and Correctional Treatment Specialists	假释官与矫正处遇专员
+21-1093.00	Social and Human Service Assistants	社会与人类服务助理
+21-1094.00	Community Health Workers	社区卫生工作者
+21-2011.00	Clergy	神职人员
+21-2021.00	Directors, Religious Activities and Education	宗教活动与教育主管
+23-1011.00	Lawyers	律师
+23-1012.00	Judicial Law Clerks	法官助理
+23-1021.00	Administrative Law Judges, Adjudicators, and Hearing Officers	行政法法官与裁决官
+23-1022.00	Arbitrators, Mediators, and Conciliators	仲裁员与调解员
+23-1023.00	Judges, Magistrate Judges, and Magistrates	法官与治安法官
+23-2011.00	Paralegals and Legal Assistants	律师助理与法律助理
+23-2093.00	Title Examiners, Abstractors, and Searchers	产权审查员
+25-1011.00	Business Teachers, Postsecondary	高等院校商科教师
+25-1021.00	Computer Science Teachers, Postsecondary	高等院校计算机科学教师
+25-1022.00	Mathematical Science Teachers, Postsecondary	高等院校数学教师
+25-1031.00	Architecture Teachers, Postsecondary	高等院校建筑学教师
+25-1032.00	Engineering Teachers, Postsecondary	高等院校工程学教师
+25-1041.00	Agricultural Sciences Teachers, Postsecondary	高等院校农业科学教师
+25-1042.00	Biological Science Teachers, Postsecondary	高等院校生物科学教师
+25-1043.00	Forestry and Conservation Science Teachers, Postsecondary	高等院校林业与保护科学教师
+25-1051.00	Atmospheric, Earth, Marine, and Space Sciences Teachers, Postsecondary	高等院校地球与空间科学教师
+25-1052.00	Chemistry Teachers, Postsecondary	高等院校化学教师
+25-1053.00	Environmental Science Teachers, Postsecondary	高等院校环境科学教师
+25-1054.00	Physics Teachers, Postsecondary	高等院校物理学教师
+25-1061.00	Anthropology and Archeology Teachers, Postsecondary	高等院校人类学与考古学教师
+25-1062.00	Area, Ethnic, and Cultural Studies Teachers, Postsecondary	高等院校区域民族文化研究教师
+25-1063.00	Economics Teachers, Postsecondary	高等院校经济学教师
+25-1064.00	Geography Teachers, Postsecondary	高等院校地理学教师
+25-1065.00	Political Science Teachers, Postsecondary	高等院校政治学教师
+25-1066.00	Psychology Teachers, Postsecondary	高等院校心理学教师
+25-1067.00	Sociology Teachers, Postsecondary	高等院校社会学教师
+25-1071.00	Health Specialties Teachers, Postsecondary	高等院校医学专科教师
+25-1072.00	Nursing Instructors and Teachers, Postsecondary	高等院校护理学教师
+25-1081.00	Education Teachers, Postsecondary	高等院校教育学教师
+25-1082.00	Library Science Teachers, Postsecondary	高等院校图书馆学教师
+25-1111.00	Criminal Justice and Law Enforcement Teachers, Postsecondary	高等院校刑事司法教师
+25-1112.00	Law Teachers, Postsecondary	高等院校法学教师
+25-1113.00	Social Work Teachers, Postsecondary	高等院校社会工作教师
+25-1121.00	Art, Drama, and Music Teachers, Postsecondary	高等院校艺术戏剧音乐教师
+25-1122.00	Communications Teachers, Postsecondary	高等院校传播学教师
+25-1123.00	English Language and Literature Teachers, Postsecondary	高等院校英语语言文学教师
+25-1124.00	Foreign Language and Literature Teachers, Postsecondary	高等院校外语文学教师
+25-1125.00	History Teachers, Postsecondary	高等院校历史学教师
+25-1126.00	Philosophy and Religion Teachers, Postsecondary	高等院校哲学宗教学教师
+25-1192.00	Family and Consumer Sciences Teachers, Postsecondary	高等院校家政学教师
+25-1193.00	Recreation and Fitness Studies Teachers, Postsecondary	高等院校休闲健身研究教师
+25-1194.00	Career/Technical Education Teachers, Postsecondary	高等院校职业技术教育教师
+25-2011.00	Preschool Teachers, Except Special Education	学前教育教师（不含特教）
+25-2012.00	Kindergarten Teachers, Except Special Education	幼儿园教师（不含特教）
+25-2021.00	Elementary School Teachers, Except Special Education	小学教师（不含特教）
+25-2022.00	Middle School Teachers, Except Special and Career/Technical Education	初中教师（不含特教与职教）
+25-2023.00	Career/Technical Education Teachers, Middle School	初中职业技术教育教师
+25-2031.00	Secondary School Teachers, Except Special and Career/Technical Education	中学教师（不含特教与职教）
+25-2032.00	Career/Technical Education Teachers, Secondary School	中学职业技术教育教师
+25-2051.00	Special Education Teachers, Preschool	学前特殊教育教师
+25-2055.00	Special Education Teachers, Kindergarten	幼儿园特殊教育教师
+25-2056.00	Special Education Teachers, Elementary School	小学特殊教育教师
+25-2057.00	Special Education Teachers, Middle School	初中特殊教育教师
+25-2058.00	Special Education Teachers, Secondary School	中学特殊教育教师
+25-2059.01	Adapted Physical Education Specialists	适应性体育教育专员
+25-3011.00	Adult Basic Education, Adult Secondary Education, and English as a Second Language Instructors	成人基础教育与ESL教师
+25-3021.00	Self-Enrichment Teachers	兴趣提升课程教师
+25-3031.00	Substitute Teachers, Short-Term	短期代课教师
+25-3041.00	Tutors	家教辅导教师
+25-4011.00	Archivists	档案管理员
+25-4012.00	Curators	策展人
+25-4013.00	Museum Technicians and Conservators	博物馆技术员与文物修复师
+25-4022.00	Librarians and Media Collections Specialists	图书馆员与媒体馆藏专员
+25-4031.00	Library Technicians	图书馆技术员
+25-9021.00	Farm and Home Management Educators	农场与家政管理教育者
+25-9031.00	Instructional Coordinators	教学协调员
+25-9042.00	Teaching Assistants, Preschool, Elementary, Middle, and Secondary School, Except Special Education	中小学教学助理（不含特教）
+25-9043.00	Teaching Assistants, Special Education	特殊教育教学助理
+25-9044.00	Teaching Assistants, Postsecondary	高等院校教学助理
+27-1011.00	Art Directors	艺术总监
+27-1012.00	Craft Artists	手工艺艺术家
+27-1013.00	Fine Artists, Including Painters, Sculptors, and Illustrators	美术艺术家
+27-1014.00	Special Effects Artists and Animators	特效艺术家与动画师
+27-1021.00	Commercial and Industrial Designers	商业与工业设计师
+27-1022.00	Fashion Designers	时装设计师
+27-1023.00	Floral Designers	花艺设计师
+27-1024.00	Graphic Designers	平面设计师
+27-1025.00	Interior Designers	室内设计师
+27-1026.00	Merchandise Displayers and Window Trimmers	商品陈列与橱窗设计师
+27-1027.00	Set and Exhibit Designers	舞台与展览设计师
+27-2011.00	Actors	演员
+27-2012.00	Producers and Directors	制片人与导演
+27-2012.03	Media Programming Directors	媒体节目总监
+27-2012.04	Talent Directors	选角导演
+27-2012.05	Media Technical Directors/Managers	媒体技术总监
+27-2021.00	Athletes and Sports Competitors	运动员
+27-2022.00	Coaches and Scouts	教练与球探
+27-2023.00	Umpires, Referees, and Other Sports Officials	裁判与体育赛事官员
+27-2031.00	Dancers	舞蹈演员
+27-2032.00	Choreographers	编舞师
+27-2041.00	Music Directors and Composers	音乐指导与作曲家
+27-2042.00	Musicians and Singers	音乐家与歌手
+27-2091.00	Disc Jockeys, Except Radio	唱片骑师（不含电台）
+27-3011.00	Broadcast Announcers and Radio Disc Jockeys	广播播音员与电台唱片骑师
+27-3023.00	News Analysts, Reporters, and Journalists	新闻分析员、记者与新闻工作者
+27-3031.00	Public Relations Specialists	公共关系专员
+27-3041.00	Editors	编辑
+27-3042.00	Technical Writers	技术文档撰写员
+27-3043.00	Writers and Authors	作家与撰稿人
+27-3043.05	Poets, Lyricists and Creative Writers	诗人、词作者与创意写作者
+27-3091.00	Interpreters and Translators	口译员与笔译员
+27-3092.00	Court Reporters and Simultaneous Captioners	法庭记录员与同步字幕员
+27-4011.00	Audio and Video Technicians	音视频技术员
+27-4012.00	Broadcast Technicians	广播技术员
+27-4014.00	Sound Engineering Technicians	录音工程技术员
+27-4015.00	Lighting Technicians	灯光技术员
+27-4021.00	Photographers	摄影师
+27-4031.00	Camera Operators, Television, Video, and Film	影视摄像师
+27-4032.00	Film and Video Editors	影视剪辑师
+29-1011.00	Chiropractors	脊椎按摩治疗师
+29-1021.00	Dentists, General	普通牙医
+29-1022.00	Oral and Maxillofacial Surgeons	口腔颌面外科医师
+29-1023.00	Orthodontists	正畸科医师
+29-1024.00	Prosthodontists	修复科医师
+29-1031.00	Dietitians and Nutritionists	营养师
+29-1041.00	Optometrists	验光师
+29-1051.00	Pharmacists	药剂师
+29-1071.00	Physician Assistants	医师助理
+29-1071.01	Anesthesiologist Assistants	麻醉医师助理
+29-1081.00	Podiatrists	足病医师
+29-1122.00	Occupational Therapists	职业治疗师
+29-1122.01	Low Vision Therapists, Orientation and Mobility Specialists, and Vision Rehabilitation Therapists	低视力与视觉康复治疗师
+29-1123.00	Physical Therapists	物理治疗师
+29-1124.00	Radiation Therapists	放射治疗师
+29-1125.00	Recreational Therapists	康乐治疗师
+29-1126.00	Respiratory Therapists	呼吸治疗师
+29-1127.00	Speech-Language Pathologists	言语语言病理师
+29-1128.00	Exercise Physiologists	运动生理学家
+29-1129.01	Art Therapists	艺术治疗师
+29-1129.02	Music Therapists	音乐治疗师
+29-1131.00	Veterinarians	兽医
+29-1141.00	Registered Nurses	注册护士
+29-1141.01	Acute Care Nurses	急症护理护士
+29-1141.02	Advanced Practice Psychiatric Nurses	高级精神科执业护士
+29-1141.03	Critical Care Nurses	重症监护护士
+29-1141.04	Clinical Nurse Specialists	临床专科护士
+29-1151.00	Nurse Anesthetists	麻醉护士
+29-1161.00	Nurse Midwives	助产护士
+29-1171.00	Nurse Practitioners	执业护士
+29-1181.00	Audiologists	听力学家
+29-1211.00	Anesthesiologists	麻醉科医师
+29-1212.00	Cardiologists	心脏病科医师
+29-1213.00	Dermatologists	皮肤科医师
+29-1214.00	Emergency Medicine Physicians	急诊科医师
+29-1215.00	Family Medicine Physicians	家庭医学科医师
+29-1216.00	General Internal Medicine Physicians	普通内科医师
+29-1217.00	Neurologists	神经科医师
+29-1218.00	Obstetricians and Gynecologists	妇产科医师
+29-1221.00	Pediatricians, General	普通儿科医师
+29-1222.00	Physicians, Pathologists	病理科医师
+29-1223.00	Psychiatrists	精神科医师
+29-1224.00	Radiologists	放射科医师
+29-1229.01	Allergists and Immunologists	过敏与免疫科医师
+29-1229.02	Hospitalists	住院医师
+29-1229.03	Urologists	泌尿科医师
+29-1229.04	Physical Medicine and Rehabilitation Physicians	康复医学科医师
+29-1229.05	Preventive Medicine Physicians	预防医学科医师
+29-1229.06	Sports Medicine Physicians	运动医学科医师
+29-1241.00	Ophthalmologists, Except Pediatric	眼科医师（不含儿科）
+29-1242.00	Orthopedic Surgeons, Except Pediatric	骨科医师（不含儿科）
+29-1243.00	Pediatric Surgeons	小儿外科医师
+29-1291.00	Acupuncturists	针灸师
+29-1292.00	Dental Hygienists	牙科保健师
+29-1299.01	Naturopathic Physicians	自然疗法医师
+29-1299.02	Orthoptists	视觉矫正师
+29-2011.00	Medical and Clinical Laboratory Technologists	医学检验技师
+29-2011.01	Cytogenetic Technologists	细胞遗传学技师
+29-2011.02	Cytotechnologists	细胞学技师
+29-2011.04	Histotechnologists	组织学技师
+29-2012.00	Medical and Clinical Laboratory Technicians	医学检验技术员
+29-2012.01	Histology Technicians	组织学技术员
+29-2031.00	Cardiovascular Technologists and Technicians	心血管技师与技术员
+29-2032.00	Diagnostic Medical Sonographers	医学超声诊断技师
+29-2033.00	Nuclear Medicine Technologists	核医学技师
+29-2034.00	Radiologic Technologists and Technicians	放射技师与技术员
+29-2035.00	Magnetic Resonance Imaging Technologists	磁共振成像技师
+29-2036.00	Medical Dosimetrists	医学剂量师
+29-2042.00	Emergency Medical Technicians	急救医疗技术员
+29-2043.00	Paramedics	急救护理员
+29-2051.00	Dietetic Technicians	营养技术员
+29-2052.00	Pharmacy Technicians	药剂技术员
+29-2053.00	Psychiatric Technicians	精神科技术员
+29-2055.00	Surgical Technologists	外科手术技师
+29-2056.00	Veterinary Technologists and Technicians	兽医技师与技术员
+29-2057.00	Ophthalmic Medical Technicians	眼科医学技术员
+29-2061.00	Licensed Practical and Licensed Vocational Nurses	执业实习护士
+29-2072.00	Medical Records Specialists	病历管理专员
+29-2081.00	Opticians, Dispensing	配镜师
+29-2091.00	Orthotists and Prosthetists	矫形器与假肢师
+29-2092.00	Hearing Aid Specialists	助听器专员
+29-2099.01	Neurodiagnostic Technologists	神经诊断技师
+29-2099.05	Ophthalmic Medical Technologists	眼科医学技师
+29-2099.08	Patient Representatives	患者代表
+29-9021.00	Health Information Technologists and Medical Registrars	健康信息技术员与医疗登记员
+29-9091.00	Athletic Trainers	运动训练师
+29-9092.00	Genetic Counselors	遗传咨询师
+29-9093.00	Surgical Assistants	外科助理
+29-9099.01	Midwives	助产士
+31-1121.00	Home Health Aides	居家健康助理
+31-1122.00	Personal Care Aides	个人护理员
+31-1131.00	Nursing Assistants	护理助理
+31-1132.00	Orderlies	医院护工
+31-1133.00	Psychiatric Aides	精神科护理员
+31-2011.00	Occupational Therapy Assistants	职业治疗助理
+31-2012.00	Occupational Therapy Aides	职业治疗护工
+31-2021.00	Physical Therapist Assistants	物理治疗助理
+31-2022.00	Physical Therapist Aides	物理治疗护工
+31-9011.00	Massage Therapists	按摩治疗师
+31-9091.00	Dental Assistants	牙科助理
+31-9092.00	Medical Assistants	医疗助理
+31-9093.00	Medical Equipment Preparers	医疗器械准备员
+31-9094.00	Medical Transcriptionists	医疗转录员
+31-9095.00	Pharmacy Aides	药房助理
+31-9096.00	Veterinary Assistants and Laboratory Animal Caretakers	兽医助理与实验动物饲养员
+31-9097.00	Phlebotomists	采血员
+31-9099.01	Speech-Language Pathology Assistants	言语语言病理助理
+31-9099.02	Endoscopy Technicians	内镜技师
+33-1011.00	First-Line Supervisors of Correctional Officers	狱警一线主管
+33-1012.00	First-Line Supervisors of Police and Detectives	警察与侦探一线主管
+33-1021.00	First-Line Supervisors of Firefighting and Prevention Workers	消防与预防人员一线主管
+33-1091.00	First-Line Supervisors of Security Workers	安保人员一线主管
+33-2011.00	Firefighters	消防员
+33-2021.00	Fire Inspectors and Investigators	消防检查员与调查员
+33-2022.00	Forest Fire Inspectors and Prevention Specialists	森林火灾检查与预防专员
+33-3011.00	Bailiffs	法警
+33-3012.00	Correctional Officers and Jailers	监狱看守与狱警
+33-3021.00	Detectives and Criminal Investigators	侦探与刑事调查员
+33-3021.02	Police Identification and Records Officers	警察鉴识与档案员
+33-3021.06	Intelligence Analysts	情报分析员
+33-3031.00	Fish and Game Wardens	渔猎管理员
+33-3041.00	Parking Enforcement Workers	停车执法员
+33-3051.00	Police and Sheriff's Patrol Officers	警察与治安官巡警
+33-3051.04	Customs and Border Protection Officers	海关与边境保护官员
+33-3052.00	Transit and Railroad Police	交通与铁路警察
+33-9011.00	Animal Control Workers	动物管控员
+33-9021.00	Private Detectives and Investigators	私人侦探与调查员
+33-9031.00	Gambling Surveillance Officers and Gambling Investigators	博彩监控与调查员
+33-9032.00	Security Guards	保安
+33-9091.00	Crossing Guards and Flaggers	过路护卫与交通指挥员
+33-9092.00	Lifeguards, Ski Patrol, and Other Recreational Protective Service Workers	救生员与滑雪巡逻等休闲保护人员
+33-9093.00	Transportation Security Screeners	交通安检员
+33-9094.00	School Bus Monitors	校车监督员
+33-9099.02	Retail Loss Prevention Specialists	零售防损专员
+35-1011.00	Chefs and Head Cooks	厨师长与主厨
+35-1012.00	First-Line Supervisors of Food Preparation and Serving Workers	餐饮制作与服务人员一线主管
+35-2011.00	Cooks, Fast Food	快餐厨师
+35-2012.00	Cooks, Institution and Cafeteria	机构与食堂厨师
+35-2013.00	Cooks, Private Household	私人家庭厨师
+35-2014.00	Cooks, Restaurant	餐厅厨师
+35-2015.00	Cooks, Short Order	快餐简餐厨师
+35-2021.00	Food Preparation Workers	食品制作员
+35-3011.00	Bartenders	调酒师
+35-3023.00	Fast Food and Counter Workers	快餐与柜台服务员
+35-3023.01	Baristas	咖啡师
+35-3031.00	Waiters and Waitresses	服务员
+35-3041.00	Food Servers, Nonrestaurant	非餐厅送餐员
+35-9011.00	Dining Room and Cafeteria Attendants and Bartender Helpers	餐厅食堂服务员与调酒助理
+35-9021.00	Dishwashers	洗碗工
+35-9031.00	Hosts and Hostesses, Restaurant, Lounge, and Coffee Shop	餐厅酒廊咖啡厅接待员
+37-1011.00	First-Line Supervisors of Housekeeping and Janitorial Workers	客房清洁人员一线主管
+37-1012.00	First-Line Supervisors of Landscaping, Lawn Service, and Groundskeeping Workers	园艺草坪养护人员一线主管
+37-2011.00	Janitors and Cleaners, Except Maids and Housekeeping Cleaners	门卫与清洁工
+37-2012.00	Maids and Housekeeping Cleaners	客房清洁工
+37-2021.00	Pest Control Workers	害虫防治员
+37-3011.00	Landscaping and Groundskeeping Workers	园艺与场地养护工
+37-3012.00	Pesticide Handlers, Sprayers, and Applicators, Vegetation	植物农药喷洒操作员
+37-3013.00	Tree Trimmers and Pruners	树木修剪工
+39-1013.00	First-Line Supervisors of Gambling Services Workers	博彩服务人员一线主管
+39-1014.00	First-Line Supervisors of Entertainment and Recreation Workers, Except Gambling Services	娱乐休闲人员一线主管
+39-1022.00	First-Line Supervisors of Personal Service Workers	个人服务人员一线主管
+39-2011.00	Animal Trainers	动物训练师
+39-2021.00	Animal Caretakers	动物饲养员
+39-3011.00	Gambling Dealers	发牌员
+39-3012.00	Gambling and Sports Book Writers and Runners	博彩登记员与跑单员
+39-3021.00	Motion Picture Projectionists	电影放映员
+39-3031.00	Ushers, Lobby Attendants, and Ticket Takers	引座员与检票员
+39-3091.00	Amusement and Recreation Attendants	娱乐休闲场所服务员
+39-3092.00	Costume Attendants	服装管理员
+39-3093.00	Locker Room, Coatroom, and Dressing Room Attendants	更衣室衣帽间服务员
+39-4011.00	Embalmers	遗体防腐师
+39-4012.00	Crematory Operators	火化场操作员
+39-4021.00	Funeral Attendants	殡仪服务员
+39-4031.00	Morticians, Undertakers, and Funeral Arrangers	殡葬师与殡葬策划人
+39-5011.00	Barbers	理发师
+39-5012.00	Hairdressers, Hairstylists, and Cosmetologists	美发师与美容师
+39-5091.00	Makeup Artists, Theatrical and Performance	舞台表演化妆师
+39-5092.00	Manicurists and Pedicurists	美甲美足师
+39-5093.00	Shampooers	洗发员
+39-5094.00	Skincare Specialists	皮肤护理专员
+39-6011.00	Baggage Porters and Bellhops	行李员
+39-6012.00	Concierges	礼宾员
+39-7011.00	Tour Guides and Escorts	导游与随行向导
+39-7012.00	Travel Guides	旅行向导
+39-9011.00	Childcare Workers	儿童看护员
+39-9011.01	Nannies	保姆
+39-9031.00	Exercise Trainers and Group Fitness Instructors	健身教练与团体健身指导员
+39-9032.00	Recreation Workers	休闲活动工作者
+39-9041.00	Residential Advisors	住宿辅导员
+41-1011.00	First-Line Supervisors of Retail Sales Workers	零售销售人员一线主管
+41-1012.00	First-Line Supervisors of Non-Retail Sales Workers	非零售销售人员一线主管
+41-2011.00	Cashiers	收银员
+41-2012.00	Gambling Change Persons and Booth Cashiers	博彩兑换与柜台收银员
+41-2021.00	Counter and Rental Clerks	柜台与租赁服务员
+41-2022.00	Parts Salespersons	零配件销售员
+41-2031.00	Retail Salespersons	零售销售员
+41-3011.00	Advertising Sales Agents	广告销售代理
+41-3021.00	Insurance Sales Agents	保险销售代理
+41-3031.00	Securities, Commodities, and Financial Services Sales Agents	证券商品与金融服务销售代理
+41-3041.00	Travel Agents	旅行代理人
+41-3091.00	Sales Representatives of Services, Except Advertising, Insurance, Financial Services, and Travel	其他服务业销售代表
+41-4011.00	Sales Representatives, Wholesale and Manufacturing, Technical and Scientific Products	批发制造业技术科学产品销售代表
+41-4011.07	Solar Sales Representatives and Assessors	太阳能销售代表与评估员
+41-4012.00	Sales Representatives, Wholesale and Manufacturing, Except Technical and Scientific Products	批发制造业非技术产品销售代表
+41-9011.00	Demonstrators and Product Promoters	产品演示与促销员
+41-9012.00	Models	模特
+41-9021.00	Real Estate Brokers	房地产经纪人
+41-9022.00	Real Estate Sales Agents	房地产销售代理
+41-9031.00	Sales Engineers	销售工程师
+41-9041.00	Telemarketers	电话推销员
+41-9091.00	Door-to-Door Sales Workers, News and Street Vendors, and Related Workers	上门推销与街头报贩等销售人员
+43-1011.00	First-Line Supervisors of Office and Administrative Support Workers	办公行政支持人员一线主管
+43-2011.00	Switchboard Operators, Including Answering Service	总机接线员
+43-2021.00	Telephone Operators	电话接线员
+43-3011.00	Bill and Account Collectors	账款催收员
+43-3021.00	Billing and Posting Clerks	账单与过账文员
+43-3031.00	Bookkeeping, Accounting, and Auditing Clerks	记账会计与审计文员
+43-3041.00	Gambling Cage Workers	博彩兑付柜台员
+43-3051.00	Payroll and Timekeeping Clerks	薪资与计时文员
+43-3061.00	Procurement Clerks	采购文员
+43-3071.00	Tellers	银行柜员
+43-4011.00	Brokerage Clerks	证券经纪文员
+43-4021.00	Correspondence Clerks	函件处理文员
+43-4031.00	Court, Municipal, and License Clerks	法院市政与执照文员
+43-4041.00	Credit Authorizers, Checkers, and Clerks	信用审核与文员
+43-4051.00	Customer Service Representatives	客户服务代表
+43-4061.00	Eligibility Interviewers, Government Programs	政府项目资格审核员
+43-4071.00	File Clerks	档案文员
+43-4081.00	Hotel, Motel, and Resort Desk Clerks	酒店前台接待员
+43-4111.00	Interviewers, Except Eligibility and Loan	调查访问员
+43-4121.00	Library Assistants, Clerical	图书馆文员助理
+43-4131.00	Loan Interviewers and Clerks	贷款审核员与文员
+43-4141.00	New Accounts Clerks	新开户文员
+43-4151.00	Order Clerks	订单处理文员
+43-4161.00	Human Resources Assistants, Except Payroll and Timekeeping	人力资源助理
+43-4171.00	Receptionists and Information Clerks	接待与信息咨询员
+43-4181.00	Reservation and Transportation Ticket Agents and Travel Clerks	预订与客运票务文员
+43-5011.00	Cargo and Freight Agents	货运代理
+43-5011.01	Freight Forwarders	货运代理人
+43-5021.00	Couriers and Messengers	快递与信使
+43-5031.00	Public Safety Telecommunicators	公共安全调度员
+43-5032.00	Dispatchers, Except Police, Fire, and Ambulance	调度员（非警消救护）
+43-5041.00	Meter Readers, Utilities	公用设施抄表员
+43-5051.00	Postal Service Clerks	邮政柜台员
+43-5052.00	Postal Service Mail Carriers	邮递员
+43-5053.00	Postal Service Mail Sorters, Processors, and Processing Machine Operators	邮件分拣与处理操作员
+43-5061.00	Production, Planning, and Expediting Clerks	生产计划与催料文员
+43-5071.00	Shipping, Receiving, and Inventory Clerks	收发货与库存文员
+43-5111.00	Weighers, Measurers, Checkers, and Samplers, Recordkeeping	计量检验与记录员
+43-6011.00	Executive Secretaries and Executive Administrative Assistants	行政秘书与高级行政助理
+43-6012.00	Legal Secretaries and Administrative Assistants	法律秘书与行政助理
+43-6013.00	Medical Secretaries and Administrative Assistants	医疗秘书与行政助理
+43-6014.00	Secretaries and Administrative Assistants, Except Legal, Medical, and Executive	秘书与行政助理
+43-9021.00	Data Entry Keyers	数据录入员
+43-9022.00	Word Processors and Typists	文字处理员与打字员
+43-9031.00	Desktop Publishers	桌面排版员
+43-9041.00	Insurance Claims and Policy Processing Clerks	保险理赔与保单处理文员
+43-9051.00	Mail Clerks and Mail Machine Operators, Except Postal Service	邮件文员与邮件机操作员
+43-9061.00	Office Clerks, General	普通办公文员
+43-9071.00	Office Machine Operators, Except Computer	办公机器操作员
+43-9081.00	Proofreaders and Copy Markers	校对员
+43-9111.00	Statistical Assistants	统计助理
+45-1011.00	First-Line Supervisors of Farming, Fishing, and Forestry Workers	农林渔业人员一线主管
+45-2011.00	Agricultural Inspectors	农业检查员
+45-2021.00	Animal Breeders	动物繁育员
+45-2041.00	Graders and Sorters, Agricultural Products	农产品分级分拣员
+45-2091.00	Agricultural Equipment Operators	农业设备操作员
+45-2092.00	Farmworkers and Laborers, Crop, Nursery, and Greenhouse	农田苗圃温室农工
+45-2093.00	Farmworkers, Farm, Ranch, and Aquacultural Animals	农场牧场水产养殖工
+45-3031.00	Fishing and Hunting Workers	渔猎工作者
+45-4011.00	Forest and Conservation Workers	森林与资源保护工
+45-4021.00	Fallers	伐木工
+45-4022.00	Logging Equipment Operators	伐木设备操作员
+45-4023.00	Log Graders and Scalers	原木检验分级员
+47-1011.00	First-Line Supervisors of Construction Trades and Extraction Workers	建筑与采掘业一线主管
+47-1011.03	Solar Energy Installation Managers	太阳能安装经理
+47-2011.00	Boilermakers	锅炉制造工
+47-2021.00	Brickmasons and Blockmasons	砖瓦与砌块工
+47-2022.00	Stonemasons	石匠
+47-2031.00	Carpenters	木工
+47-2041.00	Carpet Installers	地毯安装工
+47-2042.00	Floor Layers, Except Carpet, Wood, and Hard Tiles	地面铺设工
+47-2043.00	Floor Sanders and Finishers	地板打磨修整工
+47-2044.00	Tile and Stone Setters	瓷砖与石材铺装工
+47-2051.00	Cement Masons and Concrete Finishers	水泥工与混凝土修整工
+47-2053.00	Terrazzo Workers and Finishers	水磨石工
+47-2061.00	Construction Laborers	建筑工
+47-2071.00	Paving, Surfacing, and Tamping Equipment Operators	铺路压实设备操作员
+47-2072.00	Pile Driver Operators	打桩机操作员
+47-2073.00	Operating Engineers and Other Construction Equipment Operators	工程机械与建筑设备操作员
+47-2081.00	Drywall and Ceiling Tile Installers	石膏板与吊顶安装工
+47-2082.00	Tapers	石膏板接缝工
+47-2111.00	Electricians	电工
+47-2121.00	Glaziers	玻璃安装工
+47-2131.00	Insulation Workers, Floor, Ceiling, and Wall	地面天花墙体隔热工
+47-2132.00	Insulation Workers, Mechanical	机械设备隔热工
+47-2141.00	Painters, Construction and Maintenance	建筑维修油漆工
+47-2142.00	Paperhangers	墙纸裱贴工
+47-2151.00	Pipelayers	管道铺设工
+47-2152.00	Plumbers, Pipefitters, and Steamfitters	管道工与暖气管装配工
+47-2152.04	Solar Thermal Installers and Technicians	太阳能热水安装技工
+47-2161.00	Plasterers and Stucco Masons	抹灰工与装饰灰泥工
+47-2171.00	Reinforcing Iron and Rebar Workers	钢筋工
+47-2181.00	Roofers	屋顶工
+47-2211.00	Sheet Metal Workers	钣金工
+47-2221.00	Structural Iron and Steel Workers	结构钢铁工
+47-2231.00	Solar Photovoltaic Installers	太阳能光伏安装工
+47-3011.00	Helpers--Brickmasons, Blockmasons, Stonemasons, and Tile and Marble Setters	砌筑石材瓷砖工助理
+47-3012.00	Helpers--Carpenters	木工助理
+47-3013.00	Helpers--Electricians	电工助理
+47-3014.00	Helpers--Painters, Paperhangers, Plasterers, and Stucco Masons	油漆裱糊抹灰工助理
+47-3015.00	Helpers--Pipelayers, Plumbers, Pipefitters, and Steamfitters	管道工助理
+47-3016.00	Helpers--Roofers	屋顶工助理
+47-4011.00	Construction and Building Inspectors	建筑施工检查员
+47-4011.01	Energy Auditors	能源审计员
+47-4021.00	Elevator and Escalator Installers and Repairers	电梯与扶梯安装维修工
+47-4031.00	Fence Erectors	围栏安装工
+47-4041.00	Hazardous Materials Removal Workers	危险品清除工
+47-4051.00	Highway Maintenance Workers	公路养护工
+47-4061.00	Rail-Track Laying and Maintenance Equipment Operators	铁路轨道铺设养护设备操作员
+47-4071.00	Septic Tank Servicers and Sewer Pipe Cleaners	化粪池与污水管清理工
+47-4091.00	Segmental Pavers	联锁铺路工
+47-4099.03	Weatherization Installers and Technicians	建筑节能改造技工
+47-5011.00	Derrick Operators, Oil and Gas	石油天然气井架操作员
+47-5012.00	Rotary Drill Operators, Oil and Gas	石油天然气旋转钻机操作员
+47-5013.00	Service Unit Operators, Oil and Gas	石油天然气作业车操作员
+47-5022.00	Excavating and Loading Machine and Dragline Operators, Surface Mining	露天采矿挖掘装载机操作员
+47-5023.00	Earth Drillers, Except Oil and Gas	地质钻探工
+47-5032.00	Explosives Workers, Ordnance Handling Experts, and Blasters	爆破与军械处理工
+47-5041.00	Continuous Mining Machine Operators	连续采煤机操作员
+47-5043.00	Roof Bolters, Mining	矿用顶板锚固工
+47-5044.00	Loading and Moving Machine Operators, Underground Mining	地下矿装运机操作员
+47-5051.00	Rock Splitters, Quarry	采石场劈石工
+47-5071.00	Roustabouts, Oil and Gas	石油天然气杂工
+47-5081.00	Helpers--Extraction Workers	采掘工助理
+49-1011.00	First-Line Supervisors of Mechanics, Installers, and Repairers	维修安装人员一线主管
+49-2011.00	Computer, Automated Teller, and Office Machine Repairers	计算机自助柜员机及办公设备维修工
+49-2021.00	Radio, Cellular, and Tower Equipment Installers and Repairers	无线通信铁塔设备安装维修工
+49-2022.00	Telecommunications Equipment Installers and Repairers, Except Line Installers	电信设备安装维修工
+49-2091.00	Avionics Technicians	航空电子技师
+49-2092.00	Electric Motor, Power Tool, and Related Repairers	电动机与电动工具维修工
+49-2093.00	Electrical and Electronics Installers and Repairers, Transportation Equipment	交通设备电气电子安装维修工
+49-2094.00	Electrical and Electronics Repairers, Commercial and Industrial Equipment	商用工业设备电气电子维修工
+49-2095.00	Electrical and Electronics Repairers, Powerhouse, Substation, and Relay	发电站变电站继电设备维修工
+49-2096.00	Electronic Equipment Installers and Repairers, Motor Vehicles	汽车电子设备安装维修工
+49-2097.00	Audiovisual Equipment Installers and Repairers	音视频设备安装维修工
+49-2098.00	Security and Fire Alarm Systems Installers	安防与火警系统安装工
+49-3011.00	Aircraft Mechanics and Service Technicians	飞机机械维护技师
+49-3021.00	Automotive Body and Related Repairers	汽车车身维修工
+49-3022.00	Automotive Glass Installers and Repairers	汽车玻璃安装维修工
+49-3023.00	Automotive Service Technicians and Mechanics	汽车维修技师
+49-3031.00	Bus and Truck Mechanics and Diesel Engine Specialists	客货车与柴油发动机维修技师
+49-3041.00	Farm Equipment Mechanics and Service Technicians	农机维修技师
+49-3042.00	Mobile Heavy Equipment Mechanics, Except Engines	移动重型设备维修工
+49-3043.00	Rail Car Repairers	铁路车辆维修工
+49-3051.00	Motorboat Mechanics and Service Technicians	摩托艇维修技师
+49-3052.00	Motorcycle Mechanics	摩托车维修工
+49-3053.00	Outdoor Power Equipment and Other Small Engine Mechanics	户外动力设备与小型发动机维修工
+49-3091.00	Bicycle Repairers	自行车维修工
+49-3092.00	Recreational Vehicle Service Technicians	休闲车维修技师
+49-3093.00	Tire Repairers and Changers	轮胎维修与更换工
+49-9011.00	Mechanical Door Repairers	机械门维修工
+49-9012.00	Control and Valve Installers and Repairers, Except Mechanical Door	控制阀安装维修工
+49-9021.00	Heating, Air Conditioning, and Refrigeration Mechanics and Installers	暖通空调与制冷维修安装工
+49-9031.00	Home Appliance Repairers	家用电器维修工
+49-9041.00	Industrial Machinery Mechanics	工业机械维修工
+49-9043.00	Maintenance Workers, Machinery	机械维护工
+49-9044.00	Millwrights	机械安装调试工
+49-9045.00	Refractory Materials Repairers, Except Brickmasons	耐火材料修补工
+49-9051.00	Electrical Power-Line Installers and Repairers	电力线路安装维修工
+49-9052.00	Telecommunications Line Installers and Repairers	电信线路安装维修工
+49-9061.00	Camera and Photographic Equipment Repairers	相机及摄影器材维修工
+49-9062.00	Medical Equipment Repairers	医疗设备维修工
+49-9063.00	Musical Instrument Repairers and Tuners	乐器维修与调音师
+49-9064.00	Watch and Clock Repairers	钟表维修工
+49-9071.00	Maintenance and Repair Workers, General	普通维修工
+49-9081.00	Wind Turbine Service Technicians	风力发电机维修技师
+49-9091.00	Coin, Vending, and Amusement Machine Servicers and Repairers	投币自助与游艺机维修工
+49-9092.00	Commercial Divers	商业潜水员
+49-9094.00	Locksmiths and Safe Repairers	锁匠与保险柜维修工
+49-9095.00	Manufactured Building and Mobile Home Installers	预制房屋与活动房安装工
+49-9096.00	Riggers	索具装配工
+49-9097.00	Signal and Track Switch Repairers	信号与道岔维修工
+49-9098.00	Helpers--Installation, Maintenance, and Repair Workers	安装维修工助理
+49-9099.01	Geothermal Technicians	地热技师
+51-1011.00	First-Line Supervisors of Production and Operating Workers	生产操作人员一线主管
+51-2011.00	Aircraft Structure, Surfaces, Rigging, and Systems Assemblers	飞机结构与系统装配工
+51-2021.00	Coil Winders, Tapers, and Finishers	线圈绕制与包覆工
+51-2022.00	Electrical and Electronic Equipment Assemblers	电气电子设备装配工
+51-2023.00	Electromechanical Equipment Assemblers	电机设备装配工
+51-2031.00	Engine and Other Machine Assemblers	发动机与机械装配工
+51-2041.00	Structural Metal Fabricators and Fitters	结构金属制作与装配工
+51-2051.00	Fiberglass Laminators and Fabricators	玻璃纤维层压制作工
+51-2061.00	Timing Device Assemblers and Adjusters	计时装置装配调校工
+51-2092.00	Team Assemblers	班组装配工
+51-3011.00	Bakers	烘焙师
+51-3021.00	Butchers and Meat Cutters	屠夫与肉类切割工
+51-3022.00	Meat, Poultry, and Fish Cutters and Trimmers	肉禽鱼类切割修整工
+51-3023.00	Slaughterers and Meat Packers	屠宰与肉类包装工
+51-3091.00	Food and Tobacco Roasting, Baking, and Drying Machine Operators and Tenders	食品烟草烘烤干燥机操作员
+51-3092.00	Food Batchmakers	食品配料制作工
+51-3093.00	Food Cooking Machine Operators and Tenders	食品蒸煮机操作员
+51-4021.00	Extruding and Drawing Machine Setters, Operators, and Tenders, Metal and Plastic	金属塑料挤压拉伸机操作员
+51-4022.00	Forging Machine Setters, Operators, and Tenders, Metal and Plastic	金属塑料锻压机操作员
+51-4023.00	Rolling Machine Setters, Operators, and Tenders, Metal and Plastic	金属塑料轧制机操作员
+51-4031.00	Cutting, Punching, and Press Machine Setters, Operators, and Tenders, Metal and Plastic	金属塑料切冲压机操作员
+51-4032.00	Drilling and Boring Machine Tool Setters, Operators, and Tenders, Metal and Plastic	金属塑料钻孔镗床操作员
+51-4033.00	Grinding, Lapping, Polishing, and Buffing Machine Tool Setters, Operators, and Tenders, Metal and Plastic	金属塑料磨削抛光机操作员
+51-4034.00	Lathe and Turning Machine Tool Setters, Operators, and Tenders, Metal and Plastic	金属塑料车床操作员
+51-4035.00	Milling and Planing Machine Setters, Operators, and Tenders, Metal and Plastic	金属塑料铣刨床操作员
+51-4041.00	Machinists	机械加工工
+51-4051.00	Metal-Refining Furnace Operators and Tenders	金属精炼炉操作员
+51-4052.00	Pourers and Casters, Metal	金属浇铸工
+51-4061.00	Model Makers, Metal and Plastic	金属塑料模型制作工
+51-4062.00	Patternmakers, Metal and Plastic	金属塑料制模工
+51-4071.00	Foundry Mold and Coremakers	铸造造型制芯工
+51-4072.00	Molding, Coremaking, and Casting Machine Setters, Operators, and Tenders, Metal and Plastic	金属塑料制模制芯铸造机操作员
+51-4081.00	Multiple Machine Tool Setters, Operators, and Tenders, Metal and Plastic	金属塑料多机床操作员
+51-4111.00	Tool and Die Makers	工具与模具制造工
+51-4121.00	Welders, Cutters, Solderers, and Brazers	焊工与钎焊工
+51-4122.00	Welding, Soldering, and Brazing Machine Setters, Operators, and Tenders	焊接钎焊机操作员
+51-4191.00	Heat Treating Equipment Setters, Operators, and Tenders, Metal and Plastic	金属塑料热处理设备操作员
+51-4192.00	Layout Workers, Metal and Plastic	金属塑料划线工
+51-4193.00	Plating Machine Setters, Operators, and Tenders, Metal and Plastic	金属塑料电镀机操作员
+51-4194.00	Tool Grinders, Filers, and Sharpeners	工具刃磨工
+51-5111.00	Prepress Technicians and Workers	印前技师
+51-5112.00	Printing Press Operators	印刷机操作员
+51-5113.00	Print Binding and Finishing Workers	印刷装订加工工
+51-6011.00	Laundry and Dry-Cleaning Workers	洗衣与干洗工
+51-6021.00	Pressers, Textile, Garment, and Related Materials	纺织服装熨烫工
+51-6031.00	Sewing Machine Operators	缝纫机操作员
+51-6041.00	Shoe and Leather Workers and Repairers	鞋类皮革制作维修工
+51-6042.00	Shoe Machine Operators and Tenders	制鞋机操作员
+51-6051.00	Sewers, Hand	手工缝制工
+51-6052.00	Tailors, Dressmakers, and Custom Sewers	裁缝与定制缝纫师
+51-6061.00	Textile Bleaching and Dyeing Machine Operators and Tenders	纺织漂染机操作员
+51-6062.00	Textile Cutting Machine Setters, Operators, and Tenders	纺织裁剪机操作员
+51-6063.00	Textile Knitting and Weaving Machine Setters, Operators, and Tenders	纺织针织编织机操作员
+51-6064.00	Textile Winding, Twisting, and Drawing Out Machine Setters, Operators, and Tenders	纺织络纱并线牵伸机操作员
+51-6091.00	Extruding and Forming Machine Setters, Operators, and Tenders, Synthetic and Glass Fibers	合成玻璃纤维挤出成型机操作员
+51-6092.00	Fabric and Apparel Patternmakers	服装纸样设计师
+51-6093.00	Upholsterers	室内装潢工
+51-7011.00	Cabinetmakers and Bench Carpenters	橱柜制作与细木工
+51-7021.00	Furniture Finishers	家具修饰工
+51-7031.00	Model Makers, Wood	木模型制作工
+51-7032.00	Patternmakers, Wood	木制模具工
+51-7041.00	Sawing Machine Setters, Operators, and Tenders, Wood	木材锯切机操作员
+51-7042.00	Woodworking Machine Setters, Operators, and Tenders, Except Sawing	木工机床操作员
+51-8011.00	Nuclear Power Reactor Operators	核反应堆操作员
+51-8012.00	Power Distributors and Dispatchers	电力调度员
+51-8013.00	Power Plant Operators	发电厂操作员
+51-8013.03	Biomass Plant Technicians	生物质电厂技师
+51-8013.04	Hydroelectric Plant Technicians	水电站技师
+51-8021.00	Stationary Engineers and Boiler Operators	固定设备工程师与锅炉操作员
+51-8031.00	Water and Wastewater Treatment Plant and System Operators	水处理与污水处理厂操作员
+51-8091.00	Chemical Plant and System Operators	化工厂操作员
+51-8092.00	Gas Plant Operators	燃气厂操作员
+51-8093.00	Petroleum Pump System Operators, Refinery Operators, and Gaugers	石油泵站与炼油厂操作员
+51-8099.01	Biofuels Processing Technicians	生物燃料加工技师
+51-9011.00	Chemical Equipment Operators and Tenders	化工设备操作员
+51-9012.00	Separating, Filtering, Clarifying, Precipitating, and Still Machine Setters, Operators, and Tenders	分离过滤澄清蒸馏设备操作员
+51-9021.00	Crushing, Grinding, and Polishing Machine Setters, Operators, and Tenders	破碎研磨抛光机操作员
+51-9022.00	Grinding and Polishing Workers, Hand	手工研磨抛光工
+51-9023.00	Mixing and Blending Machine Setters, Operators, and Tenders	混合搅拌机操作员
+51-9031.00	Cutters and Trimmers, Hand	手工切割修整工
+51-9032.00	Cutting and Slicing Machine Setters, Operators, and Tenders	切割切片机操作员
+51-9041.00	Extruding, Forming, Pressing, and Compacting Machine Setters, Operators, and Tenders	挤出成型压制机操作员
+51-9051.00	Furnace, Kiln, Oven, Drier, and Kettle Operators and Tenders	炉窑烘干锅操作员
+51-9061.00	Inspectors, Testers, Sorters, Samplers, and Weighers	检验测试分拣计量员
+51-9071.00	Jewelers and Precious Stone and Metal Workers	珠宝与贵金属加工工
+51-9071.06	Gem and Diamond Workers	宝石钻石加工工
+51-9081.00	Dental Laboratory Technicians	牙科技工
+51-9082.00	Medical Appliance Technicians	医疗器具技工
+51-9083.00	Ophthalmic Laboratory Technicians	眼镜实验室技工
+51-9111.00	Packaging and Filling Machine Operators and Tenders	包装灌装机操作员
+51-9123.00	Painting, Coating, and Decorating Workers	涂装与装饰工
+51-9124.00	Coating, Painting, and Spraying Machine Setters, Operators, and Tenders	涂覆喷涂机操作员
+51-9141.00	Semiconductor Processing Technicians	半导体加工技师
+51-9151.00	Photographic Process Workers and Processing Machine Operators	摄影处理工与处理机操作员
+51-9161.00	Computer Numerically Controlled Tool Operators	数控机床操作员
+51-9162.00	Computer Numerically Controlled Tool Programmers	数控机床编程员
+51-9191.00	Adhesive Bonding Machine Operators and Tenders	粘合机操作员
+51-9192.00	Cleaning, Washing, and Metal Pickling Equipment Operators and Tenders	清洗酸洗设备操作员
+51-9193.00	Cooling and Freezing Equipment Operators and Tenders	冷却冷冻设备操作员
+51-9194.00	Etchers and Engravers	蚀刻与雕刻工
+51-9195.00	Molders, Shapers, and Casters, Except Metal and Plastic	成型铸造工
+51-9195.03	Stone Cutters and Carvers, Manufacturing	石材切割雕刻工
+51-9195.04	Glass Blowers, Molders, Benders, and Finishers	玻璃吹制成型加工工
+51-9195.05	Potters, Manufacturing	陶瓷制作工
+51-9196.00	Paper Goods Machine Setters, Operators, and Tenders	纸制品加工机操作员
+51-9197.00	Tire Builders	轮胎制造工
+51-9198.00	Helpers--Production Workers	生产工人助理
+53-1041.00	Aircraft Cargo Handling Supervisors	航空货物装卸主管
+53-1042.00	First-Line Supervisors of Helpers, Laborers, and Material Movers, Hand	搬运装卸人员一线主管
+53-1042.01	Recycling Coordinators	回收协调员
+53-1043.00	First-Line Supervisors of Material-Moving Machine and Vehicle Operators	物料搬运机械车辆操作人员一线主管
+53-1044.00	First-Line Supervisors of Passenger Attendants	乘务人员一线主管
+53-2011.00	Airline Pilots, Copilots, and Flight Engineers	航空公司机长副驾驶与随机工程师
+53-2012.00	Commercial Pilots	商业飞行员
+53-2021.00	Air Traffic Controllers	空中交通管制员
+53-2022.00	Airfield Operations Specialists	机场场务专员
+53-2031.00	Flight Attendants	空乘人员
+53-3011.00	Ambulance Drivers and Attendants, Except Emergency Medical Technicians	救护车司机与随车人员
+53-3031.00	Driver/Sales Workers	送货销售员
+53-3032.00	Heavy and Tractor-Trailer Truck Drivers	重型及拖挂卡车司机
+53-3033.00	Light Truck Drivers	轻型卡车司机
+53-3051.00	Bus Drivers, School	校车司机
+53-3052.00	Bus Drivers, Transit and Intercity	公交与城际客车司机
+53-3053.00	Shuttle Drivers and Chauffeurs	班车司机与专职司机
+53-3054.00	Taxi Drivers	出租车司机
+53-4011.00	Locomotive Engineers	机车司机
+53-4013.00	Rail Yard Engineers, Dinkey Operators, and Hostlers	调车场机车操作员
+53-4022.00	Railroad Brake, Signal, and Switch Operators and Locomotive Firers	铁路制动信号道岔操作员
+53-4031.00	Railroad Conductors and Yardmasters	列车长与调车场主管
+53-4041.00	Subway and Streetcar Operators	地铁与有轨电车司机
+53-5011.00	Sailors and Marine Oilers	水手与轮机加油工
+53-5021.00	Captains, Mates, and Pilots of Water Vessels	船长大副与引航员
+53-5022.00	Motorboat Operators	摩托艇驾驶员
+53-5031.00	Ship Engineers	船舶轮机员
+53-6011.00	Bridge and Lock Tenders	桥闸管理员
+53-6021.00	Parking Attendants	停车场服务员
+53-6031.00	Automotive and Watercraft Service Attendants	汽车船艇服务员
+53-6032.00	Aircraft Service Attendants	航空器地面服务员
+53-6041.00	Traffic Technicians	交通技术员
+53-6051.00	Transportation Inspectors	交通运输检查员
+53-6051.01	Aviation Inspectors	航空检查员
+53-6051.07	Transportation Vehicle, Equipment and Systems Inspectors, Except Aviation	交通车辆设备系统检查员
+53-6061.00	Passenger Attendants	乘务员
+53-7011.00	Conveyor Operators and Tenders	传送带操作员
+53-7021.00	Crane and Tower Operators	起重机与塔机操作员
+53-7031.00	Dredge Operators	挖泥船操作员
+53-7041.00	Hoist and Winch Operators	卷扬机操作员
+53-7051.00	Industrial Truck and Tractor Operators	工业搬运车与牵引车操作员
+53-7061.00	Cleaners of Vehicles and Equipment	车辆设备清洁工
+53-7062.00	Laborers and Freight, Stock, and Material Movers, Hand	搬运工与货物装卸工
+53-7062.04	Recycling and Reclamation Workers	废品回收与再生利用工
+53-7063.00	Machine Feeders and Offbearers	机器上料卸料工
+53-7064.00	Packers and Packagers, Hand	手工包装工
+53-7065.00	Stockers and Order Fillers	补货与配货员
+53-7071.00	Gas Compressor and Gas Pumping Station Operators	天然气压缩泵站操作员
+53-7072.00	Pump Operators, Except Wellhead Pumpers	泵站操作员
+53-7073.00	Wellhead Pumpers	井口泵工
+53-7081.00	Refuse and Recyclable Material Collectors	垃圾与可回收物收集员
+53-7121.00	Tank Car, Truck, and Ship Loaders	罐车罐船装卸工

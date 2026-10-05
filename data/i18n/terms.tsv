@@ -1,0 +1,1188 @@
+# 中文数据词条 → 英文：能力路径、原始子任务、成绩口径（版本 / 协议 / 子集 / 指标 / 单位）与提供方。
+zh	en
+100任务	100 tasks
+100子领域	100 subdomains
+10难度等级	10 difficulty levels
+11语言	11 languages
+13数据集	13 datasets
+14语言	14 languages
+16数学学科	16 math subjects
+16维度	16 dimensions
+18语言	18 languages
+200语言	200 languages
+2024中国数学奥林匹克	2024 China Mathematical Olympiad
+2025-02-28 私有集（已被 Tiers-1-3-v2 取代）	2025-02-28 private set (superseded by Tiers-1-3-v2)
+20任务	20 tasks
+20数据集	20 datasets
+20细粒度维度	20 fine-grained dimensions
+285学科	285 subjects
+29语言	29 languages
+2跳	2-hop
+2针	2-needle
+30子领域	30 subdomains
+30学科	30 subjects
+31能力	31 abilities
+33子领域	33 subdomains
+34任务	34 tasks
+35数据集	35 datasets
+38类别	38 categories
+3跳	3-hop
+44职业	44 occupations
+4跳	4-hop
+4针	4-needle
+50%与80%成功率	50% and 80% success rate
+50操作任务	50 manipulation tasks
+527声音类别	527 sound categories
+52学科	52 subjects
+57学科	57 subjects
+67主题	67 topics
+6写作领域	6 writing domains
+6弃答场景	6 abstention scenarios
+6领域	6 domains
+7情绪	7 emotions
+8任务	8 tasks
+8针	8-needle
+9社会维度	9 social dimensions
+9行业	9 industries
+AA-LCR / qwen35-card快照	AA-LCR / qwen35-card snapshot
+AGIEval (Acc.) / deepseek-v3快照	AGIEval (Acc.) / deepseek-v3 snapshot
+AI2D_TEST / qwen35-card快照	AI2D_TEST / qwen35-card snapshot
+AIME 2024 (Pass@1) / deepseek-r1快照	AIME 2024 (Pass@1) / deepseek-r1 snapshot
+AIME26 / qwen35-card快照	AIME26 / qwen35-card snapshot
+AI研发工程	AI R&D engineering
+ARC-AGI-1	ARC-AGI-1
+ARC-AGI-2	ARC-AGI-2
+ARC-Challenge (Acc.) / deepseek-v3快照	ARC-Challenge (Acc.) / deepseek-v3 snapshot
+ARC-Easy (Acc.) / deepseek-v3快照	ARC-Easy (Acc.) / deepseek-v3 snapshot
+Aider-Polyglot (Acc.) / deepseek-r1快照	Aider-Polyglot (Acc.) / deepseek-r1 snapshot
+AlpacaEval2.0 (LC-winrate) / deepseek-r1快照	AlpacaEval2.0 (LC-winrate) / deepseek-r1 snapshot
+AndroidWorld / qwen35-card快照	AndroidWorld / qwen35-card snapshot
+Android应用	Android apps
+ArenaHard (GPT-4-1106) / deepseek-r1快照	ArenaHard (GPT-4-1106) / deepseek-r1 snapshot
+BBH (EM) / deepseek-v3快照	BBH (EM) / deepseek-v3 snapshot
+BEHAVIOR-1K	BEHAVIOR-1K
+BFCL-V4 / qwen35-card快照	BFCL-V4 / qwen35-card snapshot
+BLEU	BLEU
+BabyVision / qwen35-card快照	BabyVision / qwen35-card snapshot
+BrowseComp / qwen35-card快照	BrowseComp / qwen35-card snapshot
+BrowseComp-zh / qwen35-card快照	BrowseComp-zh / qwen35-card snapshot
+C++	C++
+C-Eval (Acc.) / deepseek-v3快照	C-Eval (Acc.) / deepseek-v3 snapshot
+C-Eval (EM) / deepseek-r1快照	C-Eval (EM) / deepseek-r1 snapshot
+C-Eval / qwen35-card快照	C-Eval / qwen35-card snapshot
+C-SimpleQA (Correct) / deepseek-r1快照	C-SimpleQA (Correct) / deepseek-r1 snapshot
+CC-OCR / qwen35-card快照	CC-OCR / qwen35-card snapshot
+CER	CER
+CLUEWSC (EM) / deepseek-r1快照	CLUEWSC (EM) / deepseek-r1 snapshot
+CLUEWSC (EM) / deepseek-v3快照	CLUEWSC (EM) / deepseek-v3 snapshot
+CMMLU (Acc.) / deepseek-v3快照	CMMLU (Acc.) / deepseek-v3 snapshot
+CNMO 2024 (Pass@1) / deepseek-r1快照	CNMO 2024 (Pass@1) / deepseek-r1 snapshot
+CRUXEval-I (Acc.) / deepseek-v3快照	CRUXEval-I (Acc.) / deepseek-v3 snapshot
+CRUXEval-O (Acc.) / deepseek-v3快照	CRUXEval-O (Acc.) / deepseek-v3 snapshot
+Challenge	Challenge
+CharXiv(RQ) / qwen35-card快照	CharXiv(RQ) / qwen35-card snapshot
+Codeforces (Percentile) / deepseek-r1快照	Codeforces (Percentile) / deepseek-r1 snapshot
+Codeforces (Rating) / deepseek-r1快照	Codeforces (Rating) / deepseek-r1 snapshot
+Complete	Complete
+CountBench / qwen35-card快照	CountBench / qwen35-card snapshot
+DROP (3-shot F1) / deepseek-r1快照	DROP (3-shot F1) / deepseek-r1 snapshot
+DROP (F1) / deepseek-v3快照	DROP (F1) / deepseek-v3 snapshot
+DeepPlanning / qwen35-card快照	DeepPlanning / qwen35-card snapshot
+Diamond（198题）	Diamond (198 questions)
+Dyck语言	Dyck language
+DynaMath / qwen35-card快照	DynaMath / qwen35-card snapshot
+ERQA / qwen35-card快照	ERQA / qwen35-card snapshot
+Easy	Easy
+EmbSpatialBench / qwen35-card快照	EmbSpatialBench / qwen35-card snapshot
+Epoch AI 内部评测；2026-06-12 修订版私有题集；模型可运行 Python 并通过 submit_answer 提交答案；推理设置见模型版本后缀	Epoch AI internal evaluation; 2026-06-12 revised private question set; model can run Python and submit answers via submit_answer; see model version suffix for reasoning settings
+Epoch AI 内部评测；MATH 测试集难度5级题；要求末行以「ANSWER: 答案」作答；推理设置见模型版本后缀	"Epoch AI internal evaluation; MATH test set difficulty level 5 questions; final line must be in the format ""ANSWER: answer""; see model version suffix for reasoning settings"
+Epoch AI 内部评测；simple-evals 提示，四选一，末行须为「ANSWER: 字母」否则该题记0分；推理设置见模型版本后缀	"Epoch AI internal evaluation; simple-evals prompt, 4-choice, final line must be ""ANSWER: letter"" otherwise the question scores 0; see model version suffix for reasoning settings"
+Epoch AI 内部评测；排除16道无法稳定运行的题；默认简单循环脚手架，bash/text_editor/apply_patch 工具，无网络；2026年2月脚手架大幅升级；推理设置见模型版本后缀	Epoch AI internal evaluation; excludes 16 questions that cannot run reliably; default simple-loop scaffold, bash/text_editor/apply_patch tools, no network access; scaffold significantly upgraded in February 2026; see model version suffix for reasoning settings
+Epoch AI 内部评测；无选项问答，裁判模型判对/错/未尝试；报告答对比例而非 Google 官方 F1；2026-08-27 起追加防弃答提示并撤下此前成绩；推理设置见模型版本后缀	Epoch AI internal evaluation; open-ended Q&A without options, judge model rates correct/incorrect/not attempted; reports the correct-answer ratio rather than Google's official F1; from 2026-08-27 an anti-abstention prompt was added and prior scores were retracted; see model version suffix for reasoning settings
+Epoch AI 内部评测；私有题集；模型可运行 Python 并通过 submit_answer 提交答案；推理设置见模型版本后缀	Epoch AI internal evaluation; private question set; model can run Python and submit answers via submit_answer; see model version suffix for reasoning settings
+Epoch Hub 快照 / FrontierMath-2025-02-28-Private	Epoch Hub snapshot / FrontierMath-2025-02-28-Private
+Epoch Hub 快照 / FrontierMath-Tier-4-2025-07-01-Private	Epoch Hub snapshot / FrontierMath-Tier-4-2025-07-01-Private
+Epoch Hub 快照 / FrontierMath-Tier-4-v2-Private	Epoch Hub snapshot / FrontierMath-Tier-4-v2-Private
+Epoch Hub 快照 / FrontierMath-Tiers-1-3-v2-Private	Epoch Hub snapshot / FrontierMath-Tiers-1-3-v2-Private
+Epoch Hub 快照 / GPQA diamond	Epoch Hub snapshot / GPQA diamond
+Epoch Hub 快照 / MATH level 5	Epoch Hub snapshot / MATH level 5
+Epoch Hub 快照 / SWE-Bench verified	Epoch Hub snapshot / SWE-Bench verified
+Epoch Hub 快照 / SimpleQA Verified	Epoch Hub snapshot / SimpleQA Verified
+FRAMES (Acc.) / deepseek-r1快照	FRAMES (Acc.) / deepseek-r1 snapshot
+Full	Full
+GPQA / qwen35-card快照	GPQA / qwen35-card snapshot
+GPQA Diamond / qwen38-card快照	GPQA Diamond / qwen38-card snapshot
+GPQA-Diamond (Pass@1) / deepseek-r1快照	GPQA-Diamond (Pass@1) / deepseek-r1 snapshot
+GSM8K (EM) / deepseek-v3快照	GSM8K (EM) / deepseek-v3 snapshot
+GSM8K翻译	GSM8K translation
+GitHub	GitHub
+Global PIQA / qwen35-card快照	Global PIQA / qwen35-card snapshot
+Go	Go
+Goal	Goal
+HLE / qwen35-card快照	HLE / qwen35-card snapshot
+HLE / qwen38-card快照	HLE / qwen38-card snapshot
+HLE w/ tool / qwen35-card快照	HLE w/ tool / qwen35-card snapshot
+HLE w/ tools / qwen38-card快照	HLE w/ tools / qwen38-card snapshot
+HMMT Feb 25 / qwen35-card快照	HMMT Feb 25 / qwen35-card snapshot
+HMMT Nov 25 / qwen35-card快照	HMMT Nov 25 / qwen35-card snapshot
+HOL Light	HOL Light
+HallusionBench / qwen35-card快照	HallusionBench / qwen35-card snapshot
+HealthBench / qwen38-card快照	HealthBench / qwen38-card snapshot
+HellaSwag (Acc.) / deepseek-v3快照	HellaSwag (Acc.) / deepseek-v3 snapshot
+HumanEval (Pass@1) / deepseek-v3快照	HumanEval (Pass@1) / deepseek-v3 snapshot
+HumanEval+	HumanEval+
+ICL	ICL
+IF-Eval (Prompt Strict) / deepseek-r1快照	IF-Eval (Prompt Strict) / deepseek-r1 snapshot
+IFBench / qwen35-card快照	IFBench / qwen35-card snapshot
+IFBench / qwen38-card快照	IFBench / qwen38-card snapshot
+IFEval / qwen35-card快照	IFEval / qwen35-card snapshot
+IMOAnswerBench / qwen35-card快照	IMOAnswerBench / qwen35-card snapshot
+INCLUDE / qwen35-card快照	INCLUDE / qwen35-card snapshot
+ImageNav	ImageNav
+Instruct	Instruct
+Isabelle	Isabelle
+Java	Java
+JavaScript	JavaScript
+LSAT	LSAT
+LVBench / qwen35-card快照	LVBench / qwen35-card snapshot
+Lean	Lean
+Lean形式化	Lean formalization
+Level 1	Level 1
+Level 2	Level 2
+Level 3	Level 3
+Level 5（测试集1324题）	Level 5 (test set, 1324 questions)
+LingoQA / qwen35-card快照	LingoQA / qwen35-card snapshot
+Lite	Lite
+LiveCodeBench (Pass@1-COT) / deepseek-r1快照	LiveCodeBench (Pass@1-COT) / deepseek-r1 snapshot
+LiveCodeBench v6 / qwen35-card快照	LiveCodeBench v6 / qwen35-card snapshot
+Long	Long
+LongBench v2 / qwen35-card快照	LongBench v2 / qwen35-card snapshot
+LongBench v2 / qwen38-card快照	LongBench v2 / qwen38-card snapshot
+MATH (EM) / deepseek-v3快照	MATH (EM) / deepseek-v3 snapshot
+MATH 500题子集	MATH 500-problem subset
+MATH-500 (Pass@1) / deepseek-r1快照	MATH-500 (Pass@1) / deepseek-r1 snapshot
+MBPP (Pass@1) / deepseek-v3快照	MBPP (Pass@1) / deepseek-v3 snapshot
+MBPP+	MBPP+
+MCP-Mark / qwen35-card快照	MCP-Mark / qwen35-card snapshot
+MCP真实任务	MCP real-world tasks
+MGSM (EM) / deepseek-v3快照	MGSM (EM) / deepseek-v3 snapshot
+MLVU (M-Avg) / qwen35-card快照	MLVU (M-Avg) / qwen35-card snapshot
+MMBenchEN-DEV-v1.1 / qwen35-card快照	MMBenchEN-DEV-v1.1 / qwen35-card snapshot
+MMLU (Acc.) / deepseek-v3快照	MMLU (Acc.) / deepseek-v3 snapshot
+MMLU (Pass@1) / deepseek-r1快照	MMLU (Pass@1) / deepseek-r1 snapshot
+MMLU-Pro (Acc.) / deepseek-v3快照	MMLU-Pro (Acc.) / deepseek-v3 snapshot
+MMLU-Pro (EM) / deepseek-r1快照	MMLU-Pro (EM) / deepseek-r1 snapshot
+MMLU-Pro / qwen35-card快照	MMLU-Pro / qwen35-card snapshot
+MMLU-ProX / qwen35-card快照	MMLU-ProX / qwen35-card snapshot
+MMLU-Redux (Acc.) / deepseek-v3快照	MMLU-Redux (Acc.) / deepseek-v3 snapshot
+MMLU-Redux (EM) / deepseek-r1快照	MMLU-Redux (EM) / deepseek-r1 snapshot
+MMLU-Redux / qwen35-card快照	MMLU-Redux / qwen35-card snapshot
+MMLU翻译	MMLU translation
+MMLongBench-Doc / qwen35-card快照	MMLongBench-Doc / qwen35-card snapshot
+MMMLU / qwen35-card快照	MMMLU / qwen35-card snapshot
+MMMU / qwen35-card快照	MMMU / qwen35-card snapshot
+MMMU-Pro / qwen35-card快照	MMMU-Pro / qwen35-card snapshot
+MMSI-Bench官方榜单	MMSI-Bench official leaderboard
+MMStar / qwen35-card快照	MMStar / qwen35-card snapshot
+MMVU / qwen35-card快照	MMVU / qwen35-card snapshot
+MRCR v2 256K (8-needle) / qwen38-card快照	MRCR v2 256K (8-needle) / qwen38-card snapshot
+MVBench / qwen35-card快照	MVBench / qwen35-card snapshot
+MathVision / qwen35-card快照	MathVision / qwen35-card snapshot
+Mathvista(mini) / qwen35-card快照	Mathvista(mini) / qwen35-card snapshot
+Matplotlib	Matplotlib
+MedXpertQA-MM / qwen35-card快照	MedXpertQA-MM / qwen35-card snapshot
+Metamath	Metamath
+MultiChallenge / qwen35-card快照	MultiChallenge / qwen35-card snapshot
+NL2Repo-Bench / qwen38-card快照	NL2Repo-Bench / qwen38-card snapshot
+NaturalQuestions (EM) / deepseek-v3快照	NaturalQuestions (EM) / deepseek-v3 snapshot
+Notion	Notion
+NumPy	NumPy
+OCRBench / qwen35-card快照	OCRBench / qwen35-card snapshot
+ODInW13 / qwen35-card快照	ODInW13 / qwen35-card snapshot
+OSWorld-Verified / qwen35-card快照	OSWorld-Verified / qwen35-card snapshot
+Object	Object
+ObjectNav	ObjectNav
+OmniDocBench1.5 / qwen35-card快照	OmniDocBench1.5 / qwen35-card snapshot
+PIQA (Acc.) / deepseek-v3快照	PIQA (Acc.) / deepseek-v3 snapshot
+PMC-VQA / qwen35-card快照	PMC-VQA / qwen35-card snapshot
+Pandas	Pandas
+PaperBench / qwen38-card快照	PaperBench / qwen38-card snapshot
+PointNav	PointNav
+PolyMATH / qwen35-card快照	PolyMATH / qwen35-card snapshot
+PyTorch	PyTorch
+Python	Python
+Python函数补全	Python function completion
+Qwen2.5-Omni官方比较表快照	Qwen2.5-Omni official comparison table snapshot
+RACE-High (Acc.) / deepseek-v3快照	RACE-High (Acc.) / deepseek-v3 snapshot
+RACE-Middle (Acc.) / deepseek-v3快照	RACE-Middle (Acc.) / deepseek-v3 snapshot
+RealWorldQA / qwen35-card快照	RealWorldQA / qwen35-card snapshot
+Reddit	Reddit
+RefCOCO	RefCOCO
+RefCOCO(avg) / qwen35-card快照	RefCOCO(avg) / qwen35-card snapshot
+RefCOCO+	RefCOCO+
+RefCOCOg	RefCOCOg
+RefSpatialBench / qwen35-card快照	RefSpatialBench / qwen35-card snapshot
+Rust	Rust
+SAT	SAT
+SLAKE / qwen35-card快照	SLAKE / qwen35-card snapshot
+SQL执行效率	SQL execution efficiency
+STEM	STEM
+SWE Verified (Resolved) / deepseek-r1快照	SWE Verified (Resolved) / deepseek-r1 snapshot
+SWE-bench Multilingual / qwen35-card快照	SWE-bench Multilingual / qwen35-card snapshot
+SWE-bench Pro / qwen38-card快照	SWE-bench Pro / qwen38-card snapshot
+SWE-bench Verified / qwen35-card快照	SWE-bench Verified / qwen35-card snapshot
+SciPy	SciPy
+Scikit-learn	Scikit-learn
+ScreenSpot Pro / qwen35-card快照	ScreenSpot Pro / qwen35-card snapshot
+SecCodeBench / qwen35-card快照	SecCodeBench / qwen35-card snapshot
+SenseNova-SI 团队	SenseNova-SI team
+SimpleQA (Correct) / deepseek-r1快照	SimpleQA (Correct) / deepseek-r1 snapshot
+SimpleQA Verified（1000题）	SimpleQA Verified (1000 questions)
+SimpleVQA / qwen35-card快照	SimpleVQA / qwen35-card snapshot
+Slack	Slack
+Spatial	Spatial
+SuperGPQA / qwen35-card快照	SuperGPQA / qwen35-card snapshot
+TAU2-Bench / qwen35-card快照	TAU2-Bench / qwen35-card snapshot
+TensorFlow	TensorFlow
+Terminal Bench 2 / qwen35-card快照	Terminal Bench 2 / qwen35-card snapshot
+Terminal Bench 2.1 / qwen38-card快照	Terminal Bench 2.1 / qwen38-card snapshot
+Tier 1至4	Tier 1 to 4
+Tier 4 2025-07-01 私有集（已被 Tier-4-v2 取代）	Tier 4 2025-07-01 private set (superseded by Tier-4-v2)
+Tier 4 v2 私有集	Tier 4 v2 private set
+Tiers 1-3 v2 私有集	Tiers 1-3 v2 private set
+Tool Decathlon / qwen35-card快照	Tool Decathlon / qwen35-card snapshot
+TriviaQA (EM) / deepseek-v3快照	TriviaQA (EM) / deepseek-v3 snapshot
+V* / qwen35-card快照	V* / qwen35-card snapshot
+VITA-Bench / qwen35-card快照	VITA-Bench / qwen35-card snapshot
+Verified	Verified
+Verified（Epoch 可运行的484题）	Verified (484 questions Epoch can run)
+VideoMME(w sub.) / qwen35-card快照	VideoMME(w sub.) / qwen35-card snapshot
+VideoMME(w/o sub.) / qwen35-card快照	VideoMME(w/o sub.) / qwen35-card snapshot
+VideoMMMU / qwen35-card快照	VideoMMMU / qwen35-card snapshot
+WB-Score	WB-Score
+WER	WER
+We-Math / qwen35-card快照	We-Math / qwen35-card snapshot
+WideSearch / qwen35-card快照	WideSearch / qwen35-card snapshot
+WideSearch / qwen38-card快照	WideSearch / qwen38-card snapshot
+WildGuardTest；安全审核器分类	WildGuardTest; safety moderator classification
+WinoGrande (Acc.) / deepseek-v3快照	WinoGrande (Acc.) / deepseek-v3 snapshot
+ZEROBench / qwen35-card快照	ZEROBench / qwen35-card snapshot
+ZEROBench_sub / qwen35-card快照	ZEROBench_sub / qwen35-card snapshot
+deepseek-r1；主模型比较表；AIME 2024 (Pass@1)	deepseek-r1; main model comparison table; AIME 2024 (Pass@1)
+deepseek-r1；主模型比较表；Aider-Polyglot (Acc.)	deepseek-r1; main model comparison table; Aider-Polyglot (Acc.)
+deepseek-r1；主模型比较表；AlpacaEval2.0 (LC-winrate)	deepseek-r1; main model comparison table; AlpacaEval2.0 (LC-winrate)
+deepseek-r1；主模型比较表；ArenaHard (GPT-4-1106)	deepseek-r1; main model comparison table; ArenaHard (GPT-4-1106)
+deepseek-r1；主模型比较表；C-Eval (EM)	deepseek-r1; main model comparison table; C-Eval (EM)
+deepseek-r1；主模型比较表；C-SimpleQA (Correct)	deepseek-r1; main model comparison table; C-SimpleQA (Correct)
+deepseek-r1；主模型比较表；CLUEWSC (EM)	deepseek-r1; main model comparison table; CLUEWSC (EM)
+deepseek-r1；主模型比较表；CNMO 2024 (Pass@1)	deepseek-r1; main model comparison table; CNMO 2024 (Pass@1)
+deepseek-r1；主模型比较表；Codeforces (Percentile)	deepseek-r1; main model comparison table; Codeforces (Percentile)
+deepseek-r1；主模型比较表；Codeforces (Rating)	deepseek-r1; main model comparison table; Codeforces (Rating)
+deepseek-r1；主模型比较表；DROP (3-shot F1)	deepseek-r1; main model comparison table; DROP (3-shot F1)
+deepseek-r1；主模型比较表；FRAMES (Acc.)	deepseek-r1; main model comparison table; FRAMES (Acc.)
+deepseek-r1；主模型比较表；GPQA-Diamond (Pass@1)	deepseek-r1; main model comparison table; GPQA-Diamond (Pass@1)
+deepseek-r1；主模型比较表；IF-Eval (Prompt Strict)	deepseek-r1; main model comparison table; IF-Eval (Prompt Strict)
+deepseek-r1；主模型比较表；LiveCodeBench (Pass@1-COT)	deepseek-r1; main model comparison table; LiveCodeBench (Pass@1-COT)
+deepseek-r1；主模型比较表；MATH-500 (Pass@1)	deepseek-r1; main model comparison table; MATH-500 (Pass@1)
+deepseek-r1；主模型比较表；MMLU (Pass@1)	deepseek-r1; main model comparison table; MMLU (Pass@1)
+deepseek-r1；主模型比较表；MMLU-Pro (EM)	deepseek-r1; main model comparison table; MMLU-Pro (EM)
+deepseek-r1；主模型比较表；MMLU-Redux (EM)	deepseek-r1; main model comparison table; MMLU-Redux (EM)
+deepseek-r1；主模型比较表；SWE Verified (Resolved)	deepseek-r1; main model comparison table; SWE Verified (Resolved)
+deepseek-r1；主模型比较表；SimpleQA (Correct)	deepseek-r1; main model comparison table; SimpleQA (Correct)
+diamond	Diamond
+extended	Extended
+item-F1	Item-F1
+main	Main
+pass@k	pass@k
+pass^k	pass^k
+qwen35-card：BabyVision；不启用代码解释器	qwen35-card: BabyVision; code interpreter disabled
+qwen35-card：BabyVision；启用代码解释器	qwen35-card: BabyVision; code interpreter enabled
+qwen35-card：V*；不启用代码解释器	qwen35-card: V*; code interpreter disabled
+qwen35-card：V*；启用代码解释器	qwen35-card: V*; code interpreter enabled
+test-clean	test-clean
+test-other	test-other
+v3_Semi_Private；厂商适配器	v3_Semi_Private; vendor adapter
+v3_Semi_Private；标准接口	v3_Semi_Private; standard interface
+一阶逻辑	First-order logic
+一阶逻辑推理	First-order logic reasoning
+七数学学科	7 math subjects
+三次运行均值；推理模式；GPT-5.1裁判；每题全部rubric通过	Average of 3 runs; reasoning mode; GPT-5.1 judge; all rubrics passed per question
+上下文	Context
+上下文学习	In-context learning
+上下文长度	Context length
+上海人工智能实验室	Shanghai Artificial Intelligence Laboratory
+上游测试套件评分	Upstream test suite scoring
+不可回答	Unanswerable
+不同难度下可靠完成	Reliable completion across difficulty
+不确定	Uncertain
+不确定性	Uncertainty
+不确定性管理	Uncertainty management
+专业判断	Professional judgment
+专业工作与创造	Professional work and creation
+专业推理	Professional reasoning
+专业新知识综合应用	Integrating new professional knowledge
+专业知识	Professional knowledge
+专业软件	Professional software
+专业软件高分辨率定位	High-resolution professional software localization
+专家医学推理	Expert medical reasoning
+专家比较	Expert comparison
+专家级跨学科难题	Expert-level interdisciplinary problems
+专家视频理解	Expert-level video understanding
+专科临床推理	Specialty clinical reasoning
+中国台湾	Taiwan, China
+中国大陆	Mainland China
+中国奥赛解题	Chinese olympiad problem solving
+中国教育与职业考试	Chinese education and professional exams
+中国特定知识	China-specific knowledge
+中文	Chinese
+中文Winograd	Chinese Winograd
+中文事实准确性	Chinese factual accuracy
+中文困难网页检索	Chinese hard web retrieval
+中文指代消解	Chinese coreference resolution
+中文知识	Chinese knowledge
+中文综合知识	Chinese comprehensive knowledge
+中文网页	Chinese web pages
+中文语音转写	Chinese speech transcription
+中等代数	Intermediate algebra
+临时状态	Transient state
+主体一致性	Subject consistency
+主问题	Main question
+主题	Topic
+事件	Event
+事件后续预测	Event outcome prediction
+事件理解	Event understanding
+事件计数	Event counting
+事件顺序	Event order
+事实可靠性	Factual reliability
+事实性	Factuality
+事实提取	Fact extraction
+事实正确	Factual correctness
+事实知识	Factual knowledge
+事实识别	Fact recognition
+二月赛	February contest
+五难度等级	5 difficulty levels
+交互对话	Interactive dialogue
+交互式学习	Interactive learning
+交互式工具	Interactive tools
+交互环境	Interactive environment
+交换物体跟踪	Swapped object tracking
+人文	Humanities
+人文社会	Humanities and society
+人类专家任务时长	Human expert task duration
+人类专家时间预算	Human expert time budget
+人类对照	Human baseline
+从需求生成完整仓库	Generating full repos from requirements
+他人心理状态推断	Inferring other peoples mental states
+代数	Algebra
+代理上下文	Agent context
+代理与执行	Agency and execution
+代理安全	Agent safety
+代理长期记忆	Agent long-term memory
+代码	Code
+代码仓库维护	Code repository maintenance
+代码协作	Code collaboration
+代码实现	Code implementation
+代码库	Codebase
+代码生成	Code generation
+代词	Pronoun
+任务宏平均 ×100	Task macro-average ×100
+任务成功率	Task success rate
+任务效用	Task utility
+任务检查清单	Task checklist
+任务解决率	Task resolution rate
+任务评分规则	Task scoring rubric
+任务通过率	Pass rate
+企业软件操作	Enterprise software operation
+企鹅表格	Penguin table
+位置	Position
+位置定位	Location grounding
+低资源语言翻译	Low-resource language translation
+体育理解	Sports understanding
+依赖管理	Dependency management
+信念	Belief
+信息不足	Insufficient information
+信息图	Infographic
+信息图理解	Infographic understanding
+信息性	Informativeness
+信息提取	Information extraction
+信息检索	Information retrieval
+信息研究	Information research
+修正MMLU标注错误	Corrected MMLU annotation errors
+修辞理解	Rhetoric understanding
+偏好记忆	Preference memory
+健康	Health
+健康医学	Health and medicine
+健康记录	Health records
+元强化学习	Meta reinforcement learning
+充分条件	Sufficient condition
+全局优化	Global optimization
+全局健康	Global health
+公平与偏差	Fairness and bias
+公开与私有子集	Public and private subsets
+公式	Formula
+六学科	6 subjects
+六类主题	6 topic categories
+关系	Relation
+关键信息提取	Key information extraction
+关键词	Keyword
+其他	Other
+具身与运动	Embodiment and motion
+具身场景	Embodied scenario
+具身导航	Embodied navigation
+具身推理问答	Embodied reasoning QA
+具身视角空间推理	Embodied-view spatial reasoning
+内容创造	Content creation
+内容管理	Content management
+写作	Writing
+冷却	Cooling
+准确性	Accuracy
+准确率	Accuracy
+几何	Geometry
+几何形状	Geometric shapes
+函数级代码生成	Function-level code generation
+函数选择与参数生成	Function selection and argument generation
+分	pts
+分析	Analysis
+分类广告	Classified ads
+列表	List
+初中	Middle school
+初等代数	Elementary algebra
+副语言理解	Paralinguistic understanding
+办公	Office
+加减	Addition and subtraction
+加热	Heating
+动作	Action
+动作定位	Action localization
+动作顺序	Action order
+动作预测	Action prediction
+动态任务	Dynamic tasks
+动态变体	Dynamic variants
+动态竞赛代码生成	Live contest code generation
+动机	Motivation
+助手信息提取	Assistant information extraction
+化学	Chemistry
+医学图文推理	Medical image-text reasoning
+医学图片	Medical images
+医学影像问答	Medical imaging QA
+医学执照知识	Medical licensing knowledge
+医学文献判断	Medical literature judgment
+医学知识	Medical knowledge
+医学考试	Medical exams
+医疗	Healthcare
+医疗对话质量	Medical dialogue quality
+十一月赛	November contest
+协作执行	Collaborative execution
+协议达成	Agreement reached
+单份自然语言需求文档	Single natural-language requirement doc
+单元测试	Unit tests
+单函数	Single function
+单文档	Single document
+单文档问答	Single-document QA
+单物体	Single object
+单词排序	Word ordering
+单跳	Single-hop
+单针检索	Single-needle retrieval
+卡牌	Cards
+历史	History
+原始文生图组合评测	Original text-to-image composition evaluation
+双控制	Dual control
+双物体	Two objects
+取物	Object retrieval
+口音	Accent
+可信度	Credibility
+可靠性与自我监控	Reliability and self-monitoring
+可验证指令	Verifiable instructions
+可验证格式约束	Verifiable format constraints
+合成任务	Synthetic tasks
+后果	Consequence
+否	No
+听觉与语音	Hearing and speech
+哈佛麻省数学竞赛	Harvard-MIT Math Tournament
+响应有害性	Response harmfulness
+响应有害性 / 对抗	Response harmfulness / adversarial
+响应有害性 / 常规	Response harmfulness / vanilla
+响应有害性 / 总体	Response harmfulness / overall
+哲学	Philosophy
+商业	Business
+器官	Organ
+四套件平均成功率	Average success rate across four suites
+四难度	4 difficulty levels
+回复偏好	Response preference
+因果判断	Causal judgment
+困难指令偏好	Hard instruction preference
+困难真实提示	Hard real-world prompts
+困难网页检索	Hard web retrieval
+困难视觉推理	Hard visual reasoning
+困难逻辑任务组合	Hard combined logic tasks
+图像物体计数	Image object counting
+图形数学	Graphical mathematics
+图形界面元素定位	GUI element grounding
+图形融合	Shape fusion
+图文一致性	Image-text consistency
+图文关系	Image-text relation
+图标	Icon
+图片	Image
+图表	Chart
+图表与文档	Charts and documents
+图表元素	Chart elements
+图表问答	Chart QA
+地区文化与考试	Regional culture and exams
+地区考试	Regional exams
+地图	Map
+地理信息	Geographic information
+场景文字问答	Scene text QA
+场景问答	Scene QA
+域外物体检测	Out-of-domain object detection
+域外约束	Out-of-domain constraints
+基础数学	Basic mathematics
+基础算法	Basic algorithms
+基础编程题	Basic programming problems
+基础非语言视觉推理	Basic nonverbal visual reasoning
+增强测试	Augmented tests
+增强测试正确性	Augmented test correctness
+声音	Sound
+声音事件	Sound event
+声音事件分类	Sound event classification
+声音定位	Sound localization
+声音理解	Sound understanding
+复杂仓库问题修复	Complex repo issue fixing
+复杂任务	Complex tasks
+复杂指令	Complex instructions
+复杂搜索	Complex search
+复杂检索	Complex retrieval
+复杂视觉组合推理	Complex visual compositional reasoning
+复杂长上下文推理	Complex long-context reasoning
+复现评分	Reproduction score
+外部知识	External knowledge
+多任务	Multi-task
+多任务与元学习	Multi-task and meta-learning
+多任务机器人操作	Multi-task robot manipulation
+多函数	Multi-function
+多图空间推理	Multi-image spatial reasoning
+多图空间智能	Multi-image spatial intelligence
+多场景文本	Multi-scene text
+多实体	Multiple entities
+多工具真实问答	Multi-tool real-world QA
+多应用协作	Multi-app collaboration
+多应用工作流	Multi-app workflow
+多文件修改	Multi-file modification
+多文档	Multi-document
+多文档问答	Multi-document QA
+多标签识别	Multi-label recognition
+多模态	Multimodal
+多模态对话情绪	Multimodal dialogue emotion
+多模态感知记忆	Multimodal perception memory
+多步理解	Multi-step understanding
+多步算术	Multi-step arithmetic
+多步算术应用题	Multi-step arithmetic word problems
+多步组合	Multi-step composition
+多步视觉数学	Multi-step visual math
+多步计算	Multi-step calculation
+多步运算	Multi-step operations
+多环境代理	Multi-environment agents
+多编程语言	Multiple programming languages
+多表关联	Multi-table joins
+多视角	Multiple viewpoints
+多语OCR与解析	Multilingual OCR and parsing
+多语文本	Multilingual text
+多语言	Multilingual
+多语言与文化	Multilingual and culture
+多语言代码编辑	Multilingual code editing
+多语言到英文	Multilingual to English
+多语言数学	Multilingual math
+多语言物理常识	Multilingual physical commonsense
+多语言知识	Multilingual knowledge
+多语言算术	Multilingual arithmetic
+多语言翻译质量	Multilingual translation quality
+多说话人对话	Multi-speaker dialogue
+多跳	Multi-hop
+多跳证据	Multi-hop evidence
+多跳证据整合	Multi-hop evidence integration
+多跳追踪	Multi-hop tracking
+多轮	Multi-turn
+多轮回答质量	Multi-turn answer quality
+多轮多针检索	Multi-turn multi-needle retrieval
+多轮指代	Multi-turn coreference
+多轮约束保持	Multi-turn constraint retention
+多轮网页操作	Multi-turn web operations
+多选问答	Multiple-choice QA
+多针检索	Multi-needle retrieval
+大学多模态综合	College-level multimodal comprehensive
+失言识别	Faux pas recognition
+奇怪故事	Strange stories
+奥赛分层解题	Tiered olympiad problem solving
+奥赛答案求解	Olympiad answer solving
+奥赛难度	Olympiad-level difficulty
+子场景	Sub-scenario
+子问题	Sub-question
+子问题与主问题	Sub-question and main question
+字数	Word count
+学习与泛化	Learning and generalization
+学科知识	Subject knowledge
+安全	Safety
+安全与稳健性	Safety and robustness
+安全代码生成	Secure code generation
+安全代码编写	Secure code writing
+安全意图识别	Safety intent recognition
+官方README原始模型表	Official README original model table
+官方README榜单快照	Official README leaderboard snapshot
+官方榜单 Lite；系统含代理与模型	Official leaderboard Lite; system includes agent and model
+官方榜单 Multilingual；系统含代理与模型	Official leaderboard Multilingual; system includes agent and model
+官方榜单 Test；系统含代理与模型	Official leaderboard Test; system includes agent and model
+官方榜单 Verified；系统含代理与模型	Official leaderboard Verified; system includes agent and model
+官方模型卡；BLEU	Official model card; BLEU
+官方模型卡；WER	Official model card; WER
+官方模型卡；准确率	Official model card; Accuracy
+官方模型卡；源表SER得分	Official model card; source table SER score
+官方结果CSV快照	Official results CSV snapshot
+实体识别	Entity recognition
+实例推理	Instance reasoning
+实验执行	Experiment execution
+实验数据	Experimental data
+家居	Household
+家庭操作	Household operation
+家庭活动	Household activities
+对抗	Adversarial
+对抗物体采样	Adversarial object sampling
+对抗选项	Adversarial options
+对抗问答	Adversarial QA
+对话式网页导航	Conversational web navigation
+导航	Navigation
+小学数学	Elementary math
+小学科学图	Elementary science diagrams
+小学科学推理	Elementary science reasoning
+少数群体	Minority groups
+少样本	Few-shot
+少样本学习	Few-shot learning
+少样本视觉规则归纳	Few-shot visual rule induction
+属性变化	Attribute change
+属性绑定	Attribute binding
+属性识别	Attribute recognition
+嵌套查询	Nested queries
+工作流	Workflow
+工作流编排	Workflow orchestration
+工具	Tool
+工具使用常识	Tool-use commonsense
+工具调用	Tool calling
+工程	Engineering
+布尔表达式	Boolean expressions
+布局	Layout
+常规	Standard
+常识推理	Commonsense reasoning
+常识消歧	Commonsense disambiguation
+常识补全	Commonsense completion
+并行调用	Parallel calls
+幻觉率	Hallucination rate
+广度信息搜集	Broad information gathering
+广度搜索	Broad search
+库组合	Library combination
+库调用与复合编程	Library calls and composite programming
+开放域	Open domain
+开放域检测	Open-domain detection
+开放对话	Open-domain dialogue
+开放社交目标	Open-ended social goals
+弃答	Abstention
+弃答F1 ×100	Abstention F1 ×100
+形式化定理证明	Formal theorem proving
+形式化证明	Formal proof
+形式谬误	Formal fallacy
+彩色物体	Colored objects
+律师考试	Bar exam
+微积分预备	Precalculus
+心理学	Psychology
+心理理论	Theory of mind
+必要条件	Necessary condition
+急诊	Emergency medicine
+性能工程	Performance engineering
+总体	Overall
+情绪	Emotion
+意图	Intent
+意外结果	Unexpected outcome
+感知	Perception
+房间访问	Room access
+手写数学	Handwritten math
+手机端到端任务	Mobile end-to-end tasks
+执行	Execution
+扰动下数学泛化	Math generalization under perturbation
+技术工程	Technical engineering
+技术标准	Technical standards
+抗文本捷径	Resistance to text shortcuts
+报告得分	Reported score
+抵抗常见误解	Resisting common misconceptions
+抵抗有害行为	Resisting harmful behavior
+抽取	Extraction
+抽象图形规则	Abstract shape rules
+抽象规则学习	Abstract rule learning
+拒绝	Refusal
+拒绝识别	Refusal recognition
+拒绝识别 / 对抗	Refusal recognition / adversarial
+拒绝识别 / 常规	Refusal recognition / vanilla
+拒绝识别 / 总体	Refusal recognition / overall
+拒绝识别 / 有害	Refusal recognition / harmful
+拾取	Pickup
+指代判断	Coreference judgment
+指代消解	Coreference resolution
+指代表达	Referring expression
+指代表达定位	Referring expression grounding
+指令	Instruction
+指令保留	Instruction retention
+指令遵循	Instruction following
+指导性程序	Guided procedures
+按年份分卷	Volumes by year
+排序	Sorting
+探索	Exploration
+探索未知环境	Exploring unknown environments
+推理	Reasoning
+推理与问题求解	Reasoning and problem solving
+推理性问题	Inferential questions
+推理谜题	Logic puzzles
+描述性问题	Descriptive questions
+提示有害性	Prompt harmfulness
+提示有害性 / 对抗	Prompt harmfulness / adversarial
+提示有害性 / 常规	Prompt harmfulness / vanilla
+提示有害性 / 总体	Prompt harmfulness / overall
+提示注入抵抗	Prompt injection resistance
+摘要	Summarization
+操作变化	Manipulation variation
+操作程序	Operating procedures
+操作系统	Operating system
+支撑事实	Supporting facts
+攻击成功率	Attack success rate
+放射影像	Radiology images
+放置	Placement
+效用	Utility
+数值	Numerical value
+数值推理	Numerical reasoning
+数值计算	Numerical computation
+数学	Mathematics
+数学命题形式化	Formalizing math propositions
+数学形式系统	Formal mathematical systems
+数学竞赛	Math competition
+数据	Data
+数据与查询	Data and queries
+数据库	Database
+数据科学	Data science
+数据科学代码生成	Data science code generation
+数据驱动科学工作流	Data-driven scientific workflows
+数论	Number theory
+数量	Quantity
+文件	File
+文件系统	File system
+文化知识	Cultural knowledge
+文化背景	Cultural background
+文字与图像	Text and image
+文字与版面	Text and layout
+文字应用题	Word problems
+文本	Text
+文本识别	Text recognition
+文本跨度	Text span
+文本逻辑推断	Textual logical inference
+文档	Document
+文档结构解析	Document structure parsing
+文档视觉问答	Document visual QA
+文档解析	Document parsing
+文档解析综合分	Document parsing composite score
+文档问答	Document QA
+文献图表	Literature figures
+新型组合约束	Novel combined constraints
+新程序学习执行	Learning and executing new procedures
+新规则系统应用	Applying new rule systems
+方向	Direction
+旅行	Travel
+无字幕	No subtitles
+无害对照	Harmless control
+无答案	No answer
+日常活动	Daily activities
+日常活动执行	Daily activity execution
+日常物理目标	Everyday physical objects
+日期理解	Date understanding
+时序推理	Temporal reasoning
+时间	Time
+时间关系辨别	Temporal relation discrimination
+时间定位	Temporal localization
+时间推理	Temporal reasoning
+时间闪烁	Temporal flicker
+是	Yes
+普通话	Mandarin
+暗示理解	Hint understanding
+最坏情形	Worst case
+有字幕	With subtitles
+有害	Harmful
+有害信息充分性	Harmful information sufficiency
+有害请求	Harmful requests
+服务目录	Service catalog
+未尝试	Not attempted
+本科数学	Undergraduate math
+机器人操控	Robot manipulation
+机器学习	Machine learning
+机器学习优化	Machine learning optimization
+机器学习论文复现	ML paper reproduction
+机器翻译	Machine translation
+材料科学	Materials science
+来源未单独标注	Source not separately labeled
+架构与多模块实现	Architecture and multi-module implementation
+标准化入学与资格考试	Standardized admission and licensing exams
+标准版	Standard version
+标准行为	Standard behavior
+标量含义	Scalar implicature
+格式	Format
+桌面	Desktop
+桌面跨应用操作	Cross-app desktop operation
+桥接	Bridging
+检索	Retrieval
+检索增强多跳问答	Retrieval-augmented multi-hop QA
+模型报告复现口径	Model-reported reproduction criteria
+模型裁判	Model-as-judge
+模式识别	Pattern recognition
+模拟环境	Simulated environments
+歧义	Ambiguity
+歧义故事	Ambiguous stories
+歧义消解	Disambiguation
+母语题目	Native-language questions
+比较	Comparison
+沟通	Communication
+沟通与社交	Communication and social
+法律	Law
+法律咨询	Legal consultation
+法律推理	Legal reasoning
+法律法规	Laws and regulations
+泛化	Generalization
+流行	Pop culture
+测试用例	Test cases
+测试输出预测	Test output prediction
+浏览器	Browser
+清洗	Cleaning
+游戏机制	Game mechanics
+源表SER得分	Source table SER score
+漏洞修复	Vulnerability fixing
+演示	Demonstration
+点跟踪	Point tracking
+版本编辑	Version editing
+版权	Copyright
+版面	Layout
+物体交互	Object interaction
+物体幻觉识别	Object hallucination detection
+物体拾取	Object pickup
+物体状态	Object state
+物体计数	Object counting
+物体识别	Object recognition
+物体跟踪	Object tracking
+物品谈判	Item negotiation
+物理	Physics
+物理常识	Physical commonsense
+状态变化	State change
+状态验证	State verification
+环境声音描述	Environmental sound description
+环境操作	Environment manipulation
+理解	Understanding
+生活上下文学习	Everyday in-context learning
+生活方式	Lifestyle
+生物	Biology
+生物信息	Bioinformatics
+生物医学	Biomedicine
+生物医学摘要	Biomedical summarization
+用户与代理协同任务	User-agent collaborative tasks
+用户信息提取	User information extraction
+电信	Telecommunications
+电影推荐	Movie recommendation
+界面定位	Interface grounding
+疾病	Disease
+百分位	Percentile
+百科	Encyclopedia
+百科事实问答	Encyclopedic factual QA
+目标导航	Goal navigation
+目标指代	Target reference
+目标达成	Goal achievement
+相关性	Relevance
+真假判断	True/false judgment
+真假未知	True/false/unknown
+真实GitHub问题	Real GitHub issues
+真实仓库修复	Real repo fixes
+真实图像	Real images
+真实场景空间问答	Real-scene spatial QA
+真实对话	Real dialogue
+真实工具	Real tools
+真实性	Authenticity
+真实搜索问答	Real-world search QA
+真实数据库SQL生成	Real database SQL generation
+真实用户对话	Real user dialogue
+真实问题修复	Real issue fixing
+知识	Knowledge
+知识与专业判断	Knowledge and professional judgment
+知识图谱	Knowledge graph
+知识密集问答	Knowledge-intensive QA
+知识库	Knowledge base
+知识掌握	Knowledge mastery
+知识更新	Knowledge update
+知识迁移	Knowledge transfer
+短中长	Short, medium, long
+短事实准确性	Short-form factual accuracy
+短答案	Short answer
+研究数学	Research mathematics
+研究生知识	Graduate-level knowledge
+研究生科学推理	Graduate-level science reasoning
+研究生跨学科知识	Graduate interdisciplinary knowledge
+研究级问题求解	Research-level problem solving
+碎片信息与修订	Fragmented information and revision
+社会互动	Social interaction
+社会偏差	Social bias
+社会导航	Social navigation
+社会常识	Social commonsense
+社会情境理解	Social situation understanding
+社会科学	Social science
+社会认知与合作	Social cognition and cooperation
+离散数值阅读推理	Discrete numerical reading reasoning
+科学	Science
+科学与研究	Science and research
+科学图表解读	Scientific chart interpretation
+科学技术	Science and technology
+科学示意图	Scientific diagrams
+科学计算编程	Scientific computing programming
+科学选择题	Science multiple-choice
+科学问题求解	Scientific problem solving
+科研执行	Research execution
+移动	Mobile
+程序化任务执行	Programmatic task execution
+程序构造	Program construction
+程序理解	Program comprehension
+程序解释	Program explanation
+程序验证	Program verification
+空仓库起步	Starting from an empty repo
+空间	Space
+空间关系	Spatial relations
+空间感知	Spatial perception
+空间指令定位	Spatial instruction grounding
+空间理解	Spatial understanding
+竞技编程	Competitive programming
+竞赛数学	Competition mathematics
+第一视角	First-person
+第一视角长时推理	First-person long-horizon reasoning
+答对比例	Correct-answer ratio
+答案核验	Answer verification
+算术	Arithmetic
+算法比赛	Algorithm contest
+管理	Management
+粗粒度感知	Coarse-grained perception
+系统管理	System administration
+纠错学科考试	Error-correction subject exams
+约束写作	Constrained writing
+约束满足	Constraint satisfaction
+约束规划	Constrained planning
+纯视觉版	Vision-only version
+组合	Composition
+组合图像生成	Compositional image generation
+组合多跳问答	Compositional multi-hop QA
+组合约束	Combined constraints
+细粒度感知	Fine-grained perception
+细粒度控件	Fine-grained UI controls
+细粒度视频任务	Fine-grained video tasks
+细粒度辨别	Fine-grained discrimination
+细节	Detail
+终端任务执行	Terminal task execution
+终身机器人学习	Lifelong robot learning
+经济学	Economics
+经济工作	Economic work
+经验发现与模拟	Empirical discovery and simulation
+结构化信息	Structured information
+结构化数据	Structured data
+结果匹配	Result matching
+统计	Statistics
+综合OCR	Comprehensive OCR
+综合学科考试	Comprehensive subject exams
+综合竞赛解题	Comprehensive competition problem solving
+综合视觉问答	Comprehensive visual QA
+综合视频理解	Comprehensive video understanding
+编程语法	Programming syntax
+网购	Online shopping
+网页	Webpage
+网页搜索	Web search
+网页端到端任务	Web end-to-end tasks
+网页证据	Web evidence
+美国	United States
+美国邀请赛解题	US invitational problem solving
+美学	Aesthetics
+翻译	Translation
+翻译质量	Translation quality
+翻译错误	Translation errors
+考试阅读理解	Exam reading comprehension
+职业交付质量	Professional deliverable quality
+聚合	Aggregation
+背景一致性	Background consistency
+胜率	Win rate
+脏数据	Dirty data
+自动偏好	Automated preference
+自我一致性	Self-consistency
+自我修复	Self-repair
+自然语言到Python	Natural language to Python
+自然语言前提	Natural language premises
+自然语言描述	Natural language description
+自然语言证明	Natural language proof
+航空	Aviation
+艺术	Art
+艺术设计	Art and design
+英文	English
+英文到多语言	English to multilingual
+英文语音转写	English speech transcription
+英语阅读	English reading
+范畴	Category
+行为解释	Behavior explanation
+行为记录与活动轨迹	Behavior logs and activity traces
+行动效率	Action efficiency
+行动效率得分	Action efficiency score
+表单	Form
+表格	Table
+表格推理	Table reasoning
+观测数据	Observational data
+规则应用	Rule application
+规则系统应用	Rule system application
+规则结论	Rule conclusion
+规则识别	Rule recognition
+视觉与空间	Vision and space
+视觉事实	Visual facts
+视觉事实问答	Visual factual QA
+视觉依赖推理	Vision-dependent reasoning
+视觉定位	Visual grounding
+视觉幻觉识别	Visual hallucination detection
+视觉搜索	Visual search
+视觉数学推理	Visual math reasoning
+视觉理解	Visual understanding
+视觉网页任务	Visual web tasks
+视觉购物	Visual shopping
+视觉跟踪	Visual tracking
+视觉错觉	Visual illusion
+视频与时间理解	Video and temporal understanding
+视频生成质量	Video generation quality
+视频知识学习	Video knowledge learning
+视频知识获取应用	Video knowledge acquisition and application
+视频问答	Video QA
+角色扮演	Role-play
+解释	Explanation
+计数	Counting
+计数概率	Counting probability
+计算化学	Computational chemistry
+计算机	Computer
+计算机科学	Computer science
+记忆	Memory
+记忆与长上下文	Memory and long context
+论坛	Forum
+论文任务视角；中文	Paper task perspective; Chinese
+论文任务视角；英文	Paper task perspective; English
+论文复现	Paper reproduction
+讽刺	Sarcasm
+证据整合	Evidence integration
+评级	rating
+词序	Word order
+语义理解	Semantic understanding
+语言	Language
+语言与沟通	Language and communication
+语言到家庭行动	Language-to-household actions
+语言对	Language pair
+语言幻觉	Language hallucination
+语言条件连续操作	Language-conditioned continuous manipulation
+语音	Speech
+语音情绪识别	Speech emotion recognition
+语音翻译	Speech translation
+语音识别	Speech recognition
+语音问答	Speech QA
+说服故事	Persuasion stories
+说话人	Speaker
+谈判协商	Negotiation
+财务与社会规则	Financial and social rules
+财务报告	Financial reports
+财务数值推理	Financial numerical reasoning
+购物	Shopping
+超义理解	Implied meaning understanding
+超长视频理解	Ultra-long video understanding
+越狱	Jailbreak
+越狱抵抗	Jailbreak resistance
+跨会话推理	Cross-session reasoning
+跨会话记忆问答	Cross-session memory QA
+跨场景交互执行	Cross-scene interactive execution
+跨学科知识	Interdisciplinary knowledge
+跨工具工作流	Cross-tool workflows
+跨数据库SQL生成	Cross-database SQL generation
+跨数据库泛化	Cross-database generalization
+跨文档理解	Cross-document understanding
+跨模态知识	Cross-modal knowledge
+跨环境泛化	Cross-environment generalization
+跨网站泛化	Cross-website generalization
+跨语言专业推理	Cross-lingual professional reasoning
+跨语言仓库修改	Cross-lingual repo modification
+跨语言学科问答	Cross-lingual subject QA
+跨语言推理	Cross-lingual reasoning
+跨语言语音翻译	Cross-lingual speech translation
+跨页证据	Cross-page evidence
+软件任务	Software tasks
+软件工程	Software engineering
+输入输出推演	Input-output deduction
+输入预测	Input prediction
+输出预测	Output prediction
+过时知识	Outdated knowledge
+运动	Motion
+运动方向	Motion direction
+适应	Adaptation
+适当弃答	Appropriate abstention
+通用任务执行	General task execution
+速度	Speed
+逻辑	Logic
+逻辑关系	Logical relation
+逻辑推理	Logical reasoning
+逻辑演绎	Logical deduction
+逻辑运算	Logical operations
+邮件	Email
+重复	Repetition
+金融	Finance
+银行	Banking
+链式任务	Chained tasks
+错误	Error
+错误信念	False belief
+长上下文有效长度	Effective long-context length
+长上下文综合	Long-context synthesis
+长对话历史	Long conversation history
+长度校正胜率	Length-controlled win rate
+长文本证据推理	Long-text evidence reasoning
+长文档跨页推理	Cross-page long-document reasoning
+长文理解	Long-text comprehension
+长时工程	Long-horizon engineering
+长时视频	Long-duration video
+长期对话记忆	Long-term conversational memory
+长期记忆	Long-term memory
+长短视频问答	Long- and short-video QA
+长程全局规划	Long-horizon global planning
+长程家庭任务	Long-horizon household tasks
+长程工作流	Long-horizon workflow
+长程操作	Long-horizon operation
+长程自主性	Long-horizon autonomy
+长答案	Long answer
+长视频多任务	Long-video multi-tasking
+问答	Question answering
+问题解决率	Problem-solving rate
+阅读理解	Reading comprehension
+阅读顺序	Reading order
+随机	Random
+隐性仇恨	Implicit hate speech
+隐性有害语言	Implicit harmful language
+难定位事实	Hard-to-locate facts
+零售	Retail
+非字面表达	Non-literal expressions
+非平行文化常识	Non-parallel cultural commonsense
+非歧义	Unambiguous
+音乐	Music
+音频推理	Audio reasoning
+音频综合	Comprehensive audio
+音频语言理解	Audio-language understanding
+音频问答	Audio QA
+领域新知识应用	Applying new domain knowledge
+领域知识推理	Domain knowledge reasoning
+颜色	Color
+颜色归属	Color attribution
+驾驶场景推理	Driving scenario reasoning
+驾驶视频	Driving video
+高中	High school
+高分辨率	High resolution
+高分辨率视觉搜索	High-resolution visual search
+高考	Gaokao
+高难多模态知识	Advanced multimodal knowledge
+高难学科考试	Advanced subject exams
+高难视觉数学	Advanced visual mathematics
+鲁棒性	Robustness

@@ -1,0 +1,45 @@
+[build-system]
+requires = ["hatchling>=1.26"]
+build-backend = "hatchling.build"
+
+[project]
+name = "agi-atlas"
+version = "0.2.0"
+description = "How far is AI from AGI? Every human job and discipline as the denominator, scored by benchmark SOTA."
+readme = "README.md"
+requires-python = ">=3.12"
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [{ name = "AGI Atlas contributors" }]
+keywords = ["agi", "ai-evaluation", "benchmarks", "o-net", "llm"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: 3.14",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Natural Language :: Chinese (Simplified)",
+    "Natural Language :: English",
+]
+dependencies = ["pydantic>=2.10,<3", "PyYAML>=6.0.2,<7", "typer>=0.15,<1"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.3,<10", "ruff>=0.11,<1"]
+# 仅重建分母表（解析 GB/T 13745 PDF）时需要。
+build = ["pypdf>=5,<7"]
+
+[project.scripts]
+agi-atlas = "agi_atlas.cli:app"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/agi_atlas"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+target-version = "py312"
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]

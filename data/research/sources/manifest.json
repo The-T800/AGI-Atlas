@@ -1,0 +1,213 @@
+[
+  {
+    "id": "deepseek-r1",
+    "url": "https://raw.githubusercontent.com/deepseek-ai/DeepSeek-R1/main/README.md",
+    "observed_at": "2026-10-04",
+    "sha256": "4ed979e497121ae4dd9f1573da1668219f43be55d62cc0bf2be5429211a67486",
+    "bytes": 20736
+  },
+  {
+    "id": "deepseek-v3",
+    "url": "https://raw.githubusercontent.com/deepseek-ai/DeepSeek-V3/main/README.md",
+    "observed_at": "2026-10-04",
+    "sha256": "1f766f151bb4d501b18c9d1e229ac25682c68c75893d6d3bc9734e2a60125c0e",
+    "bytes": 20851
+  },
+  {
+    "id": "qwen25-omni",
+    "url": "https://raw.githubusercontent.com/QwenLM/Qwen2.5-Omni/main/README.md",
+    "observed_at": "2026-10-04",
+    "sha256": "8b4c934f3c8dcd1c8b0a71b305190543dacc7d4364c40c6ba45bc2d494cd4a95",
+    "bytes": 59911
+  },
+  {
+    "id": "cl-bench",
+    "url": "https://raw.githubusercontent.com/Tencent-Hunyuan/CL-bench/main/README.md",
+    "observed_at": "2026-10-04",
+    "sha256": "4b4fc8de977f88c3fc27d68713b249dc90e958c1e0a1e78c1a8e201064f460a7",
+    "bytes": 8133
+  },
+  {
+    "id": "qwen35-card",
+    "url": "https://huggingface.co/Qwen/Qwen3.5-397B-A17B/raw/main/README.md",
+    "observed_at": "2026-10-04",
+    "sha256": "bda4b24e975f65ac677985306ddbad33362e65064637660654c8bb7dea7edf50",
+    "bytes": 94793
+  },
+  {
+    "id": "qwen38-card",
+    "url": "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B/raw/main/README.md",
+    "observed_at": "2026-10-04",
+    "sha256": "7690c680c2d6eb284179ef5dd4db63260d248531cae9087b09b2c2200230f331",
+    "bytes": 35755
+  },
+  {
+    "id": "cl-paper",
+    "url": "https://arxiv.org/html/2602.03587v1",
+    "observed_at": "2026-10-04",
+    "sha256": "b66c423d5b26eefbb785ed8e39a7a59391b59952da1b07e4af3e27dc34f3d1b0",
+    "bytes": 861025
+  },
+  {
+    "id": "bbh",
+    "url": "https://raw.githubusercontent.com/suzgunmirac/BIG-Bench-Hard/main/README.md",
+    "observed_at": "2026-10-04",
+    "sha256": "9c41105f4a349fcba7f87a422df0e744a9ed8e7a30c2db6676a9ecad372bc9db",
+    "bytes": 3475
+  },
+  {
+    "id": "mmlu-pro",
+    "url": "https://raw.githubusercontent.com/TIGER-AI-Lab/MMLU-Pro/main/README.md",
+    "observed_at": "2026-10-04",
+    "sha256": "dfbab62320e644f3682d4697e206160bbb59baafa324c59a17e4424328e3e5a5",
+    "bytes": 5993
+  },
+  {
+    "id": "mmmu",
+    "url": "https://raw.githubusercontent.com/MMMU-Benchmark/MMMU/main/README.md",
+    "observed_at": "2026-10-04",
+    "sha256": "a4e89dd389f9b4c82b92e54b5d50a58e55a53c077a5009f7d4b4e53c09bdcc3a",
+    "bytes": 7881
+  },
+  {
+    "id": "video-mme",
+    "url": "https://raw.githubusercontent.com/MME-Benchmarks/Video-MME/main/README.md",
+    "observed_at": "2026-10-04",
+    "sha256": "df3132ed6c4d17c7f47acc0ee832e352185edd9d5b30bacc9a0195e948124668",
+    "bytes": 11893
+  },
+  {
+    "id": "abstention-scores",
+    "url": "https://raw.githubusercontent.com/facebookresearch/AbstentionBench/main/analysis/abstention_performance.csv",
+    "observed_at": "2026-10-04",
+    "sha256": "8878bb2ac3b66a3568dfcbd8784a70d1be074babe4a01330c83c4a717b782a9b",
+    "bytes": 66233
+  },
+  {
+    "id": "swe-board",
+    "url": "https://www.swebench.com/",
+    "observed_at": "2026-10-04",
+    "sha256": "5d031921be2267f0d210fde3c654d56e9be7fc5ee45b3bab3b9f5888cce73d5a",
+    "bytes": 2392492
+  },
+  {
+    "id": "tom-paper",
+    "url": "https://arxiv.org/html/2402.15052v1",
+    "observed_at": "2026-10-04",
+    "sha256": "1a1d300e99a1cfd7e99dadd5e6c584f467ec4853432bed89012f42f74015dc6e",
+    "bytes": 861025
+  },
+  {
+    "id": "mmsi-readme",
+    "url": "https://raw.githubusercontent.com/InternRobotics/MMSI-Bench/main/README.md",
+    "observed_at": "2026-10-04",
+    "sha256": "59bd4e43200a584353ef5febe084de0a9771b96a0d7595f19126df6fcc4fe567",
+    "bytes": 16709
+  },
+  {
+    "id": "arc-v1",
+    "url": "https://arcprize.org/media/data/leaderboard/v1.json",
+    "observed_at": "2026-10-04",
+    "sha256": "d5615b981ca6bc6eafdfb79f2081525bc0f6ff6d64e86f11759b6628797db5fd",
+    "bytes": 139245
+  },
+  {
+    "id": "arc-v2",
+    "url": "https://arcprize.org/media/data/leaderboard/v2.json",
+    "observed_at": "2026-10-04",
+    "sha256": "8b1385616f496fb2c79a46cf9872781dd0fb32f63668e3ac20ec673ddfd264fc",
+    "bytes": 141547
+  },
+  {
+    "id": "arc-v3",
+    "url": "https://arcprize.org/media/data/leaderboard/v3.json",
+    "observed_at": "2026-10-04",
+    "sha256": "834d834694efa2bababba2dc201112007b5f6229b00b5821f27a25f46f4175b5",
+    "bytes": 46134
+  },
+  {
+    "id": "wildguard",
+    "url": "https://raw.githubusercontent.com/allenai/wildguard/main/README.md",
+    "observed_at": "2026-10-04",
+    "sha256": "e9b46a0e3e74792e8cebe692f444607e21767d1888a2ade3785d3657fd33c699",
+    "bytes": 5777
+  },
+  {
+    "id": "geneval",
+    "url": "https://raw.githubusercontent.com/djghosh13/geneval/main/README.md",
+    "observed_at": "2026-10-04",
+    "sha256": "468930e319ebba4b535f9c77cbac91bda6e3b2f6ad21f4c6c55b08161baca94a",
+    "bytes": 4916
+  },
+  {
+    "id": "wildguard-paper",
+    "url": "https://arxiv.org/html/2406.18495v1",
+    "observed_at": "2026-10-04",
+    "sha256": "5a50a5b59dfc9aeaf8e8a271a9c8a265b16b3f0cab0060a6fb8e985725775d38",
+    "bytes": 389874
+  },
+  {
+    "id": "oft-paper",
+    "url": "https://arxiv.org/html/2502.19645v1",
+    "observed_at": "2026-10-04",
+    "sha256": "fc6bc1e7799437221fe60bd8adcba11ef977cd524d5c29419da92675e7dbf799",
+    "bytes": 290154
+  },
+  {
+    "id": "epoch-eci",
+    "url": "https://epoch.ai/data/eci_scores.csv",
+    "observed_at": "2026-10-04",
+    "sha256": "4e56b4bd0d0830d4dd520fea608c0047bca808879f7588fa17508ed676d36777",
+    "bytes": 33373
+  },
+  {
+    "id": "epoch-benchmarks",
+    "url": "https://epoch.ai/data/benchmark_data.zip",
+    "observed_at": "2026-10-04",
+    "sha256": "43820f9d624eafa7b9932ab11a8fef90959997bbe6b5866d31795d08f470aef4",
+    "bytes": 2353424,
+    "file": "epoch-benchmarks.zip"
+  },
+  {
+    "id": "epoch-method-gpqa",
+    "url": "https://epoch.ai/benchmarks/gpqa-diamond",
+    "observed_at": "2026-10-04",
+    "sha256": "f32fa4a155fde0568bdc3983f1af9e0862779b636954d0181f527ee7a0c324fa",
+    "bytes": 98753
+  },
+  {
+    "id": "epoch-method-frontiermath",
+    "url": "https://epoch.ai/benchmarks/frontiermath",
+    "observed_at": "2026-10-04",
+    "sha256": "00d5947e0483f72ce5d7ddac2120695aa6abfb6a3d5661727a74f0de41012a69",
+    "bytes": 101273
+  },
+  {
+    "id": "epoch-method-math5",
+    "url": "https://epoch.ai/benchmarks/math-level-5",
+    "observed_at": "2026-10-04",
+    "sha256": "0d4e475638114818b09c3697635979cdcff7f908b2a4b85352e0236dc4128ddd",
+    "bytes": 95260
+  },
+  {
+    "id": "epoch-method-swe",
+    "url": "https://epoch.ai/benchmarks/swe-bench-verified",
+    "observed_at": "2026-10-04",
+    "sha256": "e1dc4214bc958eccc5c88e2da9068abd4b438d471620daa0a3f76e5cfddf57f8",
+    "bytes": 102919
+  },
+  {
+    "id": "epoch-method-simpleqa",
+    "url": "https://epoch.ai/benchmarks/simpleqa-verified",
+    "observed_at": "2026-10-04",
+    "sha256": "8392d647c5182b7f9b00dbfa06e13e038a94f92d3cffa18c53797b2a11ef049b",
+    "bytes": 98705
+  },
+  {
+    "id": "epoch-eci-page",
+    "url": "https://epoch.ai/eci",
+    "observed_at": "2026-10-04",
+    "sha256": "f97ee6d2303462496dac7705fa2fe21da6977b499001182f3200fa665fbade4e",
+    "bytes": 219769
+  }
+]

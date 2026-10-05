@@ -1,0 +1,284 @@
+"""中英双语：界面文案与数据词条。页面内嵌两种语言并可切换，Markdown 报告按语言分别生成。"""
+
+import csv
+import re
+from functools import cache
+from pathlib import Path
+
+LANGS = ("zh", "en")
+
+# 界面与报告共用的文案；新增文案时两种语言必须同时提供（测试会检查）。
+UI: dict[str, dict[str, str]] = {
+    "title": {"zh": "离 AGI 还差多少？", "en": "How far is AI from AGI?"},
+    "tagline": {
+        "zh": "把人类全部职业与学科当作分母，用基准测试的最好成绩逐项打分，没测到的记 0。",
+        "en": "Every human job and academic discipline is the denominator. Each item is scored "
+        "by the best benchmark result; anything unmeasured scores 0.",
+    },
+    "lang_switch": {"zh": "English", "en": "中文"},
+    "snapshot": {"zh": "数据快照", "en": "Data snapshot"},
+    "tab_gap": {"zh": "AGI 差距", "en": "AGI gap"},
+    "tab_benchmarks": {"zh": "基准与成绩", "en": "Benchmarks"},
+    "tab_models": {"zh": "模型", "en": "Models"},
+    "tab_trend": {"zh": "趋势", "en": "Trends"},
+    "jobs": {"zh": "按职业", "en": "By jobs"},
+    "disciplines": {"zh": "按学科", "en": "By disciplines"},
+    "ai_reached": {"zh": "AI 已达到", "en": "AI reached"},
+    "measured": {"zh": "有基准测量", "en": "Measured"},
+    "precise": {"zh": "精确测量", "en": "Precisely measured"},
+    "measured_depth": {"zh": "已测部分得分", "en": "Score where measured"},
+    "bar_reached": {"zh": "AI 已达到", "en": "AI reached"},
+    "bar_left": {"zh": "已测、未达到", "en": "Measured, not reached"},
+    "bar_noscore": {"zh": "有基准、无成绩", "en": "Benchmark, no score"},
+    "bar_blank": {"zh": "无基准", "en": "No benchmark"},
+    "jobs_lead": {
+        "zh": "{occupations} 个职业、{tasks} 项任务，归为 {leaves} 项工作活动",
+        "en": "{occupations} occupations, {tasks} tasks, grouped into {leaves} work activities",
+    },
+    "disc_lead": {
+        "zh": "{leaves} 个细分学科（62 个一级学科之下）",
+        "en": "{leaves} fine-grained disciplines under 62 top-level disciplines",
+    },
+    "by_major": {"zh": "职业大类", "en": "Occupation group"},
+    "by_activity": {"zh": "工作活动", "en": "Work activity"},
+    "by_discipline": {"zh": "一级学科", "en": "Discipline"},
+    "count": {"zh": "数量", "en": "Count"},
+    "top_items": {"zh": "得分最高的细项", "en": "Top-scoring items"},
+    "show_rest": {"zh": "展开其余 {n} 项", "en": "Show the other {n}"},
+    "top_jobs": {"zh": "得分最高的职业", "en": "Top-scoring occupations"},
+    "via": {"zh": "依据", "en": "via"},
+    "direct": {"zh": "直接测量", "en": "direct"},
+    "partial": {"zh": "部分测量", "en": "partial"},
+    "how": {"zh": "怎么算", "en": "How it is computed"},
+    "how_body": {
+        "zh": "每一项的得分 = 覆盖系数 × 该基准 SOTA 成绩（相对人类值或满分 100%）。"
+        "直接测量系数 {direct}，部分测量 {partial}；学科只按大类出题时，"
+        "二级再乘 {level2}、一级乘 {level1}。取覆盖它的基准中最高的一个，没有基准的记 0。",
+        "en": "Item score = coverage factor × the benchmark's SOTA score "
+        "(relative to the human baseline or to 100%). Direct = {direct}, partial = {partial}; "
+        "disciplines tested only at a coarse level are further multiplied by {level2} "
+        "(level 2) or {level1} (level 1). The best benchmark counts; items without one score 0.",
+    },
+    "limits": {"zh": "局限", "en": "Limitations"},
+    "limits_body": {
+        "zh": "映射为逐个基准人工判定，尚未独立审阅；成绩含厂商自报。{onet}{gbt}",
+        "en": "Mappings are hand-labelled per benchmark and not yet independently reviewed; "
+        "some scores are self-reported by vendors. {onet} {gbt}",
+    },
+    "source": {"zh": "来源", "en": "Source"},
+    "search": {"zh": "搜索基准、能力或子任务…", "en": "Search benchmarks, abilities, tasks…"},
+    "all_domains": {"zh": "全部能力", "en": "All abilities"},
+    "all_status": {"zh": "全部阶段", "en": "All stages"},
+    "best": {"zh": "最好成绩", "en": "Best score"},
+    "no_score": {"zh": "暂无成绩", "en": "No score yet"},
+    "results": {"zh": "个基准", "en": "benchmarks"},
+    "view_scores": {"zh": "查看全部成绩", "en": "All scores"},
+    "official": {"zh": "原始任务 ↗", "en": "Task definition ↗"},
+    "setting": {"zh": "口径", "en": "Setting"},
+    "model": {"zh": "模型", "en": "Model"},
+    "score": {"zh": "成绩", "en": "Score"},
+    "human": {"zh": "人类", "en": "Human"},
+    "date": {"zh": "日期", "en": "Date"},
+    "evidence": {"zh": "证据", "en": "Evidence"},
+    "more": {"zh": "再显示 50 条", "en": "Show 50 more"},
+    "close": {"zh": "关闭", "en": "Close"},
+    "prev": {"zh": "上一页", "en": "Previous"},
+    "next": {"zh": "下一页", "en": "Next"},
+    "model_search": {
+        "zh": "搜索模型，如 GPT、Claude、Qwen…",
+        "en": "Search models, e.g. GPT, Claude…",
+    },
+    "rank": {"zh": "组内排名", "en": "Rank"},
+    "stage": {"zh": "阶段", "en": "Stage"},
+    "model_hint": {
+        "zh": "排名只在同一口径（版本、协议、子集、指标）内比较。",
+        "en": "Ranks compare only within the same setting (version, protocol, subset, metric).",
+    },
+    "horizon_title": {
+        "zh": "AI 能独立完成多长的任务？（METR）",
+        "en": "How long a task can AI complete on its own? (METR)",
+    },
+    "horizon_note": {
+        "zh": "纵轴：人类专家完成该任务所需时长（对数刻度）。"
+        "虚线：本页拟合，约每 {days} 天翻一倍。",
+        "en": "Y-axis: time a human expert needs for the task (log scale). Dashed: our fit, "
+        "doubling about every {days} days.",
+    },
+    "p50": {"zh": "50% 成功率", "en": "50% success"},
+    "p80": {"zh": "80% 成功率", "en": "80% success"},
+    "eci_title": {
+        "zh": "综合能力指数（Epoch ECI）",
+        "en": "Capabilities index (Epoch ECI)",
+    },
+    "eci_note": {
+        "zh": "由 Epoch AI 从多个基准联合拟合，只用于模型间比较。",
+        "en": "Fitted by Epoch AI across many benchmarks; for comparing models only.",
+    },
+    "open_weights": {"zh": "开放权重", "en": "Open weights"},
+    "closed": {"zh": "闭源", "en": "Closed"},
+    "footer": {
+        "zh": "AGI Atlas · 开放数据，逐条可追溯 · MIT 许可",
+        "en": "AGI Atlas · Open data, every number traceable · MIT License",
+    },
+    "unknown_date": {"zh": "未公开", "en": "n/a"},
+    "minutes": {"zh": "分钟", "en": "min"},
+    "hours": {"zh": "小时", "en": "h"},
+    # 官网式首页
+    "nav_overview": {"zh": "概览", "en": "Overview"},
+    "nav_jobs": {"zh": "职业", "en": "Jobs"},
+    "nav_disc": {"zh": "学科", "en": "Disciplines"},
+    "nav_method": {"zh": "方法", "en": "Method"},
+    "nav_explore": {"zh": "数据", "en": "Data"},
+    "hero_kicker": {"zh": "人类能力全景图", "en": "A map of human capability"},
+    "hero_title": {
+        "zh": "以人类全部工作为分母，AI 走到了",
+        "en": "Measured against all human work, AI has reached",
+    },
+    "hero_sub": {
+        "zh": "{occupations} 个职业、{activities} 项工作活动、{disciplines} 个学科，"
+        "逐一对照公开基准的最好成绩。没有基准测到的，记 0。",
+        "en": "{occupations} occupations, {activities} work activities and {disciplines} "
+        "disciplines, each checked against the best published benchmark score. "
+        "Anything unmeasured counts as zero.",
+    },
+    "stat_jobs": {"zh": "人类工作", "en": "of human work"},
+    "stat_disc": {"zh": "学科知识", "en": "of academic disciplines"},
+    "stat_blank": {"zh": "工作没有任何基准", "en": "of work has no benchmark"},
+    "stat_depth": {"zh": "已测部分的平均得分", "en": "average score where measured"},
+    "mosaic_title": {
+        "zh": "每一格，都是一种人类工作",
+        "en": "Every square is one kind of human work",
+    },
+    "mosaic_sub": {
+        "zh": "越亮表示 AI 得分越高；暗格表示还没有任何基准测量它。把鼠标移到格子上查看名称。",
+        "en": "Brighter means a higher AI score; dark squares have never been measured. "
+        "Hover to see what each one is.",
+    },
+    "mosaic_jobs": {"zh": "职业 · {n} 项工作活动", "en": "Jobs · {n} activities"},
+    "mosaic_disc": {"zh": "学科 · {n} 个学科", "en": "Disciplines · {n}"},
+    "mosaic_caption": {
+        "zh": "{scored} 项有得分 · {noscore} 项有基准无成绩 · {blank} 项无基准",
+        "en": "{scored} scored · {noscore} benchmarked, no score · {blank} unmeasured",
+    },
+    "legend_score": {"zh": "AI 得分 0 → 100", "en": "AI score 0 → 100"},
+    "legend_noscore": {"zh": "有基准、无成绩", "en": "Benchmark, no score"},
+    "legend_blank": {"zh": "无基准", "en": "Unmeasured"},
+    "ins1_t": {"zh": "差距主要来自“没测”", "en": "Most of the gap is unmeasured"},
+    "ins1_b": {
+        "zh": "{blank}% 的人类工作没有任何基准。不是 AI 做不到，而是还没有人测过。",
+        "en": "{blank}% of human work has no benchmark at all. Not failed, simply never tested.",
+    },
+    "ins2_t": {"zh": "测到的地方，AI 已经很强", "en": "Where measured, AI is strong"},
+    "ins2_b": {
+        "zh": "有基准的工作上平均得分 {depth}%；最高的是“{top}”，{score} 分。",
+        "en": "It averages {depth}% on benchmarked work; the best is “{top}” at {score}.",
+    },
+    "ins3_t": {"zh": "体力与现场工作几乎为零", "en": "Physical, on-site work is near zero"},
+    "ins3_b": {"zh": "{groups}，得分均为 0。", "en": "{groups}: all score 0."},
+    "jobs_title": {"zh": "哪些职业离 AI 最近", "en": "Which jobs AI is closest to"},
+    "jobs_sub": {
+        "zh": "实心为 AI 已达到的部分，细线为有基准覆盖的部分。",
+        "en": "Solid: what AI has reached. Thin line: the share of work with any benchmark.",
+    },
+    "disc_title": {"zh": "学科：覆盖很广，深度很浅", "en": "Disciplines: broad, but shallow"},
+    "disc_sub": {
+        "zh": "综合考试按大类抽题，覆盖了 {mapped}% 的学科，但被精确测到的只有 {precise} 个。",
+        "en": "Broad exams sample {mapped}% of disciplines by category, yet only {precise} "
+        "are measured precisely.",
+    },
+    "method_title": {"zh": "我们怎么算", "en": "How we measure"},
+    "step1_t": {"zh": "定义分母", "en": "Define the denominator"},
+    "step1_b": {
+        "zh": "职业取美国劳工部 O*NET 31.0，学科取国家标准 GB/T 13745，都拆到最细一级。",
+        "en": "Jobs come from O*NET 31.0 (US Department of Labor), disciplines from China's "
+        "GB/T 13745 standard, both split to the finest level.",
+    },
+    "step2_t": {"zh": "对照基准", "en": "Map the benchmarks"},
+    "step2_b": {
+        "zh": "{benchmarks} 个基准逐一挂到它真正测量的工作活动与学科上，并标注直接或部分测量。",
+        "en": "Each of {benchmarks} benchmarks is linked to the activities and disciplines it "
+        "actually tests, marked direct or partial.",
+    },
+    "step3_t": {"zh": "取最好成绩", "en": "Score by the best result"},
+    "step3_b": {
+        "zh": "每一项取覆盖它的基准中最好的成绩，按覆盖程度打折；没有基准测到的，记 0。",
+        "en": "Each item takes the best score among the benchmarks that cover it, discounted "
+        "by how directly it is measured. Unmeasured items score zero.",
+    },
+    "explore_title": {"zh": "探索数据", "en": "Explore the data"},
+    "explore_sub": {
+        "zh": "{benchmarks} 个基准 · {scores} 条成绩 · {models} 个模型，每一条都可追溯到来源。",
+        "en": "{benchmarks} benchmarks · {scores} scores · {models} models, each traceable "
+        "to its source.",
+    },
+    # 阶段
+    "reached": {"zh": "达到人类水平", "en": "Human level"},
+    "near": {"zh": "接近满分", "en": "Near ceiling"},
+    "progress": {"zh": "进行中", "en": "In progress"},
+    "gap": {"zh": "差距明显", "en": "Large gap"},
+    "unknown": {"zh": "无上限量尺", "en": "Unbounded scale"},
+    "none": {"zh": "暂无成绩", "en": "No score"},
+    # 来源类型
+    "official_benchmark": {"zh": "官方榜单", "en": "Official leaderboard"},
+    "independent_evaluation": {"zh": "独立评测", "en": "Independent eval"},
+    "paper": {"zh": "论文", "en": "Paper"},
+    "model_provider": {"zh": "厂商报告", "en": "Vendor report"},
+    "community": {"zh": "社区", "en": "Community"},
+}
+
+# 报告专用文案
+REPORT: dict[str, dict[str, str]] = {
+    "summary_head": {"zh": "## 结论", "en": "## Results"},
+    "denominator": {"zh": "分母", "en": "Denominator"},
+    "size": {"zh": "规模", "en": "Size"},
+    "jobs_size": {
+        "zh": "{occupations} 职业 · {leaves} 工作活动",
+        "en": "{occupations} jobs · {leaves} activities",
+    },
+    "disc_size": {"zh": "{leaves} 细分学科", "en": "{leaves} disciplines"},
+    "by_major_head": {"zh": "## 按职业大类", "en": "## By occupation group"},
+    "by_disc_head": {"zh": "## 按一级学科（前 15）", "en": "## By discipline (top 15)"},
+    "benchmarks_head": {"zh": "## 各基准最好成绩", "en": "## Best score per benchmark"},
+    "benchmark": {"zh": "基准", "en": "Benchmark"},
+    "domain": {"zh": "能力域", "en": "Domain"},
+    "how_head": {"zh": "## 怎么算", "en": "## Method"},
+    "rebuild": {
+        "zh": "本报告由 `uv run agi-atlas report` 生成，请勿手改。",
+        "en": "Generated by `uv run agi-atlas report`; do not edit by hand.",
+    },
+}
+
+
+def t(key: str, lang: str, **values: object) -> str:
+    entry = UI.get(key) or REPORT[key]
+    return entry[lang].format(**values) if values else entry[lang]
+
+
+@cache
+def _terms(path: str) -> dict[str, str]:
+    with Path(path).open(encoding="utf-8", newline="") as f:
+        rows = csv.DictReader((line for line in f if not line.startswith("#")), delimiter="\t")
+        return {r["zh"]: r["en"] for r in rows}
+
+
+HAN = re.compile(r"[一-鿿]")
+
+
+def term_table(data_dir: Path | str) -> dict[str, str]:
+    path = Path(data_dir) / "i18n/terms.tsv"
+    return _terms(str(path)) if path.exists() else {}
+
+
+def translate(text: str | None, table: dict[str, str]) -> str | None:
+    """整句命中词表直接替换；否则逐段替换中文片段，未收录的中文保留原文。"""
+    if text is None or not HAN.search(text):
+        return text
+    if text in table:
+        return table[text]
+    for sep in (" / ", "/", "；", ";", "、"):
+        if sep in text:
+            joined = (" / " if sep == "/" else ("; " if sep in "；;" else ", ")).join(
+                translate(part.strip(), table) or "" for part in text.split(sep)
+            )
+            return joined
+    return text

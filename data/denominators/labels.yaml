@@ -1,0 +1,110 @@
+# O*NET 41 个通用工作活动（GWA）的中文名与 SOC 2018 的 22 个职业大类中英文名，仅用于展示；ID 以 O*NET / BLS 原文为准。
+gwa:
+  4.A.1.a.1: 获取信息
+  4.A.1.a.2: 监测过程、材料或环境
+  4.A.1.b.1: 识别物体、行为和事件
+  4.A.1.b.2: 检查设备、结构或材料
+  4.A.1.b.3: 估算产品、事件或信息的量化特征
+  4.A.2.a.1: 评判物品、服务或人员的质量
+  4.A.2.a.2: 处理信息
+  4.A.2.a.3: 评估信息是否符合标准
+  4.A.2.a.4: 分析数据或信息
+  4.A.2.b.1: 决策与解决问题
+  4.A.2.b.2: 创造性思考
+  4.A.2.b.3: 更新并运用相关知识
+  4.A.2.b.4: 制定目标与策略
+  4.A.2.b.5: 安排工作与活动
+  4.A.2.b.6: 组织、规划与排定工作优先级
+  4.A.3.a.1: 一般体力活动
+  4.A.3.a.2: 搬运与移动物体
+  4.A.3.a.3: 控制机器与工艺过程
+  4.A.3.a.4: 操作车辆、机械设备
+  4.A.3.b.1: 使用计算机
+  4.A.3.b.2: 绘制、布置和规定技术装置与部件
+  4.A.3.b.4: 修理维护机械设备
+  4.A.3.b.5: 修理维护电子设备
+  4.A.3.b.6: 记录与归档信息
+  4.A.4.a.1: 向他人解释信息含义
+  4.A.4.a.2: 与上级、同事或下属沟通
+  4.A.4.a.3: 与组织外部人员沟通
+  4.A.4.a.4: 建立和维护人际关系
+  4.A.4.a.5: 协助与照护他人
+  4.A.4.a.6: 销售或影响他人
+  4.A.4.a.7: 化解冲突与谈判
+  4.A.4.a.8: 直接面向公众服务或表演
+  4.A.4.b.1: 协调他人的工作与活动
+  4.A.4.b.2: 组建团队
+  4.A.4.b.3: 培训与教学
+  4.A.4.b.4: 指导、指挥和激励下属
+  4.A.4.b.5: 辅导与培养他人
+  4.A.4.b.6: 提供咨询与建议
+  4.A.4.c.1: 行政事务
+  4.A.4.c.2: 人员配置
+  4.A.4.c.3: 监控与管理资源
+soc_major:
+  '11':
+    zh: 管理
+    en: Management
+  '13':
+    zh: 商业与金融运营
+    en: Business and financial operations
+  '15':
+    zh: 计算机与数学
+    en: Computer and mathematical
+  '17':
+    zh: 建筑与工程
+    en: Architecture and engineering
+  '19':
+    zh: 生命、物理与社会科学
+    en: Life, physical, and social science
+  '21':
+    zh: 社区与社会服务
+    en: Community and social service
+  '23':
+    zh: 法律
+    en: Legal
+  '25':
+    zh: 教育与图书馆
+    en: Educational instruction and library
+  '27':
+    zh: 艺术、设计、娱乐、体育与媒体
+    en: Arts, design, entertainment, sports, and media
+  '29':
+    zh: 医疗从业者与技术人员
+    en: Healthcare practitioners and technical
+  '31':
+    zh: 医疗辅助
+    en: Healthcare support
+  '33':
+    zh: 保护服务
+    en: Protective service
+  '35':
+    zh: 餐饮服务
+    en: Food preparation and serving
+  '37':
+    zh: 楼宇与场地清洁维护
+    en: Building and grounds cleaning and maintenance
+  '39':
+    zh: 个人护理与服务
+    en: Personal care and service
+  '41':
+    zh: 销售
+    en: Sales and related
+  '43':
+    zh: 办公与行政支持
+    en: Office and administrative support
+  '45':
+    zh: 农业、渔业与林业
+    en: Farming, fishing, and forestry
+  '47':
+    zh: 建筑施工与采掘
+    en: Construction and extraction
+  '49':
+    zh: 安装、维护与维修
+    en: Installation, maintenance, and repair
+  '51':
+    zh: 生产
+    en: Production
+  '53':
+    zh: 运输与物料搬运
+    en: Transportation and material moving

@@ -1,0 +1,34 @@
+name: New or corrected score / 新增或修正成绩
+description: Report a benchmark score with a public source. / 提交一条有公开来源的成绩。
+labels: [data]
+body:
+  - type: input
+    id: benchmark
+    attributes:
+      label: Benchmark / 基准
+      placeholder: SWE-bench Verified
+    validations:
+      required: true
+  - type: input
+    id: model
+    attributes:
+      label: Model / 模型
+    validations:
+      required: true
+  - type: input
+    id: score
+    attributes:
+      label: Score, metric and unit / 成绩、指标与单位
+      placeholder: 83.5 % resolved
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Source URL / 来源链接
+    validations:
+      required: true
+  - type: textarea
+    id: setting
+    attributes:
+      label: Version, protocol, subset, date / 版本、协议、子集、日期

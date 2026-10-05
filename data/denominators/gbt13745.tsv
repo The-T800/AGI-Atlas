@@ -1,0 +1,3533 @@
+code	level	name	name_en	parent	note
+110	1	数学	Mathematics		
+11011	2	数学史	History of mathematics	110	
+11014	2	数理逻辑与数学基础	Mathematical logic and foundations of mathematics	110	
+1101410	3	演绎逻辑学	Deductive logic	11014	亦称符号逻辑学
+1101420	3	证明论	Proof theory	11014	亦称元数学
+1101430	3	递归论	Recursion theory	11014	
+1101440	3	模型论	Model theory	11014	
+1101450	3	公理集合论	Axiomatic set theory	11014	
+1101460	3	数学基础	Foundations of mathematics	11014	
+1101499	3	数理逻辑与数学基础其他学科	Other mathematical logic and foundations of mathematics	11014	
+11017	2	数论	Number theory	110	
+1101710	3	初等数论	Elementary number theory	11017	
+1101720	3	解析数论	Analytic number theory	11017	
+1101730	3	代数数论	Algebraic number theory	11017	
+1101740	3	超越数论	Transcendental number theory	11017	
+1101750	3	丢番图逼近	Diophantine approximation	11017	
+1101760	3	数的几何	Geometry of numbers	11017	
+1101770	3	概率数论	Probabilistic number theory	11017	
+1101780	3	计算数论	Computational number theory	11017	
+1101799	3	数论其他学科	Other number theory	11017	
+11021	2	代数学	Algebra	110	
+1102110	3	线性代数	Linear algebra	11021	
+1102115	3	群论	Group theory	11021	
+1102120	3	域论	Field theory	11021	
+1102125	3	李群	Lie groups	11021	
+1102130	3	李代数	Lie algebras	11021	
+1102135	3	Kac-Moody	Kac-Moody algebras	11021	代数
+1102140	3	环论	Ring theory	11021	包括交换环与交换代数 ,结合环与结合代数 ,
+1102145	3	模论	Module theory	11021	
+1102150	3	格论	Lattice theory	11021	
+1102155	3	泛代数理论	Universal algebra	11021	
+1102160	3	范畴论	Category theory	11021	
+1102165	3	同调代数	Homological algebra	11021	
+1102170	3	代数K	Algebraic K-theory	11021	理论
+1102175	3	微分代数	Differential algebra	11021	
+1102180	3	代数编码理论	Algebraic coding theory	11021	
+1102199	3	代数学其他学科	Other algebra	11021	
+11024	2	代数几何学	Algebraic geometry	110	
+11027	2	几何学	Geometry	110	
+1102710	3	几何学基础	Foundations of geometry	11027	
+1102715	3	欧氏几何学	Euclidean geometry	11027	
+1102720	3	非欧几何学	Non-Euclidean geometry	11027	包括黎曼几何学等
+1102725	3	球面几何学	Spherical geometry	11027	
+1102730	3	向量和张量分析	Vector and tensor analysis	11027	
+1102735	3	仿射几何学	Affine geometry	11027	
+1102740	3	射影几何学	Projective geometry	11027	
+1102745	3	微分几何学	Differential geometry	11027	
+1102750	3	分数维几何	Fractal geometry	11027	
+1102755	3	计算几何学	Computational geometry	11027	
+1102799	3	几何学其他学科	Other geometry	11027	
+11031	2	拓扑学	Topology	110	
+1103110	3	点集拓扑学	Point-set topology	11031	
+1103115	3	代数拓扑学	Algebraic topology	11031	
+1103120	3	同伦论	Homotopy theory	11031	
+1103125	3	低维拓扑学	Low-dimensional topology	11031	
+1103130	3	同调论	Homology theory	11031	
+1103135	3	维数论	Dimension theory	11031	
+1103140	3	格上拓扑学	Topology on lattices	11031	
+1103145	3	纤维丛论	Fiber bundle theory	11031	
+1103150	3	几何拓扑学	Geometric topology	11031	
+1103155	3	奇点理论	Singularity theory	11031	
+1103160	3	微分拓扑学	Differential topology	11031	
+1103199	3	拓扑学其他学科	Other topology	11031	
+11034	2	数学分析	Mathematical analysis	110	
+1103410	3	微分学	Differential calculus	11034	
+1103420	3	积分学	Integral calculus	11034	
+1103430	3	级数论	Theory of series	11034	
+1103499	3	数学分析其他学科	Other mathematical analysis	11034	
+11037	2	非标准分析	Nonstandard analysis	110	
+11041	2	函数论	Function theory	110	
+1104110	3	实变函数论	Real analysis	11041	
+1104120	3	单复变函数论	Theory of functions of one complex variable	11041	
+1104130	3	多复变函数论	Theory of functions of several complex variables	11041	
+1104140	3	函数逼近论	Approximation theory	11041	
+1104150	3	调和分析	Harmonic analysis	11041	
+1104160	3	复流形	Complex manifolds	11041	
+1104170	3	特殊函数论	Theory of special functions	11041	
+1104199	3	函数论其他学科	Other function theory	11041	
+11044	2	常微分方程	Ordinary differential equations	110	
+1104410	3	定性理论	Qualitative theory of differential equations	11044	
+1104420	3	稳定性理论	Stability theory	11044	
+1104430	3	解析理论	Analytic theory of differential equations	11044	
+1104499	3	常微分方程其他学科	Other ordinary differential equations	11044	
+11047	2	偏微分方程	Partial differential equations	110	
+1104710	3	椭圆型偏微分方程	Elliptic partial differential equations	11047	
+1104720	3	双曲型偏微分方程	Hyperbolic partial differential equations	11047	
+1104730	3	抛物型偏微分方程	Parabolic partial differential equations	11047	
+1104740	3	非线性偏微分方程	Nonlinear partial differential equations	11047	
+1104799	3	偏微分方程其他学科	Other partial differential equations	11047	
+11051	2	动力系统	Dynamical systems	110	
+1105110	3	微分动力系统	Differentiable dynamical systems	11051	
+1105120	3	拓扑动力系统	Topological dynamical systems	11051	
+1105130	3	复动力系统	Complex dynamical systems	11051	
+1105199	3	动力系统其他学科	Other dynamical systems	11051	
+11054	2	积分方程	Integral equations	110	
+11057	2	泛函分析	Functional analysis	110	
+1105710	3	线性算子理论	Theory of linear operators	11057	
+1105715	3	变分法	Calculus of variations	11057	
+1105720	3	拓扑线性空间	Topological vector spaces	11057	
+1105725	3	希尔伯特空间	Hilbert spaces	11057	
+1105730	3	函数空间	Function spaces	11057	
+1105735	3	巴拿赫空间	Banach spaces	11057	
+1105740	3	算子代数	Operator algebras	11057	
+1105745	3	测度与积分	Measure and integration	11057	
+1105750	3	广义函数论	Theory of generalized functions	11057	
+1105755	3	非线性泛函分析	Nonlinear functional analysis	11057	
+1105799	3	泛函分析其他学科	Other functional analysis	11057	
+11061	2	计算数学	Computational mathematics	110	
+1106120	3	常微分方程数值解	Numerical solution of ordinary differential equations	11061	
+1106130	3	偏微分方程数值解	Numerical solution of partial differential equations	11061	
+1106140	3	积分变换与积分方程数值方法	Numerical methods for integral transforms and integral equations	11061	原名为“积分方程数值解”
+1106150	3	数值代数	Numerical algebra	11061	
+1106155	3	优化计算方法	Numerical methods for optimization	11061	
+1106165	3	数值逼近与计算几何	Numerical approximation and computational geometry	11061	
+1106170	3	随机数值方法与统计计算	Stochastic numerical methods and statistical computation	11061	原名为“随机数值实验”
+1106175	3	并行计算算法	Parallel computing algorithms	11061	
+1106180	3	误差分析与区间算法	Error analysis and interval algorithms	11061	原名为“误差分析”
+1106185	3	小波分析与傅立叶分析的数值方法	Numerical methods for wavelet analysis and Fourier analysis	11061	
+1106190	3	反问题计算方法	Computational methods for inverse problems	11061	
+1106195	3	符号计算与计算机推理	Symbolic computation and automated reasoning	11061	
+1106199	3	计算数学其他学科	Other computational mathematics	11061	
+11064	2	概率论	Probability theory	110	
+1106410	3	几何概率	Geometric probability	11064	
+1106420	3	概率分布	Probability distributions	11064	
+1106430	3	极限理论	Limit theorems	11064	
+1106440	3	随机过程	Stochastic processes	11064	包括正态过程与平稳过程、点过程等
+1106450	3	马尔可夫过程	Markov processes	11064	
+1106460	3	随机分析	Stochastic analysis	11064	
+1106470	3	鞅论	Martingale theory	11064	
+1106480	3	应用概率论	Applied probability	11064	具体应用入有关学科
+1106499	3	概率论其他学科	Other probability theory	11064	
+11067	2	数理统计学	Mathematical statistics	110	
+1106710	3	抽样理论	Sampling theory	11067	包括抽样分布、抽样调查等
+1106715	3	假设检验	Hypothesis testing	11067	
+1106720	3	非参数统计	Nonparametric statistics	11067	
+1106725	3	方差分析	Analysis of variance	11067	
+1106730	3	相关回归分析	Correlation and regression analysis	11067	
+1106735	3	统计推断	Statistical inference	11067	
+1106740	3	贝叶斯统计	Bayesian statistics	11067	包括参数估计等
+1106745	3	试验设计	Design of experiments	11067	
+1106750	3	多元分析	Multivariate analysis	11067	
+1106755	3	统计判决理论	Statistical decision theory	11067	
+1106760	3	时间序列分析	Time series analysis	11067	
+1106765	3	空间统计	Spatial statistics	11067	
+1106799	3	数理统计学其他学科	Other mathematical statistics	11067	
+11071	2	应用统计数学	Applied statistical mathematics	110	
+1107110	3	统计质量控制	Statistical quality control	11071	
+1107120	3	可靠性数学	Reliability mathematics	11071	
+1107130	3	保险数学	Actuarial mathematics	11071	
+1107135	3	统计计算	Statistical computing	11071	
+1107140	3	统计模拟	Statistical simulation	11071	
+1107199	3	应用统计数学其他学科	Other applied statistical mathematics	11071	
+11074	2	运筹学	Operations research	110	
+1107410	3	线性规划	Linear programming	11074	
+1107415	3	非线性规划	Nonlinear programming	11074	
+1107420	3	动态规划	Dynamic programming	11074	
+1107425	3	组合最优化	Combinatorial optimization	11074	
+1107430	3	参数规划	Parametric programming	11074	
+1107435	3	整数规划	Integer programming	11074	
+1107440	3	随机规划	Stochastic programming	11074	
+1107445	3	排队论	Queueing theory	11074	
+1107450	3	对策论	Game theory	11074	亦称博弈论
+1107455	3	库存论	Inventory theory	11074	
+1107460	3	决策论	Decision theory	11074	
+1107465	3	搜索论	Search theory	11074	
+1107470	3	图论	Graph theory	11074	
+1107475	3	统筹论	Network planning theory	11074	
+1107480	3	最优化	Optimization	11074	
+1107499	3	运筹学其他学科	Other operations research	11074	
+11077	2	组合数学	Combinatorics	110	
+11081	2	离散数学	Discrete mathematics	110	
+11084	2	模糊数学	Fuzzy mathematics	110	
+11085	2	计算机数学	Computer mathematics	110	
+11087	2	应用数学	Applied mathematics	110	具体应用入有关学科
+11099	2	数学其他学科	Other mathematics	110	
+120	1	信息科学与系统科学	Information science and systems science		
+12010	2	信息科学与系统科学基础学科	Fundamentals of information science and systems science	120	
+1201010	3	信息论	Information theory	12010	
+1201020	3	控制论	Cybernetics	12010	
+1201030	3	系统论	Systems theory	12010	
+1201099	3	信息科学与系统科学基础学科其他学科	Other fundamentals of information science and systems science	12010	
+12020	2	系统学	Systems science	120	
+1202010	3	混沌	Chaos theory	12020	
+1202020	3	一般系统论	General systems theory	12020	
+1202030	3	耗散结构理论	Dissipative structure theory	12020	
+1202040	3	协同学	Synergetics	12020	
+1202050	3	突变论	Catastrophe theory	12020	
+1202060	3	超循环论	Hypercycle theory	12020	
+1202070	3	复杂系统与复杂性科学	Complex systems and complexity science	12020	
+1202099	3	系统学其他学科	Other systems science	12020	
+12030	2	控制理论	Control theory	120	
+1203010	3	大系统理论	Large-scale systems theory	12030	
+1203020	3	系统辨识	System identification	12030	
+1203030	3	状态估计	State estimation	12030	
+1203040	3	鲁棒控制	Robust control	12030	
+1203099	3	控制理论其他学科	Other control theory	12030	
+12040	2	系统评估与可行性分析	Systems evaluation and feasibility analysis	120	
+12050	2	系统工程方法论	Systems engineering methodology	120	
+1205010	3	系统建模	System modeling	12050	
+1205099	3	系统工程方法论其他学科	Other systems engineering methodology	12050	
+12099	2	信息科学与系统科学其他学科	Other information science and systems science	120	
+130	1	力学	Mechanics		
+13010	2	基础力学	Fundamental mechanics	130	
+1301010	3	理论力学	Theoretical mechanics	13010	
+1301020	3	理性力学	Rational mechanics	13010	
+1301030	3	非线性力学	Nonlinear mechanics	13010	
+1301040	3	连续介质力学	Continuum mechanics	13010	
+1301050	3	摩擦学	Tribology	13010	
+1301060	3	柔性多体力学	Flexible multibody dynamics	13010	
+1301070	3	陀螺力学	Gyrodynamics	13010	
+1301080	3	飞行力学	Flight dynamics	13010	
+1301099	3	基础力学其他学科	Other fundamentals of mechanics	13010	
+13015	2	固体力学	Solid mechanics	130	
+1301510	3	弹性力学	Elasticity	13015	
+1301515	3	塑性力学	Plasticity	13015	包括弹塑性力学
+1301520	3	粘弹性、粘塑性力学	Viscoelasticity and viscoplasticity	13015	
+1301525	3	蠕变	Creep	13015	
+1301530	3	界面力学与表面力学	Interface mechanics and surface mechanics	13015	
+1301535	3	疲劳	Fatigue	13015	
+1301540	3	损伤力学	Damage mechanics	13015	
+1301545	3	断裂力学	Fracture mechanics	13015	
+1301550	3	散体力学	Mechanics of granular media	13015	
+1301555	3	细观力学	Mesomechanics	13015	
+1301556	3	微观力学	Micromechanics	13015	
+1301560	3	电磁固体力学	Electromagnetic solid mechanics	13015	
+1301565	3	结构力学	Structural mechanics	13015	
+1301570	3	计算固体力学	Computational solid mechanics	13015	
+1301575	3	实验固体力学	Experimental solid mechanics	13015	
+1301599	3	固体力学其他学科	Other solid mechanics	13015	
+13020	2	振动与波	Vibration and wave	130	
+1302010	3	线性振动力学	Linear vibration mechanics	13020	
+1302020	3	非线性振动力学	Nonlinear vibration mechanics	13020	
+1302030	3	弹性体振动力学	Vibration mechanics of elastic bodies	13020	
+1302040	3	随机振动力学	Random vibration mechanics	13020	
+1302050	3	振动控制理论	Vibration control theory	13020	
+1302060	3	固体中的波	Waves in solids	13020	
+1302070	3	流体—固体耦合振动	Fluid-solid coupled vibration	13020	
+1302099	3	振动与波其他学科	Other vibration and waves	13020	
+13025	2	流体力学	Fluid mechanics	130	
+1302511	3	理论流体力学	Theoretical fluid mechanics	13025	
+1302514	3	水动力学	Hydrodynamics	13025	
+1302517	3	气体动力学	Gas dynamics	13025	
+1302521	3	空气动力学	Aerodynamics	13025	
+1302524	3	悬浮体力学	Mechanics of suspensions	13025	
+1302527	3	湍流理论	Turbulence theory	13025	
+1302531	3	粘性流体力学	Viscous fluid mechanics	13025	
+1302534	3	多相流体力学	Multiphase fluid mechanics	13025	
+1302537	3	渗流力学	Seepage mechanics	13025	
+1302541	3	物理—化学流体力学	Physicochemical fluid mechanics	13025	
+1302544	3	等离子体动力学	Plasma dynamics	13025	
+1302547	3	电磁流体力学	Magnetohydrodynamics	13025	
+1302551	3	非牛顿流体力学	Non-Newtonian fluid mechanics	13025	
+1302554	3	流体机械流体力学	Fluid mechanics of fluid machinery	13025	
+1302557	3	旋转与分层流体力学	Rotating and stratified fluid mechanics	13025	
+1302561	3	辐射流体力学	Radiative fluid mechanics	13025	
+1302564	3	计算流体力学	Computational fluid dynamics	13025	
+1302567	3	实验流体力学	Experimental fluid mechanics	13025	
+1302571	3	环境流体力学	Environmental fluid mechanics	13025	
+1302574	3	微流体力学	Microfluid mechanics	13025	
+1302599	3	流体力学其他学科	Other fluid mechanics	13025	
+13030	2	流变学	Rheology	130	
+13035	2	爆炸力学	Explosion mechanics	130	
+1303510	3	爆轰与爆燃理论	Theory of detonation and deflagration	13035	
+1303520	3	爆炸波、冲击波、应力波	Blast waves, shock waves and stress waves	13035	
+1303530	3	高速碰撞动力学	High-velocity impact dynamics	13035	
+1303599	3	爆炸力学其他学科	Other explosion mechanics	13035	
+13040	2	物理力学	Physical mechanics	130	
+1304010	3	高压固体物理力学	Physical mechanics of solids under high pressure	13040	
+1304020	3	稠密流体物理力学	Physical mechanics of dense fluids	13040	
+1304030	3	高温气体物理力学	Physical mechanics of high-temperature gases	13040	
+1304040	3	多相介质物理力学	Physical mechanics of multiphase media	13040	
+1304050	3	临界现象与相变	Critical phenomena and phase transitions	13040	
+1304060	3	原子与分子动力学	Atomic and molecular dynamics	13040	
+1304099	3	物理力学其他学科	Other physical mechanics	13040	
+13041	2	生物力学	Biomechanics	130	包括生物流体力学与生物流变学等
+13045	2	统计力学	Statistical mechanics	130	
+13050	2	应用力学	Applied mechanics	130	具体应用入有关学科
+13099	2	力学其他学科	Other mechanics	130	
+140	1	物理学	Physics		
+14010	2	物理学史	History of physics	140	
+14015	2	理论物理学	Theoretical physics	140	
+1401510	3	数学物理	Mathematical physics	14015	
+1401520	3	电磁场理论	Electromagnetic field theory	14015	
+1401530	3	经典场论	Classical field theory	14015	
+1401540	3	相对论	Theory of relativity	14015	原名为“相对论与引力场”
+1401550	3	量子力学	Quantum mechanics	14015	
+1401560	3	统计物理学	Statistical physics	14015	
+1401599	3	理论物理学其他学科	Other theoretical physics	14015	
+14020	2	声学	Acoustics	140	
+1402010	3	普通线性声学	General linear acoustics	14020	含射线声学、 波动声学、 大气声学、 声波反射、
+1402020	3	非线性声学	Nonlinear acoustics	14020	
+1402025	3	流体动力声学	Hydrodynamic acoustics	14020	含航空声学、 流体运动与声波相互作用、 流体
+1402035	3	超声学、量子声学和声学效应	Ultrasonics, quantum acoustics and acoustic effects	14020	
+1402045	3	次声学	Infrasonics	14020	
+1402050	3	水声和海洋声学	Underwater acoustics and ocean acoustics	14020	原名为“水声学”
+1402053	3	结构声学和振动	Structural acoustics and vibration	14020	
+1402056	3	噪声、噪声效应及其控制	Noise, noise effects and noise control	14020	
+1402059	3	建筑声学与电声学	Architectural acoustics and electroacoustics	14020	
+1402063	3	声学信号处理	Acoustic signal processing	14020	
+1402066	3	生理、心理声学和生物声学	Physiological and psychological acoustics and bioacoustics	14020	
+1402069	3	语言声学和语音信号处理	Speech acoustics and speech signal processing	14020	
+1402073	3	音乐声学	Musical acoustics	14020	
+1402076	3	声学换能器、声学测量及方法	Acoustic transducers, acoustic measurement and methods	14020	
+1402079	3	声学测量方法	Acoustic measurement methods	14020	
+1402083	3	声学材料	Acoustic materials	14020	
+1402086	3	信息科学中的声学问题	Acoustic problems in information science	14020	含通信声学、声学微机电系统、声学信道
+1402099	3	与声学有关的其它物理问题和交叉学科	Other physical and interdisciplinary problems related to acoustics	14020	原名为“声学其他学科”
+14025	2	热学	Thermology	140	
+1402510	3	热力学	Thermodynamics	14025	
+1402520	3	热物性学	Thermophysical properties	14025	
+1402530	3	传热学	Heat transfer	14025	
+1402599	3	热学其他学科	Other thermal physics	14025	
+14030	2	光学	Optics	140	
+1403010	3	几何光学	Geometrical optics	14030	
+1403015	3	物理光学	Physical optics	14030	
+1403020	3	非线性光学	Nonlinear optics	14030	
+1403025	3	光谱学	Spectroscopy	14030	
+1403030	3	量子光学	Quantum optics	14030	
+1403035	3	信息光学	Information optics	14030	
+1403040	3	导波光学	Guided wave optics	14030	
+1403045	3	发光学	Luminescence	14030	
+1403050	3	红外物理	Infrared physics	14030	
+1403055	3	激光物理	Laser physics	14030	
+1403057	3	光子学与集成光学	Photonics and integrated optics	14030	
+1403060	3	应用光学	Applied optics	14030	具体应用入有关学科
+1403062	3	环境光学	Environmental optics	14030	
+1403064	3	海洋光学	Ocean optics	14030	
+1403066	3	光学遥感	Optical remote sensing	14030	
+1403068	3	超快激光及应用	Ultrafast lasers and applications	14030	
+1403099	3	光学其他学科	Other optics	14030	
+14035	2	电磁学	Electromagnetism	140	
+1403510	3	电学	Electricity	14035	
+1403520	3	静电学	Electrostatics	14035	
+1403530	3	静磁学	Magnetostatics	14035	
+1403540	3	电动力学	Electrodynamics	14035	
+1403599	3	电磁学其他学科	Other electromagnetism	14035	
+14040	2	无线电物理	Radio physics	140	
+1404010	3	电磁波物理	Electromagnetic wave physics	14040	
+1404020	3	量子无线电物理	Quantum radiophysics	14040	
+1404030	3	微波物理学	Microwave physics	14040	
+1404040	3	超高频无线电物理	Ultra-high-frequency radiophysics	14040	
+1404050	3	统计无线电物理	Statistical radiophysics	14040	
+1404099	3	无线电物理其他学科	Other radiophysics	14040	
+14045	2	电子物理学	Electronic physics	140	
+1404510	3	量子电子学	Quantum electronics	14045	
+1404520	3	电子离子与真空物理	Electron, ion and vacuum physics	14045	
+1404530	3	带电粒子光学	Charged particle optics	14045	
+1404599	3	电子物理学其他学科	Other electron physics	14045	
+14050	2	凝聚态物理学	Condensed matter physics	140	
+1405010	3	凝聚态理论	Condensed matter theory	14050	
+1405015	3	金属物理学	Metal physics	14050	
+1405020	3	半导体物理学	Semiconductor physics	14050	
+1405025	3	电介质物理学	Dielectric physics	14050	
+1405030	3	晶体学	Crystallography	14050	包括晶体生长、晶体化学等
+1405035	3	非晶态物理学	Amorphous state physics	14050	
+1405040	3	软物质物理学	Soft matter physics	14050	原名为“液晶物理学”
+1405045	3	薄膜物理学	Thin film physics	14050	
+1405050	3	低维物理	Low-dimensional physics	14050	
+1405055	3	表面与界面物理学	Surface and interface physics	14050	
+1405060	3	固体发光	Solid-state luminescence	14050	
+1405065	3	磁学	Magnetism	14050	
+1405070	3	超导物理学	Superconductivity physics	14050	
+1405075	3	低温物理学	Low-temperature physics	14050	
+1405080	3	高压物理学	High-pressure physics	14050	
+1405085	3	介观物理学	Mesoscopic physics	14050	
+1405090	3	量子调控	Quantum control	14050	
+1405099	3	凝聚态物理学其他学科	Other condensed matter physics	14050	
+14055	2	等离子体物理学	Plasma physics	140	
+1405510	3	热核聚变等离子体物理学	Thermonuclear fusion plasma physics	14055	
+1405520	3	低温等离子体物理学	Low-temperature plasma physics	14055	
+1405530	3	等离子体诊断学	Plasma diagnostics	14055	原名为“等离子体光谱学”
+1405540	3	凝聚态等离子体物理学	Condensed matter plasma physics	14055	
+1405599	3	等离子体物理学其他学科	Other plasma physics	14055	
+14060	2	原子分子物理学	Atomic and molecular physics	140	
+1406010	3	原子与分子理论	Atomic and molecular theory	14060	
+1406020	3	原子光谱学	Atomic spectroscopy	14060	
+1406030	3	分子光谱学	Molecular spectroscopy	14060	
+1406040	3	波谱学	Radiospectroscopy	14060	
+1406050	3	原子与分子碰撞过程	Atomic and molecular collision processes	14060	
+1406055	3	玻色—爱因斯坦凝聚和冷原子物理	Bose-Einstein condensation and cold atom physics	14060	
+1406099	3	原子分子物理学其他学科	Other atomic and molecular physics	14060	
+14065	2	原子核物理学	Nuclear physics	140	
+1406510	3	核结构	Nuclear structure	14065	
+1406515	3	核能谱学	Nuclear spectroscopy	14065	
+1406520	3	低能核反应	Low-energy nuclear reactions	14065	
+1406525	3	中子物理学	Neutron physics	14065	
+1406530	3	裂变物理学	Fission physics	14065	
+1406535	3	聚变物理学	Fusion physics	14065	
+1406540	3	轻粒子核物理学	Light-particle nuclear physics	14065	
+1406545	3	重离子核物理学	Heavy-ion nuclear physics	14065	
+1406550	3	中高能核物理学	Intermediate- and high-energy nuclear physics	14065	
+1406599	3	原子核物理学其他学科	Other nuclear physics	14065	
+14070	2	高能物理学	High energy physics	140	
+1407010	3	粒子物理学	Particle physics	14070	原名为“基本粒子物理学”
+1407020	3	宇宙线物理学	Cosmic ray physics	14070	
+1407030	3	粒子加速器物理学	Particle accelerator physics	14070	
+1407040	3	高能物理实验	High-energy physics experiments	14070	
+1407050	3	粒子宇宙学	Particle cosmology	14070	
+1407099	3	高能物理学其他学科	Other high-energy physics	14070	
+14075	2	计算物理学	Computational physics	140	
+14080	2	应用物理学	Applied physics	140	具体应用入有关学科
+14099	2	物理学其他学科	Other physics	140	
+150	1	化学	Chemistry		
+15010	2	化学史	History of chemistry	150	
+15015	2	无机化学	Inorganic chemistry	150	
+1501510	3	元素化学	Chemistry of the elements	15015	
+1501520	3	配位化学	Coordination chemistry	15015	
+1501530	3	同位素化学	Isotope chemistry	15015	
+1501540	3	无机固体化学	Inorganic solid-state chemistry	15015	
+1501550	3	无机合成化学	Inorganic synthetic chemistry	15015	
+1501560	3	无机分离化学	Inorganic separation chemistry	15015	
+1501570	3	物理无机化学	Physical inorganic chemistry	15015	
+1501580	3	生物无机化学	Bioinorganic chemistry	15015	
+1501599	3	无机化学其他学科	Other inorganic chemistry	15015	
+15020	2	有机化学	Organic chemistry	150	
+1502010	3	元素有机化学	Organoelement chemistry	15020	包括金属有机化学等
+1502020	3	天然产物有机化学	Natural product organic chemistry	15020	
+1502030	3	有机固体化学	Organic solid-state chemistry	15020	
+1502040	3	有机合成化学	Organic synthetic chemistry	15020	
+1502050	3	有机光化学	Organic photochemistry	15020	
+1502060	3	物理有机化学	Physical organic chemistry	15020	包括理论有机化学、立体化学等
+1502070	3	生物有机化学	Bioorganic chemistry	15020	
+1502075	3	金属有机光化学	Organometallic photochemistry	15020	
+1502099	3	有机化学其他学科	Other organic chemistry	15020	
+15025	2	分析化学	Analytical chemistry	150	
+1502510	3	化学分析	Chemical analysis	15025	包括定性分析、定量分析等
+1502515	3	电化学分析	Electrochemical analysis	15025	
+1502520	3	光谱分析	Spectroscopic analysis	15025	
+1502525	3	波谱分析	Spectrometric analysis	15025	
+1502530	3	质谱分析	Mass spectrometric analysis	15025	
+1502535	3	热化学分析	Thermal analysis	15025	原名为“热谱分析”
+1502540	3	色谱分析	Chromatographic analysis	15025	
+1502545	3	光度分析	Photometric analysis	15025	
+1502550	3	放射分析	Radiometric analysis	15025	
+1502555	3	状态分析与物相分析	Speciation analysis and phase analysis	15025	
+1502560	3	分析化学计量学	Chemometrics	15025	
+1502599	3	分析化学其他学科	Other analytical chemistry	15025	
+15030	2	物理化学	Physical chemistry	150	
+1503010	3	化学热力学	Chemical thermodynamics	15030	
+1503015	3	化学动力学	Chemical kinetics	15030	包括分子反应动力学等
+1503020	3	结构化学	Structural chemistry	15030	包括表面化学、结构分析等
+1503025	3	量子化学	Quantum chemistry	15030	
+1503030	3	胶体化学与界面化学	Colloid and interface chemistry	15030	
+1503035	3	催化化学	Catalytic chemistry	15030	
+1503040	3	热化学	Thermochemistry	15030	
+1503045	3	光化学	Photochemistry	15030	包括超分子光化学、 光电化学、 激光化学、感
+1503050	3	电化学	Electrochemistry	15030	
+1503055	3	磁化学	Magnetochemistry	15030	
+1503060	3	高能化学	High-energy chemistry	15030	包括辐射化学,等离体化学
+1503065	3	计算化学	Computational chemistry	15030	
+1503099	3	物理化学其他学科	Other physical chemistry	15030	
+15035	2	化学物理学	Chemical physics	150	
+15040	2	高分子物理	Polymer physics	150	
+15045	2	高分子化学	Polymer chemistry	150	
+1504510	3	无机高分子化学	Inorganic polymer chemistry	15045	
+1504520	3	天然高分子化学	Natural polymer chemistry	15045	
+1504530	3	功能高分子	Functional polymers	15045	包括液晶高分子化学
+1504540	3	高分子合成化学	Polymer synthesis chemistry	15045	
+1504550	3	高分子物理化学	Polymer physical chemistry	15045	
+1504560	3	高分子光化学	Polymer photochemistry	15045	
+1504599	3	高分子化学其他学科	Other polymer chemistry	15045	
+15050	2	核化学	Nuclear chemistry	150	
+1505010	3	放射化学	Radiochemistry	15050	
+1505020	3	核反应化学	Nuclear reaction chemistry	15050	
+1505030	3	裂变化学	Fission chemistry	15050	
+1505040	3	聚变化学	Fusion chemistry	15050	
+1505050	3	重离子核化学	Heavy-ion nuclear chemistry	15050	
+1505060	3	核转变化学	Nuclear transmutation chemistry	15050	
+1505070	3	环境放射化学	Environmental radiochemistry	15050	
+1505099	3	核化学其他学科	Other nuclear chemistry	15050	
+15055	2	应用化学	Applied chemistry	150	具体应用入有关学科
+15060	2	化学生物学	Chemical biology	150	
+15065	2	材料化学	Materials chemistry	150	
+1506510	3	软化学	Soft chemistry	15065	
+1506520	3	碳化学	Carbon chemistry	15065	
+1506530	3	纳米化学	Nanochemistry	15065	
+1506599	3	材料化学其他学科	Other materials chemistry	15065	
+15099	2	化学其他学科	Other chemistry	150	
+160	1	天文学	Astronomy		
+16010	2	天文学史	History of astronomy	160	
+16015	2	天体力学	Celestial mechanics	160	
+1601510	3	摄动理论	Perturbation theory	16015	
+1601520	3	天体力学定性理论	Qualitative theory of celestial mechanics	16015	
+1601530	3	天体形状与自转理论	Theory of the shape and rotation of celestial bodies	16015	
+1601540	3	天体力学数值方法	Numerical methods of celestial mechanics	16015	
+1601550	3	天文动力学	Astrodynamics	16015	包括人造卫星、宇宙飞船动力学等
+1601560	3	历书天文学	Ephemeris astronomy	16015	
+1601599	3	天体力学其他学科	Other celestial mechanics	16015	
+16020	2	天体物理学	Astrophysics	160	
+1602010	3	理论天体物理学	Theoretical astrophysics	16020	
+1602020	3	相对论天体物理学	Relativistic astrophysics	16020	
+1602040	3	高能天体物理学	High-energy astrophysics	16020	包括天体核物理学
+1602050	3	实测天体物理学	Observational astrophysics	16020	
+1602099	3	天体物理学其他学科	Other astrophysics	16020	
+16025	2	宇宙化学	Cosmochemistry	160	原名为“天体化学”
+1602510	3	空间化学	Space chemistry	16025	
+1602520	3	天体元素学	Cosmic elemental abundances	16025	
+1602530	3	月球与行星化学	Lunar and planetary chemistry	16025	
+1602599	3	宇宙化学其他学科	Other cosmochemistry	16025	
+16030	2	天体测量学	Astrometry	160	
+1603020	3	基本天体测量学	Fundamental astrometry	16030	
+1603030	3	照相天体测量学	Photographic astrometry	16030	
+1603040	3	射电天体测量学	Radio astrometry	16030	
+1603050	3	空间天体测量学	Space astrometry	16030	
+1603060	3	方位天文学	Positional astronomy	16030	
+1603070	3	实用天文学	Practical astronomy	16030	
+1603099	3	天体测量学其他学科	Other astrometry	16030	
+16035	2	射电天文学	Radio astronomy	160	
+1603510	3	射电天体物理学	Radio astrophysics	16035	
+1603520	3	射电天文方法	Radio astronomy methods	16035	
+1603599	3	射电天文学其他学科	Other radio astronomy	16035	
+16040	2	空间天文学	Space astronomy	160	
+1604010	3	红外天文学	Infrared astronomy	16040	
+1604020	3	紫外天文学	Ultraviolet astronomy	16040	
+1604030	3	X	X-ray astronomy	16040	射线天文学
+1604040	3	γ	Gamma-ray astronomy	16040	射线天文学
+1604050	3	中微子天文学	Neutrino astronomy	16040	
+1604099	3	空间天文学其他学科	Other space astronomy	16040	
+16045	2	天体演化学	Cosmogony	160	各层次天体形成与演化入各学科
+16050	2	星系与宇宙学	Galaxies and cosmology	160	
+1605010	3	星系动力学	Galactic dynamics	16050	
+1605020	3	星系天文学	Galaxy astronomy	16050	
+1605030	3	运动宇宙学	Kinematical cosmology	16050	
+1605040	3	星系际物质	Intergalactic medium	16050	
+1605050	3	大爆炸宇宙论	Big Bang cosmology	16050	
+1605060	3	星系形成与演化	Galaxy formation and evolution	16050	
+1605070	3	宇宙大尺度结构起源与演化	Origin and evolution of the large-scale structure of the universe	16050	
+1605099	3	星系与宇宙学其他学科	Other galaxies and cosmology	16050	
+16055	2	恒星与银河系	Stars and the Milky Way	160	
+1605510	3	恒星物理学	Stellar physics	16055	
+1605520	3	恒星天文学	Stellar astronomy	16055	
+1605530	3	恒星形成与演化	Star formation and evolution	16055	
+1605540	3	星际物质物理学	Physics of the interstellar medium	16055	
+1605550	3	银河系结构与运动	Structure and kinematics of the Milky Way	16055	
+1605599	3	恒星与银河系其他学科	Other stars and the Milky Way	16055	
+16060	2	太阳与太阳系	The sun and the solar system	160	
+1606010	3	太阳物理学	Solar physics	16060	
+1606020	3	太阳系物理学	Solar system physics	16060	
+1606030	3	太阳系形成与演化	Formation and evolution of the solar system	16060	
+1606040	3	行星物理学	Planetary physics	16060	
+1606050	3	行星际物理学	Interplanetary physics	16060	
+1606060	3	陨星学	Meteoritics	16060	
+1606070	3	比较行星学	Comparative planetology	16060	
+1606080	3	月球科学	Lunar science	16060	
+1606099	3	太阳与太阳系其他学科	Other Sun and solar system studies	16060	
+16065	2	天体生物学	Astrobiology	160	
+16070	2	天文地球动力学	Astro-geodynamics	160	代码原为1603010
+16075	2	时间测量学	Time measurement	160	
+1607510	3	时间尺度	Time scales	16075	
+1607520	3	时间测量与方法	Time measurement and methods	16075	
+1607530	3	守时理论	Time-keeping theory	16075	
+1607540	3	授时理论与方法	Time service theory and methods	16075	
+1607599	3	时间测量学其他学科	Other chronometry	16075	
+16099	2	天文学其他学科	Other astronomy	160	
+170	1	地球科学	Earth sciences		
+17010	2	地球科学史	History of earth sciences	170	
+17015	2	大气科学	Atmospheric sciences	170	
+1701510	3	大气物理学	Atmospheric physics	17015	包括大气光学、 大气声学、大气电学、中层物
+1701515	3	大气化学	Atmospheric chemistry	17015	
+1701520	3	大气探测	Atmospheric sounding	17015	包括大气遥感
+1701525	3	动力气象学	Dynamic meteorology	17015	包括数值天气预报与数值模拟等
+1701530	3	天气学	Synoptic meteorology	17015	
+1701535	3	气候学	Climatology	17015	
+1701540	3	大气边界层物理学	Atmospheric boundary layer physics	17015	原名为“云与降水物理学”
+1701545	3	应用气象学	Applied meteorology	17015	具体应用入有关学科
+1701599	3	大气科学其他学科	Other atmospheric science	17015	
+17020	2	固体地球物理学	Solid earth physics	170	
+1702010	3	地球动力学	Geodynamics	17020	亦有“大陆动力学，大地构造物理学，地质物
+1702015	3	地球重力学	Gravimetry	17020	
+1702020	3	地球流体力学	Geophysical fluid dynamics	17020	
+1702025	3	地壳与地形变	Crustal and ground deformation	17020	
+1702030	3	地球内部物理学	Physics of the Earth's interior	17020	
+1702035	3	地声学	Geoacoustics	17020	
+1702040	3	地热学	Geothermics	17020	
+1702045	3	地电学	Geoelectricity	17020	
+1702050	3	地磁学	Geomagnetism	17020	
+1702055	3	放射性地球物理学	Nuclear geophysics	17020	
+1702060	3	地震学	Seismology	17020	
+1702065	3	勘探地球物理学	Exploration geophysics	17020	
+1702070	3	计算地球物理学	Computational geophysics	17020	
+1702075	3	实验地球物理学	Experimental geophysics	17020	
+1702099	3	固体地球物理学其他学科	Other solid earth geophysics	17020	
+17025	2	空间物理学	Space physics	170	
+1702510	3	电离层物理学	Ionospheric physics	17025	
+1702520	3	高层大气物理学	Upper atmospheric physics	17025	
+1702530	3	磁层物理学	Magnetospheric physics	17025	
+1702540	3	空间物理探测	Space physics exploration	17025	
+1702550	3	空间环境学	Space environment science	17025	
+1702599	3	空间物理学其他学科	Other space physics	17025	
+17030	2	地球化学	Geochemistry	170	
+1703010	3	元素地球化学	Elemental geochemistry	17030	
+1703015	3	有机地球化学	Organic geochemistry	17030	
+1703020	3	放射性地球化学	Radiogeochemistry	17030	
+1703025	3	同位素地球化学	Isotope geochemistry	17030	
+1703030	3	生物地球化学	Biogeochemistry	17030	
+1703035	3	地球内部化学	Chemistry of the Earth's interior	17030	
+1703040	3	同位素地质年代学	Isotope geochronology	17030	
+1703045	3	成矿地球化学	Geochemistry of mineralization	17030	
+1703050	3	勘探地球化学	Exploration geochemistry	17030	
+1703055	3	实验地球化学	Experimental geochemistry	17030	
+1703060	3	能源地球化学	Energy geochemistry	17030	
+1703099	3	地球化学其他学科	Other geochemistry	17030	
+17035	2	大地测量学	Geodesy	170	
+1703510	3	地球形状学	Theory of the Earth's figure	17035	
+1703520	3	几何大地测量学	Geometric geodesy	17035	
+1703530	3	物理大地测量学	Physical geodesy	17035	
+1703540	3	动力大地测量学	Dynamic geodesy	17035	
+1703550	3	空间大地测量学	Space geodesy	17035	
+1703560	3	行星大地测量学	Planetary geodesy	17035	
+1703599	3	大地测量学其他学科	Other geodesy	17035	
+17040	2	地图学	Cartography	170	
+17045	2	地理学	Geography	170	
+1704510	3	自然地理学	Physical geography	17045	包括生态地理学、冰川学、冻土学、沙漠学、
+1704511	3	生物地理学	Biogeography	17045	
+1704513	3	化学地理学	Chemical geography	17045	
+1704514	3	地貌学	Geomorphology	17045	
+1704520	3	人文地理学	Human geography	17045	
+1704523	3	区域地理学	Regional geography	17045	
+1704526	3	城市地理学	Urban geography	17045	
+1704539	3	旅游地理学	Tourism geography	17045	
+1704531	3	世界地理学	World geography	17045	
+1704599	3	地理学其他学科	Other geography	17045	
+17050	2	地质学	Geology	170	
+1705011	3	数学地质学	Mathematical geology	17050	
+1705014	3	地质力学	Geomechanics	17050	
+1705017	3	动力地质学	Dynamic geology	17050	
+1705021	3	矿物学	Mineralogy	17050	包括放射性矿物学
+1705024	3	矿床学与矿相学	Ore deposit geology and ore petrography	17050	包括放射性矿床学， 不包括石油、 天然气和煤
+1705027	3	岩石学	Petrology	17050	
+1705031	3	岩土力学	Rock and soil mechanics	17050	
+1705034	3	沉积学	Sedimentology	17050	
+1705037	3	古地理学	Palaeogeography	17050	
+1705041	3	古生物学	Palaeontology	17050	
+1705044	3	地层学与地史学	Stratigraphy and historical geology	17050	
+1705047	3	前寒武纪地质学	Precambrian geology	17050	
+1705051	3	第四纪地质学	Quaternary geology	17050	
+1705054	3	构造地质学	Structural geology	17050	包括显微构造学等
+1705057	3	大地构造学	Tectonics	17050	
+1705061	3	勘查地质学	Exploration geology	17050	
+1705064	3	水文地质学	Hydrogeology	17050	包括放射性水文地质学
+1705067	3	遥感地质学	Remote sensing geology	17050	
+1705071	3	区域地质学	Regional geology	17050	
+1705074	3	火山学	Volcanology	17050	
+1705077	3	石油与天然气地质学	Petroleum and natural gas geology	17050	含天然气水合物地质学
+1705081	3	煤田地质学	Coal geology	17050	
+1705084	3	实验地质学	Experimental geology	17050	
+1705099	3	地质学其他学科	Other geology	17050	
+17055	2	水文学	Hydrology	170	
+1705510	3	水文物理学	Hydrophysics	17055	
+1705515	3	水文化学	Hydrochemistry	17055	
+1705520	3	水文地理学	Hydrogeography	17055	
+1705525	3	水文气象学	Hydrometeorology	17055	
+1705530	3	水文测量	Hydrometry	17055	
+1705535	3	水文图学	Hydrographic cartography	17055	
+1705540	3	湖沼学	Limnology	17055	
+1705545	3	河流学与河口水文学	Fluvial hydrology and estuarine hydrology	17055	
+1705550	3	地下水文学	Groundwater hydrology	17055	
+1705555	3	区域水文学	Regional hydrology	17055	
+1705560	3	生态水文学	Ecohydrology	17055	
+1705599	3	水文学其他学科	Other hydrology	17055	
+17060	2	海洋科学	Marine sciences	170	
+1706010	3	海洋物理学	Marine physics	17060	
+1706015	3	海洋化学	Marine chemistry	17060	
+1706020	3	海洋地球物理学	Marine geophysics	17060	
+1706025	3	海洋气象学	Marine meteorology	17060	
+1706030	3	海洋地质学	Marine geology	17060	
+1706035	3	物理海洋学	Physical oceanography	17060	
+1706040	3	海洋生物学	Marine biology	17060	
+1706045	3	海洋地理学和河口海岸学	Marine geography and estuarine and coastal science	17060	原名为“河口、海岸学”
+1706050	3	海洋调查与监测	Marine survey and monitoring	17060	
+1706061	3	遥感海洋学	Remote sensing oceanography	17060	亦名卫星海洋学
+1706065	3	海洋生态学	Marine ecology	17060	
+1706070	3	环境海洋学	Environmental oceanography	17060	
+1706075	3	海洋资源学	Marine resource science	17060	
+1706080	3	极地科学	Polar science	17060	
+1706099	3	海洋科学其他学科	Other marine science	17060	
+17099	2	地球科学其他学科	Other earth sciences	170	
+180	1	生物学	Biology		
+18011	2	生物数学	Mathematical biology	180	
+18014	2	生物物理学	Biophysics	180	
+1801410	3	生物信息论与生物控制论	Biological information theory and biocybernetics	18014	
+1801420	3	理论生物物理学	Theoretical biophysics	18014	
+1801425	3	生物声学与声生物物理学	Bioacoustics and acoustic biophysics	18014	
+1801430	3	生物光学与光生物物理学	Biooptics and photobiophysics	18014	
+1801435	3	生物电磁学	Bioelectromagnetics	18014	
+1801440	3	生物能量学	Bioenergetics	18014	
+1801445	3	低温生物物理学	Cryobiophysics	18014	
+1801450	3	分子生物物理学与结构生物学	Molecular biophysics and structural biology	18014	原名为“分子生物物理学”
+1801455	3	空间生物物理学	Space biophysics	18014	
+1801460	3	仿生学	Bionics	18014	参见 41040
+1801465	3	系统生物物理学	Systems biophysics	18014	
+1801470	3	生物影像学	Biological imaging	18014	
+1801499	3	生物物理学其他学科	Other biophysics	18014	
+18017	2	生物化学	Biochemistry	180	
+1801710	3	多肽与蛋白质生物化学	Peptide and protein biochemistry	18017	
+1801715	3	核酸生物化学	Nucleic acid biochemistry	18017	
+1801720	3	多糖生物化学	Polysaccharide biochemistry	18017	
+1801725	3	脂类生物化学	Lipid biochemistry	18017	
+1801730	3	酶学	Enzymology	18017	
+1801735	3	膜生物化学	Membrane biochemistry	18017	
+1801740	3	激素生物化学	Hormone biochemistry	18017	
+1801745	3	生殖生物化学	Reproductive biochemistry	18017	
+1801750	3	免疫生物化学	Immunobiochemistry	18017	
+1801755	3	毒理生物化学	Toxicological biochemistry	18017	
+1801760	3	比较生物化学	Comparative biochemistry	18017	
+1801765	3	应用生物化学	Applied biochemistry	18017	具体应用入有关学科
+1801799	3	生物化学其他学科	Other biochemistry	18017	
+18021	2	细胞生物学	Cell biology	180	
+1802110	3	细胞生物物理学	Cell biophysics	18021	
+1802120	3	细胞结构与形态学	Cell structure and morphology	18021	
+1802130	3	细胞生理学	Cell physiology	18021	
+1802140	3	细胞进化学	Cell evolution	18021	
+1802150	3	细胞免疫学	Cellular immunology	18021	
+1802160	3	细胞病理学	Cytopathology	18021	
+1802170	3	膜生物学	Membrane biology	18021	
+1802180	3	干细胞生物学	Stem cell biology	18021	
+1802199	3	细胞生物学其他学科	Other cell biology	18021	
+18022	2	免疫学	Immunology	180	
+1802210	3	分子免疫学	Molecular immunology	18022	
+1802215	3	免疫治疗学	Immunotherapy	18022	
+1802220	3	疫苗学	Vaccinology	18022	
+1802299	3	免疫学其他学科	Other immunology	18022	
+18024	2	生理学	Physiology	180	
+1802411	3	形态生理学	Morphophysiology	18024	
+1802414	3	新陈代谢与营养生理学	Metabolic and nutritional physiology	18024	
+1802417	3	心血管生理学	Cardiovascular physiology	18024	
+1802421	3	呼吸生理学	Respiratory physiology	18024	
+1802424	3	消化生理学	Digestive physiology	18024	
+1802427	3	血液生理学	Blood physiology	18024	
+1802431	3	泌尿生理学	Urinary physiology	18024	
+1802434	3	内分泌生理学	Endocrine physiology	18024	
+1802437	3	感官生理学	Sensory physiology	18024	
+1802441	3	生殖生理学	Reproductive physiology	18024	
+1802444	3	骨骼生理学	Skeletal physiology	18024	
+1802447	3	肌肉生理学	Muscle physiology	18024	
+1802451	3	皮肤生理学	Skin physiology	18024	
+1802454	3	循环生理学	Circulatory physiology	18024	
+1802457	3	比较生理学	Comparative physiology	18024	
+1802461	3	年龄生理学	Age physiology	18024	
+1802464	3	特殊环境生理学	Special environment physiology	18024	
+1802467	3	语言生理学	Speech physiology	18024	
+1802499	3	生理学其他学科	Other physiology	18024	
+18027	2	发育生物学	Developmental biology	180	
+1802710	3	比较发育生物学	Comparative developmental biology	18027	
+1802720	3	演化发育生物学	Evolutionary developmental biology	18027	
+1802730	3	繁殖生物学	Reproductive biology	18027	
+1802799	3	发育生物学其他学科	Other developmental biology	18027	
+18031	2	遗传学	Genetics	180	
+1803110	3	数量遗传学	Quantitative genetics	18031	
+1803115	3	生化遗传学	Biochemical genetics	18031	
+1803120	3	细胞遗传学	Cytogenetics	18031	
+1803125	3	体细胞遗传学	Somatic cell genetics	18031	
+1803130	3	发育遗传学	Developmental genetics	18031	亦称发生遗传学
+1803135	3	分子遗传学	Molecular genetics	18031	
+1803140	3	辐射遗传学	Radiation genetics	18031	
+1803145	3	进化遗传学	Evolutionary genetics	18031	
+1803150	3	生态遗传学	Ecological genetics	18031	
+1803155	3	免疫遗传学	Immunogenetics	18031	
+1803160	3	毒理遗传学	Toxicogenetics	18031	
+1803165	3	行为遗传学	Behavioral genetics	18031	
+1803170	3	群体遗传学	Population genetics	18031	
+1803175	3	表观遗传学	Epigenetics	18031	
+1803199	3	遗传学其他学科	Other genetics	18031	
+18034	2	放射生物学	Radiobiology	180	
+1803410	3	放射生物物理学	Radiobiophysics	18034	
+1803420	3	细胞放射生物学	Cell radiobiology	18034	
+1803430	3	放射生理学	Radiophysiology	18034	
+1803440	3	分子放射生物学	Molecular radiobiology	18034	
+1803450	3	放射免疫学	Radioimmunology	18034	
+1803460	3	放射毒理学	Radiotoxicology	18034	
+1803499	3	放射生物学其他学科	Other radiobiology	18034	
+18037	2	分子生物学	Molecular biology	180	
+1803710	3	基因组学	Genomics	18037	包括结构基因组学、营养基因组学
+1803720	3	核糖核酸组学	Transcriptomics	18037	
+1803730	3	蛋白质组学	Proteomics	18037	
+1803740	3	代谢组学	Metabolomics	18037	
+1803750	3	生物信息学	Bioinformatics	18037	
+1803799	3	分子生物学其他学科	Other molecular biology	18037	
+18039	2	专题生物学研究	Special topics in biology	180	
+1803910	3	水生生物学	Hydrobiology	18039	
+1803920	3	保护生物学	Conservation biology	18039	
+1803930	3	计算生物学	Computational biology	18039	
+1803940	3	营养生物学	Nutritional biology	18039	包括生化营养学、动物营养学、植物营养学、
+1803999	3	专题生物学研究其他学科	Other special topics in biology	18039	
+18041	2	生物进化论	Theory of biological evolution	180	
+18044	2	生态学	Ecology	180	
+1804410	3	数学生态学	Mathematical ecology	18044	
+1804415	3	化学生态学	Chemical ecology	18044	
+1804420	3	生理生态学	Physiological ecology	18044	
+1804421	3	进化生态学	Evolutionary ecology	18044	
+1804422	3	分子生态学	Molecular ecology	18044	
+1804423	3	行为生态学	Behavioral ecology	18044	
+1804425	3	生态毒理学	Ecotoxicology	18044	
+1804430	3	区域生态学	Regional ecology	18044	
+1804435	3	种群生态学	Population ecology	18044	
+1804440	3	群落生态学	Community ecology	18044	
+1804445	3	生态系统生态学	Ecosystem ecology	18044	
+1804450	3	生态工程学	Ecological engineering	18044	
+1804455	3	恢复生态学	Restoration ecology	18044	
+1804460	3	景观生态学	Landscape ecology	18044	
+1804465	3	水生生态学与湖泊生态学	Aquatic ecology and lake ecology	18044	
+1804499	3	生态学其他学科	Other ecology	18044	
+18047	2	神经生物学	Neurobiology	180	
+1804710	3	神经生物物理学	Neurobiophysics	18047	
+1804715	3	神经生物化学	Neurobiochemistry	18047	
+1804720	3	神经形态学	Neuromorphology	18047	
+1804725	3	细胞神经生物学	Cellular neurobiology	18047	
+1804730	3	神经生理学	Neurophysiology	18047	
+1804735	3	发育神经生物学	Developmental neurobiology	18047	
+1804740	3	分子神经生物学	Molecular neurobiology	18047	
+1804745	3	比较神经生物学	Comparative neurobiology	18047	
+1804750	3	系统神经生物学	Systems neurobiology	18047	
+1804799	3	神经生物学其他学科	Other neurobiology	18047	
+18051	2	植物学	Botany	180	
+1805110	3	植物化学	Phytochemistry	18051	
+1805115	3	植物生物物理学	Plant biophysics	18051	
+1805120	3	植物生物化学	Plant biochemistry	18051	
+1805125	3	植物形态学	Plant morphology	18051	
+1805130	3	植物解剖学	Plant anatomy	18051	
+1805135	3	植物细胞学	Plant cytology	18051	
+1805140	3	植物生理学	Plant physiology	18051	包括植物营养学
+1805145	3	植物生殖生物学	Plant reproductive biology	18051	原名为“植物胚胎学”
+1805150	3	植物发育学	Plant developmental biology	18051	包括植物孢粉学
+1805155	3	植物遗传学	Plant genetics	18051	
+1805156	3	植物引种驯化	Plant introduction and acclimatization	18051	
+1805160	3	植物生态学	Plant ecology	18051	
+1805165	3	植物地理学	Plant geography	18051	
+1805170	3	植物群落学	Phytosociology	18051	
+1805175	3	植物分类学	Plant taxonomy	18051	
+1805180	3	实验植物学	Experimental botany	18051	
+1805181	3	民族植物学	Ethnobotany	18051	
+1805185	3	植物寄生虫学	Plant parasitology	18051	
+1805199	3	植物学其他学科	Other botany	18051	
+18054	2	昆虫学	Entomology	180	
+1805410	3	昆虫生物化学	Insect biochemistry	18054	
+1805415	3	昆虫形态学	Insect morphology	18054	
+1805420	3	昆虫组织学	Insect histology	18054	
+1805425	3	昆虫生理学	Insect physiology	18054	
+1805430	3	昆虫生态学	Insect ecology	18054	
+1805435	3	昆虫病理学	Insect pathology	18054	
+1805440	3	昆虫毒理学	Insect toxicology	18054	
+1805445	3	昆虫行为学	Insect behavior	18054	
+1805450	3	昆虫分类学	Insect taxonomy	18054	
+1805455	3	实验昆虫学	Experimental entomology	18054	
+1805460	3	昆虫病毒学	Insect virology	18054	
+1805499	3	昆虫学其他学科	Other entomology	18054	
+18057	2	动物学	Zoology	180	
+1805711	3	动物生物物理学	Animal biophysics	18057	
+1805714	3	动物生物化学	Animal biochemistry	18057	
+1805717	3	动物形态学	Animal morphology	18057	
+1805721	3	动物解剖学	Animal anatomy	18057	
+1805724	3	动物组织学	Animal histology	18057	
+1805727	3	动物细胞学	Animal cytology	18057	
+1805731	3	动物生理学	Animal physiology	18057	
+1805734	3	动物生殖生物学	Animal reproductive biology	18057	包括动物繁殖学
+1805737	3	动物生长发育学	Animal growth and development	18057	包括动物胚胎学
+1805741	3	动物遗传学	Animal genetics	18057	
+1805744	3	动物生态学	Animal ecology	18057	
+1805747	3	动物病理学	Animal pathology	18057	
+1805751	3	动物行为学	Animal behavior	18057	含动物驯化学
+1805754	3	动物地理学	Zoogeography	18057	含昆虫生物地理学
+1805757	3	动物分类学	Animal taxonomy	18057	
+1805761	3	实验动物学	Laboratory animal science	18057	
+1805764	3	动物寄生虫学	Animal parasitology	18057	
+1805767	3	动物病毒学	Animal virology	18057	
+1805799	3	动物学其他学科	Other zoology	18057	
+18061	2	微生物学	Microbiology	180	
+1806110	3	微生物生物化学	Microbial biochemistry	18061	
+1806115	3	微生物生理学	Microbial physiology	18061	
+1806120	3	微生物遗传学	Microbial genetics	18061	
+1806125	3	微生物生态学	Microbial ecology	18061	
+1806130	3	微生物免疫学	Microbial immunology	18061	
+1806135	3	微生物分类学	Microbial taxonomy	18061	
+1806140	3	真菌学	Mycology	18061	
+1806145	3	细菌学	Bacteriology	18061	
+1806150	3	应用与环境微生物学	Applied and environmental microbiology	18061	具体应用入有关学科。 原名为 “应用微生物学”
+1806199	3	微生物学其他学科	Other microbiology	18061	
+18064	2	病毒学	Virology	180	
+1806405	3	普通病毒学	General virology	18064	
+1806410	3	病毒生物化学	Viral biochemistry	18064	
+1806420	3	分子病毒学	Molecular virology	18064	
+1806430	3	病毒生态学	Viral ecology	18064	
+1806440	3	病毒分类学	Viral taxonomy	18064	
+1806450	3	噬菌体学	Bacteriophage biology	18064	
+1806460	3	医学病毒学	Medical virology	18064	
+1806499	3	病毒学其他学科	Other virology	18064	
+18067	2	人类学	Anthropology	180	
+1806710	3	人类起源与演化学	Human origin and evolution	18067	
+1806715	3	人类形态学	Human morphology	18067	
+1806720	3	人类遗传学	Human genetics	18067	
+1806725	3	分子人类学	Molecular anthropology	18067	
+1806730	3	人类生态学	Human ecology	18067	亦称“人文生态学”
+1806735	3	心理人类学	Psychological anthropology	18067	
+1806740	3	古人类学	Paleoanthropology	18067	
+1806745	3	人种学	Ethnology	18067	
+1806750	3	人体测量学	Anthropometry	18067	
+1806799	3	人类学其他学科	Other anthropology	18067	
+18099	2	生物学其他学科	Other biology	180	
+190	1	心理学	Psychology		
+19010	2	心理学史	History of psychology	190	
+1901010	3	心理学国际传播	International dissemination of psychology	19010	
+1901020	3	心理学理论	Theoretical psychology	19010	包括西方心理学流派
+19015	2	认知心理学	Cognitive psychology	190	
+1901510	3	知觉	Perception	19015	
+1901520	3	阅读心理学	Psychology of reading	19015	
+1901530	3	心理语言学	Psycholinguistics	19015	
+1901540	3	认知神经科学	Cognitive neuroscience	19015	
+1901550	3	色彩心理学	Color psychology	19015	
+1901599	3	认知心理学其他学科	Other cognitive psychology	19015	
+19020	2	社会心理学	Social psychology	190	代码原为84051
+1902010	3	家庭心理学	Family psychology	19020	
+1902020	3	婚姻心理学	Psychology of marriage	19020	
+1902030	3	人际心理学	Interpersonal psychology	19020	
+1902040	3	道德心理学	Moral psychology	19020	
+1902099	3	社会心理学其他学科	Other social psychology	19020	
+19025	2	实验心理学	Experimental psychology	190	
+1902510	3	心理学研究方法	Research methods in psychology	19025	
+1902599	3	实验心理学其他学科	Other experimental psychology	19025	
+19030	2	发展心理学	Developmental psychology	190	
+1903510	3	婴儿心理学	Infant psychology	19035	
+1903520	3	儿童心理学	Child psychology	19035	
+1903530	3	妇女心理学	Psychology of women	19035	
+1903540	3	老年心理学	Geropsychology	19035	包括长寿心理学
+1903599	3	发展心理学其他学科	Other developmental psychology	19035	
+19040	2	医学心理学	Medical psychology	190	代码原为31054
+1904010	3	医患心理学	Doctor-patient psychology	19040	
+1904020	3	健康心理学	Health psychology	19040	
+1904099	3	医学心理学其他学科	Other medical psychology	19040	
+19041	2	人格心理学	Personality psychology	190	
+1904110	3	异常心理学	Abnormal psychology	19041	
+1904199	3	人格心理学其他学科	Other personality psychology	19041	
+19042	2	临床与咨询心理学	Clinical and counseling psychology	190	
+1904210	3	咨询心理技术	Counseling psychology techniques	19042	
+1904220	3	员工援助技术	Employee assistance techniques	19042	
+1904299	3	临床与咨询心理学其他学科	Other clinical and counseling psychology	19042	
+19045	2	心理测量	Psychometrics	190	
+1904510	3	心理测量理论	Psychometric theory	19045	
+1904520	3	心理测量技术	Psychometric techniques	19045	
+19046	2	心理统计	Psychological statistics	190	
+1904610	3	心理统计原理	Principles of psychological statistics	19046	
+1904620	3	心理统计方法	Methods of psychological statistics	19046	
+19050	2	生理心理学	Physiological psychology	190	
+1905010	3	感觉心理学	Sensory psychology	19050	
+1905020	3	比较心理学	Comparative psychology	19050	
+1905030	3	心理神经免疫学	Psychoneuroimmunology	19050	
+1905040	3	心理药理学	Psychopharmacology	19050	
+1905099	3	生理心理学其他学科	Other physiological psychology	19050	
+19055	2	工业心理学	Industrial psychology	190	
+1905510	3	交通心理学	Traffic psychology	19055	
+1905515	3	消费心理学	Consumer psychology	19055	参见 7906330
+1905520	3	营销心理学	Marketing psychology	19055	
+1905525	3	经济心理学	Economic psychology	19055	包括市场心理学、投资心理学
+1905599	3	工业心理学其他学科	Other industrial psychology	19055	
+19060	2	管理心理学	Management psychology	190	代码原为63020
+1906010	3	干部心理学	Psychology of cadres	19060	
+1906020	3	绩效评估技术	Performance appraisal techniques	19060	
+1906099	3	管理心理学其他学科	Other management psychology	19060	
+19065	2	应用心理学	Applied psychology	190	
+1906510	3	心理人类学	Psychological anthropology	19065	
+1906599	3	应用心理学其他学科	Other applied psychology	19065	
+19070	2	教育心理学	Educational psychology	190	代码原为88027
+1907010	3	学习心理学	Psychology of learning	19070	
+1907020	3	学校心理学	School psychology	19070	
+1907099	3	教育心理学其他学科	Other educational psychology	19070	
+19075	2	法制心理学	Legal psychology	190	
+1907510	3	罪犯心理学	Criminal psychology	19075	
+1907520	3	证人心理学	Witness psychology	19075	
+1907599	3	法制心理学其他学科	Other legal psychology	19075	
+19099	2	心理学其他学科	Other psychology	190	
+210	1	农学	Agricultural sciences		
+21010	2	农业史	History of agriculture	210	
+2101010	3	农业科技史	History of agricultural science and technology	21010	
+2101020	3	农村社会史	History of rural society	21010	参见8402731
+2101030	3	农业文化史	History of agricultural culture	21010	
+2101099	3	农业史其他学科	Other history of agriculture	21010	
+21020	2	农业基础学科	Fundamentals of agricultural science	210	
+2102010	3	农业数学	Agricultural mathematics	21020	
+2102020	3	农业气象学与农业气候学	Agricultural meteorology and agroclimatology	21020	
+2102030	3	农业生物物理学	Agricultural biophysics	21020	
+2102040	3	农业生物化学	Agricultural biochemistry	21020	
+2102050	3	农业生态学	Agroecology	21020	
+2102060	3	农业植物学	Agricultural botany	21020	
+2102070	3	农业微生物学	Agricultural microbiology	21020	
+2102080	3	植物营养学	Plant nutrition	21020	
+2102099	3	农业基础学科其他学科	Other basic agricultural sciences	21020	
+21030	2	农艺学	Agronomy	210	
+2103010	3	作物形态学	Crop morphology	21030	
+2103015	3	作物生理学	Crop physiology	21030	
+2103020	3	作物遗传学	Crop genetics	21030	
+2103025	3	作物生态学	Crop ecology	21030	
+2103030	3	种子学	Seed science	21030	
+2103033	3	作物育种学	Crop breeding	21030	包括航天育种学
+2103036	3	良种繁育学	Breeding and multiplication of improved crop varieties	21030	
+2103040	3	作物栽培学	Crop cultivation	21030	
+2103045	3	作物耕作学	Crop farming systems	21030	
+2103050	3	作物种质资源学	Crop germplasm resources	21030	
+2103099	3	农艺学其他学科	Other agronomy	21030	
+21040	2	园艺学	Horticulture	210	
+2104010	3	果树学	Pomology	21040	
+2104020	3	瓜果学	Melon science	21040	
+2104030	3	蔬菜学	Vegetable science	21040	
+2104050	3	茶学	Tea science	21040	包括茶加工等
+2104060	3	观赏园艺学	Ornamental horticulture	21040	
+2104099	3	园艺学其他学科	Other horticulture	21040	
+21045	2	农产品贮藏与加工	Storage and processing of agricultural products	210	
+2104510	3	农产品贮藏与加工	Storage and processing of agricultural products	21045	
+2104520	3	粮油产品贮藏与加工	Storage and processing of grain and oil products	21045	
+2104530	3	果蔬贮藏与加工	Storage and processing of fruits and vegetables	21045	代码原为2104040
+2104540	3	土特产品贮藏与加工	Storage and processing of local specialty products	21045	
+2104550	3	农副产品综合利用	Comprehensive utilization of agricultural byproducts	21045	
+2104599	3	农产品贮藏与加工其他学科	Other storage and processing of agricultural products	21045	
+21050	2	土壤学	Soil science	210	
+2105010	3	土壤物理学	Soil physics	21050	
+2105015	3	土壤化学	Soil chemistry	21050	
+2105020	3	土壤地理学	Soil geography	21050	
+2105025	3	土壤生物学	Soil biology	21050	
+2105030	3	土壤生态学	Soil ecology	21050	
+2105035	3	土壤耕作学	Soil tillage science	21050	
+2105040	3	土壤改良学	Soil amelioration	21050	
+2105045	3	土壤肥料学	Soil and fertilizer science	21050	
+2105050	3	土壤分类学	Soil classification	21050	
+2105055	3	土壤调查与评价	Soil survey and evaluation	21050	
+2105060	3	土壤修复	Soil remediation	21050	
+2105099	3	土壤学其他学科	Other soil science	21050	
+21060	2	植物保护学	Plant protection	210	
+2106010	3	植物检疫学	Plant quarantine	21060	
+2106015	3	植物免疫学	Plant immunology	21060	
+2106020	3	植物病理学	Plant pathology	21060	
+2106025	3	植物药理学	Plant pharmacology	21060	
+2106030	3	农业昆虫学	Agricultural entomology	21060	
+2106035	3	植物病毒学	Plant virology	21060	
+2106036	3	植物真菌学	Plant mycology	21060	
+2106037	3	植物细菌学	Plant bacteriology	21060	
+2106038	3	植物线虫学	Plant nematology	21060	
+2106040	3	农药学	Pesticide science	21060	
+2106045	3	有害生物监测预警	Pest monitoring and early warning	21060	原名为“植物病虫害测报学”
+2106050	3	抗病虫害育种	Breeding for disease and pest resistance	21060	
+2106055	3	有害生物化学防治	Chemical control of pests	21060	
+2106060	3	有害生物生物防治	Biological control of pests	21060	
+2106065	3	有害生物综合防治	Integrated pest management	21060	
+2106066	3	有害生物生态调控	Ecological regulation of pests	21060	
+2106067	3	农业转基因生物安全学	Biosafety of agricultural genetically modified organisms	21060	
+2106070	3	杂草防除	Weed control	21060	原名为“杂草防治”
+2106075	3	鸟兽、鼠害防治	Control of bird, mammal and rodent pests	21060	
+2106099	3	植物保护学其他学科	Other plant protection	21060	
+21099	2	农学其他学科	Other agricultural sciences	210	
+220	1	林学	Forestry		
+22010	2	林业基础学科	Fundamentals of forestry	220	
+2201010	3	森林气象学	Forest meteorology	22010	
+2201020	3	森林地理学	Forest geography	22010	
+2201030	3	森林水文学	Forest hydrology	22010	
+2201040	3	森林土壤学	Forest soil science	22010	
+2201050	3	树木生理学	Tree physiology	22010	
+2201060	3	森林生态学	Forest ecology	22010	
+2201070	3	森林植物学	Forest botany	22010	
+2201099	3	林业基础学科其他学科	Other basic forestry sciences	22010	
+22015	2	林木遗传育种学	Forest genetics and tree breeding	220	
+2201510	3	林木育种学	Forest tree breeding	22015	
+2201520	3	林木遗传学	Forest tree genetics	22015	
+2201599	3	林木遗传育种学其他学科	Other forest tree genetics and breeding	22015	
+22020	2	森林培育学	Silviculture	220	
+2202010	3	种苗学	Seed and seedling science	22020	
+2202020	3	造林学	Silviculture	22020	包括治沙造林学
+2202099	3	森林培育学其他学科	Other silviculture	22020	
+22025	2	森林经理学	Forest management	220	
+2202510	3	森林测计学	Forest mensuration	22025	
+2202520	3	森林测量学	Forest surveying	22025	
+2202530	3	林业遥感	Forestry remote sensing	22025	
+2202540	3	林业信息管理	Forestry information management	22025	
+2202550	3	林业系统工程	Forestry systems engineering	22025	
+2202599	3	森林经理学其他学科	Other forest management	22025	
+22030	2	森林保护学	Forest protection	220	
+2203010	3	森林病理学	Forest pathology	22030	
+2203020	3	森林昆虫学	Forest entomology	22030	
+2203030	3	森林防火学	Forest fire science	22030	
+2203099	3	森林保护学其他学科	Other forest protection	22030	
+22035	2	野生动物保护与管理	Wildlife conservation and management	220	
+22040	2	防护林学	Protection forestry	220	
+22045	2	经济林学	Economic forestry	220	
+22050	2	园林学	Landscape architecture	220	
+2205010	3	园林植物学	Landscape plant science	22050	
+2205020	3	风景园林工程	Landscape architecture engineering	22050	
+2205030	3	风景园林经营与管理	Landscape architecture operation and management	22050	
+2205099	3	园林学其他学科	Other landscape architecture	22050	
+22055	2	林业工程	Forestry engineering	220	
+2205510	3	森林采运学	Forest harvesting and transportation	22055	
+2205520	3	林业机械	Forestry machinery	22055	
+2205530	3	林业机械化与电气化	Forestry mechanization and electrification	22055	
+2205540	3	木材学	Wood science	22055	
+2205550	3	木材加工与人造板工艺学	Wood processing and wood-based panel technology	22055	包括家具设计与制造等
+2205560	3	木材防腐学	Wood preservation	22055	
+2205570	3	林产化学加工学	Chemical processing of forest products	22055	
+2205599	3	林业工程其他学科	Other forestry engineering	22055	
+22060	2	森林统计学	Forest statistics	220	
+22065	2	林业经济学	Forestry economics	220	
+22099	2	林学其他学科	Other forestry	220	
+230	1	畜牧、兽医科学	Animal husbandry and veterinary science		
+23010	2	畜牧、兽医科学基础学科	Fundamentals of animal husbandry and veterinary science	230	
+2301010	3	家畜生物化学	Livestock biochemistry	23010	
+2301020	3	家畜生理学	Livestock physiology	23010	
+2301030	3	家畜遗传学	Livestock genetics	23010	
+2301040	3	家畜生态学	Livestock ecology	23010	
+2301050	3	家畜微生物学	Livestock microbiology	23010	
+2301099	3	畜牧、兽医科学基础学科其他学科	Other basic sciences of animal husbandry and veterinary medicine	23010	
+23020	2	畜牧学	Animal husbandry	230	
+2302005	3	农业动物资源学	Agricultural animal resources science	23020	
+2302010	3	家畜遗传育种学	Livestock genetics and breeding	23020	原名为“家畜育种学”
+2302015	3	家畜繁殖学	Livestock reproduction	23020	参见 1805734
+2302020	3	动物营养学	Animal nutrition	23020	
+2302025	3	饲料学	Feed science	23020	
+2302030	3	家畜饲养管理学	Livestock feeding and management	23020	
+2302035	3	特种经济动物饲养学	Husbandry of special economic animals	23020	
+2302040	3	家畜行为学	Livestock behavior	23020	
+2302045	3	家畜卫生学	Livestock hygiene	23020	
+2302050	3	草原学	Grassland science	23020	包括牧草学、牧草育种学、牧草栽培学、 草地
+2302055	3	畜产品贮藏与加工	Storage and processing of animal products	23020	
+2302060	3	畜牧机械化	Mechanization of animal husbandry	23020	
+2302065	3	养禽学	Poultry science	23020	
+2302070	3	养蜂学	Apiculture	23020	
+2302075	3	养蚕学	Sericulture	23020	
+2302080	3	畜牧经济学	Animal husbandry economics	23020	
+2302099	3	畜牧学其他学科	Other animal husbandry	23020	
+23030	2	兽医学	Veterinary medicine	230	
+2303005	3	预防兽医学	Preventive veterinary medicine	23030	
+2303006	3	兽医病原学	Veterinary etiology	23030	
+2303007	3	兽医流行学	Veterinary epidemiology	23030	
+2303010	3	家畜解剖学与组织学	Livestock anatomy and histology	23030	原名为“家畜解剖学”
+2303015	3	家畜组织胚胎学	Livestock histology and embryology	23030	
+2303016	3	动物分子病原学	Molecular etiology of animals	23030	
+2303020	3	兽医免疫学	Veterinary immunology	23030	
+2303025	3	家畜病理学	Livestock pathology	23030	亦称兽医病理学
+2303030	3	兽医药理学与毒理学	Veterinary pharmacology and toxicology	23030	原名为“兽医药理学”
+2303035	3	兽医临床学	Veterinary clinical science	23030	
+2303040	3	兽医卫生检疫学	Veterinary hygiene and quarantine	23030	
+2303045	3	家畜寄生虫学	Livestock parasitology	23030	
+2303050	3	家畜传染病学	Livestock infectious diseases	23030	
+2303055	3	家畜病毒学	Livestock virology	23030	
+2303060	3	中兽医学	Traditional Chinese veterinary medicine	23030	
+2303065	3	兽医器械学	Veterinary instrumentation	23030	
+2303099	3	兽医学其他学科	Other veterinary medicine	23030	
+23099	2	畜牧、兽医科学其他学科	Other animal husbandry and veterinary science	230	
+240	1	水产学	Fisheries science		
+24010	2	水产学基础学科	Fundamentals of fisheries science	240	
+2401010	3	水产化学	Fishery chemistry	24010	
+2401020	3	水产地理学	Fishery geography	24010	
+2401030	3	水产生物学	Fishery biology	24010	
+2401033	3	水产遗传育种学	Fishery genetics and breeding	24010	
+2401036	3	水产动物医学	Aquatic animal medicine	24010	
+2401040	3	水域生态学	Aquatic ecology	24010	
+2401099	3	水产学基础学科其他学科	Other basic fishery sciences	24010	
+24015	2	水产增殖学	Aquatic propagation and enhancement	240	
+24020	2	水产养殖学	Aquaculture	240	
+24025	2	水产饲料学	Aquatic feed science	240	
+24030	2	水产保护学	Aquatic resource protection	240	
+24035	2	捕捞学	Fishing science	240	
+24040	2	水产品贮藏与加工	Storage and processing of aquatic products	240	
+24045	2	水产工程学	Fisheries engineering	240	
+24050	2	水产资源学	Fisheries resources science	240	
+24055	2	水产经济学	Fisheries economics	240	
+24099	2	水产学其他学科	Other fisheries science	240	
+310	1	基础医学	Basic medicine		
+31010	2	医学史	History of medicine	310	
+31011	2	医学生物化学	Medical biochemistry	310	
+31014	2	人体解剖学	Human anatomy	310	
+3101410	3	系统解剖学	Systematic anatomy	31014	
+3101420	3	局部解剖学	Regional anatomy	31014	
+3101499	3	人体解剖学其他学科	Other human anatomy	31014	
+31017	2	医学细胞生物学	Medical cell biology	310	
+31021	2	人体生理学	Human physiology	310	
+31024	2	人体组织胚胎学	Human histology and embryology	310	
+31027	2	医学遗传学	Medical genetics	310	
+31031	2	放射医学	Radiation medicine	310	
+31034	2	人体免疫学	Human immunology	310	
+31037	2	医学寄生虫学	Medical parasitology	310	
+3103710	3	医学寄生虫免疫学	Medical parasite immunology	31037	
+3103720	3	医学昆虫学	Medical entomology	31037	
+3103730	3	医学蠕虫学	Medical helminthology	31037	
+3103740	3	医学原虫学	Medical protozoology	31037	
+3103799	3	医学寄生虫学其他学科	Other medical parasitology	31037	
+31041	2	医学微生物学	Medical microbiology	310	
+31044	2	病理学	Pathology	310	
+3104410	3	病理生物学	Pathobiology	31044	
+3104420	3	病理解剖学	Pathological anatomy	31044	
+3104430	3	病理生理学	Pathophysiology	31044	
+3104440	3	免疫病理学	Immunopathology	31044	
+3104450	3	实验病理学	Experimental pathology	31044	
+3104460	3	比较病理学	Comparative pathology	31044	
+3104470	3	系统病理学	Systemic pathology	31044	
+3104480	3	环境病理学	Environmental pathology	31044	
+3104485	3	分子病理学	Molecular pathology	31044	
+3104499	3	病理学其他学科	Other pathology	31044	
+31047	2	药理学	Pharmacology	310	
+3104710	3	基础药理学	Basic pharmacology	31047	
+3104720	3	临床药理学	Clinical pharmacology	31047	
+3104730	3	生化药理学	Biochemical pharmacology	31047	
+3104740	3	分子药理学	Molecular pharmacology	31047	
+3104750	3	免疫药理学	Immunopharmacology	31047	
+3104799	3	药理学其他学科	Other pharmacology	31047	
+31051	2	医学实验动物学	Laboratory animal science	310	
+31057	2	医学统计学	Medical statistics	310	
+31099	2	基础医学其他学科	Other basic medicine	310	
+320	1	临床医学	Clinical medicine		
+32011	2	临床诊断学	Clinical diagnostics	320	
+3201110	3	症状诊断学	Symptomatology	32011	
+3201120	3	物理诊断学	Physical diagnosis	32011	
+3201130	3	机能诊断学	Functional diagnosis	32011	
+3201140	3	医学影象学	Medical imaging	32011	包括放射诊断学、 同位素诊断学、 超声诊断学
+3201150	3	临床放射学	Clinical radiology	32011	
+3201160	3	实验诊断学	Laboratory diagnosis	32011	
+3201199	3	临床诊断学其他学科	Other clinical diagnostics	32011	
+32014	2	保健医学	Health care medicine	320	
+3201410	3	康复医学	Rehabilitation medicine	32014	
+3201420	3	运动医学	Sports medicine	32014	包括力学运动医学等
+3201430	3	老年医学	Geriatric medicine	32014	包括老年基础医学和老年临床医学
+3201499	3	保健医学其他学科	Other health care medicine	32014	
+32017	2	理疗学	Physiotherapy	320	
+32021	2	麻醉学	Anesthesiology	320	
+3202110	3	麻醉生理学	Anesthesia physiology	32021	
+3202120	3	麻醉药理学	Anesthetic pharmacology	32021	
+3202130	3	麻醉应用解剖学	Applied anatomy for anesthesia	32021	
+3202199	3	麻醉学其他学科	Other anesthesiology	32021	
+32024	2	内科学	Internal medicine	320	
+3202410	3	心血管病学	Cardiology	32024	
+3202415	3	呼吸病学	Respirology	32024	
+3202420	3	结核病学	Phthisiology	32024	
+3202425	3	消化病学	Gastroenterology	32024	原名为“胃肠病学”
+3202430	3	血液病学	Hematology	32024	
+3202435	3	肾脏病学	Nephrology	32024	
+3202440	3	内分泌病学与代谢病学	Endocrinology and metabolic diseases	32024	原名为“内分泌学”
+3202445	3	风湿病学与自体免疫病学	Rheumatology and autoimmune diseases	32024	
+3202450	3	变态反应学	Allergology	32024	
+3202455	3	感染性疾病学	Infectiology	32024	
+3202460	3	传染病学	Infectious diseases	32024	代码原为33024
+3202499	3	内科学其他学科	Other internal medicine	32024	
+32027	2	外科学	Surgery	320	
+3202710	3	普通外科学	General surgery	32027	
+3202715	3	显微外科学	Microsurgery	32027	
+3202720	3	神经外科学	Neurosurgery	32027	
+3202725	3	颅脑外科学	Craniocerebral surgery	32027	
+3202730	3	胸外科学	Thoracic surgery	32027	
+3202735	3	心血管外科学	Cardiovascular surgery	32027	
+3202740	3	泌尿外科学	Urology	32027	
+3202745	3	骨外科学	Orthopedic surgery	32027	
+3202750	3	烧伤外科学	Burn surgery	32027	
+3202755	3	整形外科学	Plastic surgery	32027	
+3202760	3	器官移植外科学	Organ transplantation surgery	32027	
+3202765	3	实验外科学	Experimental surgery	32027	
+3202770	3	小儿外科学	Pediatric surgery	32027	包括小儿普通外科学、 小儿骨外科学、 小儿胸
+3202799	3	外科学其他学科	Other surgery	32027	
+32031	2	妇产科学	Obstetrics and gynecology	320	
+3203110	3	妇科学	Gynecology	32031	
+3203120	3	产科学	Obstetrics	32031	
+3203130	3	围产医学	Perinatal medicine	32031	亦称围生医学
+3203140	3	助产学	Midwifery	32031	
+3203150	3	胎儿学	Fetology	32031	
+3203160	3	妇科产科手术学	Gynecologic and obstetric surgery	32031	
+3203199	3	妇产科学其他学科	Other obstetrics and gynecology	32031	
+32034	2	儿科学	Pediatrics	320	
+3203410	3	小儿内科学	Pediatric internal medicine	32034	
+3203499	3	儿科学其他学科	Other pediatrics	32034	
+32037	2	眼科学	Ophthalmology	320	
+32041	2	耳鼻咽喉科学	Otorhinolaryngology	320	
+32044	2	口腔医学	Stomatology	320	
+3204410	3	口腔解剖生理学	Oral anatomy and physiology	32044	
+3204415	3	口腔组织学与口腔病理学	Oral histology and oral pathology	32044	
+3204420	3	口腔材料学	Dental materials science	32044	
+3204425	3	口腔影象诊断学	Oral imaging diagnostics	32044	
+3204430	3	口腔内科学	Conservative dentistry	32044	
+3204435	3	口腔颌面外科学	Oral and maxillofacial surgery	32044	
+3204440	3	口腔矫形学	Prosthodontics	32044	
+3204445	3	口腔正畸学	Orthodontics	32044	
+3204450	3	口腔病预防学	Preventive dentistry	32044	
+3204499	3	口腔医学其他学科	Other stomatology	32044	
+32047	2	皮肤病学	Dermatology	320	
+32051	2	性医学	Sexual medicine	320	
+32054	2	神经病学	Neurology	320	
+32057	2	精神病学	Psychiatry	320	包括精神卫生及行为医学等
+32058	2	重症医学	Critical care medicine	320	
+32061	2	急诊医学	Emergency medicine	320	
+32064	2	核医学	Nuclear medicine	320	含放射治疗学
+32065	2	全科医学	General practice	320	
+32067	2	肿瘤学	Oncology	320	
+3206710	3	肿瘤免疫学	Tumor immunology	32067	
+3206720	3	肿瘤病因学	Tumor etiology	32067	
+3206730	3	肿瘤病理学	Tumor pathology	32067	
+3206740	3	肿瘤诊断学	Tumor diagnostics	32067	
+3206750	3	肿瘤治疗学	Tumor therapeutics	32067	
+3206760	3	肿瘤预防学	Tumor prevention	32067	
+3206770	3	实验肿瘤学	Experimental oncology	32067	
+3206799	3	肿瘤学其他学科	Other oncology	32067	
+32071	2	护理学	Nursing	320	
+3207110	3	基础护理学	Basic nursing	32071	
+3207120	3	专科护理学	Specialty nursing	32071	
+3207130	3	特殊护理学	Special nursing	32071	
+3207140	3	护理心理学	Nursing psychology	32071	
+3207150	3	护理伦理学	Nursing ethics	32071	
+3207160	3	护理管理学	Nursing management	32071	
+3207199	3	护理学其他学科	Other nursing	32071	
+32099	2	临床医学其他学科	Other clinical medicine	320	
+330	1	预防医学与公共卫生学	Preventive medicine and public health		原名为“预防医学与卫生学”
+33011	2	营养学	Nutrition science	330	
+33014	2	毒理学	Toxicology	330	
+33017	2	消毒学	Disinfection science	330	
+33021	2	流行病学	Epidemiology	330	
+33027	2	媒介生物控制学	Vector biology and control	330	
+33031	2	环境医学	Environmental medicine	330	亦为环境卫生学
+33034	2	职业病学	Occupational disease science	330	
+33037	2	地方病学	Endemiology	330	
+33035	2	热带医学	Tropical medicine	330	
+33041	2	社会医学	Social medicine	330	
+33044	2	卫生检验学	Health inspection and testing	330	
+33047	2	食品卫生学	Food hygiene	330	
+33051	2	儿少与学校卫生学	Child, adolescent and school hygiene	330	原名为“儿少卫生学”
+33054	2	妇幼卫生学	Maternal and child health	330	
+33057	2	环境卫生学	Environmental hygiene	330	
+33061	2	劳动卫生学	Occupational hygiene	330	
+33064	2	放射卫生学	Radiation hygiene	330	
+33067	2	卫生工程学	Sanitary engineering	330	
+33071	2	卫生经济学	Health economics	330	
+33072	2	卫生统计学	Health statistics	330	原代码为9104030
+33074	2	优生学	Eugenics	330	
+33077	2	健康促进与健康教育学	Health promotion and health education	330	原名为“健康促进与健康教育学”
+33081	2	卫生管理学	Health administration	330	
+3308110	3	卫生监督学	Health supervision	33081	
+3308120	3	卫生政策学	Health policy	33081	
+3308130	3	卫生信息管理学	Health information management	33081	
+3308199	3	卫生管理学其他学科	Other health management	33081	
+33099	2	预防医学与公共卫生学其他学科	Other preventive medicine and public health	330	
+340	1	军事医学与特种医学	Military medicine and special medicine		
+34010	2	军事医学	Military medicine	340	
+3401010	3	野战外科学和创伤外科学	Field surgery and trauma surgery	34010	原名为“野战外科学”
+3401015	3	军队流行病学	Military epidemiology	34010	
+3401020	3	军事环境医学	Military environmental medicine	34010	
+3401025	3	军队卫生学	Military hygiene	34010	
+3401030	3	军队卫生装备学	Military health equipment science	34010	
+3401035	3	军事人机工效学	Military ergonomics	34010	
+3401040	3	核武器医学防护学	Medical protection against nuclear weapons	34010	
+3401045	3	化学武器医学防护学	Medical protection against chemical weapons	34010	
+3401050	3	生物武器医学防护学	Medical protection against biological weapons	34010	
+3401055	3	激光与微波医学防护学	Medical protection against laser and microwave radiation	34010	
+3401099	3	军事医学其他学科	Other military medicine	34010	
+34020	2	特种医学	Special medicine	340	
+3402010	3	航空航天医学	Aerospace medicine	34020	
+3402020	3	潜水医学	Diving medicine	34020	
+3402030	3	航海医学	Nautical medicine	34020	
+3402040	3	法医学	Forensic medicine	34020	
+3402050	3	高压氧医学	Hyperbaric oxygen medicine	34020	
+3402099	3	特种医学其他学科	Other special medicine	34020	
+34099	2	军事医学与特种医学其他学科	Other military medicine and special medicine	340	
+350	1	药学	Pharmacy		
+35010	2	药物化学	Medicinal chemistry	350	包括天然药物化学等
+35020	2	生物药物学	Biopharmaceutics	350	
+35025	2	微生物药物学	Microbial pharmaceutics	350	
+35030	2	放射性药物学	Radiopharmaceutics	350	
+35035	2	药剂学	Pharmaceutics	350	
+35040	2	药效学	Pharmacodynamics	350	
+35045	2	药物管理学	Pharmaceutical administration	350	
+35050	2	药物统计学	Pharmaceutical statistics	350	
+35099	2	药学其他学科	Other pharmacy	350	
+360	1	中医学与中药学	Traditional Chinese medicine and pharmacy		
+36010	2	中医学	Traditional Chinese medicine	360	
+3601011	3	中医基础理论	Basic theory of traditional Chinese medicine	36010	包括经络学等
+3601014	3	中医诊断学	Diagnostics of traditional Chinese medicine	36010	
+3601017	3	中医内科学	Internal medicine of traditional Chinese medicine	36010	
+3601021	3	中医外科学	Surgery of traditional Chinese medicine	36010	
+3601024	3	中医骨伤科学	Orthopedics and traumatology of traditional Chinese medicine	36010	
+3601027	3	中医妇科学	Gynecology of traditional Chinese medicine	36010	
+3601031	3	中医儿科学	Pediatrics of traditional Chinese medicine	36010	
+3601034	3	中医眼科学	Ophthalmology of traditional Chinese medicine	36010	
+3601037	3	中医耳鼻咽喉科学	Otorhinolaryngology of traditional Chinese medicine	36010	
+3601041	3	中医口腔科学	Stomatology of traditional Chinese medicine	36010	
+3601044	3	中医老年病学	Geriatrics of traditional Chinese medicine	36010	
+3601047	3	针灸学	Acupuncture and moxibustion	36010	包括针刺镇痛与麻醉等
+3601051	3	按摩推拿学	Massage and tuina therapy	36010	
+3601054	3	中医养生康复学	Health preservation and rehabilitation of traditional Chinese medicine	36010	包括气功研究等
+3601057	3	中医护理学	Nursing of traditional Chinese medicine	36010	
+3601061	3	中医食疗学	Dietary therapy of traditional Chinese medicine	36010	
+3601064	3	方剂学	Science of traditional Chinese medicine prescriptions	36010	
+3601067	3	中医文献学	Literature studies of traditional Chinese medicine	36010	包括难经、内经、伤寒论、金匮要略、腧穴学
+3601099	3	中医学其他学科	Other traditional Chinese medicine	36010	
+36020	2	民族医学	Ethnomedicine	360	
+3602010	3	藏医药学	Tibetan medicine and pharmacology	36020	
+3602020	3	蒙医药学	Mongolian medicine and pharmacology	36020	
+3602030	3	维吾尔医药学	Uyghur medicine and pharmacology	36020	
+3602040	3	民族草药学	Ethnic herbal medicine	36020	
+3602099	3	民族医学其他学科	Other ethnic medicine	36020	
+36030	2	中西医结合医学	Integrated traditional Chinese and western medicine	360	
+3603010	3	中西医结合基础医学	Basic medicine of integrated traditional Chinese and Western medicine	36030	
+3603020	3	中西医结合医学导论	Introduction to integrated traditional Chinese and Western medicine	36030	
+3603030	3	中西医结合预防医学	Preventive medicine of integrated traditional Chinese and Western medicine	36030	
+3603040	3	中西医结合临床医学	Clinical medicine of integrated traditional Chinese and Western medicine	36030	
+3603050	3	中西医结合护理学	Nursing of integrated traditional Chinese and Western medicine	36030	
+3603060	3	中西医结合康复医学	Rehabilitation medicine of integrated traditional Chinese and Western medicine	36030	
+3603070	3	中西医结合养生保健医学	Health preservation medicine of integrated traditional Chinese and Western medicine	36030	
+3603099	3	中西医结合医学其他学科	Other integrated traditional Chinese and Western medicine	36030	
+36040	2	中药学	Chinese materia medica	360	
+3604010	3	中药化学	Chemistry of Chinese materia medica	36040	
+3604015	3	中药药理学	Pharmacology of Chinese materia medica	36040	
+3604020	3	本草学	Bencao studies	36040	
+3604025	3	药用植物学	Pharmaceutical botany	36040	
+3604030	3	中药鉴定学	Identification of Chinese materia medica	36040	
+3604035	3	中药炮制学	Processing of Chinese materia medica	36040	
+3604040	3	中药药剂学	Pharmaceutics of Chinese materia medica	36040	
+3604045	3	中药资源学	Resource science of Chinese materia medica	36040	
+3604050	3	中药管理学	Management science of Chinese materia medica	36040	
+3604099	3	中药学其他学科	Other Chinese materia medica	36040	
+36099	2	中医学与中药学其他学科	Other traditional Chinese medicine and pharmacy	360	
+410	1	工程与技术科学基础学科	Fundamental disciplines of engineering and technology		
+41010	2	工程数学	Engineering mathematics	410	
+41015	2	工程控制论	Engineering cybernetics	410	
+41020	2	工程力学	Engineering mechanics	410	
+41025	2	工程物理学	Engineering physics	410	
+41030	2	工程地质学	Engineering geology	410	
+41035	2	工程水文学	Engineering hydrology	410	参见 17055
+41040	2	工程仿生学	Engineering bionics	410	参见 1801460
+41045	2	工程心理学	Engineering psychology	410	
+41050	2	标准科学技术	Standardization science and technology	410	又名标准学
+4105010	3	标准原理与方法	Principles and methods of standardization	41050	包括标准原理、标准体系、标准一致性测试、
+4105020	3	标准基础学	Fundamentals of standardization	41050	包括标准化发展史、 标准经济学、 术语标准化、
+4105050	3	标准工程与应用	Standardization engineering and application	41050	包括标准化机制与体制研究、 标准管理学、 质
+4105099	3	标准科学技术其他学科	Other standardization science and technology	41050	
+41055	2	计量学	Metrology	410	
+41060	2	工程图学	Engineering graphics	410	
+41065	2	勘查技术	Exploration technology	410	
+41070	2	工程通用技术	General engineering technology	410	
+4107010	3	密封技术	Sealing technology	41070	
+4107020	3	粉末技术	Powder technology	41070	
+4107030	3	真空技术	Vacuum technology	41070	
+4107040	3	薄膜技术	Thin film technology	41070	
+4107050	3	爆破技术	Blasting technology	41070	
+4107060	3	包装技术	Packaging technology	41070	
+4107070	3	照相技术	Photographic technology	41070	
+4107080	3	物料搬运技术	Materials handling technology	41070	
+4107099	3	工程通用技术其他学科	Other general engineering technology	41070	
+41075	2	工业工程学	Industrial engineering	410	亦称工程系统工程
+41099	2	工程与技术科学基础学科其他学科	Other fundamental disciplines of engineering and technology	410	
+413	1	信息与系统科学相关工程与技术	Engineering and technology related to information and systems science		
+41310	2	控制科学与技术	Control science and technology	413	
+4131010	3	自动控制应用理论	Applied theory of automatic control	41310	包括线性、非线性、随机控制，最优控制、自
+4131015	3	指挥与控制系统工程	Command and control systems engineering	41310	
+4131020	3	控制系统仿真技术	Control system simulation technology	41310	代码原为5108020
+4131025	3	导航制导与控制	Navigation, guidance and control	41310	包括惯性导航与惯性制导
+4131030	3	机电一体化技术	Mechatronics technology	41310	代码原为5108030
+4131040	3	自动化仪器仪表与装置	Automation instruments and devices	41310	代码原为5108040
+4131050	3	机器人控制	Robot control	41310	代码原为5108050
+4131060	3	自动化技术应用	Application of automation technology	41310	具体应用入有关学科。代码原为5108060
+4131099	3	控制科学与技术其它学科	Other control science and technology	41310	
+41315	2	仿真科学技术	Simulation science and technology	413	
+4131510	3	仿真科学技术基础学科	Fundamentals of simulation science and technology	41315	
+4131520	3	仿真建模理论与技术	Simulation modeling theory and technology	41315	
+4131530	3	仿真系统理论与技术	Simulation system theory and technology	41315	
+4131540	3	仿真应用	Simulation applications	41315	具体应用入有关学科
+4131599	3	仿真科学技术其它学科	Other simulation science and technology	41315	
+41320	2	信息安全技术	Information security technology	413	
+4132010	3	密码学	Cryptography	41320	代码原为8304050
+4132015	3	安全协议	Security protocols	41320	
+4132020	3	系统安全	System security	41320	
+4132025	3	网络安全	Network security	41320	
+4132030	3	软件安全	Software security	41320	
+4132035	3	信息隐藏	Information hiding	41320	
+4132040	3	安全测评	Security evaluation	41320	
+4132045	3	信息安全工程	Information security engineering	41320	
+4132099	3	信息安全其他学科	Other information security	41320	
+41330	2	信息技术系统性应用	Systemic application of information technology	413	
+4133010	3	地理信息系统	Geographic information systems	41330	代码原为4203040
+4133020	3	全球定位系统	Global positioning system	41330	
+4133030	3	海洋信息技术	Marine information technology	41330	
+4133099	3	信息技术系统性应用其他学科	Other systematic applications of information technology	41330	
+41399	2	信息与系统科学相关工程与技术其他学科	Other engineering and technology related to information and systems science	413	
+416	1	自然科学相关工程与技术	Engineering and technology related to natural sciences		
+41610	2	物理学相关工程与技术	Engineering and technology related to physics	416	
+4161010	3	同步辐射及实验技术	Synchrotron radiation and experimental techniques	41610	
+4161099	3	物理学相关工程与技术其他学科	Other physics-related engineering and technology	41610	
+41620	2	光学工程	Optical engineering	416	
+41630	2	海洋工程与技术	Ocean engineering and technology	416	代码原为57050，原名为“海洋工程”
+4163010	3	海洋工程结构与施工	Ocean engineering structures and construction	41630	代码原为5705010
+4163015	3	海底矿产开发	Development of seabed mineral resources	41630	代码原为5705020
+4163020	3	海水资源利用	Utilization of seawater resources	41630	代码原为5705030
+4163025	3	海洋环境工程	Marine environmental engineering	41630	代码原为5705040
+4163030	3	海岸工程	Coastal engineering	41630	
+4163035	3	近海工程	Nearshore engineering	41630	
+4163040	3	深海工程	Deep-sea engineering	41630	
+4163045	3	海洋资源开发利用技术	Development and utilization technology of marine resources	41630	包括海洋矿产资源、 海水资源、 海洋生物、海
+4163050	3	海洋观测预报技术	Marine observation and forecasting technology	41630	包括海洋水下技术、 海洋观测技术、 海洋遥感
+4163055	3	海洋环境保护技术	Marine environmental protection technology	41630	
+4163099	3	海洋工程与技术其他学科	Other ocean engineering and technology	41630	代码原为5705099
+41640	2	生物工程	Bioengineering	416	亦称生物技术。代码原为18071
+4164010	3	基因工程	Genetic engineering	41640	亦称遗传工程。代码原为1807110
+4164015	3	细胞工程	Cell engineering	41640	代码原为1807120
+4164020	3	蛋白质工程	Protein engineering	41640	代码原为1807130
+4164025	3	代谢工程	Metabolic engineering	41640	
+4164030	3	酶工程	Enzyme engineering	41640	代码原为1807140
+4164040	3	发酵工程	Fermentation engineering	41640	亦称微生物工程。代码原为1807150
+4164045	3	生物传感技术	Biosensing technology	41640	
+4164050	3	纳米生物分析技术	Nano-bioanalytical technology	41640	
+4164099	3	生物工程其他学科	Other bioengineering	41640	代码原为1807199
+41650	2	农业工程	Agricultural engineering	416	代码原为21070
+4165010	3	农业机械学	Agricultural machinery science	41650	包括农业机械制造等。代码原为2107010
+4165015	3	农业机械化	Agricultural mechanization	41650	代码原为2107015
+4165020	3	农业电气化与自动化	Agricultural electrification and automation	41650	代码原为2107020
+4165025	3	农田水利	Farmland water conservancy	41650	包括灌溉工程、 排水工程等。 代码原为2107025
+4165030	3	水土保持学	Soil and water conservation	41650	包括土壤侵蚀学、 水土保持监测、 水土保持生
+4165035	3	农田测量	Farmland surveying	41650	代码原为2107035
+4165040	3	农业环保工程	Agricultural environmental protection engineering	41650	代码原为2107040
+4165045	3	农业区划	Agricultural regionalization	41650	含农业土地利用学。代码原为2107045
+4165050	3	农业系统工程	Agricultural systems engineering	41650	代码原为2107050
+4165099	3	农业工程其他学科	Other agricultural engineering	41650	代码原为2107099
+41660	2	生物医学工程学	Biomedical engineering	416	代码原为31061
+4166010	3	生物医学电子学	Biomedical electronics	41660	代码原为3106110
+4166020	3	临床工程学	Clinical engineering	41660	代码原为3106120
+4166030	3	康复工程学	Rehabilitation engineering	41660	代码原为3106130
+4166040	3	生物医学测量学	Biomedical measurement	41660	代码原为3106140
+4166050	3	人工器官与生物医学材料学	Artificial organs and biomedical materials	41660	代码原为3106150
+4166060	3	干细胞与组织工程学	Stem cells and tissue engineering	41660	
+4166070	3	医学成像技术	Medical imaging technology	41660	
+4166099	3	生物医学工程学其他学科	Other biomedical engineering	41660	代码原为3106199
+420	1	测绘科学技术	Surveying and mapping science and technology		
+42010	2	大地测量技术	Geodetic technology	420	
+4201010	3	大地测量定位	Geodetic positioning	42010	
+4201020	3	重力测量	Gravimetry	42010	
+4201030	3	测量平差	Surveying adjustment	42010	
+4201099	3	大地测量技术其他学科	Other geodetic surveying technology	42010	
+42020	2	摄影测量与遥感技术	Photogrammetry and remote sensing technology	420	
+4202010	3	地物波谱学	Spectral science of ground objects	42020	
+4202020	3	近景摄影测量	Close-range photogrammetry	42020	
+4202030	3	航空摄影测量	Aerial photogrammetry	42020	
+4202040	3	遥感信息工程	Remote sensing information engineering	42020	
+4202099	3	摄影测量与遥感技术其他学科	Other photogrammetry and remote sensing technology	42020	
+42030	2	地图制图技术	Cartographic technology	420	
+4203010	3	地图投影学	Map projection	42030	
+4203020	3	地图设计与编绘	Map design and compilation	42030	
+4203030	3	图形图象复制技术	Graphic and image reproduction technology	42030	
+4203099	3	地图制图技术其他学科	Other cartography	42030	
+42040	2	工程测量技术	Engineering surveying technology	420	
+4204010	3	地籍测量	Cadastral surveying	42040	
+4204020	3	精密工程测量	Precision engineering surveying	42040	
+4204099	3	工程测量技术其他学科	Other engineering surveying technology	42040	
+42050	2	海洋测绘	Marine surveying and mapping	420	
+4205010	3	海洋大地测量	Marine geodesy	42050	
+4205015	3	海洋重力测量	Marine gravimetric surveying	42050	
+4205020	3	海洋磁力测量	Marine magnetic surveying	42050	
+4205025	3	海洋跃层测量	Marine thermocline survey	42050	
+4205030	3	海洋声速测量	Marine sound velocity measurement	42050	
+4205035	3	海道测量	Hydrographic surveying	42050	
+4205040	3	海底地形测量	Submarine topographic surveying	42050	
+4205045	3	海图制图	Nautical charting	42050	
+4205050	3	海洋工程测量	Marine engineering surveying	42050	
+4205099	3	海洋测绘其他学科	Other marine surveying and mapping	42050	
+42060	2	测绘仪器	Surveying and mapping instruments	420	
+42099	2	测绘科学技术其他学科	Other surveying and mapping science and technology	420	
+430	1	材料科学	Materials science		
+43010	2	材料科学基础学科	Fundamentals of materials science	430	
+4301010	3	材料力学	Mechanics of materials	43010	
+4301020	3	相图与相变	Phase diagrams and phase transformations	43010	包括合金化等
+4301030	3	材料的组织、结构、缺陷与性能	Structure, defects and properties of materials	43010	
+4301035	3	计算材料学	Computational materials science	43010	
+4301040	3	金属学	Metal science	43010	
+4301050	3	陶瓷学	Ceramics science	43010	
+4301060	3	高分子材料学	Polymer materials science	43010	
+4301099	3	材料科学基础学科其他学科	Other fundamentals of materials science	43010	
+43015	2	材料表面与界面	Material surfaces and interfaces	430	包括表面优化技术
+43020	2	材料失效与保护	Material failure and protection	430	包括材料腐蚀、 磨损、 老化、断裂及其控制等
+43025	2	材料检测与分析技术	Material testing and analysis technology	430	
+43030	2	材料实验	Materials experimentation	430	
+43035	2	材料合成与加工工艺	Materials synthesis and processing technology	430	
+43040	2	金属材料	Metallic materials	430	
+4304010	3	黑色金属及其合金	Ferrous metals and alloys	43040	
+4304020	3	有色金属及其合金	Non-ferrous metals and alloys	43040	
+4304030	3	非晶、微晶金属材料	Amorphous and microcrystalline metallic materials	43040	包括准晶和纳米晶材料等
+4304040	3	低维金属材料	Low-dimensional metallic materials	43040	包括薄膜、纤维和零维金属材料等
+4304050	3	特种功能金属材料	Special functional metallic materials	43040	
+4304099	3	金属材料其他学科	Other metallic materials	43040	
+43045	2	无机非金属材料	Inorganic non-metallic materials	430	
+4304510	3	玻璃与非晶无机非金属材料	Glass and amorphous inorganic non-metallic materials	43045	包括生物玻璃材料
+4304520	3	低维无机非金属材料	Low-dimensional inorganic non-metallic materials	43045	包括薄膜、纤维和零维非金属材料等
+4304530	3	人工晶体	Artificial crystals	43045	
+4304540	3	陶瓷材料	Ceramic materials	43045	包括陶瓷膜材料、 多孔陶瓷材料、 生物陶瓷材
+4304550	3	特种功能无机非金属材料	Special functional inorganic non-metallic materials	43045	
+4304599	3	无机非金属材料其他学科	Other inorganic non-metallic materials	43045	
+43050	2	有机高分子材料	Organic polymer materials	430	
+4305010	3	塑料、橡胶和纤维	Plastics, rubber and fibers	43050	
+4305020	3	功能高分子材料	Functional polymer materials	43050	
+4305030	3	高性能高分子材料	High-performance polymer materials	43050	
+4305040	3	高分子液晶材料	Polymer liquid crystal materials	43050	
+4305099	3	有机高分子材料其他学科	Other organic polymer materials	43050	
+43055	2	复合材料	Composite materials	430	
+4305510	3	金属基复合材料	Metal matrix composites	43055	包括多相复合材料等
+4305520	3	无机非金属基复合材料	Inorganic non-metal matrix composites	43055	包括无机多相复合材料等
+4305530	3	聚合物基复合材料	Polymer matrix composites	43055	包括有机多相复合材料等
+4305540	3	有机-无机杂化复合材料	Organic-inorganic hybrid composites	43055	又名混杂复合材料
+4305550	3	生物复合材料	Biocomposites	43055	
+4305560	3	功能复合材料	Functional composites	43055	
+4305599	3	复合材料其他学科	Other composite materials	43055	
+43060	2	生物材料	Biomaterials	430	
+4306010	3	组织工程材料	Tissue engineering materials	43060	
+4306020	3	医学工程材料	Medical engineering materials	43060	
+4306030	3	环境友好材料	Environmentally friendly materials	43060	
+4306099	3	生物材料其他学科	Other biomaterials	43060	
+43070	2	纳米材料	Nanomaterials	430	包括纳米光电材料、 纳米信息材料、 纳米存储
+43099	2	材料科学其他学科	Other materials science	430	
+440	1	矿山工程技术	Mining engineering and technology		
+44010	2	矿山地质学	Mining geology	440	
+44015	2	矿山测量	Mine surveying	440	
+44020	2	矿山设计	Mine design	440	
+4402010	3	地下矿设计	Underground mine design	44020	
+4402020	3	露天矿设计	Open-pit mine design	44020	
+4402099	3	矿山设计其他学科	Other mine design	44020	
+44025	2	矿山地面工程	Mine surface engineering	440	
+44030	2	井巷工程	Shaft and roadway engineering	440	
+4403010	3	矿山压力工程	Mine pressure engineering	44030	
+4403020	3	矿山支护工程	Mine support engineering	44030	
+4403099	3	井巷工程其他学科	Other mine shaft and roadway engineering	44030	
+44035	2	采矿工程	Mining engineering	440	
+4403510	3	煤矿开采	Coal mining	44035	
+4403520	3	煤及油母页岩地下气化	Underground gasification of coal and oil shale	44035	
+4403530	3	金属矿开采	Metal mining	44035	
+4403540	3	非金属矿开采	Non-metallic mineral mining	44035	
+4403599	3	采矿工程其他学科	Other mining engineering	44035	
+44040	2	选矿工程	Mineral processing engineering	440	
+4404010	3	选矿理论	Theory of mineral processing	44040	
+4404020	3	选矿技术	Mineral processing technology	44040	
+4404030	3	矿石处理	Ore treatment	44040	
+4404099	3	选矿工程其他学科	Other mineral processing engineering	44040	
+44045	2	钻井工程	Drilling engineering	440	
+44050	2	油气田井开发工程	Oil and gas field development engineering	440	
+44055	2	石油、天然气储存与运输工程	Petroleum and natural gas storage and transportation engineering	440	
+44060	2	矿山机械工程	Mine mechanical engineering	440	
+4406010	3	采矿机械	Mining machinery	44060	
+4406020	3	选矿机械	Mineral processing machinery	44060	
+4406030	3	矿山运输机械	Mine transport machinery	44060	
+4406099	3	矿山机械工程其他学科	Other mining machinery engineering	44060	
+44065	2	矿山电气工程	Mine electrical engineering	440	
+44070	2	采矿环境工程	Mining environmental engineering	440	
+44075	2	矿山安全	Mine safety	440	
+44080	2	矿山综合利用工程	Comprehensive utilization engineering of mine resources	440	
+44099	2	矿山工程技术其他学科	Other mining engineering and technology	440	
+450	1	冶金工程技术	Metallurgical engineering and technology		
+45010	2	冶金物理化学	Physical chemistry of metallurgy	450	
+45015	2	冶金反应工程	Metallurgical reaction engineering	450	
+45020	2	冶金原料与预处理	Metallurgical raw materials and pretreatment	450	
+45025	2	冶金热能工程	Metallurgical thermal energy engineering	450	
+4502510	3	冶金燃料	Metallurgical fuels	45025	
+4502520	3	燃烧理论	Combustion theory	45025	
+4502530	3	燃烧计算	Combustion calculation	45025	
+4502540	3	冶金分析	Metallurgical analysis	45025	
+4502599	3	冶金热能工程其他学科	Other metallurgical thermal energy engineering	45025	
+45030	2	冶金技术	Metallurgical technology	450	
+4503010	3	提炼冶金	Extractive metallurgy	45030	
+4503015	3	粉末冶金	Powder metallurgy	45030	
+4503020	3	真空冶金	Vacuum metallurgy	45030	
+4503025	3	电磁冶金	Electromagnetic metallurgy	45030	
+4503030	3	原子能冶金	Nuclear metallurgy	45030	
+4503035	3	湿法冶金	Hydrometallurgy	45030	
+4503040	3	纤维冶金	Fiber metallurgy	45030	
+4503045	3	卤素冶金	Halogen metallurgy	45030	
+4503050	3	微生物冶金	Biometallurgy	45030	
+4503099	3	冶金技术其他学科	Other metallurgical technology	45030	
+45035	2	钢铁冶金	Iron and steel metallurgy	450	
+4503510	3	炼铁	Ironmaking	45035	
+4503520	3	炼钢	Steelmaking	45035	
+4503530	3	铁合金冶炼	Ferroalloy smelting	45035	
+4503599	3	钢铁冶金其他学科	Other iron and steel metallurgy	45035	
+45040	2	有色金属冶金	Nonferrous metal metallurgy	450	
+45045	2	轧制	Rolling	450	
+45050	2	冶金机械及自动化	Metallurgical machinery and automation	450	
+45099	2	冶金工程技术其他学科	Other metallurgical engineering and technology	450	
+460	1	机械工程	Mechanical engineering		
+46010	2	机械史	History of mechanical engineering	460	
+46015	2	机械学	Mechanical science	460	
+4601510	3	机械原理与机构学	Principles of machinery and mechanism theory	46015	
+4601520	3	机械动力学与振动	Mechanical dynamics and vibration	46015	
+4601530	3	机械强度	Mechanical strength	46015	
+4601540	3	机械摩擦、磨损及润滑	Mechanical friction, wear and lubrication	46015	
+4601599	3	机械学其他学科	Other mechanical science	46015	
+46020	2	机械设计	Mechanical design	460	
+4602010	3	机械设计原理与方法	Principles and methods of mechanical design	46020	
+4602020	3	机械零件及传动	Mechanical parts and transmission	46020	
+4602030	3	机械公差、配合与技术测量	Mechanical tolerances, fits and technical measurement	46020	
+4602040	3	机械制图	Mechanical drawing	46020	
+4602099	3	机械设计其他学科	Other mechanical design	46020	
+46025	2	机械制造工艺与设备	Mechanical manufacturing technology and equipment	460	
+4602510	3	铸造工艺与设备	Casting technology and equipment	46025	
+4602515	3	焊接工艺与设备	Welding technology and equipment	46025	包括连接工艺与设备
+4602520	3	塑性加工工艺与设备	Metal forming technology and equipment	46025	
+4602525	3	热处理工艺与设备	Heat treatment technology and equipment	46025	
+4602530	3	切削加工工艺	Cutting machining technology	46025	
+4602535	3	特种加工工艺	Special machining technology	46025	
+4602540	3	机器装配工艺	Machine assembly technology	46025	
+4602545	3	非金属加工工艺	Non-metal processing technology	46025	
+4602599	3	机械制造工艺与设备其他学科	Other mechanical manufacturing technology and equipment	46025	
+46030	2	刀具技术	Cutting tool technology	460	
+4603010	3	切削理论	Cutting theory	46030	
+4603020	3	切削刀具	Cutting tools	46030	
+4603030	3	磨削工具	Grinding tools	46030	
+4603099	3	刀具技术其他学科	Other cutting tool technology	46030	
+46035	2	机床技术	Machine tool technology	460	
+4603510	3	机床基础理论	Fundamental theory of machine tools	46035	
+4603520	3	金属切削机床	Metal cutting machine tools	46035	
+4603530	3	数字控制机床	Numerically controlled machine tools	46035	
+4603540	3	特种加工机床	Special machining machine tools	46035	
+4603599	3	机床技术其他学科	Other machine tool technology	46035	
+46045	2	流体传动与控制	Fluid transmission and control	460	包括气动液压控制技术等
+46050	2	机械制造自动化	Mechanical manufacturing automation	460	
+4605010	3	成组技术	Group technology	46050	
+4605020	3	数控技术	Numerical control technology	46050	
+4605030	3	机器人技术	Robotics technology	46050	包括工业机器人、智能机器人、服务机器人
+4605040	3	计算机辅助制造	Computer-aided manufacturing	46050	
+4605099	3	机械制造自动化其他学科	Other mechanical manufacturing automation	46050	
+46099	2	机械工程其他学科	Other mechanical engineering	460	
+470	1	动力与电气工程	Power and electrical engineering		
+47010	2	工程热物理	Engineering thermophysics	470	
+4701010	3	工程热力学	Engineering thermodynamics	47010	
+4701020	3	工程传热、传质学	Engineering heat and mass transfer	47010	
+4701030	3	燃烧学	Combustion science	47010	
+4701040	3	多相流动	Multiphase flow	47010	
+4701050	3	微尺度热物理学	Microscale thermophysics	47010	
+4701099	3	工程热物理其他学科	Other engineering thermophysics	47010	
+47020	2	热工学	Thermal engineering	470	
+4702010	3	热工测量与仪器仪表	Thermal measurement and instrumentation	47020	
+4702030	3	供热工程	Heating engineering	47020	
+4702040	3	工业锅炉	Industrial boilers	47020	
+4702099	3	热工学其他学科	Other thermal engineering	47020	
+47030	2	动力机械工程	Power machinery engineering	470	
+4703010	3	蒸汽工程	Steam engineering	47030	包括锅炉、蒸汽机、汽轮机等
+4703020	3	内燃机工程	Internal combustion engine engineering	47030	包括汽油机、柴油机、气体燃料发动机等
+4703030	3	流体机械及流体动力工程	Fluid machinery and fluid power engineering	47030	
+4703040	3	喷气推进机与涡轮机械	Jet propulsion engines and turbomachinery	47030	
+4703050	3	微动力工程	Micro power engineering	47030	
+4703099	3	动力机械工程其他学科	Other power machinery engineering	47030	
+47035	2	制冷与低温工程	Refrigeration and cryogenic engineering	470	代码原为4702020
+4703510	3	制冷工程	Refrigeration engineering	47035	
+4703520	3	低温工程	Cryogenic engineering	47035	
+4703530	3	热泵与空调	Heat pumps and air conditioning	47035	
+4703599	3	制冷与低温工程其他学科	Other refrigeration and cryogenic engineering	47035	
+47040	2	电气工程	Electrical engineering	470	
+4704011	3	电工学	Electrical engineering	47040	
+4704014	3	电路理论	Circuit theory	47040	
+4704017	3	电磁测量技术及其仪器	Electromagnetic measurement technology and instruments	47040	原名为“电气测量技术及其仪器仪表”
+4704021	3	电工材料	Electrical engineering materials	47040	
+4704024	3	电机学	Electrical machinery	47040	
+4704025	3	电源技术	Power supply technology	47040	
+4704027	3	电器学	Electrical apparatus	47040	
+4704031	3	电力电子技术	Power electronics	47040	
+4704034	3	高电压工程	High voltage engineering	47040	
+4704037	3	绝缘技术	Insulation technology	47040	
+4704041	3	电热与高频技术	Electric heating and high-frequency technology	47040	
+4704044	3	超导电工技术	Superconducting electrical technology	47040	
+4704047	3	发电工程	Power generation engineering	47040	包括水力、热力、风力、磁流体发电工程等
+4704051	3	输配电工程	Power transmission and distribution engineering	47040	
+4704054	3	电力系统及其自动化	Power systems and automation	47040	
+4704057	3	电力拖动及其自动化	Electric drives and automation	47040	
+4704061	3	用电技术	Power utilization technology	47040	包括节电技术
+4704064	3	电加工技术	Electrical machining technology	47040	亦可称作微细加工技术
+4704067	3	脉冲功率技术	Pulsed power technology	47040	
+4704071	3	放电理论与发电等离子体技术	Discharge theory and plasma power generation technology	47040	
+4704073	3	电磁环境与电磁兼容	Electromagnetic environment and electromagnetic compatibility	47040	
+4704075	3	生物与医学电工技术	Bioelectrical and medical electrical technology	47040	
+4704077	3	可再生能源发电技术	Renewable energy power generation technology	47040	
+4704079	3	分布式电力技术	Distributed power technology	47040	
+4704081	3	电气化交通技术	Electrified transportation technology	47040	
+4704083	3	强磁场技术	High magnetic field technology	47040	
+4704099	3	电气工程其他学科	Other electrical engineering	47040	
+47099	2	动力与电气工程其他学科	Other power and electrical engineering	470	
+480	1	能源科学技术	Energy science and technology		
+48010	2	能源化学	Energy chemistry	480	
+48020	2	能源地理学	Energy geography	480	
+48030	2	能源计算与测量	Energy calculation and measurement	480	
+48040	2	储能技术	Energy storage technology	480	
+48050	2	节能技术	Energy conservation technology	480	包括工业节能、生活节能、建筑节能等
+48060	2	一次能源	Primary energy	480	
+4806010	3	煤炭能	Coal energy	48060	
+4806020	3	石油、天然气能	Petroleum and natural gas energy	48060	
+4806030	3	水能	Hydro energy	48060	包括海洋能等
+4806040	3	风能	Wind energy	48060	
+4806050	3	地热能	Geothermal energy	48060	
+4806060	3	生物能	Bioenergy	48060	
+4806070	3	太阳能	Solar energy	48060	
+4806075	3	生活固体废弃物能	Municipal solid waste energy	48060	即城市生活垃圾能源
+4806080	3	核能	Nuclear energy	48060	
+4806085	3	天然气水合物能	Natural gas hydrate energy	48060	
+4806099	3	一次能源其他学科	Other primary energy	48060	
+48070	2	二次能源	Secondary energy	480	
+4807010	3	煤气能	Coal gas energy	48070	
+4807020	3	电能	Electric energy	48070	
+4807030	3	蒸汽能	Steam energy	48070	
+4807040	3	沼气能	Biogas energy	48070	
+4807045	3	氢能	Hydrogen energy	48070	
+4807050	3	激光能	Laser energy	48070	
+4807099	3	二次能源其他学科	Other secondary energy	48070	
+48080	2	能源系统工程	Energy systems engineering	480	
+48099	2	能源科学技术其他学科	Other energy science and technology	480	
+490	1	核科学技术	Nuclear science and technology		
+49010	2	辐射物理与技术	Radiation physics and technology	490	
+49015	2	核探测技术与核电子学	Nuclear detection technology and nuclear electronics	490	
+49020	2	放射性计量学	Radiometrology	490	
+49025	2	核仪器、仪表	Nuclear instruments and meters	490	
+49030	2	核材料与工艺技术	Nuclear materials and process technology	490	
+4903010	3	核燃料与工艺技术	Nuclear fuel and process technology	49030	
+4903099	3	核材料与工艺技术其他学科	Other nuclear materials and process technology	49030	
+49035	2	粒子加速器	Particle accelerators	490	
+4903510	3	粒子加速器工程技术	Particle accelerator engineering technology	49035	原名为“粒子加速器工艺”
+4903520	3	粒子加速器应用	Particle accelerator applications	49035	
+4903599	3	粒子加速器其他学科	Other particle accelerators	49035	
+49040	2	裂变堆工程技术	Fission reactor engineering technology	490	
+4904010	3	裂变堆物理	Fission reactor physics	49040	
+4904020	3	裂变堆热工与水力	Fission reactor thermal hydraulics	49040	
+4904030	3	裂变堆控制	Fission reactor control	49040	
+4904040	3	裂变堆结构	Fission reactor structure	49040	
+4904050	3	裂变堆屏蔽与防护	Fission reactor shielding and protection	49040	
+4904060	3	裂变堆建造技术	Fission reactor construction technology	49040	
+4904099	3	裂变堆工程技术其他学科	Other fission reactor engineering technology	49040	
+49045	2	核聚变工程技术	Nuclear fusion engineering technology	490	
+4904510	3	磁约束聚变技术	Magnetic confinement fusion technology	49045	
+4904520	3	惯性约束聚变技术	Inertial confinement fusion technology	49045	
+4904530	3	聚变堆工程	Fusion reactor engineering	49045	
+4904540	3	聚变裂变混合堆工程	Fusion-fission hybrid reactor engineering	49045	
+4904599	3	核聚变工程技术其他学科	Other nuclear fusion engineering technology	49045	
+49050	2	核动力工程技术	Nuclear power engineering technology	490	
+4905010	3	舰船核动力	Naval nuclear propulsion	49050	
+4905020	3	空间核动力	Space nuclear power	49050	
+4905030	3	核电站	Nuclear power plant	49050	
+4905040	3	核动力运行技术	Nuclear power plant operation technology	49050	
+4905099	3	核动力工程技术其他学科	Other nuclear power engineering technology	49050	
+49055	2	同位素技术	Isotope technology	490	
+4905510	3	同位素分离技术	Isotope separation technology	49055	
+4905520	3	同位素制备技术	Isotope preparation technology	49055	
+4905530	3	同位素应用技术	Isotope application technology	49055	
+4905599	3	同位素技术其他学科	Other isotope technology	49055	
+49060	2	核爆炸工程	Nuclear explosion engineering	490	
+49065	2	核安全	Nuclear safety	490	包括核电站安全
+49070	2	乏燃料后处理技术	Spent fuel reprocessing technology	490	
+49075	2	辐射防护技术	Radiation protection technology	490	
+49080	2	核设施退役技术	Nuclear facility decommissioning technology	490	
+49085	2	放射性三废处理、处置技术	Treatment and disposal technology of radioactive waste	490	
+49099	2	核科学技术其他学科	Other nuclear science and technology	490	
+510	1	电子与通信技术	Electronics and communication technology		原名为“电子、通信与自动控制技术”
+51010	2	电子技术	Electronic technology	510	
+5101010	3	电子电路	Electronic circuits	51010	
+5101015	3	天线电波传播	Antennas and radio wave propagation	51010	
+5101020	3	无线电技术	Radio technology	51010	
+5101025	3	微波技术	Microwave technology	51010	
+5101030	3	敏感电子学	Sensor electronics	51010	
+5101035	3	微电子学	Microelectronics	51010	
+5101040	3	仿真技术	Simulation technology	51010	
+5101045	3	超导电子技术	Superconducting electronics	51010	
+5101050	3	电子元件与器件技术	Electronic components and devices technology	51010	
+5101055	3	电子束、离子束技术	Electron beam and ion beam technology	51010	
+5101060	3	红外与夜视技术	Infrared and night vision technology	51010	
+5101099	3	电子技术其他学科	Other electronic technology	51010	
+51020	2	光电子学与激光技术	Optoelectronics and laser technology	510	
+51030	2	半导体技术	Semiconductor technology	510	
+5103010	3	半导体测试技术	Semiconductor testing technology	51030	
+5103020	3	半导体材料	Semiconductor materials	51030	
+5103030	3	半导体器件与技术	Semiconductor devices and technology	51030	
+5103040	3	集成电路技术	Integrated circuit technology	51030	
+5103050	3	半导体加工技术	Semiconductor processing technology	51030	
+5103099	3	半导体技术其他学科	Other semiconductor technology	51030	
+51040	2	信息处理技术	Information processing technology	510	
+5104010	3	信号检测	Signal detection	51040	
+5104020	3	参数估计	Parameter estimation	51040	
+5104030	3	数据处理	Data processing	51040	
+5104040	3	语音处理	Speech processing	51040	
+5104050	3	图象处理	Image processing	51040	
+5104099	3	信息处理技术其他学科	Other information processing technology	51040	
+51050	2	通信技术	Communication technology	510	
+5105010	3	有线通信技术	Wired communication technology	51050	
+5105015	3	无线通信技术	Wireless communication technology	51050	包括微波通信、卫星通信、激光通信技术等
+5105020	3	光纤通信技术	Optical fiber communication technology	51050	
+5105025	3	通信传输技术	Communication transmission technology	51050	
+5105030	3	通信网络技术	Communication network technology	51050	
+5105035	3	通信终端技术	Communication terminal technology	51050	
+5105040	3	电信	Telecommunications	51050	
+5105045	3	邮政	Postal service	51050	
+5105050	3	邮电通信管理工程	Postal and telecommunications management engineering	51050	
+5105099	3	通信技术其他学科	Other communication technology	51050	
+51060	2	广播与电视工程技术	Broadcasting and television engineering technology	510	
+51070	2	雷达工程	Radar engineering	510	
+51099	2	电子与通信技术其他学科	Other electronics and communication technology	510	原名为 “电子、 通信与自动控制技术其他学科”
+520	1	计算机科学技术	Computer science and technology		
+52010	2	计算机科学技术基础学科	Fundamentals of computer science and technology	520	
+5201010	3	自动机理论	Automata theory	52010	
+5201020	3	可计算性理论	Computability theory	52010	
+5201030	3	计算机可靠性理论	Computer reliability theory	52010	
+5201040	3	算法理论	Algorithm theory	52010	
+5201050	3	数据结构	Data structures	52010	
+5201060	3	数据安全与计算机安全	Data security and computer security	52010	
+5201099	3	计算机科学技术基础学科其他学科	Other basic disciplines of computer science and technology	52010	
+52020	2	人工智能	Artificial intelligence	520	
+5202010	3	人工智能理论	Artificial intelligence theory	52020	
+5202020	3	自然语言处理	Natural language processing	52020	
+5202030	3	机器翻译	Machine translation	52020	
+5202040	3	模式识别	Pattern recognition	52020	
+5202050	3	计算机感知	Computer perception	52020	
+5202060	3	计算机神经网络	Computer neural networks	52020	
+5202070	3	知识工程	Knowledge engineering	52020	包括专家系统
+5202099	3	人工智能其他学科	Other artificial intelligence	52020	
+52030	2	计算机系统结构	Computer architecture	520	
+5203010	3	计算机系统设计	Computer system design	52030	
+5203020	3	并行处理	Parallel processing	52030	
+5203030	3	分布式处理系统	Distributed processing systems	52030	
+5203040	3	计算机网络	Computer networks	52030	
+5203050	3	计算机运行测试与性能评价	Computer operation testing and performance evaluation	52030	
+5203099	3	计算机系统结构其他学科	Other computer architecture	52030	
+52040	2	计算机软件	Computer software	520	
+5204010	3	软件理论	Software theory	52040	
+5204020	3	操作系统与操作环境	Operating systems and operating environments	52040	
+5204030	3	程序设计及其语言	Programming and programming languages	52040	
+5204040	3	编译系统	Compiler systems	52040	
+5204050	3	数据库	Databases	52040	
+5204060	3	软件开发环境与开发技术	Software development environments and development technology	52040	
+5204070	3	软件工程	Software engineering	52040	
+5204099	3	计算机软件其他学科	Other computer software	52040	
+52050	2	计算机工程	Computer engineering	520	
+5205010	3	计算机元器件	Computer components and devices	52050	
+5205020	3	计算机处理器技术	Computer processor technology	52050	
+5205030	3	计算机存储技术	Computer storage technology	52050	
+5205040	3	计算机外围设备	Computer peripheral equipment	52050	
+5205050	3	计算机制造与检测	Computer manufacturing and testing	52050	
+5205060	3	计算机高密度组装技术	High-density computer assembly technology	52050	
+5205099	3	计算机工程其他学科	Other computer engineering	52050	
+52060	2	计算机应用	Computer applications	520	具体应用入有关学科
+5206010	3	中国语言文字信息处理	Chinese language and script information processing	52060	包括汉字信息处理
+5206020	3	计算机仿真	Computer simulation	52060	
+5206030	3	计算机图形学	Computer graphics	52060	
+5206040	3	计算机图象处理	Computer image processing	52060	
+5206050	3	计算机辅助设计	Computer-aided design	52060	
+5206060	3	计算机过程控制	Computer process control	52060	
+5206070	3	计算机信息管理系统	Computer information management systems	52060	
+5206080	3	计算机决策支持系统	Computer decision support systems	52060	
+5206099	3	计算机应用其他学科	Other computer applications	52060	
+52099	2	计算机科学技术其他学科	Other computer science and technology	520	
+530	1	化学工程	Chemical engineering		
+53011	2	化学工程基础学科	Fundamentals of chemical engineering	530	
+5301110	3	化工热力学	Chemical engineering thermodynamics	53011	
+5301120	3	化工流体力学	Chemical engineering fluid mechanics	53011	
+5301130	3	化工流变学	Chemical engineering rheology	53011	
+5301140	3	颗粒学	Particuology	53011	
+5301199	3	化学工程基础学科其他学科	Other basic disciplines of chemical engineering	53011	
+53014	2	化工测量技术与仪器仪表	Chemical engineering measurement technology and instruments	530	
+53017	2	化工传递过程	Chemical engineering transfer processes	530	
+53021	2	化学分离工程	Chemical separation engineering	530	
+5302110	3	蒸馏	Distillation	53021	
+5302120	3	吸收	Absorption	53021	
+5302130	3	萃取	Extraction	53021	
+5302140	3	吸附与离子交换	Adsorption and ion exchange	53021	
+5302150	3	膜分离	Membrane separation	53021	
+5302160	3	蒸发与结晶	Evaporation and crystallization	53021	
+5302170	3	干燥	Drying	53021	
+5302199	3	化学分离工程其他学科	Other chemical separation engineering	53021	
+53024	2	化学反应工程	Chemical reaction engineering	530	
+5302410	3	催化反应工程	Catalytic reaction engineering	53024	
+5302420	3	催化剂工程	Catalyst engineering	53024	
+5302430	3	固定床反应工程	Fixed-bed reaction engineering	53024	
+5302440	3	多相流反应工程	Multiphase flow reaction engineering	53024	
+5302450	3	生化反应工程	Biochemical reaction engineering	53024	
+5302460	3	聚合化学反应工程	Polymerization reaction engineering	53024	
+5302470	3	电化学反应工程	Electrochemical reaction engineering	53024	
+5302499	3	化学反应工程其他学科	Other chemical reaction engineering	53024	
+53027	2	化工系统工程	Chemical engineering systems engineering	530	
+5302710	3	化工过程动态学	Chemical process dynamics	53027	
+5302720	3	化工过程控制与模拟	Chemical process control and simulation	53027	
+5302730	3	化工系统优化	Chemical process systems optimization	53027	
+5302799	3	化工系统工程其他学科	Other chemical process systems engineering	53027	
+53031	2	化工机械与设备	Chemical machinery and equipment	530	
+53034	2	无机化学工程	Inorganic chemical engineering	530	
+5303410	3	酸碱盐工程技术	Acid, alkali and salt engineering technology	53034	
+5303420	3	硅酸盐工程技术	Silicate engineering technology	53034	
+5303430	3	放射化工	Radiochemical engineering	53034	
+5303440	3	化肥工程技术	Chemical fertilizer engineering technology	53034	
+5303450	3	化学冶金	Chemical metallurgy	53034	
+5303499	3	无机化学工程其他学科	Other inorganic chemical engineering	53034	
+53037	2	有机化学工程	Organic chemical engineering	530	
+53041	2	电化学工程	Electrochemical engineering	530	
+5304110	3	电解	Electrolysis	53041	
+5304120	3	电镀	Electroplating	53041	
+5304130	3	电池	Batteries	53041	
+5304140	3	腐蚀与防腐化学	Corrosion and anti-corrosion chemistry	53041	
+5304199	3	电化学工程其他学科	Other electrochemical engineering	53041	
+53044	2	高聚物工程	Polymer engineering	530	
+53047	2	煤化学工程	Coal chemical engineering	530	
+53051	2	石油化学工程	Petrochemical engineering	530	
+53052	2	天然气化学工程	Natural gas chemical engineering	530	
+53054	2	精细化学工程	Fine chemical engineering	530	
+5305410	3	表面活性剂	Surfactants	53054	
+5305420	3	香料学	Flavors and fragrances	53054	
+5305430	3	化妆品学	Cosmetics science	53054	
+5305440	3	染料	Dyes	53054	
+5305450	3	颜料与涂料学	Pigments and coatings	53054	
+5305460	3	粘合剂	Adhesives	53054	亦称胶粘剂
+5305499	3	精细化学工程其他学科	Other fine chemical engineering	53054	
+53057	2	造纸技术	Papermaking technology	530	
+53061	2	毛皮与制革工程	Fur and leather engineering	530	
+53064	2	制药工程	Pharmaceutical engineering	530	
+5306410	3	医药工程	Pharmaceutical engineering	53064	
+5306420	3	农药工程	Pesticide engineering	53064	
+5306430	3	兽药工程	Veterinary drug engineering	53064	
+5306499	3	制药工程其他学科	Other pharmaceutical engineering	53064	
+53067	2	生物化学工程	Biochemical engineering	530	
+53099	2	化学工程其他学科	Other chemical engineering	530	
+535	1	产品应用相关工程与技术	Engineering and technology related to product application		
+53510	2	仪器仪表技术	Instrumentation technology	535	代码原为46040
+5351010	3	仪器仪表基础理论	Fundamental theory of instrumentation	53510	代码原为4604010
+5351015	3	仪器仪表材料	Instrumentation materials	53510	代码原为4604015
+5351020	3	传感器技术	Sensor technology	53510	代码原为4604020
+5351025	3	精密仪器制造	Precision instrument manufacturing	53510	代码原为4604025
+5351030	3	测试计量仪器	Testing and metrology instruments	53510	代码原为4604030
+5351035	3	光学技术与仪器	Optical technology and instruments	53510	代码原为4604035
+5351040	3	天文仪器	Astronomical instruments	53510	代码原为4604040
+5351045	3	地球科学仪器	Earth science instruments	53510	代码原为4604045
+5351050	3	大气仪器仪表	Atmospheric instruments	53510	代码原为4604050
+5351099	3	仪器仪表技术其他学科	Other instrumentation technology	53510	代码原为4604099
+53520	2	兵器科学与技术	Weaponry science and technology	535	
+5352010	3	兵器科学与技术基础学科	Fundamentals of weapon science and technology	53520	
+5352015	3	兵器系统与运用工程	Weapon systems and application engineering	53520	
+5352020	3	兵器结构、动力、传动与平台技术	Weapon structure, power, transmission and platform technology	53520	
+5352025	3	弹道学	Ballistics	53520	含发射、推进与毁伤
+5352030	3	兵器识别、导引与控制技术	Weapon identification, guidance and control technology	53520	
+5352035	3	军用光学与光电子技术	Military optics and optoelectronics technology	53520	
+5352040	3	军事信息工程与信息对抗技术	Military information engineering and information countermeasure technology	53520	
+5352045	3	含能材料技术	Energetic materials technology	53520	
+5352050	3	兵器制造技术	Weapon manufacturing technology	53520	
+5352055	3	兵器材料科学与工程	Weapon materials science and engineering	53520	
+5352060	3	兵器测试与实验技术	Weapon testing and experimental technology	53520	
+5352099	3	兵器科学与技术其他学科	Other weapon science and technology	53520	
+53530	2	产品应用专用性技术	Specialized technology for product application	535	
+5353010	3	印刷、复制技术	Printing and reproduction technology	53530	代码原为4605510
+5353099	3	产品应用专用性技术其他学科	Other product-specific application technology	53530	
+53599	2	产品应用相关工程与技术其他学科	Other engineering and technology related to product application	535	
+540	1	纺织科学技术	Textile science and technology		
+54010	2	纺织科学技术基础学科	Fundamentals of textile science and technology	540	
+5401010	3	纺织化学	Textile chemistry	54010	
+5401020	3	纺织美学与色彩学	Textile aesthetics and color science	54010	
+5401099	3	纺织科学技术基础学科其他学科	Other basic disciplines of textile science and technology	54010	
+54020	2	纺织材料	Textile materials	540	
+54030	2	纤维制造技术	Fiber manufacturing technology	540	
+54040	2	纺织技术	Textile technology	540	
+5404010	3	纺织品结构与设计	Textile structure and design	54040	
+5404015	3	棉纺学	Cotton spinning	54040	
+5404020	3	棉织学	Cotton weaving	54040	
+5404025	3	麻纺织	Bast fiber textiles	54040	
+5404030	3	毛纺织	Wool textiles	54040	
+5404035	3	丝纺织	Silk textiles	54040	
+5404040	3	化学纤维纺织	Chemical fiber textiles	54040	
+5404045	3	新型纺纱、无纺布与特种织物	New spinning technologies, nonwovens and special fabrics	54040	
+5404050	3	针织	Knitting	54040	
+5404099	3	纺织技术其他学科	Other textile technology	54040	
+54050	2	染整技术	Dyeing and finishing technology	540	
+5405010	3	染炼技术	Dyeing and scouring technology	54050	
+5405020	3	印花技术	Printing technology	54050	
+5405030	3	染色技术	Dyeing technology	54050	
+5405040	3	整理技术	Finishing technology	54050	
+5405099	3	染整技术其他学科	Other dyeing and finishing technology	54050	
+54060	2	服装技术	Clothing technology	540	
+5406010	3	服装设计	Garment design	54060	
+5406020	3	服装加工	Garment manufacturing	54060	
+5406099	3	服装技术其他学科	Other garment technology	54060	
+54070	2	纺织机械与设备	Textile machinery and equipment	540	
+5407010	3	纺织器材设计与制造	Design and manufacture of textile accessories	54070	
+5407020	3	纺织机械设计与制造	Design and manufacture of textile machinery	54070	
+5407099	3	纺织机械与设备其他学科	Other textile machinery and equipment	54070	
+54099	2	纺织科学技术其他学科	Other textile science and technology	540	
+550	1	食品科学技术	Food science and technology		
+55010	2	食品科学技术基础学科	Fundamentals of food science and technology	550	
+5501010	3	食品化学	Food chemistry	55010	原名为“食品生物化学”
+5501020	3	食品营养学	Food nutrition	55010	
+5501030	3	食品检验学	Food inspection	55010	
+5501035	3	食品微生物学	Food microbiology	55010	
+5501040	3	食品生物技术	Food biotechnology	55010	
+5501045	3	谷物化学	Cereal chemistry	55010	
+5501050	3	油脂化学	Oil and fat chemistry	55010	
+5501099	3	食品科学技术基础学科其他学科	Other basic disciplines of food science and technology	55010	
+55020	2	食品加工技术	Food processing technology	550	
+5502010	3	食用油脂加工技术	Edible oil and fat processing technology	55020	
+5502015	3	制糖技术	Sugar manufacturing technology	55020	
+5502020	3	肉加工技术	Meat processing technology	55020	
+5502025	3	乳加工技术	Dairy processing technology	55020	
+5502030	3	蛋加工技术	Egg processing technology	55020	
+5502040	3	食品发酵与酿造技术	Food fermentation and brewing technology	55020	
+5502045	3	烘焙食品加工技术	Baked food processing technology	55020	原名为“食品焙烤加工技术”
+5502050	3	调味品加工技术	Condiment processing technology	55020	包括食盐加工技术等
+5502055	3	食品添加剂技术	Food additive technology	55020	
+5502060	3	饮料冷食制造技术	Beverage and frozen food manufacturing technology	55020	
+5502065	3	罐头技术	Canning technology	55020	
+5502070	3	米面制品加工技术	Rice and flour product processing technology	55020	包括其他粮食加工技术
+5502075	3	植物蛋白加工技术	Plant protein processing technology	55020	
+5502099	3	食品加工技术其他学科	Other food processing technology	55020	
+55030	2	食品包装与储藏	Food packaging and storage	550	
+55040	2	食品机械	Food machinery	550	
+55050	2	食品加工的副产品加工与利用	Processing and utilization of food processing by-products	550	
+55060	2	食品工业企业管理学	Food industry enterprise management	550	
+55070	2	食品工程与粮油工程	Food engineering and grain and oil engineering	550	
+5507010	3	食品工程	Food engineering	55070	
+5507020	3	粮油工程	Grain and oil engineering	55070	
+55099	2	食品科学技术其他学科	Other food science and technology	550	
+560	1	土木建筑工程	Civil engineering and architecture		
+56010	2	建筑史	History of architecture	560	
+56015	2	土木建筑工程基础学科	Fundamentals of civil engineering and architecture	560	
+5601510	3	建筑光学	Architectural optics	56015	
+5601520	3	建筑声学	Architectural acoustics	56015	
+5601530	3	建筑气象学	Architectural meteorology	56015	
+5601599	3	土木建筑工程基础学科其他学科	Other basic disciplines of civil and architectural engineering	56015	
+56020	2	土木建筑工程测量	Civil engineering and architectural surveying	560	
+56025	2	建筑材料	Building materials	560	
+5602510	3	金属建筑材料	Metallic building materials	56025	
+5602520	3	非金属建筑材料	Non-metallic building materials	56025	
+5602530	3	复合建筑材料	Composite building materials	56025	
+5602540	3	特种建筑材料	Special building materials	56025	包括隔音、防水、防火、绝热、耐震、防蚀、
+5602599	3	建筑材料其他学科	Other building materials	56025	
+56030	2	工程结构	Engineering structures	560	
+5603010	3	杆件结构	Framed structures	56030	
+5603020	3	薄壳结构	Thin shell structures	56030	
+5603030	3	悬索与张拉结构	Suspension and tension structures	56030	
+5603040	3	实体结构	Solid structures	56030	
+5603050	3	结构设计	Structural design	56030	
+5603099	3	工程结构其他学科	Other engineering structures	56030	
+56035	2	土木建筑结构	Civil and architectural structures	560	
+5603510	3	木结构	Timber structures	56035	
+5603520	3	砖结构	Brick structures	56035	
+5603530	3	金属结构	Metal structures	56035	
+5603540	3	混凝土与钢筋混凝土结构	Concrete and reinforced concrete structures	56035	
+5603550	3	喷锚结构	Shotcrete and anchor structures	56035	
+5603560	3	复合结构	Composite structures	56035	
+5603570	3	特种结构	Special structures	56035	
+5603599	3	土木建筑结构其他学科	Other civil and architectural structures	56035	
+56040	2	土木建筑工程设计	Civil engineering and architectural design	560	
+5604010	3	建筑设计方法与理论	Architectural design methods and theory	56040	
+5604020	3	城乡规划方法与理论	Urban and rural planning methods and theory	56040	
+5604030	3	建筑美学	Architectural aesthetics	56040	
+5604040	3	建筑室内设计	Architectural interior design	56040	
+5604050	3	建筑室外环境设计	Architectural exterior environment design	56040	
+5604060	3	土木工程设计	Civil engineering design	56040	
+5604099	3	土木建筑工程设计其他学科	Other civil and architectural engineering design	56040	
+56045	2	土木建筑工程施工	Civil engineering and architectural construction	560	
+5604510	3	地基基础工程	Foundation engineering	56045	
+5604520	3	地面工程	Ground engineering	56045	
+5604530	3	地下工程	Underground engineering	56045	
+5604540	3	墙体工程	Wall engineering	56045	
+5604550	3	土木施工电器工程	Electrical engineering in construction	56045	
+5604560	3	装饰工程	Finishing and decoration engineering	56045	
+5604599	3	土木建筑工程施工其他学科	Other civil and architectural engineering construction	56045	
+56050	2	土木工程机械与设备	Civil engineering machinery and equipment	560	
+5605010	3	起重机械	Hoisting machinery	56050	
+5605020	3	土木工程运输机械	Civil engineering transport machinery	56050	
+5605030	3	土方机械	Earthmoving machinery	56050	
+5605040	3	桩工机械	Piling machinery	56050	
+5605050	3	石料开采加工机械	Stone quarrying and processing machinery	56050	
+5605060	3	钢筋混凝土机械	Reinforced concrete machinery	56050	
+5605070	3	装修机械	Finishing machinery	56050	
+5605099	3	土木工程机械与设备其他学科	Other civil engineering machinery and equipment	56050	
+56055	2	市政工程	Municipal engineering	560	
+5605510	3	城市给水排水工程	Urban water supply and drainage engineering	56055	
+5605520	3	通风与空调工程	Ventilation and air conditioning engineering	56055	
+5605530	3	供热与供燃气工程	Heating and gas supply engineering	56055	
+5605540	3	电讯管道工程	Telecommunication pipeline engineering	56055	
+5605550	3	城市系统工程	Urban systems engineering	56055	
+5605599	3	市政工程其他学科	Other municipal engineering	56055	
+56060	2	建筑经济学	Construction economics	560	
+56099	2	土木建筑工程其他学科	Other civil engineering and architecture	560	
+570	1	水利工程	Hydraulic engineering		
+57010	2	水利工程基础学科	Fundamentals of hydraulic engineering	570	
+5701010	3	水力学	Hydraulics	57010	
+5701020	3	河流与海岸动力学	River and coastal dynamics	57010	
+5701099	3	水利工程基础学科其他学科	Other basic disciplines of water conservancy engineering	57010	
+57015	2	水利工程测量	Hydraulic engineering surveying	570	
+57020	2	水工材料	Hydraulic engineering materials	570	
+57025	2	水工结构	Hydraulic structures	570	亦称水工建筑物
+5702510	3	一般水工建筑物	General hydraulic structures	57025	
+5702520	3	专门水工建筑物	Special hydraulic structures	57025	
+5702599	3	水工结构其他学科	Other hydraulic structures	57025	
+57030	2	水力机械	Hydraulic machinery	570	
+57035	2	水利工程施工	Hydraulic engineering construction	570	
+5703510	3	水利建筑工程施工	Water conservancy construction engineering	57035	
+5703520	3	水工设备安装	Hydraulic equipment installation	57035	包括水工金属结构安装等
+5703599	3	水利工程施工其他学科	Other water conservancy engineering construction	57035	
+57040	2	水处理	Water treatment	570	不包括废水处理
+5704010	3	给水处理	Water supply treatment	57040	
+5704099	3	水处理其他学科	Other water treatment	57040	
+57045	2	河流泥沙工程学	River sediment engineering	570	
+5704510	3	水沙动力学	Sediment dynamics	57045	
+5704520	3	河工学	River engineering	57045	
+5704599	3	河流泥沙工程学其他学科	Other river sediment engineering	57045	
+57055	2	环境水利	Environmental hydraulics	570	
+5705510	3	环境水利与评价	Environmental hydraulics and assessment	57055	包括水资源评价；水环境评价
+5705520	3	区域环境水利	Regional environmental hydraulics	57055	
+5705530	3	水资源保护	Water resources protection	57055	
+5705599	3	环境水利其他学科	Other environmental hydraulics	57055	
+57060	2	水利管理	Water resources management	570	
+5706010	3	水利工程管理	Water conservancy engineering management	57060	包括水利调度、水利施工管理、养护等
+5706020	3	水利工程检查观测	Water conservancy engineering inspection and monitoring	57060	
+5706030	3	水利管理自动化系统	Automation systems for water conservancy management	57060	
+5706099	3	水利管理其他学科	Other water conservancy management	57060	
+57065	2	防洪工程	Flood control engineering	570	
+5706510	3	防洪	Flood control	57065	
+5706520	3	防汛	Flood prevention	57065	
+5706530	3	防凌	Ice-jam flood prevention	57065	
+5706599	3	防洪工程其他学科	Other flood control engineering	57065	
+57070	2	水利经济学	Water conservancy economics	570	
+57099	2	水利工程其他学科	Other hydraulic engineering	570	
+580	1	交通运输工程	Transportation engineering		
+58010	2	道路工程	Road engineering	580	
+5801010	3	路基工程	Subgrade engineering	58010	
+5801020	3	桥涵工程	Bridge and culvert engineering	58010	
+5801030	3	隧道工程	Tunnel engineering	58010	
+5801099	3	道路工程其他学科	Other road engineering	58010	
+58020	2	公路运输	Highway transportation	580	
+5802010	3	车辆工程	Vehicle engineering	58020	
+5802020	3	公路标志、信号、监控工程	Highway signage, signal and monitoring engineering	58020	
+5802030	3	公路运输管理	Highway transportation management	58020	
+5802099	3	公路运输其他学科	Other highway transportation	58020	
+58030	2	铁路运输	Railway transportation	580	
+5803010	3	铁路电气化工程	Railway electrification engineering	58030	
+5803020	3	铁路通信信号工程	Railway communication and signal engineering	58030	
+5803030	3	铁路机车车辆工程	Railway locomotive and rolling stock engineering	58030	
+5803040	3	铁路运输管理	Railway transportation management	58030	
+5803099	3	铁路运输其他学科	Other railway transportation	58030	
+58040	2	水路运输	Waterway transportation	580	
+5804010	3	航海技术与装备工程	Marine navigation technology and equipment engineering	58040	原名为“航海学”
+5804020	3	船舶通信与导航工程	Ship communication and navigation engineering	58040	原名为“导航建筑物与航标工程”
+5804030	3	航道工程	Waterway engineering	58040	
+5804040	3	港口工程	Port engineering	58040	
+5804050	3	疏浚工程	Dredging engineering	58040	
+5804060	3	水路运输管理	Waterway transportation management	58040	
+5804070	3	救助、打捞与潜水作业工程	Rescue, salvage and diving operations engineering	58040	
+5804080	3	海事技术与装备工程	Maritime technology and equipment engineering	58040	
+5804099	3	水路运输其他学科	Other waterway transportation	58040	
+58050	2	船舶、舰船工程	Ship and vessel engineering	580	
+58060	2	航空运输	Air transportation	580	
+5806010	3	机场工程	Airport engineering	58060	
+5806020	3	航空运输管理	Air transportation management	58060	
+5806099	3	航空运输其他学科	Other air transportation	58060	
+58070	2	交通运输系统工程	Transportation systems engineering	580	
+58080	2	交通运输安全工程	Transportation safety engineering	580	
+58099	2	交通运输工程其他学科	Other transportation engineering	580	
+590	1	航空、航天科学技术	Aeronautical and astronautical science and technology		
+59010	2	航空、航天科学技术基础学科	Fundamentals of aeronautical and astronautical science and technology	590	
+5901010	3	大气层飞行力学	Atmospheric flight mechanics	59010	
+5901020	3	航天动力学	Astrodynamics	59010	
+5901030	3	飞行器结构力学	Structural mechanics of flight vehicles	59010	
+5901035	3	航天摩擦学	Aerospace tribology	59010	又称空间摩擦学
+5901040	3	飞行原理	Principles of flight	59010	
+5901099	3	航空、航天科学技术基础学科其他学科	Other basic disciplines of aeronautical and astronautical science and technology	59010	
+59015	2	航空器结构与设计	Aircraft structure and design	590	
+5901510	3	气球、飞艇	Balloons and airships	59015	
+5901520	3	定翼机	Fixed-wing aircraft	59015	
+5901530	3	旋翼机	Rotorcraft	59015	
+5901599	3	航空器结构与设计其他学科	Other aircraft structure and design	59015	
+59020	2	航天器结构与设计	Spacecraft structure and design	590	
+5902010	3	火箭、导弹	Rockets and missiles	59020	
+5902020	3	人造地球卫星	Artificial earth satellites	59020	
+5902030	3	空间探测器	Space probes	59020	
+5902040	3	宇宙飞船	Spaceships	59020	
+5902050	3	航天站	Space stations	59020	
+5902060	3	航天飞机	Space shuttles	59020	
+5902099	3	航天器结构与设计其他学科	Other spacecraft structure and design	59020	
+59025	2	航空、航天推进系统	Aeronautical and astronautical propulsion systems	590	
+59030	2	飞行器仪表、设备	Aircraft instruments and equipment	590	
+59035	2	飞行器控制、导航技术	Aircraft control and navigation technology	590	
+59040	2	航空、航天材料	Aeronautical and astronautical materials	590	
+5904010	3	航空、航天金属材料	Aeronautical and astronautical metallic materials	59040	
+5904020	3	航空、航天非金属材料	Aeronautical and astronautical non-metallic materials	59040	
+5904030	3	航空、航天复合材料	Aeronautical and astronautical composite materials	59040	
+5904040	3	航空、航天燃料与润滑剂	Aeronautical and astronautical fuels and lubricants	59040	
+5904050	3	航空、航天材料失效与保护	Failure and protection of aeronautical and astronautical materials	59040	
+5904099	3	航空、航天材料其他学科	Other aeronautical and astronautical materials	59040	
+59045	2	飞行器制造技术	Aircraft manufacturing technology	590	
+5904510	3	航空器制造工艺	Aircraft manufacturing technology	59045	
+5904520	3	航天器制造工艺	Spacecraft manufacturing technology	59045	
+5904599	3	飞行器制造技术其他学科	Other flight vehicle manufacturing technology	59045	
+59050	2	飞行器试验技术	Aircraft testing technology	590	
+5905010	3	航空器地面试验	Aircraft ground testing	59050	
+5905020	3	航空器飞行试验	Aircraft flight testing	59050	
+5905030	3	航天器地面试验	Spacecraft ground testing	59050	
+5905040	3	航天器飞行试验	Spacecraft flight testing	59050	
+5905099	3	飞行器试验技术其他学科	Other flight vehicle testing technology	59050	
+59055	2	飞行器发射与回收、飞行技术	Aircraft launch and recovery, flight technology	590	原名为“飞行器发射、飞行技术”
+5905510	3	飞行技术	Flight technology	59055	
+5905520	3	飞行器发射与回收	Flight vehicle launch and recovery	59055	原名为“飞行器发射、飞行事故”
+5905530	3	飞行事故	Flight accidents	59055	原在 5905520 内
+5905599	3	飞行器发射与回收、飞行技术其他学科	Other flight vehicle launch and recovery, and flight technology	59055	
+59060	2	航空航天地面设施、技术保障	Aerospace ground facilities and technical support	590	原名为“航天地面设施、技术保障”
+5906010	3	发射场、试验场	Launch sites and test ranges	59060	
+5906020	3	航天测控系统	Spacecraft tracking, telemetry and command systems	59060	
+5906030	3	航空地面设施	Aeronautical ground facilities	59060	
+5906040	3	航空地面技术保障	Aeronautical ground technical support	59060	
+5906099	3	航空航天地面设施、技术保障其他学科	Other aeronautical and astronautical ground facilities and technical support	59060	
+59065	2	航空、航天系统工程	Aeronautical and astronautical systems engineering	590	
+5906510	3	航空系统工程	Aeronautical systems engineering	59065	
+5906520	3	航天系统工程	Astronautical systems engineering	59065	
+5906530	3	航空、航天可靠性工程	Aeronautical and astronautical reliability engineering	59065	
+5906599	3	航空、航天系统工程其他学科	Other aeronautical and astronautical systems engineering	59065	
+59099	2	航空、航天科学技术其他学科	Other aeronautical and astronautical science and technology	590	
+610	1	环境科学技术及资源科学技术	Environmental science and technology, and resources science and technology		原名为“环境科学技术”
+61010	2	环境科学技术基础学科	Fundamentals of environmental science and technology	610	
+6101010	3	环境物理学	Environmental physics	61010	包括环境声学等
+6101015	3	环境化学	Environmental chemistry	61010	
+6101020	3	环境生物学	Environmental biology	61010	
+6101025	3	环境气象学	Environmental meteorology	61010	
+6101030	3	环境地学	Environmental earth science	61010	包括环境地球化学、环境地质学等
+6101035	3	环境生态学	Environmental ecology	61010	
+6101040	3	环境毒理学	Environmental toxicology	61010	
+6101045	3	自然环境保护学	Natural environment conservation	61010	
+6101050	3	环境管理学	Environmental management	61010	
+6101099	3	环境科学技术基础学科其他学科	Other basic disciplines of environmental science and technology	61010	
+61020	2	环境学	Environmental science	610	
+6102010	3	大气环境学	Atmospheric environmental science	61020	
+6102020	3	水体环境学	Aquatic environmental science	61020	包括海洋环境学
+6102030	3	土壤环境学	Soil environmental science	61020	
+6102040	3	区域环境学	Regional environmental science	61020	
+6102050	3	城市环境学	Urban environmental science	61020	
+6102099	3	环境学其他学科	Other environmental science	61020	
+61030	2	环境工程学	Environmental engineering	610	
+6103010	3	环境保护工程	Environmental protection engineering	61030	
+6103015	3	大气污染防治工程	Air pollution control engineering	61030	
+6103020	3	水污染防治工程	Water pollution control engineering	61030	
+6103025	3	固体污染防治工程	Solid waste pollution control engineering	61030	
+6103030	3	三废处理与综合利用	Treatment and comprehensive utilization of waste gas, wastewater and solid waste	61030	
+6103035	3	噪声与震动控制	Noise and vibration control	61030	
+6103040	3	环境质量监测与评价	Environmental quality monitoring and assessment	61030	
+6103045	3	环境规划	Environmental planning	61030	
+6103050	3	环境系统工程	Environmental systems engineering	61030	
+6103055	3	环境修复工程	Environmental remediation engineering	61030	包括水环境修复工程
+6103099	3	环境工程学其他学科	Other environmental engineering	61030	
+61050	2	资源科学技术	Resources science and technology	610	包括资源管理
+61099	2	环境科学技术及资源科学技术其他学科	Other environmental science and technology, and resources science and technology	610	原名为“环境科学技术其他学科”
+620	1	安全科学技术	Safety science and technology		
+62010	2	安全科学技术基础学科	Fundamentals of safety science and technology	620	
+6201005	3	安全哲学	Philosophy of safety	62010	
+6201007	3	安全史	History of safety	62010	
+6201009	3	安全科学学	Science of safety science	62010	
+6201030	3	灾害学	Disaster science	62010	包括灾害物理、灾害化学、灾害毒理等
+6201035	3	安全学	Safety science	62010	代码原为 62020
+6201099	3	安全科学技术基础学科其他学科	Other basic disciplines of safety science and technology	62010	
+62021	2	安全社会科学	Safety social science	620	
+6202110	3	安全社会学	Sociology of safety	62021	
+6202120	3	安全经济学	Economics of safety	62021	代码原为6202050
+6202130	3	安全管理学	Safety management science	62021	代码原为6202060
+6202140	3	安全教育学	Safety education science	62021	代码原为6202070
+6202150	3	安全伦理学	Ethics of safety	62021	
+6202160	3	安全文化学	Safety culture studies	62021	
+6202199	3	安全社会科学其他学科	Other social sciences of safety	62021	
+62023	2	安全物质学	Safety material science	620	
+62025	2	安全人体学	Safety human science	620	
+6202510	3	安全生理学	Safety physiology	62025	
+6202520	3	安全心理学	Safety psychology	62025	代码原为6202020
+6202530	3	安全人机学	Safety ergonomics	62025	代码原为6202040
+6202599	3	安全人体学其他学科	Other safety human factors science	62025	
+62027	2	安全系统学	Safety systems science	620	代码原为6202010
+6202710	3	安全运筹学	Safety operations research	62027	
+6202720	3	安全信息论	Safety information theory	62027	
+6202730	3	安全控制论	Safety cybernetics	62027	
+6202740	3	安全模拟与安全仿真学	Safety simulation and modeling	62027	代码原为6202030
+6202799	3	安全系统学其他学科	Other safety systems science	62027	
+62030	2	安全工程技术科学	Safety engineering technology science	620	原名为“安全工程”
+6203005	3	安全工程理论	Theory of safety engineering	62030	
+6203010	3	火灾科学与消防工程	Fire science and fire protection engineering	62030	原名为“消防工程”
+6203020	3	爆炸安全工程	Explosion safety engineering	62030	
+6203030	3	安全设备工程	Safety equipment engineering	62030	含安全特种设备工程
+6203035	3	安全机械工程	Safety mechanical engineering	62030	
+6203040	3	安全电气工程	Safety electrical engineering	62030	
+6203060	3	安全人机工程	Safety human-machine engineering	62030	
+6203070	3	安全系统工程	Safety systems engineering	62030	含安全运筹工程、安全控制工程、安全信息工程
+6203099	3	安全工程技术科学其他学科	Other safety engineering and technology science	62030	
+62040	2	安全卫生工程技术	Safety and hygiene engineering technology	620	原名为“职业卫生工程”
+6204010	3	防尘工程技术	Dust control engineering technology	62040	
+6204020	3	防毒工程技术	Toxic substance control engineering technology	62040	
+6204030	3	噪声与振动控制	Noise and vibration control	62040	
+6204040	3	个体防护工程	Personal protective equipment engineering	62040	
+6204099	3	安全卫生工程技术其他学科	Other safety and health engineering technology	62040	原名为“职业卫生工程其他学科”
+62060	2	安全社会工程	Safety social engineering	620	
+6206010	3	安全管理工程	Safety management engineering	62060	代码原为62050
+6206020	3	安全经济工程	Safety economic engineering	62060	
+6206030	3	安全教育工程	Safety education engineering	62060	
+6206099	3	安全社会工程其他学科	Other safety social engineering	62060	
+62070	2	部门安全工程理论	Sectoral safety engineering theory	620	各部门安全工程入有关学科
+62080	2	公共安全	Public safety	620	
+6208010	3	公共安全信息工程	Public safety information engineering	62080	
+6208015	3	公共安全风险评估与规划	Public safety risk assessment and planning	62080	原名称及代码为“6205020 风险评价与失效分
+6208020	3	公共安全检测检验	Public safety testing and inspection	62080	
+6208025	3	公共安全监测监控	Public safety monitoring and surveillance	62080	
+6208030	3	公共安全预测预警	Public safety forecasting and early warning	62080	
+6208035	3	应急决策指挥	Emergency decision-making and command	62080	
+6208040	3	应急救援	Emergency rescue	62080	
+6208099	3	公共安全其他学科	Other public safety	62080	
+62099	2	安全科学技术其他学科	Other safety science and technology	620	
+630	1	管理学	Management science		
+63010	2	管理思想史	History of management thought	630	
+63015	2	管理理论	Management theory	630	
+6301510	3	管理哲学	Philosophy of management	63015	
+6301520	3	组织理论	Organization theory	63015	
+6301530	3	行为科学	Behavioral science	63015	
+6301540	3	决策理论	Decision theory	63015	
+6301550	3	系统管理理论	Systems management theory	63015	
+6301599	3	管理理论其他学科	Other management theory	63015	
+63025	2	管理计量学	Quantitative management	630	
+63030	2	部门经济管理	Sectoral economic management	630	各部门经济管理入有关学科
+63032	2	区域经济管理	Regional economic management	630	
+63035	2	科学学与科技管理	Science of science and management of science and technology	630	
+6303510	3	科学社会学	Sociology of science	63035	
+6303520	3	科技政策学	Science and technology policy	63035	
+6303525	3	科学体系学	Systematics of science	63035	
+6303530	3	科学心理学	Psychology of science	63035	
+6303540	3	科学计量学	Scientometrics	63035	
+6303550	3	科技管理学	Science and technology management	63035	
+6303599	3	科学学与科技管理其他学科	Other science of science and science and technology management	63035	
+63040	2	企业管理	Business management	630	
+6304010	3	生产管理	Production management	63040	
+6304015	3	经营管理	Business management	63040	
+6304020	3	财务管理	Financial management	63040	
+6304025	3	成本管理	Cost management	63040	
+6304030	3	劳动人事管理	Labor and personnel management	63040	
+6304035	3	技术管理	Technology management	63040	
+6304040	3	营销管理	Marketing management	63040	
+6304045	3	物资管理	Materials management	63040	
+6304050	3	设备管理	Equipment management	63040	
+6304055	3	质量管理	Quality management	63040	
+6304099	3	企业管理其他学科	Other enterprise management	63040	
+63044	2	公共管理	Public administration	630	
+6304410	3	行政管理	Public administration	63044	代码原为63045
+6304420	3	危机管理	Crisis management	63044	也称“应急管理”
+6304499	3	公共管理其他学科	Other public administration	63044	
+63050	2	管理工程	Management engineering	630	
+6305010	3	生产系统管理	Production systems management	63050	
+6305015	3	研究与开发管理	Research and development management	63050	
+6305020	3	质量控制与可靠性管理	Quality control and reliability management	63050	
+6305025	3	物流系统管理	Logistics systems management	63050	
+6305030	3	战略管理	Strategic management	63050	
+6305035	3	决策分析	Decision analysis	63050	
+6305040	3	决策支持系统	Decision support systems	63050	
+6305045	3	管理信息系统	Management information systems	63050	
+6305050	3	管理系统仿真	Management systems simulation	63050	
+6305055	3	工效学	Ergonomics	63050	
+6305060	3	部门管理工程	Departmental management engineering	63050	各部门管理工程入有关学科
+6305099	3	管理工程其他学科	Other management engineering	63050	
+63055	2	人力资源开发与管理	Human resource development and management	630	
+6305510	3	人力资源开发战略	Human resource development strategy	63055	
+6305520	3	人才学	Talent science	63055	
+6305599	3	人力资源开发与管理其他学科	Other human resource development and management	63055	
+63060	2	未来学	Futurology	630	
+6306010	3	理论预测学	Theoretical forecasting	63060	
+6306020	3	预测评价学	Forecast evaluation	63060	
+6306030	3	技术评估学	Technology assessment	63060	
+6306040	3	全球未来学	Global futures studies	63060	
+6306099	3	未来学其他学科	Other futures studies	63060	
+63099	2	管理学其他学科	Other management science	630	
+710	1	马克思主义	Marxism		
+71010	2	马、恩、列、斯思想研究	Research on the thought of Marx, Engels, Lenin and Stalin	710	
+71020	2	毛泽东思想研究	Research on Mao Zedong Thought	710	
+71030	2	马克思主义思想史	History of Marxist thought	710	
+71040	2	科学社会主义	Scientific socialism	710	
+71050	2	社会主义运动史	History of the socialist movement	710	包括国际共产主义运动
+71060	2	国外马克思主义研究	Research on Marxism abroad	710	
+71099	2	马克思主义其他学科	Other Marxism	710	
+720	1	哲学	Philosophy		
+72010	2	马克思主义哲学	Marxist philosophy	720	
+7201010	3	辩证唯物主义	Dialectical materialism	72010	
+7201020	3	历史唯物主义	Historical materialism	72010	
+7201030	3	马克思主义哲学史	History of Marxist philosophy	72010	
+7201099	3	马克思主义哲学其他学科	Other Marxist philosophy	72010	
+72015	2	自然辩证法	Dialectics of nature	720	亦称科学技术哲学
+7201510	3	自然观	Concept of nature	72015	
+7201520	3	科学哲学	Philosophy of science	72015	
+7201530	3	技术哲学	Philosophy of technology	72015	
+7201540	3	专门自然科学哲学	Philosophy of specific natural sciences	72015	包括人工智能哲学、数学哲学、物理哲学等
+7201599	3	自然辩证法其他学科	Other dialectics of nature	72015	
+72020	2	中国哲学史	History of Chinese philosophy	720	
+7202010	3	先秦哲学	Pre-Qin philosophy	72020	
+7202020	3	秦汉哲学	Qin-Han philosophy	72020	
+7202030	3	魏晋南北朝哲学	Wei-Jin and Northern and Southern Dynasties philosophy	72020	
+7202040	3	隋唐五代哲学	Philosophy of the Sui, Tang and Five Dynasties	72020	
+7202050	3	宋元明清哲学	Philosophy of the Song, Yuan, Ming and Qing dynasties	72020	
+7202060	3	中国近代哲学	Modern Chinese philosophy	72020	
+7202070	3	中国现代哲学	Contemporary Chinese philosophy	72020	
+7202080	3	中国少数民族哲学思想	Philosophical thought of Chinese ethnic minorities	72020	
+7202099	3	中国哲学史其他学科	Other history of Chinese philosophy	72020	
+72025	2	东方哲学史	History of Eastern philosophy	720	
+7202510	3	印度哲学	Indian philosophy	72025	
+7202520	3	伊斯兰哲学	Islamic philosophy	72025	
+7202530	3	日本哲学	Japanese philosophy	72025	
+7202599	3	东方哲学史其他学科	Other history of Eastern philosophy	72025	
+72030	2	西方哲学史	History of Western philosophy	720	
+7203010	3	古希腊罗马哲学	Ancient Greek and Roman philosophy	72030	
+7203020	3	中世纪哲学	Medieval philosophy	72030	
+7203030	3	文艺复兴时期哲学	Renaissance philosophy	72030	
+7203040	3	十七、十八世纪欧洲哲学	Seventeenth- and eighteenth-century European philosophy	72030	
+7203050	3	德国古典哲学	Classical German philosophy	72030	
+7203060	3	俄国哲学	Russian philosophy	72030	包括俄国革命民主主义者的哲学
+7203099	3	西方哲学史其他学科	Other history of Western philosophy	72030	
+72035	2	现代外国哲学	Modern foreign philosophy	720	
+7203510	3	十九世纪末至二十世纪中叶西方哲学	Western philosophy from the late nineteenth to the mid-twentieth century	72035	
+7203520	3	分析哲学	Analytic philosophy	72035	
+7203530	3	欧洲大陆人文哲学	Continental European humanistic philosophy	72035	
+7203540	3	解释学	Hermeneutics	72035	
+7203550	3	符号学	Semiotics	72035	
+7203560	3	实用主义哲学	Pragmatism	72035	
+7203599	3	现代外国哲学其他学科	Other modern foreign philosophy	72035	
+72040	2	逻辑学	Logic	720	
+7204010	3	逻辑史	History of logic	72040	包括中国逻辑史、 西方逻辑史、 印度逻辑史等
+7204020	3	形式逻辑	Formal logic	72040	亦称传统逻辑
+7204030	3	哲理逻辑	Philosophical logic	72040	包括模态、多值、构造、时态、模糊逻辑等
+7204040	3	语言逻辑	Logic of language	72040	
+7204050	3	归纳逻辑	Inductive logic	72040	
+7204060	3	辩证逻辑	Dialectical logic	72040	
+7204099	3	逻辑学其他学科	Other logic	72040	
+72045	2	伦理学	Ethics	720	
+7204510	3	伦理学原理	Principles of ethics	72045	
+7204515	3	中国伦理思想史	History of Chinese ethical thought	72045	
+7204520	3	东方伦理思想史	History of Eastern ethical thought	72045	
+7204525	3	西方伦理思想史	History of Western ethical thought	72045	
+7204530	3	马克思主义伦理思想史	History of Marxist ethical thought	72045	
+7204535	3	职业伦理学	Professional ethics	72045	
+7204540	3	医学伦理学	Medical ethics	72045	
+7204545	3	教育伦理学	Educational ethics	72045	
+7204550	3	政治伦理学	Political ethics	72045	
+7204555	3	家庭伦理学	Family ethics	72045	
+7204560	3	生命伦理学	Bioethics	72045	
+7204565	3	生态伦理学	Ecological ethics	72045	
+7204570	3	环境伦理学	Environmental ethics	72045	
+7204599	3	伦理学其他学科	Other ethics	72045	
+72050	2	美学	Aesthetics	720	
+7205010	3	美学原理	Principles of aesthetics	72050	
+7205020	3	中国美学史	History of Chinese aesthetics	72050	
+7205030	3	东方美学史	History of Eastern aesthetics	72050	
+7205040	3	西方美学史	History of Western aesthetics	72050	
+7205050	3	西方现代美学	Modern Western aesthetics	72050	
+7205060	3	马克思主义美学	Marxist aesthetics	72050	
+7205070	3	艺术美学	Aesthetics of art	72050	包括音乐、影视美学、建筑美学等
+7205080	3	技术美学	Technical aesthetics	72050	
+7205099	3	美学其他学科	Other aesthetics	72050	
+72099	2	哲学其他学科	Other philosophy	720	
+730	1	宗教学	Religious studies		
+73011	2	宗教学理论	Theory of religious studies	730	
+7301110	3	马克思主义宗教学	Marxist study of religion	73011	
+7301115	3	宗教史学	Historiography of religion	73011	
+7301120	3	宗教哲学	Philosophy of religion	73011	
+7301125	3	宗教社会学	Sociology of religion	73011	
+7301130	3	宗教心理学	Psychology of religion	73011	
+7301135	3	比较宗教学	Comparative religion	73011	
+7301140	3	宗教地理学	Geography of religion	73011	
+7301145	3	宗教文学艺术	Religious literature and art	73011	
+7301150	3	宗教文献学	Religious philology	73011	
+7301155	3	神话学	Mythology	73011	
+7301199	3	宗教学理论其他学科	Other theory of religious studies	73011	
+73014	2	无神论	Atheism	730	
+7301410	3	无神论史	History of atheism	73014	
+7301420	3	中国无神论	Chinese atheism	73014	
+7301430	3	外国无神论	Foreign atheism	73014	
+7301499	3	无神论其他学科	Other atheism	73014	
+73017	2	原始宗教	Primitive religion	730	
+73021	2	古代宗教	Ancient religion	730	
+7302110	3	中国古代宗教	Ancient Chinese religion	73021	
+7302120	3	外国古代宗教	Ancient foreign religions	73021	
+7302199	3	古代宗教其他学科	Other ancient religion	73021	
+73024	2	佛教	Buddhism	730	
+7302410	3	佛教哲学	Buddhist philosophy	73024	
+7302420	3	佛教因明	Buddhist logic	73024	
+7302430	3	佛教艺术	Buddhist art	73024	
+7302440	3	佛教文献	Buddhist literature	73024	
+7302450	3	佛教史	History of Buddhism	73024	
+7302460	3	佛教宗派学	Study of Buddhist schools	73024	
+7302499	3	佛教其他学科	Other Buddhism	73024	
+73027	2	基督教	Christianity	730	
+7302710	3	圣经学	Biblical studies	73027	
+7302720	3	基督教哲学	Christian philosophy	73027	
+7302730	3	基督教伦理学	Christian ethics	73027	
+7302740	3	基督教史	History of Christianity	73027	
+7302750	3	基督教艺术	Christian art	73027	
+7302799	3	基督教其他学科	Other Christianity	73027	
+73031	2	伊斯兰教	Islam	730	
+7303110	3	伊斯兰教义学	Islamic theology	73031	
+7303120	3	伊斯兰教法学	Islamic jurisprudence	73031	
+7303130	3	伊斯兰教哲学	Islamic philosophy	73031	
+7303140	3	古兰学	Quranic studies	73031	
+7303150	3	圣训学	Hadith studies	73031	
+7303160	3	伊斯兰教史	History of Islam	73031	
+7303170	3	伊斯兰教艺术	Islamic art	73031	
+7303199	3	伊斯兰教其他学科	Other Islam	73031	
+73034	2	道教	Taoism	730	
+7303410	3	道教哲学	Daoist philosophy	73034	
+7303420	3	道教文献	Daoist literature	73034	
+7303430	3	道教艺术	Daoist art	73034	
+7303440	3	道教史	History of Daoism	73034	
+7303499	3	道教其他学科	Other Daoism	73034	
+73037	2	印度教	Hinduism	730	
+73041	2	犹太教	Judaism	730	
+73044	2	袄教	Zoroastrianism	730	
+73047	2	摩尼教	Manichaeism	730	
+73051	2	锡克教	Sikhism	730	
+73054	2	耆那教	Jainism	730	
+73057	2	神道教	Shinto	730	
+73061	2	中国民间宗教与民间信仰	Chinese folk religion and folk beliefs	730	
+73064	2	中国少数民族宗教	Religions of Chinese ethnic minorities	730	
+73067	2	当代宗教	Contemporary religion	730	
+7306710	3	中国当代宗教	Contemporary Chinese religion	73067	
+7306720	3	世界当代宗教	Contemporary world religion	73067	
+7306730	3	新兴宗教	New religious movements	73067	
+7306799	3	当代宗教其他学科	Other contemporary religion	73067	
+73099	2	宗教学其他学科	Other religious studies	730	
+740	1	语言学	Linguistics		
+74010	2	普通语言学	General linguistics	740	
+7401010	3	语音学	Phonetics	74010	
+7401015	3	语法学	Grammar	74010	
+7401020	3	语义学	Semantics	74010	
+7401025	3	词汇学	Lexicology	74010	
+7401030	3	语用学	Pragmatics	74010	
+7401035	3	方言学	Dialectology	74010	
+7401040	3	修辞学	Rhetoric	74010	
+7401045	3	文字学	Grammatology	74010	
+7401050	3	语源学	Etymology	74010	
+7401099	3	普通语言学其他学科	Other general linguistics	74010	
+74015	2	比较语言学	Comparative linguistics	740	
+7401510	3	历史比较语言学	Historical-comparative linguistics	74015	
+7401520	3	类型比较语言学	Comparative typological linguistics	74015	
+7401530	3	双语对比语言学	Contrastive linguistics	74015	
+7401599	3	比较语言学其他学科	Other comparative linguistics	74015	
+74020	2	语言地理学	Linguistic geography	740	
+74025	2	社会语言学	Sociolinguistics	740	
+74030	2	心理语言学	Psycholinguistics	740	
+74035	2	应用语言学	Applied linguistics	740	
+7403510	3	语言教学	Language teaching	74035	
+7403520	3	话语语言学	Discourse linguistics	74035	
+7403530	3	实验语音学	Experimental phonetics	74035	
+7403540	3	数理语言学	Mathematical linguistics	74035	
+7403550	3	计算语言学	Computational linguistics	74035	
+7403560	3	翻译学	Translation studies	74035	
+7403570	3	术语学	Terminology	74035	
+7403599	3	应用语言学其他学科	Other applied linguistics	74035	
+74040	2	汉语研究	Chinese language studies	740	
+7404010	3	普通话	Standard Mandarin	74040	
+7404015	3	汉语方言	Chinese dialects	74040	
+7404020	3	汉语语音	Chinese phonetics	74040	
+7404025	3	汉语音韵	Chinese phonology	74040	
+7404030	3	汉语语法	Chinese grammar	74040	
+7404035	3	汉语词汇	Chinese vocabulary	74040	
+7404040	3	汉语训诂	Chinese exegetics	74040	
+7404045	3	汉语修辞	Chinese rhetoric	74040	
+7404050	3	汉字规范	Standardization of Chinese characters	74040	
+7404055	3	汉语史	History of the Chinese language	74040	
+7404099	3	汉语研究其他学科	Other Chinese language studies	74040	
+74045	2	中国少数民族语言文字	Languages and scripts of Chinese ethnic minorities	740	
+7404510	3	蒙古语文	Mongolian language	74045	
+7404515	3	藏语文	Tibetan language	74045	
+7404520	3	维吾尔语文	Uyghur language	74045	
+7404525	3	哈萨克语文	Kazakh language	74045	
+7404530	3	满语文	Manchu language	74045	
+7404535	3	朝鲜语文	Korean language	74045	
+7404540	3	傣族语文	Dai language	74045	
+7404545	3	彝族语文	Yi language	74045	
+7404550	3	壮语文	Zhuang language	74045	
+7404555	3	苗语文	Miao language	74045	
+7404560	3	瑶语文	Yao language	74045	
+7404565	3	柯尔克孜语文	Kirghiz language	74045	
+7404570	3	锡伯语文	Xibe language	74045	
+7404599	3	中国少数民族语言文字其他学科	Other languages and scripts of Chinese ethnic minorities	74045	
+74050	2	外国语言	Foreign languages	740	
+7405011	3	英语	English	74050	
+7405014	3	德语	German	74050	
+7405017	3	瑞典语	Swedish	74050	
+7405018	3	丹麦语、挪威语、冰岛语	Danish, Norwegian and Icelandic	74050	
+7405020	3	拉丁语	Latin	74050	
+7405021	3	意大利语	Italian	74050	
+7405024	3	法语	French	74050	
+7405027	3	西班牙语、葡萄牙语	Spanish and Portuguese	74050	
+7405031	3	罗马尼亚语	Romanian	74050	
+7405034	3	俄语	Russian	74050	
+7405037	3	波兰语、捷克语	Polish and Czech	74050	
+7405041	3	塞尔维亚语、保加利亚语	Serbian and Bulgarian	74050	
+7405044	3	希腊语	Greek	74050	
+7405047	3	阿尔巴尼亚语	Albanian	74050	
+7405051	3	匈牙利语	Hungarian	74050	
+7405052	3	芬兰语	Finnish	74050	
+7405053	3	爱沙尼亚语、拉脱维亚语、立陶宛语	Estonian, Latvian and Lithuanian	74050	
+7405054	3	梵语、印地语、乌尔都语、僧伽罗语	Sanskrit, Hindi, Urdu and Sinhala	74050	
+7405057	3	波斯语	Persian	74050	
+7405061	3	土耳其语	Turkish	74050	
+7405064	3	阿拉伯语	Arabic	74050	
+7405067	3	希伯莱语	Hebrew	74050	
+7405071	3	豪萨语	Hausa	74050	
+7405074	3	斯瓦希里语	Swahili	74050	
+7405077	3	越南语、柬埔寨语	Vietnamese and Khmer	74050	
+7405081	3	印度尼西亚语、菲律宾国语、马来语	Indonesian, Filipino and Malay	74050	
+7405084	3	缅甸语	Burmese	74050	
+7405087	3	泰语、老挝语	Thai and Lao	74050	
+7405091	3	日语	Japanese	74050	
+7405092	3	朝鲜语和韩国语	Korean	74050	
+7405094	3	世界语	Esperanto	74050	
+7405099	3	外国语言其他学科	Other foreign languages	74050	
+74099	2	语言学其他学科	Other linguistics	740	
+750	1	文学	Literature		
+75011	2	文学理论	Literary theory	750	
+75014	2	文艺美学	Literary and artistic aesthetics	750	
+75017	2	文学批评	Literary criticism	750	
+75021	2	比较文学	Comparative literature	750	
+75024	2	中国古代文学	Ancient Chinese literature	750	原名为“中国古代文学史”
+7502410	3	周秦汉文学	Literature of the Zhou, Qin and Han dynasties	75024	
+7502415	3	魏晋文学	Literature of the Wei and Jin dynasties	75024	
+7502420	3	南北朝文学	Literature of the Northern and Southern Dynasties	75024	
+7502425	3	隋唐五代文学	Literature of the Sui, Tang and Five Dynasties	75024	
+7502430	3	宋代文学	Literature of the Song dynasty	75024	
+7502435	3	辽金文学	Literature of the Liao and Jin dynasties	75024	
+7502440	3	元代文学	Literature of the Yuan dynasty	75024	
+7502445	3	明代文学	Literature of the Ming dynasty	75024	
+7502450	3	清代文学	Literature of the Qing dynasty	75024	
+7502499	3	中国古代文学其他学科	Other ancient Chinese literature	75024	原名为“中国古代文学史其他学科”
+75027	2	中国近代文学	Modern Chinese literature	750	原名为“中国近代文学史”
+75031	2	中国现代文学	Contemporary Chinese literature	750	包括当代文学。原名为“中国现代文学史”
+75034	2	中国各体文学	Chinese literature by genre	750	
+7503410	3	中国诗歌文学	Chinese poetry	75034	
+7503420	3	中国戏剧文学	Chinese drama	75034	
+7503430	3	中国小说文学	Chinese fiction	75034	
+7503440	3	中国散文文学	Chinese prose literature	75034	
+7503499	3	中国各体文学其他学科	Other Chinese literature by genre	75034	
+75037	2	中国民间文学	Chinese folk literature	750	
+75041	2	中国儿童文学	Chinese children's literature	750	
+75044	2	中国少数民族文学	Literature of Chinese ethnic minorities	750	
+7504410	3	蒙古族文学	Mongolian literature	75044	
+7504420	3	藏族文学	Tibetan literature	75044	
+7504430	3	维吾尔族文学	Uyghur literature	75044	
+7504440	3	哈萨克族文学	Kazakh literature	75044	
+7504450	3	朝鲜族文学	Korean ethnic minority literature	75044	
+7504499	3	中国少数民族文学其他学科	Other literature of Chinese ethnic minorities	75044	
+75047	2	世界文学史	History of world literature	750	
+7504710	3	古代世界文学史	History of ancient world literature	75047	
+7504720	3	中世纪世界文学史	History of medieval world literature	75047	
+7504730	3	近代世界文学史	History of modern world literature	75047	
+7504740	3	现代世界文学史	History of contemporary world literature	75047	包括当代世界文学史
+7504799	3	世界文学史其他学科	Other history of world literature	75047	
+75051	2	东方文学	Eastern literature	750	
+7505110	3	印度文学	Indian literature	75051	
+7505120	3	日本文学	Japanese literature	75051	
+7505199	3	东方文学其他学科	Other Eastern literature	75051	
+75054	2	俄国文学	Russian literature	750	包括原苏联文学
+75057	2	英国文学	English literature	750	
+75061	2	法国文学	French literature	750	
+75064	2	德国文学	German literature	750	
+75067	2	意大利文学	Italian literature	750	
+75071	2	美国文学	American literature	750	
+75074	2	北欧文学	Nordic literature	750	
+75077	2	东欧文学	Eastern European literature	750	
+75081	2	拉美文学	Latin American literature	750	
+75084	2	非洲文学	African literature	750	
+75087	2	大洋洲文学	Oceanian literature	750	
+75099	2	文学其他学科	Other literature	750	
+760	1	艺术学	Art studies		
+76010	2	艺术心理学	Psychology of art	760	包括绘画心理学、书法心理学、音乐心理学
+76015	2	音乐	Music	760	
+7601510	3	音乐学	Musicology	76015	包括音乐史、音乐美学等
+7601520	3	作曲与作曲理论	Composition and composition theory	76015	
+7601530	3	音乐表演艺术	Music performance	76015	
+7601599	3	音乐其他学科	Other music	76015	
+76020	2	戏剧	Drama	760	
+7602010	3	戏剧史	History of drama	76020	
+7602020	3	戏剧理论	Theory of drama	76020	
+7602099	3	戏剧其他学科	Other drama	76020	
+76025	2	戏曲	Chinese traditional opera	760	
+7602510	3	戏曲史	History of Chinese opera	76025	
+7602520	3	戏曲理论	Theory of Chinese opera	76025	
+7602530	3	戏曲表演	Performance of Chinese opera	76025	
+7602599	3	戏曲其他学科	Other Chinese opera	76025	
+76030	2	舞蹈	Dance	760	
+7603010	3	舞蹈史	History of dance	76030	
+7603020	3	舞蹈理论	Dance theory	76030	
+7603030	3	舞蹈编导	Dance choreography	76030	
+7603040	3	舞蹈表演	Dance performance	76030	
+7603099	3	舞蹈其他学科	Other dance	76030	
+76035	2	电影	Film	760	
+7603510	3	电影史	History of film	76035	
+7603520	3	电影理论	Film theory	76035	
+7603530	3	电影艺术	Film art	76035	
+7603599	3	电影其他学科	Other film	76035	
+76040	2	广播电视文艺	Radio and television arts	760	
+76045	2	美术	Fine arts	760	
+7604510	3	美术史	History of fine arts	76045	
+7604520	3	美术理论	Theory of fine arts	76045	
+7604530	3	绘画艺术	Painting	76045	
+7604540	3	雕塑艺术	Sculpture	76045	
+7604599	3	美术其他学科	Other fine arts	76045	
+76050	2	工艺美术	Arts and crafts	760	
+7605010	3	工艺美术史	History of arts and crafts	76050	
+7605020	3	工艺美术理论	Theory of arts and crafts	76050	
+7605030	3	环境艺术	Environmental art	76050	
+7605099	3	工艺美术其他学科	Other arts and crafts	76050	
+76055	2	书法	Calligraphy	760	
+7605510	3	书法史	History of calligraphy	76055	
+7605520	3	书法理论	Theory of calligraphy	76055	
+7605599	3	书法其他学科	Other calligraphy	76055	
+76060	2	摄影	Photography	760	
+7606010	3	摄影史	History of photography	76060	
+7606020	3	摄影理论	Theory of photography	76060	
+7606099	3	摄影其他学科	Other photography	76060	
+76099	2	艺术学其他学科	Other art studies	760	
+770	1	历史学	History		
+77010	2	史学史	History of historiography	770	
+7701010	3	中国史学史	History of Chinese historiography	77010	
+7701020	3	外国史学史	History of foreign historiography	77010	
+77015	2	史学理论	Historical theory	770	
+7701510	3	马克思主义史学理论	Marxist theory of historiography	77015	
+7701520	3	中国传统史学理论	Traditional Chinese theory of historiography	77015	
+7701530	3	外国史学理论	Foreign theory of historiography	77015	
+77020	2	历史文献学	Historical documentation	770	
+77025	2	中国通史	General history of China	770	
+77030	2	中国古代史	Ancient history of China	770	
+7703010	3	先秦史	History of the pre-Qin period	77030	
+7703015	3	秦汉史	History of the Qin and Han dynasties	77030	
+7703020	3	魏晋南北朝史	History of the Wei, Jin and Northern and Southern Dynasties	77030	
+7703025	3	隋唐五代十国史	History of the Sui, Tang and Five Dynasties and Ten Kingdoms	77030	
+7703030	3	宋史	History of the Song dynasty	77030	
+7703035	3	辽金史	History of the Liao and Jin dynasties	77030	
+7703040	3	元史	History of the Yuan dynasty	77030	
+7703045	3	明史	History of the Ming dynasty	77030	
+7703050	3	清史	History of the Qing dynasty	77030	
+7703055	3	中国古文字	Chinese paleography	77030	包括甲骨文、金文等
+7703060	3	中国古代契约文书	Ancient Chinese contracts and documents	77030	包括敦煌学、 明清契约文书研究、 鱼鳞册研究
+7703099	3	中国古代史其他学科	Other ancient Chinese history	77030	
+77035	2	中国近代史、现代史	Modern and contemporary history of China	770	
+7703510	3	鸦片战争史	History of the Opium War	77035	
+7703515	3	太平天国史	History of the Taiping Rebellion	77035	
+7703520	3	洋务运动史	History of the Self-Strengthening Movement	77035	
+7703525	3	戊戌政变史	History of the 1898 Coup	77035	
+7703530	3	义和团运动史	History of the Boxer Movement	77035	
+7703532	3	晚清政治史	Political history of the late Qing dynasty	77035	
+7703535	3	辛亥革命史	History of the 1911 Revolution	77035	
+7703540	3	五四运动史	History of the May Fourth Movement	77035	
+7703545	3	新民主主义革命史	History of the New Democratic Revolution	77035	
+7703547	3	抗日战争史	History of the War of Resistance Against Japan	77035	
+7703550	3	中国共产党史	History of the Communist Party of China	77035	
+7703555	3	中国国民党史	History of the Kuomintang	77035	
+7703560	3	中国民主党派史	History of China's democratic parties	77035	
+7703565	3	中华民国史	History of the Republic of China	77035	
+7703570	3	中华人民共和国史	History of the People's Republic of China	77035	
+7703575	3	近代经济史	Modern economic history	77035	
+7703580	3	近代思想文化史	Modern intellectual and cultural history	77035	
+7703585	3	近代社会史	Modern social history	77035	
+7703599	3	中国近代史、现代史其他学科	Other modern and contemporary history of China	77035	
+77040	2	世界通史	General world history	770	
+7704010	3	原始社会史	History of primitive society	77040	
+7704020	3	世界古代史	Ancient world history	77040	
+7704030	3	世界中世纪史	Medieval world history	77040	
+7704040	3	世界近代史	Modern world history	77040	
+7704050	3	世界现代史	Contemporary world history	77040	
+7704099	3	世界通史其他学科	Other world history	77040	
+77045	2	亚洲史	History of Asia	770	
+7704510	3	日本史	History of Japan	77045	
+7704520	3	印度史	History of India	77045	
+7704525	3	东北亚史	History of Northeast Asia	77045	
+7704530	3	东南亚史	History of Southeast Asia	77045	
+7704540	3	南亚史	History of South Asia	77045	
+7704550	3	中亚史	History of Central Asia	77045	
+7704560	3	西亚史	History of West Asia	77045	
+7704599	3	亚洲史其他学科	Other history of Asia	77045	
+77050	2	非洲史	History of Africa	770	
+7705010	3	北非史	History of North Africa	77050	
+7705020	3	撒哈拉以南非洲史	History of Sub-Saharan Africa	77050	
+7705030	3	埃及史	History of Egypt	77050	
+7705040	3	南非联邦史	History of the Union of South Africa	77050	
+7705099	3	非洲史其他学科	Other history of Africa	77050	
+77055	2	美洲史	History of the Americas	770	
+7705510	3	美洲古代文明史	History of ancient American civilizations	77055	
+7705520	3	美国史	History of the United States	77055	
+7705530	3	加拿大史	History of Canada	77055	
+7705540	3	拉丁美洲史	History of Latin America	77055	
+7705599	3	美洲史其他学科	Other history of the Americas	77055	
+77060	2	欧洲史	History of Europe	770	
+7706010	3	俄国史	History of Russia	77060	包括原苏联史
+7706020	3	英国史	History of Britain	77060	
+7706030	3	法国史	History of France	77060	
+7706040	3	德国史	History of Germany	77060	
+7706050	3	意大利史	History of Italy	77060	
+7706060	3	西班牙史	History of Spain	77060	
+7706070	3	中东欧国家史	History of Central and Eastern European countries	77060	原名为“东欧国家史”
+7706080	3	北欧国家史	History of Nordic countries	77060	
+7706099	3	欧洲史其他学科	Other history of Europe	77060	
+77065	2	澳洲、大洋洲史	History of Australia and Oceania	770	
+77070	2	专门史	Special history	770	
+7707010	3	政治史	Political history	77070	
+7707015	3	思想史	Intellectual history	77070	
+7707020	3	文化史	Cultural history	77070	
+7707025	3	科技史	History of science and technology	77070	
+7707030	3	社会史	Social history	77070	
+7707035	3	城市史	Urban history	77070	
+7707040	3	中外文化交流史	History of cultural exchange between China and foreign countries	77070	
+7707042	3	中外关系史	History of relations between China and foreign countries	77070	
+7707045	3	历史地理学	Historical geography	77070	
+7707050	3	方志学	Study of local gazetteers	77070	
+7707055	3	人物研究	Study of historical figures	77070	
+7707060	3	谱牒学	Genealogy studies	77070	
+7707099	3	专门史其他学科	Other special history	77070	
+77099	2	历史学其他学科	Other history	770	
+7709910	3	简帛学	Bamboo and silk manuscript studies	77099	
+780	1	考古学	Archaeology		
+78010	2	考古理论	Archaeological theory	780	
+78020	2	考古学史	History of archaeology	780	
+78030	2	考古技术	Archaeological technology	780	
+7803010	3	考古发掘	Archaeological excavation	78030	
+7803020	3	考古修复	Archaeological restoration	78030	
+7803030	3	考古年代测定	Archaeological dating	78030	
+7803099	3	考古技术其他学科	Other archaeological techniques	78030	
+78040	2	中国考古	Chinese archaeology	780	
+7804010	3	旧石器时代考古	Paleolithic archaeology	78040	
+7804020	3	新石器时代考古	Neolithic archaeology	78040	
+7804030	3	商周考古	Shang and Zhou archaeology	78040	
+7804040	3	秦汉考古	Qin and Han archaeology	78040	
+7804050	3	三国两晋、南北朝、隋唐考古	Archaeology of the Three Kingdoms, Jin, Southern and Northern dynasties, Sui and Tang periods	78040	
+7804060	3	宋元明考古	Song, Yuan and Ming archaeology	78040	
+7804099	3	中国考古其他学科	Other Chinese archaeology	78040	
+78050	2	外国考古	Foreign archaeology	780	
+7805010	3	亚洲考古	Asian archaeology	78050	
+7805020	3	欧洲考古	European archaeology	78050	
+7805030	3	非洲考古	African archaeology	78050	
+7805040	3	美洲考古	Archaeology of the Americas	78050	
+7805050	3	大洋洲考古	Oceanian archaeology	78050	
+7805099	3	外国考古其他学科	Other foreign archaeology	78050	
+78060	2	专门考古	Special archaeology	780	
+7806010	3	金石学	Epigraphy	78060	
+7806020	3	铭刻学	Study of inscriptions	78060	
+7806030	3	甲骨学	Oracle bone studies	78060	
+7806040	3	古钱学	Numismatics	78060	
+7806045	3	古陶瓷学	Study of ancient ceramics	78060	
+7806050	3	美术考古	Art archaeology	78060	
+7806060	3	宗教考古	Religious archaeology	78060	
+7806070	3	水下考古	Underwater archaeology	78060	
+7806099	3	专门考古其他学科	Other special archaeology	78060	
+78099	2	考古学其他学科	Other archaeology	780	
+790	1	经济学	Economics		
+79011	2	政治经济学	Political economy	790	
+7901110	3	资本主义政治经济学	Capitalist political economy	79011	
+7901120	3	社会主义政治经济学	Socialist political economy	79011	
+7901199	3	政治经济学其他学科	Other political economy	79011	
+79013	2	宏观经济学	Macroeconomics	790	
+7901310	3	西方宏观经济学	Western macroeconomics	79013	
+7901320	3	社会主义宏观经济学	Socialist macroeconomics	79013	
+79015	2	微观经济学	Microeconomics	790	
+7901510	3	西方微观经济学	Western microeconomics	79015	
+7901520	3	社会主义微观经济学	Socialist microeconomics	79015	
+79017	2	比较经济学	Comparative economics	790	
+79019	2	经济地理学	Economic geography	790	包括工业地理学、农业地理学等
+79021	2	发展经济学	Development economics	790	
+79023	2	生产力经济学	Economics of productive forces	790	
+79025	2	经济思想史	History of economic thought	790	
+7902510	3	中国经济思想史	History of Chinese economic thought	79025	
+7902520	3	外国经济思想史	History of foreign economic thought	79025	
+7902530	3	马克思主义经济思想史	History of Marxist economic thought	79025	
+7902599	3	经济思想史其他学科	Other history of economic thought	79025	
+79027	2	经济史	Economic history	790	
+7902710	3	世界经济史	World economic history	79027	
+7902720	3	中国经济史	Chinese economic history	79027	
+7902799	3	经济史其他学科	Other economic history	79027	
+79029	2	世界经济学	World economics	790	亦称国际经济学
+7902911	3	国际经济关系	International economic relations	79029	
+7902914	3	国际贸易学	International trade	79029	包括国际市场营销学、国际商品学
+7902917	3	国际货币经济学	International monetary economics	79029	
+7902921	3	国际金融学	International finance	79029	
+7902924	3	国际投资学	International investment	79029	
+7902927	3	国际收支理论	Balance of payments theory	79029	
+7902931	3	美国经济	Economy of the United States	79029	
+7902934	3	日本经济	Economy of Japan	79029	
+7902937	3	德国经济	Economy of Germany	79029	
+7902941	3	法国经济	Economy of France	79029	
+7902944	3	英国经济	Economy of the United Kingdom	79029	
+7902947	3	俄罗斯经济	Economy of Russia	79029	
+7902951	3	欧洲经济	Economy of Europe	79029	
+7902952	3	中东欧经济	Economy of Central and Eastern Europe	79029	
+7902954	3	北美经济	Economy of North America	79029	
+7902957	3	亚太经济	Economy of the Asia-Pacific	79029	
+7902961	3	拉美经济	Economy of Latin America	79029	
+7902964	3	非洲经济	Economy of Africa	79029	
+7902966	3	中亚经济	Economy of Central Asia	79029	
+7902968	3	西亚经济	Economy of West Asia	79029	
+7902971	3	世界经济统计	World economic statistics	79029	
+7902999	3	世界经济学其他学科	Other world economics	79029	
+79031	2	国民经济学	National economics	790	
+7903110	3	国民经济计划学	National economic planning	79031	
+7903120	3	区域经济学	Regional economics	79031	
+7903130	3	消费经济学	Consumption economics	79031	
+7903140	3	投资经济学	Investment economics	79031	
+7903199	3	国民经济学其他学科	Other national economics	79031	
+79033	2	管理经济学	Managerial economics	790	
+79035	2	数量经济学	Quantitative economics	790	
+7903510	3	数理经济学	Mathematical economics	79035	
+7903520	3	经济计量学	Econometrics	79035	
+7903599	3	数量经济学其他学科	Other quantitative economics	79035	
+79037	2	会计学	Accounting	790	
+7903710	3	工业会计学	Industrial accounting	79037	
+7903720	3	农业会计学	Agricultural accounting	79037	
+7903730	3	商业会计学	Commercial accounting	79037	
+7903740	3	银行会计学	Bank accounting	79037	
+7903750	3	交通运输会计学	Transportation accounting	79037	
+7903799	3	会计学其他学科	Other accounting	79037	
+79039	2	审计学	Auditing	790	
+79041	2	技术经济学	Technological economics	790	
+7904105	3	技术经济理论与方法	Theory and methods of technological economics	79041	
+7904110	3	工程经济学	Engineering economics	79041	
+7904115	3	工业技术经济学	Industrial technological economics	79041	
+7904120	3	农业技术经济学	Agricultural technological economics	79041	
+7904125	3	能源技术经济学	Energy technological economics	79041	
+7904130	3	交通运输技术经济学	Transportation technological economics	79041	
+7904135	3	建筑技术经济学	Construction technological economics	79041	
+7904140	3	物流技术经济学	Logistics technological economics	79041	原名为“商业与物流技术经济学”
+7904141	3	贸易技术经济学	Trade technological economics	79041	
+7904145	3	技术进步经济学	Economics of technological progress	79041	
+7904150	3	资源开发利用技术经济学	Technological economics of resource development and utilization	79041	
+7904155	3	环境保护技术经济学	Technological economics of environmental protection	79041	
+7904160	3	生产力布局技术经济学	Technological economics of the distribution of productive forces	79041	
+7904165	3	消费技术经济学	Technological economics of consumption	79041	
+7904170	3	服务业技术经济学	Technological economics of the service industry	79041	
+7904199	3	技术经济学其他学科	Other technological economics	79041	
+79043	2	生态经济学	Ecological economics	790	
+7904310	3	森林生态经济学	Forest ecological economics	79043	
+7904320	3	草原生态经济学	Grassland ecological economics	79043	
+7904330	3	水域生态经济学	Aquatic ecological economics	79043	
+7904340	3	城市生态经济学	Urban ecological economics	79043	
+7904350	3	区域生态经济学	Regional ecological economics	79043	
+7904399	3	生态经济学其他学科	Other ecological economics	79043	
+79045	2	劳动经济学	Labor economics	790	
+7904510	3	就业经济学	Employment economics	79045	包括劳动市场经济学
+7904525	3	健康经济学	Health economics	79045	
+7904560	3	劳动经济史	History of labor economics	79045	
+7904599	3	劳动经济学其他学科	Other labor economics	79045	
+79047	2	城市经济学	Urban economics	790	
+7904710	3	城市经济管理学	Urban economic management	79047	含城市经济理论
+7904720	3	城市土地经济学	Urban land economics	79047	
+7904730	3	市政经济学	Municipal economics	79047	
+7904740	3	房地产经济学	Real estate economics	79047	原名为“住宅经济学”
+7904750	3	城郊经济学	Suburban economics	79047	
+7904799	3	城市经济学其他学科	Other urban economics	79047	
+79049	2	资源经济学	Resource economics	790	
+7904910	3	海洋资源经济学	Marine resource economics	79049	
+7904920	3	生物资源经济学	Biological resource economics	79049	
+7904930	3	矿产资源经济学	Mineral resource economics	79049	
+7904940	3	能源经济学	Energy economics	79049	
+7904950	3	资源开发与利用	Resource development and utilization	79049	
+7904999	3	资源经济学其他学科	Other resource economics	79049	
+79051	2	环境经济学	Environmental economics	790	
+79052	2	可持续发展经济学	Sustainable development economics	790	
+79053	2	物流经济学	Logistics economics	790	
+7905310	3	物流经济理论	Theory of logistics economics	79053	
+7905320	3	物流管理学	Logistics management	79053	
+7905399	3	物流经济学其他学科	Other logistics economics	79053	
+79055	2	工业经济学	Industrial economics	790	
+7905510	3	工业发展经济学	Industrial development economics	79055	
+7905520	3	工业企业经营管理学	Industrial enterprise management	79055	
+7905530	3	工业经济地理	Industrial economic geography	79055	
+7905540	3	工业部门经济学	Industrial sector economics	79055	
+7905550	3	工业经济史	Industrial economic history	79055	
+7905599	3	工业经济学其他学科	Other industrial economics	79055	
+79057	2	农村经济学	Rural economics	790	
+7905710	3	农村宏观经济学	Rural macroeconomics	79057	
+7905720	3	农村产业经济学	Rural industrial economics	79057	
+7905730	3	农村区域经济学	Rural regional economics	79057	
+7905799	3	农村经济学其他学科	Other rural economics	79057	
+79059	2	农业经济学	Agricultural economics	790	
+7905910	3	农业生态经济学	Agricultural ecological economics	79059	
+7905920	3	农业生产经济学	Agricultural production economics	79059	
+7905930	3	土地经济学	Land economics	79059	包括国土经济学、农业资源经济学等
+7905940	3	农业经济史	Agricultural economic history	79059	
+7905950	3	农业企业经营管理	Agricultural enterprise management	79059	
+7905960	3	合作经济	Cooperative economy	79059	
+7905970	3	世界农业经济	World agricultural economy	79059	
+7905980	3	种植业经济学	Economics of crop farming	79059	
+7905999	3	农业经济学其他学科	Other agricultural economics	79059	
+79061	2	交通运输经济学	Transportation economics	790	
+7906110	3	城市运输经济学	Urban transportation economics	79061	
+7906120	3	铁路运输经济学	Railway transportation economics	79061	
+7906130	3	航空运输经济学	Air transportation economics	79061	
+7906140	3	公路运输经济学	Highway transportation economics	79061	
+7906150	3	水路运输经济学	Waterway transportation economics	79061	
+7906160	3	综合运输经济学	Comprehensive transportation economics	79061	
+7906199	3	交通运输经济学其他学科	Other transportation economics	79061	
+79063	2	商业经济学	Commercial economics	790	
+7906310	3	商业经济学原理	Principles of commercial economics	79063	
+7906315	3	商业企业管理学	Commercial enterprise management	79063	
+7906320	3	商品流通经济学	Commodity circulation economics	79063	
+7906325	3	市场学	Marketing	79063	
+7906330	3	商业心理学	Commercial psychology	79063	
+7906335	3	商业社会学	Commercial sociology	79063	
+7906340	3	商品学	Commodity science	79063	包括商品包装与技术
+7906345	3	商业物流学	Commercial logistics	79063	
+7906350	3	商业经济史	Commercial economic history	79063	
+7906355	3	广告学	Advertising	79063	
+7906360	3	服务经济学	Service economics	79063	
+7906399	3	商业经济学其他学科	Other commercial economics	79063	
+79065	2	价格学	Price theory	790	
+7906510	3	价格学原理	Principles of price theory	79065	
+7906520	3	部门价格学	Sectoral price theory	79065	
+7906530	3	广义价格学	Generalized price theory	79065	
+7906540	3	成本管理学	Cost management	79065	
+7906550	3	价格史	History of prices	79065	
+7906560	3	比较价格学	Comparative price theory	79065	
+7906599	3	价格学其他学科	Other price theory	79065	
+79067	2	旅游经济学	Tourism economics	790	
+7906710	3	旅游经济学理论	Theory of tourism economics	79067	
+7906720	3	旅游经济管理学	Tourism economic management	79067	
+7906730	3	旅游企业管理学	Tourism enterprise management	79067	
+7906740	3	旅游事业史	History of the tourism industry	79067	
+7906799	3	旅游经济学其他学科	Other tourism economics	79067	
+79069	2	信息经济学	Information economics	790	
+79071	2	财政学	Public finance	790	
+7907110	3	理论财政学	Theoretical public finance	79071	
+7907140	3	比较财政学	Comparative public finance	79071	
+7907150	3	财政思想史	History of public finance thought	79071	
+7907160	3	财政史	History of public finance	79071	
+7907170	3	财政管理学	Public finance management	79071	
+7907180	3	税务管理学	Tax administration	79071	
+7907199	3	财政学其他学科	Other public finance	79071	
+79073	2	金融学	Finance	790	原名为“货币银行学”
+7907310	3	货币经济学	Monetary economics	79073	原名为“货币理论”
+7907313	3	货币史	Monetary history	79073	含国际货币体系史
+7907315	3	货币思想史	History of monetary thought	79073	原名为“货币学说史”
+7907320	3	银行学	Banking	79073	
+7907322	3	金融风险管理学	Financial risk management	79073	
+7907325	3	金融资产管理学	Financial asset management	79073	原名为“银行经营管理学”
+7907330	3	信贷理论	Credit theory	79073	
+7907335	3	投资理论	Investment theory	79073	含金融投资学
+7907340	3	金融市场	Financial markets	79073	含货币市场学、 资本市场学、 国际金融市场学
+7907343	3	公司金融学	Corporate finance	79073	
+7907344	3	房地产金融学	Real estate finance	79073	
+7907345	3	农村金融学	Rural finance	79073	
+7907346	3	开发性金融学	Development finance	79073	
+7907350	3	金融史、银行史	History of finance and banking	79073	含金融法制史
+7907353	3	金融发展学	Financial development studies	79073	
+7907356	3	金融工程学	Financial engineering	79073	又可称为结构金融学
+7907359	3	金融制度学	Financial system studies	79073	含金融体制比较
+7907399	3	金融学其他学科	Other finance	79073	原名为“货币银行学其他学科”
+79075	2	保险学	Insurance	790	
+7907505	3	保险史	History of insurance	79075	含保险思想史
+7907510	3	保险管理	Insurance management	79075	
+7907599	3	保险学其他学科	Other insurance	79075	
+79077	2	国防经济学	Defense economics	790	
+79099	2	经济学其他学科	Other economics	790	
+810	1	政治学	Political science		
+81010	2	政治学理论	Political theory	810	
+8101010	3	比较政治学	Comparative politics	81010	
+8101020	3	政治社会学	Political sociology	81010	
+8101030	3	政治心理学	Political psychology	81010	
+8101040	3	地缘政治学	Geopolitics	81010	
+8101050	3	中外政治学说史	History of Chinese and foreign political thought	81010	
+8101060	3	政治学方法论	Methodology of political science	81010	
+8101099	3	政治学理论其他学科	Other political theory	81010	
+81020	2	政治制度	Political systems	810	
+8102010	3	政治制度理论	Theory of political institutions	81020	
+8102015	3	议会制度	Parliamentary system	81020	
+8102020	3	行政制度	Administrative system	81020	
+8102025	3	司法制度	Judicial system	81020	
+8102030	3	政党制度	Party system	81020	
+8102035	3	选举制度	Electoral system	81020	
+8102040	3	中国政治制度	Political system of China	81020	
+8102045	3	外国政治制度	Political systems of foreign countries	81020	
+8102050	3	比较政治制度	Comparative political systems	81020	
+8102055	3	中国政治制度史	History of China's political system	81020	
+8102060	3	外国政治制度史	History of foreign political systems	81020	
+8102099	3	政治制度其他学科	Other political systems	81020	
+81030	2	行政学	Administrative science	810	
+8103010	3	行政理论	Administrative theory	81030	
+8103020	3	行政组织	Administrative organization	81030	
+8103030	3	人事行政	Personnel administration	81030	
+8103040	3	财务行政	Financial administration	81030	
+8103050	3	行政决策	Administrative decision-making	81030	
+8103099	3	行政学其他学科	Other public administration	81030	
+81040	2	国际政治学	International politics	810	
+8104011	3	国际关系理论	International relations theory	81040	
+8104014	3	国际关系史	History of international relations	81040	
+8104017	3	国际组织	International organizations	81040	
+8104021	3	外交学	Diplomacy	81040	
+8104024	3	外交史	History of diplomacy	81040	
+8104027	3	国际比较政治	Comparative international politics	81040	
+8104031	3	美国政治	American politics	81040	
+8104034	3	英国政治	British politics	81040	
+8104037	3	法国政治	French politics	81040	
+8104041	3	德国政治	German politics	81040	
+8104044	3	日本政治	Japanese politics	81040	
+8104047	3	俄罗斯政治	Russian politics	81040	
+8104051	3	欧洲政治	European politics	81040	
+8104052	3	中东欧政治	Central and Eastern European politics	81040	
+8104054	3	北美政治	North American politics	81040	
+8104057	3	亚太政治	Asia-Pacific politics	81040	
+8104061	3	拉美政治	Latin American politics	81040	
+8104064	3	非洲政治	African politics	81040	
+8104068	3	中亚政治	Central Asian politics	81040	
+8104069	3	西亚政治	West Asian politics	81040	
+8104099	3	国际政治学其他学科	Other international politics	81040	
+81099	2	政治学其他学科	Other political science	810	
+820	1	法学	Law		
+82010	2	理论法学	Theoretical jurisprudence	820	
+8201010	3	法理学	Jurisprudence	82010	
+8201020	3	法哲学	Philosophy of law	82010	
+8201030	3	比较法学	Comparative law	82010	
+8201040	3	法社会学	Sociology of law	82010	
+8201050	3	立法学	Legislative studies	82010	
+8201060	3	法律逻辑学	Legal logic	82010	
+8201070	3	法律教育学	Legal education	82010	
+8201080	3	法律心理学	Legal psychology	82010	参见 19075
+8201099	3	理论法学其他学科	Other theoretical jurisprudence	82010	
+82020	2	法律史学	Legal history	820	
+8202010	3	中国法律思想史	History of Chinese legal thought	82020	
+8202020	3	外国法律思想史	History of foreign legal thought	82020	
+8202030	3	法律制度史	History of legal systems	82020	
+8202099	3	法律史学其他学科	Other legal history	82020	
+82030	2	部门法学	Branches of law	820	
+8203010	3	宪法学	Constitutional law	82030	
+8203015	3	行政法学	Administrative law	82030	
+8203020	3	民法学	Civil law	82030	
+8203025	3	经济法学	Economic law	82030	
+8203030	3	劳动法学	Labor law	82030	
+8203035	3	婚姻法学	Marriage law	82030	
+8203040	3	民事诉讼法学	Civil procedure law	82030	
+8203045	3	行政诉讼法学	Administrative procedure law	82030	
+8203050	3	刑事诉讼法学	Criminal procedure law	82030	
+8203055	3	刑法学	Criminal law	82030	
+8203060	3	刑事侦查学	Criminal investigation	82030	
+8203065	3	司法鉴定学	Forensic science	82030	
+8203070	3	军事法学	Military law	82030	
+8203072	3	卫生法学	Health law	82030	
+8203075	3	环境法学	Environmental law	82030	
+8203080	3	安全法学	Safety law	82030	
+8203085	3	知识产权法学	Intellectual property law	82030	
+8203088	3	宗教法学	Religious law	82030	
+8203099	3	部门法学其他学科	Other branches of law	82030	
+82040	2	国际法学	International law	820	
+8204010	3	国际公法学	Public international law	82040	
+8204020	3	国际私法学	Private international law	82040	
+8204030	3	国际刑法学	International criminal law	82040	
+8204040	3	国际经济法学	International economic law	82040	
+8204050	3	国际环境法学	International environmental law	82040	
+8204060	3	国际知识产权法学	International intellectual property law	82040	
+8204099	3	国际法学其他学科	Other international law	82040	
+82099	2	法学其他学科	Other law	820	
+830	1	军事学	Military science		
+83010	2	军事理论	Military theory	830	
+8301010	3	马、恩、列、斯军事理论	Military theory of Marx, Engels, Lenin and Stalin	83010	
+8301020	3	毛泽东军事思想	Mao Zedong's military thought	83010	
+8301099	3	军事理论其他学科	Other military theory	83010	
+83015	2	军事史	Military history	830	
+8301510	3	中国古代战争史	History of ancient Chinese warfare	83015	
+8301520	3	中国近代战争史	History of modern Chinese warfare	83015	
+8301530	3	中国现代战争史	History of contemporary Chinese warfare	83015	
+8301540	3	世界战争史	History of world warfare	83015	
+8301550	3	军事思想史	History of military thought	83015	
+8301560	3	军事技术史	History of military technology	83015	
+8301599	3	军事史其他学科	Other military history	83015	
+83020	2	军事心理学	Military psychology	830	
+83025	2	战略学	Strategics	830	
+8302510	3	战略学理论	Theory of military strategy	83025	
+8302520	3	核战略学	Nuclear strategy	83025	
+8302599	3	战略学其他学科	Other military strategy	83025	
+83030	2	战役学	Operational science	830	
+8303010	3	合同战役学	Combined-arms operational art	83030	
+8303020	3	海军战役学	Naval operational art	83030	
+8303030	3	空军战役学	Air force operational art	83030	
+8303040	3	导弹部队战役学	Missile force operational art	83030	
+8303050	3	陆军战役学	Army operational art	83030	包括炮兵战役学、装甲兵战役学
+8303099	3	战役学其他学科	Other operational art	83030	
+83035	2	战术学	Tactics	830	
+8303510	3	合同战术学	Combined-arms tactics	83035	
+8303520	3	陆军战术学	Army tactics	83035	包括炮兵战术学、 装甲兵战术学、 工程兵战术
+8303530	3	海军战术学	Naval tactics	83035	
+8303540	3	空军战术学	Air force tactics	83035	
+8303550	3	导弹部队战术学	Missile force tactics	83035	
+8303599	3	战术学其他学科	Other tactics	83035	
+83040	2	军队指挥学	Military command science	830	
+8304010	3	作战指挥	Operational command	83040	
+8304020	3	军事系统工程	Military systems engineering	83040	亦称军事运筹学
+8304030	3	军事通信学	Military communications	83040	
+8304040	3	军事情报学	Military intelligence	83040	
+8304099	3	军队指挥学其他学科	Other military command science	83040	
+83045	2	军制学	Military systems science	830	
+8304510	3	军事组织体制	Military organizational structure	83045	
+8304520	3	军事装备学	Military equipment science	83045	
+8304530	3	军队管理学	Military management	83045	
+8304599	3	军制学其他学科	Other military institutions	83045	
+83050	2	军队政治工作学	Military political work science	830	
+8305010	3	军队思想教育工作学	Military ideological education work	83050	
+8305020	3	军队组织工作学	Military organizational work	83050	
+8305099	3	军队政治工作学其他学科	Other military political work	83050	
+83055	2	军事后勤学	Military logistics	830	
+8305510	3	后勤组织指挥	Logistics organization and command	83055	
+8305520	3	后方专业勤务	Rear-area specialized services	83055	
+8305599	3	军事后勤学其他学科	Other military logistics	83055	
+83060	2	军事地学	Military geoscience	830	
+8306010	3	中国军事地理	Chinese military geography	83060	
+8306020	3	世界军事地理	World military geography	83060	
+8306030	3	军事地形学	Military topography	83060	
+8306040	3	军事测绘学	Military surveying and mapping	83060	
+8306050	3	军事气象学	Military meteorology	83060	
+8306060	3	军事水文学	Military hydrology	83060	
+8306099	3	军事地学其他学科	Other military geoscience	83060	
+83065	2	军事技术	Military technology	830	
+83099	2	军事学其他学科	Other military science	830	
+840	1	社会学	Sociology		
+84011	2	社会学史	History of sociology	840	
+8401110	3	中国社会学史	History of Chinese sociology	84011	
+8401120	3	外国社会学史	History of foreign sociology	84011	
+8401199	3	社会学史其他学科	Other history of sociology	84011	
+84014	2	社会学理论	Sociological theory	840	
+8401410	3	社会学原理	Principles of sociology	84014	
+8401420	3	社会思想史	History of social thought	84014	
+8401499	3	社会学理论其他学科	Other sociological theory	84014	
+84017	2	社会学方法	Sociological methods	840	
+8401710	3	社会调查方法	Social survey methods	84017	
+8401799	3	社会学方法其他学科	Other sociological methods	84017	
+84021	2	实验社会学	Experimental sociology	840	
+84024	2	数理社会学	Mathematical sociology	840	
+84027	2	应用社会学	Applied sociology	840	
+8402711	3	职业社会学	Sociology of occupations	84027	
+8402714	3	工业社会学	Industrial sociology	84027	
+8402717	3	医学社会学	Medical sociology	84027	
+8402727	3	城市社会学	Urban sociology	84027	
+8402731	3	农村社会学	Rural sociology	84027	
+8402734	3	环境社会学	Environmental sociology	84027	
+8402737	3	家庭社会学	Sociology of family	84027	
+8402741	3	青年社会学	Sociology of youth	84027	
+8402744	3	老年社会学	Sociology of aging	84027	
+8402747	3	犯罪社会学	Sociology of crime	84027	
+8402751	3	越轨社会学	Sociology of deviance	84027	
+8402754	3	妇女问题研究	Women's studies	84027	
+8402757	3	种族问题研究	Race studies	84027	
+8402761	3	社会问题研究	Social problems research	84027	
+8402764	3	社会群体及分层问题研究	Research on social groups and stratification	84027	
+8402767	3	社区研究	Community studies	84027	
+8402771	3	社会保障研究	Social security research	84027	
+8402774	3	社会工作	Social work	84027	
+8402799	3	应用社会学其他学科	Other applied sociology	84027	
+84031	2	比较社会学	Comparative sociology	840	
+84034	2	社会地理学	Social geography	840	
+84037	2	文化社会学	Sociology of culture	840	
+8403710	3	艺术社会学	Sociology of art	84037	
+8403720	3	知识社会学	Sociology of knowledge	84037	
+8403730	3	道德社会学	Sociology of morality	84037	
+8403799	3	文化社会学其他学科	Other sociology of culture	84037	
+84041	2	历史社会学	Historical sociology	840	
+84044	2	经济社会学	Economic sociology	840	
+84047	2	军事社会学	Military sociology	840	
+84054	2	公共关系学	Public relations	840	
+84057	2	社会人类学	Social anthropology	840	
+84061	2	组织社会学	Sociology of organizations	840	
+84064	2	发展社会学	Sociology of development	840	
+84067	2	福利社会学	Sociology of welfare	840	
+84071	2	人口学	Demography	840	
+8407110	3	人口理论	Demographic theory	84071	原名为“人口学原理”
+8407115	3	人口经济学	Demographic economics	84071	
+8407120	3	人口社会学	Sociology of population	84071	包括老年人口学、 妇女人口学、 发展人口学等
+8407125	3	人口学说史	History of demographic thought	84071	
+8407130	3	历史人口	Historical demography	84071	原名为“人口史”
+8407135	3	人口地理学	Population geography	84071	
+8407140	3	人口生态学	Population ecology	84071	
+8407145	3	区域人口学	Regional demography	84071	
+8407150	3	人口系统工程	Population systems engineering	84071	
+8407155	3	人口预测学	Population forecasting	84071	
+8407160	3	人口规划学	Population planning	84071	
+8407165	3	人口政策	Population policy	84071	原名为“人口政策学”
+8407170	3	计划生育学	Family planning	84071	
+8407199	3	人口学其他学科	Other demography	84071	
+84074	2	劳动科学	Labor science	840	
+8407420	3	劳动管理学	Labor management	84074	代码原为7904520
+8407425	3	劳动统计学	Labor statistics	84074	代码原为7904530
+8407430	3	劳动社会学	Sociology of labor	84074	代码原为7904540
+8407435	3	劳动心理学	Labor psychology	84074	代码原为7904550
+8407440	3	社会保险学	Social insurance	84074	
+8407445	3	职业安全卫生科学技术	Occupational safety and health science and technology	84074	
+8407499	3	劳动科学其他学科	Other labor science	84074	
+84099	2	社会学其他学科	Other sociology	840	
+850	1	民族学与文化学	Ethnology and culturology		原名为“民族学”
+85010	2	民族问题理论	Theory of ethnic issues	850	
+8501010	3	民族问题与民族政策	Ethnic issues and ethnic policy	85010	
+8501020	3	民族关系	Ethnic relations	85010	
+8501030	3	民族经济	Ethnic economy	85010	
+8501040	3	民族教育	Ethnic education	85010	
+8501050	3	民族法制	Ethnic minority legal system	85010	
+8501060	3	民族心理学	Ethnic psychology	85010	
+8501070	3	少数民族政治制度	Political systems of ethnic minorities	85010	
+8501099	3	民族问题理论其他学科	Other theory of ethnic issues	85010	
+85020	2	民族史学	Ethnic history	850	
+8502010	3	民族史	Ethnic history	85020	
+8502020	3	民族关系史	History of ethnic relations	85020	
+8502099	3	民族史学其他学科	Other ethnic history	85020	
+85030	2	蒙古学	Mongolian studies	850	
+85040	2	藏学	Tibetology	850	
+85042	2	新疆民族研究	Xinjiang ethnic studies	850	含维吾尔学
+85050	2	文化人类学与民俗学	Cultural anthropology and folklore	850	
+85060	2	世界民族研究	World ethnic studies	850	
+85070	2	文化学	Culturology	850	
+8507010	3	文化地理学	Cultural geography	85070	
+8507020	3	文化心理学	Cultural psychology	85070	
+8507030	3	文化遗产学	Heritage studies	85070	
+8507099	3	文化学其他学科	Other cultural studies	85070	
+85099	2	民族和文化学其他学科	Other ethnology and culturology	850	原名为“民族学其他学科”
+860	1	新闻学与传播学	Journalism and communication		
+86010	2	新闻理论	Journalism theory	860	
+8601010	3	新闻学	Journalism	86010	
+8601015	3	马克思主义新闻理论	Marxist theory of journalism	86010	
+8601020	3	西方新闻理论	Western theory of journalism	86010	
+8601025	3	新闻法	Press law	86010	
+8601030	3	舆论学	Public opinion studies	86010	
+8601035	3	新闻伦理学	Journalism ethics	86010	
+8601040	3	新闻社会学	Sociology of journalism	86010	
+8601045	3	新闻心理学	Psychology of journalism	86010	
+8601050	3	比较新闻学	Comparative journalism	86010	
+8601099	3	新闻理论其他学科	Other journalism theory	86010	
+86020	2	新闻史	History of journalism	860	
+8602010	3	中国新闻事业史	History of Chinese journalism	86020	
+8602020	3	世界新闻事业史	History of world journalism	86020	
+8602030	3	新闻思想史	History of journalistic thought	86020	
+8602040	3	传播技术史	History of communication technology	86020	
+8602099	3	新闻史其他学科	Other history of journalism	86020	
+86030	2	新闻业务	Journalism practice	860	
+8603010	3	新闻采访	News reporting	86030	
+8603020	3	新闻写作	News writing	86030	
+8603030	3	新闻编辑	News editing	86030	
+8603040	3	新闻评论	News commentary	86030	
+8603050	3	新闻摄影	Photojournalism	86030	
+8603099	3	新闻业务其他学科	Other journalism practice	86030	
+86040	2	新闻事业经营管理	News media management	860	
+8604010	3	传媒经济	Media economics	86040	
+8604020	3	传媒管理	Media management	86040	
+8604099	3	新闻事业经营管理其他学科	Other media operation and management	86040	
+86050	2	广播与电视	Radio and television	860	
+8605010	3	广播电视史	History of broadcasting	86050	
+8605020	3	广播电视理论	Broadcasting theory	86050	
+8605030	3	广播电视业务	Broadcasting practice	86050	包括广播电视采访、写作、编辑等
+8605040	3	广播电视播音	Broadcast announcing	86050	
+8605099	3	广播与电视其他学科	Other broadcasting and television	86050	
+86060	2	传播学	Communication studies	860	
+8606010	3	传播史	History of communication	86060	
+8606020	3	传播理论	Communication theory	86060	
+8606030	3	传播技术	Communication technology	86060	
+8606040	3	组织传播学	Organizational communication	86060	
+8606050	3	传播与社会发展	Communication and social development	86060	
+8606051	3	人际传播	Interpersonal communication	86060	
+8606053	3	国际传播	International communication	86060	
+8606055	3	跨文化传播	Intercultural communication	86060	
+8606057	3	网络传播	Internet communication	86060	
+8606059	3	新媒介传播	New media communication	86060	
+8606099	3	传播学其他学科	Other communication studies	86060	
+86099	2	新闻学与传播学其他学科	Other journalism and communication	860	
+870	1	图书馆、情报与文献学	Library, information and documentation science		
+87010	2	图书馆学	Library science	870	
+8701010	3	图书馆学史	History of library science	87010	包括图书馆事业史
+8701015	3	比较图书馆学	Comparative library science	87010	
+8701020	3	图书馆社会学	Sociology of libraries	87010	
+8701025	3	图书馆管理学	Library management	87010	包括图书馆统计学、图书馆经济学等
+8701030	3	图书馆建筑学	Library architecture	87010	
+8701035	3	图书采访学	Library acquisitions	87010	
+8701040	3	图书分类学	Library classification	87010	
+8701045	3	图书编目学	Library cataloging	87010	包括目录组织法、 文献著录方法、 计算机编目
+8701050	3	目录学	Bibliography	87010	包括普通目录学、专科目录、目录学史等
+8701055	3	图书馆服务学	Library services	87010	包括读者心理学、读者咨询学等
+8701099	3	图书馆学其他学科	Other library science	87010	
+87020	2	文献学	Documentation science	870	
+8702010	3	文献类型学	Document typology	87020	
+8702020	3	文献计量学	Bibliometrics	87020	
+8702030	3	文献检索学	Document retrieval	87020	
+8702040	3	图书史	History of books	87020	
+8702050	3	版本学	Edition studies	87020	
+8702060	3	校勘学	Textual criticism	87020	
+8702099	3	文献学其他学科	Other documentation studies	87020	
+87030	2	情报学	Information science	870	
+8703010	3	情报学史	History of information science	87030	包括情报事业史
+8703015	3	情报社会学	Sociology of information	87030	
+8703020	3	比较情报学	Comparative information science	87030	
+8703025	3	情报计量学	Informetrics	87030	
+8703030	3	情报心理学	Psychology of information	87030	
+8703035	3	情报管理学	Information management	87030	
+8703040	3	情报服务学	Information services	87030	包括情报用户研究等
+8703045	3	情报经济学	Information economics	87030	
+8703050	3	情报检索学	Information retrieval	87030	包括情报检索语言等
+8703055	3	情报系统理论	Information systems theory	87030	包括情报系统分析与设计、 情报网络建设理论
+8703060	3	情报技术	Information technology	87030	
+8703065	3	科学技术情报学	Scientific and technical information science	87030	
+8703070	3	社会科学情报学	Social science information science	87030	
+8703099	3	情报学其他学科	Other information science	87030	
+87040	2	档案学	Archival science	870	
+8704010	3	档案学史	History of archival science	87040	包括档案事业史
+8704020	3	档案管理学	Archives management	87040	
+8704030	3	档案保护技术学	Archival preservation technology	87040	
+8704040	3	档案编纂学	Archival compilation	87040	
+8704099	3	档案学其他学科	Other archival science	87040	
+87050	2	博物馆学	Museology	870	
+87099	2	图书馆、情报与文献学其他学科	Other library, information and documentation science	870	
+880	1	教育学	Education		
+88011	2	教育史	History of education	880	包括中国教育史、外国教育史等
+88014	2	教育学原理	Principles of education	880	
+88017	2	教学论	Didactics	880	
+88021	2	德育原理	Principles of moral education	880	
+88024	2	教育社会学	Sociology of education	880	
+88031	2	教育经济学	Economics of education	880	
+88034	2	教育管理学	Educational administration	880	
+88037	2	比较教育学	Comparative education	880	
+88041	2	教育技术学	Educational technology	880	
+88044	2	军事教育学	Military education	880	
+88047	2	学前教育学	Preschool education	880	
+88051	2	普通教育学	General education	880	包括初等教育学、中等教育学等
+88054	2	高等教育学	Higher education	880	
+88057	2	成人教育学	Adult education	880	
+88061	2	职业技术教育学	Vocational and technical education	880	
+88064	2	特殊教育学	Special education	880	
+88099	2	教育学其他学科	Other education	880	
+890	1	体育科学	Sports science		
+89010	2	体育史	History of sports	890	
+89015	2	体育理论	Sports theory	890	
+89020	2	运动生物力学	Sports biomechanics	890	包括运动解剖学等
+89025	2	运动生理学	Sports physiology	890	
+89030	2	运动心理学	Sports psychology	890	
+89035	2	运动生物化学	Sports biochemistry	890	
+89040	2	体育保健学	Sports health care	890	
+89045	2	运动训练学	Sports training science	890	
+89050	2	体育教育学	Physical education	890	
+89055	2	武术理论与方法	Theory and methods of wushu	890	
+89060	2	体育管理学	Sports management	890	
+89065	2	体育经济学	Sports economics	890	
+89099	2	体育科学其他学科	Other sports science	890	
+910	1	统计学	Statistics		
+91010	2	统计学史	History of statistics	910	
+91030	2	经济统计学	Economic statistics	910	
+9103015	3	国民经济核算	National economic accounting	91030	原名称及代码为“9101520 统计核算理论”
+9103025	3	经济统计分析	Economic statistical analysis	91030	
+9103099	3	经济统计学其他学科	Other economic statistics	91030	
+91035	2	科学技术统计学	Science and technology statistics	910	
+91040	2	社会统计学	Social statistics	910	
+9104010	3	教育统计学	Educational statistics	91040	
+9104020	3	文化与体育统计学	Culture and sports statistics	91040	
+9104040	3	司法统计学	Judicial statistics	91040	
+9104050	3	社会保障统计学	Social security statistics	91040	原名为“社会福利与社会保障统计学”
+9104060	3	生活质量统计学	Quality-of-life statistics	91040	
+9104099	3	社会统计学其他学科	Other social statistics	91040	
+91045	2	人口统计学	Demographic statistics	910	
+91050	2	环境与生态统计学	Environmental and ecological statistics	910	
+9105010	3	资源统计学	Resource statistics	91050	原名为“自然资源统计学”
+9105020	3	环境统计学	Environmental statistics	91050	
+9105030	3	生态统计学	Ecological statistics	91050	原名为“生态平衡统计学”
+9105099	3	环境与生态统计学其他学科	Other environmental and ecological statistics	91050	
+91060	2	生物与医学统计学	Biological and medical statistics	910	
+9106010	3	生物统计学	Biostatistics	91060	
+9106099	3	生物与医学统计学其他学科	Other biological and medical statistics	91060	
+91099	2	统计学其他学科	Other statistics	910	

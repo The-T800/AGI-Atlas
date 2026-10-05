@@ -1,0 +1,2 @@
+#!/bin/sh
+exec uv run python scripts/check_public_metadata.py --identity-only

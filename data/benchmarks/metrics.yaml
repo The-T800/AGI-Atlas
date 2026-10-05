@@ -1,0 +1,5 @@
+# 指标级方向覆盖：成绩的比较方向先查此表，未登记的指标沿用所属基准的 metric_direction。
+# 同一基准可能同时报告方向相反的指标（如准确率与词错误率），因此方向必须落到指标上。
+- metric: WER
+  direction: lower_is_better
+  note: 词错误率，越低越好；LibriSpeech、CoVoST 等语音转写评测通用。

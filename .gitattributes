@@ -1,0 +1,19 @@
+* text=auto
+*.py text eol=lf
+*.yaml text eol=lf
+*.yml text eol=lf
+*.toml text eol=lf
+*.md text eol=lf
+*.tsv text eol=lf
+*.json text eol=lf
+*.html text eol=lf
+*.txt text eol=lf
+.githooks/* text eol=lf
+*.zip binary
+docs/index.html linguist-generated
+reports/*.md linguist-generated
+data/scores/frontier_scores.yaml linguist-generated
+data/models/models.yaml linguist-generated
+data/benchmarks/benchmarks.yaml linguist-generated
+data/denominators/*.tsv linguist-generated
+data/research/sources/** linguist-vendored

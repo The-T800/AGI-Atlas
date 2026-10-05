@@ -1,0 +1,188 @@
+# id|名称|能力路径|一手入口|原始任务分类（分号分隔）[|指标方向，缺省 higher_is_better]
+mmlu|MMLU|知识与专业判断/跨学科知识/综合学科考试|https://github.com/hendrycks/test|57学科;STEM;人文;社会科学;其他
+mmlu-redux|MMLU-Redux|知识与专业判断/跨学科知识/纠错学科考试|https://github.com/aryopg/mmlu-redux|修正MMLU标注错误;学科知识
+mmlu-pro|MMLU-Pro|知识与专业判断/跨学科知识/高难学科考试|https://github.com/TIGER-AI-Lab/MMLU-Pro|数学;物理;化学;生物;计算机科学;工程;健康;心理学;商业;经济学;哲学;历史;法律;其他
+supergpqa|SuperGPQA|知识与专业判断/跨学科知识/研究生跨学科知识|https://github.com/SuperGPQA/SuperGPQA|285学科;研究生知识;专业推理
+c-eval|C-Eval|知识与专业判断/中文知识/中国教育与职业考试|https://github.com/hkust-nlp/ceval|STEM;社会科学;人文;其他;52学科
+cmmlu|CMMLU|知识与专业判断/中文知识/中文综合知识|https://github.com/haonan-li/CMMLU|67主题;人文;社会科学;STEM;中国特定知识
+agieval|AGIEval|知识与专业判断/跨学科知识/标准化入学与资格考试|https://github.com/ruixiangcui/AGIEval|高考;SAT;LSAT;数学竞赛;律师考试
+gpqa|GPQA|科学与研究/科学问题求解/研究生科学推理|https://github.com/idavidrein/gpqa|物理;化学;生物;main;diamond;extended
+hle|Humanity's Last Exam|科学与研究/科学问题求解/专家级跨学科难题|https://lastexam.ai/|数学;物理;计算机;生物医学;人文;文字与图像
+frontiermath|FrontierMath|数学/研究数学/研究级问题求解|https://epoch.ai/frontiermath|数论;代数;几何;分析;组合;Tier 1至4
+scicode|SciCode|科学与研究/科研执行/科学计算编程|https://scicode-bench.github.io/|数学;物理;化学;生物;材料科学;子问题与主问题
+paperbench|PaperBench|科学与研究/科研执行/机器学习论文复现|https://github.com/openai/preparedness/tree/main/project/paperbench|论文复现;代码实现;实验执行;结果匹配
+scienceagentbench|ScienceAgentBench|科学与研究/科研执行/数据驱动科学工作流|https://github.com/OSU-NLP-Group/ScienceAgentBench|生物信息;计算化学;地理信息;数据科学
+swe-bench|SWE-bench|软件工程/代码仓库维护/真实问题修复|https://www.swebench.com/|Full;Lite;Verified;真实GitHub问题
+swe-bench-pro|SWE-bench Pro|软件工程/代码仓库维护/复杂仓库问题修复|https://github.com/scaleapi/SWE-bench_Pro-os|多文件修改;长时工程;公开与私有子集
+swe-multilingual|SWE-bench Multilingual|软件工程/代码仓库维护/跨语言仓库修改|https://www.swebench.com/multilingual.html|多编程语言;真实仓库修复
+nl2repo|NL2Repo-Bench|软件工程/程序构造/从需求生成完整仓库|https://arxiv.org/abs/2512.12730|单份自然语言需求文档;空仓库起步;架构与多模块实现;依赖管理;上游测试套件评分
+livecodebench|LiveCodeBench|软件工程/程序构造/动态竞赛代码生成|https://livecodebench.github.io/|代码生成;执行;自我修复;测试输出预测
+humaneval|HumanEval|软件工程/程序构造/函数级代码生成|https://github.com/openai/human-eval|Python函数补全;单元测试;pass@k
+mbpp|MBPP|软件工程/程序构造/基础编程题|https://github.com/google-research/google-research/tree/master/mbpp|自然语言到Python;基础算法;测试用例
+evalplus|EvalPlus|软件工程/程序验证/增强测试正确性|https://github.com/evalplus/evalplus|HumanEval+;MBPP+;增强测试
+bigcodebench|BigCodeBench|软件工程/程序构造/库调用与复合编程|https://bigcode-bench.github.io/|库组合;复杂指令;Complete;Instruct
+cruxeval|CRUXEval|软件工程/程序理解/输入输出推演|https://github.com/facebookresearch/cruxeval|输入预测;输出预测
+aider-polyglot|Aider Polyglot|软件工程/代码仓库维护/多语言代码编辑|https://aider.chat/docs/leaderboards/|C++;Go;Java;JavaScript;Python;Rust
+codeforces|Codeforces|软件工程/程序构造/竞技编程|https://codeforces.com/|算法比赛;评级;百分位
+seccodebench|SecCodeBench|软件工程/程序验证/安全代码编写|https://github.com/alibaba/sec-code-bench|安全代码生成;漏洞修复
+ds1000|DS-1000|软件工程/数据与查询/数据科学代码生成|https://ds1000-code-gen.github.io/|NumPy;Pandas;SciPy;Matplotlib;Scikit-learn;PyTorch;TensorFlow
+spider|Spider|软件工程/数据与查询/跨数据库SQL生成|https://yale-lily.github.io/spider|多表关联;嵌套查询;跨数据库泛化
+bird|BIRD|软件工程/数据与查询/真实数据库SQL生成|https://bird-bench.github.io/|外部知识;脏数据;SQL执行效率
+gsm8k|GSM8K|数学/基础数学/多步算术应用题|https://github.com/openai/grade-school-math|小学数学;多步运算;文字应用题
+math|MATH|数学/竞赛数学/综合竞赛解题|https://github.com/hendrycks/math|初等代数;代数;数论;计数概率;几何;中等代数;微积分预备
+math500|MATH-500|数学/竞赛数学/综合竞赛解题|https://huggingface.co/datasets/HuggingFaceH4/MATH-500|MATH 500题子集;七数学学科
+aime|AIME|数学/竞赛数学/美国邀请赛解题|https://artofproblemsolving.com/wiki/index.php/AIME_Problems_and_Solutions|代数;几何;数论;组合;按年份分卷
+cnmo|CNMO|数学/竞赛数学/中国奥赛解题|https://github.com/deepseek-ai/DeepSeek-R1|2024中国数学奥林匹克;模型报告复现口径
+hmmt|HMMT|数学/竞赛数学/哈佛麻省数学竞赛|https://www.hmmt.org/|二月赛;十一月赛;代数;组合;几何
+omni-math|Omni-MATH|数学/竞赛数学/奥赛分层解题|https://omni-math.github.io/|33子领域;10难度等级
+imo-answer|IMO-AnswerBench|数学/竞赛数学/奥赛答案求解|https://imobench.github.io/|奥赛难度;答案核验
+minif2f|miniF2F|数学/形式化证明/形式化定理证明|https://github.com/openai/miniF2F|Lean;Metamath;Isabelle;HOL Light
+proofnet|ProofNet|数学/形式化证明/数学命题形式化|https://github.com/zhangir-azerbayev/ProofNet|本科数学;自然语言证明;Lean形式化
+mathvista|MathVista|视觉与空间/图形数学/视觉数学推理|https://mathvista.github.io/|代数;算术;几何;逻辑;数值;科学;统计
+mathvision|MATH-Vision|视觉与空间/图形数学/高难视觉数学|https://mathvision-cuhk.github.io/|16数学学科;五难度等级
+we-math|We-Math|视觉与空间/图形数学/多步视觉数学|https://we-math.github.io/|知识掌握;多步组合;泛化
+dynamath|DynaMath|视觉与空间/图形数学/扰动下数学泛化|https://dynamath.github.io/|动态变体;鲁棒性;最坏情形
+bbh|BIG-Bench Hard|推理与问题求解/逻辑推理/困难逻辑任务组合|https://github.com/suzgunmirac/BIG-Bench-Hard|布尔表达式;因果判断;日期理解;歧义消解;Dyck语言;形式谬误;几何形状;超义理解;逻辑演绎;电影推荐;多步算术;导航;物体计数;企鹅表格;彩色物体;讽刺;体育理解;临时状态;交换物体跟踪;词序;翻译错误;真假判断;单词排序
+arc-ai2|AI2 ARC|推理与问题求解/常识推理/小学科学推理|https://allenai.org/data/arc|Easy;Challenge;科学选择题
+hellaswag|HellaSwag|推理与问题求解/常识推理/事件后续预测|https://rowanzellers.com/hellaswag/|常识补全;日常活动;对抗选项
+piqa|PIQA|推理与问题求解/常识推理/物理常识|https://arxiv.org/abs/1911.11641|日常物理目标;工具使用常识
+winogrande|WinoGrande|语言与沟通/语义理解/指代消解|https://huggingface.co/datasets/allenai/winogrande|代词;常识消歧
+cluewsc|CLUEWSC|语言与沟通/语义理解/中文指代消解|https://github.com/CLUEbenchmark/CLUE|中文Winograd;指代判断
+logiqa|LogiQA|推理与问题求解/逻辑推理/文本逻辑推断|https://github.com/lgw863/LogiQA-dataset|充分条件;必要条件;范畴;逻辑关系
+folio|FOLIO|推理与问题求解/逻辑推理/一阶逻辑推理|https://github.com/Yale-LILY/FOLIO|自然语言前提;一阶逻辑;真假未知
+arc-agi|ARC-AGI|学习与泛化/抽象规则学习/少样本视觉规则归纳|https://arcprize.org/|ARC-AGI-1;ARC-AGI-2;抽象图形规则
+arc-agi-3|ARC-AGI-3|学习与泛化/交互式学习/探索未知环境|https://arcprize.org/arc-agi/3/|交互环境;探索;适应;行动效率
+cl-bench|CL-bench|学习与泛化/上下文学习/专业新知识综合应用|https://github.com/Tencent-Hunyuan/CL-bench|领域知识推理;规则系统应用;程序化任务执行;经验发现与模拟
+cl-bench-life|CL-bench Life|学习与泛化/上下文学习/生活上下文学习|https://github.com/Tencent-Hunyuan/CL-bench|沟通与社交;碎片信息与修订;行为记录与活动轨迹
+chores|CHORES|具身与运动/家庭操作/长程家庭任务|https://arxiv.org/abs/2312.02976|目标导航;房间访问;物体拾取;取物
+longmemeval|LongMemEval|记忆与长上下文/长期记忆/跨会话记忆问答|https://github.com/xiaowu0162/LongMemEval|用户信息提取;助手信息提取;偏好记忆;跨会话推理;知识更新;时间推理;弃答
+longmemeval-v2|LongMemEval-V2|记忆与长上下文/长期记忆/代理长期记忆|https://github.com/xiaowu0162/LongMemEval-V2|代理上下文;长期记忆
+locomo|LoCoMo|记忆与长上下文/长期记忆/长期对话记忆|https://snap-research.github.io/locomo/|单跳;多跳;时间;开放域;对抗问答
+longbench|LongBench|记忆与长上下文/长文理解/长上下文综合|https://github.com/THUDM/LongBench|单文档问答;多文档问答;摘要;少样本学习;合成任务;代码
+longbench-v2|LongBench v2|记忆与长上下文/长文理解/复杂长上下文推理|https://github.com/THUDM/LongBench|单文档;多文档;长对话历史;代码库;结构化数据;ICL
+aa-lcr|AA-LCR|记忆与长上下文/长文理解/长文本证据推理|https://artificialanalysis.ai/evaluations/artificial-analysis-long-context-reasoning|跨文档理解;证据整合
+ruler|RULER|记忆与长上下文/信息检索/长上下文有效长度|https://github.com/NVIDIA/RULER|单针检索;多针检索;多跳追踪;聚合;问答
+mrcr|MRCR|记忆与长上下文/信息检索/多轮多针检索|https://huggingface.co/datasets/openai/mrcr|多轮指代;2针;4针;8针;上下文长度
+frames|FRAMES|记忆与长上下文/信息检索/检索增强多跳问答|https://huggingface.co/datasets/google/frames-benchmark|事实性;检索;数值推理;表格推理;多跳证据
+hotpotqa|HotpotQA|记忆与长上下文/信息检索/多跳证据整合|https://hotpotqa.github.io/|桥接;比较;支撑事实
+musique|MuSiQue|记忆与长上下文/信息检索/组合多跳问答|https://github.com/StonyBrookNLP/musique|2跳;3跳;4跳;不可回答
+simpleqa|SimpleQA|可靠性与自我监控/事实可靠性/短事实准确性|https://github.com/openai/simple-evals|事实正确;错误;未尝试
+c-simpleqa|Chinese SimpleQA|可靠性与自我监控/事实可靠性/中文事实准确性|https://github.com/OpenStellarTeam/ChineseSimpleQA|六类主题;准确率;幻觉率
+truthfulqa|TruthfulQA|可靠性与自我监控/事实可靠性/抵抗常见误解|https://github.com/sylinrl/TruthfulQA|38类别;真实性;信息性
+abstentionbench|AbstentionBench|可靠性与自我监控/不确定性管理/适当弃答|https://github.com/facebookresearch/AbstentionBench|20数据集;6弃答场景;信息不足;过时知识
+hallusionbench|HallusionBench|可靠性与自我监控/事实可靠性/视觉幻觉识别|https://github.com/tianyi-lab/HallusionBench|语言幻觉;视觉错觉;图文一致性
+pope|POPE|可靠性与自我监控/事实可靠性/物体幻觉识别|https://github.com/AoiDragon/POPE|随机;流行;对抗物体采样
+simplevqa|SimpleVQA|可靠性与自我监控/事实可靠性/视觉事实问答|https://arxiv.org/abs/2502.13059|视觉事实;知识密集问答
+ifeval|IFEval|语言与沟通/指令遵循/可验证格式约束|https://github.com/google-research/google-research/tree/master/instruction_following_eval|字数;关键词;格式;语言;重复;组合约束
+ifbench|IFBench|语言与沟通/指令遵循/新型组合约束|https://github.com/allenai/IFBench|域外约束;可验证指令
+multichallenge|MultiChallenge|语言与沟通/指令遵循/多轮约束保持|https://huggingface.co/datasets/ScaleAI/MultiChallenge|指令保留;推理;版本编辑;自我一致性
+drop|DROP|语言与沟通/阅读理解/离散数值阅读推理|https://allenai.org/data/drop|加减;计数;排序;文本跨度
+race|RACE|语言与沟通/阅读理解/考试阅读理解|https://www.cs.cmu.edu/~glai1/data/race/|初中;高中;英语阅读
+triviaqa|TriviaQA|知识与专业判断/事实知识/百科事实问答|https://nlp.cs.washington.edu/triviaqa/|百科;网页证据;事实提取
+naturalquestions|Natural Questions|知识与专业判断/事实知识/真实搜索问答|https://ai.google.com/research/NaturalQuestions|长答案;短答案;无答案
+wildbench|WildBench|语言与沟通/开放对话/真实用户对话|https://github.com/allenai/WildBench|真实对话;任务检查清单;WB-Score
+alpacaeval|AlpacaEval|语言与沟通/开放对话/回复偏好|https://github.com/tatsu-lab/alpaca_eval|自动偏好;长度校正胜率
+arena-hard|Arena-Hard|语言与沟通/开放对话/困难指令偏好|https://github.com/lmarena/arena-hard-auto|困难真实提示;模型裁判;胜率
+mt-bench|MT-Bench|语言与沟通/开放对话/多轮回答质量|https://github.com/lm-sys/FastChat|写作;角色扮演;抽取;推理;数学;代码;STEM;人文
+mmmlu|MMMLU|多语言与文化/多语言知识/跨语言学科问答|https://huggingface.co/datasets/openai/MMMLU|14语言;MMLU翻译
+mmlu-prox|MMLU-ProX|多语言与文化/多语言知识/跨语言专业推理|https://github.com/weihao1115/MMLU-ProX|29语言;专业知识
+include|INCLUDE|多语言与文化/文化知识/地区文化与考试|https://huggingface.co/datasets/CohereForAI/include-base-44|地区考试;母语题目;文化背景
+global-piqa|Global PIQA|多语言与文化/跨语言推理/多语言物理常识|https://huggingface.co/datasets/mrlbenchmarks/global-piqa-nonparallel|多语言;非平行文化常识
+polymath|PolyMATH|多语言与文化/跨语言推理/多语言数学|https://github.com/QwenLM/PolyMath|18语言;四难度
+mgsm|MGSM|多语言与文化/跨语言推理/多语言算术|https://github.com/google-research/url-nlp/tree/main/mgsm|11语言;GSM8K翻译
+flores|FLORES-200|多语言与文化/翻译/低资源语言翻译|https://github.com/facebookresearch/flores|200语言;机器翻译
+wmt24|WMT24++|多语言与文化/翻译/多语言翻译质量|https://github.com/google-research/mt-metrics-eval|语言对;翻译质量
+mmmu|MMMU|视觉与空间/跨模态知识/大学多模态综合|https://mmmu-benchmark.github.io/|艺术设计;商业;科学;健康医学;人文社会;技术工程;30学科
+mmmu-pro|MMMU-Pro|视觉与空间/跨模态知识/高难多模态知识|https://mmmu-benchmark.github.io/|标准版;纯视觉版;抗文本捷径
+mmbench|MMBench|视觉与空间/视觉理解/综合视觉问答|https://github.com/open-compass/MMBench|感知;推理;20细粒度维度
+mmstar|MMStar|视觉与空间/视觉理解/视觉依赖推理|https://mmstar-benchmark.github.io/|粗粒度感知;细粒度感知;实例推理;逻辑推理;科学技术;数学
+realworldqa|RealWorldQA|视觉与空间/空间理解/真实场景空间问答|https://huggingface.co/datasets/xai-org/RealworldQA|真实图像;空间关系;物体识别
+zerobench|ZeroBench|视觉与空间/视觉理解/复杂视觉组合推理|https://zerobench.github.io/|主问题;子问题;困难视觉推理
+babyvision|BabyVision|视觉与空间/视觉理解/基础非语言视觉推理|https://github.com/UniPat-AI/BabyVision|细粒度辨别;视觉跟踪;空间感知;模式识别
+chartqa|ChartQA|视觉与空间/图表与文档/图表问答|https://github.com/vis-nlp/ChartQA|图表元素;数值计算;逻辑运算
+charxiv|CharXiv|视觉与空间/图表与文档/科学图表解读|https://charxiv.github.io/|描述性问题;推理性问题
+docvqa|DocVQA|视觉与空间/图表与文档/文档问答|https://www.docvqa.org/|单文档;多文档;文档视觉问答
+infovqa|InfographicVQA|视觉与空间/图表与文档/信息图理解|https://www.docvqa.org/datasets/infographicvqa|信息图;布局;文本;图形融合
+ocrbench|OCRBench|视觉与空间/文字与版面/综合OCR|https://github.com/Yuliang-Liu/MultimodalOCR|文本识别;场景文字问答;文档问答;关键信息提取;手写数学
+cc-ocr|CC-OCR|视觉与空间/文字与版面/多语OCR与解析|https://github.com/AlibabaResearch/AdvancedLiterateMachinery|多语文本;多场景文本;文档解析;关键信息提取
+omnidocbench|OmniDocBench|视觉与空间/文字与版面/文档结构解析|https://github.com/opendatalab/OmniDocBench|文本;表格;公式;阅读顺序;版面
+mmlongbench-doc|MMLongBench-Doc|视觉与空间/图表与文档/长文档跨页推理|https://github.com/mayubo2333/MMLongBench-Doc|跨页证据;文本;表格;图表;图片;布局
+ai2d|AI2D|视觉与空间/图表与文档/科学示意图|https://allenai.org/data/diagrams|小学科学图;图文关系
+countbench|CountBench (CountBenchQA)|视觉与空间/视觉定位/物体计数|https://huggingface.co/datasets/vikhyatk/CountBenchQA|图像物体计数;数量
+refcoco|RefCOCO|视觉与空间/视觉定位/指代表达定位|https://github.com/lichengunc/refer|RefCOCO;RefCOCO+;RefCOCOg;指代表达
+odinw|ODinW|视觉与空间/视觉定位/开放域检测|https://github.com/microsoft/GLIP|域外物体检测;13数据集;35数据集
+embspatial|EmbSpatialBench|视觉与空间/空间理解/具身视角空间推理|https://arxiv.org/abs/2406.05756|空间关系;具身场景
+refspatial|RefSpatialBench|视觉与空间/空间理解/空间指令定位|https://github.com/Zhoues/RoboRefer|空间关系;目标指代;位置定位
+erqa|ERQA|视觉与空间/空间理解/具身推理问答|https://github.com/embodiedreasoning/ERQA|空间;物理;动作;多视角
+lingoqa|LingoQA|视觉与空间/空间理解/驾驶场景推理|https://github.com/wayveai/LingoQA|驾驶视频;行为解释;场景问答
+vstar|V*|视觉与空间/视觉定位/高分辨率视觉搜索|https://vstar-seal.github.io/|属性识别;空间关系;视觉搜索
+video-mme|Video-MME|视频与时间理解/综合视频理解/长短视频问答|https://video-mme.github.io/home_page.html|6领域;30子领域;短中长;有字幕;无字幕
+videommmu|Video-MMMU|视频与时间理解/视频知识学习/视频知识获取应用|https://videommmu.github.io/|感知;理解;适应;六学科
+mvbench|MVBench|视频与时间理解/时序推理/细粒度视频任务|https://github.com/OpenGVLab/Ask-Anything|动作顺序;动作预测;动作定位;运动方向;物体交互;状态变化;事件计数;20任务
+mlvu|MLVU|视频与时间理解/综合视频理解/长视频多任务|https://github.com/JUNJIE99/MLVU|主题;细节;事件;动作;计数;摘要;子场景
+lvbench|LVBench|视频与时间理解/综合视频理解/超长视频理解|https://github.com/THUDM/LVBench|信息提取;事件理解;摘要;实体识别;推理;时间定位
+mmvu|MMVU|视频与时间理解/视频知识学习/专家视频理解|https://github.com/yale-nlp/MMVU|科学;医疗;人文;艺术
+egoschema|EgoSchema|视频与时间理解/时序推理/第一视角长时推理|https://egoschema.github.io/|第一视角;长时视频;多步理解
+tempcompass|TempCompass|视频与时间理解/时序推理/时间关系辨别|https://github.com/llyx97/TempCompass|动作;速度;方向;事件顺序;属性变化
+perceptiontest|Perception Test|视频与时间理解/时序推理/多模态感知记忆|https://github.com/google-deepmind/perception_test|物体跟踪;点跟踪;动作定位;声音定位;视频问答;音频问答
+audio-bench|AudioBench|听觉与语音/音频综合/音频语言理解|https://github.com/AudioLLMs/AudioBench|语音识别;语音翻译;语音问答;声音理解;情绪;口音;说话人
+mmau|MMAU|听觉与语音/音频综合/音频推理|https://github.com/Sakshi113/mmau|语音;声音;音乐;推理
+libri|LibriSpeech|听觉与语音/语音识别/英文语音转写|https://www.openslr.org/12|test-clean;test-other;WER|lower_is_better
+aishell|AISHELL-1|听觉与语音/语音识别/中文语音转写|https://www.openslr.org/33/|普通话;CER
+covost|CoVoST 2|听觉与语音/语音翻译/跨语言语音翻译|https://github.com/facebookresearch/covost|多语言到英文;英文到多语言;BLEU
+clotho|Clotho|听觉与语音/声音理解/环境声音描述|https://zenodo.org/records/3490684|声音事件;自然语言描述
+audioset|AudioSet|听觉与语音/声音理解/声音事件分类|https://research.google.com/audioset/|527声音类别;多标签识别
+iemocap|IEMOCAP|听觉与语音/副语言理解/语音情绪识别|https://sail.usc.edu/iemocap/|情绪;语音;交互对话
+meld|MELD|听觉与语音/副语言理解/多模态对话情绪|https://affective-meld.github.io/|7情绪;多说话人对话
+gaia|GAIA|代理与执行/通用任务执行/多工具真实问答|https://huggingface.co/gaia-benchmark|Level 1;Level 2;Level 3;检索;文件;工具
+bfcl|BFCL|代理与执行/工具调用/函数选择与参数生成|https://gorilla.cs.berkeley.edu/leaderboard.html|单函数;多函数;并行调用;相关性;多轮;记忆;网页搜索
+tau2|τ²-bench|代理与执行/协作执行/用户与代理协同任务|https://github.com/sierra-research/tau2-bench|零售;航空;电信;双控制;pass^k
+vita|VITA-Bench|代理与执行/协作执行/跨场景交互执行|https://github.com/meituan-longcat/vitabench|交互式工具;复杂任务
+deepplanning|DeepPlanning|代理与执行/约束规划/长程全局规划|https://huggingface.co/datasets/Qwen/DeepPlanning|旅行;购物;约束满足;全局优化
+toolathlon|Toolathlon|代理与执行/工具调用/跨工具工作流|https://github.com/hkust-nlp/Toolathlon|真实工具;长程工作流;多应用协作
+mcpmark|MCPMark|代理与执行/工具调用/MCP真实任务|https://github.com/eval-sys/mcpmark|文件系统;数据库;GitHub;Notion;浏览器
+browsecomp|BrowseComp|代理与执行/信息研究/困难网页检索|https://github.com/openai/simple-evals|复杂搜索;难定位事实;答案核验
+browsecomp-zh|BrowseComp-zh|代理与执行/信息研究/中文困难网页检索|https://github.com/PALIN2018/BrowseComp-ZH|中文网页;复杂检索
+widesearch|WideSearch|代理与执行/信息研究/广度信息搜集|https://github.com/ByteDance-Seed/WideSearch|广度搜索;多实体;结构化信息;item-F1
+web-arena|WebArena|代理与执行/环境操作/网页端到端任务|https://github.com/web-arena-x/webarena|购物;论坛;代码协作;内容管理;地图
+visualwebarena|VisualWebArena|代理与执行/环境操作/视觉网页任务|https://jykoh.com/vwa|视觉购物;分类广告;Reddit
+weblinx|WebLINX|代理与执行/环境操作/对话式网页导航|https://mcgill-nlp.github.io/weblinx/|多轮网页操作;跨网站泛化
+osworld|OSWorld|代理与执行/环境操作/桌面跨应用操作|https://os-world.github.io/|网页;办公;文件;多应用工作流;Verified
+androidworld|AndroidWorld|代理与执行/环境操作/手机端到端任务|https://github.com/google-research/android_world|Android应用;动态任务;状态验证
+screenspot|ScreenSpot|代理与执行/界面定位/图形界面元素定位|https://github.com/njucckevin/SeeClick|桌面;网页;移动;文本;图标
+screenspot-pro|ScreenSpot-Pro|代理与执行/界面定位/专业软件高分辨率定位|https://github.com/likaixin2000/ScreenSpot-Pro-GUI-Grounding|专业软件;高分辨率;细粒度控件
+terminal-bench|Terminal-Bench|代理与执行/环境操作/终端任务执行|https://www.tbench.ai/|系统管理;代码;数据;安全;机器学习
+metr-horizon|METR Time Horizons|代理与执行/长程自主性/不同难度下可靠完成|https://metr.org/time-horizons/|软件任务;人类专家任务时长;50%与80%成功率
+workarena|WorkArena|代理与执行/环境操作/企业软件操作|https://github.com/ServiceNow/WorkArena|列表;表单;知识库;服务目录;工作流
+agentbench|AgentBench|代理与执行/通用任务执行/多环境代理|https://github.com/THUDM/AgentBench|操作系统;数据库;知识图谱;卡牌;推理谜题;家居;网购;网页
+gdpval|GDPval|专业工作与创造/经济工作/职业交付质量|https://huggingface.co/datasets/openai/gdpval|9行业;44职业;专家比较;文档;表格;演示
+healthbench|HealthBench|专业工作与创造/专业判断/医疗对话质量|https://github.com/openai/simple-evals|急诊;不确定性;准确性;沟通;健康记录;指令;全局健康
+medqa|MedQA|专业工作与创造/专业判断/医学执照知识|https://github.com/jind11/MedQA|美国;中国大陆;中国台湾;医学考试
+pubmedqa|PubMedQA|专业工作与创造/专业判断/医学文献判断|https://pubmedqa.github.io/|生物医学摘要;是;否;不确定
+slake|SLAKE|专业工作与创造/专业判断/医学影像问答|https://www.med-vqa.com/slake/|放射影像;器官;疾病;医学知识
+pmc-vqa|PMC-VQA|专业工作与创造/专业判断/医学图文推理|https://github.com/xiaoman-zhang/PMC-VQA|医学图片;文献图表;多选问答
+medxpertqa|MedXpertQA|专业工作与创造/专业判断/专家医学推理|https://github.com/TsinghuaC3I/MedXpertQA|文本;多模态;专科临床推理
+legalbench|LegalBench|专业工作与创造/专业判断/法律推理|https://github.com/HazyResearch/legalbench|事实识别;规则识别;规则应用;规则结论;解释;修辞理解
+finqa|FinQA|专业工作与创造/专业判断/财务数值推理|https://github.com/czyssrs/FinQA|财务报告;表格;多步计算;程序解释
+creativebench|WritingBench|专业工作与创造/内容创造/约束写作|https://github.com/X-PLUG/WritingBench|6写作领域;100子领域;任务评分规则
+gen-eval|GenEval|专业工作与创造/内容创造/组合图像生成|https://github.com/djghosh13/geneval|单物体;双物体;计数;颜色;位置;属性绑定
+vbench|VBench|专业工作与创造/内容创造/视频生成质量|https://github.com/Vchitect/VBench|主体一致性;背景一致性;时间闪烁;运动;美学;16维度
+tombench|ToMBench|社会认知与合作/心理理论/他人心理状态推断|https://aclanthology.org/2024.acl-long.847/|8任务;31能力;信念;意图;情绪;知识;非字面表达
+socialiqa|Social IQa|社会认知与合作/社会常识/社会情境理解|https://maartensap.com/social-iqa/|动机;情绪;后果;社会互动
+sotopia|SOTOPIA|社会认知与合作/社会互动/开放社交目标|https://github.com/sotopia-lab/sotopia|目标达成;可信度;关系;知识;财务与社会规则
+negotiation|Deal or No Deal|社会认知与合作/社会互动/谈判协商|https://github.com/facebookresearch/end-to-end-negotiator|物品谈判;效用;协议达成
+harmbench|HarmBench|安全与稳健性/有害请求/抵抗有害行为|https://github.com/centerforaisafety/HarmBench|标准行为;版权;上下文;多模态;攻击成功率
+strongreject|StrongREJECT|安全与稳健性/有害请求/越狱抵抗|https://github.com/dsbowen/strong_reject|越狱;拒绝;有害信息充分性
+agentdojo|AgentDojo|安全与稳健性/代理安全/提示注入抵抗|https://github.com/ethz-spylab/agentdojo|邮件;银行;旅行;Slack;任务效用;攻击成功率
+bbq|BBQ|安全与稳健性/公平与偏差/社会偏差|https://github.com/nyu-mll/BBQ|9社会维度;歧义;非歧义
+toxigen|ToxiGen|安全与稳健性/有害请求/隐性有害语言|https://github.com/microsoft/TOXIGEN|少数群体;隐性仇恨;无害对照
+wildguard|WildGuardMix|安全与稳健性/有害请求/安全意图识别|https://github.com/allenai/wildguard|提示有害性;响应有害性;拒绝识别
+behavior|BEHAVIOR|具身与运动/家庭操作/日常活动执行|https://behavior.stanford.edu/|家庭活动;物体状态;长程操作;BEHAVIOR-1K
+calvin|CALVIN|具身与运动/机器人操控/语言条件连续操作|https://github.com/mees/calvin|34任务;链式任务;跨环境泛化
+libero|LIBERO|具身与运动/机器人操控/终身机器人学习|https://libero-project.github.io/|Spatial;Object;Goal;Long;知识迁移
+rlbench|RLBench|具身与运动/机器人操控/多任务机器人操作|https://github.com/stepjam/RLBench|100任务;操作变化;少样本
+metaworld|Meta-World|具身与运动/机器人操控/多任务与元学习|https://meta-world.github.io/|50操作任务;多任务;元强化学习
+alfred|ALFRED|具身与运动/家庭操作/语言到家庭行动|https://askforalfred.com/|导航;拾取;放置;加热;冷却;清洗
+habitat|Habitat|具身与运动/导航/具身导航|https://aihabitat.org/|PointNav;ObjectNav;ImageNav;社会导航
+mmsi|MMSI-Bench|视觉与空间/空间理解/多图空间智能|https://github.com/InternRobotics/MMSI-Bench|多图空间推理;人类对照
+rebench|RE-Bench|科学与研究/科研执行/AI研发工程|https://github.com/METR/RE-Bench|机器学习优化;性能工程;人类专家时间预算

@@ -1,0 +1,3537 @@
+source_id: epoch-benchmarks
+source_url: https://epoch.ai/data/benchmark_data.zip
+source_sha256: 43820f9d624eafa7b9932ab11a8fef90959997bbe6b5866d31795d08f470aef4
+observed_on: '2026-10-04'
+source_file: benchmark_data.zip/model_metadata.csv
+license: CC-BY 4.0（压缩包 README）
+notes: name 为 Epoch 的 model_group；release_date 为模型发布日期，不是评测日期；源表未给出日期或同组版本日期不一致时为
+  null，后者在 conflicting_release_dates 逐条保留。
+models:
+- name: AI Co-Mathematician
+  organization: Google DeepMind
+  release_date: '2026-05-08'
+  model_versions:
+  - gdm-ai-co-mathematician
+- name: Amazon Nova Lite
+  organization: Amazon
+  release_date: '2024-12-03'
+  model_versions:
+  - amazon.nova-lite-v1:0
+- name: Amazon Nova Micro
+  organization: Amazon
+  release_date: '2024-12-03'
+  model_versions:
+  - amazon.nova-micro-v1:0
+- name: Amazon Nova Pro
+  organization: Amazon
+  release_date: '2024-12-03'
+  model_versions:
+  - amazon.nova-pro-v1:0
+- name: Aria
+  organization: null
+  release_date: '2024-09-30'
+  model_versions:
+  - Aria
+- name: BLIP-2 (Q-Former)
+  organization: Salesforce Research
+  release_date: '2023-02-06'
+  model_versions:
+  - blip2-opt-2.7b
+- name: BLOOM-176B
+  organization: Hugging Face,BigScience
+  release_date: '2022-07-06'
+  model_versions:
+  - bloom
+- name: Baichuan 1-13B
+  organization: Baichuan
+  release_date: '2023-07-11'
+  model_versions:
+  - Baichuan-13B-Base
+- name: Baichuan 2-7B
+  organization: Baichuan
+  release_date: '2023-09-20'
+  model_versions:
+  - Baichuan-2-7B-Base
+- name: Baichuan1-7B
+  organization: Baichuan
+  release_date: '2023-06-01'
+  model_versions:
+  - Baichuan-7B
+- name: Baichuan2-13B
+  organization: Baichuan
+  release_date: '2023-09-06'
+  model_versions:
+  - Baichuan-2-13B-Base
+- name: Baichuan2-13B-Chat
+  organization: null
+  release_date: '2023-09-06'
+  model_versions:
+  - Baichuan2-13B-Chat
+- name: ByteVideoLLM-14B
+  organization: null
+  release_date: '2024-10-13'
+  model_versions:
+  - ByteVideoLLM-14B
+- name: Cerebras-GPT-13B
+  organization: Cerebras Systems
+  release_date: '2023-03-20'
+  model_versions:
+  - Cerebras-GPT-13B
+- name: Chat-Uni-Vi-7B-v1.5 + 100k SG-WV
+  organization: null
+  release_date: '2024-06-20'
+  model_versions:
+  - Chat-Uni-Vi-7B-v1.5 + 100k SG-WV
+- name: 'Chat-UniVi-7B-v1.5 '
+  organization: null
+  release_date: '2024-04-23'
+  model_versions:
+  - 'Chat-UniVi-7B-v1.5 '
+- name: ChatGPT Latest
+  organization: OpenAI
+  release_date: null
+  model_versions:
+  - alpine-alpha_high
+  - alpine-alpha_xhigh
+  - galapagos-alpha
+  - galapagos-alpha_xhigh
+  - galapagos-pro-alpha_xhigh
+  conflicting_release_dates:
+    '2025-08-07':
+    - alpine-alpha_high
+    - alpine-alpha_xhigh
+    '2025-12-11':
+    - galapagos-alpha
+    - galapagos-alpha_xhigh
+    - galapagos-pro-alpha_xhigh
+- name: Chinchilla
+  organization: DeepMind
+  release_date: '2022-03-29'
+  model_versions:
+  - Chinchilla (70B)
+- name: Claude 1.3
+  organization: Anthropic
+  release_date: '2023-04-18'
+  model_versions:
+  - claude-1.3
+- name: Claude 2
+  organization: Anthropic
+  release_date: '2023-07-11'
+  model_versions:
+  - claude-2.0
+- name: Claude 2.1
+  organization: Anthropic
+  release_date: '2023-11-21'
+  model_versions:
+  - claude-2.1
+- name: Claude 3 Haiku
+  organization: Anthropic
+  release_date: '2024-03-07'
+  model_versions:
+  - claude-3-haiku-20240307
+- name: Claude 3 Opus
+  organization: Anthropic
+  release_date: '2024-02-29'
+  model_versions:
+  - claude-3-opus-20240229
+- name: Claude 3 Sonnet
+  organization: Anthropic
+  release_date: '2024-02-29'
+  model_versions:
+  - claude-3-sonnet-20240229
+- name: Claude 3.5 Haiku
+  organization: Anthropic
+  release_date: '2024-10-22'
+  model_versions:
+  - claude-3-5-haiku-20241022
+- name: Claude 3.5 Sonnet
+  organization: Anthropic
+  release_date: '2024-06-20'
+  model_versions:
+  - claude-3-5-sonnet-20240620
+- name: Claude 3.5 Sonnet (October 2024)
+  organization: Anthropic
+  release_date: '2024-10-22'
+  model_versions:
+  - claude-3-5-sonnet-20241022
+- name: Claude 3.7 Sonnet
+  organization: Anthropic
+  release_date: '2025-02-24'
+  model_versions:
+  - claude-3-7-sonnet-20250219
+  - claude-3-7-sonnet-20250219_12K
+  - claude-3-7-sonnet-20250219_15K
+  - claude-3-7-sonnet-20250219_16K
+  - claude-3-7-sonnet-20250219_1K
+  - claude-3-7-sonnet-20250219_2K
+  - claude-3-7-sonnet-20250219_32K
+  - claude-3-7-sonnet-20250219_64K
+  - claude-3-7-sonnet-20250219_8K
+  - claude-3-7-sonnet-20250219_unknown
+- name: Claude Fable 5
+  organization: Anthropic
+  release_date: '2026-06-09'
+  model_versions:
+  - claude-fable-5
+  - claude-fable-5_high
+  - claude-fable-5_low
+  - claude-fable-5_max
+  - claude-fable-5_medium
+  - claude-fable-5_unknown
+  - claude-fable-5_xhigh
+- name: Claude Fable 5.1
+  organization: Anthropic
+  release_date: '2026-09-01'
+  model_versions:
+  - claude-fable-5-1_high
+  - claude-fable-5-1_low
+  - claude-fable-5-1_max
+  - claude-fable-5-1_medium
+  - claude-fable-5-1_unknown
+  - claude-fable-5-1_xhigh
+- name: Claude Haiku 4.5
+  organization: Anthropic
+  release_date: '2025-10-15'
+  model_versions:
+  - claude-haiku-4-5-20251001
+  - claude-haiku-4-5-20251001_16K
+  - claude-haiku-4-5-20251001_1K
+  - claude-haiku-4-5-20251001_32K
+  - claude-haiku-4-5-20251001_8K
+  - claude-haiku-4-5-20251001_low
+  - claude-haiku-4-5-20251001_unknown
+- name: Claude Instant
+  organization: Anthropic
+  release_date: '2023-08-09'
+  model_versions:
+  - claude-instant-1.1
+  - claude-instant-1.2
+- name: Claude Mythos Preview
+  organization: Anthropic
+  release_date: '2026-04-07'
+  model_versions:
+  - claude-mythos-preview
+  - claude-mythos-preview-early
+- name: Claude Opus 4
+  organization: Anthropic
+  release_date: '2025-05-22'
+  model_versions:
+  - claude-opus-4-20250514
+  - claude-opus-4-20250514_12K
+  - claude-opus-4-20250514_16K
+  - claude-opus-4-20250514_1K
+  - claude-opus-4-20250514_27K
+  - claude-opus-4-20250514_2K
+  - claude-opus-4-20250514_32K
+  - claude-opus-4-20250514_8K
+  - claude-opus-4-20250514_unknown
+- name: Claude Opus 4.1
+  organization: Anthropic
+  release_date: '2025-08-05'
+  model_versions:
+  - claude-opus-4-1-20250805
+  - claude-opus-4-1-20250805_16K
+  - claude-opus-4-1-20250805_24K
+  - claude-opus-4-1-20250805_27K
+  - claude-opus-4-1-20250805_32K
+  - claude-opus-4-1-20250805_unknown
+- name: Claude Opus 4.5
+  organization: Anthropic
+  release_date: '2025-11-24'
+  model_versions:
+  - claude-opus-4-5-20251101
+  - claude-opus-4-5-20251101_128K
+  - claude-opus-4-5-20251101_16K
+  - claude-opus-4-5-20251101_32K
+  - claude-opus-4-5-20251101_48K
+  - claude-opus-4-5-20251101_59K
+  - claude-opus-4-5-20251101_64K
+  - claude-opus-4-5-20251101_8K
+  - claude-opus-4-5-20251101_high
+  - claude-opus-4-5-20251101_low
+  - claude-opus-4-5-20251101_unknown
+- name: Claude Opus 4.6
+  organization: Anthropic
+  release_date: '2026-02-05'
+  model_versions:
+  - claude-opus-4-6
+  - claude-opus-4-6_120K
+  - claude-opus-4-6_32K
+  - claude-opus-4-6_64K
+  - claude-opus-4-6_high
+  - claude-opus-4-6_low
+  - claude-opus-4-6_max
+  - claude-opus-4-6_medium
+  - claude-opus-4-6_unknown
+- name: Claude Opus 4.7
+  organization: Anthropic
+  release_date: '2026-04-16'
+  model_versions:
+  - claude-opus-4-7
+  - claude-opus-4-7_high
+  - claude-opus-4-7_low
+  - claude-opus-4-7_max
+  - claude-opus-4-7_medium
+  - claude-opus-4-7_unknown
+  - claude-opus-4-7_xhigh
+- name: Claude Opus 4.8
+  organization: Anthropic
+  release_date: '2026-05-28'
+  model_versions:
+  - claude-opus-4-8_24K
+  - claude-opus-4-8_high
+  - claude-opus-4-8_low
+  - claude-opus-4-8_max
+  - claude-opus-4-8_medium
+  - claude-opus-4-8_none
+  - claude-opus-4-8_unknown
+  - claude-opus-4-8_xhigh
+- name: Claude Opus 5
+  organization: Anthropic
+  release_date: '2026-07-24'
+  model_versions:
+  - claude-opus-5
+  - claude-opus-5_high
+  - claude-opus-5_low
+  - claude-opus-5_max
+  - claude-opus-5_medium
+  - claude-opus-5_unknown
+  - claude-opus-5_xhigh
+- name: Claude Opus 5.5
+  organization: Anthropic
+  release_date: '2026-09-22'
+  model_versions:
+  - claude-opus-5-5_max
+  - claude-opus-5-5_medium
+  - claude-opus-5-5_xhigh
+- name: Claude Sonnet 4
+  organization: Anthropic
+  release_date: '2025-05-22'
+  model_versions:
+  - claude-sonnet-4-20250514
+  - claude-sonnet-4-20250514_12K
+  - claude-sonnet-4-20250514_16K
+  - claude-sonnet-4-20250514_1K
+  - claude-sonnet-4-20250514_2K
+  - claude-sonnet-4-20250514_32K
+  - claude-sonnet-4-20250514_59K
+  - claude-sonnet-4-20250514_64K
+  - claude-sonnet-4-20250514_8K
+  - claude-sonnet-4-20250514_unknown
+  - claude-strudel-v8-p
+  - claude-strudel-v8-p_max
+- name: Claude Sonnet 4.5
+  organization: Anthropic
+  release_date: '2025-09-29'
+  model_versions:
+  - claude-sonnet-4-5-20250929
+  - claude-sonnet-4-5-20250929_12K
+  - claude-sonnet-4-5-20250929_16K
+  - claude-sonnet-4-5-20250929_1K
+  - claude-sonnet-4-5-20250929_27K
+  - claude-sonnet-4-5-20250929_2K
+  - claude-sonnet-4-5-20250929_32K
+  - claude-sonnet-4-5-20250929_48K
+  - claude-sonnet-4-5-20250929_59K
+  - claude-sonnet-4-5-20250929_8K
+  - claude-sonnet-4-5-20250929_low
+  - claude-sonnet-4-5-20250929_unknown
+- name: Claude Sonnet 4.6
+  organization: Anthropic
+  release_date: '2026-02-17'
+  model_versions:
+  - claude-sonnet-4-6
+  - claude-sonnet-4-6_16K
+  - claude-sonnet-4-6_32K
+  - claude-sonnet-4-6_60K
+  - claude-sonnet-4-6_high
+  - claude-sonnet-4-6_low
+  - claude-sonnet-4-6_max
+  - claude-sonnet-4-6_medium
+  - claude-sonnet-4-6_unknown
+- name: Claude Sonnet 5
+  organization: Anthropic
+  release_date: '2026-06-30'
+  model_versions:
+  - claude-sonnet-5
+  - claude-sonnet-5_16K
+  - claude-sonnet-5_high
+  - claude-sonnet-5_low
+  - claude-sonnet-5_max
+  - claude-sonnet-5_medium
+  - claude-sonnet-5_unknown
+  - claude-sonnet-5_xhigh
+- name: Claude Sonnet 5.5
+  organization: Anthropic
+  release_date: '2026-09-28'
+  model_versions:
+  - claude-sonnet-5-5_high
+  - claude-sonnet-5-5_low
+  - claude-sonnet-5-5_max
+  - claude-sonnet-5-5_medium
+  - claude-sonnet-5-5_xhigh
+- name: CodeQwen1.5-7B
+  organization: null
+  release_date: '2024-04-15'
+  model_versions:
+  - CodeQwen1.5-7B
+- name: Codestral
+  organization: Mistral AI
+  release_date: null
+  model_versions:
+  - codestral-2501
+  - codestral-2508
+  conflicting_release_dates:
+    '2025-01-13':
+    - codestral-2501
+    '2025-07-30':
+    - codestral-2508
+- name: Codestral Embed
+  organization: Mistral AI
+  release_date: '2025-05-28'
+  model_versions:
+  - codestral-embed
+- name: Codestral Mamba
+  organization: Mistral AI
+  release_date: '2024-07-16'
+  model_versions:
+  - open-codestral-mamba
+- name: Codex
+  organization: OpenAI
+  release_date: '2021-07-07'
+  model_versions:
+  - code-cushman-002
+  - o
+- name: Cogito v2.1
+  organization: Deep Cogito
+  release_date: '2025-11-19'
+  model_versions:
+  - cogito-671b-v2.1
+- name: Cohere Command A
+  organization: Cohere
+  release_date: '2025-03-13'
+  model_versions:
+  - c4ai-command-a-03-2025
+- name: Command A+
+  organization: Cohere,Cohere Labs (formerly Cohere for AI)
+  release_date: '2026-05-20'
+  model_versions:
+  - command-a-plus-05-2026
+- name: Command R+
+  organization: Cohere,Cohere Labs (formerly Cohere for AI)
+  release_date: '2024-08-30'
+  model_versions:
+  - c4ai-command-r-plus-08-2024
+- name: Composer 2
+  organization: Cursor
+  release_date: '2026-03-19'
+  model_versions:
+  - Composer 2
+- name: Composer 2.5
+  organization: Cursor
+  release_date: '2026-05-18'
+  model_versions:
+  - Composer 2.5
+- name: Computer-Using Agent (CUA)
+  organization: OpenAI
+  release_date: '2025-01-23'
+  model_versions:
+  - CUA
+- name: DBRX
+  organization: Databricks
+  release_date: '2024-03-27'
+  model_versions:
+  - dbrx-base
+  - dbrx-instruct
+- name: DeepSeek Coder 1.3B
+  organization: DeepSeek,Peking University
+  release_date: '2023-11-02'
+  model_versions:
+  - deepseek-coder-1.3b-base
+  - deepseek-coder-1.3b-instruct
+- name: DeepSeek Coder 33B
+  organization: DeepSeek,Peking University
+  release_date: '2023-11-02'
+  model_versions:
+  - deepseek-coder-33b-base
+  - deepseek-coder-33b-instruct
+- name: DeepSeek Coder 6.7B
+  organization: DeepSeek,Peking University
+  release_date: null
+  model_versions:
+  - deepseek-coder-6.7b-base
+  - deepseek-coder-6.7b-instruct
+  - deepseek-coder-7b-base-v1.5
+  conflicting_release_dates:
+    '2023-11-02':
+    - deepseek-coder-6.7b-base
+    - deepseek-coder-6.7b-instruct
+    '2024-01-25':
+    - deepseek-coder-7b-base-v1.5
+- name: DeepSeek LLM 67B
+  organization: DeepSeek
+  release_date: '2023-11-29'
+  model_versions:
+  - deepseek-llm-67b-base
+  - deepseek-llm-67b-chat
+- name: DeepSeek LLM 7B
+  organization: DeepSeek
+  release_date: '2023-11-29'
+  model_versions:
+  - deepseek-llm-7b-base
+  - deepseek-llm-7b-chat
+- name: DeepSeek V4 Flash 0731
+  organization: DeepSeek
+  release_date: '2026-07-31'
+  model_versions:
+  - deepseek-v4-flash-0731_high
+  - deepseek-v4-flash-0731_low
+  - deepseek-v4-flash-0731_max
+  - deepseek-v4-flash-0731_none
+  - deepseek-v4-flash-0731_unknown
+- name: DeepSeek V4 Pro 0813
+  organization: DeepSeek
+  release_date: '2026-08-13'
+  model_versions:
+  - deepseek-v4-pro-0813_high
+  - deepseek-v4-pro-0813_low
+  - deepseek-v4-pro-0813_max
+  - deepseek-v4-pro-0813_none
+  - deepseek-v4-pro-0813_unknown
+- name: DeepSeek V4.1 Flash
+  organization: DeepSeek
+  release_date: '2026-09-09'
+  model_versions:
+  - deepseek-v4.1-flash_high
+  - deepseek-v4.1-flash_max
+  - deepseek-v4.1-flash_unknown
+- name: DeepSeek-Coder-V2 236B
+  organization: DeepSeek
+  release_date: '2024-06-17'
+  model_versions:
+  - DeepSeek-Coder-V2-Base
+  - DeepSeek-Coder-V2-Instruct
+- name: DeepSeek-Coder-V2-Lite-Base
+  organization: null
+  release_date: '2024-06-13'
+  model_versions:
+  - DeepSeek-Coder-V2-Lite-Base
+- name: DeepSeek-Coder-V2-Lite-Instruct
+  organization: null
+  release_date: '2024-06-13'
+  model_versions:
+  - DeepSeek-Coder-V2-Lite-Instruct
+- name: DeepSeek-Prover-V1.5
+  organization: DeepSeek
+  release_date: '2024-08-15'
+  model_versions:
+  - DeepSeek-Prover-V1.5-Base
+  - DeepSeek-Prover-V1.5-RL
+  - DeepSeek-Prover-V1.5-SFT
+- name: DeepSeek-Prover-V2-671B
+  organization: DeepSeek
+  release_date: '2025-04-30'
+  model_versions:
+  - deepseek-prover-v2
+- name: DeepSeek-R1
+  organization: DeepSeek
+  release_date: '2025-01-20'
+  model_versions:
+  - DeepSeek-R1
+- name: DeepSeek-R1 (May 2025)
+  organization: DeepSeek
+  release_date: '2025-05-28'
+  model_versions:
+  - DeepSeek-R1-0528
+  - chutes/DeepSeek-R1-0528
+- name: DeepSeek-R1-Distill-Llama-70B
+  organization: DeepSeek
+  release_date: '2025-01-20'
+  model_versions:
+  - DeepSeek-R1-Distill-Llama-70B
+- name: DeepSeek-R1-Distill-Llama-8B
+  organization: DeepSeek
+  release_date: '2025-01-20'
+  model_versions:
+  - DeepSeek-R1-Distill-Llama-8B
+- name: DeepSeek-R1-Distill-Qwen-1.5B
+  organization: DeepSeek
+  release_date: '2025-01-20'
+  model_versions:
+  - DeepSeek-R1-Distill-Qwen-1.5B
+- name: DeepSeek-R1-Distill-Qwen-14B
+  organization: DeepSeek
+  release_date: '2025-01-20'
+  model_versions:
+  - DeepSeek-R1-Distill-Qwen-14B
+- name: DeepSeek-R1-Distill-Qwen-32B
+  organization: DeepSeek
+  release_date: '2025-01-20'
+  model_versions:
+  - DeepSeek-R1-Distill-Qwen-32B
+- name: DeepSeek-R1-Distill-Qwen-7B
+  organization: DeepSeek
+  release_date: '2025-01-20'
+  model_versions:
+  - DeepSeek-R1-Distill-Qwen-7B
+- name: DeepSeek-V2 (MoE-236B, Jun 2024)
+  organization: DeepSeek
+  release_date: '2024-06-28'
+  model_versions:
+  - DeepSeek-V2-Chat-0628
+- name: DeepSeek-V2 (MoE-236B, May 2024)
+  organization: DeepSeek
+  release_date: '2024-05-07'
+  model_versions:
+  - DeepSeek-V2
+- name: DeepSeek-V2.5 (Dec 2024)
+  organization: DeepSeek
+  release_date: '2024-12-10'
+  model_versions:
+  - DeepSeek-V2.5-1210
+- name: DeepSeek-V2.5 (Sep 2024)
+  organization: DeepSeek
+  release_date: '2024-09-06'
+  model_versions:
+  - DeepSeek-V2.5
+- name: DeepSeek-V3
+  organization: DeepSeek
+  release_date: '2024-12-26'
+  model_versions:
+  - DeepSeek-V3
+  - DeepSeek-V3-Base
+- name: DeepSeek-V3 (Mar 2025)
+  organization: DeepSeek
+  release_date: '2025-03-24'
+  model_versions:
+  - DeepSeek-V3-0324
+  - chutes/DeepSeek-V3-0324
+- name: DeepSeek-V3.1
+  organization: DeepSeek
+  release_date: '2025-08-21'
+  model_versions:
+  - DeepSeek-V3.1
+  - DeepSeek-V3.1_thinking
+- name: DeepSeek-V3.1-Terminus
+  organization: DeepSeek
+  release_date: '2025-09-22'
+  model_versions:
+  - DeepSeek-V3.1-Terminus
+- name: DeepSeek-V3.2
+  organization: DeepSeek
+  release_date: '2025-12-01'
+  model_versions:
+  - deepseek-chat
+  - deepseek-reasoner
+  - deepseek/deepseek-v3.2
+  - fireworks/deepseek-v3p2
+- name: DeepSeek-V3.2-Exp
+  organization: DeepSeek
+  release_date: '2025-09-29'
+  model_versions:
+  - DeepSeek-V3.2-Exp
+  - DeepSeek-V3.2-Exp_high
+  - DeepSeek-V3.2-Exp_thinking
+  - DeepSeek-V3.2-Exp_unknown
+- name: DeepSeek-V3.2-Speciale
+  organization: DeepSeek
+  release_date: '2025-12-01'
+  model_versions:
+  - DeepSeek-V3.2-Speciale
+- name: DeepSeek-V4-Flash
+  organization: DeepSeek
+  release_date: '2026-04-24'
+  model_versions:
+  - deepseek-v4-flash_high
+  - deepseek-v4-flash_max
+  - deepseek-v4-flash_none
+  - deepseek-v4-flash_unknown
+- name: DeepSeek-V4-Pro
+  organization: DeepSeek
+  release_date: '2026-04-24'
+  model_versions:
+  - deepseek-v4-pro_high
+  - deepseek-v4-pro_max
+  - deepseek-v4-pro_none
+  - deepseek-v4-pro_unknown
+- name: DeepSeekMath 7B
+  organization: DeepSeek,Tsinghua University,Peking University
+  release_date: '2024-02-05'
+  model_versions:
+  - deepseek-math-7b-base
+- name: Devstral Small
+  organization: Mistral AI,All Hands AI
+  release_date: '2025-05-21'
+  model_versions:
+  - devstral-small-2505
+- name: Devstral Small 2
+  organization: Mistral AI
+  release_date: '2025-12-09'
+  model_versions:
+  - devstral-small-2512
+- name: Dolly 2.0-12b
+  organization: Databricks
+  release_date: '2023-04-11'
+  model_versions:
+  - dolly-v2-12b
+- name: Doubao-pro
+  organization: ByteDance
+  release_date: '2024-10-28'
+  model_versions:
+  - doubao-pro-32k
+- name: Dracarys2-72B-Instruct
+  organization: null
+  release_date: '2024-09-30'
+  model_versions:
+  - Dracarys2-72B-Instruct
+- name: Dracarys2-Llama-3.1-70B-Instruct
+  organization: null
+  release_date: '2024-08-14'
+  model_versions:
+  - Dracarys2-Llama-3.1-70B-Instruct
+- name: EXAONE Deep 32B
+  organization: LG AI Research
+  release_date: '2025-03-18'
+  model_versions:
+  - EXAONE-Deep-32B
+- name: Eurus-2-7B-PRIME
+  organization: Tsinghua University,University of Illinois Urbana-Champaign (UIUC),Shanghai
+    AI Lab,Peking University,Shanghai Jiao Tong University,CUHK Shenzhen Research
+    Institute
+  release_date: '2024-12-31'
+  model_versions:
+  - Eurus-2-7B-PRIME
+- name: Falcon 2 11B
+  organization: Technology Innovation Institute
+  release_date: '2024-05-09'
+  model_versions:
+  - falcon-11b
+- name: Falcon-180B
+  organization: Technology Innovation Institute
+  release_date: '2023-09-06'
+  model_versions:
+  - falcon-180B
+- name: Falcon-40B
+  organization: Technology Innovation Institute
+  release_date: null
+  model_versions:
+  - falcon-40b
+  - falcon-40b-instruct
+  conflicting_release_dates:
+    '2023-03-15':
+    - falcon-40b
+    '2023-05-25':
+    - falcon-40b-instruct
+- name: Falcon-7B
+  organization: Technology Innovation Institute
+  release_date: '2023-04-24'
+  model_versions:
+  - falcon-7b
+- name: GLM-4
+  organization: Z.ai (Zhipu AI)
+  release_date: '2024-01-17'
+  model_versions:
+  - glm-4
+- name: GLM-4 (0520)
+  organization: Z.ai (Zhipu AI)
+  release_date: '2024-05-20'
+  model_versions:
+  - glm-4-0520
+- name: GLM-4.5
+  organization: Z.ai (Zhipu AI),Tsinghua University
+  release_date: null
+  model_versions:
+  - glm-4.5
+  - glm-4.5_thinking
+  conflicting_release_dates:
+    '2025-08-03':
+    - glm-4.5
+    '2025-08-05':
+    - glm-4.5_thinking
+- name: GLM-4.5-Air
+  organization: Z.ai (Zhipu AI),Tsinghua University
+  release_date: '2025-07-20'
+  model_versions:
+  - GLM-4.5-Air
+- name: GLM-4.6
+  organization: Z.ai (Zhipu AI),Tsinghua University
+  release_date: '2025-09-30'
+  model_versions:
+  - accounts/fireworks/models/glm-4p6
+  - glm-4.6
+  - z-ai/glm-4.6
+  - zai-org/GLM-4.6
+  - zai-org/glm-4.6
+- name: GLM-4.7
+  organization: Z.ai (Zhipu AI)
+  release_date: '2025-12-22'
+  model_versions:
+  - fireworks/glm-4p7
+  - glm-4.7
+  - zai-org/GLM-4.7
+  - zai-org/glm-4.7
+- name: GLM-5
+  organization: Z.ai (Zhipu AI)
+  release_date: '2026-02-11'
+  model_versions:
+  - glm-5
+  - zai-org/glm-5
+- name: GLM-5.1
+  organization: Z.ai (Zhipu AI)
+  release_date: '2026-04-07'
+  model_versions:
+  - glm-5.1
+  - glm-5.1_none
+- name: GLM-5.2
+  organization: Z.ai (Zhipu AI)
+  release_date: '2026-06-16'
+  model_versions:
+  - glm-5.2_high
+  - glm-5.2_low
+  - glm-5.2_max
+  - glm-5.2_medium
+  - glm-5.2_minimal
+  - glm-5.2_none
+  - glm-5.2_unknown
+- name: GLM-5.3
+  organization: Z.ai (Zhipu AI)
+  release_date: '2026-08-14'
+  model_versions:
+  - glm-5.3_high
+  - glm-5.3_max
+  - glm-5.3_unknown
+- name: GLM-5.3-Flash
+  organization: Z.ai (Zhipu AI)
+  release_date: '2026-08-20'
+  model_versions:
+  - glm-5.3-flash_high
+  - glm-5.3-flash_max
+  - glm-5.3-flash_unknown
+- name: GLM-Z1-Rumination-32B-0414
+  organization: Tsinghua University
+  release_date: '2025-04-14'
+  model_versions:
+  - glm-z1-rumination-32b-0414
+- name: GLaM
+  organization: Google
+  release_date: '2021-12-13'
+  model_versions:
+  - GLaM (MoE)
+- name: GPT-2 (1.5B)
+  organization: OpenAI
+  release_date: '2019-11-05'
+  model_versions:
+  - gpt2-xl
+- name: GPT-3 175B (davinci)
+  organization: OpenAI
+  release_date: '2020-05-28'
+  model_versions:
+  - davinci
+  - davinci-002
+- name: GPT-3 6.7B
+  organization: OpenAI
+  release_date: '2020-06-22'
+  model_versions:
+  - curie
+- name: GPT-3 Medium
+  organization: OpenAI
+  release_date: '2020-06-22'
+  model_versions:
+  - ada
+- name: GPT-3 XL (babbage)
+  organization: OpenAI
+  release_date: '2020-06-22'
+  model_versions:
+  - babbage
+- name: GPT-3 XL (babbage-002)
+  organization: OpenAI
+  release_date: '2023-08-22'
+  model_versions:
+  - babbage-002
+- name: GPT-3.5 Turbo (Jan 2024)
+  organization: OpenAI
+  release_date: '2024-01-25'
+  model_versions:
+  - gpt-3.5-turbo-0125
+- name: GPT-3.5 Turbo (Jun 2023)
+  organization: OpenAI
+  release_date: '2023-06-13'
+  model_versions:
+  - gpt-3.5-turbo-0613
+  - gpt-3.5-turbo-16k-0613
+- name: GPT-3.5 Turbo (Mar 2023)
+  organization: OpenAI
+  release_date: '2023-03-01'
+  model_versions:
+  - gpt-3.5-turbo-0301
+- name: GPT-3.5 Turbo (Nov 2023)
+  organization: OpenAI
+  release_date: '2023-11-06'
+  model_versions:
+  - gpt-3.5-turbo-1106
+- name: GPT-3.5 Turbo Instruct
+  organization: OpenAI
+  release_date: '2023-09-18'
+  model_versions:
+  - gpt-3.5-turbo-instruct
+- name: GPT-4 (Jun 2023)
+  organization: OpenAI
+  release_date: '2023-06-13'
+  model_versions:
+  - gpt-4-0613
+  - gpt-4-32k-0613
+- name: GPT-4 (Mar 2023)
+  organization: OpenAI
+  release_date: '2023-03-14'
+  model_versions:
+  - gpt-4-0314
+  - gpt-4-32k-0314
+- name: GPT-4 Turbo (Apr 2024)
+  organization: OpenAI
+  release_date: '2024-04-09'
+  model_versions:
+  - gpt-4-turbo-2024-04-09
+- name: GPT-4 Turbo (Nov 2023)
+  organization: OpenAI
+  release_date: null
+  model_versions:
+  - gpt-4-0125-preview
+  - gpt-4-1106-preview
+  - gpt-4-turbo
+  conflicting_release_dates:
+    '2023-11-06':
+    - gpt-4-1106-preview
+    - gpt-4-turbo
+    '2024-01-25':
+    - gpt-4-0125-preview
+- name: GPT-4.1
+  organization: OpenAI
+  release_date: '2025-04-14'
+  model_versions:
+  - gpt-4.1-2025-04-14
+- name: GPT-4.1 mini
+  organization: OpenAI
+  release_date: '2025-04-14'
+  model_versions:
+  - gpt-4.1-mini-2025-04-14
+- name: GPT-4.1 nano
+  organization: OpenAI
+  release_date: '2025-04-14'
+  model_versions:
+  - gpt-4.1-nano-2025-04-14
+- name: GPT-4.5
+  organization: OpenAI
+  release_date: '2025-02-27'
+  model_versions:
+  - gpt-4.5-preview-2025-02-27
+- name: GPT-4V
+  organization: OpenAI
+  release_date: '2023-11-06'
+  model_versions:
+  - gpt-4-1106-vision-preview
+- name: GPT-4o (Aug 2024)
+  organization: OpenAI
+  release_date: '2024-08-06'
+  model_versions:
+  - gpt-4o-2024-08-06
+- name: GPT-4o (Jan 2025)
+  organization: OpenAI
+  release_date: '2025-01-29'
+  model_versions:
+  - chatgpt-4o-01-29-2025
+- name: GPT-4o (Mar 2025)
+  organization: OpenAI
+  release_date: '2025-03-27'
+  model_versions:
+  - chatgpt-4o-03-27-2025
+- name: GPT-4o (May 2024)
+  organization: OpenAI
+  release_date: '2024-05-13'
+  model_versions:
+  - gpt-4o-2024-05-13
+- name: GPT-4o (Nov 2024)
+  organization: OpenAI
+  release_date: '2024-11-20'
+  model_versions:
+  - chatgpt-4o-11-20-2024
+  - gpt-4o-2024-11-20
+- name: GPT-4o mini
+  organization: OpenAI
+  release_date: '2024-07-18'
+  model_versions:
+  - gpt-4o-mini-2024-07-18
+- name: GPT-5
+  organization: OpenAI
+  release_date: '2025-08-07'
+  model_versions:
+  - gpt-5-2025-08-07_high
+  - gpt-5-2025-08-07_low
+  - gpt-5-2025-08-07_medium
+  - gpt-5-2025-08-07_minimal
+  - gpt-5-2025-08-07_unknown
+  - gpt-5-chat
+- name: GPT-5 Pro
+  organization: OpenAI
+  release_date: '2025-10-07'
+  model_versions:
+  - gpt-5-pro-2025-10-06_high
+  - gpt-5-pro-2025-10-06_medium
+  - gpt-5-pro-2025-10-06_unknown
+- name: GPT-5 mini
+  organization: OpenAI
+  release_date: '2025-08-07'
+  model_versions:
+  - gpt-5-mini-2025-08-07_high
+  - gpt-5-mini-2025-08-07_low
+  - gpt-5-mini-2025-08-07_medium
+  - gpt-5-mini-2025-08-07_minimal
+  - gpt-5-mini-2025-08-07_unknown
+- name: GPT-5 nano
+  organization: OpenAI
+  release_date: '2025-08-07'
+  model_versions:
+  - gpt-5-nano-2025-08-07_high
+  - gpt-5-nano-2025-08-07_low
+  - gpt-5-nano-2025-08-07_medium
+  - gpt-5-nano-2025-08-07_minimal
+  - gpt-5-nano-2025-08-07_unknown
+- name: GPT-5-Codex
+  organization: OpenAI
+  release_date: '2025-09-15'
+  model_versions:
+  - gpt-5-codex
+  - gpt-5-codex_high
+- name: GPT-5.1
+  organization: OpenAI
+  release_date: '2025-11-13'
+  model_versions:
+  - gpt-5.1-2025-11-13_high
+  - gpt-5.1-2025-11-13_low
+  - gpt-5.1-2025-11-13_medium
+  - gpt-5.1-2025-11-13_none
+  - gpt-5.1-2025-11-13_unknown
+- name: GPT-5.1-Codex
+  organization: OpenAI
+  release_date: '2025-11-12'
+  model_versions:
+  - gpt-5.1-codex
+- name: GPT-5.1-Codex-Max
+  organization: OpenAI
+  release_date: '2025-11-19'
+  model_versions:
+  - gpt-5.1-codex-max
+- name: GPT-5.1-Codex-mini
+  organization: OpenAI
+  release_date: '2025-11-12'
+  model_versions:
+  - gpt-5.1-codex-mini
+- name: GPT-5.2
+  organization: OpenAI
+  release_date: '2025-12-11'
+  model_versions:
+  - gpt-5.2-2025-12-11_high
+  - gpt-5.2-2025-12-11_low
+  - gpt-5.2-2025-12-11_medium
+  - gpt-5.2-2025-12-11_none
+  - gpt-5.2-2025-12-11_unknown
+  - gpt-5.2-2025-12-11_xhigh
+  - robin-alpha-next-2025-11-24_high
+  - robin-alpha-next-2025-11-24_xhigh
+- name: GPT-5.2 Codex
+  organization: OpenAI
+  release_date: '2025-12-18'
+  model_versions:
+  - gpt-5.2-codex
+- name: GPT-5.2 Pro
+  organization: OpenAI
+  release_date: '2025-12-11'
+  model_versions:
+  - gpt-5.2-pro-2025-12-11
+  - gpt-5.2-pro-2025-12-11-webapp
+  - gpt-5.2-pro-2025-12-11_high
+  - gpt-5.2-pro-2025-12-11_medium
+  - gpt-5.2-pro-2025-12-11_xhigh
+  - robin-alpha-pro-2025-11-24
+  - robin-alpha-pro-2025-11-24_high
+  - robin-alpha-pro-2025-11-24_xhigh
+- name: GPT-5.3 Codex
+  organization: OpenAI
+  release_date: '2026-02-05'
+  model_versions:
+  - gpt-5.3-codex
+  - gpt-5.3-codex_high
+  - gpt-5.3-codex_xhigh
+- name: GPT-5.4
+  organization: OpenAI
+  release_date: '2026-03-05'
+  model_versions:
+  - gpt-5.4-2026-03-05_high
+  - gpt-5.4-2026-03-05_low
+  - gpt-5.4-2026-03-05_medium
+  - gpt-5.4-2026-03-05_none
+  - gpt-5.4-2026-03-05_unknown
+  - gpt-5.4-2026-03-05_xhigh
+- name: GPT-5.4 Mini
+  organization: OpenAI
+  release_date: '2026-03-17'
+  model_versions:
+  - gpt-5.4-mini-2026-03-17_high
+  - gpt-5.4-mini-2026-03-17_low
+  - gpt-5.4-mini-2026-03-17_medium
+  - gpt-5.4-mini-2026-03-17_none
+  - gpt-5.4-mini-2026-03-17_unknown
+  - gpt-5.4-mini-2026-03-17_xhigh
+- name: GPT-5.4 Nano
+  organization: OpenAI
+  release_date: '2026-03-17'
+  model_versions:
+  - gpt-5.4-nano-2026-03-17_high
+  - gpt-5.4-nano-2026-03-17_low
+  - gpt-5.4-nano-2026-03-17_medium
+  - gpt-5.4-nano-2026-03-17_none
+  - gpt-5.4-nano-2026-03-17_unknown
+  - gpt-5.4-nano-2026-03-17_xhigh
+- name: GPT-5.4 Pro
+  organization: OpenAI
+  release_date: '2026-03-05'
+  model_versions:
+  - gpt-5.4-pro-2026-03-05-web-app
+  - gpt-5.4-pro-2026-03-05_none
+  - gpt-5.4-pro-2026-03-05_unknown
+  - gpt-5.4-pro-2026-03-05_xhigh
+- name: GPT-5.4-Cyber
+  organization: OpenAI
+  release_date: '2026-04-14'
+  model_versions:
+  - gpt-5.4-cyber
+- name: GPT-5.5
+  organization: OpenAI
+  release_date: '2026-04-23'
+  model_versions:
+  - gpt-5.5-pre-release_xhigh
+  - gpt-5.5_high
+  - gpt-5.5_low
+  - gpt-5.5_medium
+  - gpt-5.5_none
+  - gpt-5.5_unknown
+  - gpt-5.5_xhigh
+- name: GPT-5.5 Cyber
+  organization: OpenAI
+  release_date: '2026-05-07'
+  model_versions:
+  - gpt-5.5-cyber
+- name: GPT-5.5 Instant
+  organization: OpenAI
+  release_date: '2026-05-05'
+  model_versions:
+  - gpt-5.5-instant
+- name: GPT-5.5 Pro
+  organization: OpenAI
+  release_date: '2026-04-23'
+  model_versions:
+  - gpt-5.5-pro-pre-release_high
+  - gpt-5.5-pro-pre-release_xhigh
+  - gpt-5.5-pro_high
+  - gpt-5.5-pro_unknown
+  - gpt-5.5-pro_xhigh
+- name: GPT-5.6 Luna
+  organization: OpenAI
+  release_date: '2026-07-09'
+  model_versions:
+  - gpt-5.6-luna_high
+  - gpt-5.6-luna_low
+  - gpt-5.6-luna_max
+  - gpt-5.6-luna_medium
+  - gpt-5.6-luna_none
+  - gpt-5.6-luna_unknown
+  - gpt-5.6-luna_xhigh
+- name: GPT-5.6 Sol
+  organization: OpenAI
+  release_date: '2026-07-09'
+  model_versions:
+  - gpt-5.6-sol_high
+  - gpt-5.6-sol_low
+  - gpt-5.6-sol_max
+  - gpt-5.6-sol_medium
+  - gpt-5.6-sol_none
+  - gpt-5.6-sol_promax
+  - gpt-5.6-sol_prounknown
+  - gpt-5.6-sol_proxhigh
+  - gpt-5.6-sol_unknown
+  - gpt-5.6-sol_xhigh
+- name: GPT-5.6 Terra
+  organization: OpenAI
+  release_date: '2026-07-09'
+  model_versions:
+  - gpt-5.6-terra_high
+  - gpt-5.6-terra_low
+  - gpt-5.6-terra_max
+  - gpt-5.6-terra_medium
+  - gpt-5.6-terra_none
+  - gpt-5.6-terra_unknown
+  - gpt-5.6-terra_xhigh
+- name: GPT-6 Astra
+  organization: OpenAI
+  release_date: '2026-09-03'
+  model_versions:
+  - gpt-6-astra_high
+  - gpt-6-astra_low
+  - gpt-6-astra_max
+  - gpt-6-astra_medium
+  - gpt-6-astra_none
+  - gpt-6-astra_promax
+  - gpt-6-astra_unknown
+  - gpt-6-astra_xhigh
+- name: GPT-6 Luna
+  organization: OpenAI
+  release_date: '2026-09-22'
+  model_versions:
+  - gpt-6-luna_high
+  - gpt-6-luna_low
+  - gpt-6-luna_max
+  - gpt-6-luna_medium
+  - gpt-6-luna_none
+  - gpt-6-luna_unknown
+  - gpt-6-luna_xhigh
+- name: GPT-6 Sol
+  organization: OpenAI
+  release_date: '2026-09-22'
+  model_versions:
+  - gpt-6-sol_high
+  - gpt-6-sol_low
+  - gpt-6-sol_max
+  - gpt-6-sol_medium
+  - gpt-6-sol_none
+  - gpt-6-sol_unknown
+  - gpt-6-sol_xhigh
+- name: GPT-6.1 Sol
+  organization: OpenAI
+  release_date: '2026-09-29'
+  model_versions:
+  - gpt-6.1-sol_high
+  - gpt-6.1-sol_low
+  - gpt-6.1-sol_max
+  - gpt-6.1-sol_medium
+  - gpt-6.1-sol_unknown
+  - gpt-6.1-sol_xhigh
+- name: GPT-J-6B
+  organization: EleutherAI,LAION
+  release_date: '2021-08-05'
+  model_versions:
+  - gpt-j-6b
+- name: GPT-Neo-2.7B
+  organization: EleutherAI
+  release_date: '2021-03-30'
+  model_versions:
+  - gpt-neo-2.7B
+- name: GPT-NeoX-20B
+  organization: EleutherAI
+  release_date: '2022-04-07'
+  model_versions:
+  - gpt-neox-20b
+- name: Gemini 1.0 Pro
+  organization: Google DeepMind
+  release_date: '2023-12-13'
+  model_versions:
+  - gemini-1.0-pro-001
+- name: Gemini 1.0 Pro Vision
+  organization: Google DeepMind
+  release_date: '2024-01-04'
+  model_versions:
+  - gemini-1.0-pro-vision
+- name: Gemini 1.5 Flash (May 2024)
+  organization: Google DeepMind
+  release_date: null
+  model_versions:
+  - gemini-1.5-flash-001
+  - gemini-1.5-flash-0514
+  conflicting_release_dates:
+    '2024-05-14':
+    - gemini-1.5-flash-0514
+    '2024-05-23':
+    - gemini-1.5-flash-001
+- name: Gemini 1.5 Flash (Sep 2024)
+  organization: Google DeepMind
+  release_date: null
+  model_versions:
+  - gemini-1.5-flash-002
+  - gemini-1.5-flash-exp-0827
+  conflicting_release_dates:
+    '2024-08-27':
+    - gemini-1.5-flash-exp-0827
+    '2024-09-24':
+    - gemini-1.5-flash-002
+- name: Gemini 1.5 Flash 8B
+  organization: Google DeepMind
+  release_date: '2024-10-03'
+  model_versions:
+  - gemini-1.5-flash-8b-001
+- name: Gemini 1.5 Pro (Feb 2024)
+  organization: Google DeepMind
+  release_date: '2024-02-15'
+  model_versions:
+  - gemini-1.5-pro-001-feb24
+- name: Gemini 1.5 Pro (May 2024)
+  organization: Google DeepMind
+  release_date: '2024-05-14'
+  model_versions:
+  - gemini-1.5-pro-001
+- name: Gemini 1.5 Pro (Sept 2024)
+  organization: Google DeepMind
+  release_date: '2024-09-24'
+  model_versions:
+  - gemini-1.5-pro-002
+- name: Gemini 2.0 Flash (Dec 2024)
+  organization: Google DeepMind,Google
+  release_date: null
+  model_versions:
+  - gemini-2.0-flash-exp
+  - gemini-exp-1206
+  conflicting_release_dates:
+    '2024-12-06':
+    - gemini-exp-1206
+    '2024-12-11':
+    - gemini-2.0-flash-exp
+- name: Gemini 2.0 Flash (Feb 2025)
+  organization: Google DeepMind,Google
+  release_date: '2025-02-05'
+  model_versions:
+  - gemini-2.0-flash-001
+  - gemini-2.0-flash-02-05
+- name: Gemini 2.0 Flash Thinking (Dec 2024)
+  organization: Google DeepMind,Google
+  release_date: '2024-12-19'
+  model_versions:
+  - gemini-2.0-flash-thinking-exp-1219
+- name: Gemini 2.0 Flash Thinking (Jan 2025)
+  organization: Google DeepMind,Google
+  release_date: '2025-01-21'
+  model_versions:
+  - gemini-2.0-flash-thinking-exp-01-21
+- name: Gemini 2.0 Flash-Lite
+  organization: Google DeepMind
+  release_date: null
+  model_versions:
+  - gemini-2.0-flash-lite
+  - gemini-2.0-flash-lite-001
+  - gemini-2.0-flash-lite-preview-02-05
+  conflicting_release_dates:
+    '2025-02-05':
+    - gemini-2.0-flash-lite
+    - gemini-2.0-flash-lite-preview-02-05
+    '2025-02-25':
+    - gemini-2.0-flash-lite-001
+- name: Gemini 2.0 Pro
+  organization: Google DeepMind
+  release_date: '2025-02-05'
+  model_versions:
+  - gemini-2.0-pro-exp-02-05
+- name: Gemini 2.5 Deep Think
+  organization: Google,Google DeepMind
+  release_date: '2025-08-01'
+  model_versions:
+  - gemini-2.5-deep-think-2025-08-01-webapp
+- name: Gemini 2.5 Flash (Apr 2025)
+  organization: Google DeepMind
+  release_date: '2025-04-17'
+  model_versions:
+  - gemini-2.5-flash-preview-04-17
+  - gemini-2.5-flash-preview-04-17 (16K thinking)
+  - gemini-2.5-flash-preview-04-17 (24K thinking)
+- name: Gemini 2.5 Flash (Jun 2025)
+  organization: Google DeepMind
+  release_date: '2025-06-17'
+  model_versions:
+  - gemini-2.5-flash
+- name: Gemini 2.5 Flash (May 2025)
+  organization: Google DeepMind
+  release_date: '2025-05-20'
+  model_versions:
+  - gemini-2.5-flash-preview-05-20
+  - gemini-2.5-flash-preview-05-20_16K
+  - gemini-2.5-flash-preview-05-20_1K
+  - gemini-2.5-flash-preview-05-20_23K
+  - gemini-2.5-flash-preview-05-20_8K
+- name: Gemini 2.5 Flash (Sep 2025)
+  organization: Google DeepMind
+  release_date: '2025-09-25'
+  model_versions:
+  - gemini-2.5-flash-preview-09-2025
+  - gemini-2.5-flash-preview-09-2025_16k
+- name: Gemini 2.5 Flash-Lite (Jun 2025)
+  organization: Google DeepMind
+  release_date: '2025-06-17'
+  model_versions:
+  - gemini-2.5-flash-lite-preview-06-17-thinking
+  - gemini-2.5-flash-lite-preview-06-17_16K
+- name: Gemini 2.5 Flash-Lite (Sep 2025)
+  organization: Google DeepMind
+  release_date: '2025-09-25'
+  model_versions:
+  - gemini-2.5-flash-lite-preview-09-2025
+- name: Gemini 2.5 Pro (Jun 2025)
+  organization: Google DeepMind
+  release_date: '2025-06-05'
+  model_versions:
+  - gemini-2.5-pro
+  - gemini-2.5-pro-preview-06-05
+  - gemini-2.5-pro-preview-06-05_1K
+  - gemini-2.5-pro-preview-06-05_32K
+  - gemini-2.5-pro_16K
+  - gemini-2.5-pro_32K
+  - gemini-2.5-pro_8K
+- name: Gemini 2.5 Pro (Mar 2025)
+  organization: Google DeepMind
+  release_date: null
+  model_versions:
+  - gemini-2.5-pro-exp-03-25
+  - gemini-2.5-pro-preview-03-25
+  conflicting_release_dates:
+    '2025-03-25':
+    - gemini-2.5-pro-exp-03-25
+    '2025-03-31':
+    - gemini-2.5-pro-preview-03-25
+- name: Gemini 2.5 Pro (May 2025)
+  organization: Google DeepMind
+  release_date: '2025-05-06'
+  model_versions:
+  - gemini-2.5-pro-preview-05-06
+- name: Gemini 3 Deep Think
+  organization: Google DeepMind
+  release_date: '2026-02-12'
+  model_versions:
+  - gemini-3-deep-think-preview
+- name: Gemini 3 Flash
+  organization: Google DeepMind
+  release_date: '2025-12-17'
+  model_versions:
+  - gemini-3-flash-preview
+  - gemini-3-flash-preview_high
+  - gemini-3-flash-preview_low
+  - gemini-3-flash-preview_minimal
+- name: Gemini 3 Pro
+  organization: Google DeepMind
+  release_date: '2025-11-18'
+  model_versions:
+  - gemini-3-pro-preview
+  - gemini-3-pro-preview_low
+- name: Gemini 3.1 Flash-Lite
+  organization: Google
+  release_date: '2026-03-03'
+  model_versions:
+  - gemini-3.1-flash-lite
+  - gemini-3.1-flash-lite_high
+  - gemini-3.1-flash-lite_low
+  - gemini-3.1-flash-lite_minimal
+- name: Gemini 3.1 Pro
+  organization: Google DeepMind
+  release_date: '2026-02-19'
+  model_versions:
+  - gemini-3.1-pro-preview
+  - gemini-3.1-pro-preview-customtools
+  - gemini-3.1-pro-preview_high
+  - gemini-3.1-pro-preview_low
+  - gemini-3.1-pro-preview_medium
+- name: Gemini 3.5 Flash
+  organization: Google DeepMind
+  release_date: '2026-05-19'
+  model_versions:
+  - gemini-3.5-flash_high
+  - gemini-3.5-flash_low
+  - gemini-3.5-flash_medium
+  - gemini-3.5-flash_minimal
+  - gemini-3.5-flash_unknown
+- name: Gemini 3.5 Flash-Lite
+  organization: Google DeepMind
+  release_date: '2026-07-21'
+  model_versions:
+  - gemini-3.5-flash-lite
+  - gemini-3.5-flash-lite_high
+  - gemini-3.5-flash-lite_low
+  - gemini-3.5-flash-lite_medium
+  - gemini-3.5-flash-lite_minimal
+- name: Gemini 3.6 Flash
+  organization: Google DeepMind
+  release_date: '2026-07-21'
+  model_versions:
+  - gemini-3.6-flash_high
+  - gemini-3.6-flash_low
+  - gemini-3.6-flash_medium
+  - gemini-3.6-flash_minimal
+  - gemini-3.6-flash_unknown
+- name: Gemini 3.7 Flash
+  organization: Google DeepMind
+  release_date: '2026-08-13'
+  model_versions:
+  - gemini-3.7-flash_high
+  - gemini-3.7-flash_low
+  - gemini-3.7-flash_medium
+  - gemini-3.7-flash_unknown
+- name: Gemini 3.8 Flash
+  organization: Google DeepMind
+  release_date: '2026-09-02'
+  model_versions:
+  - gemini-3.8-flash_high
+  - gemini-3.8-flash_low
+  - gemini-3.8-flash_medium
+  - gemini-3.8-flash_unknown
+- name: Gemini Robotics-ER 1.6
+  organization: Google
+  release_date: '2026-04-14'
+  model_versions:
+  - gemini-robotics-er-1.6-preview
+- name: Gemma 2 27B
+  organization: Google DeepMind
+  release_date: null
+  model_versions:
+  - gemma-2-27b
+  - gemma-2-27b-it
+  - gemma2:27b-instruct-q8_0
+  conflicting_release_dates:
+    '2024-06-24':
+    - gemma-2-27b
+    - gemma-2-27b-it
+    '2024-06-27':
+    - gemma2:27b-instruct-q8_0
+- name: Gemma 2 9B
+  organization: Google DeepMind
+  release_date: '2024-06-24'
+  model_versions:
+  - gemma-2-9b
+  - gemma-2-9b-it
+- name: Gemma 2B
+  organization: Google DeepMind
+  release_date: '2024-02-21'
+  model_versions:
+  - gemma-2b
+- name: Gemma 3 12B
+  organization: Google DeepMind
+  release_date: '2025-03-12'
+  model_versions:
+  - gemma-3-12b-it
+- name: Gemma 3 1B
+  organization: Google DeepMind
+  release_date: '2025-03-12'
+  model_versions:
+  - gemma-3-1b-it
+- name: Gemma 3 270M
+  organization: Google DeepMind
+  release_date: '2025-08-14'
+  model_versions:
+  - gemma-3-270m-it
+- name: Gemma 3 27B
+  organization: Google DeepMind
+  release_date: null
+  model_versions:
+  - chutes/Gemma-3-27b-It
+  - gemma-3-27b-it
+  conflicting_release_dates:
+    '2025-03-11':
+    - chutes/Gemma-3-27b-It
+    '2025-03-12':
+    - gemma-3-27b-it
+- name: Gemma 3 4B
+  organization: Google DeepMind
+  release_date: '2025-03-12'
+  model_versions:
+  - gemma-3-4b-it
+- name: Gemma 4 26B A4B
+  organization: Google DeepMind
+  release_date: '2026-04-02'
+  model_versions:
+  - gemma-4-26b-a4b
+  - gemma-4-26b-a4b-it_minimal
+  - gemma-4-26b-a4b_minimal
+- name: Gemma 4 31B IT
+  organization: Google DeepMind
+  release_date: '2026-04-02'
+  model_versions:
+  - gemma-4-31b-it
+  - gemma-4-31b-it_minimal
+- name: Gemma 7B
+  organization: Google DeepMind
+  release_date: '2024-02-21'
+  model_versions:
+  - gemma-7b
+- name: Gopher (280B)
+  organization: DeepMind
+  release_date: '2021-12-08'
+  model_versions:
+  - Gopher (280B)
+- name: Granite 4.1 30B
+  organization: IBM
+  release_date: '2026-04-29'
+  model_versions:
+  - granite-4.1-30b
+- name: Grok 3
+  organization: xAI
+  release_date: '2025-04-09'
+  model_versions:
+  - grok-3
+  - grok-3-beta
+- name: Grok 4
+  organization: xAI
+  release_date: '2025-07-09'
+  model_versions:
+  - grok-4-0709
+  - grok-4-0709_high
+- name: Grok 4 Fast
+  organization: xAI
+  release_date: '2025-09-19'
+  model_versions:
+  - grok-4-fast
+- name: Grok 4 Heavy
+  organization: xAI
+  release_date: '2025-07-10'
+  model_versions:
+  - grok-4-heavy-web-app
+- name: Grok 4.1
+  organization: xAI
+  release_date: '2025-11-17'
+  model_versions:
+  - grok-4-1
+- name: Grok 4.1 Fast
+  organization: xAI
+  release_date: '2025-11-19'
+  model_versions:
+  - grok-4-1-fast-non-reasoning
+  - grok-4-1-fast-reasoning
+- name: Grok 4.20
+  organization: xAI
+  release_date: '2026-02-17'
+  model_versions:
+  - grok-4-20
+  - grok-4.20-0309-reasoning
+- name: Grok 4.3 Beta
+  organization: xAI
+  release_date: '2026-04-17'
+  model_versions:
+  - grok-4.3_high
+  - grok-4.3_none
+  - grok-4.3_unknown
+- name: Grok 4.5
+  organization: xAI
+  release_date: '2026-07-08'
+  model_versions:
+  - grok-4.5_high
+  - grok-4.5_low
+  - grok-4.5_medium
+  - grok-4.5_unknown
+- name: Grok 4.6
+  organization: xAI
+  release_date: '2026-08-12'
+  model_versions:
+  - grok-4.6_high
+  - grok-4.6_low
+  - grok-4.6_medium
+  - grok-4.6_unknown
+  - grok-4.6_xhigh
+- name: Grok 4.7
+  organization: xAI
+  release_date: '2026-09-21'
+  model_versions:
+  - grok-4.7_high
+  - grok-4.7_low
+  - grok-4.7_medium
+  - grok-4.7_unknown
+  - grok-4.7_xhigh
+- name: Grok Build 0.1
+  organization: xAI
+  release_date: '2026-05-29'
+  model_versions:
+  - grok-build-0.1
+- name: Grok-2 (Aug 2024)
+  organization: xAI
+  release_date: '2024-08-13'
+  model_versions:
+  - grok-2-0813
+- name: Grok-2 (Dec 2024)
+  organization: xAI
+  release_date: '2024-12-12'
+  model_versions:
+  - grok-2-1212
+  - grok-2-vision-1212
+- name: Grok-2 mini
+  organization: xAI
+  release_date: '2024-08-13'
+  model_versions:
+  - grok-2-mini-0813
+- name: Grok-3 mini
+  organization: xAI
+  release_date: null
+  model_versions:
+  - grok-3-mini-beta_high
+  - grok-3-mini-beta_low
+  - grok-3-mini-beta_medium
+  - grok-3-mini-beta_unknown
+  - grok-3-mini_high
+  - grok-3-mini_low
+  - grok-3-mini_unknown
+  conflicting_release_dates:
+    '2025-04-09':
+    - grok-3-mini-beta_high
+    - grok-3-mini-beta_low
+    - grok-3-mini-beta_medium
+    - grok-3-mini-beta_unknown
+    '2025-06-24':
+    - grok-3-mini_high
+    - grok-3-mini_low
+    - grok-3-mini_unknown
+- name: Hermes 2 Theta Llama-3 70B
+  organization: Nous Research,Arcee AI
+  release_date: '2024-06-20'
+  model_versions:
+  - Hermes-2-Theta-Llama-3-70B
+- name: INTELLECT-1
+  organization: Prime Intellect,Hugging Face,Arcee AI
+  release_date: '2024-11-29'
+  model_versions:
+  - INTELLECT-1-Instruct
+- name: INTELLECT-MATH
+  organization: Prime Intellect
+  release_date: '2025-01-17'
+  model_versions:
+  - INTELLECT-MATH
+- name: Inflection-1
+  organization: Inflection AI
+  release_date: '2023-06-22'
+  model_versions:
+  - Inflection-1
+- name: Inkling
+  organization: Thinking Machines
+  release_date: '2026-07-15'
+  model_versions:
+  - Inkling
+  - Inkling_high
+  - Inkling_xhigh
+- name: Inkling-Small
+  organization: Thinking Machines
+  release_date: '2026-07-15'
+  model_versions:
+  - inkling-small
+  - inkling-small_high
+  - inkling-small_low
+  - inkling-small_medium
+  - inkling-small_minimal
+  - inkling-small_none
+  - inkling-small_xhigh
+- name: InstructGPT 1.3B
+  organization: OpenAI
+  release_date: '2022-01-27'
+  model_versions:
+  - text-babbage-001
+- name: InstructGPT 175B
+  organization: OpenAI
+  release_date: '2022-01-27'
+  model_versions:
+  - text-davinci-001
+- name: InstructGPT 350M
+  organization: OpenAI
+  release_date: '2022-01-27'
+  model_versions:
+  - text-ada-001
+- name: InstructGPT 6B
+  organization: OpenAI
+  release_date: '2022-01-27'
+  model_versions:
+  - text-curie-001
+- name: InternVL-Chat-V1-5
+  organization: null
+  release_date: '2024-04-18'
+  model_versions:
+  - InternVL-Chat-V1-5
+- name: InternVL-Chat-ViT-6B-Vicuna-13B
+  organization: null
+  release_date: '2024-08-16'
+  model_versions:
+  - InternVL-Chat-ViT-6B-Vicuna-13B
+- name: InternVL-Chat-ViT-6B-Vicuna-7B
+  organization: null
+  release_date: '2023-12-25'
+  model_versions:
+  - InternVL-Chat-ViT-6B-Vicuna-7B
+- name: InternVL2-40B
+  organization: Shanghai AI Lab
+  release_date: '2024-07-08'
+  model_versions:
+  - InternVL2-40B
+- name: InternVL2_5-78B
+  organization: Shanghai AI Lab,SenseTime,Tsinghua University,Nanjing University,Fudan
+    University,Chinese University of Hong Kong (CUHK),Shanghai Jiao Tong University
+  release_date: '2024-12-06'
+  model_versions:
+  - InternVL2_5-78B
+- name: Kimi Dev 72b
+  organization: Moonshot
+  release_date: '2025-06-16'
+  model_versions:
+  - Kimi-Dev-72B
+- name: Kimi K2 (Jul 2025)
+  organization: Moonshot
+  release_date: '2025-07-12'
+  model_versions:
+  - Kimi-K2-Instruct
+  - kimi-k2-0711-preview
+- name: Kimi K2 (Sep 2025)
+  organization: Moonshot
+  release_date: '2025-09-05'
+  model_versions:
+  - Kimi-K2-Instruct-0905
+  - fireworks/Kimi-K2-Instruct-0905
+  - kimi-k2-turbo-preview
+  - moonshotai/kimi-k2-0905
+- name: Kimi K2 Thinking
+  organization: Moonshot
+  release_date: '2025-11-06'
+  model_versions:
+  - accounts/fireworks/models/kimi-k2-thinking
+  - kimi-k2-thinking
+  - kimi-k2-thinking-turbo
+  - moonshotai/Kimi-K2-Thinking
+  - moonshotai/kimi-k2-thinking
+- name: Kimi K2.5
+  organization: Moonshot
+  release_date: '2026-01-27'
+  model_versions:
+  - fireworks/kimi-k2p5
+  - kimi-k2.5
+  - kimi-k2.5_none
+- name: Kimi K2.6
+  organization: Moonshot
+  release_date: '2026-04-20'
+  model_versions:
+  - kimi-k2.6
+  - kimi-k2.6_none
+- name: Kimi K2.7 Code
+  organization: Moonshot
+  release_date: '2026-06-12'
+  model_versions:
+  - kimi-k2.7-code
+- name: Kimi K3
+  organization: Moonshot
+  release_date: '2026-07-16'
+  model_versions:
+  - kimi-k3_high
+  - kimi-k3_low
+  - kimi-k3_max
+  - kimi-k3_unknown
+- name: LLaMA-13B
+  organization: Meta AI
+  release_date: '2023-02-24'
+  model_versions:
+  - LLaMA-13B
+- name: LLaMA-33B
+  organization: Meta AI
+  release_date: '2023-02-24'
+  model_versions:
+  - LLaMA-33B
+- name: LLaMA-65B
+  organization: Meta AI
+  release_date: '2023-02-24'
+  model_versions:
+  - LLaMA-65B
+- name: LLaMA-7B
+  organization: Meta AI
+  release_date: '2023-02-24'
+  model_versions:
+  - LLaMA-7B
+- name: LLaVA-OneVision 72B
+  organization: null
+  release_date: '2024-08-06'
+  model_versions:
+  - LLaVA-OneVision 72B
+- name: LLaVA-Video-72B-Qwen2
+  organization: null
+  release_date: '2024-09-02'
+  model_versions:
+  - LLaVA-Video-72B-Qwen2
+- name: LLaVA-Video-7B-Qwen2
+  organization: null
+  release_date: '2024-09-02'
+  model_versions:
+  - LLaVA-Video-7B-Qwen2
+- name: LLaVA-Video-7B-Qwen2-TPO
+  organization: null
+  release_date: '2025-01-19'
+  model_versions:
+  - LLaVA-Video-7B-Qwen2-TPO
+- name: Laguna M.1
+  organization: Poolside
+  release_date: '2026-04-28'
+  model_versions:
+  - laguna-m.1
+- name: Laguna XS.2
+  organization: Poolside
+  release_date: '2026-04-28'
+  model_versions:
+  - laguna-xs.2
+- name: LinVT
+  organization: null
+  release_date: '2024-12-06'
+  model_versions:
+  - LinVT
+- name: LiveCC-7B-Instruct
+  organization: null
+  release_date: '2024-04-12'
+  model_versions:
+  - LiveCC-7B-Instruct
+- name: Llama 2-13B
+  organization: Meta AI
+  release_date: '2023-07-18'
+  model_versions:
+  - Llama-2-13b
+  - Llama-2-13b-chat
+- name: Llama 2-34B
+  organization: Meta AI
+  release_date: '2023-07-18'
+  model_versions:
+  - Llama-2-34b
+- name: Llama 2-70B
+  organization: Meta AI
+  release_date: '2023-07-18'
+  model_versions:
+  - /HFEndpoint/Llama 2-70B
+  - Llama-2-70b-chat
+  - Llama-2-70b-chat-hf
+  - 'Llama-2-70b-hf '
+- name: Llama 2-7B
+  organization: Meta AI
+  release_date: '2023-07-18'
+  model_versions:
+  - Llama-2-7b
+  - llama-2-7b-chat
+- name: Llama 3-70B
+  organization: Meta AI
+  release_date: '2024-04-18'
+  model_versions:
+  - Meta-Llama-3-70B
+  - Meta-Llama-3-70B-Instruct
+- name: Llama 3-8B
+  organization: Meta AI
+  release_date: '2024-04-18'
+  model_versions:
+  - Meta-Llama-3-8B
+  - Meta-Llama-3-8B-Instruct
+- name: Llama 3.1-405B
+  organization: Meta AI
+  release_date: '2024-07-23'
+  model_versions:
+  - Llama-3.1-405B
+  - Llama-3.1-405B-Instruct
+  - llama3.1:405b-instruct-q4_K_M
+- name: Llama 3.1-70B
+  organization: Meta AI
+  release_date: '2024-07-23'
+  model_versions:
+  - Llama-3.1-70B-Instruct
+- name: Llama 3.1-8B
+  organization: Meta AI
+  release_date: '2024-07-23'
+  model_versions:
+  - Llama-3.1-8B-Instruct
+  - llama3.1:8b-instruct-q8_0
+- name: Llama 3.2 11B
+  organization: Meta AI
+  release_date: '2024-09-24'
+  model_versions:
+  - Llama-3.2-11B-Vision-Instruct
+- name: Llama 3.2 1B
+  organization: Meta AI
+  release_date: '2024-09-24'
+  model_versions:
+  - Llama-3.2-1B-Instruct
+- name: Llama 3.2 3B
+  organization: Meta AI
+  release_date: '2024-09-24'
+  model_versions:
+  - Llama-3.2-3B-Instruct
+  - llama-3.2-3b-instruct
+- name: Llama 3.2 90B
+  organization: Meta AI
+  release_date: '2024-09-24'
+  model_versions:
+  - Llama-3.2-90B-Vision-Instruct
+- name: Llama 3.3 70B
+  organization: Meta AI
+  release_date: '2024-12-06'
+  model_versions:
+  - Llama-3.3-70B-Instruct
+  - Llama-3.3-70B-Instruct-Q8_0-GGUF-draft
+  - llama3.3:70b-instruct-q8_0
+- name: Llama 4 Maverick
+  organization: Meta AI
+  release_date: null
+  model_versions:
+  - Llama-4-Maverick-17B-128E-Instruct
+  - Llama-4-Maverick-17B-128E-Instruct-FP8
+  - chutes/Llama-4-Maverick-17B-128E-Instruct
+  conflicting_release_dates:
+    '2025-04-05':
+    - Llama-4-Maverick-17B-128E-Instruct
+    - Llama-4-Maverick-17B-128E-Instruct-FP8
+    '2025-04-06':
+    - chutes/Llama-4-Maverick-17B-128E-Instruct
+- name: Llama 4 Scout
+  organization: Meta AI
+  release_date: '2025-04-05'
+  model_versions:
+  - Llama-4-Scout-17B-16E-Instruct
+  - chutes/Llama-4-Scout-17B-16E Instruct
+- name: Llama-3.1-Nemotron-70B-Instruct
+  organization: Nvidia,Meta AI
+  release_date: '2024-12-18'
+  model_versions:
+  - llama-3.1-nemotron-70b-instruct
+- name: LongVA-7B
+  organization: null
+  release_date: '2024-06-13'
+  model_versions:
+  - LongVA-7B
+- name: MM1-3B-Chat
+  organization: null
+  release_date: '2024-03-14'
+  model_versions:
+  - MM1-3B-Chat
+- name: MM1-7B-Chat
+  organization: null
+  release_date: '2024-03-14'
+  model_versions:
+  - MM1-7B-Chat
+- name: MPT-30B
+  organization: MosaicML
+  release_date: '2023-06-22'
+  model_versions:
+  - mpt-30b
+  - mpt-30b-instruct
+- name: MPT-7B
+  organization: MosaicML
+  release_date: '2023-05-05'
+  model_versions:
+  - mpt-7b
+  - mpt-7b-instruct
+- name: Magistral Medium 1.1
+  organization: Mistral AI
+  release_date: '2025-06-10'
+  model_versions:
+  - magistral-medium-2506
+- name: Magistral Medium 1.2
+  organization: Mistral AI
+  release_date: '2025-09-18'
+  model_versions:
+  - magistral-medium-2509
+- name: Magistral Small 1.0
+  organization: Mistral AI
+  release_date: '2025-06-10'
+  model_versions:
+  - magistral-small-2506
+- name: Magistral Small 1.2
+  organization: Mistral AI
+  release_date: '2025-09-18'
+  model_versions:
+  - magistral-small-2509
+- name: Megatron-Turing NLG 530B
+  organization: Microsoft,Nvidia
+  release_date: '2021-10-11'
+  model_versions:
+  - Megatron-Turing NLG 530B
+- name: Mercury 2
+  organization: Inception Labs
+  release_date: '2026-02-20'
+  model_versions:
+  - mercury-2
+- name: Mercury 2.5
+  organization: Inception Labs
+  release_date: '2026-09-08'
+  model_versions:
+  - mercury-2.5_high
+  - mercury-2.5_unknown
+- name: MiMo-V2-Flash
+  organization: Xiaomi Corp
+  release_date: '2025-12-16'
+  model_versions:
+  - mimo-v2-flash
+- name: MiMo-V2-Pro
+  organization: Xiaomi Corp
+  release_date: '2026-03-18'
+  model_versions:
+  - mimo-v2-pro
+- name: MiMo-V2.5
+  organization: Xiaomi Corp
+  release_date: '2026-04-23'
+  model_versions:
+  - mimo-v2.5
+- name: MiMo-V2.5-Pro
+  organization: Xiaomi Corp
+  release_date: '2026-04-23'
+  model_versions:
+  - mimo-v2.5-pro
+- name: MiniCPM-V-2_6
+  organization: null
+  release_date: '2024-08-03'
+  model_versions:
+  - MiniCPM-V-2_6
+- name: MiniCPM-o-2_6
+  organization: null
+  release_date: '2025-01-12'
+  model_versions:
+  - MiniCPM-o-2_6
+- name: MiniMax-M1-80k
+  organization: MiniMax
+  release_date: '2025-06-13'
+  model_versions:
+  - MiniMax-M1-80k
+- name: MiniMax-M2
+  organization: MiniMax
+  release_date: '2025-10-27'
+  model_versions:
+  - MiniMax-M2
+- name: MiniMax-M2.1
+  organization: MiniMax
+  release_date: '2025-12-23'
+  model_versions:
+  - MiniMax-M2.1
+- name: MiniMax-M2.5
+  organization: MiniMax
+  release_date: '2026-02-12'
+  model_versions:
+  - MiniMax-M2.5
+- name: MiniMax-M2.7
+  organization: MiniMax
+  release_date: '2026-03-18'
+  model_versions:
+  - MiniMax-M2.7
+- name: MiniMax-M3
+  organization: MiniMax
+  release_date: '2026-06-01'
+  model_versions:
+  - MiniMax-M3
+  - MiniMax-M3_none
+- name: Ministral 3B
+  organization: Mistral AI
+  release_date: '2024-10-16'
+  model_versions:
+  - Ministral-3B
+  - ministral-3b-2410
+- name: Ministral 8B
+  organization: Mistral AI
+  release_date: '2024-10-16'
+  model_versions:
+  - Ministral-8B-Instruct-2410
+  - ministral-8b-2410
+- name: Mistral 7B v0.1
+  organization: Mistral AI
+  release_date: '2023-09-27'
+  model_versions:
+  - Mistral-7B-Instruct-v0.1
+  - Mistral-7B-v0.1
+- name: Mistral 7B v0.2
+  organization: Mistral AI
+  release_date: '2023-12-11'
+  model_versions:
+  - Mistral-7B-Instruct-v0.2
+- name: Mistral 7B v0.3
+  organization: Mistral AI
+  release_date: null
+  model_versions:
+  - Mistral-7B-Instruct-v0.3
+  - Mistral-7B-v0.3
+  - open-mistral-7b
+  conflicting_release_dates:
+    '2023-09-27':
+    - open-mistral-7b
+    '2024-05-27':
+    - Mistral-7B-Instruct-v0.3
+    - Mistral-7B-v0.3
+- name: Mistral Large
+  organization: Mistral AI
+  release_date: '2024-02-26'
+  model_versions:
+  - mistral-large-2402
+- name: Mistral Large 2 (Jul 2024)
+  organization: Mistral AI
+  release_date: '2024-07-24'
+  model_versions:
+  - Mistral-Large-Instruct-2407
+  - mistral-large-2407
+- name: Mistral Large 2 (Nov 2024)
+  organization: Mistral AI
+  release_date: null
+  model_versions:
+  - Mistral-Large-Instruct-2411
+  - mistral-large-2411
+  conflicting_release_dates:
+    '2024-11-15':
+    - Mistral-Large-Instruct-2411
+    '2024-11-18':
+    - mistral-large-2411
+- name: Mistral Large 3
+  organization: Mistral AI
+  release_date: '2025-12-02'
+  model_versions:
+  - mistral-large-2512
+- name: Mistral Medium
+  organization: Mistral AI
+  release_date: '2023-12-11'
+  model_versions:
+  - mistral-medium-2312
+- name: Mistral Medium 3
+  organization: Mistral AI
+  release_date: '2025-05-07'
+  model_versions:
+  - mistral-medium-2505
+- name: Mistral Medium 3.1
+  organization: Mistral AI
+  release_date: '2025-08-12'
+  model_versions:
+  - mistral-medium-2508
+- name: Mistral Medium 3.5
+  organization: Mistral AI
+  release_date: '2026-04-28'
+  model_versions:
+  - mistral-medium-2604
+- name: Mistral NeMo
+  organization: Mistral AI
+  release_date: '2024-07-18'
+  model_versions:
+  - Mistral-Nemo-Base-2407
+  - Mistral-Nemo-Instruct-2407
+  - open-mistral-nemo-2407
+- name: Mistral OCR (Mar 2025)
+  organization: Mistral AI
+  release_date: '2025-03-06'
+  model_versions:
+  - mistral-ocr-2503
+- name: Mistral OCR (May 2025)
+  organization: Mistral AI
+  release_date: '2025-05-22'
+  model_versions:
+  - mistral-ocr-2505
+- name: Mistral Saba
+  organization: Mistral AI
+  release_date: '2025-02-17'
+  model_versions:
+  - mistral-saba-2502
+- name: Mistral Small 3
+  organization: Mistral AI
+  release_date: null
+  model_versions:
+  - mistral-small-2501
+  - mistral-small-3-2501
+  conflicting_release_dates:
+    '2025-01-25':
+    - mistral-small-2501
+    '2025-01-30':
+    - mistral-small-3-2501
+- name: Mistral Small 3.1
+  organization: Mistral AI
+  release_date: '2025-03-17'
+  model_versions:
+  - mistral-small-2503
+  - mistral-small-3.1-2503
+- name: Mistral Small 3.2
+  organization: Mistral AI
+  release_date: '2025-06-20'
+  model_versions:
+  - mistral-small-2506
+  - mistral-small-3.2-2506
+- name: Mistral Small 4
+  organization: Mistral AI
+  release_date: '2026-03-16'
+  model_versions:
+  - mistral-small-2603
+- name: Mistral Small v24.09
+  organization: Mistral AI
+  release_date: '2024-09-17'
+  model_versions:
+  - mistral-small-2409
+- name: Mixtral 8x22B
+  organization: Mistral AI
+  release_date: '2024-04-17'
+  model_versions:
+  - Mixtral-8x22B-Instruct-v0.1
+  - Mixtral-8x22B-v0.1
+  - open-mixtral-8x22b
+- name: Mixtral 8x7B
+  organization: Mistral AI
+  release_date: '2023-12-11'
+  model_versions:
+  - Mixtral-8x7B-Instruct-v0.1
+  - Mixtral-8x7B-v0.1
+  - open-mixtral-8x7b
+- name: Muse Spark
+  organization: Meta AI
+  release_date: '2026-04-08'
+  model_versions:
+  - muse-spark
+- name: Muse Spark 1.1
+  organization: Meta AI
+  release_date: '2026-07-09'
+  model_versions:
+  - muse-spark-1.1
+  - muse-spark-1.1_high
+  - muse-spark-1.1_medium
+- name: Muse Spark 1.2
+  organization: Meta AI
+  release_date: '2026-08-05'
+  model_versions:
+  - muse-spark-1.2
+  - muse-spark-1.2_xhigh
+- name: Muse Spark 1.3
+  organization: Meta AI
+  release_date: '2026-09-02'
+  model_versions:
+  - muse-spark-1.3_high
+  - muse-spark-1.3_low
+  - muse-spark-1.3_max
+  - muse-spark-1.3_medium
+  - muse-spark-1.3_minimal
+  - muse-spark-1.3_unknown
+  - muse-spark-1.3_xhigh
+- name: NVILA 8B
+  organization: Nvidia,Massachusetts Institute of Technology (MIT),University of California
+    (UC) Berkeley,University of California San Diego,University of Washington,Tsinghua
+    University
+  release_date: '2024-12-10'
+  model_versions:
+  - NVILA-8B
+- name: Nemotron 3 Super
+  organization: Nvidia
+  release_date: '2026-03-11'
+  model_versions:
+  - nemotron-3-super
+- name: Nemotron 3 Ultra
+  organization: Nvidia
+  release_date: '2026-06-04'
+  model_versions:
+  - nemotron-3-ultra
+- name: Nemotron-4 15B
+  organization: Nvidia
+  release_date: '2024-02-26'
+  model_versions:
+  - Nemotron-4 15B
+- name: Nemotron-4 340B
+  organization: Nvidia
+  release_date: '2024-06-14'
+  model_versions:
+  - nemotron-4-340b-Instruct
+- name: Nova 2.0 Pro Preview
+  organization: Amazon
+  release_date: '2025-12-02'
+  model_versions:
+  - nova-2.0-pro-preview_low
+  - nova-2.0-pro-preview_medium
+  - nova-2.0-pro-preview_none
+  - nova-2.0-pro-preview_unknown
+- name: OLMo 2 Furious 13B
+  organization: Allen Institute for AI,University of Washington,New York University
+    (NYU)
+  release_date: '2024-12-31'
+  model_versions:
+  - OLMo-2-1124-13B-Instruct
+- name: OPT-1.3B
+  organization: Meta AI
+  release_date: '2022-05-11'
+  model_versions:
+  - opt-1.3b
+- name: OPT-175B
+  organization: Meta AI
+  release_date: '2022-05-02'
+  model_versions:
+  - opt-175b
+- name: OPT-66B
+  organization: Meta AI
+  release_date: '2022-05-03'
+  model_versions:
+  - opt-66b
+- name: Oryx-1.5-32B
+  organization: null
+  release_date: '2024-10-22'
+  model_versions:
+  - Oryx-1.5-32B
+- name: PaLM (540B)
+  organization: Google Research
+  release_date: '2022-04-04'
+  model_versions:
+  - PaLM 540B
+- name: PaLM 2-L
+  organization: null
+  release_date: '2023-05-17'
+  model_versions:
+  - PaLM 2-L
+- name: PaLM 2-M
+  organization: null
+  release_date: '2023-05-17'
+  model_versions:
+  - PaLM 2-M
+- name: PaLM 2-S
+  organization: null
+  release_date: '2023-05-17'
+  model_versions:
+  - PaLM 2-S
+- name: PaLM 62B
+  organization: null
+  release_date: '2022-04-04'
+  model_versions:
+  - PaLM 62B
+- name: Phi-1.5
+  organization: Microsoft
+  release_date: '2023-09-11'
+  model_versions:
+  - phi-1_5
+- name: Phi-2
+  organization: Microsoft
+  release_date: '2023-12-12'
+  model_versions:
+  - phi-2
+- name: Phi-3.5-MoE
+  organization: Microsoft
+  release_date: '2024-08-17'
+  model_versions:
+  - Phi-3.5-MoE-instruct
+- name: Phi-3.5-mini
+  organization: Microsoft
+  release_date: '2024-08-16'
+  model_versions:
+  - Phi-3.5-mini-instruct
+- name: Phi-3.5-vision-instruct
+  organization: null
+  release_date: '2024-08-16'
+  model_versions:
+  - Phi-3.5-vision-instruct
+- name: Phi-4
+  organization: Microsoft Research
+  release_date: '2024-12-12'
+  model_versions:
+  - phi-4
+  - phi4:14b-q8_0
+- name: Phi-4 Mini
+  organization: Microsoft
+  release_date: '2025-02-27'
+  model_versions:
+  - Phi-4-mini-instruct
+- name: Phi-4 Reasoning
+  organization: Microsoft Research
+  release_date: '2025-04-30'
+  model_versions:
+  - Phi-4-reasoning
+- name: Phi-4-Reasoning-plus
+  organization: Microsoft
+  release_date: '2025-04-30'
+  model_versions:
+  - phi-4-reasoning-plus
+- name: Pixtral 12B
+  organization: Mistral AI
+  release_date: '2024-09-17'
+  model_versions:
+  - Pixtral-12B-2409
+- name: Pixtral Large
+  organization: Mistral AI
+  release_date: '2024-11-18'
+  model_versions:
+  - pixtral-large-2411
+- name: QVQ-Max
+  organization: Alibaba
+  release_date: '2025-03-25'
+  model_versions:
+  - qvq-max-2025-03-25
+- name: QWQ-Plus
+  organization: Alibaba
+  release_date: '2025-04-08'
+  model_versions:
+  - qwq-plus
+- name: QwQ-32B
+  organization: Alibaba
+  release_date: '2025-03-05'
+  model_versions:
+  - QwQ-32B
+  - QwQ-32B (16K thinking)
+  - chutes/QwQ-32B
+- name: QwQ-32B-Preview
+  organization: Alibaba
+  release_date: '2024-11-28'
+  model_versions:
+  - QwQ-32B-Preview
+  - QwQ-32B-Preview-Q8_0-GGUF
+- name: Qwen 3.5 Flash (hosted 35B-A3B)
+  organization: Alibaba
+  release_date: '2026-02-25'
+  model_versions:
+  - qwen3.5-flash
+  - qwen3.5-flash_none
+- name: Qwen 3.5 Plus (hosted 397B-A17B)
+  organization: Alibaba
+  release_date: '2026-02-16'
+  model_versions:
+  - qwen3.5-plus
+  - qwen3.5-plus_none
+- name: Qwen 3.6 35B-A3B
+  organization: Alibaba
+  release_date: '2026-04-14'
+  model_versions:
+  - qwen3.6-35b-a3b
+  - qwen3.6-35b-a3b_none
+- name: Qwen 3.6 Flash
+  organization: Alibaba
+  release_date: '2026-04-27'
+  model_versions:
+  - qwen3.6-flash
+  - qwen3.6-flash_none
+- name: Qwen 3.6 Max (Preview)
+  organization: Alibaba
+  release_date: '2026-04-20'
+  model_versions:
+  - qwen3.6-max-preview
+  - qwen3.6-max-preview_none
+- name: Qwen 3.6 Plus
+  organization: Alibaba
+  release_date: '2026-03-31'
+  model_versions:
+  - qwen3.6-plus
+  - qwen3.6-plus_none
+- name: Qwen 3.8 27B
+  organization: Alibaba
+  release_date: '2026-08-14'
+  model_versions:
+  - qwen3.8-27b
+  - qwen3.8-27b_low
+  - qwen3.8-27b_medium
+  - qwen3.8-27b_none
+  - qwen3.8-27b_xhigh
+- name: Qwen 3.8 Max
+  organization: Alibaba
+  release_date: '2026-08-02'
+  model_versions:
+  - qwen3.8-max_unknown
+  - qwen3.8-max_xhigh
+- name: Qwen Plus (Apr 2025)
+  organization: Alibaba
+  release_date: '2025-04-28'
+  model_versions:
+  - qwen-plus-2025-04-28
+- name: Qwen Plus (Jan 2025)
+  organization: Alibaba
+  release_date: '2025-01-25'
+  model_versions:
+  - qwen-plus-2025-01-25
+- name: Qwen-14B
+  organization: Alibaba
+  release_date: '2023-09-24'
+  model_versions:
+  - Qwen-14B
+  - Qwen-14B-Chat
+- name: Qwen-1_8B
+  organization: null
+  release_date: '2023-11-30'
+  model_versions:
+  - Qwen-1_8B
+- name: Qwen-7B
+  organization: Alibaba
+  release_date: '2023-09-28'
+  model_versions:
+  - Qwen-7B
+- name: Qwen-Turbo
+  organization: Alibaba
+  release_date: '2024-11-01'
+  model_versions:
+  - qwen-turbo-2024-11-01
+- name: Qwen-VL-Chat
+  organization: null
+  release_date: '2023-08-20'
+  model_versions:
+  - Qwen-VL-Chat
+- name: Qwen-VL-Max
+  organization: null
+  release_date: '2024-01-18'
+  model_versions:
+  - Qwen-VL-Max
+- name: Qwen1.5-110B
+  organization: Alibaba
+  release_date: '2024-04-25'
+  model_versions:
+  - qwen1.5-110b-chat
+- name: Qwen1.5-14B
+  organization: Alibaba
+  release_date: '2024-02-04'
+  model_versions:
+  - qwen1.5-14B
+  - qwen1.5-14b-chat
+- name: Qwen1.5-32B
+  organization: Alibaba
+  release_date: null
+  model_versions:
+  - qwen1.5-32B
+  - qwen1.5-32b-chat
+  conflicting_release_dates:
+    '2024-02-04':
+    - qwen1.5-32B
+    '2024-04-03':
+    - qwen1.5-32b-chat
+- name: Qwen1.5-72B
+  organization: Alibaba
+  release_date: '2024-02-04'
+  model_versions:
+  - qwen1.5-72b-chat
+- name: Qwen1.5-7B
+  organization: Alibaba
+  release_date: '2024-02-04'
+  model_versions:
+  - Qwen1.5-7B
+  - qwen1.5-7b-chat
+- name: Qwen2-57B-A14B
+  organization: Alibaba
+  release_date: '2024-11-28'
+  model_versions:
+  - qwen2-57b-a14b-instruct
+- name: Qwen2-72B
+  organization: Alibaba
+  release_date: '2024-06-07'
+  model_versions:
+  - qwen2-72b-instruct
+- name: Qwen2-7B
+  organization: Alibaba
+  release_date: '2024-11-28'
+  model_versions:
+  - qwen2-7b-instruct
+- name: Qwen2-VL-72B-Instruct
+  organization: null
+  release_date: '2024-08-29'
+  model_versions:
+  - Qwen2-VL-72B-Instruct
+- name: Qwen2-VL-7B-Instruct
+  organization: null
+  release_date: '2024-08-29'
+  model_versions:
+  - Qwen2-VL-7B-Instruct
+- name: Qwen2.5-1.5B
+  organization: Alibaba
+  release_date: '2024-09-19'
+  model_versions:
+  - qwen2.5-1.5b-instruct
+- name: Qwen2.5-14B
+  organization: Alibaba
+  release_date: '2024-09-19'
+  model_versions:
+  - qwen2.5-14b-instruct
+- name: Qwen2.5-32B
+  organization: Alibaba
+  release_date: '2024-09-17'
+  model_versions:
+  - Qwen2.5-Coder-32B-Instruct-Q8_0-GGUF
+  - qwen2.5-32b-instruct
+- name: Qwen2.5-3B
+  organization: Alibaba
+  release_date: '2024-09-19'
+  model_versions:
+  - qwen2.5-3b-instruct
+- name: Qwen2.5-72B
+  organization: Alibaba
+  release_date: '2024-09-19'
+  model_versions:
+  - Qwen2.5-72B
+  - Qwen2.5-VL-72B-Instruct
+  - qwen2.5-72b-instruct
+- name: Qwen2.5-7B
+  organization: Alibaba
+  release_date: '2024-09-19'
+  model_versions:
+  - qwen2.5-7b-instruct
+- name: Qwen2.5-Coder (1.5B)
+  organization: Alibaba
+  release_date: '2024-09-18'
+  model_versions:
+  - Qwen2.5-Coder-1.5B
+- name: Qwen2.5-Coder (7B)
+  organization: Alibaba
+  release_date: '2024-09-18'
+  model_versions:
+  - Qwen2.5-Coder-7B
+  - Qwen2.5-Coder-7B-Instruct
+- name: Qwen2.5-Coder-0.5B
+  organization: null
+  release_date: '2024-09-18'
+  model_versions:
+  - Qwen2.5-Coder-0.5B
+- name: Qwen2.5-Coder-14B
+  organization: null
+  release_date: '2024-09-18'
+  model_versions:
+  - Qwen2.5-Coder-14B
+- name: Qwen2.5-Coder-14B-Instruct
+  organization: null
+  release_date: '2024-11-06'
+  model_versions:
+  - Qwen2.5-Coder-14B-Instruct
+- name: Qwen2.5-Coder-32B
+  organization: Alibaba
+  release_date: '2024-09-18'
+  model_versions:
+  - Qwen2.5-Coder-32B
+- name: Qwen2.5-Coder-32B-Instruct
+  organization: Alibaba
+  release_date: '2024-11-21'
+  model_versions:
+  - Qwen2.5-Coder-32B-Instruct
+- name: Qwen2.5-Coder-3B
+  organization: null
+  release_date: '2024-09-18'
+  model_versions:
+  - Qwen2.5-Coder-3B
+- name: Qwen2.5-Coder-3B-Instruct
+  organization: null
+  release_date: '2024-11-06'
+  model_versions:
+  - Qwen2.5-Coder-3B-Instruct
+- name: Qwen2.5-Max
+  organization: Alibaba
+  release_date: '2025-01-25'
+  model_versions:
+  - qwen-max-2025-01-25
+  - qwen2.5-max
+- name: Qwen3-0.6B
+  organization: Alibaba
+  release_date: '2025-04-29'
+  model_versions:
+  - qwen3-0.6b
+  - qwen3-0.6b_none
+- name: Qwen3-1.7B
+  organization: Alibaba
+  release_date: '2025-04-29'
+  model_versions:
+  - qwen3-1.7b
+  - qwen3-1.7b_none
+- name: Qwen3-14B
+  organization: Alibaba
+  release_date: null
+  model_versions:
+  - chutes/Qwen3-14B
+  - qwen3-14b
+  - qwen3-14b_none
+  conflicting_release_dates:
+    '2025-04-28':
+    - chutes/Qwen3-14B
+    '2025-04-29':
+    - qwen3-14b
+    - qwen3-14b_none
+- name: Qwen3-235B-A22B
+  organization: Alibaba
+  release_date: '2025-04-28'
+  model_versions:
+  - Qwen3-235B-A22B
+  - chutes/Qwen3-235B-A22B
+  - qwen3-235b-a22b
+- name: Qwen3-235B-A22B-Instruct (Jul 2025)
+  organization: Alibaba
+  release_date: '2025-07-25'
+  model_versions:
+  - Qwen3-235B-A22B-Instruct-2507
+  - parasail-qwen3-235b-a22b-instruct-2507
+- name: Qwen3-235B-A22B-Thinking (Jul 2025)
+  organization: Alibaba
+  release_date: '2025-07-25'
+  model_versions:
+  - Qwen/Qwen3-235B-A22B-Thinking-2507
+  - Qwen3-235B-A22B-Thinking-2507
+  - accounts/fireworks/models/qwen3-235b-a22b-thinking-2507
+  - chutes/Qwen3-235B-A22B-Thinking-2507
+  - qwen/qwen3-235b-a22b-thinking-2507
+- name: Qwen3-30B-A3B
+  organization: Alibaba
+  release_date: null
+  model_versions:
+  - Qwen3-30B-A3B
+  - Qwen3-30B-A3B_none
+  - chutes/Qwen3-30B-A3B
+  conflicting_release_dates:
+    '2025-04-28':
+    - Qwen3-30B-A3B
+    - chutes/Qwen3-30B-A3B
+    '2025-04-29':
+    - Qwen3-30B-A3B_none
+- name: Qwen3-30B-A3B-Instruct (Jul 2025)
+  organization: Alibaba
+  release_date: '2025-07-29'
+  model_versions:
+  - qwen3-30b-a3b-instruct-2507
+- name: Qwen3-30B-A3B-Thinking (Jul 2025)
+  organization: Alibaba
+  release_date: '2025-07-30'
+  model_versions:
+  - qwen3-30b-a3b-thinking-2507
+- name: Qwen3-32B
+  organization: Alibaba
+  release_date: null
+  model_versions:
+  - Qwen3-32B
+  - Qwen3-32B_none
+  - chutes/Qwen3-32B
+  conflicting_release_dates:
+    '2025-04-28':
+    - Qwen3-32B
+    - chutes/Qwen3-32B
+    '2025-04-29':
+    - Qwen3-32B_none
+- name: Qwen3-4B
+  organization: Alibaba
+  release_date: '2025-04-29'
+  model_versions:
+  - qwen3-4b
+  - qwen3-4b_none
+- name: Qwen3-8B
+  organization: Alibaba
+  release_date: '2025-04-28'
+  model_versions:
+  - chutes/Qwen3-8B
+  - qwen3-8b
+  - qwen3-8b_none
+- name: Qwen3-Coder-480B-A35B
+  organization: Alibaba
+  release_date: '2025-07-31'
+  model_versions:
+  - Qwen3-Coder-480B-A35B-Instruct
+- name: Qwen3-Max
+  organization: Alibaba
+  release_date: '2025-09-24'
+  model_versions:
+  - qwen3-max-2025-09-23
+- name: Qwen3.5 397B-A17B
+  organization: Alibaba
+  release_date: '2026-02-13'
+  model_versions:
+  - qwen3.5-397b-a17b
+  - qwen3.5-397b-a17b_none
+- name: Qwen3.5-0.8B
+  organization: Alibaba
+  release_date: '2026-02-24'
+  model_versions:
+  - qwen3.5-0.8b
+  - qwen3.5-0.8b_none
+- name: Qwen3.5-122B-A10B
+  organization: Alibaba
+  release_date: '2026-02-24'
+  model_versions:
+  - qwen3.5-122b-a10b_none
+- name: Qwen3.5-27B
+  organization: Alibaba
+  release_date: '2026-02-24'
+  model_versions:
+  - qwen3.5-27B
+- name: Qwen3.5-2B
+  organization: Alibaba
+  release_date: '2026-02-24'
+  model_versions:
+  - qwen3.5-2b_none
+- name: Qwen3.5-35B-A3B
+  organization: Alibaba
+  release_date: '2026-02-24'
+  model_versions:
+  - qwen3.5-35b-a3b
+  - qwen3.5-35b-a3b_none
+- name: Qwen3.5-4B
+  organization: Alibaba
+  release_date: '2026-02-24'
+  model_versions:
+  - qwen3.5-4b_none
+- name: Qwen3.5-9B
+  organization: Alibaba
+  release_date: '2026-02-24'
+  model_versions:
+  - qwen3.5-9B
+  - qwen3.5-9B_none
+- name: Qwen3.6 27B
+  organization: Alibaba
+  release_date: '2026-04-22'
+  model_versions:
+  - qwen3.6-27b
+  - qwen3.6-27b_none
+- name: Qwen3.7 Flash
+  organization: Alibaba
+  release_date: '2026-07-27'
+  model_versions:
+  - qwen3.7-flash
+  - qwen3.7-flash_none
+- name: Qwen3.7-Max
+  organization: Alibaba
+  release_date: '2026-05-19'
+  model_versions:
+  - qwen3.7-max
+  - qwen3.7-max_none
+- name: Qwen3.7-Plus
+  organization: Alibaba
+  release_date: '2026-06-02'
+  model_versions:
+  - qwen3.7-plus
+  - qwen3.7-plus_none
+- name: Qwen3.8 Flash
+  organization: Alibaba
+  release_date: '2026-08-26'
+  model_versions:
+  - qwen3.8-flash_xhigh
+- name: Qwen3.8 Max (0902)
+  organization: Alibaba
+  release_date: '2026-09-01'
+  model_versions:
+  - qwen3.8-max-0902_unknown
+  - qwen3.8-max-0902_xhigh
+- name: RedPajama-INCITE-7B-Base
+  organization: null
+  release_date: '2023-05-04'
+  model_versions:
+  - RedPajama-INCITE-7B-Base
+- name: Reka Flash 3
+  organization: Reka AI
+  release_date: '2025-03-10'
+  model_versions:
+  - reka-flash-3
+- name: Ring-2.6-1T
+  organization: Ant Group
+  release_date: '2026-05-14'
+  model_versions:
+  - Ring-2.6-1T
+- name: ST-LLM
+  organization: null
+  release_date: '2024-03-28'
+  model_versions:
+  - ST-LLM
+- name: SWE-1.6
+  organization: Cognition
+  release_date: '2026-04-07'
+  model_versions:
+  - swe-1.6
+- name: SWE-1.7
+  organization: Cognition
+  release_date: '2026-07-08'
+  model_versions:
+  - swe-1.7
+- name: SWE-2
+  organization: Cognition
+  release_date: '2026-09-10'
+  model_versions:
+  - swe-2_max
+- name: SliME-Llama3-8B
+  organization: null
+  release_date: '2024-06-02'
+  model_versions:
+  - SliME-Llama3-8B
+- name: Solar Pro 3
+  organization: Upstage
+  release_date: '2026-01-27'
+  model_versions:
+  - solar-pro-3
+- name: Sonar
+  organization: Perplexity
+  release_date: '2025-01-21'
+  model_versions:
+  - sonar-pro
+- name: Stable Beluga 2
+  organization: Stability AI
+  release_date: '2023-07-20'
+  model_versions:
+  - StableBeluga2
+- name: StarCoder 2 15B
+  organization: Hugging Face,ServiceNow,Nvidia,BigCode
+  release_date: '2024-02-20'
+  model_versions:
+  - starcoder2-15b
+- name: StarCoder 2 3B
+  organization: Hugging Face,ServiceNow,Nvidia,BigCode
+  release_date: '2024-02-22'
+  model_versions:
+  - starcoder2-3b
+- name: StarCoder 2 7B
+  organization: Hugging Face,ServiceNow,Nvidia,BigCode
+  release_date: '2024-02-20'
+  model_versions:
+  - starcoder2-7b
+- name: Step 3.5 Flash
+  organization: StepFun
+  release_date: '2026-02-02'
+  model_versions:
+  - step-3.5-flash
+- name: Step 3.7 Flash
+  organization: StepFun
+  release_date: '2026-05-29'
+  model_versions:
+  - step-3.7-flash
+- name: Step 5 Preview
+  organization: StepFun
+  release_date: '2026-09-18'
+  model_versions:
+  - step-5-preview_unknown
+- name: Switch-Base
+  organization: null
+  release_date: null
+  model_versions:
+  - Switch-Base
+- name: Switch-Large
+  organization: null
+  release_date: null
+  model_versions:
+  - Switch-Large
+- name: T5-11B
+  organization: Google
+  release_date: '2019-10-23'
+  model_versions:
+  - T5-11B
+- name: T5-3B
+  organization: Google
+  release_date: '2019-10-23'
+  model_versions:
+  - T5-3B
+- name: T5-Base
+  organization: null
+  release_date: null
+  model_versions:
+  - T5-Base
+- name: T5-Large
+  organization: null
+  release_date: null
+  model_versions:
+  - T5-Large
+- name: T5-Small
+  organization: null
+  release_date: null
+  model_versions:
+  - T5-Small
+- name: Tencent Hy4 preview
+  organization: Tencent
+  release_date: '2026-08-28'
+  model_versions:
+  - hy4-preview_unknown
+- name: TimeMarker
+  organization: null
+  release_date: '2024-11-27'
+  model_versions:
+  - TimeMarker
+- name: Trinity Large Thinking
+  organization: Arcee AI
+  release_date: '2026-04-01'
+  model_versions:
+  - trinity-large-thinking
+- name: Tulu 3 (Tülu 3) 70B
+  organization: Allen Institute for AI,University of Washington
+  release_date: '2024-11-21'
+  model_versions:
+  - Llama-3.1-Tulu-3-70B-DPO
+- name: VITA
+  organization: null
+  release_date: '2024-08-12'
+  model_versions:
+  - VITA
+- name: VITA-1.5
+  organization: null
+  release_date: '2024-12-20'
+  model_versions:
+  - VITA-1.5
+- name: ViLAMP-llava-qwen
+  organization: null
+  release_date: '2025-05-01'
+  model_versions:
+  - ViLAMP-llava-qwen
+- name: Vicuna-13B-v1.3
+  organization: Large Model Systems Organization,University of California (UC) Berkeley
+  release_date: '2023-06-18'
+  model_versions:
+  - vicuna-13b-v1.3
+- name: Video-CCAM-7B-v1.2
+  organization: null
+  release_date: '2024-09-29'
+  model_versions:
+  - Video-CCAM-7B-v1.2
+- name: Video-LLaVA-7B
+  organization: null
+  release_date: '2023-11-17'
+  model_versions:
+  - Video-LLaVA-7B
+- name: Video-XL-7B
+  organization: null
+  release_date: '2024-10-17'
+  model_versions:
+  - Video-XL-7B
+- name: VideoChat-Flash-Qwen2-7B_res448
+  organization: null
+  release_date: '2025-01-11'
+  model_versions:
+  - VideoChat-Flash-Qwen2-7B_res448
+- name: VideoLLAMA2-7B
+  organization: null
+  release_date: '2024-06-12'
+  model_versions:
+  - VideoLLAMA2-7B
+- name: VideoLLAMA3-7B
+  organization: null
+  release_date: '2024-01-22'
+  model_versions:
+  - VideoLLAMA3-7B
+- name: WizardLM-2 8x22B
+  organization: Microsoft
+  release_date: '2024-04-15'
+  model_versions:
+  - WizardLM-2-8x22B
+- name: XGen-7B
+  organization: Salesforce
+  release_date: '2023-06-27'
+  model_versions:
+  - xgen-7b-8k-base
+- name: Yi 6B
+  organization: 01.AI
+  release_date: null
+  model_versions:
+  - Yi-6B
+  - Yi-6B-Chat
+  conflicting_release_dates:
+    '2023-11-02':
+    - Yi-6B
+    '2023-11-22':
+    - Yi-6B-Chat
+- name: Yi-1.5-34B
+  organization: 01.AI
+  release_date: '2024-05-13'
+  model_versions:
+  - Yi-1.5-34B
+  - Yi-1.5-34B-Chat
+- name: Yi-34B
+  organization: 01.AI
+  release_date: '2023-11-02'
+  model_versions:
+  - Yi-34B
+  - Yi-34B-Chat
+- name: Yi-9B
+  organization: null
+  release_date: '2024-03-01'
+  model_versions:
+  - Yi-9B
+- name: Yi-Large
+  organization: 01.AI
+  release_date: '2024-05-13'
+  model_versions:
+  - Yi-large
+- name: Yi-Lightning
+  organization: 01.AI
+  release_date: '2024-12-02'
+  model_versions:
+  - yi-lightning
+- name: c4ai-command-r-08-2024
+  organization: null
+  release_date: '2024-08-30'
+  model_versions:
+  - c4ai-command-r-08-2024
+- name: chatglm2-6b
+  organization: null
+  release_date: '2023-06-24'
+  model_versions:
+  - chatglm2-6b
+- name: chutes/GLM-4.5-FP8
+  organization: null
+  release_date: '2025-07-27'
+  model_versions:
+  - chutes/GLM-4.5-FP8
+- name: chutes/Qwen3-Next-80B-A3B-Instruct
+  organization: null
+  release_date: '2025-09-11'
+  model_versions:
+  - chutes/Qwen3-Next-80B-A3B-Instruct
+- name: claude-strudel-v4-p
+  organization: Anthropic
+  release_date: '2025-05-22'
+  model_versions:
+  - claude-strudel-v4-p
+- name: claude-strudel-v4-p_high
+  organization: Anthropic
+  release_date: '2025-05-22'
+  model_versions:
+  - claude-strudel-v4-p_high
+- name: claude-strudel-v4-p_max
+  organization: Anthropic
+  release_date: '2025-05-22'
+  model_versions:
+  - claude-strudel-v4-p_max
+- name: codex-mini-2025-05-16
+  organization: null
+  release_date: '2025-05-16'
+  model_versions:
+  - codex-mini-2025-05-16
+- name: computer-use-preview-2025-03-11
+  organization: null
+  release_date: '2025-03-11'
+  model_versions:
+  - computer-use-preview-2025-03-11
+- name: davinci-001
+  organization: OpenAI
+  release_date: '2020-05-28'
+  model_versions:
+  - code-davinci-edit-001
+  - text-davinci-edit-001
+- name: davinci-002
+  organization: OpenAI
+  release_date: '2022-03-15'
+  model_versions:
+  - code-davinci-002
+  - text-davinci-002
+- name: davinci-003
+  organization: OpenAI
+  release_date: '2022-11-28'
+  model_versions:
+  - text-davinci-003
+- name: deepinfra/Qwen3-Next-80B-A3B-Instruct
+  organization: null
+  release_date: '2025-09-11'
+  model_versions:
+  - deepinfra/Qwen3-Next-80B-A3B-Instruct
+- name: deepseek-r1-0528-qwen3-8b
+  organization: null
+  release_date: null
+  model_versions:
+  - deepseek-r1-0528-qwen3-8b
+  conflicting_release_dates:
+    '2025-05-28':
+    - deepseek-r1-0528-qwen3-8b
+    '2025-05-29':
+    - deepseek-r1-0528-qwen3-8b
+- name: falcon-11B-vlm
+  organization: null
+  release_date: '2024-05-21'
+  model_versions:
+  - falcon-11B-vlm
+- name: gemini-robotics-er-1.5-preview
+  organization: null
+  release_date: '2025-09-26'
+  model_versions:
+  - gemini-robotics-er-1.5-preview
+- name: glaive-swe-v1
+  organization: null
+  release_date: null
+  model_versions:
+  - glaive-swe-v1
+- name: glm-4.7-flash
+  organization: null
+  release_date: null
+  model_versions:
+  - glm-4.7-flash
+- name: glm-4.7-flash_none
+  organization: null
+  release_date: null
+  model_versions:
+  - glm-4.7-flash_none
+- name: gpt-oss-120b
+  organization: OpenAI
+  release_date: '2025-08-05'
+  model_versions:
+  - chutes/gpt-oss-120b
+  - chutes/gpt-oss-120b_high
+  - gpt-oss-120b
+  - gpt-oss-120b_high
+  - gpt-oss-120b_low
+  - gpt-oss-120b_medium
+  - gpt-oss-120b_unknown
+  - openai/gpt-oss-120b_high
+  - openai/gpt-oss-120b_low
+- name: gpt-oss-20b
+  organization: OpenAI
+  release_date: '2025-08-05'
+  model_versions:
+  - gpt-oss-20b
+  - gpt-oss-20b_high
+  - gpt-oss-20b_low
+  - gpt-oss-20b_medium
+  - gpt-oss-20b_unknown
+- name: granite-4.0-1b
+  organization: null
+  release_date: '2025-10-28'
+  model_versions:
+  - granite-4.0-1b
+- name: granite-4.0-350m
+  organization: null
+  release_date: '2025-10-28'
+  model_versions:
+  - granite-4.0-350m
+- name: granite-4.0-micro
+  organization: null
+  release_date: '2025-10-02'
+  model_versions:
+  - granite-4.0-micro
+- name: grok-code-fast-1
+  organization: null
+  release_date: '2025-08-28'
+  model_versions:
+  - grok-code-fast-1
+- name: instructblip-vicuna-13b
+  organization: null
+  release_date: '2023-12-25'
+  model_versions:
+  - instructblip-vicuna-13b
+- name: instructblip-vicuna-7b
+  organization: null
+  release_date: '2023-05-22'
+  model_versions:
+  - instructblip-vicuna-7b
+- name: internlm-20b
+  organization: null
+  release_date: '2023-09-18'
+  model_versions:
+  - internlm-20b
+- name: internlm-7b
+  organization: null
+  release_date: '2023-07-05'
+  model_versions:
+  - internlm-7b
+- name: internlm-chat-20b
+  organization: null
+  release_date: '2023-09-17'
+  model_versions:
+  - internlm-chat-20b
+- name: kangaroo
+  organization: null
+  release_date: '2024-11-13'
+  model_versions:
+  - kangaroo
+- name: learnlm-1.5-pro-experimental
+  organization: null
+  release_date: null
+  model_versions:
+  - learnlm-1.5-pro-experimental
+- name: llama3-llava-next-8b
+  organization: null
+  release_date: '2024-04-20'
+  model_versions:
+  - llama3-llava-next-8b
+- name: llava-v1.5-7b
+  organization: null
+  release_date: '2023-10-05'
+  model_versions:
+  - llava-v1.5-7b
+- name: llava-v1.6-mistral-7b
+  organization: null
+  release_date: '2024-01-31'
+  model_versions:
+  - llava-v1.6-mistral-7b
+- name: llava-v1.6-vicuna-13b
+  organization: null
+  release_date: '2024-01-31'
+  model_versions:
+  - llava-v1.6-vicuna-13b
+- name: llava-v1.6-vicuna-7b
+  organization: null
+  release_date: '2024-01-31'
+  model_versions:
+  - llava-v1.6-vicuna-7b
+- name: long-llava-qwen2-7b
+  organization: null
+  release_date: '2024-08-30'
+  model_versions:
+  - long-llava-qwen2-7b
+- name: mPLUG-Owl3-7B-241101
+  organization: null
+  release_date: '2024-11-26'
+  model_versions:
+  - mPLUG-Owl3-7B-241101
+- name: mathstral
+  organization: null
+  release_date: '2024-07-16'
+  model_versions:
+  - mathstral
+- name: mistral-small-2402
+  organization: null
+  release_date: '2024-02-26'
+  model_versions:
+  - mistral-small-2402
+- name: ml-elephant
+  organization: null
+  release_date: null
+  model_versions:
+  - ml-elephant
+- name: nvidia-nemotron-nano-9b-v2
+  organization: null
+  release_date: '2025-08-18'
+  model_versions:
+  - nvidia-nemotron-nano-9b-v2
+- name: o1
+  organization: OpenAI
+  release_date: '2024-12-17'
+  model_versions:
+  - o1-2024-12-17_high
+  - o1-2024-12-17_low
+  - o1-2024-12-17_medium
+  - o1-2024-12-17_unknown
+- name: o1-mini
+  organization: OpenAI
+  release_date: '2024-09-12'
+  model_versions:
+  - o1-mini-2024-09-12_high
+  - o1-mini-2024-09-12_low
+  - o1-mini-2024-09-12_medium
+  - o1-mini-2024-09-12_unknown
+- name: o1-preview
+  organization: OpenAI
+  release_date: '2024-09-12'
+  model_versions:
+  - o1-preview-2024-09-12
+- name: o1-pro
+  organization: OpenAI
+  release_date: '2025-03-19'
+  model_versions:
+  - o1-pro-2025-03-19
+  - o1-pro-2025-03-19_low
+- name: o3
+  organization: OpenAI
+  release_date: '2025-04-16'
+  model_versions:
+  - o3-2025-04-16_high
+  - o3-2025-04-16_low
+  - o3-2025-04-16_medium
+  - o3-2025-04-16_unknown
+- name: o3-mini
+  organization: OpenAI
+  release_date: '2025-01-31'
+  model_versions:
+  - o3-mini-2025-01-31_high
+  - o3-mini-2025-01-31_low
+  - o3-mini-2025-01-31_medium
+  - o3-mini-2025-01-31_unknown
+- name: o3-pro
+  organization: OpenAI
+  release_date: '2025-06-10'
+  model_versions:
+  - o3-pro-2025-06-10_high
+  - o3-pro-2025-06-10_low
+  - o3-pro-2025-06-10_medium
+  - o3-pro-2025-06-10_unknown
+- name: o4-mini
+  organization: OpenAI
+  release_date: '2025-04-16'
+  model_versions:
+  - o4-mini-2025-04-16_high
+  - o4-mini-2025-04-16_low
+  - o4-mini-2025-04-16_medium
+  - o4-mini-2025-04-16_unknown
+- name: open_llama_7b
+  organization: null
+  release_date: '2023-06-07'
+  model_versions:
+  - open_llama_7b
+- name: openhands-lm-32b-v0.1
+  organization: null
+  release_date: '2024-03-26'
+  model_versions:
+  - openhands-lm-32b-v0.1
+- name: opt-13b
+  organization: null
+  release_date: '2022-05-11'
+  model_versions:
+  - opt-13b
+- name: phi-3-medium 14B
+  organization: Microsoft
+  release_date: '2024-04-23'
+  model_versions:
+  - Phi-3-medium-128k-instruct
+- name: phi-3-mini 3.8B
+  organization: Microsoft
+  release_date: '2024-04-23'
+  model_versions:
+  - Phi-3-mini-128k-instruct
+  - Phi-3-mini-4k-instruct
+- name: phi-3-small 7.4B
+  organization: Microsoft
+  release_date: '2024-04-23'
+  model_versions:
+  - Phi-3-small-8k-instruct
+- name: qwen2.5-0.5b-instruct
+  organization: null
+  release_date: '2024-09-19'
+  model_versions:
+  - qwen2.5-0.5b-instruct
+- name: qwen3-4b-instruct-2507
+  organization: null
+  release_date: '2025-08-06'
+  model_versions:
+  - qwen3-4b-instruct-2507
+- name: qwen3-coder-next
+  organization: null
+  release_date: '2026-02-02'
+  model_versions:
+  - qwen3-coder-next
+- name: qwen3-coder-plus
+  organization: null
+  release_date: '2025-09-23'
+  model_versions:
+  - qwen3-coder-plus
+- name: s1
+  organization: Stanford University,University of Washington,Allen Institute for AI,Contextual
+    AI
+  release_date: '2025-01-14'
+  model_versions:
+  - s1-32B
+- name: seed-oss-36b-instruct
+  organization: null
+  release_date: '2025-08-20'
+  model_versions:
+  - seed-oss-36b-instruct
+- name: sharegpt4video-8b
+  organization: null
+  release_date: '2024-05-27'
+  model_versions:
+  - sharegpt4video-8b
+- name: sonar
+  organization: null
+  release_date: null
+  model_versions:
+  - sonar
+- name: stablelm-tuned-alpha-7b
+  organization: null
+  release_date: '2023-04-19'
+  model_versions:
+  - stablelm-tuned-alpha-7b
+- name: test
+  organization: null
+  release_date: null
+  model_versions:
+  - test
+- name: test2
+  organization: null
+  release_date: null
+  model_versions:
+  - test2
+- name: test3
+  organization: null
+  release_date: null
+  model_versions:
+  - test3
+- name: test4
+  organization: null
+  release_date: null
+  model_versions:
+  - test4
+- name: text-embedding-3-large
+  organization: OpenAI
+  release_date: '2024-01-25'
+  model_versions:
+  - text-embedding-3-large
+- name: text-embedding-3-small
+  organization: OpenAI
+  release_date: '2024-01-25'
+  model_versions:
+  - text-embedding-3-small
+- name: tiny-recursion-model
+  organization: null
+  release_date: '2025-10-06'
+  model_versions:
+  - tiny-recursion-model
+- name: vicuna-13b-v1.1
+  organization: null
+  release_date: '2023-04-12'
+  model_versions:
+  - vicuna-13b-v1.1
+- name: video-SALMONN 2+
+  organization: ByteDance
+  release_date: '2025-06-18'
+  model_versions:
+  - video-SALMONN-2plus
+- name: video_chat2_mistral
+  organization: null
+  release_date: '2023-11-29'
+  model_versions:
+  - video_chat2_mistral
+- name: xiaoyi-deepresearch
+  organization: null
+  release_date: '2026-03-06'
+  model_versions:
+  - xiaoyi-deepresearch

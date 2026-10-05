@@ -1,0 +1,28 @@
+# AGI 差距的计算口径：覆盖折扣与分母说明在此声明，可改可重算。
+# 每个分母叶子的得分 = max（各映射基准的 覆盖系数 × 广度系数 × SOTA 归一化成绩）；没有基准覆盖的叶子记 0。
+reviewed_on: '2026-10-05'
+coverage_factor:
+  direct: 1.0   # 基准任务就是这项活动/学科本身
+  partial: 0.5  # 只测到其中一部分或简化版本（如选择题考诊断知识）
+# 学科映射挂在上级节点时，视为只抽样测到其下的细分学科，按层级再打折。
+breadth_factor:
+  leaf: 1.0
+  level2: 0.3
+  level1: 0.1
+denominators:
+  onet:
+    name:
+      zh: 职业：O*NET 31.0 工作活动
+      en: 'Jobs: O*NET 31.0 work activities'
+    source_url: https://www.onetcenter.org/database.html
+    limitation:
+      zh: 以美国职业体系为准，职业等权、未按就业人数加权。
+      en: Based on the US occupational system; occupations are equally weighted, not by employment.
+  gbt13745:
+    name:
+      zh: 学科：GB/T 13745 学科分类
+      en: 'Disciplines: GB/T 13745 classification'
+    source_url: https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=4C13F521FD6ECB6E5EC026FCD779986E
+    limitation:
+      zh: 只有学科名称，没有知识点与难度层级。
+      en: Discipline names only; no knowledge points or difficulty levels.

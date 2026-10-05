@@ -1,0 +1,141 @@
+"""生成中英文 Markdown 报告：先给结论，再给分组明细与各基准最好成绩。"""
+
+from pathlib import Path
+
+from agi_atlas.i18n import LANGS, t
+from agi_atlas.models import AtlasData
+from agi_atlas.site import build_payload
+
+
+def _cell(value: object) -> str:
+    return (
+        str(value)
+        .replace("\\", "\\\\")
+        .replace("|", "\\|")
+        .replace("\r", " ")
+        .replace("\n", " ")
+        .replace("<", "&lt;")
+        .replace(">", "&gt;")
+    )
+
+
+def _pct(value: float | None) -> str:
+    return "—" if value is None else f"{value:g}%"
+
+
+def _summary(payload: dict, lang: str) -> list[str]:
+    o, g = payload["progress"]["onet"], payload["progress"]["gbt13745"]
+    lines = [
+        f"| {t('denominator', lang)} | {t('size', lang)} | {t('measured', lang)} | "
+        f"{t('measured_depth', lang)} | **{t('ai_reached', lang)}** |",
+        "| --- | --- | ---: | ---: | ---: |",
+    ]
+    for d, size in (
+        (o, t("jobs_size", lang, occupations=o["occupations"], leaves=o["summary"]["leaves"])),
+        (g, t("disc_size", lang, leaves=g["summary"]["leaves"])),
+    ):
+        s = d["summary"]
+        measured = _pct(s["mapped_share"])
+        if d is g:
+            measured += f" ({t('precise', lang)} {_pct(s['precise_share'])})"
+        lines.append(
+            f"| {_cell(d['name'][lang])} | {size} | {measured} | {_pct(s['depth'])} | "
+            f"**{_pct(s['progress'])}** |"
+        )
+    return lines
+
+
+def render_report(data: AtlasData, data_dir: Path | str, lang: str = "zh") -> str:
+    payload = build_payload(data, data_dir)
+    p = payload["progress"]
+    o, g = p["onet"], p["gbt13745"]
+    other = "en" if lang == "zh" else "zh"
+    lines = [
+        f"# AGI Atlas · {t('title', lang)}",
+        "",
+        f"[{t('lang_switch', lang)}](report.{other}.md) · {t('snapshot', lang)} "
+        f"{payload['snapshot']} · {t('rebuild', lang)}",
+        "",
+        t("tagline", lang),
+        "",
+        t("summary_head", lang),
+        "",
+        *_summary(payload, lang),
+        "",
+        t("by_major_head", lang),
+        "",
+        f"| {t('by_major', lang)} | {t('count', lang)} | {t('ai_reached', lang)} | "
+        f"{t('measured', lang)} |",
+        "| --- | ---: | ---: | ---: |",
+    ]
+    for r in o["occupation_groups"]:
+        lines.append(
+            f"| {_cell(r['name'][lang])} | {r['occupations']} | {_pct(r['progress'])} | "
+            f"{_pct(r['mapped_share'])} |"
+        )
+    lines += [
+        "",
+        t("by_disc_head", lang),
+        "",
+        f"| {t('by_discipline', lang)} | {t('count', lang)} | {t('ai_reached', lang)} | "
+        f"{t('precise', lang)} |",
+        "| --- | ---: | ---: | ---: |",
+    ]
+    for r in g["groups"][:15]:
+        lines.append(
+            f"| {_cell(r['name'][lang])} | {r['leaves']} | {_pct(r['progress'])} | {r['precise']} |"
+        )
+    lines += [
+        "",
+        t("benchmarks_head", lang),
+        "",
+        f"| {t('benchmark', lang)} | {t('domain', lang)} | {t('setting', lang)} | "
+        f"{t('best', lang)} | {t('model', lang)} | {t('stage', lang)} | {t('source', lang)} |",
+        "| --- | --- | --- | ---: | --- | --- | --- |",
+    ]
+    rep = {grp["benchmark_id"]: grp for grp in payload["groups"] if grp["representative"]}
+    for b in payload["benchmarks"]:
+        domain = (b["path"] if lang == "zh" else b["path_en"]).split("/")[0]
+        grp = rep.get(b["id"])
+        if grp is None:
+            lines.append(
+                f"| {_cell(b['name'])} | {_cell(domain)} | — | — | — | {t('none', lang)} | "
+                f"[{t('official', lang)}](<{b['url']}>) |"
+            )
+            continue
+        w = grp["records"][0]
+        names = grp if lang == "zh" else grp["en"]
+        lines.append(
+            f"| {_cell(b['name'])} | {_cell(domain)} | {_cell(names['version'])} | "
+            f"{w['score']:.4g} {_cell(names['unit'])} | {_cell(w['model'])} | "
+            f"{t(b['status'], lang)} | "
+            f"[{t(w['source_type'], lang)}](<{payload['sources'][w['source_url']]}>) |"
+        )
+    c, bf = p["coverage_factor"], p["breadth_factor"]
+    colon = "：" if lang == "zh" else ": "
+    lines += [
+        "",
+        t("how_head", lang),
+        "",
+        t("how_body", lang, direct=c["direct"], partial=c["partial"], **bf),
+        "",
+        f"**{t('limits', lang)}**{colon}"
+        + t("limits_body", lang, onet=o["limitation"][lang], gbt=g["limitation"][lang]),
+        "",
+        f"{t('source', lang)}{colon}[O*NET 31.0](<{o['source_url']}>) · "
+        f"[GB/T 13745](<{g['source_url']}>) · [METR](<{payload['horizons']['source_url']}>)"
+        + (f" · [Epoch AI ECI](<{payload['eci']['source_url']}>)" if payload["eci"] else ""),
+        "",
+    ]
+    return "\n".join(lines)
+
+
+def write_reports(data: AtlasData, data_dir: Path | str, output_dir: Path | str) -> list[Path]:
+    out = Path(output_dir)
+    out.mkdir(parents=True, exist_ok=True)
+    paths = []
+    for lang in LANGS:
+        path = out / f"report.{lang}.md"
+        path.write_text(render_report(data, data_dir, lang), encoding="utf-8")
+        paths.append(path)
+    return paths

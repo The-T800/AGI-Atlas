@@ -1,0 +1,10 @@
+---
+description: English-first public content, private Git identity, and verified Pages deployment
+alwaysApply: true
+---
+
+Follow the repository's `AGENTS.md` for all work.
+Use English for public defaults and commit messages; retain explicit Chinese localization.
+Use a repository-local GitHub username and GitHub noreply email for commits.
+Run `scripts/check_public_metadata.py` before pushing.
+Verify GitHub Pages deployment before claiming that the README's live link works.
