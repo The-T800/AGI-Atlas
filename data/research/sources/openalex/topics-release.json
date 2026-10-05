@@ -1,0 +1,37 @@
+{
+  "date": "2026-09-23",
+  "format": "jsonl",
+  "entity": "topics",
+  "record_count": 4516,
+  "content_length": 4974247,
+  "files": [
+    {
+      "url": "s3://openalex/data/jsonl/topics/updated_date=2026-09-19/part_0000.gz",
+      "meta": {
+        "content_length": 2014,
+        "record_count": 1
+      }
+    },
+    {
+      "url": "s3://openalex/data/jsonl/topics/updated_date=2026-09-21/part_0000.gz",
+      "meta": {
+        "content_length": 1651,
+        "record_count": 2
+      }
+    },
+    {
+      "url": "s3://openalex/data/jsonl/topics/updated_date=2026-09-22/part_0000.gz",
+      "meta": {
+        "content_length": 6739,
+        "record_count": 3
+      }
+    },
+    {
+      "url": "s3://openalex/data/jsonl/topics/updated_date=2026-09-23/part_0000.gz",
+      "meta": {
+        "content_length": 4963843,
+        "record_count": 4510
+      }
+    }
+  ]
+}

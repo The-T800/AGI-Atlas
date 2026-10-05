@@ -1,8 +1,4 @@
-"""AGI 差距：以人类全部职业活动与学科为分母，用基准 SOTA 作为 AI 当前上限，逐叶子计分再汇总。
-
-每个分母叶子的得分 = max（映射到它的各基准的 覆盖系数 × 广度系数 × SOTA 归一化成绩）。
-没有基准覆盖、或覆盖它的基准尚无可用成绩的叶子记 0：分母不因缺少测量而缩小。
-"""
+"""O*NET work proxy scores and a separate OpenAlex task-evidence map."""
 
 import csv
 from collections import defaultdict
@@ -13,6 +9,7 @@ from pydantic import HttpUrl
 
 from agi_atlas.loader import read_model, read_yaml
 from agi_atlas.models import Record, Text
+from agi_atlas.subjects import build_subjects
 from agi_atlas.validator import DataValidationError
 
 Fit = Literal["direct", "partial"]
@@ -32,7 +29,7 @@ class Denominator(Record):
 class ProgressPlan(Record):
     reviewed_on: Text
     coverage_factor: dict[Fit, float]
-    denominators: dict[Literal["onet", "nature"], Denominator]
+    denominators: dict[Literal["onet", "openalex"], Denominator]
 
 
 def read_tsv(path: Path) -> list[dict]:
@@ -210,68 +207,6 @@ def _onet(root: Path, plan: ProgressPlan, values: dict, benchmarks: set) -> dict
     }
 
 
-def _nature(root: Path, plan: ProgressPlan, values: dict, benchmarks: set) -> dict:
-    nodes = read_tsv(root / "denominators/nature-subjects.tsv")
-    categories = read_tsv(root / "denominators/nature-groups.tsv")
-    ids = {n["id"] for n in nodes}
-    if len(ids) != len(nodes):
-        raise DataValidationError("Duplicate Nature subject ID.")
-    category_ids = {c["id"] for c in categories}
-    rows = _mapping(root / "mappings/benchmark_nature.tsv", "subject_id", ids, benchmarks)
-    links = defaultdict(list)
-    for row in rows:
-        links[row["subject_id"]].append({**row, "breadth": 1.0})
-    leaves = []
-    for node in nodes:
-        memberships = node["groups"].split(";")
-        if not memberships or not set(memberships) <= category_ids:
-            raise DataValidationError("Unknown Nature category membership.")
-        points, best = _leaf_points(links[node["id"]], values, plan.coverage_factor)
-        leaves.append(
-            {
-                "id": node["id"],
-                "name": {"en": node["name_en"], "zh": node["name_zh"]},
-                # First directory occurrence is only a mosaic layout choice, not a primary field.
-                "group": memberships[0],
-                "memberships": memberships,
-                "weight": 1.0,
-                "links": links[node["id"]],
-                "points": points,
-                "best": best,
-            }
-        )
-    groups = [
-        {
-            "id": c["id"],
-            "name": {"en": c["name_en"], "zh": c["name_zh"]},
-            **_summary([x for x in leaves if c["id"] in x["memberships"]]),
-        }
-        for c in categories
-    ]
-    return {
-        **plan.denominators["nature"].model_dump(mode="json"),
-        "levels": {"1": len(categories), "2": len(nodes)},
-        "memberships": sum(len(x["memberships"]) for x in leaves),
-        "summary": _summary(leaves),
-        "groups": sorted(groups, key=lambda g: (-g["progress"], g["id"])),
-        "top_leaves": _top(leaves),
-        "cell_groups": [{"en": c["name_en"], "zh": c["name_zh"]} for c in categories],
-        "cells": _cells(leaves, [c["id"] for c in categories]),
-        "subjects": [
-            {
-                "id": x["id"],
-                "name": x["name"],
-                "groups": x["memberships"],
-                "url": "https://www.nature.com/subjects/" + x["id"],
-                "benchmark_ids": sorted({r["benchmark_id"] for r in x["links"]}),
-                "mappings": x["links"],
-                "points": round(x["points"] * 100, 2),
-            }
-            for x in leaves
-        ],
-    }
-
-
 def build_progress(data_dir: Path | str, saturation: dict, benchmarks: set) -> dict:
     root = Path(data_dir)
     plan = read_model(root / "research/progress.yaml", ProgressPlan)
@@ -281,5 +216,5 @@ def build_progress(data_dir: Path | str, saturation: dict, benchmarks: set) -> d
         "coverage_factor": plan.coverage_factor,
         "scored_benchmarks": len(values),
         "onet": _onet(root, plan, values, benchmarks),
-        "nature": _nature(root, plan, values, benchmarks),
+        "openalex": build_subjects(root, benchmarks),
     }

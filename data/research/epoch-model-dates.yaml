@@ -1,7 +1,7 @@
 source_id: epoch-benchmarks
 source_url: https://epoch.ai/data/benchmark_data.zip
-source_sha256: 43820f9d624eafa7b9932ab11a8fef90959997bbe6b5866d31795d08f470aef4
-observed_on: '2026-10-04'
+source_sha256: 91cbe8bf15e6dd1bb70b7c51f192305d1064978373f414b45caf874cc96ad50a
+observed_on: '2026-10-05'
 source_file: benchmark_data.zip/model_metadata.csv
 license: CC-BY 4.0（压缩包 README）
 notes: name 为 Epoch 的 model_group；release_date 为模型发布日期，不是评测日期；源表未给出日期或同组版本日期不一致时为
@@ -301,8 +301,11 @@ models:
   organization: Anthropic
   release_date: '2026-09-22'
   model_versions:
+  - claude-opus-5-5_high
+  - claude-opus-5-5_low
   - claude-opus-5-5_max
   - claude-opus-5-5_medium
+  - claude-opus-5-5_unknown
   - claude-opus-5-5_xhigh
 - name: Claude Sonnet 4
   organization: Anthropic
@@ -504,6 +507,7 @@ models:
   model_versions:
   - deepseek-v4.1-flash_high
   - deepseek-v4.1-flash_max
+  - deepseek-v4.1-flash_none
   - deepseek-v4.1-flash_unknown
 - name: DeepSeek-Coder-V2 236B
   organization: DeepSeek
@@ -798,6 +802,7 @@ models:
   release_date: '2026-08-14'
   model_versions:
   - glm-5.3_high
+  - glm-5.3_low
   - glm-5.3_max
   - glm-5.3_unknown
 - name: GLM-5.3-Flash
@@ -805,6 +810,7 @@ models:
   release_date: '2026-08-20'
   model_versions:
   - glm-5.3-flash_high
+  - glm-5.3-flash_low
   - glm-5.3-flash_max
   - glm-5.3-flash_unknown
 - name: GLM-Z1-Rumination-32B-0414
@@ -1475,6 +1481,12 @@ models:
   - gemini-3.8-flash_low
   - gemini-3.8-flash_medium
   - gemini-3.8-flash_unknown
+- name: Gemini 4 Argon
+  organization: Google DeepMind
+  release_date: '2026-09-30'
+  model_versions:
+  - gemini-4-argon_high
+  - gemini-4-argon_unknown
 - name: Gemini Robotics-ER 1.6
   organization: Google
   release_date: '2026-04-14'
@@ -2065,6 +2077,16 @@ models:
   release_date: '2026-04-23'
   model_versions:
   - mimo-v2.5-pro
+- name: MiMo-V2.6 Flash
+  organization: Xiaomi Corp
+  release_date: '2026-09-21'
+  model_versions:
+  - mimo-v2.6-flash
+- name: MiMo-V2.6 Pro
+  organization: Xiaomi Corp
+  release_date: '2026-09-21'
+  model_versions:
+  - mimo-v2.6-pro
 - name: MiniCPM-V-2_6
   organization: null
   release_date: '2024-08-03'
@@ -2258,6 +2280,11 @@ models:
   - Mixtral-8x7B-Instruct-v0.1
   - Mixtral-8x7B-v0.1
   - open-mixtral-8x7b
+- name: Muse Glimmer
+  organization: Meta AI
+  release_date: '2026-08-10'
+  model_versions:
+  - muse-glimmer_high
 - name: Muse Spark
   organization: Meta AI
   release_date: '2026-04-08'
@@ -2270,6 +2297,7 @@ models:
   - muse-spark-1.1
   - muse-spark-1.1_high
   - muse-spark-1.1_medium
+  - muse-spark-1.1_xhigh
 - name: Muse Spark 1.2
   organization: Meta AI
   release_date: '2026-08-05'
@@ -2956,6 +2984,7 @@ models:
   organization: StepFun
   release_date: '2026-09-18'
   model_versions:
+  - step-5-preview_high
   - step-5-preview_unknown
 - name: Switch-Base
   organization: null

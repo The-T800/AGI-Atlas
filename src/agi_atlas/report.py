@@ -24,7 +24,7 @@ def _pct(value: float | None) -> str:
 
 
 def _summary(payload: dict, lang: str) -> list[str]:
-    o, g = payload["progress"]["onet"], payload["progress"]["nature"]
+    o, g = payload["progress"]["onet"], payload["progress"]["openalex"]
     lines = [
         f"| {t('denominator', lang)} | {t('size', lang)} | {t('measured', lang)} | "
         f"{t('measured_depth', lang)} | **{t('ai_reached', lang)}** |",
@@ -48,7 +48,7 @@ def _summary(payload: dict, lang: str) -> list[str]:
 def render_report(data: AtlasData, data_dir: Path | str, lang: str = "en") -> str:
     payload = build_payload(data, data_dir)
     p = payload["progress"]
-    o, g = p["onet"], p["nature"]
+    o, g = p["onet"], p["openalex"]
     other = "en" if lang == "zh" else "zh"
     lines = [
         f"# AGI Atlas · {t('title', lang)}",
@@ -57,6 +57,14 @@ def render_report(data: AtlasData, data_dir: Path | str, lang: str = "en") -> st
         f"{payload['snapshot']} · {t('rebuild', lang)}",
         "",
         t("tagline", lang),
+        "",
+        t(
+            "taxonomy_freshness",
+            lang,
+            release=g["release_date"] or t("live_api", lang),
+            retrieved=g["retrieved_at"][:10],
+            scores=payload["snapshot"],
+        ),
         "",
         t("summary_head", lang),
         "",
@@ -77,14 +85,12 @@ def render_report(data: AtlasData, data_dir: Path | str, lang: str = "en") -> st
         "",
         t("by_disc_head", lang),
         "",
-        f"| {t('by_discipline', lang)} | {t('count', lang)} | {t('ai_reached', lang)} | "
-        f"{t('precise', lang)} |",
-        "| --- | ---: | ---: | ---: |",
+        f"| {t('by_discipline', lang)} | OpenAlex topics | Benchmarks |",
+        "| --- | ---: | ---: |",
     ]
-    for r in g["groups"][:15]:
-        lines.append(
-            f"| {_cell(r['name'][lang])} | {r['leaves']} | {_pct(r['progress'])} | {r['precise']} |"
-        )
+    for r in g["groups"]:
+        count = sum(n["field"] == r["id"] for n in g["subjects"])
+        lines.append(f"| {_cell(r['name'][lang])} | {count} | {len(r['benchmark_ids'])} |")
     lines += [
         "",
         t("benchmarks_head", lang),
@@ -123,7 +129,7 @@ def render_report(data: AtlasData, data_dir: Path | str, lang: str = "en") -> st
         + t("limits_body", lang, onet=o["limitation"][lang], subjects=g["limitation"][lang]),
         "",
         f"{t('source', lang)}{colon}[O*NET 31.0](<{o['source_url']}>) · "
-        f"[Nature subjects](<{g['source_url']}>) · [METR](<{payload['horizons']['source_url']}>)"
+        f"[OpenAlex topics](<{g['source_url']}>) · [METR](<{payload['horizons']['source_url']}>)"
         + (f" · [Epoch AI ECI](<{payload['eci']['source_url']}>)" if payload["eci"] else ""),
         "",
     ]

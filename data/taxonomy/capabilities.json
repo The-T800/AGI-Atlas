@@ -1,0 +1,98 @@
+[
+  {
+    "id": "knowledge",
+    "name": {
+      "en": "Knowledge application",
+      "zh": "知识应用"
+    },
+    "definition": "Apply domain knowledge to a concrete question."
+  },
+  {
+    "id": "reasoning",
+    "name": {
+      "en": "Reasoning",
+      "zh": "推理"
+    },
+    "definition": "Infer, calculate, prove, or solve a constrained problem."
+  },
+  {
+    "id": "perception",
+    "name": {
+      "en": "Perception",
+      "zh": "感知"
+    },
+    "definition": "Extract information from images, audio, video, or spatial observations."
+  },
+  {
+    "id": "language",
+    "name": {
+      "en": "Language and communication",
+      "zh": "语言与沟通"
+    },
+    "definition": "Understand, translate, follow linguistic instructions, or communicate."
+  },
+  {
+    "id": "learning",
+    "name": {
+      "en": "Learning and transfer",
+      "zh": "学习与迁移"
+    },
+    "definition": "Acquire a new rule or transfer to a new task or environment."
+  },
+  {
+    "id": "memory",
+    "name": {
+      "en": "Memory and context",
+      "zh": "记忆与上下文"
+    },
+    "definition": "Retain and retrieve information across context or time."
+  },
+  {
+    "id": "planning",
+    "name": {
+      "en": "Planning",
+      "zh": "规划"
+    },
+    "definition": "Choose and order actions under constraints."
+  },
+  {
+    "id": "action",
+    "name": {
+      "en": "Action and tool use",
+      "zh": "行动与工具使用"
+    },
+    "definition": "Execute code, tools, interfaces, or physical actions."
+  },
+  {
+    "id": "social",
+    "name": {
+      "en": "Social cognition",
+      "zh": "社会认知"
+    },
+    "definition": "Infer mental states or coordinate with other actors."
+  },
+  {
+    "id": "creation",
+    "name": {
+      "en": "Creation",
+      "zh": "创造"
+    },
+    "definition": "Produce a requested artifact or original content."
+  },
+  {
+    "id": "reliability",
+    "name": {
+      "en": "Reliability and calibration",
+      "zh": "可靠性与校准"
+    },
+    "definition": "Recognize uncertainty, verify results, and recover from errors."
+  },
+  {
+    "id": "safety",
+    "name": {
+      "en": "Safety and robustness",
+      "zh": "安全与稳健性"
+    },
+    "definition": "Resist harmful requests, bias, attacks, or disruptive conditions."
+  }
+]

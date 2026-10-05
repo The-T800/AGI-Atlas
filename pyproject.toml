@@ -5,7 +5,7 @@ build-backend = "hatchling.build"
 [project]
 name = "agi-atlas"
 version = "0.2.0"
-description = "How far is AI from AGI? O*NET work activities and Nature subject topics compared with benchmark results."
+description = "How far is AI from AGI? O*NET work activities and OpenAlex subject topics compared with benchmark results."
 readme = "README.md"
 requires-python = ">=3.12"
 license = "MIT"

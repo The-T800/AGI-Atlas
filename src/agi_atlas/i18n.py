@@ -11,10 +11,10 @@ LANGS = ("zh", "en")
 UI: dict[str, dict[str, str]] = {
     "title": {"zh": "离 AGI 还差多少？", "en": "How far is AI from AGI?"},
     "tagline": {
-        "zh": "以 O*NET 职业活动与 Nature 公开主题目录为参照，用公开基准成绩逐项计分；缺测项记 0。",
-        "en": "Use O*NET work activities and the Nature public subject directory as "
-        "reference sets. Score each item from published benchmarks; unmeasured items "
-        "count as 0.",
+        "zh": "O*NET 职业活动、OpenAlex 科研主题与"
+        "独立能力标签共同组织评测证据；学科未测项保持未知。",
+        "en": "Benchmark evidence organized by O*NET work activities, OpenAlex research "
+        "topics and independent capability labels. Unmeasured subjects remain unknown.",
     },
     "lang_switch": {"zh": "English", "en": "中文"},
     "snapshot": {"zh": "数据快照", "en": "Data snapshot"},
@@ -37,12 +37,12 @@ UI: dict[str, dict[str, str]] = {
         "en": "{occupations} occupations, {tasks} tasks, grouped into {leaves} work activities",
     },
     "disc_lead": {
-        "zh": "{leaves} 个去重主题，来自 Nature 的 8 个公开目录大类",
-        "en": "{leaves} unique subjects across 8 Nature directory categories",
+        "zh": "{leaves} 个主题，来自 OpenAlex 四级科研分类",
+        "en": "{leaves} topics in the four-level OpenAlex research taxonomy",
     },
     "by_major": {"zh": "职业大类", "en": "Occupation group"},
     "by_activity": {"zh": "工作活动", "en": "Work activity"},
-    "by_discipline": {"zh": "Nature 目录大类", "en": "Nature category"},
+    "by_discipline": {"zh": "OpenAlex 学科", "en": "OpenAlex field"},
     "count": {"zh": "数量", "en": "Count"},
     "top_items": {"zh": "得分最高的细项", "en": "Top-scoring items"},
     "show_rest": {"zh": "展开其余 {n} 项", "en": "Show the other {n}"},
@@ -52,12 +52,12 @@ UI: dict[str, dict[str, str]] = {
     "partial": {"zh": "部分测量", "en": "partial"},
     "how": {"zh": "怎么算", "en": "How it is computed"},
     "how_body": {
-        "zh": "每项得分 = 覆盖系数 × 基准相对成绩；直接映射 {direct}，部分映射 {partial}。Nature "
-        "主题全部使用部分映射，不将综合成绩当作单科学科成绩。每项取最高代理值；缺测项记 0。",
-        "en": "Item score = coverage factor x relative benchmark score; direct = {direct}, "
-        "partial = {partial}. All Nature links are partial; aggregate benchmark "
-        "scores are not subject-specific results. Use the best proxy per item; "
-        "unmeasured items count as 0.",
+        "zh": "职业代理指数按覆盖系数乘基准相对成绩：直接 {direct}、部分 {partial}，缺测贡献记 "
+        "0。学科轴只展示任务关联和基准原始成绩，未测为未知；不计算学科或 AGI 完成百分比。",
+        "en": "The work proxy multiplies relative benchmark scores by coverage factors: "
+        "direct {direct}, partial {partial}; missing evidence contributes zero. The "
+        "subject axis shows task links and original benchmark results, with unknowns "
+        "preserved. It does not compute subject mastery or AGI completion.",
     },
     "limits": {"zh": "局限", "en": "Limitations"},
     "limits_body": {
@@ -131,14 +131,18 @@ UI: dict[str, dict[str, str]] = {
         "en": "Across O*NET work activities, the AI benchmark proxy index is",
     },
     "hero_sub": {
-        "zh": "{occupations} 个 O*NET 职业、{activities} 项工作活动，以及 {disciplines} 个 Nature "
-        "公开主题，逐项对照公开评测。缺测项记 0。",
-        "en": "{occupations} O*NET occupations, {activities} work activities and "
-        "{disciplines} Nature directory subjects, compared with published "
-        "benchmarks. Unmeasured items count as 0.",
+        "zh": "{occupations} 个 O*NET 职业、{activities}"
+        " 项工作活动；学科轴使用 {disciplines} 个 OpenAlex "
+        "科研主题。工作代理指数缺测贡献记 0；学科未知项不记失败。",
+        "en": "{occupations} O*NET occupations and {activities} work activities; the subject "
+        "axis uses {disciplines} OpenAlex research topics. Missing work evidence "
+        "contributes zero to the proxy; unknown subjects are not failures.",
     },
     "stat_jobs": {"zh": "人类工作", "en": "of human work"},
-    "stat_disc": {"zh": "Nature 主题代理指数", "en": "Nature topic proxy index"},
+    "stat_disc": {
+        "zh": "主题有明确任务映射（非掌握度）",
+        "en": "of topics have explicit task links (not mastery)",
+    },
     "stat_blank": {"zh": "工作没有任何基准", "en": "of work has no benchmark"},
     "stat_depth": {"zh": "已测部分的平均得分", "en": "average score where measured"},
     "mosaic_title": {
@@ -151,7 +155,7 @@ UI: dict[str, dict[str, str]] = {
         "Hover to see what each one is.",
     },
     "mosaic_jobs": {"zh": "职业 · {n} 项工作活动", "en": "Jobs · {n} activities"},
-    "mosaic_disc": {"zh": "Nature · {n} 个主题", "en": "Nature subjects · {n}"},
+    "mosaic_disc": {"zh": "OpenAlex · {n} 个主题", "en": "OpenAlex topics · {n}"},
     "mosaic_caption": {
         "zh": "{scored} 项有得分 · {noscore} 项有基准无成绩 · {blank} 项无基准",
         "en": "{scored} scored · {noscore} benchmarked, no score · {blank} unmeasured",
@@ -177,34 +181,39 @@ UI: dict[str, dict[str, str]] = {
         "en": "Solid: what AI has reached. Thin line: the share of work with any benchmark.",
     },
     "disc_title": {
-        "zh": "学科：采用 Nature 公开目录",
-        "en": "Subjects: the Nature public directory",
+        "zh": "学科 × 能力：OpenAlex 研究地图",
+        "en": "Subjects × capabilities: the OpenAlex research map",
     },
     "disc_sub": {
-        "zh": "8 个大类，95 个去重主题；{precise} 个主题有部分任务映射。"
-        "跨类主题在总数中只计一次，各大类可重叠。",
-        "en": "8 categories and 95 unique subjects; {precise} have partial task mappings. "
-        "Cross-listed subjects count once overall; category totals overlap.",
+        "zh": "{domains} 个大域 → {fields} 个学科 → {subfields} 个子领域 → {topics} "
+        "个主题。点击矩阵查看评测证据，或筛选、搜索具体主题。",
+        "en": "{domains} domains → {fields} fields → {subfields} subfields → {topics} "
+        "topics. Select a matrix cell for benchmark evidence, or filter and search "
+        "individual topics.",
     },
     "method_title": {"zh": "我们怎么算", "en": "How we measure"},
     "step1_t": {"zh": "定义分母", "en": "Define the denominator"},
     "step1_b": {
-        "zh": "职业取 O*NET 31.0；学科采用 Nature 公开的两级目录，"
-        "保留原始主题名称和跨类归属，不推断更深层本体。",
-        "en": "Jobs use O*NET 31.0. Subjects use Nature's public two-level directory, "
-        "preserving labels and cross-listings without inventing a deeper ontology.",
+        "zh": "职业使用 O*NET；学科导入官方 OpenAlex"
+        " 四级体系，保留版本和时间戳；能力是独立的项目标签。",
+        "en": "Work uses O*NET. Subjects use the official four-level OpenAlex hierarchy with "
+        "release dates and timestamps. Capabilities are independent project "
+        "annotations.",
     },
     "step2_t": {"zh": "对照基准", "en": "Map the benchmarks"},
     "step2_b": {
-        "zh": "{benchmarks} 个基准逐一挂到它真正测量的工作活动与学科上，并标注直接或部分测量。",
-        "en": "Each of {benchmarks} benchmarks is linked to the activities and disciplines "
-        "it actually tests, marked direct or partial.",
+        "zh": "为 {benchmarks} 个 Benchmark "
+        "标注能力；学科只挂到任务证据支持的层级，无法确认就留空。",
+        "en": "Annotate capabilities for {benchmarks} benchmarks; link subjects only at the "
+        "level supported by task evidence, leaving uncertain subjects unassigned.",
     },
     "step3_t": {"zh": "取最好成绩", "en": "Score by the best result"},
     "step3_b": {
-        "zh": "每一项取覆盖它的基准中最好的成绩，按覆盖程度打折；没有基准测到的，记 0。",
-        "en": "Each item takes the best score among the benchmarks that cover it, "
-        "discounted by how directly it is measured. Unmeasured items score zero.",
+        "zh": "同版本、协议和子集内比较成绩。学科证据默认展示近 12"
+        " 个月有明确日期的结果；历史与未知日期记录保留在明细。",
+        "en": "Compare results within the same version, protocol and subset. Subject evidence "
+        "highlights dated results from the past 12 months; historical and undated "
+        "records remain in details.",
     },
     "explore_title": {"zh": "探索数据", "en": "Explore the data"},
     "explore_sub": {
@@ -223,18 +232,38 @@ UI: dict[str, dict[str, str]] = {
     "paper": {"zh": "论文", "en": "Paper"},
     "model_provider": {"zh": "厂商报告", "en": "Vendor report"},
     "community": {"zh": "社区", "en": "Community"},
-    "nature_directory": {
-        "zh": "查看全部 Nature 主题与映射依据",
-        "en": "Browse all Nature subjects and mapping evidence",
+    "disc_note": {
+        "zh": "{leaves} 个 OpenAlex 科研主题，不等于完整人类能力清单",
+        "en": "{leaves} OpenAlex research topics, not a complete capability inventory",
     },
-    "nature_topic_hint": {
-        "zh": "目录主题并非完整知识清单。分数为基准任务代理值，不能视作整门学科掌握度。",
-        "en": "Directory topics are not a complete inventory of knowledge. Scores "
-        "are benchmark task proxies, not whole-subject mastery.",
+    "matrix_hint": {
+        "zh": "矩阵数字 = 相关 Benchmark 数量，不是分数。横"
+        "向为独立能力标签；“—”表示未建立证据关联，不代表能力为零。",
+        "en": "Matrix numbers count related benchmarks, not scores. Columns are "
+        "independent capability labels. A dash means no established evidence link, "
+        "not zero ability.",
     },
+    "subject_score_hint": {
+        "zh": "仅展示近 12 个月有评测或发布日期的同口径成绩。分数属于 B"
+        "enchmark，不代表整门学科；来源抓取日期不会代替评测日期。",
+        "en": "Only comparable results with evaluation or publication dates in the "
+        "past 12 months are highlighted. Scores belong to benchmarks, not "
+        "entire subjects; retrieval dates never replace evaluation dates.",
+    },
+    "taxonomy_freshness": {
+        "zh": "分类版本：{release} · 分类抓取：{retrieved} · "
+        "评测来源最近抓取：{scores}。原始更新时间可在主题中查看。",
+        "en": "Taxonomy release: {release} · taxonomy retrieved: {retrieved} · "
+        "latest score-source retrieval: {scores}. Original update timestamps "
+        "are available inside topics.",
+    },
+    "source_updated": {"zh": "来源记录更新时间", "en": "Source record updated"},
+    "evaluation_date": {"zh": "评测日期", "en": "Evaluated"},
+    "published_date": {"zh": "发布日期", "en": "Published"},
+    "retrieved_date": {"zh": "抓取日期", "en": "Retrieved"},
+    "live_api": {"zh": "实时 API 快照", "en": "Live API snapshot"},
 }
 
-# 报告专用文案
 REPORT: dict[str, dict[str, str]] = {
     "summary_head": {"zh": "## 结论", "en": "## Results"},
     "denominator": {"zh": "分母", "en": "Denominator"},
@@ -243,9 +272,12 @@ REPORT: dict[str, dict[str, str]] = {
         "zh": "{occupations} 职业 · {leaves} 工作活动",
         "en": "{occupations} jobs · {leaves} activities",
     },
-    "disc_size": {"zh": "{leaves} 个 Nature 主题", "en": "{leaves} Nature subjects"},
+    "disc_size": {"zh": "{leaves} 个 OpenAlex 主题", "en": "{leaves} OpenAlex topics"},
     "by_major_head": {"zh": "## 按职业大类", "en": "## By occupation group"},
-    "by_disc_head": {"zh": "## 按 Nature 目录大类", "en": "## By Nature directory category"},
+    "by_disc_head": {
+        "zh": "## 按 OpenAlex 学科的证据覆盖",
+        "en": "## Evidence links by OpenAlex field",
+    },
     "benchmarks_head": {"zh": "## 各基准最好成绩", "en": "## Best score per benchmark"},
     "benchmark": {"zh": "基准", "en": "Benchmark"},
     "domain": {"zh": "能力域", "en": "Domain"},

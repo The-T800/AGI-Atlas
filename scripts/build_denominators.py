@@ -1,4 +1,4 @@
-"""Build O*NET activity tables and the pinned Nature public subject directory."""
+"""Build O*NET activity tables and the pinned OpenAlex public subject directory."""
 
 import csv
 import hashlib
@@ -8,7 +8,7 @@ from collections import defaultdict
 from pathlib import Path
 from urllib.request import Request, urlopen
 
-from build_nature import build as build_nature
+from build_openalex import build as build_openalex
 
 ROOT = Path(__file__).resolve().parents[1]
 CACHE = ROOT / ".cache/denominators"
@@ -145,5 +145,5 @@ def build_onet() -> dict:
 
 if __name__ == "__main__":
     OUT.mkdir(parents=True, exist_ok=True)
-    summary = {"onet": build_onet(), "nature": build_nature()}
+    summary = {"onet": build_onet(), "openalex": build_openalex()}
     print(json.dumps(summary, ensure_ascii=False))

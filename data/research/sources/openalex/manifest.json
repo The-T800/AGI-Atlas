@@ -1,0 +1,86 @@
+[
+  {
+    "file": "domains-snapshot-000.gz",
+    "url": "https://openalex.s3.amazonaws.com/data/jsonl/domains/updated_date=2026-09-23/part_0000.gz",
+    "kind": "domains",
+    "format": "jsonl.gz",
+    "count": 4,
+    "release_date": "2026-09-23",
+    "manifest_url": "https://openalex.s3.amazonaws.com/data/jsonl/domains/manifest.json",
+    "manifest_sha256": "07fd4c1c2fdf85e506578e77fef117176a17b2e7334ee84e7cb60896ea18a905",
+    "retrieved_at": "2026-10-05T15:22:32.772674+00:00",
+    "sha256": "688b53704c9065280158b2a863769e1d717c4c1f5a304a9bcb55661a073606e2"
+  },
+  {
+    "file": "fields-snapshot-000.gz",
+    "url": "https://openalex.s3.amazonaws.com/data/jsonl/fields/updated_date=2026-09-23/part_0000.gz",
+    "kind": "fields",
+    "format": "jsonl.gz",
+    "count": 26,
+    "release_date": "2026-09-23",
+    "manifest_url": "https://openalex.s3.amazonaws.com/data/jsonl/fields/manifest.json",
+    "manifest_sha256": "a12cf337ef93fe5281ad1574a292b06154aa8af462f5d4e39e372a074e20a4b9",
+    "retrieved_at": "2026-10-05T15:22:36.273904+00:00",
+    "sha256": "49377b5c68ad9e34101f0586b12d6f68afc298ce78a7a596d386ea9cad42cd5d"
+  },
+  {
+    "file": "subfields-snapshot-000.gz",
+    "url": "https://openalex.s3.amazonaws.com/data/jsonl/subfields/updated_date=2026-09-23/part_0000.gz",
+    "kind": "subfields",
+    "format": "jsonl.gz",
+    "count": 252,
+    "release_date": "2026-09-23",
+    "manifest_url": "https://openalex.s3.amazonaws.com/data/jsonl/subfields/manifest.json",
+    "manifest_sha256": "d80c4baf64c4814973283032ab18c0e5fb9ba326e317fbcbe1e21b1bf6095389",
+    "retrieved_at": "2026-10-05T15:22:40.134838+00:00",
+    "sha256": "9034851602d76eb47be98e4e4ad397ef259d28888fde3e5e61f3dedf29f0b545"
+  },
+  {
+    "file": "topics-snapshot-000.gz",
+    "url": "https://openalex.s3.amazonaws.com/data/jsonl/topics/updated_date=2026-09-19/part_0000.gz",
+    "kind": "topics",
+    "format": "jsonl.gz",
+    "count": 4516,
+    "release_date": "2026-09-23",
+    "manifest_url": "https://openalex.s3.amazonaws.com/data/jsonl/topics/manifest.json",
+    "manifest_sha256": "e063813df6118fb59d41e9532d4375c309df4876a9bb9b69ca3456265951503a",
+    "retrieved_at": "2026-10-05T15:22:43.637520+00:00",
+    "sha256": "1a4f159fd4a28209a2dbd6eb8f204b9d1080f1a86a83e2d4180ed0c366892ad3"
+  },
+  {
+    "file": "topics-snapshot-001.gz",
+    "url": "https://openalex.s3.amazonaws.com/data/jsonl/topics/updated_date=2026-09-21/part_0000.gz",
+    "kind": "topics",
+    "format": "jsonl.gz",
+    "count": 4516,
+    "release_date": "2026-09-23",
+    "manifest_url": "https://openalex.s3.amazonaws.com/data/jsonl/topics/manifest.json",
+    "manifest_sha256": "e063813df6118fb59d41e9532d4375c309df4876a9bb9b69ca3456265951503a",
+    "retrieved_at": "2026-10-05T15:22:45.709588+00:00",
+    "sha256": "db79eee5c405ad163e2caf587c2ae3fcd9621562636f8df07bf84dabd37482f5"
+  },
+  {
+    "file": "topics-snapshot-002.gz",
+    "url": "https://openalex.s3.amazonaws.com/data/jsonl/topics/updated_date=2026-09-22/part_0000.gz",
+    "kind": "topics",
+    "format": "jsonl.gz",
+    "count": 4516,
+    "release_date": "2026-09-23",
+    "manifest_url": "https://openalex.s3.amazonaws.com/data/jsonl/topics/manifest.json",
+    "manifest_sha256": "e063813df6118fb59d41e9532d4375c309df4876a9bb9b69ca3456265951503a",
+    "retrieved_at": "2026-10-05T15:22:47.373146+00:00",
+    "sha256": "0640483c6abacde466d6666db57edaa48d86b1a5e2c42b13dd5b0144033382c7"
+  },
+  {
+    "file": "topics-snapshot-003.gz",
+    "url": "https://openalex.s3.amazonaws.com/data/jsonl/topics/updated_date=2026-09-23/part_0000.gz",
+    "kind": "topics",
+    "format": "jsonl.gz",
+    "count": 4516,
+    "release_date": "2026-09-23",
+    "manifest_url": "https://openalex.s3.amazonaws.com/data/jsonl/topics/manifest.json",
+    "manifest_sha256": "e063813df6118fb59d41e9532d4375c309df4876a9bb9b69ca3456265951503a",
+    "retrieved_at": "2026-10-05T15:23:24.642504+00:00",
+    "sha256": "a63f0ff028981eeecf35034fe58fe09323f174cae81d8e5053900cf8ea4993ca"
+  }
+]

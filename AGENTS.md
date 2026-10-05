@@ -35,9 +35,13 @@
 
 ## Subject reference set
 
-- Use the pinned Nature public subject directory for the academic reference set.
-- Preserve original subject IDs and cross-listings; count each subject once overall.
-- Do not treat a national curriculum or an arbitrary library shelf scheme as a complete
-  human knowledge taxonomy. Do not infer a hierarchy from links labelled "Related Subjects".
-- Keep benchmark mappings separate from source taxonomy, with evidence and partial-coverage
-  qualifications. Document denominator changes and recompute all reports and public copy.
+- Use the official OpenAlex four-level research taxonomy, preserving source IDs and lineage.
+- Pin complete releases with source timestamps and SHA-256 hashes. Rebuild offline in CI.
+- Refresh from the live API with an optional OPENALEX_API_KEY, or use the latest official
+  public snapshot. Never describe a bulk release as current live API data.
+- Keep release date, retrieval date, evaluation date and publication date separate.
+- Classify benchmark task content, not the research subject of the benchmark paper.
+- Link only at the supported level. Broad benchmark totals never become child-topic scores.
+- Unmeasured subjects remain unknown. Do not compute AGI completion from topic counts.
+- Capability annotations are independently curated project data; O*NET remains the work axis.
+- Keep API keys in environment variables or ignored local files. Never store keys in source URLs.

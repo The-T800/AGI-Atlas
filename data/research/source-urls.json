@@ -28,6 +28,5 @@
   "epoch-method-math5": "https://epoch.ai/benchmarks/math-level-5",
   "epoch-method-swe": "https://epoch.ai/benchmarks/swe-bench-verified",
   "epoch-method-simpleqa": "https://epoch.ai/benchmarks/simpleqa-verified",
-  "epoch-eci-page": "https://epoch.ai/eci",
-  "nature-subject-directory": "https://www.nature.com/subjects"
+  "epoch-eci-page": "https://epoch.ai/eci"
 }

@@ -10,6 +10,8 @@
 *.txt text eol=lf
 .githooks/* text eol=lf
 *.zip binary
+*.gz binary
+data/denominators/openalex.json linguist-generated
 docs/index.html linguist-generated
 reports/*.md linguist-generated
 data/scores/frontier_scores.yaml linguist-generated

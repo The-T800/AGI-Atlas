@@ -36,8 +36,8 @@ def test_page_data_names_are_bilingual():
     names = [
         *(g["name"] for g in p["onet"]["groups"]),
         *(g["name"] for g in p["onet"]["occupation_groups"]),
-        *(g["name"] for g in p["nature"]["groups"]),
-        *(x["name"] for x in p["onet"]["top_leaves"] + p["nature"]["top_leaves"]),
+        *(g["name"] for g in p["openalex"]["groups"]),
+        *(x["name"] for x in p["onet"]["top_leaves"] + p["openalex"]["top_leaves"]),
         *(x["name"] for x in p["onet"]["top_occupations"]),
     ]
     assert all(HAN.search(n["zh"]) and not HAN.search(n["en"]) for n in names)

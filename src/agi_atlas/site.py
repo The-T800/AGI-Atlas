@@ -14,6 +14,7 @@ from agi_atlas.loader import read_model
 from agi_atlas.models import AtlasData, Number, Record, Text
 from agi_atlas.progress import build_progress
 from agi_atlas.results import atlas_results
+from agi_atlas.subjects import score_freshness
 from agi_atlas.validator import DataValidationError
 
 METR_FILE = "research/metr-horizon-v1.1-2026-10-04.yaml"
@@ -151,17 +152,20 @@ def _eci(root: Path) -> dict | None:
     }
 
 
-def _compact_groups(groups: list[dict], table: dict, status: dict) -> tuple[list[dict], list[str]]:
+def _compact_groups(
+    groups: list[dict], table: dict, status: dict, as_of: date
+) -> tuple[list[dict], list[str]]:
     """页面载荷瘦身：成绩记录去掉与比较组重复的字段，来源改为索引，并附英文口径。"""
     sources: dict[str, int] = {}
     shared = {"benchmark_id", "benchmark_version", "protocol", "subset", "metric", "unit"}
-    drop = {"verified", "notes", "source_sha256", "source_locator", "observed_at"}
+    drop = {"verified", "notes", "source_sha256", "source_locator"}
     compact = []
     for g in groups:
         records = []
         for r in g["records"]:
             row = {k: v for k, v in r.items() if k not in shared | drop and v is not None}
             row["source_url"] = sources.setdefault(r["source_url"], len(sources))
+            row["freshness"] = score_freshness(r, as_of)
             records.append(row)
         en = {
             k: translate(g[k], table) for k in ("version", "protocol", "subset", "metric", "unit")
@@ -180,7 +184,10 @@ def build_payload(data: AtlasData, data_dir: Path | str) -> dict:
     table = term_table(root)
     results = atlas_results(data)
     status = results["saturation"]["benchmarks"]
-    groups, sources = _compact_groups(results["groups"], table, status)
+    taxonomy = json.loads((root / "denominators/openalex.json").read_text(encoding="utf-8"))
+    groups, sources = _compact_groups(
+        results["groups"], table, status, date.fromisoformat(taxonomy["retrieved_at"][:10])
+    )
 
     def path_en(path: str) -> str:
         return "/".join(table.get(part, part) for part in path.split("/"))

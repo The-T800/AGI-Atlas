@@ -12,13 +12,12 @@ denominators:
       zh: 以美国职业体系为准，职业等权、未按就业人数加权。
       en: Based on the US occupational system; occupations are equally weighted, not
         by employment.
-  nature:
+  openalex:
     name:
-      zh: 学科：Nature 公开主题目录
-      en: 'Subjects: Nature public directory'
-    source_url: https://www.nature.com/subjects
+      en: 'Subjects: OpenAlex research topics'
+      zh: 学科：OpenAlex 科研主题
+    source_url: https://api.openalex.org/topics
     limitation:
-      zh: 采用公开两级目录，不是完整学科本体；交叉主题全局去重，大类统计有重叠。映射成绩是局部任务代理，不代表整门学科已掌握。
-      en: Public two-level directory, not the full subject ontology. Subjects count
-        once overall; categories overlap. Benchmark scores are partial task proxies,
-        not mastery of entire subjects.
+      en: Research topics are not a complete inventory of human capability. Unmeasured
+        subjects are unknown; benchmark totals are not topic scores.
+      zh: 科研主题不是完整的人类能力清单。未测学科为未知，基准总分不作主题分数。

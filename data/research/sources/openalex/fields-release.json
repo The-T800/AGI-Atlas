@@ -1,0 +1,16 @@
+{
+  "date": "2026-09-23",
+  "format": "jsonl",
+  "entity": "fields",
+  "record_count": 26,
+  "content_length": 7196,
+  "files": [
+    {
+      "url": "s3://openalex/data/jsonl/fields/updated_date=2026-09-23/part_0000.gz",
+      "meta": {
+        "content_length": 7196,
+        "record_count": 26
+      }
+    }
+  ]
+}
