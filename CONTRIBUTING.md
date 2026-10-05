@@ -76,3 +76,6 @@ Academic topics follow the pinned OpenAlex directory. Preserve all four hierarch
 Coverage counts must distinguish exact task links, descendant rollups and parent context.
 Count verified results across all comparison groups; label historical and undated evidence
 separately from recent results. Pending curation never means that no benchmark exists.
+
+Present summary metrics positively: report the share with benchmark coverage and the
+number with task links or results. Keep pending states in legends and record details.

@@ -30,8 +30,8 @@ UI: dict[str, dict[str, str]] = {
     "measured_depth": {"zh": "已测部分得分", "en": "Score where measured"},
     "bar_reached": {"zh": "AI 已达到", "en": "AI reached"},
     "bar_left": {"zh": "已测、未达到", "en": "Measured, not reached"},
-    "bar_noscore": {"zh": "有基准、无成绩", "en": "Benchmark, no score"},
-    "bar_blank": {"zh": "无基准", "en": "No benchmark"},
+    "bar_noscore": {"zh": "已关联、成绩待核验", "en": "Linked, results pending"},
+    "bar_blank": {"zh": "关联待建立", "en": "Mapping pending"},
     "jobs_lead": {
         "zh": "{occupations} 个职业、{tasks} 项任务，归为 {leaves} 项工作活动",
         "en": "{occupations} occupations, {tasks} tasks, grouped into {leaves} work activities",
@@ -143,16 +143,16 @@ UI: dict[str, dict[str, str]] = {
         "zh": "主题有明确任务映射（非掌握度）",
         "en": "of topics have explicit task links (not mastery)",
     },
-    "stat_blank": {"zh": "工作没有任何基准", "en": "of work has no benchmark"},
+    "stat_covered": {"zh": "工作已有基准覆盖", "en": "of work covered by benchmarks"},
     "stat_depth": {"zh": "已测部分的平均得分", "en": "average score where measured"},
     "mosaic_title": {
         "zh": "每一格，都是一种人类工作",
         "en": "Every square is one kind of human work",
     },
     "mosaic_sub": {
-        "zh": "越亮表示工作代理得分越高；暗格表示尚未收录基准关联。把鼠标移到格子上查看名称。",
-        "en": "Brighter means a higher work proxy score; "
-        "dark squares lack a recorded benchmark link. "
+        "zh": "亮格显示已收录的工作任务证据，越亮表示工作代理得分越高。把鼠标移到格子上查看名称。",
+        "en": "Highlighted squares show recorded work evidence; "
+        "brighter means a higher work proxy score. "
         "Hover to see what each one is.",
     },
     "subject_mosaic_title": {
@@ -169,37 +169,38 @@ UI: dict[str, dict[str, str]] = {
     "mosaic_jobs": {"zh": "职业 · {n} 项工作活动", "en": "Jobs · {n} activities"},
     "mosaic_disc": {"zh": "OpenAlex · {n} 个主题", "en": "OpenAlex topics · {n}"},
     "mosaic_caption": {
-        "zh": "{scored} 项有得分 · {noscore} 项有基准无成绩 · {blank} 项无基准",
-        "en": "{scored} scored · {noscore} benchmarked, no score · {blank} unmeasured",
+        "zh": "{mapped} / {total} 项工作活动已有基准关联 · {scored} 项有代理得分",
+        "en": "{mapped} / {total} work activities linked to benchmarks · "
+        "{scored} with proxy scores",
     },
     "subject_mosaic_caption": {
-        "zh": "{scored} 个主题有成绩证据 · {noscore} 个已挂靠暂无成绩 · "
-        "{context} 个仅上级有关联 · {blank} 个待建立映射",
-        "en": "{scored} topics with result evidence · {noscore} linked without results · "
-        "{context} with parent context only · {blank} awaiting mapping",
+        "zh": "{mapped} / {total} 个主题已有明确任务关联 · {scored} 个有成绩证据",
+        "en": "{mapped} / {total} topics with explicit task links · {scored} with result evidence",
     },
     "subject_legend_score": {
         "zh": "有任务成绩证据（非学科分数）",
         "en": "Task results, not subject scores",
     },
-    "subject_legend_noscore": {"zh": "已挂靠、暂无成绩", "en": "Linked, no results"},
+    "subject_legend_noscore": {"zh": "已挂靠、成绩待核验", "en": "Linked, results pending"},
     "subject_legend_context": {"zh": "仅上级有关联", "en": "Parent context only"},
     "subject_legend_blank": {"zh": "待建立映射", "en": "Awaiting mapping"},
     "legend_score": {"zh": "AI 得分 0 → 100", "en": "AI score 0 → 100"},
-    "legend_noscore": {"zh": "有基准、无成绩", "en": "Benchmark, no score"},
-    "legend_blank": {"zh": "无基准", "en": "Unmeasured"},
-    "ins1_t": {"zh": "差距主要来自“没测”", "en": "Most of the gap is unmeasured"},
+    "legend_noscore": {"zh": "已关联、得分待核验", "en": "Linked, scores pending"},
+    "legend_blank": {"zh": "关联待建立", "en": "Mapping pending"},
+    "ins1_t": {"zh": "已有基准覆盖的工作", "en": "Work with benchmark coverage"},
     "ins1_b": {
-        "zh": "{blank}% 的人类工作没有任何基准。不是 AI 做不到，而是还没有人测过。",
-        "en": "{blank}% of human work has no benchmark at all. Not failed, simply never tested.",
+        "zh": "{covered}% 的工作已有基准覆盖（按职业加权）；"
+        "{mapped} / {total} 项工作活动已建立任务关联。",
+        "en": "{covered}% of work has benchmark coverage (occupation-weighted); "
+        "{mapped} / {total} work activities have task links.",
     },
     "ins2_t": {"zh": "测到的地方，AI 已经很强", "en": "Where measured, AI is strong"},
     "ins2_b": {
         "zh": "有基准的工作上平均得分 {depth}%；最高的是“{top}”，{score} 分。",
         "en": "It averages {depth}% on benchmarked work; the best is “{top}” at {score}.",
     },
-    "ins3_t": {"zh": "体力与现场工作几乎为零", "en": "Physical, on-site work is near zero"},
-    "ins3_b": {"zh": "{groups}，得分均为 0。", "en": "{groups}: all score 0."},
+    "ins3_t": {"zh": "职业中的覆盖进展", "en": "Coverage across occupations"},
+    "ins3_b": {"zh": "已有基准覆盖：{groups}。", "en": "Benchmark coverage: {groups}."},
     "jobs_title": {"zh": "哪些职业离 AI 最近", "en": "Which jobs AI is closest to"},
     "jobs_sub": {
         "zh": "实心为 AI 已达到的部分，细线为有基准覆盖的部分。",
