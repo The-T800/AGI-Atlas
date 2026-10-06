@@ -1,10 +1,10 @@
-# AGI Atlas
+# [AGI Atlas](https://the-t800.github.io/AGI-Atlas/)
 
-**[Launch the live app on GitHub Pages](https://the-t800.github.io/agi-atlas/)**
+**[Launch the live app on GitHub Pages](https://the-t800.github.io/AGI-Atlas/)**
 
 **English** | [简体中文](README.zh-CN.md)
 
-[![AGI Atlas](docs/preview.png)](https://the-t800.github.io/agi-atlas/)
+[![AGI Atlas](docs/preview.png)](https://the-t800.github.io/AGI-Atlas/)
 
 **How far is AI from AGI?** Explore published benchmark evidence across work, research subjects and independently annotated capabilities.
 
@@ -13,7 +13,7 @@
 - **Work:** 923 O*NET occupations and 2,087 work activities; the existing work proxy index is **0.91%**, not AGI completion.
 - **Evidence:** 3,706 score records. The subject matrix counts related benchmarks; select a cell to inspect comparable results and source dates.
 
-[Open the interactive page](https://the-t800.github.io/agi-atlas/) · [Full report](reports/report.en.md) · [Classification and provenance](docs/subject-classification.md)
+[Open the interactive page](https://the-t800.github.io/AGI-Atlas/) · [Full report](reports/report.en.md) · [Classification and provenance](docs/subject-classification.md)
 
 ## Data freshness
 

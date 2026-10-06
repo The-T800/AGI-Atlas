@@ -23,8 +23,8 @@
 
 ## Publication
 
-- The public repository is `The-T800/agi-atlas`; the live site is
-  `https://the-t800.github.io/agi-atlas/`.
+- The public repository is `The-T800/AGI-Atlas`; the live site is
+  `https://the-t800.github.io/AGI-Atlas/`.
 - GitHub renders README Markdown but does not execute the HTML app inside it.
   Link the README title/preview to the deployed GitHub Pages site.
 - Configure Pages to use GitHub Actions, deploy `docs/`, and verify a successful

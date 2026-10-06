@@ -1,10 +1,10 @@
-# AGI Atlas
+# [AGI Atlas](https://the-t800.github.io/AGI-Atlas/?lang=zh)
 
-**[打开 GitHub Pages 交互页面](https://the-t800.github.io/agi-atlas/?lang=zh)**
+**[打开 GitHub Pages 交互页面](https://the-t800.github.io/AGI-Atlas/?lang=zh)**
 
 [English](README.md) | **简体中文**
 
-[![AGI Atlas](docs/preview.png)](https://the-t800.github.io/agi-atlas/?lang=zh)
+[![AGI Atlas](docs/preview.png)](https://the-t800.github.io/AGI-Atlas/?lang=zh)
 
 用公开 Benchmark 证据观察 AI 在职业、学科和能力上的表现。
 

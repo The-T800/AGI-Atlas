@@ -26,7 +26,7 @@ Commit messages must use English with ASCII characters, for example
 history. GitHub's web merge identity is also supported.
 
 GitHub displays a Markdown preview in the repository; the interactive app runs on
-[GitHub Pages](https://the-t800.github.io/agi-atlas/). Repository administrators must
+[GitHub Pages](https://the-t800.github.io/AGI-Atlas/). Repository administrators must
 select **Settings → Pages → Source → GitHub Actions** when creating a new repository.
 The Pages workflow deploys `docs/` on each push to `main` and supports manual reruns.
 
