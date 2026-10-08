@@ -664,6 +664,18 @@
   provider: DeepSeek
   release_date: '2025-03-24'
   release_source: https://epoch.ai/data/benchmark_data.zip
+- id: deepseek-v-4-1-flash-high
+  name: DeepSeek V4.1 Flash (High)
+  provider: DeepSeek
+- id: deepseek-v-4-1-flash-low
+  name: DeepSeek V4.1 Flash (Low)
+  provider: DeepSeek
+- id: deepseek-v-4-1-flash-max
+  name: DeepSeek V4.1 Flash (Max)
+  provider: DeepSeek
+- id: deepseek-v-4-1-flash-none
+  name: DeepSeek V4.1 Flash (None)
+  provider: DeepSeek
 - id: deepseek-v-4-flash-0731-high
   name: DeepSeek V4 Flash 0731 (High)
   provider: DeepSeek
@@ -2163,6 +2175,30 @@
   provider: xAI
   release_date: '2026-08-12'
   release_source: https://epoch.ai/data/benchmark_data.zip
+- id: grok-4-7-high
+  name: Grok 4.7 (High)
+  provider: xAI
+- id: grok-4-7-low
+  name: Grok 4.7 (Low)
+  provider: xAI
+- id: grok-4-7-medium
+  name: Grok 4.7 (Medium)
+  provider: xAI
+- id: grok-4-7-provider-adapter-high
+  name: Grok 4.7 - Provider Adapter (High)
+  provider: xAI
+- id: grok-4-7-provider-adapter-low
+  name: Grok 4.7 - Provider Adapter (Low)
+  provider: xAI
+- id: grok-4-7-provider-adapter-medium
+  name: Grok 4.7 - Provider Adapter (Medium)
+  provider: xAI
+- id: grok-4-7-provider-adapter-xhigh
+  name: Grok 4.7 - Provider Adapter (XHigh)
+  provider: xAI
+- id: grok-4-7-xhigh
+  name: Grok 4.7 (XHigh)
+  provider: xAI
 - id: grok-4-7-xhigh-grok-4-7-xhigh
   name: Grok 4.7 (xhigh) [grok-4.7_xhigh]
   provider: xAI

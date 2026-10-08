@@ -20,12 +20,24 @@ def score_freshness(record: dict, as_of: date) -> str:
     return "recent" if age <= 365 else "historical"
 
 
+def evidence_as_of(taxonomy: dict, groups: list[dict]) -> date:
+    """Advance the evidence window when scores refresh independently of taxonomy."""
+    dates = [taxonomy["retrieved_at"][:10]]
+    dates.extend(
+        str(r["observed_at"])[:10]
+        for g in groups
+        for r in g["records"]
+        if r.get("verified", True) and r.get("observed_at")
+    )
+    return date.fromisoformat(max(dates))
+
+
 def build_subjects(root: Path, benchmarks: set[str], groups: list[dict] | None = None) -> dict:
     taxonomy = json.loads((root / "denominators/openalex.json").read_text(encoding="utf-8"))
     capabilities = json.loads((root / "taxonomy/capabilities.json").read_text(encoding="utf-8"))
     translations = json.loads((root / "i18n/openalex.json").read_text(encoding="utf-8"))
     cap_ids = {c["id"] for c in capabilities}
-    as_of = date.fromisoformat(taxonomy["retrieved_at"][:10])
+    as_of = evidence_as_of(taxonomy, groups or [])
     scored_ids, recent_ids = set(), set()
     for group in groups or []:
         if group["benchmark_id"] not in benchmarks:

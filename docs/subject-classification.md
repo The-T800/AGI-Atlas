@@ -53,9 +53,11 @@ The O*NET work proxy remains a separate existing metric with its own zero-contri
 
 ## Score dates
 
-Benchmark sources were refreshed on 2026-10-05. This updates retrieval provenance only.
+Benchmark retrieval dates are retained per source in the manifest and README freshness summary.
+Refreshing a source updates retrieval provenance only.
 The page retains evaluation date, publication date and retrieval date separately.
-Current subject evidence highlights scores dated within 365 days before taxonomy retrieval:
+Current subject evidence highlights scores dated within 365 days before the latest score retrieval
+(falling back to taxonomy retrieval when no dated score retrieval is available):
 evaluation date takes precedence; publication date is used only if evaluation is unknown.
 Undated, historical and future-dated records do not qualify. They remain in score details.
 Recent availability is checked across all comparison groups, rather than only the global

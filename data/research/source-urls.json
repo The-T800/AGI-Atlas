@@ -42,5 +42,12 @@
   "task-metaworld": "https://raw.githubusercontent.com/Farama-Foundation/Metaworld/main/README.md",
   "task-libero": "https://raw.githubusercontent.com/Lifelong-Robot-Learning/LIBERO/master/README.md",
   "task-calvin": "https://raw.githubusercontent.com/mees/calvin/main/README.md",
-  "task-bird": "https://bird-bench.github.io/"
+  "task-bird": "https://bird-bench.github.io/",
+  "task-reviewbench": "https://github.blog/ai-and-ml/github-copilot/reviewbench-an-open-benchmark-for-ai-code-review/",
+  "task-codeclash": "https://raw.githubusercontent.com/codeclash-ai/codeclash/main/README.md",
+  "task-officeqa": "https://raw.githubusercontent.com/databricks/officeqa/main/README.md",
+  "task-wbench": "https://raw.githubusercontent.com/meituan-longcat/WBench/main/README.md",
+  "task-deepswe": "https://raw.githubusercontent.com/datacurve-ai/deep-swe/main/README.md",
+  "task-terminal-bench": "https://raw.githubusercontent.com/harbor-framework/terminal-bench/main/README.md",
+  "metr-horizons": "https://metr.org/assets/benchmark_results_1_1.yaml"
 }

@@ -339,13 +339,15 @@ DEEPSEEK = {
 
 
 def import_deepseek():
-    for source, begin, end, base in [
-        ("deepseek-r1", 106, 131, False),
-        ("deepseek-v3", 112, 148, True),
-    ]:
+    for source, base in [("deepseek-r1", False), ("deepseek-v3", True)]:
         lines = (SOURCES / f"{source}.txt").read_text(encoding="utf-8").splitlines()
-        # 行号只是经过核对的固定快照锚点；解析前先验证表头。
-        section = lines[begin - 1 : end]
+        # Locate the comparison table by its schema; README line numbers can change.
+        begin = next(i for i, line in enumerate(lines) if "| Benchmark (Metric)" in line)
+        end = next(
+            (i for i in range(begin + 1, len(lines)) if not lines[i].startswith("|")),
+            len(lines),
+        )
+        section = lines[begin:end]
         header = [s.strip().replace("**", "") for s in section[0].strip("|").split("|")]
         assert "Benchmark (Metric)" in header, source
         offset = 3 if base else 2
@@ -447,7 +449,11 @@ def import_official():
         if suite["name"] not in ("Verified", "Lite", "Test", "Multilingual"):
             continue
         for row in suite["results"]:
-            if not row.get("checked") or row.get("warning") or row["date"] > "2026-10-04":
+            if (
+                not row.get("checked")
+                or row.get("warning")
+                or row["date"] > MANIFEST["swe-board"]["observed_at"]
+            ):
                 continue
             add(
                 "swe-multilingual" if suite["name"] == "Multilingual" else "swe-bench",
@@ -872,6 +878,20 @@ EPOCH_TABLES = {
 }
 
 
+def metr_horizons():
+    """Retain METR's published horizon data without treating it as an AGI score."""
+    info = MANIFEST["metr-horizons"]
+    return dict(
+        source_url=info["url"],
+        methodology_url="https://metr.org/time-horizons/",
+        observed_on=info["observed_at"],
+        unit="minutes",
+        sha256=info["sha256"],
+        notice="Model release dates are not evaluation dates; horizons do not enter Depth.",
+        data=yaml.safe_load((SOURCES / "metr-horizons.txt").read_text(encoding="utf-8")),
+    )
+
+
 def dump(payload):
     return yaml.safe_dump(payload, allow_unicode=True, sort_keys=False)
 
@@ -903,6 +923,9 @@ def main():
         payload = build()
         (ROOT / "data/research" / name).write_text(dump(payload), encoding="utf-8")
         print(f"{name}：{len(payload['models'])} 个模型")
+    (ROOT / "data/research/metr-horizon-v1.1.yaml").write_text(
+        dump(metr_horizons()), encoding="utf-8"
+    )
     print(f"成绩 {len(records)}；有成绩基准 {len({s['benchmark_id'] for s in records})}")
 
 

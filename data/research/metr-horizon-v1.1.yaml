@@ -1,9 +1,9 @@
 source_url: https://metr.org/assets/benchmark_results_1_1.yaml
 methodology_url: https://metr.org/time-horizons/
-observed_on: '2026-10-04'
+observed_on: '2026-10-08'
 unit: minutes
 sha256: aae31902b0519a4da73e16643915e5e8aca13cd3315c3aac893ce3d6dfe92ad9
-notice: 模型发布日期不是评测日期；此快照不进入正式 Depth。
+notice: Model release dates are not evaluation dates; horizons do not enter Depth.
 data:
   benchmark_name: METR-Horizon-v1.1
   doubling_time_in_days:

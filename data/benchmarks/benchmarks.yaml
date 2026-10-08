@@ -1870,3 +1870,70 @@
   - 性能工程
   - 人类专家时间预算
   metric_direction: higher_is_better
+- id: reviewbench
+  name: ReviewBench
+  path: 软件工程/代码仓库维护/代码审查
+  url: https://review-bench.ai/
+  tasks:
+  - 219 pull requests
+  - 19 languages
+  - grounded precision
+  - grounded recall
+  - augmented metrics
+  metric_direction: higher_is_better
+- id: codeclash
+  name: CodeClash
+  path: 软件工程/代码生成/目标导向软件工程
+  url: https://github.com/codeclash-ai/codeclash
+  tasks:
+  - goal-oriented coding
+  - multi-round tournaments
+  - competitive code arenas
+  metric_direction: higher_is_better
+- id: deepswe
+  name: DeepSWE
+  path: 软件工程/代码仓库维护/长时程软件工程
+  url: https://github.com/datacurve-ai/deep-swe
+  tasks:
+  - 113 tasks
+  - TypeScript
+  - Go
+  - Python
+  - JavaScript
+  - Rust
+  - separate verifier environments
+  metric_direction: higher_is_better
+- id: officeqa
+  name: OfficeQA
+  path: 代理与执行/信息检索/财务文档推理
+  url: https://github.com/databricks/officeqa
+  tasks:
+  - Pro 133 questions
+  - Full 246 questions
+  - Treasury Bulletins
+  - grounded numerical reasoning
+  metric_direction: higher_is_better
+- id: officeqa-pro-v2
+  name: OfficeQA Pro V2
+  path: 代理与执行/信息检索/多文档财务推理
+  url: https://github.com/databricks/officeqa
+  tasks:
+  - 90 questions
+  - 1435 documents
+  - Receipts and Expenditures
+  - cross-corpus generalization
+  metric_direction: higher_is_better
+- id: wbench
+  name: WBench
+  path: 专业工作与创造/内容创造/交互视频世界模型
+  url: https://github.com/meituan-longcat/WBench
+  tasks:
+  - 289 full cases
+  - 158 navigation cases
+  - 22 metrics
+  - quality
+  - consistency
+  - interaction
+  - setting
+  - physics
+  metric_direction: higher_is_better

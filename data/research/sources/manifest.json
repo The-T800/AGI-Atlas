@@ -2,310 +2,359 @@
   {
     "id": "deepseek-r1",
     "url": "https://raw.githubusercontent.com/deepseek-ai/DeepSeek-R1/main/README.md",
-    "observed_at": "2026-10-05",
+    "observed_at": "2026-10-08",
     "sha256": "4ed979e497121ae4dd9f1573da1668219f43be55d62cc0bf2be5429211a67486",
     "bytes": 20736
   },
   {
     "id": "deepseek-v3",
     "url": "https://raw.githubusercontent.com/deepseek-ai/DeepSeek-V3/main/README.md",
-    "observed_at": "2026-10-05",
+    "observed_at": "2026-10-08",
     "sha256": "1f766f151bb4d501b18c9d1e229ac25682c68c75893d6d3bc9734e2a60125c0e",
     "bytes": 20851
   },
   {
     "id": "qwen25-omni",
     "url": "https://raw.githubusercontent.com/QwenLM/Qwen2.5-Omni/main/README.md",
-    "observed_at": "2026-10-05",
+    "observed_at": "2026-10-08",
     "sha256": "8b4c934f3c8dcd1c8b0a71b305190543dacc7d4364c40c6ba45bc2d494cd4a95",
     "bytes": 59911
   },
   {
     "id": "cl-bench",
     "url": "https://raw.githubusercontent.com/Tencent-Hunyuan/CL-bench/main/README.md",
-    "observed_at": "2026-10-05",
+    "observed_at": "2026-10-08",
     "sha256": "4b4fc8de977f88c3fc27d68713b249dc90e958c1e0a1e78c1a8e201064f460a7",
     "bytes": 8133
   },
   {
     "id": "qwen35-card",
     "url": "https://huggingface.co/Qwen/Qwen3.5-397B-A17B/raw/main/README.md",
-    "observed_at": "2026-10-05",
+    "observed_at": "2026-10-08",
     "sha256": "bda4b24e975f65ac677985306ddbad33362e65064637660654c8bb7dea7edf50",
     "bytes": 94793
   },
   {
     "id": "qwen38-card",
     "url": "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B/raw/main/README.md",
-    "observed_at": "2026-10-05",
+    "observed_at": "2026-10-08",
     "sha256": "7690c680c2d6eb284179ef5dd4db63260d248531cae9087b09b2c2200230f331",
     "bytes": 35755
   },
   {
     "id": "cl-paper",
     "url": "https://arxiv.org/html/2602.03587v1",
-    "observed_at": "2026-10-05",
+    "observed_at": "2026-10-08",
     "sha256": "b66c423d5b26eefbb785ed8e39a7a59391b59952da1b07e4af3e27dc34f3d1b0",
     "bytes": 861025
   },
   {
     "id": "bbh",
     "url": "https://raw.githubusercontent.com/suzgunmirac/BIG-Bench-Hard/main/README.md",
-    "observed_at": "2026-10-05",
+    "observed_at": "2026-10-08",
     "sha256": "9c41105f4a349fcba7f87a422df0e744a9ed8e7a30c2db6676a9ecad372bc9db",
     "bytes": 3475
   },
   {
     "id": "mmlu-pro",
     "url": "https://raw.githubusercontent.com/TIGER-AI-Lab/MMLU-Pro/main/README.md",
-    "observed_at": "2026-10-05",
+    "observed_at": "2026-10-08",
     "sha256": "dfbab62320e644f3682d4697e206160bbb59baafa324c59a17e4424328e3e5a5",
     "bytes": 5993
   },
   {
     "id": "mmmu",
     "url": "https://raw.githubusercontent.com/MMMU-Benchmark/MMMU/main/README.md",
-    "observed_at": "2026-10-05",
+    "observed_at": "2026-10-08",
     "sha256": "a4e89dd389f9b4c82b92e54b5d50a58e55a53c077a5009f7d4b4e53c09bdcc3a",
     "bytes": 7881
   },
   {
     "id": "video-mme",
     "url": "https://raw.githubusercontent.com/MME-Benchmarks/Video-MME/main/README.md",
-    "observed_at": "2026-10-05",
+    "observed_at": "2026-10-08",
     "sha256": "df3132ed6c4d17c7f47acc0ee832e352185edd9d5b30bacc9a0195e948124668",
     "bytes": 11893
   },
   {
     "id": "abstention-scores",
     "url": "https://raw.githubusercontent.com/facebookresearch/AbstentionBench/main/analysis/abstention_performance.csv",
-    "observed_at": "2026-10-05",
+    "observed_at": "2026-10-08",
     "sha256": "8878bb2ac3b66a3568dfcbd8784a70d1be074babe4a01330c83c4a717b782a9b",
     "bytes": 66233
   },
   {
     "id": "swe-board",
     "url": "https://www.swebench.com/",
-    "observed_at": "2026-10-05",
-    "sha256": "5d031921be2267f0d210fde3c654d56e9be7fc5ee45b3bab3b9f5888cce73d5a",
+    "observed_at": "2026-10-08",
+    "sha256": "d1ab4d291a7809d902749b6ecaccfc0f2461bf29e4b4874700d67d75cd9e96fd",
     "bytes": 2392492
   },
   {
     "id": "tom-paper",
     "url": "https://arxiv.org/html/2402.15052v1",
-    "observed_at": "2026-10-05",
+    "observed_at": "2026-10-08",
     "sha256": "1a1d300e99a1cfd7e99dadd5e6c584f467ec4853432bed89012f42f74015dc6e",
     "bytes": 861025
   },
   {
     "id": "mmsi-readme",
     "url": "https://raw.githubusercontent.com/InternRobotics/MMSI-Bench/main/README.md",
-    "observed_at": "2026-10-05",
+    "observed_at": "2026-10-08",
     "sha256": "59bd4e43200a584353ef5febe084de0a9771b96a0d7595f19126df6fcc4fe567",
     "bytes": 16709
   },
   {
     "id": "arc-v1",
     "url": "https://arcprize.org/media/data/leaderboard/v1.json",
-    "observed_at": "2026-10-05",
-    "sha256": "d5615b981ca6bc6eafdfb79f2081525bc0f6ff6d64e86f11759b6628797db5fd",
-    "bytes": 139245
+    "observed_at": "2026-10-08",
+    "sha256": "f6bf1a651708c5dafa3ad694aaddd1220bbab44fb58efff64da693cd9651038b",
+    "bytes": 143609
   },
   {
     "id": "arc-v2",
     "url": "https://arcprize.org/media/data/leaderboard/v2.json",
-    "observed_at": "2026-10-05",
-    "sha256": "8b1385616f496fb2c79a46cf9872781dd0fb32f63668e3ac20ec673ddfd264fc",
-    "bytes": 141547
+    "observed_at": "2026-10-08",
+    "sha256": "cecd1febf0659b234567d3ee1b7240d92000f848a5f8d0cfb713444aa54f2a99",
+    "bytes": 145940
   },
   {
     "id": "arc-v3",
     "url": "https://arcprize.org/media/data/leaderboard/v3.json",
-    "observed_at": "2026-10-05",
-    "sha256": "834d834694efa2bababba2dc201112007b5f6229b00b5821f27a25f46f4175b5",
-    "bytes": 46134
+    "observed_at": "2026-10-08",
+    "sha256": "14af19188025b6b1f38ed2dfb3757dcfdc9ff4d40148ad0372e790e5d806a8be",
+    "bytes": 50748
   },
   {
     "id": "wildguard",
     "url": "https://raw.githubusercontent.com/allenai/wildguard/main/README.md",
-    "observed_at": "2026-10-05",
+    "observed_at": "2026-10-08",
     "sha256": "e9b46a0e3e74792e8cebe692f444607e21767d1888a2ade3785d3657fd33c699",
     "bytes": 5777
   },
   {
     "id": "geneval",
     "url": "https://raw.githubusercontent.com/djghosh13/geneval/main/README.md",
-    "observed_at": "2026-10-05",
+    "observed_at": "2026-10-08",
     "sha256": "468930e319ebba4b535f9c77cbac91bda6e3b2f6ad21f4c6c55b08161baca94a",
     "bytes": 4916
   },
   {
     "id": "wildguard-paper",
     "url": "https://arxiv.org/html/2406.18495v1",
-    "observed_at": "2026-10-05",
+    "observed_at": "2026-10-08",
     "sha256": "5a50a5b59dfc9aeaf8e8a271a9c8a265b16b3f0cab0060a6fb8e985725775d38",
     "bytes": 389874
   },
   {
     "id": "oft-paper",
     "url": "https://arxiv.org/html/2502.19645v1",
-    "observed_at": "2026-10-05",
+    "observed_at": "2026-10-08",
     "sha256": "fc6bc1e7799437221fe60bd8adcba11ef977cd524d5c29419da92675e7dbf799",
     "bytes": 290154
   },
   {
     "id": "epoch-eci",
     "url": "https://epoch.ai/data/eci_scores.csv",
-    "observed_at": "2026-10-05",
-    "sha256": "4e56b4bd0d0830d4dd520fea608c0047bca808879f7588fa17508ed676d36777",
-    "bytes": 33373
+    "observed_at": "2026-10-08",
+    "sha256": "30844141e711b775a0970cbe0504d1d96f4abd8b8e86b7f9e24ecf70281de159",
+    "bytes": 33807
   },
   {
     "id": "epoch-benchmarks",
     "url": "https://epoch.ai/data/benchmark_data.zip",
-    "observed_at": "2026-10-05",
-    "sha256": "91cbe8bf15e6dd1bb70b7c51f192305d1064978373f414b45caf874cc96ad50a",
-    "bytes": 2359412,
+    "observed_at": "2026-10-08",
+    "sha256": "f79751ec96c27f1bab9fed88ad7ffe07bae94f4de86bff67860e6240df42383f",
+    "bytes": 2378102,
     "file": "epoch-benchmarks.zip"
   },
   {
     "id": "epoch-method-gpqa",
     "url": "https://epoch.ai/benchmarks/gpqa-diamond",
-    "observed_at": "2026-10-05",
-    "sha256": "f32fa4a155fde0568bdc3983f1af9e0862779b636954d0181f527ee7a0c324fa",
-    "bytes": 98753
+    "observed_at": "2026-10-08",
+    "sha256": "1bde4d68cce1889c1c9724c76cfebfcb95d275f04d77207e07fcda86df4c19e2",
+    "bytes": 99090
   },
   {
     "id": "epoch-method-frontiermath",
     "url": "https://epoch.ai/benchmarks/frontiermath",
-    "observed_at": "2026-10-05",
-    "sha256": "96be843d7914d402fefa6dc8740a8685fc24de17f8e683314f1b84d9ff86a32d",
-    "bytes": 101273
+    "observed_at": "2026-10-08",
+    "sha256": "429dae7f5f97bd43da63f2ab692a416d3e08d5ae566ab883d040856a56aa0539",
+    "bytes": 101608
   },
   {
     "id": "epoch-method-math5",
     "url": "https://epoch.ai/benchmarks/math-level-5",
-    "observed_at": "2026-10-05",
-    "sha256": "0d4e475638114818b09c3697635979cdcff7f908b2a4b85352e0236dc4128ddd",
-    "bytes": 95260
+    "observed_at": "2026-10-08",
+    "sha256": "3929bcccb6c7943c97b42f8b820c688a3b1114a985d9153dcfcdf3c892b02a25",
+    "bytes": 95597
   },
   {
     "id": "epoch-method-swe",
     "url": "https://epoch.ai/benchmarks/swe-bench-verified",
-    "observed_at": "2026-10-05",
-    "sha256": "e1dc4214bc958eccc5c88e2da9068abd4b438d471620daa0a3f76e5cfddf57f8",
-    "bytes": 102919
+    "observed_at": "2026-10-08",
+    "sha256": "4d844bc3010bea363efcb178c5c78d0c8028f10fc101f045c82d51a0f0c84d49",
+    "bytes": 103255
   },
   {
     "id": "epoch-method-simpleqa",
     "url": "https://epoch.ai/benchmarks/simpleqa-verified",
-    "observed_at": "2026-10-05",
-    "sha256": "8392d647c5182b7f9b00dbfa06e13e038a94f92d3cffa18c53797b2a11ef049b",
-    "bytes": 98705
+    "observed_at": "2026-10-08",
+    "sha256": "3eb36d5409cf2803ae5d1493785ecd76e6fa23f9dbb9020c51cc35ae289783fd",
+    "bytes": 99042
   },
   {
     "id": "epoch-eci-page",
     "url": "https://epoch.ai/eci",
-    "observed_at": "2026-10-05",
-    "sha256": "753fc05a9e3a31f2d2f08ec06ab0661f17ae5032490960c847f412f3bc8fee40",
-    "bytes": 219771
+    "observed_at": "2026-10-08",
+    "sha256": "c6edcd0dc271a4e55fc6134aa91f434c01f8e78e4e161ab6f2d06fdb7bb93cf1",
+    "bytes": 219513
   },
   {
     "id": "task-libri",
     "url": "https://www.openslr.org/12",
-    "observed_at": "2026-10-05",
+    "observed_at": "2026-10-08",
     "sha256": "9b012c60f8fe6a5435f96cf034c042ffe4222e7936c88cb835671413e74a5301",
     "bytes": 8245
   },
   {
     "id": "task-aishell",
     "url": "https://www.openslr.org/33/",
-    "observed_at": "2026-10-05",
+    "observed_at": "2026-10-08",
     "sha256": "072e77c5f5a401eca59f7ba0c6608a4c6720f6c67227ab53c37f5745d7b019d9",
     "bytes": 4011
   },
   {
     "id": "task-meld",
     "url": "https://affective-meld.github.io/",
-    "observed_at": "2026-10-05",
+    "observed_at": "2026-10-08",
     "sha256": "bc01019faae5bdbe27db69ccb86c4e9365c0b0c42382d0ff274c674cefefbc53",
     "bytes": 4434
   },
   {
     "id": "task-habitat",
     "url": "https://aihabitat.org/",
-    "observed_at": "2026-10-05",
-    "sha256": "f9bb24f7eda42580c3e4df2adfb6ad2ec4ba4b58c57a4dfd5d30f464fa34be58",
+    "observed_at": "2026-10-08",
+    "sha256": "c4bf18052cfdbd85673c1a21140e1c3ea2591218c173174330100050d06c4def",
     "bytes": 44449
   },
   {
     "id": "task-flores",
     "url": "https://raw.githubusercontent.com/facebookresearch/flores/main/flores200/README.md",
-    "observed_at": "2026-10-05",
+    "observed_at": "2026-10-08",
     "sha256": "74ccbbe29feba9d92cb3ee472387579ab2aa5c0299d47dcec7614b2c06cd49fc",
     "bytes": 11883
   },
   {
     "id": "task-spider",
     "url": "https://raw.githubusercontent.com/taoyds/spider/master/README.md",
-    "observed_at": "2026-10-05",
+    "observed_at": "2026-10-08",
     "sha256": "2240abbfbb499cc7f2ba0fd14fbab0e9ee5c99a5f7739f4cd5b4041da8298ec9",
     "bytes": 10154
   },
   {
     "id": "task-ocrbench",
     "url": "https://raw.githubusercontent.com/Yuliang-Liu/MultimodalOCR/main/README.md",
-    "observed_at": "2026-10-05",
+    "observed_at": "2026-10-08",
     "sha256": "70f2cb6724c696e97fc0b385b4c3bcf8397ca1ea093a93d81ce74f4ae52184e5",
     "bytes": 12098
   },
   {
     "id": "task-cc-ocr",
     "url": "https://raw.githubusercontent.com/AlibabaResearch/AdvancedLiterateMachinery/main/README.md",
-    "observed_at": "2026-10-05",
+    "observed_at": "2026-10-08",
     "sha256": "d8a682f021aec07795a4e8f6e64c888195047019cf5a161cf67ceb6ece9ce8f3",
     "bytes": 11213
   },
   {
     "id": "task-omnidocbench",
     "url": "https://raw.githubusercontent.com/opendatalab/OmniDocBench/main/README.md",
-    "observed_at": "2026-10-05",
+    "observed_at": "2026-10-08",
     "sha256": "a799f3dabee0d8e2be9f990fc325c3fefadb8d7f8d0cf56148406547d495a3ad",
     "bytes": 96525
   },
   {
     "id": "task-medxpertqa",
     "url": "https://raw.githubusercontent.com/TsinghuaC3I/MedXpertQA/main/README.md",
-    "observed_at": "2026-10-05",
+    "observed_at": "2026-10-08",
     "sha256": "63b725f43345e9f7c69468d6efd93371d73fbfc72302097d7c8ab6e7882d3745",
     "bytes": 9181
   },
   {
     "id": "task-metaworld",
     "url": "https://raw.githubusercontent.com/Farama-Foundation/Metaworld/main/README.md",
-    "observed_at": "2026-10-05",
+    "observed_at": "2026-10-08",
     "sha256": "9c4ed3beec763d89dc1dd6a028077339d73284ab25f0c71d06817e480238995c",
     "bytes": 8168
   },
   {
     "id": "task-libero",
     "url": "https://raw.githubusercontent.com/Lifelong-Robot-Learning/LIBERO/master/README.md",
-    "observed_at": "2026-10-05",
+    "observed_at": "2026-10-08",
     "sha256": "e87d5b284da3d7c127e1bc8282ea80b5da02aad3e9272c13adc96c4eca0eaa41",
     "bytes": 8128
   },
   {
     "id": "task-calvin",
     "url": "https://raw.githubusercontent.com/mees/calvin/main/README.md",
-    "observed_at": "2026-10-05",
+    "observed_at": "2026-10-08",
     "sha256": "ade3f2d224f5f299be858681ab117524b6457e371963718518718529b2fd12f2",
     "bytes": 21081
   },
   {
     "id": "task-bird",
     "url": "https://bird-bench.github.io/",
-    "observed_at": "2026-10-05",
-    "sha256": "fd87838abc6a2440dca3acbb2bf89776e1054603885337659f185709955a69bc",
-    "bytes": 333245
+    "observed_at": "2026-10-08",
+    "sha256": "fd6a493462efe361be52f5a6bdf1b9dc2065ac17b2770195ed2759074f995ce0",
+    "bytes": 335069
+  },
+  {
+    "id": "task-reviewbench",
+    "url": "https://github.blog/ai-and-ml/github-copilot/reviewbench-an-open-benchmark-for-ai-code-review/",
+    "observed_at": "2026-10-08",
+    "sha256": "d7ea442c968d0e3df9b4484888848f2a07cb55286d37e08cfdfe2043dd9f6e30",
+    "bytes": 987985
+  },
+  {
+    "id": "task-codeclash",
+    "url": "https://raw.githubusercontent.com/codeclash-ai/codeclash/main/README.md",
+    "observed_at": "2026-10-08",
+    "sha256": "11748b8baeac4510ac6586a11de1e9b4f7b31a6ce2c43dd48609ac63a3268d0e",
+    "bytes": 5835
+  },
+  {
+    "id": "task-officeqa",
+    "url": "https://raw.githubusercontent.com/databricks/officeqa/main/README.md",
+    "observed_at": "2026-10-08",
+    "sha256": "d72c40ee82cc96e0adbf8f4dd1d87ce22a1e4feb85c72931be2076c7f3c151d3",
+    "bytes": 16357
+  },
+  {
+    "id": "task-wbench",
+    "url": "https://raw.githubusercontent.com/meituan-longcat/WBench/main/README.md",
+    "observed_at": "2026-10-08",
+    "sha256": "2029a4cedcdc0d96a1c5728e5a88cc113d9e1223d8ec7f59231096d23826a1da",
+    "bytes": 22257
+  },
+  {
+    "id": "task-deepswe",
+    "url": "https://raw.githubusercontent.com/datacurve-ai/deep-swe/main/README.md",
+    "observed_at": "2026-10-08",
+    "sha256": "87ac640023163ef48aa6c59b2e1806d34b68c4e1c3cf7d61597236c8c159f95f",
+    "bytes": 3637
+  },
+  {
+    "id": "task-terminal-bench",
+    "url": "https://raw.githubusercontent.com/harbor-framework/terminal-bench/main/README.md",
+    "observed_at": "2026-10-08",
+    "sha256": "19cd7542ab806fc5732503f2fe2d6ee7e342de549ab1acfba184060f1290b03b",
+    "bytes": 14806
+  },
+  {
+    "id": "metr-horizons",
+    "url": "https://metr.org/assets/benchmark_results_1_1.yaml",
+    "observed_at": "2026-10-08",
+    "sha256": "aae31902b0519a4da73e16643915e5e8aca13cd3315c3aac893ce3d6dfe92ad9",
+    "bytes": 16255
   }
 ]

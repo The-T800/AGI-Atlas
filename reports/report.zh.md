@@ -1,10 +1,10 @@
 # AGI Atlas · 离 AGI 还差多少？
 
-[English](report.en.md) · 数据快照 2026-10-05 · 本报告由 `uv run agi-atlas report` 生成，请勿手改。
+[English](report.en.md) · 数据快照 2026-10-08 · 本报告由 `uv run agi-atlas report` 生成，请勿手改。
 
 O*NET 职业活动、OpenAlex 科研主题与独立能力标签共同组织评测证据；学科未测项保持未知。
 
-分类版本：2026-09-23 · 分类抓取：2026-10-05 · 评测来源最近抓取：2026-10-05。原始更新时间可在主题中查看。
+分类版本：2026-09-23 · 分类抓取：2026-10-05 · 评测来源最近抓取：2026-10-08。原始更新时间可在主题中查看。
 
 ## 结论
 
@@ -13,7 +13,7 @@ O*NET 职业活动、OpenAlex 科研主题与独立能力标签共同组织评�
 | 职业：O*NET 31.0 工作活动 | 923 职业 · 2087 工作活动 | 7.01% | 42.4% | **0.91%** |
 | 学科：OpenAlex 科研主题 | 4516 个 OpenAlex 主题 | 10 / 4516 主题已挂靠; 6 有任务成绩证据 | — | **—** |
 
-学科关联：70 / 187 个 Benchmark；其中 45 个有成绩、5 个有近一年日期明确的成绩。
+学科关联：73 / 193 个 Benchmark；其中 45 个有成绩、5 个有近一年日期明确的成绩。
 
 | 层级 | 总数 | 本层明确挂靠 | 含下级关联 | 有成绩证据 | 近一年成绩证据 |
 | --- | ---: | ---: | ---: | ---: | ---: |
@@ -61,7 +61,7 @@ O*NET 职业活动、OpenAlex 科研主题与独立能力标签共同组织评�
 | 商业、管理与会计 | 146 | 13 |
 | 化学工程 | 13 | 0 |
 | 化学 | 101 | 14 |
-| 计算机科学 | 302 | 41 |
+| 计算机科学 | 302 | 44 |
 | 决策科学 | 60 | 0 |
 | 地球与行星科学 | 57 | 1 |
 | 经济学、计量经济学与金融 | 107 | 12 |
@@ -273,6 +273,12 @@ O*NET 职业活动、OpenAlex 科研主题与独立能力标签共同组织评�
 | Habitat | 具身与运动 | — | — | — | 暂无成绩 | [原始任务 ↗](<https://aihabitat.org/>) |
 | MMSI-Bench | 视觉与空间 | 官方README榜单快照 | 49.2 % | Gemini-3-pro | 进行中 | [官方榜单](<https://raw.githubusercontent.com/InternRobotics/MMSI-Bench/main/README.md>) |
 | RE-Bench | 科学与研究 | — | — | — | 暂无成绩 | [原始任务 ↗](<https://github.com/METR/RE-Bench>) |
+| ReviewBench | 软件工程 | — | — | — | 暂无成绩 | [原始任务 ↗](<https://review-bench.ai/>) |
+| CodeClash | 软件工程 | — | — | — | 暂无成绩 | [原始任务 ↗](<https://github.com/codeclash-ai/codeclash>) |
+| DeepSWE | 软件工程 | — | — | — | 暂无成绩 | [原始任务 ↗](<https://github.com/datacurve-ai/deep-swe>) |
+| OfficeQA | 代理与执行 | — | — | — | 暂无成绩 | [原始任务 ↗](<https://github.com/databricks/officeqa>) |
+| OfficeQA Pro V2 | 代理与执行 | — | — | — | 暂无成绩 | [原始任务 ↗](<https://github.com/databricks/officeqa>) |
+| WBench | 专业工作与创造 | — | — | — | 暂无成绩 | [原始任务 ↗](<https://github.com/meituan-longcat/WBench>) |
 
 ## 怎么算
 

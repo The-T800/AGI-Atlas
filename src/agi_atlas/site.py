@@ -14,10 +14,10 @@ from agi_atlas.loader import read_model
 from agi_atlas.models import AtlasData, Number, Record, Text
 from agi_atlas.progress import build_progress
 from agi_atlas.results import atlas_results
-from agi_atlas.subjects import score_freshness
+from agi_atlas.subjects import evidence_as_of, score_freshness
 from agi_atlas.validator import DataValidationError
 
-METR_FILE = "research/metr-horizon-v1.1-2026-10-04.yaml"
+METR_FILE = "research/metr-horizon-v1.1.yaml"
 
 
 class HorizonInterval(Record):
@@ -186,7 +186,7 @@ def build_payload(data: AtlasData, data_dir: Path | str) -> dict:
     status = results["saturation"]["benchmarks"]
     taxonomy = json.loads((root / "denominators/openalex.json").read_text(encoding="utf-8"))
     groups, sources = _compact_groups(
-        results["groups"], table, status, date.fromisoformat(taxonomy["retrieved_at"][:10])
+        results["groups"], table, status, evidence_as_of(taxonomy, results["groups"])
     )
 
     def path_en(path: str) -> str:

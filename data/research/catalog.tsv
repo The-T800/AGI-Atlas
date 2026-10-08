@@ -186,3 +186,9 @@ alfred|ALFRED|具身与运动/家庭操作/语言到家庭行动|https://askfora
 habitat|Habitat|具身与运动/导航/具身导航|https://aihabitat.org/|PointNav;ObjectNav;ImageNav;社会导航
 mmsi|MMSI-Bench|视觉与空间/空间理解/多图空间智能|https://github.com/InternRobotics/MMSI-Bench|多图空间推理;人类对照
 rebench|RE-Bench|科学与研究/科研执行/AI研发工程|https://github.com/METR/RE-Bench|机器学习优化;性能工程;人类专家时间预算
+reviewbench|ReviewBench|软件工程/代码仓库维护/代码审查|https://review-bench.ai/|219 pull requests;19 languages;grounded precision;grounded recall;augmented metrics
+codeclash|CodeClash|软件工程/代码生成/目标导向软件工程|https://github.com/codeclash-ai/codeclash|goal-oriented coding;multi-round tournaments;competitive code arenas
+deepswe|DeepSWE|软件工程/代码仓库维护/长时程软件工程|https://github.com/datacurve-ai/deep-swe|113 tasks;TypeScript;Go;Python;JavaScript;Rust;separate verifier environments
+officeqa|OfficeQA|代理与执行/信息检索/财务文档推理|https://github.com/databricks/officeqa|Pro 133 questions;Full 246 questions;Treasury Bulletins;grounded numerical reasoning
+officeqa-pro-v2|OfficeQA Pro V2|代理与执行/信息检索/多文档财务推理|https://github.com/databricks/officeqa|90 questions;1435 documents;Receipts and Expenditures;cross-corpus generalization
+wbench|WBench|专业工作与创造/内容创造/交互视频世界模型|https://github.com/meituan-longcat/WBench|289 full cases;158 navigation cases;22 metrics;quality;consistency;interaction;setting;physics

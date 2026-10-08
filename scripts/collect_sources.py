@@ -74,7 +74,9 @@ if __name__ == "__main__":
         else:
             records[record["id"]] = record
     manifest_path.write_text(
-        json.dumps(list(records.values()), ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
+        json.dumps(list(records.values()), ensure_ascii=False, indent=2) + "\n",
+        encoding="utf-8",
+        newline="\n",
     )
     print(
         json.dumps(

@@ -1,0 +1,73 @@
+name: Refresh benchmark evidence
+
+on:
+  schedule:
+    - cron: '0 1 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: benchmark-refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - uses: astral-sh/setup-uv@v6
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install and configure public identity
+        run: |
+          uv sync --locked --extra dev
+          git config --local user.name The-T800
+          git config --local user.email 65542540+The-T800@users.noreply.github.com
+          git config --local core.hooksPath .githooks
+      - name: Refresh and rebuild
+        run: uv run python scripts/update_benchmarks.py
+      - name: Validate before publication
+        run: |
+          uv run ruff check .
+          uv run ruff format --check .
+          uv run pytest
+          node --test tests/subject_ui.test.cjs
+          uv run python scripts/check_public_metadata.py
+          git add data reports docs/index.html README.md README.zh-CN.md
+          uv run python scripts/update_benchmarks.py --offline
+          git diff --exit-code -- data reports docs/index.html README.md README.zh-CN.md
+      - name: Commit checked data updates
+        run: |
+          git add data reports docs/index.html README.md README.zh-CN.md
+          if ! git diff --cached --quiet; then
+            git commit -m "Refresh public benchmark evidence and generated outputs"
+            uv run python scripts/check_public_metadata.py
+            git push origin HEAD:main
+          fi
+      # GITHUB_TOKEN pushes do not trigger the separate Pages push workflow.
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs
+  deploy:
+    needs: refresh
+    runs-on: ubuntu-latest
+    concurrency:
+      group: pages
+      cancel-in-progress: false
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

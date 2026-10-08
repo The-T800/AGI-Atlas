@@ -56,6 +56,17 @@ def test_epoch_tables_reproducible_offline(monkeypatch):
         assert committed["models"]
 
 
+def test_metr_horizons_reference_raw_source_and_rebuild_offline(monkeypatch):
+    monkeypatch.syspath_prepend(str(REPO / "scripts"))
+    importer = importlib.import_module("import_public_scores")
+    path = REPO / "data/research/metr-horizon-v1.1.yaml"
+    committed = yaml.safe_load(path.read_text(encoding="utf-8"))
+    raw = (REPO / "data/research/sources/metr-horizons.txt").read_bytes()
+    assert committed == importer.metr_horizons()
+    assert committed["sha256"] == hashlib.sha256(raw).hexdigest()
+    assert committed["data"] == yaml.safe_load(raw)
+
+
 def test_source_url_changes_invalidate_cached_snapshot(tmp_path, monkeypatch):
     monkeypatch.syspath_prepend(str(REPO / "scripts"))
     collector = importlib.import_module("collect_sources")

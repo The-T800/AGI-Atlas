@@ -9,9 +9,9 @@
 **How far is AI from AGI?** Explore published benchmark evidence across work, research subjects and independently annotated capabilities.
 
 - **Subjects:** the complete OpenAlex hierarchy — **4 domains → 26 fields → 252 subfields → 4,516 topics**.
-- **Capabilities:** 12 project-defined labels, independently attached to all 187 benchmarks.
+- **Capabilities:** 12 project-defined labels, independently attached to all cataloged benchmarks.
 - **Work:** 923 O*NET occupations and 2,087 work activities; the existing work proxy index is **0.91%**, not AGI completion.
-- **Evidence:** 3,706 score records. The subject matrix counts related benchmarks; select a cell to inspect comparable results and source dates.
+- **Evidence:** published score records with traceable snapshots. The subject matrix counts related benchmarks; select a cell to inspect comparable results and source dates.
 
 [Open the interactive page](https://the-t800.github.io/AGI-Atlas/) · [Full report](reports/report.en.md) · [Classification and provenance](docs/subject-classification.md)
 
@@ -19,11 +19,15 @@
 
 The taxonomy uses the **latest complete public OpenAlex release available on 2026-10-05: 2026-09-23**. It was downloaded on **2026-10-05** from the official public S3 bucket, with all four hierarchy levels, release manifests and SHA-256 hashes retained. This is a complete public release, not a claim of a complete same-day live API snapshot.
 
-All 30 retained benchmark source URLs were refreshed on **2026-10-05**. Retrieval dates, publication dates and evaluation dates are separate. Recent task evidence highlights results evaluated (or, if unknown, published) within 365 days of taxonomy retrieval. Older and undated results remain available in score details, clearly dated or marked unknown. A new download never makes an old evaluation recent.
+<!-- benchmark-refresh:start -->
+Benchmark sources: **51**; retrieval dates: **2026-10-08**. Catalog: **193 benchmarks**, **3,730 score records**, **893 models**; **119 benchmarks** have verified score transcriptions.
+
+Subject links: **73 benchmarks**; **45** have results and **5** have dated results within the last year. The evidence window follows the latest score retrieval, independently of taxonomy retrieval. Evaluation, publication, model release and retrieval dates stay separate. Downloading an old result does not make its evaluation recent.
+<!-- benchmark-refresh:end -->
 
 ## How to read the subject map
 
-Matrix cells count distinct benchmarks with a task-based subject link and capability annotation. They do not average unrelated benchmark scores. Broad exam mappings stay at field level; a combined MMLU score is never copied to every child topic. Currently 70 of 187 benchmarks have subject links, 45 have verified results, and 5 have dated results within the last year. The coverage table separates all four levels: 15 fields, 13 subfields and 10 topics have task links including descendants. Six of those topics have benchmark results; this is task evidence, not a subject score. The full 4,516-topic directory distinguishes explicit evidence, parent context and pending mappings. Unassigned benchmarks retain their capability labels.
+Matrix cells count distinct benchmarks with a task-based subject link and capability annotation. They do not average unrelated benchmark scores. Broad exam mappings stay at field level; a combined MMLU score is never copied to every child topic. Current evidence counts are generated in the freshness summary above. The coverage table separates all four levels: 15 fields, 13 subfields and 10 topics have task links including descendants. Six of those topics have benchmark results; this is task evidence, not a subject score. The full 4,516-topic directory distinguishes explicit evidence, parent context and pending mappings. Unassigned benchmarks retain their capability labels.
 
 Unmeasured topics stay **unknown**, not failed. There is **no OpenAlex mastery percentage or AGI completion percentage**. The former Nature proxy index has been retired. Official topic names and descriptions are preserved in English; domain and field labels have unofficial Chinese translations.
 
@@ -70,6 +74,10 @@ uv run python scripts/build_openalex.py --snapshot  # latest complete public rel
 uv run python scripts/build_openalex.py --refresh   # live API; optional OPENALEX_API_KEY
 uv run python scripts/collect_sources.py --refresh  # benchmark source material
 ```
+
+Use `uv run python scripts/update_benchmarks.py` to refresh all retained benchmark sources, rebuild scores, models, reports, the site and README summaries in a staging directory, then replace project outputs only after a successful rebuild. `--offline` rebuilds from retained snapshots without network access.
+
+The `Refresh benchmark evidence` GitHub Actions workflow runs every Monday at 09:00 Asia/Shanghai, or manually. It commits checked data updates to `main` and deploys Pages after lint, formatting, tests, provenance and reproducibility checks. Newly discovered benchmarks require task and scoring review before catalog/importer changes; the workflow refreshes the configured sources, rather than treating arbitrary GitHub search results as verified evidence.
 
 Then regenerate scores, models, reports and the site. Do not mix incomplete API pages into a complete release. Never commit an API key.
 

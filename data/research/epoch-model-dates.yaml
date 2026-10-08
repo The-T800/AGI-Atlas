@@ -1,7 +1,7 @@
 source_id: epoch-benchmarks
 source_url: https://epoch.ai/data/benchmark_data.zip
-source_sha256: 91cbe8bf15e6dd1bb70b7c51f192305d1064978373f414b45caf874cc96ad50a
-observed_on: '2026-10-05'
+source_sha256: f79751ec96c27f1bab9fed88ad7ffe07bae94f4de86bff67860e6240df42383f
+observed_on: '2026-10-08'
 source_file: benchmark_data.zip/model_metadata.csv
 license: CC-BY 4.0（压缩包 README）
 notes: name 为 Epoch 的 model_group；release_date 为模型发布日期，不是评测日期；源表未给出日期或同组版本日期不一致时为
@@ -200,6 +200,13 @@ models:
   - claude-haiku-4-5-20251001_8K
   - claude-haiku-4-5-20251001_low
   - claude-haiku-4-5-20251001_unknown
+- name: Claude Haiku 5.5
+  organization: Anthropic
+  release_date: '2026-10-07'
+  model_versions:
+  - claude-haiku-5-5_high
+  - claude-haiku-5-5_max
+  - claude-haiku-5-5_xhigh
 - name: Claude Instant
   organization: Anthropic
   release_date: '2023-08-09'

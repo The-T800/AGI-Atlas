@@ -111,6 +111,22 @@ def test_recent_evidence_checks_all_groups_and_deduplicates():
     assert software["evidence"]["scored"] == 1
 
 
+def test_score_refresh_advances_evidence_window_without_changing_taxonomy():
+    data = load_data(REPO / "data")
+    result = build_subjects(
+        REPO / "data",
+        {b.id for b in data.benchmarks},
+        [
+            {
+                "benchmark_id": "swe-bench",
+                "records": [{"published_at": "2026-10-07", "observed_at": "2026-10-08"}],
+            }
+        ],
+    )
+    assert result["summary"]["recent_benchmarks"] == 1
+    assert result["retrieved_at"][:10] == "2026-10-05"
+
+
 def test_unverified_results_do_not_establish_evidence():
     data = load_data(REPO / "data")
     result = build_subjects(

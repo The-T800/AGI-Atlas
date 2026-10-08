@@ -18,4 +18,5 @@ data/scores/frontier_scores.yaml linguist-generated
 data/models/models.yaml linguist-generated
 data/benchmarks/benchmarks.yaml linguist-generated
 data/denominators/*.tsv linguist-generated
-data/research/sources/** linguist-vendored
+# Preserve downloaded bytes and source whitespace for SHA-256 reproducibility.
+data/research/sources/** -text -whitespace linguist-vendored
