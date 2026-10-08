@@ -741,7 +741,7 @@ Wu, Fei Xia, Deshraj Yadav, Amir Zamir, and Jiazhi Zhang for their help.</p>
       <div class="m-col-s-3 m-col-t-6">
         <h3>Contact</h3>
         <ul>
-          <li><a href="/cdn-cgi/l/email-protection#731b12111a0712073315115d101c1e">E-mail</a></li>
+          <li><a href="/cdn-cgi/l/email-protection#0961686b607d687d496f6b276a6664">E-mail</a></li>
         </ul>
       </div>
     </div>
