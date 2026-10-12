@@ -249,6 +249,11 @@
 - id: claude-haiku-4-5-thinking-8-k
   name: Claude Haiku 4.5 (Thinking 8K)
   provider: Anthropic
+- id: claude-haiku-5-5-max-claude-haiku-5-5-max
+  name: Claude Haiku 5.5 (max) [claude-haiku-5-5_max]
+  provider: Anthropic
+  release_date: '2026-10-07'
+  release_source: https://epoch.ai/data/benchmark_data.zip
 - id: claude-opus-4
   name: Claude Opus 4
   provider: Anthropic
@@ -673,6 +678,11 @@
 - id: deepseek-v-4-1-flash-max
   name: DeepSeek V4.1 Flash (Max)
   provider: DeepSeek
+- id: deepseek-v-4-1-flash-max-deepseek-v-4-1-flash-max
+  name: DeepSeek V4.1 Flash (max) [deepseek-v4.1-flash_max]
+  provider: DeepSeek
+  release_date: '2026-09-09'
+  release_source: https://epoch.ai/data/benchmark_data.zip
 - id: deepseek-v-4-1-flash-none
   name: DeepSeek V4.1 Flash (None)
   provider: DeepSeek
@@ -2631,6 +2641,11 @@
 - id: mistral-large-2-nov-2024-mistral-large-2411
   name: Mistral Large 2 (Nov 2024) [mistral-large-2411]
   provider: Mistral AI
+- id: mistral-large-4-high-mistral-large-4-0-high
+  name: Mistral Large 4 (high) [mistral-large-4-0_high]
+  provider: Mistral AI
+  release_date: '2026-10-06'
+  release_source: https://epoch.ai/data/benchmark_data.zip
 - id: mistral-large-mistral-large-2402
   name: Mistral Large [mistral-large-2402]
   provider: Mistral AI

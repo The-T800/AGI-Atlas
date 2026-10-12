@@ -14061,7 +14061,7 @@ wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
 <script type="text/javascript" src="https://github.blog/_static/??/wp-includes/js/dist/private-apis.min.js,/wp-includes/js/dist/url.min.js?m=1791304111j" ></script><script id="wp-api-fetch-js" src="https://github.blog/wp-includes/js/dist/api-fetch.min.js?ver=6f2a4faeee3c722b1e57"></script>
 <script id="wp-api-fetch-js-after">
 wp.apiFetch.use( wp.apiFetch.createRootURLMiddleware( "https://github.blog/wp-json/" ) );
-wp.apiFetch.nonceMiddleware = wp.apiFetch.createNonceMiddleware( "0240ea5241" );
+wp.apiFetch.nonceMiddleware = wp.apiFetch.createNonceMiddleware( "eab8cf90f9" );
 wp.apiFetch.use( wp.apiFetch.nonceMiddleware );
 wp.apiFetch.use( wp.apiFetch.mediaUploadMiddleware );
 wp.apiFetch.nonceEndpoint = "https://github.blog/wp-admin/admin-ajax.php?action=rest-nonce";
@@ -14079,7 +14079,7 @@ _stq.push([ "view", {"v":"ext","blog":"153214340","post":"99258","tz":"-7","srv"
 _stq.push([ "clickTrackerInit", "153214340", "99258" ]);
 //# sourceURL=jetpack-stats-js-before
 </script>
-<script data-wp-strategy="defer" defer fetchpriority="low" id="jetpack-stats-js" src="https://stats.wp.com/e-202641.js"></script>
+<script data-wp-strategy="defer" defer fetchpriority="low" id="jetpack-stats-js" src="https://stats.wp.com/e-202642.js"></script>
 <script id="wp-emoji-settings" type="application/json">
 {"baseUrl":"https://s.w.org/images/core/emoji/17.0.2/72x72/","ext":".png","svgUrl":"https://s.w.org/images/core/emoji/17.0.2/svg/","svgExt":".svg","source":{"concatemoji":"https://github.blog/wp-includes/js/wp-emoji-release.min.js?ver=7.1.3"}}
 </script>

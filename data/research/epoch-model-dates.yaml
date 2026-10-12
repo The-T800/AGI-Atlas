@@ -1,7 +1,7 @@
 source_id: epoch-benchmarks
 source_url: https://epoch.ai/data/benchmark_data.zip
-source_sha256: f79751ec96c27f1bab9fed88ad7ffe07bae94f4de86bff67860e6240df42383f
-observed_on: '2026-10-08'
+source_sha256: 7aff80e15235808cfc5f6a6e101403560937b850751bd2ef166a48cee1893649
+observed_on: '2026-10-12'
 source_file: benchmark_data.zip/model_metadata.csv
 license: CC-BY 4.0（压缩包 README）
 notes: name 为 Epoch 的 model_group；release_date 为模型发布日期，不是评测日期；源表未给出日期或同组版本日期不一致时为
@@ -2198,6 +2198,13 @@ models:
   release_date: '2025-12-02'
   model_versions:
   - mistral-large-2512
+- name: Mistral Large 4
+  organization: Mistral AI
+  release_date: '2026-10-06'
+  model_versions:
+  - mistral-large-4-0_high
+  - mistral-large-4-0_none
+  - mistral-large-4-0_unknown
 - name: Mistral Medium
   organization: Mistral AI
   release_date: '2023-12-11'

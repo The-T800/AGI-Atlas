@@ -55,6 +55,7 @@
 
 ## 📢 News
 
+- **[2026/10/12]** 🆕 Navi results across 158 cases: **VWA-World** (X-Era AI, `action`) **81.7**, combining 16 self-evaluated metrics with 3 organizer-evaluated VLM metrics ([report](assets/submissions/vwa_world/report.json), [provenance](assets/submissions/vwa_world/provenance.json)); **gd_world** (gd_cv, `camera`) **81.2**, organizer evaluation ([report](assets/submissions/gd_world/report.json), [provenance](assets/submissions/gd_world/provenance.json)).
 - **[2026/10/04]** 🆕 [HelixWorld](https://huggingface.co/datasets/NoizAI/HelixWorld-WBench-Navi) (`camera`, `4-step`, `AR`, self-evaluation): Navi **79.9** (#10) across 158 cases · Noiz Ai · thanks Frank and the Noiz Ai team.
 - **[2026/09/24]** 🆕 [Enuma](https://huggingface.co/datasets/Kr1sJ/Enuma_WBench) (`camera`, Unreleased, self-evaluation): Navi **81.7** (#3, `bidirection`) and **79.7** (#10, `AR`, `4-step`, `flash`) across 158 cases · ByteDance · thanks [@Kr1sJ](https://huggingface.co/Kr1sJ).
 - **[2026/09/23]** 🆕 [MuseFlow-Pro](https://musee.me/) (`text`, Unreleased): Full **81.1**, #1 across 289 cases · Musee · thanks [@Easo04](https://huggingface.co/Easo04).

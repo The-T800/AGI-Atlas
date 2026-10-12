@@ -1,9 +1,9 @@
 source_id: epoch-eci
 source_url: https://epoch.ai/data/eci_scores.csv
 source_sha256: 30844141e711b775a0970cbe0504d1d96f4abd8b8e86b7f9e24ecf70281de159
-observed_on: '2026-10-08'
+observed_on: '2026-10-12'
 method_source: https://epoch.ai/eci
-method_source_sha256: c6edcd0dc271a4e55fc6134aa91f434c01f8e78e4e161ab6f2d06fdb7bb93cf1
+method_source_sha256: e26e3dbb0562a9303f676d334d430b7229e9a5d64b83dfdac445b08b8f92eb23
 license: CC-BY 4.0
 notes: ECI（Epoch Capabilities Index）是 Epoch AI 以项目反应理论（IRT）类方法、从多个基准成绩联合拟合的相对能力指数；刻度任意，标定为
   Claude 3.5 Sonnet=130、GPT-5=150，无上限，与基准准确率非线性，只适合模型间比较，不是 AGI 完成百分比。eci_ci_low/eci_ci_high
