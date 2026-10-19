@@ -1,7 +1,7 @@
 source_id: epoch-benchmarks
 source_url: https://epoch.ai/data/benchmark_data.zip
-source_sha256: 7aff80e15235808cfc5f6a6e101403560937b850751bd2ef166a48cee1893649
-observed_on: '2026-10-12'
+source_sha256: 49ecfe2caad7a23a5f86ca68402132af3b47872a2f713dc7c548536c9da53529
+observed_on: '2026-10-19'
 source_file: benchmark_data.zip/model_metadata.csv
 license: CC-BY 4.0（压缩包 README）
 notes: name 为 Epoch 的 model_group；release_date 为模型发布日期，不是评测日期；源表未给出日期或同组版本日期不一致时为
@@ -197,6 +197,7 @@ models:
   - claude-haiku-4-5-20251001_16K
   - claude-haiku-4-5-20251001_1K
   - claude-haiku-4-5-20251001_32K
+  - claude-haiku-4-5-20251001_59K
   - claude-haiku-4-5-20251001_8K
   - claude-haiku-4-5-20251001_low
   - claude-haiku-4-5-20251001_unknown
@@ -205,7 +206,10 @@ models:
   release_date: '2026-10-07'
   model_versions:
   - claude-haiku-5-5_high
+  - claude-haiku-5-5_low
   - claude-haiku-5-5_max
+  - claude-haiku-5-5_medium
+  - claude-haiku-5-5_unknown
   - claude-haiku-5-5_xhigh
 - name: Claude Instant
   organization: Anthropic
@@ -379,6 +383,7 @@ models:
   - claude-sonnet-5-5_low
   - claude-sonnet-5-5_max
   - claude-sonnet-5-5_medium
+  - claude-sonnet-5-5_unknown
   - claude-sonnet-5-5_xhigh
 - name: CodeQwen1.5-7B
   organization: null
@@ -513,6 +518,7 @@ models:
   release_date: '2026-09-09'
   model_versions:
   - deepseek-v4.1-flash_high
+  - deepseek-v4.1-flash_low
   - deepseek-v4.1-flash_max
   - deepseek-v4.1-flash_none
   - deepseek-v4.1-flash_unknown
@@ -1493,6 +1499,9 @@ models:
   release_date: '2026-09-30'
   model_versions:
   - gemini-4-argon_high
+  - gemini-4-argon_low
+  - gemini-4-argon_medium
+  - gemini-4-argon_minimal
   - gemini-4-argon_unknown
 - name: Gemini Robotics-ER 1.6
   organization: Google
@@ -2329,6 +2338,26 @@ models:
   - muse-spark-1.3_minimal
   - muse-spark-1.3_unknown
   - muse-spark-1.3_xhigh
+- name: Muse Spark Open
+  organization: Meta AI
+  release_date: '2026-10-15'
+  model_versions:
+  - Muse-Spark-Open-816B-A42B_high
+  - Muse-Spark-Open-816B-A42B_low
+  - Muse-Spark-Open-816B-A42B_medium
+  - Muse-Spark-Open-816B-A42B_unknown
+  - Muse-Spark-Open-816B-A42B_xhigh
+- name: Muse Wonder
+  organization: Meta AI
+  release_date: '2026-10-12'
+  model_versions:
+  - muse-wonder-1.0_high
+  - muse-wonder-1.0_low
+  - muse-wonder-1.0_max
+  - muse-wonder-1.0_medium
+  - muse-wonder-1.0_minimal
+  - muse-wonder-1.0_unknown
+  - muse-wonder-1.0_xhigh
 - name: NVILA 8B
   organization: Nvidia,Massachusetts Institute of Technology (MIT),University of California
     (UC) Berkeley,University of California San Diego,University of Washington,Tsinghua

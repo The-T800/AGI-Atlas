@@ -7,7 +7,7 @@
 	<link rel="icon" type="image/x-icon" href="https://github.githubassets.com/favicon.ico">
 	<meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
 
-	<!-- This site is optimized with the Yoast SEO Premium plugin v28.4 (Yoast SEO v28.4) - https://yoast.com/product/yoast-seo-premium-wordpress/ -->
+	<!-- This site is optimized with the Yoast SEO Premium plugin v28.6 (Yoast SEO v28.6) - https://yoast.com/product/yoast-seo-premium-wordpress/ -->
 	<title>ReviewBench: An open benchmark for AI code review - The GitHub Blog</title>
 	<meta name="description" content="ReviewBench is a benchmark for code review agents built on representative GitHub pull requests, multi-source ground truth, and calibrated evaluation." />
 	<link rel="canonical" href="https://github.blog/ai-and-ml/github-copilot/reviewbench-an-open-benchmark-for-ai-code-review/" />
@@ -95,12 +95,12 @@ ol,ul{box-sizing:border-box}:root :where(.wp-block-list.has-background){padding:
 /*# sourceURL=global-styles-inline-css */
 </style>
 
-<link rel='stylesheet' id='all-css-12' href='https://github.blog/wp-content/plugins/wp-menu-image/assets/css/wmi-front-style.css?m=1790590802g' type='text/css' media='all' />
+<link rel='stylesheet' id='all-css-12' href='https://github.blog/wp-content/plugins/wp-menu-image/assets/css/wmi-front-style.css?m=1791977563g' type='text/css' media='all' />
 <style id="jetpack-stats-inline-css">
 img#wpstats{display:none}
 /*# sourceURL=jetpack-stats-inline-css */
 </style>
-<link rel='stylesheet' id='all-css-14' href='https://github.blog/_static/??-eJx9yzkOgCAQAMAPiQskRimMf+EIbMIVd40+X63sLKcYOLtwrXKoDJxCCQQROR1WaKmVcAmzB4/E4IggY0xs2zU+GOC3fomQgyC3Y+f3bWVVs5GTkYvUN3UrLFg=' type='text/css' media='all' />
+<link rel='stylesheet' id='all-css-14' href='https://github.blog/_static/??-eJx9yzsOgCAMANALiRWMEgbjXQQCTfjF1ujx1cnN8Q0PziZsLewLA0efPUFAjscm1KCksBGTA4fEYIkgYYi81at/0MFv/RIhe0F2x8bvW/MitZFG62keb3VgLGY=' type='text/css' media='all' />
 <link rel='stylesheet' id='highlightjs-css-css' href='https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.11.1/styles/default.min.css?ver=11.4.0' media='all' />
 <link rel="https://api.w.org/" href="https://github.blog/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="https://github.blog/wp-json/wp/v2/posts/99258" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://github.blog/xmlrpc.php?rsd" />
 <meta name="generator" content="WordPress 7.1.3" />
@@ -13715,18 +13715,18 @@ Connection: Uniform labeling to Published agreement.</p></noscript></div>
 			</ul>
 </nav>
 		</div>
-		<section aria-labelledby="ai-related-posts-title" class="mb-7 mb-md-8 mt-7 mt-md-0"><h2 class="h5-mktg aside-heading pb-3 border-bottom color-fg-muted color-border-muted" id="ai-related-posts-title">More on <a href="https://github.blog/tag/ai/" class="Link--primary">AI</a></h2><article class="py-4 d-flex flex-column"><div class="col-12  tease-text"><h3 class="h6-mktg mb-12px"><a href="https://github.blog/ai-and-ml/github-copilot/secret-protection-must-scale-with-software/" class="Link--primary">Secret protection must scale with software</a></h3><div class="f4-mktg color-fg-muted"><p>Developers aren’t becoming more careless; they’re being outpaced. The tools that let developers create more software should also take on more of the work of protecting it.</p>
+		<section aria-labelledby="ai-related-posts-title" class="mb-7 mb-md-8 mt-7 mt-md-0"><h2 class="h5-mktg aside-heading pb-3 border-bottom color-fg-muted color-border-muted" id="ai-related-posts-title">More on <a href="https://github.blog/tag/ai/" class="Link--primary">AI</a></h2><article class="py-4 d-flex flex-column"><div class="col-12  tease-text"><h3 class="h6-mktg mb-12px"><a href="https://github.blog/ai-and-ml/githubs-model-for-secret-detection-finding-more-secrets-with-less-noise/" class="Link--primary">GitHub’s model for secret detection: Finding more secrets with less noise</a></h3><div class="f4-mktg color-fg-muted"><p>GitHub’s context-aware secret classifier improves detection quality, raises weighted acceptance by 11.5%, and reduces median scan execution time by 86%.</p>
+</div><div class="d-flex flex-items-center mb-6px">
+		<span>
+					<span class="text-bold">
+				<a href="https://github.blog/author/batuozt/" title="Posts by Batu Ozturkler" class="author url fn Link--primary no-wrap position-relative z-2" rel="author">Batu Ozturkler</a> & <a href="https://github.blog/author/shengyfu/" title="Posts by Shengyu Fu" class="author url fn Link--primary no-wrap position-relative z-2" rel="author">Shengyu Fu</a>			</span>
+							</span>
+</div>
+</div></article><article class="py-4 d-flex flex-column border-top"><div class="col-12  tease-text"><h3 class="h6-mktg mb-12px"><a href="https://github.blog/ai-and-ml/github-copilot/secret-protection-must-scale-with-software/" class="Link--primary">Secret protection must scale with software</a></h3><div class="f4-mktg color-fg-muted"><p>Developers aren’t becoming more careless; they’re being outpaced. The tools that let developers create more software should also take on more of the work of protecting it.</p>
 </div><div class="d-flex flex-items-center mb-6px">
 		<span>
 					<span class="text-bold">
 				<a href="https://github.blog/author/erinhav/" title="Posts by Erin Havens" class="author url fn Link--primary no-wrap position-relative z-2" rel="author">Erin Havens</a>			</span>
-							</span>
-</div>
-</div></article><article class="py-4 d-flex flex-column border-top"><div class="col-12  tease-text"><h3 class="h6-mktg mb-12px"><a href="https://github.blog/ai-and-ml/ai-is-rewriting-the-developer-career-ladder-heres-how-to-stand-out/" class="Link--primary">AI is changing developer work. Here are three skills to strengthen.</a></h3><div class="f4-mktg color-fg-muted"><p>Learn to direct AI agents, critically review their output, and keep technical judgment at the center of your workflow.</p>
-</div><div class="d-flex flex-items-center mb-6px">
-		<span>
-					<span class="text-bold">
-				<a href="https://github.blog/author/purpledragon85/" title="Posts by Gwen Davis" class="author url fn Link--primary no-wrap position-relative z-2" rel="author">Gwen Davis</a>			</span>
 							</span>
 </div>
 </div></article></section>	</div>
@@ -13738,6 +13738,60 @@ Connection: Uniform labeling to Published agreement.</p></noscript></div>
 		Related posts	</h2>
 	<div class="post-columns post-columns--3-3">
 	<article class="color-border-muted post-card">
+	<div class="d-flex flex-column">
+		<div class="d-block col-12 position-relative rounded-2 mb-3 overflow-hidden tease-thumbnail" target="_self">
+			<svg aria-hidden="true" width="1032" height="548" class="width-full height-auto d-block" role="presentation"></svg>
+			<img width="400" height="212" src="https://github.blog/wp-content/uploads/2026/01/generic-github-security-logo.png?resize=400%2C212" class="d-block cover-image tease-thumbnail__img wp-post-image" alt="An abstract illustration of connected blocks surrounding a central shield with a checkmark representing secure and verified systems." decoding="async" loading="lazy" srcset="https://github.blog/wp-content/uploads/2026/01/generic-github-security-logo.png?w=1600 1600w, https://github.blog/wp-content/uploads/2026/01/generic-github-security-logo.png?w=800 800w, https://github.blog/wp-content/uploads/2026/01/generic-github-security-logo.png?w=400 400w, https://github.blog/wp-content/uploads/2026/01/generic-github-security-logo.png?w=1032 1032w, https://github.blog/wp-content/uploads/2026/01/generic-github-security-logo.png?w=516 516w, https://github.blog/wp-content/uploads/2026/01/generic-github-security-logo.png?zoom=3&amp;resize=400%2C212 1200w" sizes="auto, (max-width: 400px) 100vw, 400px" />					</div>
+		<div class="mb-1"><a href="https://github.blog/ai-and-ml/" class="first-post-category f5-mktg text-gradient-purple-coral text-bold pb-1 position-relative z-2">AI &amp; ML</a></div>		<div class="">
+			<h3 class="h6-mktg mb-2">
+				<a class="Link--primary post-card__link" href="https://github.blog/ai-and-ml/githubs-model-for-secret-detection-finding-more-secrets-with-less-noise/" target="_self">
+					GitHub’s model for secret detection: Finding more secrets with less noise				</a>
+			</h3>
+			<div class="f4-mktg color-fg-muted">
+				<p>GitHub’s context-aware secret classifier improves detection quality, raises weighted acceptance by 11.5%, and reduces median scan execution time by 86%.</p>
+			</div>
+		</div>
+		<footer>
+			<div class="d-flex flex-items-center mb-6px">
+		<span>
+					<span class="text-bold">
+				<a href="https://github.blog/author/batuozt/" title="Posts by Batu Ozturkler" class="author url fn Link--primary no-wrap position-relative z-2" rel="author">Batu Ozturkler</a> & <a href="https://github.blog/author/shengyfu/" title="Posts by Shengyu Fu" class="author url fn Link--primary no-wrap position-relative z-2" rel="author">Shengyu Fu</a>			</span>
+							</span>
+</div>
+		</footer>
+	</div>
+</article>
+<article class="color-border-muted post-card">
+	<div class="d-flex flex-column">
+		<div class="d-block col-12 position-relative rounded-2 mb-3 overflow-hidden tease-thumbnail" target="_self">
+			<svg aria-hidden="true" width="1032" height="548" class="width-full height-auto d-block" role="presentation"></svg>
+			<img width="400" height="212" src="https://github.blog/wp-content/uploads/2026/10/Screenshot-2026-10-08-at-3.08.26-PM.png?resize=400%2C212" class="d-block cover-image tease-thumbnail__img wp-post-image" alt="GitHub Copilot app for Beginners: Teach Copilot your codebase" decoding="async" loading="lazy" srcset="https://github.blog/wp-content/uploads/2026/10/Screenshot-2026-10-08-at-3.08.26-PM.png?w=800 800w, https://github.blog/wp-content/uploads/2026/10/Screenshot-2026-10-08-at-3.08.26-PM.png?w=400 400w, https://github.blog/wp-content/uploads/2026/10/Screenshot-2026-10-08-at-3.08.26-PM.png?w=1032 1032w, https://github.blog/wp-content/uploads/2026/10/Screenshot-2026-10-08-at-3.08.26-PM.png?w=516 516w, https://github.blog/wp-content/uploads/2026/10/Screenshot-2026-10-08-at-3.08.26-PM.png?zoom=3&amp;resize=400%2C212 1200w" sizes="auto, (max-width: 400px) 100vw, 400px" />			<button class="js-facade position-absolute top-0 left-0 width-full height-full d-flex flex-items-center flex-justify-center color-fg-default border-0 p-0 color-bg-transparent" aria-label="Play video">
+	<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="88" height="88" fill="#fff">
+	<path d="M9.5 15.584V8.416a.5.5 0 0 1 .77-.42l5.576 3.583a.5.5 0 0 1 0 .842l-5.576 3.584a.5.5 0 0 1-.77-.42Z"></path>
+	<path d="M1 12C1 5.925 5.925 1 12 1s11 4.925 11 11-4.925 11-11 11S1 18.075 1 12Zm11-9.5A9.5 9.5 0 0 0 2.5 12a9.5 9.5 0 0 0 9.5 9.5 9.5 9.5 0 0 0 9.5-9.5A9.5 9.5 0 0 0 12 2.5Z"></path>
+	</svg>
+</button>
+<template><iframe class="cover-image" loading="lazy" title="How to teach GitHub Copilot about your codebase | Tutorial for Beginners" width="500" height="281" src="https://www.youtube.com/embed/QGakvawJc2M?feature=oembed&#038;autoplay=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></template>		</div>
+		<div class="mb-1"><a href="https://github.blog/ai-and-ml/" class="first-post-category f5-mktg text-gradient-purple-coral text-bold pb-1 position-relative z-2">AI &amp; ML</a></div>		<div class="position-relative">
+			<h3 class="h6-mktg mb-2">
+				<a class="Link--primary post-card__link" href="https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-teach-copilot-about-your-codebase/" target="_self">
+					GitHub Copilot app for Beginners: How to teach Copilot about your codebase				</a>
+			</h3>
+			<div class="f4-mktg color-fg-muted">
+				<p>Learn how to add custom instructions and skills to your repository, use custom agents, and connect MCP servers like Playwright.</p>
+			</div>
+		</div>
+		<footer>
+			<div class="d-flex flex-items-center mb-6px">
+		<span>
+					<span class="text-bold">
+				<a href="https://github.blog/author/geektrainer/" title="Posts by Christopher Harrison" class="author url fn Link--primary no-wrap position-relative z-2" rel="author">Christopher Harrison</a>			</span>
+							</span>
+</div>
+		</footer>
+	</div>
+</article>
+<article class="color-border-muted post-card">
 	<div class="d-flex flex-column">
 		<div class="d-block col-12 position-relative rounded-2 mb-3 overflow-hidden tease-thumbnail" target="_self">
 			<svg aria-hidden="true" width="1032" height="548" class="width-full height-auto d-block" role="presentation"></svg>
@@ -13756,60 +13810,6 @@ Connection: Uniform labeling to Published agreement.</p></noscript></div>
 		<span>
 					<span class="text-bold">
 				<a href="https://github.blog/author/erinhav/" title="Posts by Erin Havens" class="author url fn Link--primary no-wrap position-relative z-2" rel="author">Erin Havens</a>			</span>
-							</span>
-</div>
-		</footer>
-	</div>
-</article>
-<article class="color-border-muted post-card">
-	<div class="d-flex flex-column">
-		<div class="d-block col-12 position-relative rounded-2 mb-3 overflow-hidden tease-thumbnail" target="_self">
-			<svg aria-hidden="true" width="1032" height="548" class="width-full height-auto d-block" role="presentation"></svg>
-			<img width="400" height="212" src="https://github.blog/wp-content/uploads/2026/03/branchingout.png?resize=400%2C212" class="d-block cover-image tease-thumbnail__img wp-post-image" alt="Decorative header image with a Copilot logo and the phrase &#039;Branching Out_&#039;" decoding="async" loading="lazy" srcset="https://github.blog/wp-content/uploads/2026/03/branchingout.png?w=300 300w, https://github.blog/wp-content/uploads/2026/03/branchingout.png?w=1600 1600w, https://github.blog/wp-content/uploads/2026/03/branchingout.png?w=800 800w, https://github.blog/wp-content/uploads/2026/03/branchingout.png?w=400 400w, https://github.blog/wp-content/uploads/2026/03/branchingout.png?w=1032 1032w, https://github.blog/wp-content/uploads/2026/03/branchingout.png?w=516 516w, https://github.blog/wp-content/uploads/2026/03/branchingout.png?zoom=3&amp;resize=400%2C212 1200w" sizes="auto, (max-width: 400px) 100vw, 400px" />					</div>
-		<div class="mb-1"><a href="https://github.blog/ai-and-ml/" class="first-post-category f5-mktg text-gradient-purple-coral text-bold pb-1 position-relative z-2">AI &amp; ML</a></div>		<div class="">
-			<h3 class="h6-mktg mb-2">
-				<a class="Link--primary post-card__link" href="https://github.blog/ai-and-ml/ai-is-rewriting-the-developer-career-ladder-heres-how-to-stand-out/" target="_self">
-					AI is changing developer work. Here are three skills to strengthen.				</a>
-			</h3>
-			<div class="f4-mktg color-fg-muted">
-				<p>Learn to direct AI agents, critically review their output, and keep technical judgment at the center of your workflow.</p>
-			</div>
-		</div>
-		<footer>
-			<div class="d-flex flex-items-center mb-6px">
-		<span>
-					<span class="text-bold">
-				<a href="https://github.blog/author/purpledragon85/" title="Posts by Gwen Davis" class="author url fn Link--primary no-wrap position-relative z-2" rel="author">Gwen Davis</a>			</span>
-							</span>
-</div>
-		</footer>
-	</div>
-</article>
-<article class="color-border-muted post-card">
-	<div class="d-flex flex-column">
-		<div class="d-block col-12 position-relative rounded-2 mb-3 overflow-hidden tease-thumbnail" target="_self">
-			<svg aria-hidden="true" width="1032" height="548" class="width-full height-auto d-block" role="presentation"></svg>
-			<img width="400" height="212" src="https://github.blog/wp-content/uploads/2026/09/Screenshot-2026-09-23-at-3.59.20-PM.png?resize=400%2C212" class="d-block cover-image tease-thumbnail__img wp-post-image" alt="GitHub Copilot app for Beginners: Build custom AI surfaces" decoding="async" loading="lazy" srcset="https://github.blog/wp-content/uploads/2026/09/Screenshot-2026-09-23-at-3.59.20-PM.png?w=800 800w, https://github.blog/wp-content/uploads/2026/09/Screenshot-2026-09-23-at-3.59.20-PM.png?w=400 400w, https://github.blog/wp-content/uploads/2026/09/Screenshot-2026-09-23-at-3.59.20-PM.png?w=1032 1032w, https://github.blog/wp-content/uploads/2026/09/Screenshot-2026-09-23-at-3.59.20-PM.png?w=516 516w" sizes="auto, (max-width: 400px) 100vw, 400px" />			<button class="js-facade position-absolute top-0 left-0 width-full height-full d-flex flex-items-center flex-justify-center color-fg-default border-0 p-0 color-bg-transparent" aria-label="Play video">
-	<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="88" height="88" fill="#fff">
-	<path d="M9.5 15.584V8.416a.5.5 0 0 1 .77-.42l5.576 3.583a.5.5 0 0 1 0 .842l-5.576 3.584a.5.5 0 0 1-.77-.42Z"></path>
-	<path d="M1 12C1 5.925 5.925 1 12 1s11 4.925 11 11-4.925 11-11 11S1 18.075 1 12Zm11-9.5A9.5 9.5 0 0 0 2.5 12a9.5 9.5 0 0 0 9.5 9.5 9.5 9.5 0 0 0 9.5-9.5A9.5 9.5 0 0 0 12 2.5Z"></path>
-	</svg>
-</button>
-<template><iframe class="cover-image" loading="lazy" title="How to build custom workflows with canvases in the GitHub Copilot app | Tutorial for beginners" width="500" height="281" src="https://www.youtube.com/embed/Xfgq79gV_GM?feature=oembed&#038;autoplay=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></template>		</div>
-		<div class="mb-1"><a href="https://github.blog/ai-and-ml/" class="first-post-category f5-mktg text-gradient-purple-coral text-bold pb-1 position-relative z-2">AI &amp; ML</a></div>		<div class="position-relative">
-			<h3 class="h6-mktg mb-2">
-				<a class="Link--primary post-card__link" href="https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-build-custom-workflows-with-canvases/" target="_self">
-					GitHub Copilot app for Beginners: How to build custom workflows with canvases				</a>
-			</h3>
-			<div class="f4-mktg color-fg-muted">
-				<p>Describe the interface you need in plain English, then let the agent build a live surface you can both use and update—so you spend less time adapting to tools and more time getting work done.</p>
-			</div>
-		</div>
-		<footer>
-			<div class="d-flex flex-items-center mb-6px">
-		<span>
-					<span class="text-bold">
-				<a href="https://github.blog/author/cinnamonmsft/" title="Posts by Kayla Cinnamon" class="author url fn Link--primary no-wrap position-relative z-2" rel="author">Kayla Cinnamon</a>			</span>
 							</span>
 </div>
 		</footer>
@@ -14053,33 +14053,33 @@ Connection: Uniform labeling to Published agreement.</p></noscript></div>
 </script>
 <div id="ghcc" style="position: sticky; bottom: 0; z-index: 99999;"></div><script id="github_cookie_consent-js" src="https://ghcc.githubassets.com/ghcc.min.js"></script>
 <script id="github_microsoft_analytics-js" src="https://js.monitor.azure.com/scripts/c/ms.analytics-web-4.js"></script>
-<script type="text/javascript" src="https://github.blog/_static/??-eJx9jdEOwiAMRX9I1jFNjA/Gb9mAQBmUxZbMz7eaaHzytefcU9g34xpJIIGt9IjEEJOe2orhRViJmckbuc9uRYrgkQUywx9nyHyAn7KkUIOGUVJfzDRO1riExX9bBWOSpT0+QyRXuteJsreT9BkPFUmNW73a88Uex5O1Nj8BinRGGA==" ></script><script id="wp-i18n-js" src="https://github.blog/wp-includes/js/dist/i18n.min.js?ver=1dfe7db3940c23ea9216"></script>
+<script type="text/javascript" src="https://github.blog/_static/??-eJx9jdEOwiAMRX9IVplRsgfjt2xAoAzKIiXz860mGp987Tn3FPZN2UrsiWHLPSA1CFFOdUX/Ik2Imskpvs92RQrgsDGkBn+cIbUD/JQ5+uIljBz7osbjqJWNmN23lTFEXurjM0SyuTuZCHs7UZ61oSCJcStXbSY9GXO+nNITivpGMw==" ></script><script id="wp-i18n-js" src="https://github.blog/wp-includes/js/dist/i18n.min.js?ver=1dfe7db3940c23ea9216"></script>
 <script id="wp-i18n-js-after">
 wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
 //# sourceURL=wp-i18n-js-after
 </script>
-<script type="text/javascript" src="https://github.blog/_static/??/wp-includes/js/dist/private-apis.min.js,/wp-includes/js/dist/url.min.js?m=1791304111j" ></script><script id="wp-api-fetch-js" src="https://github.blog/wp-includes/js/dist/api-fetch.min.js?ver=6f2a4faeee3c722b1e57"></script>
+<script type="text/javascript" src="https://github.blog/_static/??/wp-includes/js/dist/private-apis.min.js,/wp-includes/js/dist/url.min.js?m=1791305947j" ></script><script id="wp-api-fetch-js" src="https://github.blog/wp-includes/js/dist/api-fetch.min.js?ver=6f2a4faeee3c722b1e57"></script>
 <script id="wp-api-fetch-js-after">
 wp.apiFetch.use( wp.apiFetch.createRootURLMiddleware( "https://github.blog/wp-json/" ) );
-wp.apiFetch.nonceMiddleware = wp.apiFetch.createNonceMiddleware( "eab8cf90f9" );
+wp.apiFetch.nonceMiddleware = wp.apiFetch.createNonceMiddleware( "f54814bcb4" );
 wp.apiFetch.use( wp.apiFetch.nonceMiddleware );
 wp.apiFetch.use( wp.apiFetch.mediaUploadMiddleware );
 wp.apiFetch.nonceEndpoint = "https://github.blog/wp-admin/admin-ajax.php?action=rest-nonce";
 //# sourceURL=wp-api-fetch-js-after
 </script>
-<script type="text/javascript" src="https://github.blog/wp-content/themes/github-2021/dist/js/site-script.js?m=1790590802g" ></script><script id="highlightjs-js" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.11.1/highlight.min.js?ver=11.4.0"></script>
+<script type="text/javascript" src="https://github.blog/wp-content/themes/github-2021/dist/js/site-script.js?m=1791977564g" ></script><script id="highlightjs-js" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.11.1/highlight.min.js?ver=11.4.0"></script>
 <script id="highlightjs-js-after">
 hljs.highlightAll()
 //# sourceURL=highlightjs-js-after
 </script>
-<script type="text/javascript" src="https://github.blog/wp-content/plugins/page-links-to/dist/new-tab.js?m=1790590801g" ></script><script integrity="sha256-kAnFXX7lCXF9K2o4g5q1lKyk167yRq6C4TiXWtbgvQw=" crossorigin="anonymous" id="hydro-analytics-js" src="https://analytics.githubassets.com/v1.1.0/hydro-marketing.min.js?ver=7.1.3"></script>
+<script type="text/javascript" src="https://github.blog/wp-content/plugins/page-links-to/dist/new-tab.js?m=1791977563g" ></script><script integrity="sha256-kAnFXX7lCXF9K2o4g5q1lKyk167yRq6C4TiXWtbgvQw=" crossorigin="anonymous" id="hydro-analytics-js" src="https://analytics.githubassets.com/v1.1.0/hydro-marketing.min.js?ver=7.1.3"></script>
 <script id="jetpack-stats-js-before">
 _stq = window._stq || [];
 _stq.push([ "view", {"v":"ext","blog":"153214340","post":"99258","tz":"-7","srv":"github.blog","hp":"vip","j":"1:16.2"} ]);
 _stq.push([ "clickTrackerInit", "153214340", "99258" ]);
 //# sourceURL=jetpack-stats-js-before
 </script>
-<script data-wp-strategy="defer" defer fetchpriority="low" id="jetpack-stats-js" src="https://stats.wp.com/e-202642.js"></script>
+<script data-wp-strategy="defer" defer fetchpriority="low" id="jetpack-stats-js" src="https://stats.wp.com/e-202643.js"></script>
 <script id="wp-emoji-settings" type="application/json">
 {"baseUrl":"https://s.w.org/images/core/emoji/17.0.2/72x72/","ext":".png","svgUrl":"https://s.w.org/images/core/emoji/17.0.2/svg/","svgExt":".svg","source":{"concatemoji":"https://github.blog/wp-includes/js/wp-emoji-release.min.js?ver=7.1.3"}}
 </script>

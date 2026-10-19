@@ -249,11 +249,29 @@
 - id: claude-haiku-4-5-thinking-8-k
   name: Claude Haiku 4.5 (Thinking 8K)
   provider: Anthropic
+- id: claude-haiku-5-5-high
+  name: Claude Haiku 5.5 (High)
+  provider: Anthropic
+- id: claude-haiku-5-5-low
+  name: Claude Haiku 5.5 (Low)
+  provider: Anthropic
+- id: claude-haiku-5-5-max
+  name: Claude Haiku 5.5 (Max)
+  provider: Anthropic
 - id: claude-haiku-5-5-max-claude-haiku-5-5-max
   name: Claude Haiku 5.5 (max) [claude-haiku-5-5_max]
   provider: Anthropic
   release_date: '2026-10-07'
   release_source: https://epoch.ai/data/benchmark_data.zip
+- id: claude-haiku-5-5-medium
+  name: Claude Haiku 5.5 (Medium)
+  provider: Anthropic
+- id: claude-haiku-5-5-provider-adapter-max
+  name: Claude Haiku 5.5 - Provider Adapter (Max)
+  provider: Anthropic
+- id: claude-haiku-5-5-xhigh
+  name: Claude Haiku 5.5 (XHigh)
+  provider: Anthropic
 - id: claude-opus-4
   name: Claude Opus 4
   provider: Anthropic
@@ -686,6 +704,18 @@
 - id: deepseek-v-4-1-flash-none
   name: DeepSeek V4.1 Flash (None)
   provider: DeepSeek
+- id: deepseek-v-4-1-flash-provider-adapter-high
+  name: DeepSeek V4.1 Flash - Provider Adapter (High)
+  provider: DeepSeek
+- id: deepseek-v-4-1-flash-provider-adapter-low
+  name: DeepSeek V4.1 Flash - Provider Adapter (Low)
+  provider: DeepSeek
+- id: deepseek-v-4-1-flash-provider-adapter-max
+  name: DeepSeek V4.1 Flash - Provider Adapter (Max)
+  provider: DeepSeek
+- id: deepseek-v-4-1-flash-provider-adapter-none
+  name: DeepSeek V4.1 Flash - Provider Adapter (None)
+  provider: DeepSeek
 - id: deepseek-v-4-flash-0731-high
   name: DeepSeek V4 Flash 0731 (High)
   provider: DeepSeek
@@ -1100,6 +1130,29 @@
 - id: gemini-3-pro-refine
   name: Gemini 3 Pro (Refine.)
   provider: Poetiq
+- id: gemini-4-argon-high
+  name: Gemini 4 Argon (High)
+  provider: Google
+- id: gemini-4-argon-high-gemini-4-argon-high
+  name: Gemini 4 Argon (high) [gemini-4-argon_high]
+  provider: Google DeepMind
+  release_date: '2026-09-30'
+  release_source: https://epoch.ai/data/benchmark_data.zip
+- id: gemini-4-argon-low
+  name: Gemini 4 Argon (Low)
+  provider: Google
+- id: gemini-4-argon-medium
+  name: Gemini 4 Argon (Medium)
+  provider: Google
+- id: gemini-4-argon-provider-adapter-high
+  name: Gemini 4 Argon - Provider Adapter (High)
+  provider: Google
+- id: gemini-4-argon-provider-adapter-low
+  name: Gemini 4 Argon - Provider Adapter (Low)
+  provider: Google
+- id: gemini-4-argon-provider-adapter-medium
+  name: Gemini 4 Argon - Provider Adapter (Medium)
+  provider: Google
 - id: gemini-pro-v-1-5
   name: Gemini-Pro-V1.5
   provider: Google
@@ -2744,6 +2797,16 @@
   name: Muse Spark [muse-spark]
   provider: Meta AI
   release_date: '2026-04-08'
+  release_source: https://epoch.ai/data/benchmark_data.zip
+- id: muse-spark-open-xhigh-muse-spark-open-816-b-a-42-b-xhigh
+  name: Muse Spark Open (xhigh) [Muse-Spark-Open-816B-A42B_xhigh]
+  provider: Meta AI
+  release_date: '2026-10-15'
+  release_source: https://epoch.ai/data/benchmark_data.zip
+- id: muse-wonder-max-muse-wonder-1-0-max
+  name: Muse Wonder (max) [muse-wonder-1.0_max]
+  provider: Meta AI
+  release_date: '2026-10-12'
   release_source: https://epoch.ai/data/benchmark_data.zip
 - id: nemotron-3-ultra-nemotron-3-ultra
   name: Nemotron 3 Ultra [nemotron-3-ultra]

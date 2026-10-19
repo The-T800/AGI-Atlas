@@ -1570,6 +1570,20 @@ Comprehensive National Science Center-IDATA</span><br>
 
                   <tr>
                     <td scope="row" class="align-middle text-center counter-cell">
+                      <span class="badge badge-secondary">Oct 14, 2026</span>
+                    </td>
+                    <td class="align-middle text-center">Blender-SQL+Qwen3.8-27B<br>
+                      <span class="affiliation">DAMENG</span>
+                    </td>
+                    <td class="align-middle text-center"></td>
+                    <td class="align-middle text-center">27B+4B</td>
+                    <td class="align-middle text-center">✔️</td>
+                    <td class="align-middle text-center"></td>
+                    <td class="align-middle text-center">74.51</td>
+                  </tr>
+
+                  <tr>
+                    <td scope="row" class="align-middle text-center counter-cell">
                       <span class="badge badge-secondary">Sep 10, 2025</span>
                     </td>
                     <td class="align-middle text-center">JT-SQLAgent<br>
@@ -1583,6 +1597,20 @@ Comprehensive National Science Center-IDATA</span><br>
                   </tr>
 
                   <tr>
+                      <td scope="row" class="align-middle text-center counter-cell">
+                        <span class="badge badge-secondary">Sep 29, 2026</span>
+                      </td>
+                      <td class="align-middle text-center">flash-sqlite: Qwen3.5-2B Generator + Self-Judge (SC@32)<br>
+                        <span class="affiliation">Alio Leuchtmann</span>
+                      </td>
+                      <td class="align-middle text-center"><a href="https://huggingface.co/AlioLeuchtmann/flash-sqlite">[link]</a></td>
+                      <td class="align-middle text-center">2B</td>
+                      <td class="align-middle text-center">✔️</td>
+                      <td class="align-middle text-center"><span class="new-dev-badge" data-tooltip="Evaluated on BIRD Dev 20251106">New Dev</span><br>67.49</td>
+                      <td class="align-middle text-center"><span class="new-dev-badge" style="visibility:hidden">New Dev</span><br>73.73</td>
+                    </tr>
+
+                    <tr>
                     <td scope="row" class="align-middle text-center counter-cell">
                       <span class="badge badge-secondary">May 27, 2025</span>
                     </td>
@@ -4619,6 +4647,28 @@ Comprehensive National Science Center-IDATA</span><br>
 
                   <tr>
                     <td class="align-middle text-center counter-cell">
+                      <span class="badge badge-secondary">Oct 14, 2026</span>
+                    </td>
+                    <td class="align-middle text-center">
+                      FrontierSQL + gpt-oss-120b<br />
+                      <span class="affiliation">Parth Vasave, Independent</span><br /><a
+                        href="https://github.com/Parth-Vasave/frontierSQL/blob/main/evaluation/results/BIRD_RUNS.md"
+                        class="paperlink"
+                        >[report]</a
+                      >
+                    </td>
+                    <td class="align-middle text-center">
+                      <a href="https://github.com/Parth-Vasave/frontierSQL">[link]</a>
+                    </td>
+                    <td class="align-middle text-center">120B</td>
+                    <td class="align-middle text-center">✔️</td>
+                    <td class="align-middle text-center">-</td>
+                    <td class="align-middle text-center">-</td>
+                    <td class="align-middle text-center"><b>56.80</b></td>
+                  </tr>
+
+                  <tr>
+                    <td class="align-middle text-center counter-cell">
                       <span class="badge badge-secondary">Sep 22, 2026</span>
                     </td>
                     <td class="align-middle text-center">
@@ -4930,7 +4980,18 @@ Comprehensive National Science Center-IDATA</span><br>
                       <td class="align-middle text-center">74.77</td>
                       <td class="align-middle text-center">78.14</td>
                     </tr>
-
+                    <tr>
+                      <td scope="row" class="align-middle text-center counter-cell">
+                        <span class="badge badge-secondary">Oct 10, 2026</span>
+                      </td>
+                      <td class="align-middle text-center">SiriusAI-SQL-27B<br>
+                        <span class="affiliation">Tencent Data Computing Platform Department </span>
+                      <td class="align-middle text-center"><a></a></td>
+                      <td class="align-middle text-center">27B</td>
+                      <td class="align-middle text-center" style="font-size: 0.95em; font-style: italic;">Many</td>
+                      <td class="align-middle text-center">75.00</td>
+                      <td class="align-middle text-center">77.70</td>
+                    </tr>
                     <tr>
                       <td scope="row" class="align-middle text-center counter-cell">
                         <span class="badge badge-secondary">Mar 12, 2026</span>
@@ -4946,7 +5007,18 @@ Comprehensive National Science Center-IDATA</span><br>
                       <td class="align-middle text-center">73.27</td>
                       <td class="align-middle text-center">77.14</td>
                     </tr>
-
+                    <tr>
+                      <td scope="row" class="align-middle text-center counter-cell">
+                        <span class="badge badge-secondary">Oct 10, 2026</span>
+                      </td>
+                      <td class="align-middle text-center">SiriusAI-SQL-9B<br>
+                        <span class="affiliation">Tencent Data Computing Platform Department </span>
+                      <td class="align-middle text-center"><a></a></td>
+                      <td class="align-middle text-center">9B</td>
+                      <td class="align-middle text-center" style="font-size: 0.95em; font-style: italic;">Many</td>
+                      <td class="align-middle text-center">74.90</td>
+                      <td class="align-middle text-center">77.08</td>
+                    </tr>
                     <tr>
                       <td scope="row" class="align-middle text-center counter-cell">
                         <span class="badge badge-secondary">Sep 05, 2026</span>
@@ -4962,19 +5034,6 @@ Comprehensive National Science Center-IDATA</span><br>
 </td>
                       <td class="align-middle text-center"></td>
                       <td class="align-middle text-center">76.86</td>
-                    </tr>
-
-                    <tr>
-                      <td scope="row" class="align-middle text-center counter-cell">
-                        <span class="badge badge-secondary">Sep 20, 2026</span>
-                      </td>
-                      <td class="align-middle text-center">SiriusAI-SQL<br>
-                        <span class="affiliation">Tencent Data Computing Platform Department </span>
-                      <td class="align-middle text-center"><a></a></td>
-                      <td class="align-middle text-center">27B</td>
-                      <td class="align-middle text-center" style="font-size: 0.95em; font-style: italic;">Many</td>
-                      <td class="align-middle text-center">74.31</td>
-                      <td class="align-middle text-center">76.47</td>
                     </tr>
 
                       <tr>
@@ -5123,6 +5182,22 @@ Comprehensive National Science Center-IDATA</span><br>
 </td>
                       <td class="align-middle text-center">72.20</td>
                       <td class="align-middle text-center">73.84</td>
+                    </tr>
+
+                    <tr>
+                      <td scope="row" class="align-middle text-center counter-cell">
+                        <span class="badge badge-secondary">Sep 29, 2026</span>
+                      </td>
+                      <td class="align-middle text-center">flash-sqlite: Qwen3.5-2B Generator + Self-Judge<br>
+                        <span class="affiliation">Alio Leuchtmann</span>
+                      </td>
+                      <td class="align-middle text-center"><a href="https://huggingface.co/AlioLeuchtmann/flash-sqlite">[link]</a></td>
+                      <td class="align-middle text-center">2B</td>
+                      <td class="align-middle text-center"
+    style="font-size: 0.95em; font-style: italic;">Many
+</td>
+                      <td class="align-middle text-center"><span class="new-dev-badge" data-tooltip="Evaluated on BIRD Dev 20251106">New Dev</span><br>67.49</td>
+                      <td class="align-middle text-center"><span class="new-dev-badge" style="visibility:hidden">New Dev</span><br>73.73</td>
                     </tr>
 
                     <tr>

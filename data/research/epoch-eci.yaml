@@ -1,9 +1,9 @@
 source_id: epoch-eci
 source_url: https://epoch.ai/data/eci_scores.csv
-source_sha256: 30844141e711b775a0970cbe0504d1d96f4abd8b8e86b7f9e24ecf70281de159
-observed_on: '2026-10-12'
+source_sha256: 2f47e90bef5a2559a0acc08aa65d4d98064c04b7fa964428746fa421e8399109
+observed_on: '2026-10-19'
 method_source: https://epoch.ai/eci
-method_source_sha256: e26e3dbb0562a9303f676d334d430b7229e9a5d64b83dfdac445b08b8f92eb23
+method_source_sha256: 5e06b3aaf81e03afc73b1eac99da70591db76615b096398c9da92bbcb21518b1
 license: CC-BY 4.0
 notes: ECI（Epoch Capabilities Index）是 Epoch AI 以项目反应理论（IRT）类方法、从多个基准成绩联合拟合的相对能力指数；刻度任意，标定为
   Claude 3.5 Sonnet=130、GPT-5=150，无上限，与基准准确率非线性，只适合模型间比较，不是 AGI 完成百分比。eci_ci_low/eci_ci_high
@@ -13,306 +13,324 @@ models:
   organization: Anthropic
   country: United States of America
   release_date: '2026-09-22'
-  eci: 167.33
-  eci_ci_low: 164.06
-  eci_ci_high: 171.68
+  eci: 166.82
+  eci_ci_low: 163.54
+  eci_ci_high: 170.99
   model_accessibility: API access
   accessibility_group: Closed weights
 - name: GPT-6 Astra
   organization: OpenAI
   country: United States of America
   release_date: '2026-09-03'
-  eci: 166.45
-  eci_ci_low: 163.34
-  eci_ci_high: 171.46
+  eci: 166.41
+  eci_ci_low: 163.35
+  eci_ci_high: 171.23
   model_accessibility: API access
   accessibility_group: Closed weights
 - name: GPT-6.1 Sol
   organization: OpenAI
   country: United States of America
   release_date: '2026-09-29'
-  eci: 166.09
-  eci_ci_low: 162.89
-  eci_ci_high: 170.63
-  model_accessibility: API access
-  accessibility_group: Closed weights
-- name: Claude Sonnet 5.5
-  organization: Anthropic
-  country: United States of America
-  release_date: '2026-09-28'
-  eci: 165.03
-  eci_ci_low: 161.68
-  eci_ci_high: 169.06
+  eci: 166.32
+  eci_ci_low: 163.17
+  eci_ci_high: 170.82
   model_accessibility: API access
   accessibility_group: Closed weights
 - name: Claude Fable 5.1
   organization: Anthropic
   country: United States of America
   release_date: '2026-09-01'
-  eci: 164.7
-  eci_ci_low: 161.63
-  eci_ci_high: 168.81
+  eci: 164.65
+  eci_ci_low: 161.92
+  eci_ci_high: 168.48
+  model_accessibility: API access
+  accessibility_group: Closed weights
+- name: Gemini 4 Argon
+  organization: Google DeepMind
+  country: United States of America
+  release_date: '2026-09-30'
+  eci: 164.56
+  eci_ci_low: 161.67
+  eci_ci_high: 168.7
+  model_accessibility: Limited access
+  accessibility_group: Other
+- name: Claude Sonnet 5.5
+  organization: Anthropic
+  country: United States of America
+  release_date: '2026-09-28'
+  eci: 164.45
+  eci_ci_low: 161.35
+  eci_ci_high: 168.26
   model_accessibility: API access
   accessibility_group: Closed weights
 - name: Claude Opus 5
   organization: Anthropic
   country: United States of America
   release_date: '2026-07-24'
-  eci: 162.78
-  eci_ci_low: 160.12
-  eci_ci_high: 166.47
+  eci: 162.6
+  eci_ci_low: 160.0
+  eci_ci_high: 165.75
   model_accessibility: API access
   accessibility_group: Closed weights
 - name: GPT-6 Sol
   organization: OpenAI
   country: United States of America
   release_date: '2026-09-22'
-  eci: 162.72
-  eci_ci_low: 160.07
-  eci_ci_high: 166.57
-  model_accessibility: API access
-  accessibility_group: Closed weights
-- name: GPT-5.5 Pro
-  organization: OpenAI
-  country: United States of America
-  release_date: '2026-04-23'
-  eci: 162.07
-  eci_ci_low: 158.98
-  eci_ci_high: 165.82
+  eci: 162.55
+  eci_ci_low: 160.03
+  eci_ci_high: 165.84
   model_accessibility: API access
   accessibility_group: Closed weights
 - name: Claude Fable 5
   organization: Anthropic
   country: United States of America
   release_date: '2026-06-09'
-  eci: 162.06
-  eci_ci_low: 159.28
-  eci_ci_high: 166.18
+  eci: 162.13
+  eci_ci_low: 159.53
+  eci_ci_high: 166.32
+  model_accessibility: API access
+  accessibility_group: Closed weights
+- name: GPT-5.5 Pro
+  organization: OpenAI
+  country: United States of America
+  release_date: '2026-04-23'
+  eci: 161.97
+  eci_ci_low: 158.97
+  eci_ci_high: 165.09
   model_accessibility: API access
   accessibility_group: Closed weights
 - name: GPT-5.6 Sol
   organization: OpenAI
   country: United States of America
   release_date: '2026-07-09'
-  eci: 161.66
-  eci_ci_low: 159.27
-  eci_ci_high: 165.1
+  eci: 161.73
+  eci_ci_low: 159.47
+  eci_ci_high: 165.04
   model_accessibility: API access
   accessibility_group: Closed weights
 - name: GPT-5.6 Terra
   organization: OpenAI
   country: United States of America
   release_date: '2026-07-09'
-  eci: 159.62
-  eci_ci_low: 157.17
-  eci_ci_high: 162.65
-  model_accessibility: API access
-  accessibility_group: Closed weights
-- name: GPT-5.5
-  organization: OpenAI
-  country: United States of America
-  release_date: '2026-04-23'
-  eci: 159.1
-  eci_ci_low: 156.66
-  eci_ci_high: 162.27
+  eci: 159.43
+  eci_ci_low: 156.79
+  eci_ci_high: 162.18
   model_accessibility: API access
   accessibility_group: Closed weights
 - name: GPT-5.4 Pro
   organization: OpenAI
   country: United States of America
   release_date: '2026-03-05'
-  eci: 158.93
+  eci: 159.0
+  eci_ci_low: 156.48
+  eci_ci_high: 161.69
+  model_accessibility: API access
+  accessibility_group: Closed weights
+- name: Claude Haiku 5.5
+  organization: Anthropic
+  country: United States of America
+  release_date: '2026-10-07'
+  eci: 158.98
   eci_ci_low: 156.59
-  eci_ci_high: 161.78
+  eci_ci_high: 162.07
+  model_accessibility: API access
+  accessibility_group: Closed weights
+- name: GPT-5.5
+  organization: OpenAI
+  country: United States of America
+  release_date: '2026-04-23'
+  eci: 158.95
+  eci_ci_low: 156.4
+  eci_ci_high: 161.92
   model_accessibility: API access
   accessibility_group: Closed weights
 - name: Claude Opus 4.8
   organization: Anthropic
   country: United States of America
   release_date: '2026-05-28'
-  eci: 158.21
-  eci_ci_low: 156.04
-  eci_ci_high: 160.77
+  eci: 158.26
+  eci_ci_low: 156.24
+  eci_ci_high: 160.79
   model_accessibility: API access
   accessibility_group: Closed weights
 - name: Kimi K3
   organization: Moonshot
   country: China
   release_date: '2026-07-16'
-  eci: 157.45
-  eci_ci_low: 155.15
-  eci_ci_high: 160.03
+  eci: 157.42
+  eci_ci_low: 155.1
+  eci_ci_high: 160.11
   model_accessibility: Open weights (non-commercial)
   accessibility_group: Open weights
 - name: Gemini 3.7 Flash
   organization: Google DeepMind
   country: United States of America
   release_date: '2026-08-13'
-  eci: 157.27
-  eci_ci_low: 155.37
-  eci_ci_high: 159.87
-  model_accessibility: API access
-  accessibility_group: Closed weights
-- name: GPT-5.4
-  organization: OpenAI
-  country: United States of America
-  release_date: '2026-03-05'
-  eci: 156.81
-  eci_ci_low: 155.0
-  eci_ci_high: 158.94
-  model_accessibility: API access
-  accessibility_group: Closed weights
-- name: GPT-5.3 Codex
-  organization: OpenAI
-  country: United States of America
-  release_date: '2026-02-05'
-  eci: 156.77
-  eci_ci_low: 152.76
-  eci_ci_high: 160.7
-  model_accessibility: API access
-  accessibility_group: Closed weights
-- name: Muse Spark 1.3
-  organization: Meta AI
-  country: United States of America
-  release_date: '2026-09-02'
-  eci: 156.75
-  eci_ci_low: 154.78
-  eci_ci_high: 159.34
+  eci: 157.22
+  eci_ci_low: 155.33
+  eci_ci_high: 159.68
   model_accessibility: API access
   accessibility_group: Closed weights
 - name: Gemini 3.8 Flash
   organization: Google DeepMind
   country: United States of America
   release_date: '2026-09-02'
-  eci: 156.71
-  eci_ci_low: 154.41
-  eci_ci_high: 160.26
-  model_accessibility: API access
-  accessibility_group: Closed weights
-- name: Grok 4.6
-  organization: xAI
-  country: United States of America
-  release_date: '2026-08-12'
-  eci: 156.44
-  eci_ci_low: 154.51
-  eci_ci_high: 158.96
+  eci: 157.2
+  eci_ci_low: 154.97
+  eci_ci_high: 160.45
   model_accessibility: API access
   accessibility_group: Closed weights
 - name: Qwen 3.8 Max
   organization: Alibaba
   country: China
   release_date: '2026-08-02'
-  eci: 156.41
-  eci_ci_low: 154.32
-  eci_ci_high: 158.61
+  eci: 156.88
+  eci_ci_low: 155.07
+  eci_ci_high: 159.09
   model_accessibility: API access
   accessibility_group: Closed weights
-- name: GPT-5.6 Luna
+- name: GPT-5.3 Codex
   organization: OpenAI
   country: United States of America
-  release_date: '2026-07-09'
-  eci: 156.39
-  eci_ci_low: 153.98
-  eci_ci_high: 158.7
+  release_date: '2026-02-05'
+  eci: 156.76
+  eci_ci_low: 152.86
+  eci_ci_high: 160.49
   model_accessibility: API access
   accessibility_group: Closed weights
-- name: GPT-6 Luna
+- name: Muse Spark 1.3
+  organization: Meta AI
+  country: United States of America
+  release_date: '2026-09-02'
+  eci: 156.76
+  eci_ci_low: 154.89
+  eci_ci_high: 158.88
+  model_accessibility: API access
+  accessibility_group: Closed weights
+- name: GPT-5.4
   organization: OpenAI
   country: United States of America
-  release_date: '2026-09-22'
-  eci: 156.28
-  eci_ci_low: 153.67
-  eci_ci_high: 158.75
-  model_accessibility: API access
-  accessibility_group: Closed weights
-- name: Claude Opus 4.7
-  organization: Anthropic
-  country: United States of America
-  release_date: '2026-04-16'
-  eci: 156.25
-  eci_ci_low: 154.36
-  eci_ci_high: 158.37
+  release_date: '2026-03-05'
+  eci: 156.72
+  eci_ci_low: 155.04
+  eci_ci_high: 158.94
   model_accessibility: API access
   accessibility_group: Closed weights
 - name: Claude Sonnet 5
   organization: Anthropic
   country: United States of America
   release_date: '2026-06-30'
-  eci: 156.21
-  eci_ci_low: 153.48
-  eci_ci_high: 158.79
+  eci: 156.36
+  eci_ci_low: 153.97
+  eci_ci_high: 158.94
   model_accessibility: API access
   accessibility_group: Closed weights
-- name: GLM-5.3
-  organization: Z.ai (Zhipu AI)
-  country: China
-  release_date: '2026-08-14'
-  eci: 155.61
-  eci_ci_low: 153.6
-  eci_ci_high: 157.92
+- name: GPT-5.6 Luna
+  organization: OpenAI
+  country: United States of America
+  release_date: '2026-07-09'
+  eci: 156.33
+  eci_ci_low: 153.86
+  eci_ci_high: 159.04
+  model_accessibility: API access
+  accessibility_group: Closed weights
+- name: Claude Opus 4.7
+  organization: Anthropic
+  country: United States of America
+  release_date: '2026-04-16'
+  eci: 156.32
+  eci_ci_low: 154.58
+  eci_ci_high: 158.49
+  model_accessibility: API access
+  accessibility_group: Closed weights
+- name: GPT-6 Luna
+  organization: OpenAI
+  country: United States of America
+  release_date: '2026-09-22'
+  eci: 156.31
+  eci_ci_low: 153.91
+  eci_ci_high: 158.75
+  model_accessibility: API access
+  accessibility_group: Closed weights
+- name: Grok 4.6
+  organization: xAI
+  country: United States of America
+  release_date: '2026-08-12'
+  eci: 156.31
+  eci_ci_low: 154.54
+  eci_ci_high: 158.67
   model_accessibility: API access
   accessibility_group: Closed weights
 - name: GPT-5.2 Pro
   organization: OpenAI
   country: United States of America
   release_date: '2025-12-11'
-  eci: 155.4
-  eci_ci_low: 153.08
-  eci_ci_high: 158.08
+  eci: 156.03
+  eci_ci_low: 153.84
+  eci_ci_high: 159.56
   model_accessibility: API access
   accessibility_group: Closed weights
-- name: DeepSeek V4 Pro 0813
-  organization: DeepSeek
+- name: GLM-5.3
+  organization: Z.ai (Zhipu AI)
   country: China
-  release_date: '2026-08-13'
-  eci: 155.31
-  eci_ci_low: 153.48
-  eci_ci_high: 157.45
-  model_accessibility: Open weights (unrestricted)
-  accessibility_group: Open weights
-- name: Claude Opus 4.6
-  organization: Anthropic
-  country: United States of America
-  release_date: '2026-02-05'
-  eci: 155.24
-  eci_ci_low: 153.36
-  eci_ci_high: 157.28
-  model_accessibility: API access
-  accessibility_group: Closed weights
-- name: Qwen3.8 Max (0902)
-  organization: Alibaba
-  country: China
-  release_date: '2026-09-01'
-  eci: 155.05
-  eci_ci_low: 153.29
-  eci_ci_high: 157.19
+  release_date: '2026-08-14'
+  eci: 155.91
+  eci_ci_low: 154.04
+  eci_ci_high: 158.39
   model_accessibility: API access
   accessibility_group: Closed weights
 - name: DeepSeek V4.1 Flash
   organization: DeepSeek
   country: China
   release_date: '2026-09-09'
-  eci: 154.9
-  eci_ci_low: 148.49
-  eci_ci_high: 157.33
+  eci: 155.57
+  eci_ci_low: 153.51
+  eci_ci_high: 157.55
   model_accessibility: Open weights (unrestricted)
   accessibility_group: Open weights
+- name: DeepSeek V4 Pro 0813
+  organization: DeepSeek
+  country: China
+  release_date: '2026-08-13'
+  eci: 155.29
+  eci_ci_low: 153.53
+  eci_ci_high: 157.63
+  model_accessibility: Open weights (unrestricted)
+  accessibility_group: Open weights
+- name: Claude Opus 4.6
+  organization: Anthropic
+  country: United States of America
+  release_date: '2026-02-05'
+  eci: 155.27
+  eci_ci_low: 153.59
+  eci_ci_high: 157.05
+  model_accessibility: API access
+  accessibility_group: Closed weights
+- name: Qwen3.8 Max (0902)
+  organization: Alibaba
+  country: China
+  release_date: '2026-09-01'
+  eci: 154.91
+  eci_ci_low: 153.11
+  eci_ci_high: 156.7
+  model_accessibility: API access
+  accessibility_group: Closed weights
 - name: Muse Spark 1.2
   organization: Meta AI
   country: United States of America
   release_date: '2026-08-05'
-  eci: 154.87
-  eci_ci_low: 152.85
-  eci_ci_high: 157.44
+  eci: 154.9
+  eci_ci_low: 152.96
+  eci_ci_high: 157.03
   model_accessibility: API access
   accessibility_group: Closed weights
 - name: Gemini 3.1 Pro
   organization: Google DeepMind
   country: United States of America
   release_date: '2026-02-19'
-  eci: 154.77
-  eci_ci_low: 152.44
-  eci_ci_high: 157.27
+  eci: 154.67
+  eci_ci_low: 152.48
+  eci_ci_high: 157.11
   model_accessibility: API access
   accessibility_group: Closed weights
 - name: DeepSeek V4 Flash 0731
@@ -320,116 +338,125 @@ models:
   country: China
   release_date: '2026-07-31'
   eci: 154.49
-  eci_ci_low: 152.08
-  eci_ci_high: 156.35
+  eci_ci_low: 152.12
+  eci_ci_high: 156.37
   model_accessibility: Open weights (unrestricted)
   accessibility_group: Open weights
 - name: Gemini 3.5 Flash
   organization: Google DeepMind
   country: United States of America
   release_date: '2026-05-19'
-  eci: 154.46
-  eci_ci_low: 152.5
-  eci_ci_high: 156.51
-  model_accessibility: API access
-  accessibility_group: Closed weights
-- name: Gemini 3.6 Flash
-  organization: Google DeepMind
-  country: United States of America
-  release_date: '2026-07-21'
-  eci: 154.25
-  eci_ci_low: 152.58
-  eci_ci_high: 156.22
-  model_accessibility: API access
-  accessibility_group: Closed weights
-- name: Muse Spark 1.1
-  organization: Meta AI
-  country: United States of America
-  release_date: '2026-07-09'
-  eci: 154.21
-  eci_ci_low: 151.96
-  eci_ci_high: 156.81
-  model_accessibility: API access
-  accessibility_group: Closed weights
-- name: Grok 4.5
-  organization: xAI
-  country: United States of America
-  release_date: '2026-07-08'
-  eci: 153.92
-  eci_ci_low: 152.21
-  eci_ci_high: 155.63
-  model_accessibility: API access
-  accessibility_group: Closed weights
-- name: Qwen3.7-Max
-  organization: Alibaba
-  country: China
-  release_date: '2026-05-19'
-  eci: 153.68
-  eci_ci_low: 151.67
-  eci_ci_high: 155.84
+  eci: 154.38
+  eci_ci_low: 152.41
+  eci_ci_high: 156.5
   model_accessibility: API access
   accessibility_group: Closed weights
 - name: Grok 4.7
   organization: xAI
   country: United States of America
   release_date: '2026-09-21'
-  eci: 153.53
-  eci_ci_low: 151.84
-  eci_ci_high: 155.85
+  eci: 154.37
+  eci_ci_low: 152.73
+  eci_ci_high: 156.49
+  model_accessibility: API access
+  accessibility_group: Closed weights
+- name: Gemini 3.6 Flash
+  organization: Google DeepMind
+  country: United States of America
+  release_date: '2026-07-21'
+  eci: 154.24
+  eci_ci_low: 152.74
+  eci_ci_high: 156.1
+  model_accessibility: API access
+  accessibility_group: Closed weights
+- name: Muse Spark 1.1
+  organization: Meta AI
+  country: United States of America
+  release_date: '2026-07-09'
+  eci: 154.0
+  eci_ci_low: 151.66
+  eci_ci_high: 156.27
+  model_accessibility: API access
+  accessibility_group: Closed weights
+- name: Grok 4.5
+  organization: xAI
+  country: United States of America
+  release_date: '2026-07-08'
+  eci: 153.93
+  eci_ci_low: 152.47
+  eci_ci_high: 155.89
+  model_accessibility: API access
+  accessibility_group: Closed weights
+- name: Qwen3.7-Max
+  organization: Alibaba
+  country: China
+  release_date: '2026-05-19'
+  eci: 153.83
+  eci_ci_low: 151.98
+  eci_ci_high: 156.24
   model_accessibility: API access
   accessibility_group: Closed weights
 - name: GPT-5.2
   organization: OpenAI
   country: United States of America
   release_date: '2025-12-11'
-  eci: 153.45
-  eci_ci_low: 151.55
-  eci_ci_high: 155.37
-  model_accessibility: API access
-  accessibility_group: Closed weights
-- name: Gemini 3 Pro
-  organization: Google DeepMind
-  country: United States of America
-  release_date: '2025-11-18'
-  eci: 152.92
-  eci_ci_low: 150.92
-  eci_ci_high: 155.09
-  model_accessibility: API access
-  accessibility_group: Closed weights
-- name: Claude Sonnet 4.6
-  organization: Anthropic
-  country: United States of America
-  release_date: '2026-02-17'
-  eci: 152.24
-  eci_ci_low: 149.92
-  eci_ci_high: 154.49
-  model_accessibility: API access
-  accessibility_group: Closed weights
-- name: Muse Spark
-  organization: Meta AI
-  country: United States of America
-  release_date: '2026-04-08'
-  eci: 152.04
-  eci_ci_low: 150.13
-  eci_ci_high: 155.49
-  model_accessibility: API access
-  accessibility_group: Closed weights
-- name: Grok 4.20
-  organization: xAI
-  country: United States of America
-  release_date: '2026-02-17'
-  eci: 151.98
-  eci_ci_low: 149.4
-  eci_ci_high: 154.5
+  eci: 153.46
+  eci_ci_low: 151.64
+  eci_ci_high: 155.27
   model_accessibility: API access
   accessibility_group: Closed weights
 - name: GLM-5.3-Flash
   organization: Z.ai (Zhipu AI)
   country: China
   release_date: '2026-08-20'
-  eci: 151.88
-  eci_ci_low: 149.64
-  eci_ci_high: 153.95
+  eci: 153.23
+  eci_ci_low: 150.95
+  eci_ci_high: 155.4
+  model_accessibility: Open weights (unrestricted)
+  accessibility_group: Open weights
+- name: Gemini 3 Pro
+  organization: Google DeepMind
+  country: United States of America
+  release_date: '2025-11-18'
+  eci: 152.9
+  eci_ci_low: 151.0
+  eci_ci_high: 154.95
+  model_accessibility: API access
+  accessibility_group: Closed weights
+- name: Claude Sonnet 4.6
+  organization: Anthropic
+  country: United States of America
+  release_date: '2026-02-17'
+  eci: 152.39
+  eci_ci_low: 150.04
+  eci_ci_high: 154.65
+  model_accessibility: API access
+  accessibility_group: Closed weights
+- name: Muse Spark
+  organization: Meta AI
+  country: United States of America
+  release_date: '2026-04-08'
+  eci: 152.13
+  eci_ci_low: 150.33
+  eci_ci_high: 155.41
+  model_accessibility: API access
+  accessibility_group: Closed weights
+- name: Grok 4.20
+  organization: xAI
+  country: United States of America
+  release_date: '2026-02-17'
+  eci: 152.08
+  eci_ci_low: 149.51
+  eci_ci_high: 154.2
+  model_accessibility: API access
+  accessibility_group: Closed weights
+- name: GLM-5.2
+  organization: Z.ai (Zhipu AI)
+  country: China
+  release_date: '2026-06-16'
+  eci: 151.86
+  eci_ci_low: 150.07
+  eci_ci_high: 154.0
   model_accessibility: Open weights (unrestricted)
   accessibility_group: Open weights
 - name: Gemini 3 Flash
@@ -437,53 +464,53 @@ models:
   country: United States of America
   release_date: '2025-12-17'
   eci: 151.8
-  eci_ci_low: 150.35
-  eci_ci_high: 153.29
+  eci_ci_low: 150.54
+  eci_ci_high: 153.39
   model_accessibility: API access
   accessibility_group: Closed weights
-- name: GLM-5.2
-  organization: Z.ai (Zhipu AI)
+- name: Qwen 3.8 27B
+  organization: Alibaba
   country: China
-  release_date: '2026-06-16'
-  eci: 151.78
-  eci_ci_low: 149.81
-  eci_ci_high: 153.8
+  release_date: '2026-08-14'
+  eci: 151.55
+  eci_ci_low: 149.75
+  eci_ci_high: 153.14
   model_accessibility: Open weights (unrestricted)
   accessibility_group: Open weights
 - name: Kimi K2.6
   organization: Moonshot
   country: China
   release_date: '2026-04-20'
-  eci: 151.05
-  eci_ci_low: 149.26
-  eci_ci_high: 152.79
+  eci: 150.92
+  eci_ci_low: 149.12
+  eci_ci_high: 152.75
   model_accessibility: Open weights (unrestricted)
   accessibility_group: Open weights
 - name: GPT-5 Pro
   organization: OpenAI
   country: United States of America
   release_date: '2025-10-07'
-  eci: 150.28
-  eci_ci_low: 148.56
-  eci_ci_high: 152.85
+  eci: 150.74
+  eci_ci_low: 148.91
+  eci_ci_high: 154.0
   model_accessibility: API access
   accessibility_group: Closed weights
 - name: Inkling-Small
   organization: Thinking Machines
   country: United States of America
   release_date: '2026-07-15'
-  eci: 150.15
-  eci_ci_low: 147.39
-  eci_ci_high: 151.96
+  eci: 150.18
+  eci_ci_low: 147.31
+  eci_ci_high: 152.05
   model_accessibility: Open weights (unrestricted)
   accessibility_group: Open weights
 - name: Claude Opus 4.5
   organization: Anthropic
   country: United States of America
   release_date: '2025-11-24'
-  eci: 150.09
-  eci_ci_low: 148.04
-  eci_ci_high: 152.79
+  eci: 150.17
+  eci_ci_low: 147.95
+  eci_ci_high: 152.82
   model_accessibility: API access
   accessibility_group: Closed weights
 - name: GPT-5
@@ -495,300 +522,300 @@ models:
   eci_ci_high: null
   model_accessibility: API access
   accessibility_group: Closed weights
-- name: Kimi K2.7 Code
-  organization: Moonshot
-  country: China
-  release_date: '2026-06-12'
-  eci: 149.97
-  eci_ci_low: 147.94
-  eci_ci_high: 151.54
-  model_accessibility: Open weights (unrestricted)
-  accessibility_group: Open weights
 - name: GLM-5.1
   organization: Z.ai (Zhipu AI)
   country: China
   release_date: '2026-04-07'
-  eci: 149.84
-  eci_ci_low: 147.91
-  eci_ci_high: 151.45
+  eci: 149.99
+  eci_ci_low: 148.05
+  eci_ci_high: 151.77
+  model_accessibility: Open weights (unrestricted)
+  accessibility_group: Open weights
+- name: Kimi K2.7 Code
+  organization: Moonshot
+  country: China
+  release_date: '2026-06-12'
+  eci: 149.87
+  eci_ci_low: 147.94
+  eci_ci_high: 151.71
   model_accessibility: Open weights (unrestricted)
   accessibility_group: Open weights
 - name: GPT-5.1
   organization: OpenAI
   country: United States of America
   release_date: '2025-11-13'
-  eci: 149.64
-  eci_ci_low: 148.24
-  eci_ci_high: 151.07
+  eci: 149.76
+  eci_ci_low: 148.47
+  eci_ci_high: 151.47
   model_accessibility: API access
   accessibility_group: Closed weights
-- name: Qwen 3.8 27B
-  organization: Alibaba
-  country: China
-  release_date: '2026-08-14'
-  eci: 149.38
-  eci_ci_low: 147.3
-  eci_ci_high: 151.13
-  model_accessibility: Open weights (unrestricted)
-  accessibility_group: Open weights
 - name: Qwen 3.6 Max (Preview)
   organization: Alibaba
   country: China
   release_date: '2026-04-20'
   eci: 149.24
-  eci_ci_low: 147.38
-  eci_ci_high: 152.11
+  eci_ci_low: 147.49
+  eci_ci_high: 152.17
   model_accessibility: Unknown
   accessibility_group: Other
-- name: Grok 4.3 Beta
-  organization: xAI
-  country: United States of America
-  release_date: '2026-04-17'
-  eci: 149.16
-  eci_ci_low: 147.56
-  eci_ci_high: 150.68
-  model_accessibility: Hosted access (no API)
-  accessibility_group: Closed weights
 - name: DeepSeek-V4-Pro
   organization: DeepSeek
   country: China
   release_date: '2026-04-24'
-  eci: 149.13
-  eci_ci_low: 147.31
+  eci: 149.19
+  eci_ci_low: 147.41
   eci_ci_high: 150.72
   model_accessibility: Open weights (unrestricted)
   accessibility_group: Open weights
+- name: Grok 4.3 Beta
+  organization: xAI
+  country: United States of America
+  release_date: '2026-04-17'
+  eci: 148.95
+  eci_ci_low: 147.27
+  eci_ci_high: 150.34
+  model_accessibility: Hosted access (no API)
+  accessibility_group: Closed weights
 - name: GPT-5.4 Mini
   organization: OpenAI
   country: United States of America
   release_date: '2026-03-17'
-  eci: 148.84
-  eci_ci_low: 147.07
-  eci_ci_high: 150.28
+  eci: 148.77
+  eci_ci_low: 147.08
+  eci_ci_high: 150.5
   model_accessibility: API access
   accessibility_group: Closed weights
 - name: Inkling
   organization: Thinking Machines
   country: United States of America
   release_date: '2026-07-15'
-  eci: 148.54
-  eci_ci_low: 145.67
-  eci_ci_high: 150.36
+  eci: 148.59
+  eci_ci_low: 146.08
+  eci_ci_high: 150.55
   model_accessibility: Open weights (unrestricted)
   accessibility_group: Open weights
 - name: Kimi K2.5
   organization: Moonshot
   country: China
   release_date: '2026-01-27'
-  eci: 148.03
-  eci_ci_low: 146.43
-  eci_ci_high: 149.33
+  eci: 147.98
+  eci_ci_low: 146.36
+  eci_ci_high: 149.3
   model_accessibility: Open weights (unrestricted)
   accessibility_group: Open weights
 - name: Qwen 3.6 Plus
   organization: Alibaba
   country: China
   release_date: '2026-03-31'
-  eci: 147.65
-  eci_ci_low: 145.66
-  eci_ci_high: 149.41
+  eci: 147.49
+  eci_ci_low: 145.29
+  eci_ci_high: 149.27
   model_accessibility: API access
   accessibility_group: Closed weights
 - name: o3-pro
   organization: OpenAI
   country: United States of America
   release_date: '2025-06-10'
-  eci: 147.42
-  eci_ci_low: 145.69
-  eci_ci_high: 149.92
+  eci: 147.37
+  eci_ci_low: 145.7
+  eci_ci_high: 150.18
   model_accessibility: API access
   accessibility_group: Closed weights
 - name: Qwen3.7-Plus
   organization: Alibaba
   country: China
   release_date: '2026-06-02'
-  eci: 147.37
-  eci_ci_low: 145.75
-  eci_ci_high: 148.93
+  eci: 147.3
+  eci_ci_low: 145.59
+  eci_ci_high: 148.83
   model_accessibility: API access
   accessibility_group: Closed weights
 - name: MiniMax-M3
   organization: MiniMax
   country: China
   release_date: '2026-06-01'
-  eci: 146.95
-  eci_ci_low: 142.59
-  eci_ci_high: 149.44
+  eci: 147.13
+  eci_ci_low: 142.79
+  eci_ci_high: 150.0
   model_accessibility: Open weights (restricted use)
   accessibility_group: Open weights
+- name: Mistral Large 4
+  organization: Mistral AI
+  country: France
+  release_date: '2026-10-06'
+  eci: 146.9
+  eci_ci_low: 143.68
+  eci_ci_high: 150.94
+  model_accessibility: Unknown
+  accessibility_group: Other
 - name: o3
   organization: OpenAI
   country: United States of America
   release_date: '2025-04-16'
-  eci: 146.86
-  eci_ci_low: 145.03
-  eci_ci_high: 148.65
+  eci: 146.87
+  eci_ci_low: 144.95
+  eci_ci_high: 148.72
   model_accessibility: API access
   accessibility_group: Closed weights
 - name: Claude Sonnet 4.5
   organization: Anthropic
   country: United States of America
   release_date: '2025-09-29'
-  eci: 146.84
-  eci_ci_low: 145.08
-  eci_ci_high: 148.32
+  eci: 146.83
+  eci_ci_low: 145.2
+  eci_ci_high: 148.4
   model_accessibility: API access
   accessibility_group: Closed weights
-- name: Qwen 3.5 Plus (hosted 397B-A17B)
-  organization: Alibaba
-  country: China
-  release_date: '2026-02-16'
-  eci: 146.78
-  eci_ci_low: 144.71
-  eci_ci_high: 147.94
-  model_accessibility: Unknown
-  accessibility_group: Other
 - name: MiniMax-M2.5
   organization: MiniMax
   country: China
   release_date: '2026-02-12'
-  eci: 146.68
-  eci_ci_low: 141.94
-  eci_ci_high: 147.9
+  eci: 146.67
+  eci_ci_low: 142.63
+  eci_ci_high: 147.94
   model_accessibility: Open weights (unrestricted)
   accessibility_group: Open weights
 - name: Qwen3.5 397B-A17B
   organization: Alibaba
   country: China
   release_date: '2026-02-13'
-  eci: 146.65
-  eci_ci_low: 144.86
-  eci_ci_high: 148.26
+  eci: 146.66
+  eci_ci_low: 144.96
+  eci_ci_high: 148.32
   model_accessibility: Open weights (unrestricted)
   accessibility_group: Open weights
 - name: Qwen3.6 27B
   organization: Alibaba
   country: China
   release_date: '2026-04-22'
-  eci: 146.5
-  eci_ci_low: 144.31
-  eci_ci_high: 147.72
+  eci: 146.48
+  eci_ci_low: 144.12
+  eci_ci_high: 147.82
   model_accessibility: Open weights (unrestricted)
   accessibility_group: Open weights
 - name: Grok 4
   organization: xAI
   country: United States of America
   release_date: '2025-07-09'
-  eci: 146.44
-  eci_ci_low: 144.68
-  eci_ci_high: 148.13
+  eci: 146.43
+  eci_ci_low: 144.57
+  eci_ci_high: 148.15
+  model_accessibility: API access
+  accessibility_group: Closed weights
+- name: Qwen 3.5 Plus (hosted 397B-A17B)
+  organization: Alibaba
+  country: China
+  release_date: '2026-02-16'
+  eci: 146.32
+  eci_ci_low: 143.7
+  eci_ci_high: 147.65
+  model_accessibility: Unknown
+  accessibility_group: Other
+- name: GPT-5.4 Nano
+  organization: OpenAI
+  country: United States of America
+  release_date: '2026-03-17'
+  eci: 146.12
+  eci_ci_low: 143.63
+  eci_ci_high: 148.51
   model_accessibility: API access
   accessibility_group: Closed weights
 - name: DeepSeek-V3.2
   organization: DeepSeek
   country: China
   release_date: '2025-12-01'
-  eci: 146.27
-  eci_ci_low: 144.46
-  eci_ci_high: 147.44
-  model_accessibility: Open weights (unrestricted)
-  accessibility_group: Open weights
-- name: Nemotron 3 Ultra
-  organization: Nvidia
-  country: United States of America
-  release_date: '2026-06-04'
-  eci: 146.17
-  eci_ci_low: 143.89
-  eci_ci_high: 148.03
+  eci: 146.11
+  eci_ci_low: 144.41
+  eci_ci_high: 147.27
   model_accessibility: Open weights (unrestricted)
   accessibility_group: Open weights
 - name: DeepSeek-V4-Flash
   organization: DeepSeek
   country: China
   release_date: '2026-04-24'
-  eci: 146.07
-  eci_ci_low: 143.88
-  eci_ci_high: 147.83
+  eci: 146.05
+  eci_ci_low: 143.69
+  eci_ci_high: 148.14
   model_accessibility: Open weights (unrestricted)
   accessibility_group: Open weights
 - name: Kimi K2 Thinking
   organization: Moonshot
   country: China
   release_date: '2025-11-06'
-  eci: 146.01
-  eci_ci_low: 143.36
-  eci_ci_high: 147.52
+  eci: 145.96
+  eci_ci_low: 143.39
+  eci_ci_high: 147.34
   model_accessibility: Open weights (restricted use)
   accessibility_group: Open weights
 - name: MiniMax-M2.7
   organization: MiniMax
   country: China
   release_date: '2026-03-18'
-  eci: 145.85
-  eci_ci_low: 137.95
-  eci_ci_high: 147.86
+  eci: 145.88
+  eci_ci_low: 138.51
+  eci_ci_high: 148.03
   model_accessibility: Open weights (non-commercial)
   accessibility_group: Open weights
 - name: GLM-5
   organization: Z.ai (Zhipu AI)
   country: China
   release_date: '2026-02-11'
-  eci: 145.83
-  eci_ci_low: 143.83
-  eci_ci_high: 147.72
+  eci: 145.78
+  eci_ci_low: 143.79
+  eci_ci_high: 147.65
   model_accessibility: Open weights (unrestricted)
   accessibility_group: Open weights
-- name: GPT-5.4 Nano
-  organization: OpenAI
+- name: Nemotron 3 Ultra
+  organization: Nvidia
   country: United States of America
-  release_date: '2026-03-17'
-  eci: 145.81
-  eci_ci_low: 143.48
-  eci_ci_high: 147.63
-  model_accessibility: API access
-  accessibility_group: Closed weights
+  release_date: '2026-06-04'
+  eci: 145.77
+  eci_ci_low: 143.39
+  eci_ci_high: 147.55
+  model_accessibility: Open weights (unrestricted)
+  accessibility_group: Open weights
 - name: o4-mini
   organization: OpenAI
   country: United States of America
   release_date: '2025-04-16'
-  eci: 145.64
-  eci_ci_low: 143.23
-  eci_ci_high: 147.36
+  eci: 145.6
+  eci_ci_low: 143.32
+  eci_ci_high: 147.32
   model_accessibility: API access
   accessibility_group: Closed weights
 - name: GPT-5 mini
   organization: OpenAI
   country: United States of America
   release_date: '2025-08-07'
-  eci: 145.52
-  eci_ci_low: 143.58
-  eci_ci_high: 147.15
+  eci: 145.43
+  eci_ci_low: 143.53
+  eci_ci_high: 146.9
   model_accessibility: API access
   accessibility_group: Closed weights
 - name: Gemini 2.5 Pro (Jun 2025)
   organization: Google DeepMind
   country: United States of America
   release_date: '2025-06-05'
-  eci: 145.32
-  eci_ci_low: 143.76
-  eci_ci_high: 146.76
+  eci: 145.31
+  eci_ci_low: 143.54
+  eci_ci_high: 146.92
   model_accessibility: API access
   accessibility_group: Closed weights
 - name: Gemini 3.5 Flash-Lite
   organization: Google DeepMind
   country: United States of America
   release_date: '2026-07-21'
-  eci: 145.13
-  eci_ci_low: 142.87
-  eci_ci_high: 146.56
+  eci: 145.15
+  eci_ci_low: 142.7
+  eci_ci_high: 146.66
   model_accessibility: API access
   accessibility_group: Closed weights
 - name: DeepSeek-V3.2-Exp
   organization: DeepSeek
   country: China
   release_date: '2025-09-29'
-  eci: 145.0
-  eci_ci_low: 142.39
+  eci: 144.97
+  eci_ci_low: 142.44
   eci_ci_high: 146.98
   model_accessibility: Open weights (unrestricted)
   accessibility_group: Open weights
@@ -797,8 +824,8 @@ models:
   country: China
   release_date: '2026-07-27'
   eci: 144.64
-  eci_ci_low: 142.51
-  eci_ci_high: 147.34
+  eci_ci_low: 142.62
+  eci_ci_high: 147.19
   model_accessibility: API access
   accessibility_group: Closed weights
 - name: Gemini 3.1 Flash-Lite
@@ -806,323 +833,323 @@ models:
   country: United States of America
   release_date: '2026-03-03'
   eci: 144.47
-  eci_ci_low: 142.38
-  eci_ci_high: 146.02
+  eci_ci_low: 142.28
+  eci_ci_high: 146.04
   model_accessibility: API access
   accessibility_group: Closed weights
 - name: Grok 4 Fast
   organization: xAI
   country: United States of America
   release_date: '2025-09-19'
-  eci: 144.2
-  eci_ci_low: 141.72
-  eci_ci_high: 146.57
+  eci: 144.19
+  eci_ci_low: 141.95
+  eci_ci_high: 146.36
   model_accessibility: API access
   accessibility_group: Closed weights
 - name: Gemini 2.5 Pro (Mar 2025)
   organization: Google DeepMind
   country: United States of America
   release_date: '2025-03-31'
-  eci: 144.16
-  eci_ci_low: 141.92
-  eci_ci_high: 146.97
-  model_accessibility: API access
-  accessibility_group: Closed weights
-- name: Claude Opus 4.1
-  organization: Anthropic
-  country: United States of America
-  release_date: '2025-08-05'
   eci: 144.12
-  eci_ci_low: 141.66
-  eci_ci_high: 146.01
+  eci_ci_low: 141.88
+  eci_ci_high: 146.89
   model_accessibility: API access
   accessibility_group: Closed weights
-- name: Qwen 3.5 Flash (hosted 35B-A3B)
-  organization: Alibaba
-  country: China
-  release_date: '2026-02-25'
-  eci: 143.98
-  eci_ci_low: 141.79
-  eci_ci_high: 145.66
-  model_accessibility: Unknown
-  accessibility_group: Other
 - name: Qwen 3.6 35B-A3B
   organization: Alibaba
   country: China
   release_date: '2026-04-14'
-  eci: 143.93
-  eci_ci_low: 141.21
-  eci_ci_high: 145.93
+  eci: 144.11
+  eci_ci_low: 141.48
+  eci_ci_high: 146.29
   model_accessibility: Open weights (unrestricted)
   accessibility_group: Open weights
+- name: Claude Opus 4.1
+  organization: Anthropic
+  country: United States of America
+  release_date: '2025-08-05'
+  eci: 144.09
+  eci_ci_low: 141.95
+  eci_ci_high: 146.14
+  model_accessibility: API access
+  accessibility_group: Closed weights
 - name: Qwen3-235B-A22B-Thinking (Jul 2025)
   organization: Alibaba
   country: China
   release_date: '2025-07-25'
-  eci: 143.85
-  eci_ci_low: 141.94
-  eci_ci_high: 145.31
+  eci: 143.81
+  eci_ci_low: 142.08
+  eci_ci_high: 145.33
   model_accessibility: Open weights (unrestricted)
   accessibility_group: Open weights
 - name: GLM-4.7
   organization: Z.ai (Zhipu AI)
   country: China
   release_date: '2025-12-22'
-  eci: 143.51
-  eci_ci_low: 141.14
-  eci_ci_high: 145.43
+  eci: 143.79
+  eci_ci_low: 141.73
+  eci_ci_high: 146.12
   model_accessibility: Open weights (unrestricted)
   accessibility_group: Open weights
+- name: Qwen 3.5 Flash (hosted 35B-A3B)
+  organization: Alibaba
+  country: China
+  release_date: '2026-02-25'
+  eci: 143.77
+  eci_ci_low: 141.51
+  eci_ci_high: 145.3
+  model_accessibility: Unknown
+  accessibility_group: Other
 - name: Qwen 3.6 Flash
   organization: Alibaba
   country: China
   release_date: '2026-04-27'
-  eci: 143.26
-  eci_ci_low: 140.56
-  eci_ci_high: 144.93
+  eci: 143.05
+  eci_ci_low: 140.23
+  eci_ci_high: 144.48
   model_accessibility: Unknown
   accessibility_group: Other
 - name: Gemini 2.5 Flash (Sep 2025)
   organization: Google DeepMind
   country: United States of America
   release_date: '2025-09-25'
-  eci: 143.03
-  eci_ci_low: 139.37
-  eci_ci_high: 146.36
+  eci: 143.0
+  eci_ci_low: 139.46
+  eci_ci_high: 146.61
   model_accessibility: API access
   accessibility_group: Closed weights
 - name: Gemma 4 31B IT
   organization: Google DeepMind
   country: United States of America
   release_date: '2026-04-02'
-  eci: 142.74
-  eci_ci_low: 140.25
-  eci_ci_high: 145.1
+  eci: 142.86
+  eci_ci_low: 140.4
+  eci_ci_high: 145.23
   model_accessibility: Open weights (restricted use)
   accessibility_group: Open weights
 - name: Claude Opus 4
   organization: Anthropic
   country: United States of America
   release_date: '2025-05-22'
-  eci: 142.67
-  eci_ci_low: 140.09
-  eci_ci_high: 144.31
+  eci: 142.65
+  eci_ci_low: 140.44
+  eci_ci_high: 144.14
   model_accessibility: API access
   accessibility_group: Closed weights
 - name: Qwen3.5-35B-A3B
   organization: Alibaba
   country: China
   release_date: '2026-02-24'
-  eci: 142.52
-  eci_ci_low: 140.29
-  eci_ci_high: 144.81
+  eci: 142.48
+  eci_ci_low: 140.1
+  eci_ci_high: 144.86
   model_accessibility: Open weights (unrestricted)
   accessibility_group: Open weights
 - name: GPT-5.5 Instant
   organization: OpenAI
   country: United States of America
   release_date: '2026-05-05'
-  eci: 142.52
-  eci_ci_low: 139.85
-  eci_ci_high: 145.29
+  eci: 142.45
+  eci_ci_low: 140.09
+  eci_ci_high: 145.27
   model_accessibility: API access
   accessibility_group: Closed weights
 - name: Gemini 2.5 Pro (May 2025)
   organization: Google DeepMind
   country: United States of America
   release_date: '2025-05-06'
-  eci: 142.47
-  eci_ci_low: 138.98
-  eci_ci_high: 145.14
+  eci: 142.44
+  eci_ci_low: 139.02
+  eci_ci_high: 145.04
   model_accessibility: API access
   accessibility_group: Closed weights
 - name: Claude Haiku 4.5
   organization: Anthropic
   country: United States of America
   release_date: '2025-10-15'
-  eci: 142.41
-  eci_ci_low: 139.4
-  eci_ci_high: 144.07
+  eci: 142.4
+  eci_ci_low: 139.33
+  eci_ci_high: 144.11
   model_accessibility: API access
   accessibility_group: Closed weights
 - name: Qwen3-Max
   organization: Alibaba
   country: China
   release_date: '2025-09-24'
-  eci: 142.38
-  eci_ci_low: 140.13
-  eci_ci_high: 144.75
+  eci: 142.34
+  eci_ci_low: 139.97
+  eci_ci_high: 144.37
   model_accessibility: API access
   accessibility_group: Closed weights
 - name: o1
   organization: OpenAI
   country: United States of America
   release_date: '2024-12-17'
-  eci: 141.91
-  eci_ci_low: 139.66
-  eci_ci_high: 143.2
+  eci: 141.84
+  eci_ci_low: 139.51
+  eci_ci_high: 142.88
   model_accessibility: API access
   accessibility_group: Closed weights
 - name: Gemma 4 26B A4B
   organization: Google DeepMind
   country: United States of America
   release_date: '2026-04-02'
-  eci: 141.85
-  eci_ci_low: 138.71
-  eci_ci_high: 143.42
+  eci: 141.81
+  eci_ci_low: 138.59
+  eci_ci_high: 143.44
   model_accessibility: Open weights (unrestricted)
   accessibility_group: Open weights
 - name: Claude Sonnet 4
   organization: Anthropic
   country: United States of America
   release_date: '2025-05-22'
-  eci: 141.69
-  eci_ci_low: 138.9
-  eci_ci_high: 142.99
+  eci: 141.67
+  eci_ci_low: 138.71
+  eci_ci_high: 143.08
   model_accessibility: API access
   accessibility_group: Closed weights
 - name: Gemini 2.5 Flash (May 2025)
   organization: Google DeepMind
   country: United States of America
   release_date: '2025-05-20'
-  eci: 141.53
-  eci_ci_low: 139.15
-  eci_ci_high: 142.89
+  eci: 141.51
+  eci_ci_low: 139.17
+  eci_ci_high: 142.86
   model_accessibility: API access
   accessibility_group: Closed weights
 - name: Mistral Medium 3.5
   organization: Mistral AI
   country: France
   release_date: '2026-04-28'
-  eci: 141.35
-  eci_ci_low: 138.56
-  eci_ci_high: 143.2
+  eci: 141.47
+  eci_ci_low: 138.73
+  eci_ci_high: 144.02
   model_accessibility: Open weights (restricted use)
   accessibility_group: Open weights
 - name: DeepSeek-R1 (May 2025)
   organization: DeepSeek
   country: China
   release_date: '2025-05-28'
-  eci: 141.29
-  eci_ci_low: 138.64
-  eci_ci_high: 142.77
+  eci: 141.27
+  eci_ci_low: 138.65
+  eci_ci_high: 142.79
   model_accessibility: Open weights (unrestricted)
   accessibility_group: Open weights
 - name: Claude 3.7 Sonnet
   organization: Anthropic
   country: United States of America
   release_date: '2025-02-24'
-  eci: 141.16
-  eci_ci_low: 138.82
-  eci_ci_high: 142.67
+  eci: 141.14
+  eci_ci_low: 138.45
+  eci_ci_high: 142.83
   model_accessibility: API access
   accessibility_group: Closed weights
 - name: Gemini 2.5 Flash (Jun 2025)
   organization: Google DeepMind
   country: United States of America
   release_date: '2025-06-17'
-  eci: 140.8
-  eci_ci_low: 138.38
-  eci_ci_high: 142.12
-  model_accessibility: API access
-  accessibility_group: Closed weights
-- name: Grok-3 mini
-  organization: xAI
-  country: United States of America
-  release_date: '2025-06-24'
-  eci: 140.35
-  eci_ci_low: 137.52
-  eci_ci_high: 142.02
+  eci: 140.77
+  eci_ci_low: 138.55
+  eci_ci_high: 142.3
   model_accessibility: API access
   accessibility_group: Closed weights
 - name: o3-mini
   organization: OpenAI
   country: United States of America
   release_date: '2025-01-31'
-  eci: 140.34
-  eci_ci_low: 137.7
-  eci_ci_high: 141.84
+  eci: 140.33
+  eci_ci_low: 137.23
+  eci_ci_high: 141.9
+  model_accessibility: API access
+  accessibility_group: Closed weights
+- name: Grok-3 mini
+  organization: xAI
+  country: United States of America
+  release_date: '2025-06-24'
+  eci: 140.33
+  eci_ci_low: 137.57
+  eci_ci_high: 142.21
   model_accessibility: API access
   accessibility_group: Closed weights
 - name: Kimi K2 (Jul 2025)
   organization: Moonshot
   country: China
   release_date: '2025-07-12'
-  eci: 140.13
-  eci_ci_low: 136.55
-  eci_ci_high: 142.0
+  eci: 140.12
+  eci_ci_low: 136.23
+  eci_ci_high: 142.16
   model_accessibility: Open weights (restricted use)
+  accessibility_group: Open weights
+- name: gpt-oss-120b
+  organization: OpenAI
+  country: United States of America
+  release_date: '2025-08-05'
+  eci: 140.0
+  eci_ci_low: 135.89
+  eci_ci_high: 142.38
+  model_accessibility: Open weights (unrestricted)
   accessibility_group: Open weights
 - name: Gemini 2.5 Flash (Apr 2025)
   organization: Google DeepMind
   country: United States of America
   release_date: '2025-04-17'
-  eci: 139.96
-  eci_ci_low: 136.13
-  eci_ci_high: 142.05
+  eci: 139.94
+  eci_ci_low: 135.89
+  eci_ci_high: 141.9
   model_accessibility: API access
   accessibility_group: Closed weights
-- name: gpt-oss-120b
-  organization: OpenAI
-  country: United States of America
-  release_date: '2025-08-05'
-  eci: 139.93
-  eci_ci_low: 135.23
-  eci_ci_high: 142.78
-  model_accessibility: Open weights (unrestricted)
-  accessibility_group: Open weights
 - name: DeepSeek-V3.1
   organization: DeepSeek
   country: China
   release_date: '2025-08-21'
-  eci: 139.92
-  eci_ci_low: 135.44
-  eci_ci_high: 143.18
+  eci: 139.91
+  eci_ci_low: 135.75
+  eci_ci_high: 143.23
   model_accessibility: Open weights (unrestricted)
   accessibility_group: Open weights
 - name: Qwen3-30B-A3B-Thinking (Jul 2025)
   organization: Alibaba
   country: China
   release_date: '2025-07-30'
-  eci: 139.63
-  eci_ci_low: 135.51
-  eci_ci_high: 140.97
+  eci: 139.61
+  eci_ci_low: 135.63
+  eci_ci_high: 141.01
   model_accessibility: Open weights (unrestricted)
   accessibility_group: Open weights
 - name: Qwen3.5-9B
   organization: Alibaba
   country: China
   release_date: '2026-02-24'
-  eci: 139.46
-  eci_ci_low: 136.25
-  eci_ci_high: 141.51
+  eci: 139.43
+  eci_ci_low: 136.09
+  eci_ci_high: 141.08
   model_accessibility: Open weights (restricted use)
   accessibility_group: Open weights
-- name: GPT-5 nano
-  organization: OpenAI
-  country: United States of America
-  release_date: '2025-08-07'
-  eci: 139.38
-  eci_ci_low: 134.06
-  eci_ci_high: 141.39
-  model_accessibility: API access
-  accessibility_group: Closed weights
 - name: Qwen3-235B-A22B
   organization: Alibaba
   country: China
   release_date: '2025-04-28'
   eci: 139.35
-  eci_ci_low: 135.49
-  eci_ci_high: 140.84
+  eci_ci_low: 135.17
+  eci_ci_high: 140.83
   model_accessibility: Open weights (unrestricted)
   accessibility_group: Open weights
+- name: GPT-5 nano
+  organization: OpenAI
+  country: United States of America
+  release_date: '2025-08-07'
+  eci: 139.33
+  eci_ci_low: 134.79
+  eci_ci_high: 141.4
+  model_accessibility: API access
+  accessibility_group: Closed weights
 - name: DeepSeek-R1
   organization: DeepSeek
   country: China
   release_date: '2025-01-20'
-  eci: 138.97
-  eci_ci_low: 136.3
-  eci_ci_high: 140.31
+  eci: 138.96
+  eci_ci_low: 136.14
+  eci_ci_high: 140.43
   model_accessibility: Open weights (unrestricted)
   accessibility_group: Open weights
 - name: Qwen3-235B-A22B-Instruct (Jul 2025)
@@ -1130,62 +1157,62 @@ models:
   country: China
   release_date: '2025-07-25'
   eci: 138.92
-  eci_ci_low: 135.74
-  eci_ci_high: 140.78
+  eci_ci_low: 135.11
+  eci_ci_high: 140.81
   model_accessibility: Open weights (unrestricted)
   accessibility_group: Open weights
 - name: Qwen3-32B
   organization: Alibaba
   country: China
   release_date: '2025-04-29'
-  eci: 138.51
-  eci_ci_low: 135.14
-  eci_ci_high: 140.28
+  eci: 138.49
+  eci_ci_low: 134.82
+  eci_ci_high: 140.44
   model_accessibility: Open weights (unrestricted)
   accessibility_group: Open weights
 - name: Grok 3
   organization: xAI
   country: United States of America
   release_date: '2025-04-09'
-  eci: 138.33
-  eci_ci_low: 135.35
-  eci_ci_high: 139.75
+  eci: 138.32
+  eci_ci_low: 135.52
+  eci_ci_high: 139.67
   model_accessibility: API access
   accessibility_group: Closed weights
 - name: Qwen3-14B
   organization: Alibaba
   country: China
   release_date: '2025-04-29'
-  eci: 138.23
-  eci_ci_low: 133.7
-  eci_ci_high: 140.03
+  eci: 138.22
+  eci_ci_low: 133.81
+  eci_ci_high: 140.04
   model_accessibility: Open weights (unrestricted)
   accessibility_group: Open weights
 - name: gpt-oss-20b
   organization: OpenAI
   country: United States of America
   release_date: '2025-08-05'
-  eci: 137.82
-  eci_ci_low: 132.91
-  eci_ci_high: 139.61
+  eci: 137.81
+  eci_ci_low: 133.2
+  eci_ci_high: 139.78
   model_accessibility: Open weights (unrestricted)
   accessibility_group: Open weights
 - name: QwQ-32B
   organization: Alibaba
   country: China
   release_date: '2025-03-05'
-  eci: 137.6
-  eci_ci_low: 132.89
-  eci_ci_high: 141.63
+  eci: 137.58
+  eci_ci_low: 132.42
+  eci_ci_high: 141.91
   model_accessibility: Open weights (unrestricted)
   accessibility_group: Open weights
 - name: DeepSeek-R1-Distill-Qwen-32B
   organization: DeepSeek
   country: China
   release_date: '2025-01-20'
-  eci: 137.44
-  eci_ci_low: 126.59
-  eci_ci_high: 138.7
+  eci: 137.42
+  eci_ci_low: 129.51
+  eci_ci_high: 138.84
   model_accessibility: Open weights (unrestricted)
   accessibility_group: Open weights
 - name: Qwen3-30B-A3B-Instruct (Jul 2025)
@@ -1193,35 +1220,35 @@ models:
   country: China
   release_date: '2025-07-29'
   eci: 137.42
-  eci_ci_low: 131.83
-  eci_ci_high: 139.38
+  eci_ci_low: 132.24
+  eci_ci_high: 139.57
   model_accessibility: Open weights (unrestricted)
   accessibility_group: Open weights
 - name: GPT-4.1
   organization: OpenAI
   country: United States of America
   release_date: '2025-04-14'
-  eci: 136.78
-  eci_ci_low: 133.62
-  eci_ci_high: 138.61
+  eci: 136.77
+  eci_ci_low: 133.71
+  eci_ci_high: 138.58
   model_accessibility: API access
   accessibility_group: Closed weights
 - name: GPT-4.5
   organization: OpenAI
   country: United States of America
   release_date: '2025-02-27'
-  eci: 136.74
-  eci_ci_low: 133.39
-  eci_ci_high: 138.67
+  eci: 136.73
+  eci_ci_low: 133.41
+  eci_ci_high: 138.66
   model_accessibility: API access
   accessibility_group: Closed weights
 - name: Qwen3-30B-A3B
   organization: Alibaba
   country: China
   release_date: '2025-04-29'
-  eci: 136.18
-  eci_ci_low: 129.7
-  eci_ci_high: 138.62
+  eci: 136.19
+  eci_ci_low: 130.65
+  eci_ci_high: 138.66
   model_accessibility: Open weights (unrestricted)
   accessibility_group: Open weights
 - name: Qwen3-8B
@@ -1229,17 +1256,17 @@ models:
   country: China
   release_date: '2025-04-28'
   eci: 136.17
-  eci_ci_low: 130.09
-  eci_ci_high: 138.24
+  eci_ci_low: 130.78
+  eci_ci_high: 138.25
   model_accessibility: Open weights (unrestricted)
   accessibility_group: Open weights
 - name: DeepSeek-V3 (Mar 2025)
   organization: DeepSeek
   country: China
   release_date: '2025-03-24'
-  eci: 135.94
-  eci_ci_low: 132.14
-  eci_ci_high: 137.83
+  eci: 135.93
+  eci_ci_low: 132.49
+  eci_ci_high: 137.84
   model_accessibility: Open weights (restricted use)
   accessibility_group: Open weights
 - name: o1-mini
@@ -1247,17 +1274,17 @@ models:
   country: United States of America
   release_date: '2024-09-12'
   eci: 135.82
-  eci_ci_low: 131.65
-  eci_ci_high: 137.26
+  eci_ci_low: 132.04
+  eci_ci_high: 137.32
   model_accessibility: API access
   accessibility_group: Closed weights
 - name: DeepSeek-R1-Distill-Qwen-14B
   organization: DeepSeek
   country: China
   release_date: '2025-01-20'
-  eci: 135.43
-  eci_ci_low: 127.05
-  eci_ci_high: 138.01
+  eci: 135.44
+  eci_ci_low: 127.65
+  eci_ci_high: 138.1
   model_accessibility: Open weights (unrestricted)
   accessibility_group: Open weights
 - name: Gemini 2.0 Flash Thinking (Jan 2025)
@@ -1265,35 +1292,35 @@ models:
   country: United States of America
   release_date: '2025-01-21'
   eci: 135.36
-  eci_ci_low: 130.35
-  eci_ci_high: 138.06
+  eci_ci_low: 130.1
+  eci_ci_high: 138.05
   model_accessibility: API access
   accessibility_group: Closed weights
 - name: Gemini 2.0 Pro
   organization: Google DeepMind
   country: United States of America
   release_date: '2025-02-05'
-  eci: 135.06
-  eci_ci_low: 130.97
-  eci_ci_high: 136.89
+  eci: 135.05
+  eci_ci_low: 131.16
+  eci_ci_high: 136.86
   model_accessibility: Hosted access (no API)
   accessibility_group: Closed weights
 - name: GPT-4.1 mini
   organization: OpenAI
   country: United States of America
   release_date: '2025-04-14'
-  eci: 135.01
-  eci_ci_low: 131.28
-  eci_ci_high: 136.66
+  eci: 135.0
+  eci_ci_low: 131.19
+  eci_ci_high: 136.67
   model_accessibility: API access
   accessibility_group: Closed weights
 - name: o1-preview
   organization: OpenAI
   country: United States of America
   release_date: '2024-09-12'
-  eci: 134.79
-  eci_ci_low: 130.78
-  eci_ci_high: 138.74
+  eci: 134.78
+  eci_ci_low: 131.1
+  eci_ci_high: 138.42
   model_accessibility: API access
   accessibility_group: Closed weights
 - name: Gemini 2.0 Flash (Dec 2024)
@@ -1301,53 +1328,53 @@ models:
   country: United States of America
   release_date: '2024-12-11'
   eci: 134.69
-  eci_ci_low: 124.88
-  eci_ci_high: 136.62
+  eci_ci_low: 124.32
+  eci_ci_high: 136.59
   model_accessibility: API access
   accessibility_group: Closed weights
 - name: Gemini 2.0 Flash (Feb 2025)
   organization: Google DeepMind,Google
   country: United States of America
   release_date: '2025-02-05'
-  eci: 134.69
-  eci_ci_low: 130.78
-  eci_ci_high: 136.5
+  eci: 134.68
+  eci_ci_low: 131.22
+  eci_ci_high: 136.61
   model_accessibility: API access
   accessibility_group: Closed weights
 - name: Mistral Medium 3
   organization: Mistral AI
   country: France
   release_date: '2025-05-07'
-  eci: 134.07
-  eci_ci_low: 130.1
-  eci_ci_high: 135.5
+  eci: 134.06
+  eci_ci_low: 129.86
+  eci_ci_high: 135.47
   model_accessibility: API access
   accessibility_group: Closed weights
 - name: Gemini 2.5 Flash-Lite (Jun 2025)
   organization: Google DeepMind
   country: United States of America
   release_date: '2025-06-17'
-  eci: 133.94
-  eci_ci_low: 130.01
-  eci_ci_high: 136.49
+  eci: 133.95
+  eci_ci_low: 130.34
+  eci_ci_high: 136.5
   model_accessibility: API access
   accessibility_group: Closed weights
 - name: Claude 3.5 Sonnet (October 2024)
   organization: Anthropic
   country: United States of America
   release_date: '2024-10-22'
-  eci: 133.55
-  eci_ci_low: 128.79
-  eci_ci_high: 137.55
+  eci: 133.53
+  eci_ci_low: 128.77
+  eci_ci_high: 137.81
   model_accessibility: API access
   accessibility_group: Closed weights
 - name: Magistral Small 1.0
   organization: Mistral AI
   country: France
   release_date: '2025-06-10'
-  eci: 133.19
-  eci_ci_low: 128.75
-  eci_ci_high: 134.47
+  eci: 133.2
+  eci_ci_low: 129.01
+  eci_ci_high: 134.44
   model_accessibility: Open weights (unrestricted)
   accessibility_group: Open weights
 - name: Qwen2.5-Max
@@ -1355,17 +1382,17 @@ models:
   country: China
   release_date: '2025-01-25'
   eci: 132.53
-  eci_ci_low: 127.85
-  eci_ci_high: 135.94
+  eci_ci_low: 128.14
+  eci_ci_high: 135.49
   model_accessibility: API access
   accessibility_group: Closed weights
 - name: DeepSeek-V3
   organization: DeepSeek
   country: China
   release_date: '2024-12-26'
-  eci: 132.34
+  eci: 132.33
   eci_ci_low: 127.53
-  eci_ci_high: 135.73
+  eci_ci_high: 135.86
   model_accessibility: Open weights (restricted use)
   accessibility_group: Open weights
 - name: Llama 4 Maverick
@@ -1373,17 +1400,17 @@ models:
   country: United States of America
   release_date: '2025-04-06'
   eci: 132.2
-  eci_ci_low: 127.74
-  eci_ci_high: 134.28
+  eci_ci_low: 127.72
+  eci_ci_high: 134.08
   model_accessibility: Open weights (restricted use)
   accessibility_group: Open weights
 - name: Mistral Small 3.2
   organization: Mistral AI
   country: France
   release_date: '2025-06-20'
-  eci: 131.74
-  eci_ci_low: 126.5
-  eci_ci_high: 133.66
+  eci: 131.75
+  eci_ci_low: 126.77
+  eci_ci_high: 133.9
   model_accessibility: Open weights (unrestricted)
   accessibility_group: Open weights
 - name: Gemini 1.5 Pro (Sept 2024)
@@ -1391,44 +1418,44 @@ models:
   country: United States of America
   release_date: '2024-09-24'
   eci: 131.73
-  eci_ci_low: 127.16
-  eci_ci_high: 133.1
+  eci_ci_low: 127.09
+  eci_ci_high: 133.14
   model_accessibility: API access
   accessibility_group: Closed weights
 - name: Magistral Small 1.2
   organization: Mistral AI
   country: France
   release_date: '2025-09-18'
-  eci: 131.42
-  eci_ci_low: 126.03
-  eci_ci_high: 133.47
+  eci: 131.43
+  eci_ci_low: 125.89
+  eci_ci_high: 133.44
   model_accessibility: Open weights (unrestricted)
   accessibility_group: Open weights
 - name: Grok-2 (Dec 2024)
   organization: xAI
   country: United States of America
   release_date: '2024-12-12'
-  eci: 130.48
-  eci_ci_low: 125.82
-  eci_ci_high: 132.23
+  eci: 130.49
+  eci_ci_low: 125.55
+  eci_ci_high: 132.31
   model_accessibility: API access
   accessibility_group: Closed weights
 - name: Phi-4
   organization: Microsoft Research
   country: United States of America
   release_date: '2024-12-12'
-  eci: 130.42
-  eci_ci_low: 124.72
-  eci_ci_high: 132.03
+  eci: 130.43
+  eci_ci_low: 124.38
+  eci_ci_high: 132.09
   model_accessibility: Open weights (unrestricted)
   accessibility_group: Open weights
 - name: Gemma 3 27B
   organization: Google DeepMind
   country: United States of America
   release_date: '2025-03-12'
-  eci: 130.04
-  eci_ci_low: 124.28
-  eci_ci_high: 132.2
+  eci: 130.05
+  eci_ci_low: 124.48
+  eci_ci_high: 132.21
   model_accessibility: Open weights (restricted use)
   accessibility_group: Open weights
 - name: Claude 3.5 Sonnet
@@ -1444,27 +1471,36 @@ models:
   organization: Meta AI
   country: United States of America
   release_date: '2025-04-05'
-  eci: 129.64
-  eci_ci_low: 124.31
-  eci_ci_high: 131.42
+  eci: 129.65
+  eci_ci_low: 124.73
+  eci_ci_high: 131.27
   model_accessibility: Open weights (restricted use)
   accessibility_group: Open weights
 - name: GPT-4.1 nano
   organization: OpenAI
   country: United States of America
   release_date: '2025-04-14'
-  eci: 129.62
-  eci_ci_low: 123.19
-  eci_ci_high: 131.95
+  eci: 129.63
+  eci_ci_low: 123.53
+  eci_ci_high: 132.08
   model_accessibility: API access
   accessibility_group: Closed weights
 - name: Gemini 1.5 Flash (Sep 2024)
   organization: Google DeepMind
   country: United States of America
   release_date: '2024-09-24'
-  eci: 129.36
-  eci_ci_low: 123.19
-  eci_ci_high: 131.25
+  eci: 129.37
+  eci_ci_low: 123.11
+  eci_ci_high: 131.33
+  model_accessibility: API access
+  accessibility_group: Closed weights
+- name: GPT-4o (May 2024)
+  organization: OpenAI
+  country: United States of America
+  release_date: '2024-05-13'
+  eci: 129.05
+  eci_ci_low: 123.66
+  eci_ci_high: 131.98
   model_accessibility: API access
   accessibility_group: Closed weights
 - name: Qwen2.5-72B
@@ -1472,89 +1508,80 @@ models:
   country: China
   release_date: '2024-09-19'
   eci: 129.0
-  eci_ci_low: 123.19
-  eci_ci_high: 130.61
+  eci_ci_low: 123.57
+  eci_ci_high: 130.7
   model_accessibility: Open weights (unrestricted)
   accessibility_group: Open weights
-- name: GPT-4o (May 2024)
-  organization: OpenAI
-  country: United States of America
-  release_date: '2024-05-13'
-  eci: 128.97
-  eci_ci_low: 123.83
-  eci_ci_high: 131.74
-  model_accessibility: API access
-  accessibility_group: Closed weights
-- name: GPT-4o (Nov 2024)
-  organization: OpenAI
-  country: United States of America
-  release_date: '2024-11-20'
-  eci: 128.81
-  eci_ci_low: 123.63
-  eci_ci_high: 131.15
-  model_accessibility: API access
-  accessibility_group: Closed weights
 - name: GPT-4o (Aug 2024)
   organization: OpenAI
   country: United States of America
   release_date: '2024-08-06'
-  eci: 128.76
-  eci_ci_low: 123.6
-  eci_ci_high: 130.7
+  eci: 128.84
+  eci_ci_low: 123.86
+  eci_ci_high: 131.09
   model_accessibility: API access
   accessibility_group: Closed weights
 - name: Llama 3.1-405B
   organization: Meta AI
   country: United States of America
   release_date: '2024-07-23'
-  eci: 128.75
-  eci_ci_low: 123.83
-  eci_ci_high: 130.75
+  eci: 128.76
+  eci_ci_low: 123.51
+  eci_ci_high: 130.67
   model_accessibility: Open weights (restricted use)
   accessibility_group: Open weights
+- name: GPT-4o (Nov 2024)
+  organization: OpenAI
+  country: United States of America
+  release_date: '2024-11-20'
+  eci: 128.73
+  eci_ci_low: 123.93
+  eci_ci_high: 131.2
+  model_accessibility: API access
+  accessibility_group: Closed weights
 - name: Qwen2.5-32B
   organization: Alibaba
   country: China
   release_date: '2024-09-17'
-  eci: 128.52
-  eci_ci_low: 122.17
-  eci_ci_high: 130.03
+  eci: 128.53
+  eci_ci_low: 122.49
+  eci_ci_high: 130.1
   model_accessibility: Open weights (unrestricted)
   accessibility_group: Open weights
 - name: Mistral Large 2 (Nov 2024)
   organization: Mistral AI
   country: France
   release_date: '2024-11-18'
-  eci: 128.52
-  eci_ci_low: 122.68
-  eci_ci_high: 130.58
+  eci: 128.53
+  eci_ci_low: 123.54
+  eci_ci_high: 130.68
   model_accessibility: Open weights (non-commercial)
   accessibility_group: Open weights
 - name: Mistral Large 2 (Jul 2024)
   organization: Mistral AI
   country: France
   release_date: '2024-07-24'
-  eci: 127.54
-  eci_ci_low: 121.95
-  eci_ci_high: 129.62
+  eci: 127.55
+  eci_ci_low: 122.26
+  eci_ci_high: 129.57
   model_accessibility: Open weights (non-commercial)
   accessibility_group: Open weights
 - name: Mistral Small 3.1
   organization: Mistral AI
   country: France
   release_date: '2025-03-17'
-  eci: 127.48
-  eci_ci_low: 122.21
-  eci_ci_high: 129.25
+  eci: 127.49
+  eci_ci_low: 122.13
+  eci_ci_high: 129.45
   model_accessibility: Open weights (unrestricted)
   accessibility_group: Open weights
 - name: Llama 3.3 70B
   organization: Meta AI
   country: United States of America
   release_date: '2024-12-06'
-  eci: 127.33
-  eci_ci_low: 121.79
-  eci_ci_high: 129.67
+  eci: 127.34
+  eci_ci_low: 121.94
+  eci_ci_high: 129.78
   model_accessibility: Open weights (restricted use)
   accessibility_group: Open weights
 - name: GPT-4 Turbo (Apr 2024)
@@ -1562,35 +1589,35 @@ models:
   country: United States of America
   release_date: '2024-04-09'
   eci: 127.25
-  eci_ci_low: 121.86
-  eci_ci_high: 128.83
+  eci_ci_low: 121.64
+  eci_ci_high: 128.84
   model_accessibility: API access
   accessibility_group: Closed weights
 - name: Claude 3.5 Haiku
   organization: Anthropic
   country: United States of America
   release_date: '2024-10-22'
-  eci: 127.15
-  eci_ci_low: 120.7
-  eci_ci_high: 129.48
+  eci: 127.17
+  eci_ci_low: 120.12
+  eci_ci_high: 129.66
   model_accessibility: API access
   accessibility_group: Closed weights
 - name: Mistral Small 3
   organization: Mistral AI
   country: France
   release_date: '2025-01-30'
-  eci: 127.07
-  eci_ci_low: 121.39
-  eci_ci_high: 128.85
+  eci: 127.08
+  eci_ci_low: 121.21
+  eci_ci_high: 129.04
   model_accessibility: Open weights (unrestricted)
   accessibility_group: Open weights
 - name: Gemini 1.5 Pro (May 2024)
   organization: Google DeepMind
   country: United States of America
   release_date: '2024-05-14'
-  eci: 126.91
-  eci_ci_low: 121.14
-  eci_ci_high: 129.15
+  eci: 126.92
+  eci_ci_low: 121.61
+  eci_ci_high: 129.29
   model_accessibility: API access
   accessibility_group: Closed weights
 - name: Claude 3 Opus
@@ -1598,17 +1625,17 @@ models:
   country: United States of America
   release_date: '2024-02-29'
   eci: 126.91
-  eci_ci_low: 121.49
-  eci_ci_high: 129.98
+  eci_ci_low: 121.8
+  eci_ci_high: 129.76
   model_accessibility: API access
   accessibility_group: Closed weights
 - name: GPT-4o mini
   organization: OpenAI
   country: United States of America
   release_date: '2024-07-18'
-  eci: 126.56
-  eci_ci_low: 119.1
-  eci_ci_high: 128.7
+  eci: 126.58
+  eci_ci_low: 119.53
+  eci_ci_high: 128.63
   model_accessibility: API access
   accessibility_group: Closed weights
 - name: GPT-4 Turbo (Nov 2023)
@@ -1616,35 +1643,35 @@ models:
   country: United States of America
   release_date: '2024-01-25'
   eci: 126.46
-  eci_ci_low: 120.87
-  eci_ci_high: 128.99
+  eci_ci_low: 121.08
+  eci_ci_high: 129.16
   model_accessibility: API access
   accessibility_group: Closed weights
 - name: Llama 3.1-70B
   organization: Meta AI
   country: United States of America
   release_date: '2024-07-23'
-  eci: 125.92
-  eci_ci_low: 120.02
-  eci_ci_high: 128.5
+  eci: 125.94
+  eci_ci_low: 120.41
+  eci_ci_high: 128.99
   model_accessibility: Open weights (restricted use)
   accessibility_group: Open weights
 - name: GPT-4 (Mar 2023)
   organization: OpenAI
   country: United States of America
   release_date: '2023-03-14'
-  eci: 125.89
-  eci_ci_low: 119.25
-  eci_ci_high: 130.45
+  eci: 125.88
+  eci_ci_low: 119.94
+  eci_ci_high: 130.57
   model_accessibility: API access
   accessibility_group: Closed weights
 - name: Llama 3.2 90B
   organization: Meta AI
   country: United States of America
   release_date: '2024-09-24'
-  eci: 125.5
-  eci_ci_low: 119.43
-  eci_ci_high: 127.28
+  eci: 125.51
+  eci_ci_low: 119.55
+  eci_ci_high: 127.4
   model_accessibility: Open weights (restricted use)
   accessibility_group: Open weights
 - name: Qwen2-72B
@@ -1652,17 +1679,17 @@ models:
   country: China
   release_date: '2024-06-07'
   eci: 125.28
-  eci_ci_low: 119.01
-  eci_ci_high: 126.92
+  eci_ci_low: 119.02
+  eci_ci_high: 127.08
   model_accessibility: Open weights (unrestricted)
   accessibility_group: Open weights
 - name: DeepSeek-V2 (MoE-236B, May 2024)
   organization: DeepSeek
   country: China
   release_date: '2024-05-07'
-  eci: 124.77
-  eci_ci_low: 118.45
-  eci_ci_high: 127.76
+  eci: 124.78
+  eci_ci_low: 118.34
+  eci_ci_high: 127.72
   model_accessibility: Open weights (restricted use)
   accessibility_group: Open weights
 - name: Amazon Nova Pro
@@ -1670,808 +1697,808 @@ models:
   country: United States of America
   release_date: '2024-12-03'
   eci: 123.8
-  eci_ci_low: 110.51
-  eci_ci_high: 126.8
+  eci_ci_low: 109.54
+  eci_ci_high: 126.96
   model_accessibility: API access
   accessibility_group: Closed weights
 - name: Gemma 3 12B
   organization: Google DeepMind
   country: United States of America
   release_date: '2025-03-12'
-  eci: 123.5
-  eci_ci_low: 116.01
-  eci_ci_high: 128.49
+  eci: 123.49
+  eci_ci_low: 115.45
+  eci_ci_high: 128.72
   model_accessibility: Open weights (restricted use)
   accessibility_group: Open weights
 - name: GPT-4 (Jun 2023)
   organization: OpenAI
   country: United States of America
   release_date: '2023-06-13'
-  eci: 123.12
-  eci_ci_low: 116.6
-  eci_ci_high: 126.49
+  eci: 123.16
+  eci_ci_low: 116.28
+  eci_ci_high: 126.88
   model_accessibility: API access
   accessibility_group: Closed weights
 - name: Llama 3-70B
   organization: Meta AI
   country: United States of America
   release_date: '2024-04-18'
-  eci: 122.93
-  eci_ci_low: 116.62
-  eci_ci_high: 125.75
+  eci: 122.94
+  eci_ci_low: 117.25
+  eci_ci_high: 126.08
   model_accessibility: Open weights (restricted use)
   accessibility_group: Open weights
 - name: Gemini 1.5 Flash (May 2024)
   organization: Google DeepMind
   country: United States of America
   release_date: '2024-05-23'
-  eci: 122.59
-  eci_ci_low: 115.65
-  eci_ci_high: 124.62
+  eci: 122.61
+  eci_ci_low: 116.7
+  eci_ci_high: 124.63
   model_accessibility: API access
   accessibility_group: Closed weights
 - name: Gemma 2 27B
   organization: Google DeepMind
   country: United States of America
   release_date: '2024-06-24'
-  eci: 122.08
-  eci_ci_low: 114.44
-  eci_ci_high: 124.08
+  eci: 122.1
+  eci_ci_low: 115.12
+  eci_ci_high: 124.38
   model_accessibility: Open weights (restricted use)
   accessibility_group: Open weights
 - name: Mixtral 8x22B
   organization: Mistral AI
   country: France
   release_date: '2024-04-17'
-  eci: 122.03
-  eci_ci_low: 114.63
-  eci_ci_high: 124.53
+  eci: 122.05
+  eci_ci_low: 115.19
+  eci_ci_high: 124.59
   model_accessibility: Open weights (unrestricted)
   accessibility_group: Open weights
 - name: Mistral Large
   organization: Mistral AI
   country: France
   release_date: '2024-02-26'
-  eci: 122.01
-  eci_ci_low: 114.39
-  eci_ci_high: 125.14
+  eci: 122.03
+  eci_ci_low: 114.45
+  eci_ci_high: 125.04
   model_accessibility: API access
   accessibility_group: Closed weights
 - name: phi-3-small 7.4B
   organization: Microsoft
   country: United States of America
   release_date: '2024-04-23'
-  eci: 121.83
-  eci_ci_low: 114.76
-  eci_ci_high: 124.37
+  eci: 121.85
+  eci_ci_low: 113.91
+  eci_ci_high: 124.71
   model_accessibility: Open weights (unrestricted)
   accessibility_group: Open weights
 - name: phi-3-medium 14B
   organization: Microsoft
   country: United States of America
   release_date: '2024-04-23'
-  eci: 121.23
-  eci_ci_low: 113.78
-  eci_ci_high: 124.1
+  eci: 121.25
+  eci_ci_low: 114.39
+  eci_ci_high: 124.38
   model_accessibility: Open weights (unrestricted)
   accessibility_group: Open weights
 - name: Claude 3 Sonnet
   organization: Anthropic
   country: United States of America
   release_date: '2024-02-29'
-  eci: 120.7
-  eci_ci_low: 113.16
-  eci_ci_high: 123.92
+  eci: 120.72
+  eci_ci_low: 112.47
+  eci_ci_high: 123.85
   model_accessibility: API access
   accessibility_group: Closed weights
 - name: Claude Instant
   organization: Anthropic
   country: United States of America
   release_date: '2023-08-09'
-  eci: 120.28
-  eci_ci_low: 112.45
-  eci_ci_high: 122.8
+  eci: 120.31
+  eci_ci_low: 112.78
+  eci_ci_high: 123.18
   model_accessibility: API access
   accessibility_group: Closed weights
 - name: Claude 2
   organization: Anthropic
   country: United States of America
   release_date: '2023-07-11'
-  eci: 120.13
-  eci_ci_low: 112.95
-  eci_ci_high: 123.79
+  eci: 120.15
+  eci_ci_low: 113.73
+  eci_ci_high: 123.85
   model_accessibility: API access
   accessibility_group: Closed weights
 - name: Gemma 2 9B
   organization: Google DeepMind
   country: United States of America
   release_date: '2024-06-24'
-  eci: 119.83
-  eci_ci_low: 111.63
-  eci_ci_high: 122.61
+  eci: 119.85
+  eci_ci_low: 111.52
+  eci_ci_high: 122.48
   model_accessibility: Open weights (restricted use)
   accessibility_group: Open weights
 - name: Qwen2.5-Coder-32B
   organization: Alibaba
   country: China
   release_date: '2024-09-18'
-  eci: 119.49
-  eci_ci_low: 110.05
-  eci_ci_high: 124.92
+  eci: 119.52
+  eci_ci_low: 110.57
+  eci_ci_high: 124.65
   model_accessibility: Open weights (unrestricted)
   accessibility_group: Open weights
 - name: Command R+
   organization: Cohere,Cohere Labs (formerly Cohere for AI)
   country: Canada
   release_date: '2024-08-30'
-  eci: 119.34
-  eci_ci_low: 109.86
-  eci_ci_high: 125.32
+  eci: 119.37
+  eci_ci_low: 108.52
+  eci_ci_high: 125.39
   model_accessibility: Open weights (non-commercial)
   accessibility_group: Open weights
 - name: Claude 2.1
   organization: Anthropic
   country: United States of America
   release_date: '2023-11-21'
-  eci: 119.27
-  eci_ci_low: 111.28
-  eci_ci_high: 122.03
+  eci: 119.3
+  eci_ci_low: 112.16
+  eci_ci_high: 121.9
   model_accessibility: API access
   accessibility_group: Closed weights
 - name: Mistral NeMo
   organization: Mistral AI
   country: France
   release_date: '2024-07-18'
-  eci: 118.68
-  eci_ci_low: 110.95
-  eci_ci_high: 121.19
+  eci: 118.71
+  eci_ci_low: 111.04
+  eci_ci_high: 121.66
   model_accessibility: Open weights (unrestricted)
   accessibility_group: Open weights
 - name: GPT-3.5 Turbo (Nov 2023)
   organization: OpenAI
   country: United States of America
   release_date: '2023-11-06'
-  eci: 118.55
-  eci_ci_low: 110.05
-  eci_ci_high: 121.66
+  eci: 118.58
+  eci_ci_low: 109.72
+  eci_ci_high: 121.79
   model_accessibility: API access
   accessibility_group: Closed weights
 - name: Qwen2.5-7B
   organization: Alibaba
   country: China
   release_date: '2024-09-19'
-  eci: 118.51
-  eci_ci_low: 110.9
-  eci_ci_high: 121.15
+  eci: 118.53
+  eci_ci_low: 110.6
+  eci_ci_high: 121.29
   model_accessibility: Open weights (unrestricted)
   accessibility_group: Open weights
 - name: Mixtral 8x7B
   organization: Mistral AI
   country: France
   release_date: '2023-12-11'
-  eci: 118.47
-  eci_ci_low: 110.39
-  eci_ci_high: 121.07
+  eci: 118.5
+  eci_ci_low: 110.87
+  eci_ci_high: 121.19
   model_accessibility: Open weights (unrestricted)
   accessibility_group: Open weights
 - name: Claude 3 Haiku
   organization: Anthropic
   country: United States of America
   release_date: '2024-03-07'
-  eci: 118.35
-  eci_ci_low: 110.46
-  eci_ci_high: 121.54
+  eci: 118.39
+  eci_ci_low: 110.36
+  eci_ci_high: 121.69
   model_accessibility: API access
   accessibility_group: Closed weights
 - name: Ministral 3B
   organization: Mistral AI
   country: France
   release_date: '2024-10-16'
-  eci: 118.1
-  eci_ci_low: 106.18
-  eci_ci_high: 121.72
+  eci: 118.12
+  eci_ci_low: 105.45
+  eci_ci_high: 121.97
   model_accessibility: API access
   accessibility_group: Closed weights
 - name: Yi-34B
   organization: 01.AI
   country: China
   release_date: '2023-11-02'
-  eci: 117.39
-  eci_ci_low: 107.96
-  eci_ci_high: 120.6
+  eci: 117.43
+  eci_ci_low: 109.75
+  eci_ci_high: 120.67
   model_accessibility: Open weights (restricted use)
   accessibility_group: Open weights
 - name: phi-3-mini 3.8B
   organization: Microsoft
   country: United States of America
   release_date: '2024-04-23'
-  eci: 117.36
-  eci_ci_low: 107.91
-  eci_ci_high: 120.72
+  eci: 117.4
+  eci_ci_low: 108.76
+  eci_ci_high: 120.7
   model_accessibility: Open weights (unrestricted)
   accessibility_group: Open weights
 - name: Stable Beluga 2
   organization: Stability AI
   country: United Kingdom
   release_date: '2023-07-20'
-  eci: 117.12
-  eci_ci_low: 108.43
-  eci_ci_high: 120.12
+  eci: 117.16
+  eci_ci_low: 109.2
+  eci_ci_high: 120.16
   model_accessibility: Open weights (non-commercial)
   accessibility_group: Open weights
 - name: Gemini 1.0 Pro
   organization: Google DeepMind
   country: United States of America
   release_date: '2023-12-13'
-  eci: 117.04
-  eci_ci_low: 108.83
-  eci_ci_high: 119.49
+  eci: 117.07
+  eci_ci_low: 109.8
+  eci_ci_high: 119.8
   model_accessibility: API access
   accessibility_group: Closed weights
 - name: Llama 3.1-8B
   organization: Meta AI
   country: United States of America
   release_date: '2024-07-23'
-  eci: 116.57
-  eci_ci_low: 106.21
-  eci_ci_high: 121.11
+  eci: 116.61
+  eci_ci_low: 106.33
+  eci_ci_high: 121.57
   model_accessibility: Open weights (restricted use)
   accessibility_group: Open weights
 - name: Llama 3-8B
   organization: Meta AI
   country: United States of America
   release_date: '2024-04-18'
-  eci: 116.45
-  eci_ci_low: 106.78
-  eci_ci_high: 119.26
+  eci: 116.49
+  eci_ci_low: 107.81
+  eci_ci_high: 119.39
   model_accessibility: Open weights (restricted use)
   accessibility_group: Open weights
 - name: Qwen2.5-Coder-14B
   organization: null
   country: null
   release_date: '2024-09-18'
-  eci: 116.4
-  eci_ci_low: 106.49
-  eci_ci_high: 121.76
+  eci: 116.44
+  eci_ci_low: 106.24
+  eci_ci_high: 122.35
   model_accessibility: Unknown
   accessibility_group: Other
 - name: Gemma 3 4B
   organization: Google DeepMind
   country: United States of America
   release_date: '2025-03-12'
-  eci: 116.02
-  eci_ci_low: 97.61
-  eci_ci_high: 123.83
+  eci: 116.01
+  eci_ci_low: 97.97
+  eci_ci_high: 123.34
   model_accessibility: Open weights (restricted use)
   accessibility_group: Open weights
 - name: GPT-3.5 Turbo (Jan 2024)
   organization: OpenAI
   country: United States of America
   release_date: '2024-01-25'
-  eci: 115.7
-  eci_ci_low: 107.42
-  eci_ci_high: 118.9
+  eci: 115.74
+  eci_ci_low: 108.01
+  eci_ci_high: 119.43
   model_accessibility: API access
   accessibility_group: Closed weights
 - name: PaLM 2-L
   organization: null
   country: null
   release_date: '2023-05-17'
-  eci: 115.02
-  eci_ci_low: 106.15
-  eci_ci_high: 128.07
+  eci: 115.07
+  eci_ci_low: 106.61
+  eci_ci_high: 127.9
   model_accessibility: Unknown
   accessibility_group: Other
 - name: Llama 2-70B
   organization: Meta AI
   country: United States of America
   release_date: '2023-07-18'
-  eci: 113.79
-  eci_ci_low: 105.66
-  eci_ci_high: 117.44
+  eci: 113.84
+  eci_ci_low: 105.57
+  eci_ci_high: 117.97
   model_accessibility: Open weights (restricted use)
   accessibility_group: Open weights
 - name: GPT-3.5 Turbo (Jun 2023)
   organization: OpenAI
   country: United States of America
   release_date: '2023-06-13'
-  eci: 113.36
-  eci_ci_low: 104.33
-  eci_ci_high: 117.81
+  eci: 113.42
+  eci_ci_low: 104.8
+  eci_ci_high: 118.03
   model_accessibility: API access
   accessibility_group: Closed weights
 - name: Qwen2.5-Coder (7B)
   organization: Alibaba
   country: China
   release_date: '2024-09-18'
-  eci: 113.14
-  eci_ci_low: 102.61
-  eci_ci_high: 119.91
+  eci: 113.2
+  eci_ci_low: 102.14
+  eci_ci_high: 119.29
   model_accessibility: Open weights (unrestricted)
   accessibility_group: Open weights
 - name: Qwen-14B
   organization: Alibaba
   country: China
   release_date: '2023-09-24'
-  eci: 113.03
-  eci_ci_low: 103.3
-  eci_ci_high: 117.38
+  eci: 113.09
+  eci_ci_low: 104.56
+  eci_ci_high: 117.65
   model_accessibility: Open weights (restricted use)
   accessibility_group: Open weights
 - name: Mistral 7B v0.1
   organization: Mistral AI
   country: France
   release_date: '2023-09-27'
-  eci: 112.21
-  eci_ci_low: 102.36
-  eci_ci_high: 116.31
+  eci: 112.27
+  eci_ci_low: 103.3
+  eci_ci_high: 116.49
   model_accessibility: Open weights (unrestricted)
   accessibility_group: Open weights
 - name: Falcon-180B
   organization: Technology Innovation Institute
   country: United Arab Emirates
   release_date: '2023-09-06'
-  eci: 112.13
-  eci_ci_low: 103.14
-  eci_ci_high: 118.9
+  eci: 112.19
+  eci_ci_low: 102.42
+  eci_ci_high: 119.32
   model_accessibility: Open weights (restricted use)
   accessibility_group: Open weights
 - name: internlm-20b
   organization: null
   country: null
   release_date: '2023-09-18'
-  eci: 112.09
-  eci_ci_low: 102.41
-  eci_ci_high: 116.27
+  eci: 112.15
+  eci_ci_low: 103.19
+  eci_ci_high: 117.04
   model_accessibility: Unknown
   accessibility_group: Other
 - name: Gemma 7B
   organization: Google DeepMind
   country: United States of America
   release_date: '2024-02-21'
-  eci: 111.99
-  eci_ci_low: 102.38
-  eci_ci_high: 116.53
+  eci: 112.05
+  eci_ci_low: 102.44
+  eci_ci_high: 116.38
   model_accessibility: Open weights (restricted use)
   accessibility_group: Open weights
 - name: DeepSeek LLM 67B
   organization: DeepSeek
   country: China
   release_date: '2023-11-29'
-  eci: 110.5
-  eci_ci_low: 95.59
-  eci_ci_high: 116.63
+  eci: 110.47
+  eci_ci_low: 94.99
+  eci_ci_high: 117.25
   model_accessibility: Open weights (restricted use)
   accessibility_group: Open weights
 - name: LLaMA-65B
   organization: Meta AI
   country: United States of America
   release_date: '2023-02-24'
-  eci: 110.17
-  eci_ci_low: 101.4
-  eci_ci_high: 114.12
+  eci: 110.23
+  eci_ci_low: 101.57
+  eci_ci_high: 114.9
   model_accessibility: Open weights (non-commercial)
   accessibility_group: Open weights
 - name: Falcon 2 11B
   organization: Technology Innovation Institute
   country: United Arab Emirates
   release_date: '2024-05-09'
-  eci: 109.56
-  eci_ci_low: 99.79
-  eci_ci_high: 115.57
+  eci: 109.63
+  eci_ci_low: 100.92
+  eci_ci_high: 114.9
   model_accessibility: Open weights (restricted use)
   accessibility_group: Open weights
 - name: Mistral 7B v0.3
   organization: Mistral AI
   country: France
   release_date: '2024-05-27'
-  eci: 108.99
-  eci_ci_low: 96.78
-  eci_ci_high: 112.52
+  eci: 109.06
+  eci_ci_low: 97.34
+  eci_ci_high: 112.81
   model_accessibility: Open weights (unrestricted)
   accessibility_group: Open weights
 - name: DeepSeek-Coder-V2-Lite-Base
   organization: null
   country: null
   release_date: '2024-06-13'
-  eci: 108.88
-  eci_ci_low: 97.54
-  eci_ci_high: 113.82
+  eci: 108.96
+  eci_ci_low: 98.93
+  eci_ci_high: 114.32
   model_accessibility: Unknown
   accessibility_group: Other
 - name: PaLM 2-M
   organization: null
   country: null
   release_date: '2023-05-17'
-  eci: 108.29
-  eci_ci_low: 98.56
-  eci_ci_high: 116.75
+  eci: 108.37
+  eci_ci_low: 99.17
+  eci_ci_high: 117.72
   model_accessibility: Unknown
   accessibility_group: Other
 - name: Phi-2
   organization: Microsoft
   country: United States of America
   release_date: '2023-12-12'
-  eci: 107.94
-  eci_ci_low: 88.62
-  eci_ci_high: 113.81
+  eci: 108.02
+  eci_ci_low: 85.14
+  eci_ci_high: 114.08
   model_accessibility: Open weights (unrestricted)
   accessibility_group: Open weights
 - name: Qwen2.5-Coder-3B
   organization: null
   country: null
   release_date: '2024-09-18'
-  eci: 107.74
-  eci_ci_low: 94.23
-  eci_ci_high: 115.66
+  eci: 107.82
+  eci_ci_low: 93.77
+  eci_ci_high: 115.91
   model_accessibility: Unknown
   accessibility_group: Other
 - name: Nemotron-4 15B
   organization: Nvidia
   country: United States of America
   release_date: '2024-02-26'
-  eci: 107.72
-  eci_ci_low: 97.25
-  eci_ci_high: 113.25
+  eci: 107.8
+  eci_ci_low: 98.61
+  eci_ci_high: 112.99
   model_accessibility: Unreleased
   accessibility_group: Closed weights
 - name: Yi-9B
   organization: null
   country: null
   release_date: '2024-03-01'
-  eci: 107.61
-  eci_ci_low: 96.2
-  eci_ci_high: 114.79
+  eci: 107.69
+  eci_ci_low: 98.08
+  eci_ci_high: 115.67
   model_accessibility: Unknown
   accessibility_group: Other
 - name: LLaMA-33B
   organization: Meta AI
   country: United States of America
   release_date: '2023-02-24'
-  eci: 107.41
-  eci_ci_low: 97.41
-  eci_ci_high: 112.09
+  eci: 107.49
+  eci_ci_low: 98.33
+  eci_ci_high: 112.27
   model_accessibility: Open weights (non-commercial)
   accessibility_group: Open weights
 - name: Qwen-7B
   organization: Alibaba
   country: China
   release_date: '2023-09-28'
-  eci: 106.83
-  eci_ci_low: 93.62
-  eci_ci_high: 111.9
+  eci: 106.91
+  eci_ci_low: 96.06
+  eci_ci_high: 112.26
   model_accessibility: Open weights (restricted use)
   accessibility_group: Open weights
 - name: PaLM 2-S
   organization: null
   country: null
   release_date: '2023-05-17'
-  eci: 106.17
-  eci_ci_low: 94.83
-  eci_ci_high: 114.5
+  eci: 106.26
+  eci_ci_low: 96.62
+  eci_ci_high: 112.9
   model_accessibility: Unknown
   accessibility_group: Other
 - name: Llama 2-13B
   organization: Meta AI
   country: United States of America
   release_date: '2023-07-18'
-  eci: 106.17
-  eci_ci_low: 96.07
-  eci_ci_high: 110.78
+  eci: 106.25
+  eci_ci_low: 96.69
+  eci_ci_high: 111.49
   model_accessibility: Open weights (restricted use)
   accessibility_group: Open weights
 - name: Llama 2-34B
   organization: Meta AI
   country: United States of America
   release_date: '2023-07-18'
-  eci: 105.2
-  eci_ci_low: 94.54
-  eci_ci_high: 110.21
+  eci: 105.29
+  eci_ci_low: 95.69
+  eci_ci_high: 110.57
   model_accessibility: Unreleased
   accessibility_group: Closed weights
 - name: StarCoder 2 15B
   organization: Hugging Face,ServiceNow,Nvidia,BigCode
   country: United States of America
   release_date: '2024-02-20'
-  eci: 105.0
-  eci_ci_low: 91.04
-  eci_ci_high: 111.32
+  eci: 105.09
+  eci_ci_low: 94.1
+  eci_ci_high: 112.2
   model_accessibility: Open weights (restricted use)
   accessibility_group: Open weights
 - name: Yi 6B
   organization: 01.AI
   country: China
   release_date: '2023-11-22'
-  eci: 104.77
-  eci_ci_low: 94.36
-  eci_ci_high: 110.35
+  eci: 104.86
+  eci_ci_low: 94.63
+  eci_ci_high: 110.37
   model_accessibility: Open weights (restricted use)
   accessibility_group: Open weights
 - name: Falcon-40B
   organization: Technology Innovation Institute
   country: United Arab Emirates
   release_date: '2023-05-25'
-  eci: 104.45
-  eci_ci_low: 92.77
-  eci_ci_high: 109.93
+  eci: 104.54
+  eci_ci_low: 94.97
+  eci_ci_high: 110.17
   model_accessibility: Open weights (unrestricted)
   accessibility_group: Open weights
 - name: Baichuan2-13B
   organization: Baichuan
   country: China
   release_date: '2023-09-06'
-  eci: 103.19
-  eci_ci_low: 91.12
-  eci_ci_high: 110.3
+  eci: 103.29
+  eci_ci_low: 92.67
+  eci_ci_high: 110.61
   model_accessibility: Open weights (restricted use)
   accessibility_group: Open weights
 - name: Qwen2.5-Coder (1.5B)
   organization: Alibaba
   country: China
   release_date: '2024-09-18'
-  eci: 102.99
-  eci_ci_low: 85.28
-  eci_ci_high: 110.96
+  eci: 103.09
+  eci_ci_low: 88.02
+  eci_ci_high: 111.76
   model_accessibility: Open weights (unrestricted)
   accessibility_group: Open weights
 - name: internlm-7b
   organization: null
   country: null
   release_date: '2023-07-05'
-  eci: 102.87
-  eci_ci_low: 90.77
-  eci_ci_high: 109.51
+  eci: 102.97
+  eci_ci_low: 92.13
+  eci_ci_high: 109.55
   model_accessibility: Unknown
   accessibility_group: Other
 - name: Llama 3.2 1B
   organization: Meta AI
   country: United States of America
   release_date: '2024-09-24'
-  eci: 101.99
-  eci_ci_low: 90.04
-  eci_ci_high: 110.07
+  eci: 102.04
+  eci_ci_low: 90.32
+  eci_ci_high: 115.01
   model_accessibility: Open weights (restricted use)
   accessibility_group: Open weights
 - name: INTELLECT-1
   organization: Prime Intellect,Hugging Face,Arcee AI
   country: United States of America
   release_date: '2024-11-29'
-  eci: 100.86
-  eci_ci_low: 88.45
-  eci_ci_high: 106.27
+  eci: 100.97
+  eci_ci_low: 90.22
+  eci_ci_high: 106.46
   model_accessibility: Unknown
   accessibility_group: Other
 - name: MPT-30B
   organization: MosaicML
   country: United States of America
   release_date: '2023-06-22'
-  eci: 100.66
-  eci_ci_low: 88.92
-  eci_ci_high: 106.41
+  eci: 100.76
+  eci_ci_low: 90.55
+  eci_ci_high: 106.4
   model_accessibility: Open weights (unrestricted)
   accessibility_group: Open weights
 - name: LLaMA-13B
   organization: Meta AI
   country: United States of America
   release_date: '2023-02-24'
-  eci: 100.58
-  eci_ci_low: 88.99
-  eci_ci_high: 106.41
+  eci: 100.69
+  eci_ci_low: 90.04
+  eci_ci_high: 106.64
   model_accessibility: Open weights (non-commercial)
   accessibility_group: Open weights
 - name: Llama 2-7B
   organization: Meta AI
   country: United States of America
   release_date: '2023-07-18'
-  eci: 99.06
-  eci_ci_low: 86.79
-  eci_ci_high: 105.6
+  eci: 99.18
+  eci_ci_low: 88.06
+  eci_ci_high: 105.33
   model_accessibility: Open weights (restricted use)
   accessibility_group: Open weights
 - name: chatglm2-6b
   organization: null
   country: null
   release_date: '2023-06-24'
-  eci: 98.94
-  eci_ci_low: 80.98
-  eci_ci_high: 105.48
+  eci: 99.05
+  eci_ci_low: 81.48
+  eci_ci_high: 106.4
   model_accessibility: Unknown
   accessibility_group: Other
 - name: LLaMA-7B
   organization: Meta AI
   country: United States of America
   release_date: '2023-02-24'
-  eci: 96.7
-  eci_ci_low: 83.49
-  eci_ci_high: 103.66
+  eci: 96.82
+  eci_ci_low: 84.07
+  eci_ci_high: 103.99
   model_accessibility: Open weights (non-commercial)
   accessibility_group: Open weights
 - name: Baichuan 2-7B
   organization: Baichuan
   country: China
   release_date: '2023-09-20'
-  eci: 96.33
-  eci_ci_low: 83.83
-  eci_ci_high: 104.32
+  eci: 96.45
+  eci_ci_low: 84.31
+  eci_ci_high: 104.76
   model_accessibility: Open weights (restricted use)
   accessibility_group: Open weights
 - name: DeepSeek Coder 33B
   organization: DeepSeek,Peking University
   country: China
   release_date: '2023-11-02'
-  eci: 96.32
-  eci_ci_low: 82.84
-  eci_ci_high: 103.49
+  eci: 96.45
+  eci_ci_low: 84.2
+  eci_ci_high: 103.38
   model_accessibility: Open weights (restricted use)
   accessibility_group: Open weights
 - name: Falcon-7B
   organization: Technology Innovation Institute
   country: United Arab Emirates
   release_date: '2023-04-24'
-  eci: 95.1
-  eci_ci_low: 81.1
-  eci_ci_high: 102.36
+  eci: 95.23
+  eci_ci_low: 82.44
+  eci_ci_high: 102.38
   model_accessibility: Open weights (unrestricted)
   accessibility_group: Open weights
 - name: CodeQwen1.5-7B
   organization: null
   country: null
   release_date: '2024-04-15'
-  eci: 94.86
-  eci_ci_low: 78.95
-  eci_ci_high: 102.89
+  eci: 94.99
+  eci_ci_low: 80.78
+  eci_ci_high: 103.36
   model_accessibility: Unknown
   accessibility_group: Other
 - name: vicuna-13b-v1.1
   organization: null
   country: null
   release_date: '2023-04-12'
-  eci: 94.67
-  eci_ci_low: 78.87
-  eci_ci_high: 102.61
+  eci: 94.8
+  eci_ci_low: 80.99
+  eci_ci_high: 102.84
   model_accessibility: Unknown
   accessibility_group: Other
 - name: MPT-7B
   organization: MosaicML
   country: United States of America
   release_date: '2023-05-05'
-  eci: 94.59
-  eci_ci_low: 80.52
-  eci_ci_high: 101.56
+  eci: 94.73
+  eci_ci_low: 81.66
+  eci_ci_high: 102.66
   model_accessibility: Open weights (unrestricted)
   accessibility_group: Open weights
 - name: Gemma 2B
   organization: Google DeepMind
   country: United States of America
   release_date: '2024-02-21'
-  eci: 94.2
-  eci_ci_low: 80.76
-  eci_ci_high: 101.32
+  eci: 94.34
+  eci_ci_low: 82.8
+  eci_ci_high: 101.18
   model_accessibility: Open weights (restricted use)
   accessibility_group: Open weights
 - name: StarCoder 2 7B
   organization: Hugging Face,ServiceNow,Nvidia,BigCode
   country: United States of America
   release_date: '2024-02-20'
-  eci: 93.56
-  eci_ci_low: 76.76
-  eci_ci_high: 101.69
+  eci: 93.7
+  eci_ci_low: 79.05
+  eci_ci_high: 102.01
   model_accessibility: Open weights (restricted use)
   accessibility_group: Open weights
 - name: XGen-7B
   organization: Salesforce
   country: United States of America
   release_date: '2023-06-27'
-  eci: 93.4
-  eci_ci_low: 78.79
-  eci_ci_high: 100.75
+  eci: 93.54
+  eci_ci_low: 81.11
+  eci_ci_high: 101.04
   model_accessibility: Open weights (unrestricted)
   accessibility_group: Open weights
 - name: Qwen-1_8B
   organization: null
   country: null
   release_date: '2023-11-30'
-  eci: 92.93
-  eci_ci_low: 71.46
-  eci_ci_high: 101.78
+  eci: 93.07
+  eci_ci_low: 71.44
+  eci_ci_high: 102.0
   model_accessibility: Unknown
   accessibility_group: Other
 - name: open_llama_7b
   organization: null
   country: null
   release_date: '2023-06-07'
-  eci: 91.65
-  eci_ci_low: 76.93
-  eci_ci_high: 99.24
+  eci: 91.8
+  eci_ci_low: 77.35
+  eci_ci_high: 99.47
   model_accessibility: Unknown
   accessibility_group: Other
 - name: Phi-1.5
   organization: Microsoft
   country: United States of America
   release_date: '2023-09-11'
-  eci: 91.53
-  eci_ci_low: 71.63
-  eci_ci_high: 100.79
+  eci: 91.68
+  eci_ci_low: 71.13
+  eci_ci_high: 101.34
   model_accessibility: Open weights (unrestricted)
   accessibility_group: Open weights
 - name: Baichuan1-7B
   organization: Baichuan
   country: China
   release_date: '2023-06-01'
-  eci: 90.46
-  eci_ci_low: 75.57
-  eci_ci_high: 98.46
+  eci: 90.61
+  eci_ci_low: 77.57
+  eci_ci_high: 99.38
   model_accessibility: Open weights (non-commercial)
   accessibility_group: Open weights
 - name: RedPajama-INCITE-7B-Base
   organization: null
   country: null
   release_date: '2023-05-04'
-  eci: 90.43
-  eci_ci_low: 74.4
-  eci_ci_high: 98.46
+  eci: 90.58
+  eci_ci_low: 76.49
+  eci_ci_high: 99.17
   model_accessibility: Unknown
   accessibility_group: Other
 - name: Dolly 2.0-12b
   organization: Databricks
   country: United States of America
   release_date: '2023-04-11'
-  eci: 89.67
-  eci_ci_low: 73.6
-  eci_ci_high: 97.55
+  eci: 89.83
+  eci_ci_low: 76.06
+  eci_ci_high: 97.97
   model_accessibility: Open weights (unrestricted)
   accessibility_group: Open weights
 - name: DeepSeek Coder 6.7B
   organization: DeepSeek,Peking University
   country: China
   release_date: '2023-11-02'
-  eci: 89.62
-  eci_ci_low: 72.98
-  eci_ci_high: 97.8
+  eci: 89.77
+  eci_ci_low: 75.59
+  eci_ci_high: 98.06
   model_accessibility: Open weights (restricted use)
   accessibility_group: Open weights
 - name: StarCoder 2 3B
   organization: Hugging Face,ServiceNow,Nvidia,BigCode
   country: United States of America
   release_date: '2024-02-22'
-  eci: 88.76
-  eci_ci_low: 70.65
-  eci_ci_high: 97.53
+  eci: 88.92
+  eci_ci_low: 73.32
+  eci_ci_high: 97.85
   model_accessibility: Open weights (restricted use)
   accessibility_group: Open weights
 - name: Qwen2.5-Coder-0.5B
   organization: null
   country: null
   release_date: '2024-09-18'
-  eci: 88.15
-  eci_ci_low: 58.7
-  eci_ci_high: 100.41
+  eci: 88.31
+  eci_ci_low: 63.95
+  eci_ci_high: 100.06
   model_accessibility: Unknown
   accessibility_group: Other
 - name: Cerebras-GPT-13B
   organization: Cerebras Systems
   country: United States of America
   release_date: '2023-03-20'
-  eci: 83.24
-  eci_ci_low: 66.01
-  eci_ci_high: 92.03
+  eci: 83.42
+  eci_ci_low: 67.04
+  eci_ci_high: 92.07
   model_accessibility: Open weights (unrestricted)
   accessibility_group: Open weights
 - name: DeepSeek Coder 1.3B
   organization: DeepSeek,Peking University
   country: China
   release_date: '2023-11-02'
-  eci: 63.6
-  eci_ci_low: 42.27
-  eci_ci_high: 76.81
+  eci: 63.88
+  eci_ci_low: 45.1
+  eci_ci_high: 76.94
   model_accessibility: Open weights (restricted use)
   accessibility_group: Open weights
 - name: stablelm-tuned-alpha-7b
   organization: null
   country: null
   release_date: '2023-04-19'
-  eci: 55.75
-  eci_ci_low: 30.79
-  eci_ci_high: 72.32
+  eci: 56.05
+  eci_ci_low: 31.31
+  eci_ci_high: 73.19
   model_accessibility: Unknown
   accessibility_group: Other
