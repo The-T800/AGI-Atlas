@@ -28,7 +28,7 @@ def test_full_taxonomy_has_valid_unique_lineage():
         for level in ("domain", "field", "subfield"):
             assert (level, topic[level]) in keys
     assert len(data["cells"]) == 4516
-    assert data["release_date"] == "2026-09-23"
+    assert data["release_date"] == "2026-10-14"
     assert data["retrieved_at"][:10] >= data["release_date"]
 
 
@@ -124,7 +124,7 @@ def test_score_refresh_advances_evidence_window_without_changing_taxonomy():
         ],
     )
     assert result["summary"]["recent_benchmarks"] == 1
-    assert result["retrieved_at"][:10] == "2026-10-05"
+    assert result["retrieved_at"][:10] == subjects()["retrieved_at"][:10]
 
 
 def test_unverified_results_do_not_establish_evidence():

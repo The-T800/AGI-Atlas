@@ -2,358 +2,358 @@
   {
     "id": "deepseek-r1",
     "url": "https://raw.githubusercontent.com/deepseek-ai/DeepSeek-R1/main/README.md",
-    "observed_at": "2026-10-19",
+    "observed_at": "2026-10-20",
     "sha256": "4ed979e497121ae4dd9f1573da1668219f43be55d62cc0bf2be5429211a67486",
     "bytes": 20736
   },
   {
     "id": "deepseek-v3",
     "url": "https://raw.githubusercontent.com/deepseek-ai/DeepSeek-V3/main/README.md",
-    "observed_at": "2026-10-19",
+    "observed_at": "2026-10-20",
     "sha256": "1f766f151bb4d501b18c9d1e229ac25682c68c75893d6d3bc9734e2a60125c0e",
     "bytes": 20851
   },
   {
     "id": "qwen25-omni",
     "url": "https://raw.githubusercontent.com/QwenLM/Qwen2.5-Omni/main/README.md",
-    "observed_at": "2026-10-19",
+    "observed_at": "2026-10-20",
     "sha256": "8b4c934f3c8dcd1c8b0a71b305190543dacc7d4364c40c6ba45bc2d494cd4a95",
     "bytes": 59911
   },
   {
     "id": "cl-bench",
     "url": "https://raw.githubusercontent.com/Tencent-Hunyuan/CL-bench/main/README.md",
-    "observed_at": "2026-10-19",
+    "observed_at": "2026-10-20",
     "sha256": "4b4fc8de977f88c3fc27d68713b249dc90e958c1e0a1e78c1a8e201064f460a7",
     "bytes": 8133
   },
   {
     "id": "qwen35-card",
     "url": "https://huggingface.co/Qwen/Qwen3.5-397B-A17B/raw/main/README.md",
-    "observed_at": "2026-10-19",
+    "observed_at": "2026-10-20",
     "sha256": "bda4b24e975f65ac677985306ddbad33362e65064637660654c8bb7dea7edf50",
     "bytes": 94793
   },
   {
     "id": "qwen38-card",
     "url": "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B/raw/main/README.md",
-    "observed_at": "2026-10-19",
+    "observed_at": "2026-10-20",
     "sha256": "7690c680c2d6eb284179ef5dd4db63260d248531cae9087b09b2c2200230f331",
     "bytes": 35755
   },
   {
     "id": "cl-paper",
     "url": "https://arxiv.org/html/2602.03587v1",
-    "observed_at": "2026-10-19",
+    "observed_at": "2026-10-20",
     "sha256": "b66c423d5b26eefbb785ed8e39a7a59391b59952da1b07e4af3e27dc34f3d1b0",
     "bytes": 861025
   },
   {
     "id": "bbh",
     "url": "https://raw.githubusercontent.com/suzgunmirac/BIG-Bench-Hard/main/README.md",
-    "observed_at": "2026-10-19",
+    "observed_at": "2026-10-20",
     "sha256": "9c41105f4a349fcba7f87a422df0e744a9ed8e7a30c2db6676a9ecad372bc9db",
     "bytes": 3475
   },
   {
     "id": "mmlu-pro",
     "url": "https://raw.githubusercontent.com/TIGER-AI-Lab/MMLU-Pro/main/README.md",
-    "observed_at": "2026-10-19",
+    "observed_at": "2026-10-20",
     "sha256": "dfbab62320e644f3682d4697e206160bbb59baafa324c59a17e4424328e3e5a5",
     "bytes": 5993
   },
   {
     "id": "mmmu",
     "url": "https://raw.githubusercontent.com/MMMU-Benchmark/MMMU/main/README.md",
-    "observed_at": "2026-10-19",
+    "observed_at": "2026-10-20",
     "sha256": "a4e89dd389f9b4c82b92e54b5d50a58e55a53c077a5009f7d4b4e53c09bdcc3a",
     "bytes": 7881
   },
   {
     "id": "video-mme",
     "url": "https://raw.githubusercontent.com/MME-Benchmarks/Video-MME/main/README.md",
-    "observed_at": "2026-10-19",
+    "observed_at": "2026-10-20",
     "sha256": "df3132ed6c4d17c7f47acc0ee832e352185edd9d5b30bacc9a0195e948124668",
     "bytes": 11893
   },
   {
     "id": "abstention-scores",
     "url": "https://raw.githubusercontent.com/facebookresearch/AbstentionBench/main/analysis/abstention_performance.csv",
-    "observed_at": "2026-10-19",
+    "observed_at": "2026-10-20",
     "sha256": "8878bb2ac3b66a3568dfcbd8784a70d1be074babe4a01330c83c4a717b782a9b",
     "bytes": 66233
   },
   {
     "id": "swe-board",
     "url": "https://www.swebench.com/",
-    "observed_at": "2026-10-19",
+    "observed_at": "2026-10-20",
     "sha256": "fea73eb594cc0c539efd7a4368989370b4c36635fab6144806732a10d09a450f",
     "bytes": 2392492
   },
   {
     "id": "tom-paper",
     "url": "https://arxiv.org/html/2402.15052v1",
-    "observed_at": "2026-10-19",
+    "observed_at": "2026-10-20",
     "sha256": "e23f040b3b16df95b66a4a76c5b17bfcb0794ca865cf99b23a2ea728c0287bdf",
     "bytes": 861260
   },
   {
     "id": "mmsi-readme",
     "url": "https://raw.githubusercontent.com/InternRobotics/MMSI-Bench/main/README.md",
-    "observed_at": "2026-10-19",
+    "observed_at": "2026-10-20",
     "sha256": "59bd4e43200a584353ef5febe084de0a9771b96a0d7595f19126df6fcc4fe567",
     "bytes": 16709
   },
   {
     "id": "arc-v1",
     "url": "https://arcprize.org/media/data/leaderboard/v1.json",
-    "observed_at": "2026-10-19",
-    "sha256": "613c385b0c930f19f9819a486a92f89eaad441379df954ab691b117b18b599f8",
-    "bytes": 148219
+    "observed_at": "2026-10-20",
+    "sha256": "302d8267c0522bf450ec1deeac4d060e2cf2fb444ba0a4269014d9535de0bd1f",
+    "bytes": 150461
   },
   {
     "id": "arc-v2",
     "url": "https://arcprize.org/media/data/leaderboard/v2.json",
-    "observed_at": "2026-10-19",
-    "sha256": "be40992860f9689f109759eaca49bf4e62cfad12c692b9ae238d3942b64ccf73",
-    "bytes": 150031
+    "observed_at": "2026-10-20",
+    "sha256": "bca68e12cc9a01954ae21b641844c1ecbabe146cb24b87f0f8e9b1db27433c29",
+    "bytes": 152289
   },
   {
     "id": "arc-v3",
     "url": "https://arcprize.org/media/data/leaderboard/v3.json",
-    "observed_at": "2026-10-19",
+    "observed_at": "2026-10-20",
     "sha256": "1aaee2199f8c6d9b5a589aab2fd2480a729e9132f8cf8fbf7b49f81dbd5b2c49",
     "bytes": 60076
   },
   {
     "id": "wildguard",
     "url": "https://raw.githubusercontent.com/allenai/wildguard/main/README.md",
-    "observed_at": "2026-10-19",
+    "observed_at": "2026-10-20",
     "sha256": "e9b46a0e3e74792e8cebe692f444607e21767d1888a2ade3785d3657fd33c699",
     "bytes": 5777
   },
   {
     "id": "geneval",
     "url": "https://raw.githubusercontent.com/djghosh13/geneval/main/README.md",
-    "observed_at": "2026-10-19",
+    "observed_at": "2026-10-20",
     "sha256": "468930e319ebba4b535f9c77cbac91bda6e3b2f6ad21f4c6c55b08161baca94a",
     "bytes": 4916
   },
   {
     "id": "wildguard-paper",
     "url": "https://arxiv.org/html/2406.18495v1",
-    "observed_at": "2026-10-19",
+    "observed_at": "2026-10-20",
     "sha256": "8580ced64d5c029e2db344506514664390de8e0257a520761659340d230d0bed",
     "bytes": 390109
   },
   {
     "id": "oft-paper",
     "url": "https://arxiv.org/html/2502.19645v1",
-    "observed_at": "2026-10-19",
+    "observed_at": "2026-10-20",
     "sha256": "fc6bc1e7799437221fe60bd8adcba11ef977cd524d5c29419da92675e7dbf799",
     "bytes": 290154
   },
   {
     "id": "epoch-eci",
     "url": "https://epoch.ai/data/eci_scores.csv",
-    "observed_at": "2026-10-19",
+    "observed_at": "2026-10-20",
     "sha256": "2f47e90bef5a2559a0acc08aa65d4d98064c04b7fa964428746fa421e8399109",
     "bytes": 34152
   },
   {
     "id": "epoch-benchmarks",
     "url": "https://epoch.ai/data/benchmark_data.zip",
-    "observed_at": "2026-10-19",
-    "sha256": "49ecfe2caad7a23a5f86ca68402132af3b47872a2f713dc7c548536c9da53529",
-    "bytes": 2401421,
+    "observed_at": "2026-10-20",
+    "sha256": "874a2184618de8f2081cf60c24f9238b9ca019b74c2b479e1ba829449c6348b3",
+    "bytes": 2404229,
     "file": "epoch-benchmarks.zip"
   },
   {
     "id": "epoch-method-gpqa",
     "url": "https://epoch.ai/benchmarks/gpqa-diamond",
-    "observed_at": "2026-10-19",
-    "sha256": "cf7d501c8f9d5c8c25cf4ae287c5523bd76ef35efa416f9fa75a21d93e1a3688",
-    "bytes": 101772
+    "observed_at": "2026-10-20",
+    "sha256": "6f88ea6369646a13c4ca79107b1d095b6476bbf02288610cb947fa3bbc6ac1f6",
+    "bytes": 100979
   },
   {
     "id": "epoch-method-frontiermath",
     "url": "https://epoch.ai/benchmarks/frontiermath",
-    "observed_at": "2026-10-19",
-    "sha256": "0d4900521f85f32d064be7d35e056ef5cfba3cc49d31ff6d148be04ceac007c6",
-    "bytes": 104279
+    "observed_at": "2026-10-20",
+    "sha256": "8af6a66b632dd126792b54d5326289bfc168fedefc38c7a0e5cec5d69f122492",
+    "bytes": 103489
   },
   {
     "id": "epoch-method-math5",
     "url": "https://epoch.ai/benchmarks/math-level-5",
-    "observed_at": "2026-10-19",
-    "sha256": "12a59bd75c93e6c3c2cd858ea54cfd93abb5efa9196469b66467de75018ae8cb",
-    "bytes": 98280
+    "observed_at": "2026-10-20",
+    "sha256": "3c386791b91bd4c7297ae08b76f7b518e9ee45cbd65ffdea4651a36714f1f07c",
+    "bytes": 97487
   },
   {
     "id": "epoch-method-swe",
     "url": "https://epoch.ai/benchmarks/swe-bench-verified",
-    "observed_at": "2026-10-19",
-    "sha256": "f4c279079c5f3cadad0c68e2c949dd5d67ddc5f2c47c6379ba3ec27df47511dd",
-    "bytes": 106034
+    "observed_at": "2026-10-20",
+    "sha256": "1ecafb37123d76dbb1bd88a745a922703fc435c27a30d9d7be7886a784de8c8f",
+    "bytes": 105242
   },
   {
     "id": "epoch-method-simpleqa",
     "url": "https://epoch.ai/benchmarks/simpleqa-verified",
-    "observed_at": "2026-10-19",
-    "sha256": "b38db5c5001904a103d0405cd0aba64eae3d4d24b6f854d59bfbd9b089ffa1e9",
-    "bytes": 101741
+    "observed_at": "2026-10-20",
+    "sha256": "ac47fc4e2365a1890837153072aea3e552f2c6edc3d808bcfc01ec395708109b",
+    "bytes": 100949
   },
   {
     "id": "epoch-eci-page",
     "url": "https://epoch.ai/eci",
-    "observed_at": "2026-10-19",
-    "sha256": "5e06b3aaf81e03afc73b1eac99da70591db76615b096398c9da92bbcb21518b1",
-    "bytes": 224378
+    "observed_at": "2026-10-20",
+    "sha256": "150fdab3f3d94742bc2c622d8e8409422a5881716898c19990e87b1ddf31f84a",
+    "bytes": 223612
   },
   {
     "id": "task-libri",
     "url": "https://www.openslr.org/12",
-    "observed_at": "2026-10-19",
+    "observed_at": "2026-10-20",
     "sha256": "9b012c60f8fe6a5435f96cf034c042ffe4222e7936c88cb835671413e74a5301",
     "bytes": 8245
   },
   {
     "id": "task-aishell",
     "url": "https://www.openslr.org/33/",
-    "observed_at": "2026-10-19",
+    "observed_at": "2026-10-20",
     "sha256": "072e77c5f5a401eca59f7ba0c6608a4c6720f6c67227ab53c37f5745d7b019d9",
     "bytes": 4011
   },
   {
     "id": "task-meld",
     "url": "https://affective-meld.github.io/",
-    "observed_at": "2026-10-19",
+    "observed_at": "2026-10-20",
     "sha256": "bc01019faae5bdbe27db69ccb86c4e9365c0b0c42382d0ff274c674cefefbc53",
     "bytes": 4434
   },
   {
     "id": "task-habitat",
     "url": "https://aihabitat.org/",
-    "observed_at": "2026-10-19",
-    "sha256": "1f5c90831e82a6d631b16d87781d8f98f8c0699e3dbf350be9f5d03452247502",
+    "observed_at": "2026-10-20",
+    "sha256": "19e782c1393103a0151440029fb7c3a52789f6069f627ee8959b72c95c81bebf",
     "bytes": 44449
   },
   {
     "id": "task-flores",
     "url": "https://raw.githubusercontent.com/facebookresearch/flores/main/flores200/README.md",
-    "observed_at": "2026-10-19",
+    "observed_at": "2026-10-20",
     "sha256": "74ccbbe29feba9d92cb3ee472387579ab2aa5c0299d47dcec7614b2c06cd49fc",
     "bytes": 11883
   },
   {
     "id": "task-spider",
     "url": "https://raw.githubusercontent.com/taoyds/spider/master/README.md",
-    "observed_at": "2026-10-19",
+    "observed_at": "2026-10-20",
     "sha256": "2240abbfbb499cc7f2ba0fd14fbab0e9ee5c99a5f7739f4cd5b4041da8298ec9",
     "bytes": 10154
   },
   {
     "id": "task-ocrbench",
     "url": "https://raw.githubusercontent.com/Yuliang-Liu/MultimodalOCR/main/README.md",
-    "observed_at": "2026-10-19",
+    "observed_at": "2026-10-20",
     "sha256": "70f2cb6724c696e97fc0b385b4c3bcf8397ca1ea093a93d81ce74f4ae52184e5",
     "bytes": 12098
   },
   {
     "id": "task-cc-ocr",
     "url": "https://raw.githubusercontent.com/AlibabaResearch/AdvancedLiterateMachinery/main/README.md",
-    "observed_at": "2026-10-19",
+    "observed_at": "2026-10-20",
     "sha256": "d8a682f021aec07795a4e8f6e64c888195047019cf5a161cf67ceb6ece9ce8f3",
     "bytes": 11213
   },
   {
     "id": "task-omnidocbench",
     "url": "https://raw.githubusercontent.com/opendatalab/OmniDocBench/main/README.md",
-    "observed_at": "2026-10-19",
+    "observed_at": "2026-10-20",
     "sha256": "a799f3dabee0d8e2be9f990fc325c3fefadb8d7f8d0cf56148406547d495a3ad",
     "bytes": 96525
   },
   {
     "id": "task-medxpertqa",
     "url": "https://raw.githubusercontent.com/TsinghuaC3I/MedXpertQA/main/README.md",
-    "observed_at": "2026-10-19",
+    "observed_at": "2026-10-20",
     "sha256": "63b725f43345e9f7c69468d6efd93371d73fbfc72302097d7c8ab6e7882d3745",
     "bytes": 9181
   },
   {
     "id": "task-metaworld",
     "url": "https://raw.githubusercontent.com/Farama-Foundation/Metaworld/main/README.md",
-    "observed_at": "2026-10-19",
+    "observed_at": "2026-10-20",
     "sha256": "7a58d200be86c2143939090ea003f5757f99085b135d7236d57236e576fc4a6d",
     "bytes": 8162
   },
   {
     "id": "task-libero",
     "url": "https://raw.githubusercontent.com/Lifelong-Robot-Learning/LIBERO/master/README.md",
-    "observed_at": "2026-10-19",
+    "observed_at": "2026-10-20",
     "sha256": "e87d5b284da3d7c127e1bc8282ea80b5da02aad3e9272c13adc96c4eca0eaa41",
     "bytes": 8128
   },
   {
     "id": "task-calvin",
     "url": "https://raw.githubusercontent.com/mees/calvin/main/README.md",
-    "observed_at": "2026-10-19",
+    "observed_at": "2026-10-20",
     "sha256": "ade3f2d224f5f299be858681ab117524b6457e371963718518718529b2fd12f2",
     "bytes": 21081
   },
   {
     "id": "task-bird",
     "url": "https://bird-bench.github.io/",
-    "observed_at": "2026-10-19",
+    "observed_at": "2026-10-20",
     "sha256": "2559c662292538eedefaf7af2fc4e1dfd1d065c3bce674f2be9312232cee7cd7",
     "bytes": 345462
   },
   {
     "id": "task-reviewbench",
     "url": "https://github.blog/ai-and-ml/github-copilot/reviewbench-an-open-benchmark-for-ai-code-review/",
-    "observed_at": "2026-10-19",
-    "sha256": "dc90361c3c6c8b9e628d9af3a91cbf5243b76250dd03011c20afe3dc2fd9ee2b",
-    "bytes": 988552
+    "observed_at": "2026-10-20",
+    "sha256": "22babec00d045680ef588c911a9b26c7ef05f25d0f6fa1093ba84e95b5dee6f4",
+    "bytes": 1018635
   },
   {
     "id": "task-codeclash",
     "url": "https://raw.githubusercontent.com/codeclash-ai/codeclash/main/README.md",
-    "observed_at": "2026-10-19",
+    "observed_at": "2026-10-20",
     "sha256": "11748b8baeac4510ac6586a11de1e9b4f7b31a6ce2c43dd48609ac63a3268d0e",
     "bytes": 5835
   },
   {
     "id": "task-officeqa",
     "url": "https://raw.githubusercontent.com/databricks/officeqa/main/README.md",
-    "observed_at": "2026-10-19",
+    "observed_at": "2026-10-20",
     "sha256": "d72c40ee82cc96e0adbf8f4dd1d87ce22a1e4feb85c72931be2076c7f3c151d3",
     "bytes": 16357
   },
   {
     "id": "task-wbench",
     "url": "https://raw.githubusercontent.com/meituan-longcat/WBench/main/README.md",
-    "observed_at": "2026-10-19",
+    "observed_at": "2026-10-20",
     "sha256": "cbccde27b2523995a0d2b171bbc0460ffa916a70ecac210e4db840bbb0639487",
     "bytes": 22720
   },
   {
     "id": "task-deepswe",
     "url": "https://raw.githubusercontent.com/datacurve-ai/deep-swe/main/README.md",
-    "observed_at": "2026-10-19",
+    "observed_at": "2026-10-20",
     "sha256": "87ac640023163ef48aa6c59b2e1806d34b68c4e1c3cf7d61597236c8c159f95f",
     "bytes": 3637
   },
   {
     "id": "task-terminal-bench",
     "url": "https://raw.githubusercontent.com/harbor-framework/terminal-bench/main/README.md",
-    "observed_at": "2026-10-19",
+    "observed_at": "2026-10-20",
     "sha256": "19cd7542ab806fc5732503f2fe2d6ee7e342de549ab1acfba184060f1290b03b",
     "bytes": 14806
   },
   {
     "id": "metr-horizons",
     "url": "https://metr.org/assets/benchmark_results_1_1.yaml",
-    "observed_at": "2026-10-19",
+    "observed_at": "2026-10-20",
     "sha256": "aae31902b0519a4da73e16643915e5e8aca13cd3315c3aac893ce3d6dfe92ad9",
     "bytes": 16255
   }

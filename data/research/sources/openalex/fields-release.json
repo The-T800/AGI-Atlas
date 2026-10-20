@@ -1,14 +1,14 @@
 {
-  "date": "2026-09-23",
+  "date": "2026-10-14",
   "format": "jsonl",
   "entity": "fields",
   "record_count": 26,
-  "content_length": 7196,
+  "content_length": 7197,
   "files": [
     {
-      "url": "s3://openalex/data/jsonl/fields/updated_date=2026-09-23/part_0000.gz",
+      "url": "s3://openalex/data/jsonl/fields/updated_date=2026-10-14/part_0000.gz",
       "meta": {
-        "content_length": 7196,
+        "content_length": 7197,
         "record_count": 26
       }
     }

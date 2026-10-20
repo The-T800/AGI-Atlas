@@ -1,6 +1,6 @@
 {
   "version": "v1",
-  "generatedAt": "2026-10-15T13:43:29.213Z",
+  "generatedAt": "2026-10-19T14:20:54.821Z",
   "datasets": [
     {
       "id": "v1_Semi_Private",
@@ -4466,6 +4466,70 @@
       "score": 0.765,
       "costPerTask": 0.042840680000000006,
       "resultsUrl": "/results/google-gemini-4-argon",
+      "display": true
+    },
+    {
+      "datasetId": "v1_Semi_Private",
+      "datasetDisplayName": "ARC-AGI-1",
+      "modelId": "reflection-beam-1-0-xhigh",
+      "modelDisplayName": "Beam 1.0 (XHigh)",
+      "modelType": "CoT",
+      "modelGroup": "reflection-beam-1-0",
+      "modelReleaseDate": "2026-10-16T00:00:00.000Z",
+      "providerId": "Reflection",
+      "providerDisplayName": "Reflection",
+      "providerColor": "#ffffff",
+      "score": 0.74,
+      "costPerTask": 0.3058129759999999,
+      "resultsUrl": "/results/reflection-beam-1-0",
+      "display": true
+    },
+    {
+      "datasetId": "v1_Semi_Private",
+      "datasetDisplayName": "ARC-AGI-1",
+      "modelId": "reflection-beam-1-0-high",
+      "modelDisplayName": "Beam 1.0 (High)",
+      "modelType": "CoT",
+      "modelGroup": "reflection-beam-1-0",
+      "modelReleaseDate": "2026-10-16T00:00:00.000Z",
+      "providerId": "Reflection",
+      "providerDisplayName": "Reflection",
+      "providerColor": "#ffffff",
+      "score": 0.6766666666666665,
+      "costPerTask": 0.2026638450000001,
+      "resultsUrl": "/results/reflection-beam-1-0",
+      "display": true
+    },
+    {
+      "datasetId": "v1_Semi_Private",
+      "datasetDisplayName": "ARC-AGI-1",
+      "modelId": "reflection-beam-1-0-medium",
+      "modelDisplayName": "Beam 1.0 (Medium)",
+      "modelType": "CoT",
+      "modelGroup": "reflection-beam-1-0",
+      "modelReleaseDate": "2026-10-16T00:00:00.000Z",
+      "providerId": "Reflection",
+      "providerDisplayName": "Reflection",
+      "providerColor": "#ffffff",
+      "score": 0.5566666666666666,
+      "costPerTask": 0.12434776699999993,
+      "resultsUrl": "/results/reflection-beam-1-0",
+      "display": true
+    },
+    {
+      "datasetId": "v1_Semi_Private",
+      "datasetDisplayName": "ARC-AGI-1",
+      "modelId": "reflection-beam-1-0-low",
+      "modelDisplayName": "Beam 1.0 (Low)",
+      "modelType": "CoT",
+      "modelGroup": "reflection-beam-1-0",
+      "modelReleaseDate": "2026-10-16T00:00:00.000Z",
+      "providerId": "Reflection",
+      "providerDisplayName": "Reflection",
+      "providerColor": "#ffffff",
+      "score": 0.45,
+      "costPerTask": 0.07504654699999999,
+      "resultsUrl": "/results/reflection-beam-1-0",
       "display": true
     }
   ]

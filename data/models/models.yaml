@@ -35,6 +35,18 @@
 - id: baichuan-2-13-b-chat-cot
   name: Baichuan2-13B-Chat + CoT
   provider: 来源未单独标注
+- id: beam-1-0-high
+  name: Beam 1.0 (High)
+  provider: Reflection
+- id: beam-1-0-low
+  name: Beam 1.0 (Low)
+  provider: Reflection
+- id: beam-1-0-medium
+  name: Beam 1.0 (Medium)
+  provider: Reflection
+- id: beam-1-0-xhigh
+  name: Beam 1.0 (XHigh)
+  provider: Reflection
 - id: beaverdam
   name: BeaverDam
   provider: 来源未单独标注

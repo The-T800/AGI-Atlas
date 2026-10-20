@@ -8,8 +8,8 @@ clusters, not an exhaustive inventory of human knowledge or capability. The topi
 names and descriptions are source-authored, including their machine-generated labels.
 Domain and field Chinese labels are unofficial translations; deeper names remain English.
 
-The latest complete public release found on 2026-10-05 was **2026-09-23**, downloaded
-on 2026-10-05 from the [official S3 snapshot](https://help.openalex.org/access/snapshot).
+The latest complete public release found on 2026-10-20 was **2026-10-14**, downloaded
+on 2026-10-20 from the [official S3 snapshot](https://help.openalex.org/access/snapshot).
 The live anonymous API ran out of shared IP budget after 3,200 topics; those incomplete
 pages are excluded from the published dataset. The complete public snapshot is used
 consistently across all four levels. It is not described as a complete same-day API snapshot.

@@ -1,86 +1,122 @@
 [
   {
     "file": "domains-snapshot-000.gz",
-    "url": "https://openalex.s3.amazonaws.com/data/jsonl/domains/updated_date=2026-09-23/part_0000.gz",
+    "url": "https://openalex.s3.amazonaws.com/data/jsonl/domains/updated_date=2026-10-14/part_0000.gz",
     "kind": "domains",
     "format": "jsonl.gz",
     "count": 4,
-    "release_date": "2026-09-23",
+    "release_date": "2026-10-14",
     "manifest_url": "https://openalex.s3.amazonaws.com/data/jsonl/domains/manifest.json",
-    "manifest_sha256": "07fd4c1c2fdf85e506578e77fef117176a17b2e7334ee84e7cb60896ea18a905",
-    "retrieved_at": "2026-10-05T15:22:32.772674+00:00",
-    "sha256": "688b53704c9065280158b2a863769e1d717c4c1f5a304a9bcb55661a073606e2"
+    "manifest_sha256": "8c2058d7b0f5f09d3ab8e44cdb3b23667864651e49b18583449f5baa79acf535",
+    "retrieved_at": "2026-10-20T12:27:14.143480+00:00",
+    "sha256": "862cef663aa415835525aa6b6919806db204db13ae7f2611f05d56c2d395578f"
   },
   {
     "file": "fields-snapshot-000.gz",
-    "url": "https://openalex.s3.amazonaws.com/data/jsonl/fields/updated_date=2026-09-23/part_0000.gz",
+    "url": "https://openalex.s3.amazonaws.com/data/jsonl/fields/updated_date=2026-10-14/part_0000.gz",
     "kind": "fields",
     "format": "jsonl.gz",
     "count": 26,
-    "release_date": "2026-09-23",
+    "release_date": "2026-10-14",
     "manifest_url": "https://openalex.s3.amazonaws.com/data/jsonl/fields/manifest.json",
-    "manifest_sha256": "a12cf337ef93fe5281ad1574a292b06154aa8af462f5d4e39e372a074e20a4b9",
-    "retrieved_at": "2026-10-05T15:22:36.273904+00:00",
-    "sha256": "49377b5c68ad9e34101f0586b12d6f68afc298ce78a7a596d386ea9cad42cd5d"
+    "manifest_sha256": "1a5626a6a07c4a6011623a7a84ca9f752f2e87488199d8c7e57f96b27d165150",
+    "retrieved_at": "2026-10-20T12:27:15.547632+00:00",
+    "sha256": "e8d54e441027a5b012649765e7859dee148e32ea668d4fab8f5e313a249ed6e9"
   },
   {
     "file": "subfields-snapshot-000.gz",
-    "url": "https://openalex.s3.amazonaws.com/data/jsonl/subfields/updated_date=2026-09-23/part_0000.gz",
+    "url": "https://openalex.s3.amazonaws.com/data/jsonl/subfields/updated_date=2026-10-13/part_0000.gz",
     "kind": "subfields",
     "format": "jsonl.gz",
     "count": 252,
-    "release_date": "2026-09-23",
+    "release_date": "2026-10-14",
     "manifest_url": "https://openalex.s3.amazonaws.com/data/jsonl/subfields/manifest.json",
-    "manifest_sha256": "d80c4baf64c4814973283032ab18c0e5fb9ba326e317fbcbe1e21b1bf6095389",
-    "retrieved_at": "2026-10-05T15:22:40.134838+00:00",
-    "sha256": "9034851602d76eb47be98e4e4ad397ef259d28888fde3e5e61f3dedf29f0b545"
+    "manifest_sha256": "815658afd4ebf1733a14d27d31ca863072a621769bb44ac633c747b163937677",
+    "retrieved_at": "2026-10-20T12:27:17.464223+00:00",
+    "sha256": "7fb0d047e866d7a55338bb0c9a3ec03c130fc84a6341b17149093349735cd6a5"
+  },
+  {
+    "file": "subfields-snapshot-001.gz",
+    "url": "https://openalex.s3.amazonaws.com/data/jsonl/subfields/updated_date=2026-10-14/part_0000.gz",
+    "kind": "subfields",
+    "format": "jsonl.gz",
+    "count": 252,
+    "release_date": "2026-10-14",
+    "manifest_url": "https://openalex.s3.amazonaws.com/data/jsonl/subfields/manifest.json",
+    "manifest_sha256": "815658afd4ebf1733a14d27d31ca863072a621769bb44ac633c747b163937677",
+    "retrieved_at": "2026-10-20T12:27:18.801323+00:00",
+    "sha256": "5246243c76191b71ba55619e56609d410fe8b4e6904c1504170ce02b90614138"
   },
   {
     "file": "topics-snapshot-000.gz",
-    "url": "https://openalex.s3.amazonaws.com/data/jsonl/topics/updated_date=2026-09-19/part_0000.gz",
+    "url": "https://openalex.s3.amazonaws.com/data/jsonl/topics/updated_date=2026-10-05/part_0000.gz",
     "kind": "topics",
     "format": "jsonl.gz",
     "count": 4516,
-    "release_date": "2026-09-23",
+    "release_date": "2026-10-14",
     "manifest_url": "https://openalex.s3.amazonaws.com/data/jsonl/topics/manifest.json",
-    "manifest_sha256": "e063813df6118fb59d41e9532d4375c309df4876a9bb9b69ca3456265951503a",
-    "retrieved_at": "2026-10-05T15:22:43.637520+00:00",
-    "sha256": "1a4f159fd4a28209a2dbd6eb8f204b9d1080f1a86a83e2d4180ed0c366892ad3"
+    "manifest_sha256": "53553daa8f5ddc547e9f80089e1e38ec73042cb905133eb1c8040419459ee84f",
+    "retrieved_at": "2026-10-20T12:27:21.284600+00:00",
+    "sha256": "66294b62b1b4818674ccdd1ff8c65ee653fe7a56d91804eb9940d257d7412059"
   },
   {
     "file": "topics-snapshot-001.gz",
-    "url": "https://openalex.s3.amazonaws.com/data/jsonl/topics/updated_date=2026-09-21/part_0000.gz",
+    "url": "https://openalex.s3.amazonaws.com/data/jsonl/topics/updated_date=2026-10-08/part_0000.gz",
     "kind": "topics",
     "format": "jsonl.gz",
     "count": 4516,
-    "release_date": "2026-09-23",
+    "release_date": "2026-10-14",
     "manifest_url": "https://openalex.s3.amazonaws.com/data/jsonl/topics/manifest.json",
-    "manifest_sha256": "e063813df6118fb59d41e9532d4375c309df4876a9bb9b69ca3456265951503a",
-    "retrieved_at": "2026-10-05T15:22:45.709588+00:00",
-    "sha256": "db79eee5c405ad163e2caf587c2ae3fcd9621562636f8df07bf84dabd37482f5"
+    "manifest_sha256": "53553daa8f5ddc547e9f80089e1e38ec73042cb905133eb1c8040419459ee84f",
+    "retrieved_at": "2026-10-20T12:27:22.264732+00:00",
+    "sha256": "2e278df5a5a5847e4c29c64e3a0c5a62ee5028e4f5db2e28daa60542a0486149"
   },
   {
     "file": "topics-snapshot-002.gz",
-    "url": "https://openalex.s3.amazonaws.com/data/jsonl/topics/updated_date=2026-09-22/part_0000.gz",
+    "url": "https://openalex.s3.amazonaws.com/data/jsonl/topics/updated_date=2026-10-09/part_0000.gz",
     "kind": "topics",
     "format": "jsonl.gz",
     "count": 4516,
-    "release_date": "2026-09-23",
+    "release_date": "2026-10-14",
     "manifest_url": "https://openalex.s3.amazonaws.com/data/jsonl/topics/manifest.json",
-    "manifest_sha256": "e063813df6118fb59d41e9532d4375c309df4876a9bb9b69ca3456265951503a",
-    "retrieved_at": "2026-10-05T15:22:47.373146+00:00",
-    "sha256": "0640483c6abacde466d6666db57edaa48d86b1a5e2c42b13dd5b0144033382c7"
+    "manifest_sha256": "53553daa8f5ddc547e9f80089e1e38ec73042cb905133eb1c8040419459ee84f",
+    "retrieved_at": "2026-10-20T12:27:23.860750+00:00",
+    "sha256": "963dd6d42b5f423be87ad47bad701fd3c04efd211d36a3c33a34c0a658526e17"
   },
   {
     "file": "topics-snapshot-003.gz",
-    "url": "https://openalex.s3.amazonaws.com/data/jsonl/topics/updated_date=2026-09-23/part_0000.gz",
+    "url": "https://openalex.s3.amazonaws.com/data/jsonl/topics/updated_date=2026-10-10/part_0000.gz",
     "kind": "topics",
     "format": "jsonl.gz",
     "count": 4516,
-    "release_date": "2026-09-23",
+    "release_date": "2026-10-14",
     "manifest_url": "https://openalex.s3.amazonaws.com/data/jsonl/topics/manifest.json",
-    "manifest_sha256": "e063813df6118fb59d41e9532d4375c309df4876a9bb9b69ca3456265951503a",
-    "retrieved_at": "2026-10-05T15:23:24.642504+00:00",
-    "sha256": "a63f0ff028981eeecf35034fe58fe09323f174cae81d8e5053900cf8ea4993ca"
+    "manifest_sha256": "53553daa8f5ddc547e9f80089e1e38ec73042cb905133eb1c8040419459ee84f",
+    "retrieved_at": "2026-10-20T12:27:24.758161+00:00",
+    "sha256": "3cc69f880150e96696c06dad448ffe7aa9ba73fe4d027f77332f72e6f1d829b7"
+  },
+  {
+    "file": "topics-snapshot-004.gz",
+    "url": "https://openalex.s3.amazonaws.com/data/jsonl/topics/updated_date=2026-10-13/part_0000.gz",
+    "kind": "topics",
+    "format": "jsonl.gz",
+    "count": 4516,
+    "release_date": "2026-10-14",
+    "manifest_url": "https://openalex.s3.amazonaws.com/data/jsonl/topics/manifest.json",
+    "manifest_sha256": "53553daa8f5ddc547e9f80089e1e38ec73042cb905133eb1c8040419459ee84f",
+    "retrieved_at": "2026-10-20T12:27:25.709438+00:00",
+    "sha256": "e41cbc13e1d6f1592957db5e72af79328b4822cbc4b758ad68cf5690a8123a35"
+  },
+  {
+    "file": "topics-snapshot-005.gz",
+    "url": "https://openalex.s3.amazonaws.com/data/jsonl/topics/updated_date=2026-10-14/part_0000.gz",
+    "kind": "topics",
+    "format": "jsonl.gz",
+    "count": 4516,
+    "release_date": "2026-10-14",
+    "manifest_url": "https://openalex.s3.amazonaws.com/data/jsonl/topics/manifest.json",
+    "manifest_sha256": "53553daa8f5ddc547e9f80089e1e38ec73042cb905133eb1c8040419459ee84f",
+    "retrieved_at": "2026-10-20T12:27:28.186643+00:00",
+    "sha256": "a12fb4f638b05783fcfce384629a70aea1b2d09129c88e56240d69cc9be46fce"
   }
 ]

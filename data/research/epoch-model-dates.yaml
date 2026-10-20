@@ -1,7 +1,7 @@
 source_id: epoch-benchmarks
 source_url: https://epoch.ai/data/benchmark_data.zip
-source_sha256: 49ecfe2caad7a23a5f86ca68402132af3b47872a2f713dc7c548536c9da53529
-observed_on: '2026-10-19'
+source_sha256: 874a2184618de8f2081cf60c24f9238b9ca019b74c2b479e1ba829449c6348b3
+observed_on: '2026-10-20'
 source_file: benchmark_data.zip/model_metadata.csv
 license: CC-BY 4.0（压缩包 README）
 notes: name 为 Epoch 的 model_group；release_date 为模型发布日期，不是评测日期；源表未给出日期或同组版本日期不一致时为
@@ -209,6 +209,7 @@ models:
   - claude-haiku-5-5_low
   - claude-haiku-5-5_max
   - claude-haiku-5-5_medium
+  - claude-haiku-5-5_none
   - claude-haiku-5-5_unknown
   - claude-haiku-5-5_xhigh
 - name: Claude Instant
@@ -522,6 +523,15 @@ models:
   - deepseek-v4.1-flash_max
   - deepseek-v4.1-flash_none
   - deepseek-v4.1-flash_unknown
+- name: DeepSeek V4.1 Flash 1017
+  organization: DeepSeek
+  release_date: '2026-10-17'
+  model_versions:
+  - deepseek-v4.1-flash-1017_high
+  - deepseek-v4.1-flash-1017_low
+  - deepseek-v4.1-flash-1017_max
+  - deepseek-v4.1-flash-1017_none
+  - deepseek-v4.1-flash-1017_unknown
 - name: DeepSeek-Coder-V2 236B
   organization: DeepSeek
   release_date: '2024-06-17'
