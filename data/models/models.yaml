@@ -568,11 +568,38 @@
 - id: claude-sonnet-4-thinking-8-k
   name: Claude Sonnet 4 (Thinking 8K)
   provider: Anthropic
+- id: claude-sonnet-5-5-high
+  name: Claude Sonnet 5.5 (High)
+  provider: Anthropic
+- id: claude-sonnet-5-5-low
+  name: Claude Sonnet 5.5 (Low)
+  provider: Anthropic
+- id: claude-sonnet-5-5-max
+  name: Claude Sonnet 5.5 (Max)
+  provider: Anthropic
 - id: claude-sonnet-5-5-max-claude-sonnet-5-5-max
   name: Claude Sonnet 5.5 (max) [claude-sonnet-5-5_max]
   provider: Anthropic
   release_date: '2026-09-28'
   release_source: https://epoch.ai/data/benchmark_data.zip
+- id: claude-sonnet-5-5-medium
+  name: Claude Sonnet 5.5 (Medium)
+  provider: Anthropic
+- id: claude-sonnet-5-5-provider-adapter-high
+  name: Claude Sonnet 5.5 - Provider Adapter (High)
+  provider: Anthropic
+- id: claude-sonnet-5-5-provider-adapter-low
+  name: Claude Sonnet 5.5 - Provider Adapter (Low)
+  provider: Anthropic
+- id: claude-sonnet-5-5-provider-adapter-medium
+  name: Claude Sonnet 5.5 - Provider Adapter (Medium)
+  provider: Anthropic
+- id: claude-sonnet-5-5-provider-adapter-xhigh
+  name: Claude Sonnet 5.5 - Provider Adapter (XHigh)
+  provider: Anthropic
+- id: claude-sonnet-5-5-xhigh
+  name: Claude Sonnet 5.5 (XHigh)
+  provider: Anthropic
 - id: claude-sonnet-5-max-claude-sonnet-5-max
   name: Claude Sonnet 5 (max) [claude-sonnet-5_max]
   provider: Anthropic
@@ -699,6 +726,23 @@
   provider: DeepSeek
   release_date: '2025-03-24'
   release_source: https://epoch.ai/data/benchmark_data.zip
+- id: deepseek-v-4-1-flash-1017-high
+  name: DeepSeek V4.1 Flash 1017 (High)
+  provider: DeepSeek
+- id: deepseek-v-4-1-flash-1017-low
+  name: DeepSeek V4.1 Flash 1017 (Low)
+  provider: DeepSeek
+- id: deepseek-v-4-1-flash-1017-max
+  name: DeepSeek V4.1 Flash 1017 (Max)
+  provider: DeepSeek
+- id: deepseek-v-4-1-flash-1017-max-deepseek-v-4-1-flash-1017-max
+  name: DeepSeek V4.1 Flash 1017 (max) [deepseek-v4.1-flash-1017_max]
+  provider: DeepSeek
+  release_date: '2026-10-17'
+  release_source: https://epoch.ai/data/benchmark_data.zip
+- id: deepseek-v-4-1-flash-1017-none
+  name: DeepSeek V4.1 Flash 1017 (None)
+  provider: DeepSeek
 - id: deepseek-v-4-1-flash-high
   name: DeepSeek V4.1 Flash (High)
   provider: DeepSeek
@@ -2810,6 +2854,18 @@
   provider: Meta AI
   release_date: '2026-04-08'
   release_source: https://epoch.ai/data/benchmark_data.zip
+- id: muse-spark-open-high
+  name: Muse Spark Open (High)
+  provider: Meta AI
+- id: muse-spark-open-low
+  name: Muse Spark Open (Low)
+  provider: Meta AI
+- id: muse-spark-open-medium
+  name: Muse Spark Open (Medium)
+  provider: Meta AI
+- id: muse-spark-open-xhigh
+  name: Muse Spark Open (XHigh)
+  provider: Meta AI
 - id: muse-spark-open-xhigh-muse-spark-open-816-b-a-42-b-xhigh
   name: Muse Spark Open (xhigh) [Muse-Spark-Open-816B-A42B_xhigh]
   provider: Meta AI
@@ -2820,6 +2876,15 @@
   provider: Meta AI
   release_date: '2026-10-12'
   release_source: https://epoch.ai/data/benchmark_data.zip
+- id: nemotron-3-5-super-vl-high
+  name: Nemotron 3.5 Super VL (High)
+  provider: NVIDIA
+- id: nemotron-3-5-super-vl-medium
+  name: Nemotron 3.5 Super VL (Medium)
+  provider: NVIDIA
+- id: nemotron-3-5-super-vl-none
+  name: Nemotron 3.5 Super VL (None)
+  provider: NVIDIA
 - id: nemotron-3-ultra-nemotron-3-ultra
   name: Nemotron 3 Ultra [nemotron-3-ultra]
   provider: Nvidia

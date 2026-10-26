@@ -1,7 +1,7 @@
 source_id: epoch-benchmarks
 source_url: https://epoch.ai/data/benchmark_data.zip
-source_sha256: 874a2184618de8f2081cf60c24f9238b9ca019b74c2b479e1ba829449c6348b3
-observed_on: '2026-10-20'
+source_sha256: c5c19806f726adb97d79fbdd077b14ef07c89693373127138dcd12e18d7fcd22
+observed_on: '2026-10-26'
 source_file: benchmark_data.zip/model_metadata.csv
 license: CC-BY 4.0（压缩包 README）
 notes: name 为 Epoch 的 model_group；release_date 为模型发布日期，不是评测日期；源表未给出日期或同组版本日期不一致时为
@@ -1222,6 +1222,11 @@ models:
   - gpt-6-luna_none
   - gpt-6-luna_unknown
   - gpt-6-luna_xhigh
+- name: GPT-6 Luna Decisions
+  organization: OpenAI
+  release_date: '2026-09-22'
+  model_versions:
+  - gpt-6-luna-decisions
 - name: GPT-6 Sol
   organization: OpenAI
   release_date: '2026-09-22'
@@ -1799,6 +1804,11 @@ models:
   release_date: '2024-12-06'
   model_versions:
   - InternVL2_5-78B
+- name: Jev
+  organization: TypeSafe.ai
+  release_date: '2026-10-14'
+  model_versions:
+  - jev-1.14.0
 - name: Kimi Dev 72b
   organization: Moonshot
   release_date: '2025-06-16'
@@ -1853,6 +1863,14 @@ models:
   - kimi-k3_low
   - kimi-k3_max
   - kimi-k3_unknown
+- name: Kimi K3.1 Pro
+  organization: Moonshot
+  release_date: '2026-10-23'
+  model_versions:
+  - kimi-k3.1-pro_high
+  - kimi-k3.1-pro_low
+  - kimi-k3.1-pro_max
+  - kimi-k3.1-pro_unknown
 - name: LLaMA-13B
   organization: Meta AI
   release_date: '2023-02-24'

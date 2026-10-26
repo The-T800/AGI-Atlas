@@ -20,7 +20,7 @@
 The taxonomy uses the **latest complete public OpenAlex release available on 2026-10-20: 2026-10-14**. It was downloaded on **2026-10-20** from the official public S3 bucket, with all four hierarchy levels, release manifests and SHA-256 hashes retained. This is a complete public release, not a claim of a complete same-day live API snapshot.
 
 <!-- benchmark-refresh:start -->
-Benchmark sources: **51**; retrieval dates: **2026-10-20**. Catalog: **193 benchmarks**, **3,790 score records**, **919 models**; **119 benchmarks** have verified score transcriptions.
+Benchmark sources: **51**; retrieval dates: **2026-10-26**. Catalog: **193 benchmarks**, **3,832 score records**, **940 models**; **119 benchmarks** have verified score transcriptions.
 
 Subject links: **73 benchmarks**; **45** have results and **5** have dated results within the last year. The evidence window follows the latest score retrieval, independently of taxonomy retrieval. Evaluation, publication, model release and retrieval dates stay separate. Downloading an old result does not make its evaluation recent.
 <!-- benchmark-refresh:end -->
