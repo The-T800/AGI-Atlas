@@ -534,11 +534,6 @@
   provider: Anthropic
   release_date: '2026-02-17'
   release_source: https://epoch.ai/data/benchmark_data.zip
-- id: claude-sonnet-4-6-no-thinking-claude-sonnet-4-6
-  name: Claude Sonnet 4.6 (no thinking) [claude-sonnet-4-6]
-  provider: Anthropic
-  release_date: '2026-02-17'
-  release_source: https://epoch.ai/data/benchmark_data.zip
 - id: claude-sonnet-4-claude-sonnet-4-20250514
   name: Claude Sonnet 4 [claude-sonnet-4-20250514]
   provider: Anthropic
@@ -1006,11 +1001,6 @@
   provider: Google
 - id: gemini-3-1-pro-preview-gemini-3-1-pro-preview
   name: Gemini 3.1 Pro Preview [gemini-3.1-pro-preview]
-  provider: Google DeepMind
-  release_date: '2026-02-19'
-  release_source: https://epoch.ai/data/benchmark_data.zip
-- id: gemini-3-1-pro-preview-gemini-3-1-pro-preview-customtools
-  name: Gemini 3.1 Pro Preview [gemini-3.1-pro-preview-customtools]
   provider: Google DeepMind
   release_date: '2026-02-19'
   release_source: https://epoch.ai/data/benchmark_data.zip
@@ -1591,11 +1581,6 @@
 - id: gpt-5-2025-08-07-medium
   name: GPT 5 (2025-08-07) (medium)
   provider: OpenAI
-- id: gpt-5-3-codex-high-gpt-5-3-codex-high
-  name: GPT-5.3 Codex (high) [gpt-5.3-codex_high]
-  provider: OpenAI
-  release_date: '2026-02-05'
-  release_source: https://epoch.ai/data/benchmark_data.zip
 - id: gpt-5-4-high
   name: GPT-5.4 (High)
   provider: OpenAI
@@ -2030,6 +2015,11 @@
 - id: gpt-6-1-sol-xhigh
   name: GPT-6.1 Sol (XHigh)
   provider: OpenAI
+- id: gpt-6-1-terra-max-gpt-6-1-terra-max
+  name: GPT-6.1 Terra (max) [gpt-6.1-terra_max]
+  provider: OpenAI
+  release_date: '2026-10-26'
+  release_source: https://epoch.ai/data/benchmark_data.zip
 - id: gpt-6-astra-high
   name: GPT-6 Astra (High)
   provider: OpenAI
@@ -2862,6 +2852,9 @@
   provider: Meta AI
 - id: muse-spark-open-medium
   name: Muse Spark Open (Medium)
+  provider: Meta AI
+- id: muse-spark-open-provider-adapter-xhigh
+  name: Muse Spark Open - Provider Adapter (XHigh)
   provider: Meta AI
 - id: muse-spark-open-xhigh
   name: Muse Spark Open (XHigh)
