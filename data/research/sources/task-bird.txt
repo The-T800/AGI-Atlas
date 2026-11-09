@@ -31,6 +31,7 @@
     <!-- Custom styles for this template -->
     <link href="./style/clean-blog.min.css" rel="stylesheet" />
     <link href="./style/bird.css" rel="stylesheet" />
+    <link href="./style/minidev-leaderboard.css" rel="stylesheet" />
 <link href="./style/project-updates.css?v=20261010-8" rel="stylesheet" />
   </head>
 
@@ -1454,6 +1455,20 @@ Comprehensive National Science Center-IDATA</span><br>
                     <td class="align-middle text-center">75.74</td>
                   </tr>
 
+                    <tr>
+                      <td scope="row" class="align-middle text-center counter-cell">
+                        <span class="badge badge-secondary">Oct 27, 2026</span>
+                      </td>
+                      <td class="align-middle text-center">flash-sqlite-4b: Qwen3.5-4B Generator + Execution Repair + Self-Judge (SC@32)<br>
+                        <span class="affiliation">Alio Leuchtmann</span>
+                      </td>
+                      <td class="align-middle text-center"><a href="https://huggingface.co/AlioLeuchtmann/flash-sqlite-4b">[link]</a></td>
+                      <td class="align-middle text-center">4B</td>
+                      <td class="align-middle text-center">✔️</td>
+                      <td class="align-middle text-center"><span class="new-dev-badge" data-tooltip="Evaluated on BIRD Dev 20251106">New Dev</span><br>71.41</td>
+                      <td class="align-middle text-center"><span class="new-dev-badge" style="visibility:hidden">New Dev</span><br>75.68</td>
+                    </tr>
+
                   <tr>
                     <td scope="row" class="align-middle text-center counter-cell">
                       <span class="badge badge-secondary">Feb 27, 2025</span>
@@ -1588,6 +1603,20 @@ Comprehensive National Science Center-IDATA</span><br>
                     <td class="align-middle text-center">✔️</td>
                     <td class="align-middle text-center"></td>
                     <td class="align-middle text-center">74.51</td>
+                  </tr>
+
+                  <tr>
+                    <td scope="row" class="align-middle text-center counter-cell">
+                      <span class="badge badge-secondary">Oct 31, 2026</span>
+                    </td>
+                    <td class="align-middle text-center">schemagate<br>
+                      <span class="affiliation">Ashish Sinha (Independent)</span><br>
+                    </td>
+                    <td class="align-middle text-center"><a href="https://github.com/ashishsinha1602/schemagate">[link]</a></td>
+                    <td class="align-middle text-center">UNK</td>
+                    <td class="align-middle text-center">✔️</td>
+                    <td class="align-middle text-center">84.03</td>
+                    <td class="align-middle text-center">74.34</td>
                   </tr>
 
                   <tr>
@@ -1739,6 +1768,20 @@ Comprehensive National Science Center-IDATA</span><br>
                     <td class="align-middle text-center">UNK</td>
                     <td class="align-middle text-center">✔️</td>
                     <td class="align-middle text-center">69.30</td>
+                    <td class="align-middle text-center">72.28</td>
+                  </tr>
+
+                  <tr>
+                    <td scope="row" class="align-middle text-center counter-cell">
+                      <span class="badge badge-secondary">Nov 1, 2026</span>
+                    </td>
+                    <td class="align-middle text-center">SPS-SQL<br>
+                      <span class="affiliation">LEAP</span>
+                    </td>
+                    <td class="align-middle text-center"></td>
+                    <td class="align-middle text-center">30B+14B</td>
+                    <td class="align-middle text-center">✔️</td>
+                    <td class="align-middle text-center">72.16</td>
                     <td class="align-middle text-center">72.28</td>
                   </tr>
 
@@ -2131,20 +2174,6 @@ Comprehensive National Science Center-IDATA</span><br>
                       <td class="align-middle text-center">✔️</td>
                       <td class="align-middle text-center">67.21</td>
                       <td class="align-middle text-center">68.70</td>
-                    </tr>
-
-                  <tr>
-                      <td scope="row" class="align-middle text-center counter-cell">
-                        <span class="badge badge-secondary">Aug 24, 2026</span>
-                      </td>
-                      <td class="align-middle text-center">Qwen3.5-2B + StructCoT Distillation (SC@7)<br>
-                        <span class="affiliation">Alio Leuchtmann</span>
-                      </td>
-                      <td class="align-middle text-center"><a href="https://huggingface.co/AlioLeuchtmann/qwen-3.5-sql-27B-Distill-2B">[link]</a></td>
-                      <td class="align-middle text-center">2B</td>
-                      <td class="align-middle text-center">✔️</td>
-                      <td class="align-middle text-center"><span class="new-dev-badge" data-tooltip="Evaluated on BIRD Dev 20251106">New Dev</span><br>61.40</td>
-                      <td class="align-middle text-center"><span class="new-dev-badge" style="visibility:hidden">New Dev</span><br>68.47</td>
                     </tr>
 
                   <tr>
@@ -4029,6 +4058,19 @@ Comprehensive National Science Center-IDATA</span><br>
 
                     <tr>
                       <td scope="row" class="align-middle text-center counter-cell">
+                        <span class="badge badge-secondary">Nov 1, 2026</span>
+                      </td>
+                      <td class="align-middle text-center">SPS-SQL<br>
+                        <span class="affiliation">LEAP</span>
+                      </td>
+                      <td class="align-middle text-center"></td>
+                      <td class="align-middle text-center">30B+14B</td>
+                      <td class="align-middle text-center">✔️</td>
+                      <td class="align-middle text-center">65.91</td>
+                    </tr>
+
+                    <tr>
+                      <td scope="row" class="align-middle text-center counter-cell">
                         <span class="badge badge-secondary">Aug 17, 2026</span>
                       </td>
                       <td class="align-middle text-center">EGV-SQL + Qwen3.6-27B<br>
@@ -4582,14 +4624,118 @@ Comprehensive National Science Center-IDATA</span><br>
               </div>
             </div>
             <div class="list-group-item" id="illustration">
-              <h3>BIRD Mini-Dev </h3>
+              <h3 id="mini-dev">BIRD Mini-Dev</h3>
               <p>
-                A <b>Lite</b> version of developtment dataset, which is designed
+                A <b>Lite</b> version of the development dataset, designed
                 to facilitate efficient and cost-effective development cycles,
-                 especially for testing and refining SQL query generation models. For more details, please visit the <a href="https://github.com/bird-bench/mini_dev">GitHub repository</a>.
-                 For updating Leaderboard, please make sure your paper or resource is public available and submit a PR.
+                especially for testing and refining SQL query generation models. For more details and the latest data, please visit the <a href="https://github.com/bird-bench/mini_dev">GitHub repository</a> and <a href="https://huggingface.co/datasets/birdsql/bird_mini_dev">Hugging Face</a>.
+                For leaderboard updates, please make sure your paper or resource is publicly available and submit a PR.
               </p>
             </div>
+            <div class="mini-dev-leaderboards">
+              <div class="card card-outline-secondary mini-dev-current">
+                <div class="card-header">Mini Dev - Execution Accuracy (EX)</div>
+                <div class="table-wrapper">
+                  <table class="table" id="mini-dev-current-table" aria-label="BIRD Mini-Dev baseline execution accuracy, percent">
+                    <thead class="thead-light">
+                      <tr>
+                        <th scope="col">Rank</th>
+                        <th scope="col">Model</th>
+                        <th scope="col">SQLite</th>
+                        <th scope="col">MySQL</th>
+                        <th scope="col">PostgreSQL</th>
+                        <th scope="col">Overall</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr class="mini-dev-upper-bound table-success">
+                        <td class="mini-dev-rank" aria-label="Not ranked"></td>
+                        <th scope="row"><strong>Empirical Upper Bound</strong></th>
+                        <td><strong>99.60</strong></td>
+                        <td><strong>93.80</strong></td>
+                        <td><strong>97.00</strong></td>
+                        <td><strong>96.80</strong></td>
+                      </tr>
+                      <tr>
+                        <td class="mini-dev-rank">1</td>
+                        <th scope="row">GPT-6.1 Sol<span class="affiliation mini-dev-vendor">OpenAI</span></th>
+                        <td>88.00</td>
+                        <td>84.80</td>
+                        <td>89.00</td>
+                        <td><strong>87.27</strong></td>
+                      </tr>
+                      <tr>
+                        <td class="mini-dev-rank">2</td>
+                        <th scope="row">Claude Opus 5.5<span class="affiliation mini-dev-vendor">Anthropic</span></th>
+                        <td>90.00</td>
+                        <td>84.40</td>
+                        <td>87.00</td>
+                        <td>87.13</td>
+                      </tr>
+                      <tr>
+                        <td class="mini-dev-rank">3</td>
+                        <th scope="row">Claude Sonnet 5.5<span class="affiliation mini-dev-vendor">Anthropic</span></th>
+                        <td>86.60</td>
+                        <td>80.40</td>
+                        <td>85.60</td>
+                        <td>84.20</td>
+                      </tr>
+                      <tr>
+                        <td class="mini-dev-rank">4</td>
+                        <th scope="row">Qwen3.8-Flash-Next<span class="affiliation mini-dev-vendor">Alibaba Cloud</span></th>
+                        <td>70.20</td>
+                        <td>67.00</td>
+                        <td>67.80</td>
+                        <td>68.33</td>
+                      </tr>
+                      <tr>
+                        <td class="mini-dev-rank">5</td>
+                        <th scope="row">DeepSeek-V4.1-Flash<span class="affiliation mini-dev-vendor">DeepSeek</span></th>
+                        <td>61.00</td>
+                        <td>55.80</td>
+                        <td>62.20</td>
+                        <td>59.67</td>
+                      </tr>
+                      <tr>
+                        <td class="mini-dev-rank">6</td>
+                        <th scope="row">Claude Haiku 5.5<span class="affiliation mini-dev-vendor">Anthropic</span></th>
+                        <td>59.60</td>
+                        <td>55.20</td>
+                        <td>58.60</td>
+                        <td>57.80</td>
+                      </tr>
+                      <tr>
+                        <td class="mini-dev-rank">7</td>
+                        <th scope="row">GPT-6 Luna<span class="affiliation mini-dev-vendor">OpenAI</span></th>
+                        <td>54.00</td>
+                        <td>51.00</td>
+                        <td>51.80</td>
+                        <td>52.27</td>
+                      </tr>
+                      <tr>
+                        <td class="mini-dev-rank">8</td>
+                        <th scope="row">GLM-5.3<span class="affiliation mini-dev-vendor">Z.ai</span></th>
+                        <td>51.40</td>
+                        <td>48.40</td>
+                        <td>48.40</td>
+                        <td>49.40</td>
+                      </tr>
+                      <tr>
+                        <td class="mini-dev-rank">9</td>
+                        <th scope="row">Qwen3.6-35B-A3B<span class="affiliation mini-dev-vendor">Alibaba Cloud</span></th>
+                        <td>21.20</td>
+                        <td>22.20</td>
+                        <td>20.00</td>
+                        <td>21.13</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+              <details class="mini-dev-legacy" id="mini-dev-legacy">
+                <summary>BIRD Mini Dev Legacy</summary>
+                <div class="mini-dev-legacy-body">
+                  <p class="mini-dev-legacy-note">These results were evaluated on the previous Mini-Dev version.</p>
             <div class="card card-outline-secondary">
               <div class="card-header">Mini Dev - Execution Accuracy (EX)</div>
               <div class="table-wrapper">
@@ -4948,6 +5094,9 @@ Comprehensive National Science Center-IDATA</span><br>
                 </table>
               </div>
             </div>
+                </div>
+              </details>
+            </div>
           </div>
 
           <div id="single-model-leaderboard" style="display: none;">
@@ -5132,6 +5281,22 @@ Comprehensive National Science Center-IDATA</span><br>
 </td>
                       <td class="align-middle text-center">-</td>
                       <td class="align-middle text-center">75.68</td>
+                    </tr>
+
+                    <tr>
+                      <td scope="row" class="align-middle text-center counter-cell">
+                        <span class="badge badge-secondary">Oct 27, 2026</span>
+                      </td>
+                      <td class="align-middle text-center">flash-sqlite-4b: Qwen3.5-4B Generator + Execution Repair + Self-Judge<br>
+                        <span class="affiliation">Alio Leuchtmann</span>
+                      </td>
+                      <td class="align-middle text-center"><a href="https://huggingface.co/AlioLeuchtmann/flash-sqlite-4b">[link]</a></td>
+                      <td class="align-middle text-center">4B</td>
+                      <td class="align-middle text-center"
+    style="font-size: 0.95em; font-style: italic;">Many
+</td>
+                      <td class="align-middle text-center"><span class="new-dev-badge" data-tooltip="Evaluated on BIRD Dev 20251106">New Dev</span><br>71.41</td>
+                      <td class="align-middle text-center"><span class="new-dev-badge" style="visibility:hidden">New Dev</span><br>75.68</td>
                     </tr>
 
                     <tr>
@@ -5323,6 +5488,22 @@ Comprehensive National Science Center-IDATA</span><br>
                       <td class="align-middle text-center"></td>
                       <td class="align-middle text-center"></td>
                       <td class="align-middle text-center">72.55</td>
+                    </tr>
+
+                    <tr>
+                      <td scope="row" class="align-middle text-center counter-cell">
+                        <span class="badge badge-secondary">Nov 1, 2026</span>
+                      </td>
+                      <td class="align-middle text-center">SPS-SQL<br>
+                        <span class="affiliation">LEAP</span>
+                      </td>
+                      <td class="align-middle text-center"></td>
+                      <td class="align-middle text-center">30B+14B</td>
+                      <td class="align-middle text-center"
+    style="font-size: 0.95em; font-style: italic;">Scale
+</td>
+                      <td class="align-middle text-center">72.16</td>
+                      <td class="align-middle text-center">72.28</td>
                     </tr>
 
                     <tr>
@@ -5529,22 +5710,6 @@ Comprehensive National Science Center-IDATA</span><br>
                       <td class="align-middle text-center"></td>
                       <td class="align-middle text-center">68.51</td>
                       <td class="align-middle text-center">68.53</td>
-                    </tr>
-
-                    <tr>
-                      <td scope="row" class="align-middle text-center counter-cell">
-                        <span class="badge badge-secondary">Aug 24, 2026</span>
-                      </td>
-                      <td class="align-middle text-center">Qwen3.5-2B + StructCoT Distillation<br>
-                        <span class="affiliation">Alio Leuchtmann</span>
-                      </td>
-                      <td class="align-middle text-center"><a href="https://huggingface.co/AlioLeuchtmann/qwen-3.5-sql-27B-Distill-2B">[link]</a></td>
-                      <td class="align-middle text-center">2B</td>
-                      <td class="align-middle text-center"
-    style="font-size: 0.95em; font-style: italic;">Few
-</td>
-                      <td class="align-middle text-center"><span class="new-dev-badge" data-tooltip="Evaluated on BIRD Dev 20251106">New Dev</span><br>61.40</td>
-                      <td class="align-middle text-center"><span class="new-dev-badge" style="visibility:hidden">New Dev</span><br>68.47</td>
                     </tr>
 
                     <tr>

@@ -1,7 +1,7 @@
 source_id: epoch-benchmarks
 source_url: https://epoch.ai/data/benchmark_data.zip
-source_sha256: 5e7389eb9ef6f48f081dde023fbc15d38fab5a1eb497278932217e259eaf70a3
-observed_on: '2026-11-02'
+source_sha256: 9cd361351fe1772b0459d22366565e500dd9ae7dbd66f0c90e573f80d2c536a1
+observed_on: '2026-11-09'
 source_file: benchmark_data.zip/model_metadata.csv
 license: CC-BY 4.0（压缩包 README）
 notes: name 为 Epoch 的 model_group；release_date 为模型发布日期，不是评测日期；源表未给出日期或同组版本日期不一致时为
@@ -712,6 +712,58 @@ models:
   release_date: '2023-04-11'
   model_versions:
   - dolly-v2-12b
+- name: Doubao Seed 2.0 Lite (Apr 2026)
+  organization: ByteDance
+  release_date: '2026-04-28'
+  model_versions:
+  - doubao-seed-2.0-lite-260428_high
+  - doubao-seed-2.0-lite-260428_low
+  - doubao-seed-2.0-lite-260428_medium
+  - doubao-seed-2.0-lite-260428_none
+  - doubao-seed-2.0-lite-260428_unknown
+- name: Doubao Seed 2.1 Pro
+  organization: ByteDance
+  release_date: '2026-06-23'
+  model_versions:
+  - doubao-seed-2.1-pro-260628_high
+  - doubao-seed-2.1-pro-260628_low
+  - doubao-seed-2.1-pro-260628_medium
+  - doubao-seed-2.1-pro-260628_none
+  - doubao-seed-2.1-pro-260628_unknown
+- name: Doubao Seed 2.1 Turbo
+  organization: ByteDance
+  release_date: '2026-06-23'
+  model_versions:
+  - doubao-seed-2.1-turbo-260628_high
+  - doubao-seed-2.1-turbo-260628_low
+  - doubao-seed-2.1-turbo-260628_medium
+  - doubao-seed-2.1-turbo-260628_none
+  - doubao-seed-2.1-turbo-260628_unknown
+- name: Doubao Seed Evolving (Nov 2026)
+  organization: ByteDance
+  release_date: '2026-11-02'
+  model_versions:
+  - doubao-seed-evolving_high
+  - doubao-seed-evolving_low
+  - doubao-seed-evolving_medium
+  - doubao-seed-evolving_none
+  - doubao-seed-evolving_unknown
+- name: Doubao-Seed-1.6
+  organization: ByteDance
+  release_date: '2025-06-11'
+  model_versions:
+  - seed-1.6
+  - seed-1.6_none
+  - seed-1.6_unknown
+- name: Doubao-Seed-2.0 Pro
+  organization: ByteDance
+  release_date: '2026-02-14'
+  model_versions:
+  - doubao-seed-2.0-pro-260215_high
+  - doubao-seed-2.0-pro-260215_low
+  - doubao-seed-2.0-pro-260215_medium
+  - doubao-seed-2.0-pro-260215_none
+  - doubao-seed-2.0-pro-260215_unknown
 - name: Doubao-pro
   organization: ByteDance
   release_date: '2024-10-28'
@@ -1895,6 +1947,9 @@ models:
   organization: Moonshot
   release_date: '2026-10-23'
   model_versions:
+  - kimi-k3.1-pro-together_high
+  - kimi-k3.1-pro-together_low
+  - kimi-k3.1-pro-together_max
   - kimi-k3.1-pro_high
   - kimi-k3.1-pro_low
   - kimi-k3.1-pro_max
@@ -2264,6 +2319,12 @@ models:
   model_versions:
   - mistral-large-2512
 - name: Mistral Large 4
+  organization: Mistral AI
+  release_date: '2026-10-29'
+  model_versions:
+  - mistral-large-4-0-oss_high
+  - mistral-large-4-0-oss_unknown
+- name: Mistral Large 4 Preview
   organization: Mistral AI
   release_date: '2026-10-06'
   model_versions:

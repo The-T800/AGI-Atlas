@@ -13741,6 +13741,30 @@ Connection: Uniform labeling to Published agreement.</p></noscript></div>
 	<div class="d-flex flex-column">
 		<div class="d-block col-12 position-relative rounded-2 mb-3 overflow-hidden tease-thumbnail" target="_self">
 			<svg aria-hidden="true" width="1032" height="548" class="width-full height-auto d-block" role="presentation"></svg>
+			<img width="400" height="212" src="https://github.blog/wp-content/uploads/2026/01/generic-github-copilot-logo-stripe.png?resize=400%2C212" class="d-block cover-image tease-thumbnail__img wp-post-image" alt="Copilot appears against a decorative background with scattered green squares." decoding="async" loading="lazy" srcset="https://github.blog/wp-content/uploads/2026/01/generic-github-copilot-logo-stripe.png?w=1600 1600w, https://github.blog/wp-content/uploads/2026/01/generic-github-copilot-logo-stripe.png?w=800 800w, https://github.blog/wp-content/uploads/2026/01/generic-github-copilot-logo-stripe.png?w=400 400w, https://github.blog/wp-content/uploads/2026/01/generic-github-copilot-logo-stripe.png?w=1032 1032w, https://github.blog/wp-content/uploads/2026/01/generic-github-copilot-logo-stripe.png?w=516 516w, https://github.blog/wp-content/uploads/2026/01/generic-github-copilot-logo-stripe.png?zoom=3&amp;resize=400%2C212 1200w" sizes="auto, (max-width: 400px) 100vw, 400px" />					</div>
+		<div class="mb-1"><a href="https://github.blog/ai-and-ml/" class="first-post-category f5-mktg text-gradient-purple-coral text-bold pb-1 position-relative z-2">AI &amp; ML</a></div>		<div class="">
+			<h3 class="h6-mktg mb-2">
+				<a class="Link--primary post-card__link" href="https://github.blog/ai-and-ml/github-copilot/beyond-code-generation-a-developers-guide-to-agentic-engineering/" target="_self">
+					Beyond code generation: A developer&#8217;s guide to agentic engineering				</a>
+			</h3>
+			<div class="f4-mktg color-fg-muted">
+				<p>Writing code got faster. The work around it didn&#8217;t. See how you can plan, write code, review changes, and investigate production issues with GitHub Copilot, and what work still needs your judgment.</p>
+			</div>
+		</div>
+		<footer>
+			<div class="d-flex flex-items-center mb-6px">
+		<span>
+					<span class="text-bold">
+				<a href="https://github.blog/author/nickliffen/" title="Posts by Nick Liffen" class="author url fn Link--primary no-wrap position-relative z-2" rel="author">Nick Liffen</a> & <a href="https://github.blog/author/pholleran/" title="Posts by Philip Holleran" class="author url fn Link--primary no-wrap position-relative z-2" rel="author">Philip Holleran</a>			</span>
+							</span>
+</div>
+		</footer>
+	</div>
+</article>
+<article class="color-border-muted post-card">
+	<div class="d-flex flex-column">
+		<div class="d-block col-12 position-relative rounded-2 mb-3 overflow-hidden tease-thumbnail" target="_self">
+			<svg aria-hidden="true" width="1032" height="548" class="width-full height-auto d-block" role="presentation"></svg>
 			<img width="400" height="212" src="https://github.blog/wp-content/uploads/2026/01/generic-github-copilot-logo.png?resize=400%2C212" class="d-block cover-image tease-thumbnail__img wp-post-image" alt="Copilot appears among floating cubes alongside a refresh icon, suggesting an update or automated workflow theme." decoding="async" loading="lazy" srcset="https://github.blog/wp-content/uploads/2026/01/generic-github-copilot-logo.png?w=1600 1600w, https://github.blog/wp-content/uploads/2026/01/generic-github-copilot-logo.png?w=800 800w, https://github.blog/wp-content/uploads/2026/01/generic-github-copilot-logo.png?w=400 400w, https://github.blog/wp-content/uploads/2026/01/generic-github-copilot-logo.png?w=1032 1032w, https://github.blog/wp-content/uploads/2026/01/generic-github-copilot-logo.png?w=516 516w, https://github.blog/wp-content/uploads/2026/01/generic-github-copilot-logo.png?zoom=3&amp;resize=400%2C212 1200w" sizes="auto, (max-width: 400px) 100vw, 400px" />					</div>
 		<div class="mb-1"><a href="https://github.blog/ai-and-ml/" class="first-post-category f5-mktg text-gradient-purple-coral text-bold pb-1 position-relative z-2">AI &amp; ML</a></div>		<div class="">
 			<h3 class="h6-mktg mb-2">
@@ -13786,30 +13810,6 @@ Connection: Uniform labeling to Published agreement.</p></noscript></div>
 		<span>
 					<span class="text-bold">
 				<a href="https://github.blog/author/cinnamonmsft/" title="Posts by Kayla Cinnamon" class="author url fn Link--primary no-wrap position-relative z-2" rel="author">Kayla Cinnamon</a>			</span>
-							</span>
-</div>
-		</footer>
-	</div>
-</article>
-<article class="color-border-muted post-card">
-	<div class="d-flex flex-column">
-		<div class="d-block col-12 position-relative rounded-2 mb-3 overflow-hidden tease-thumbnail" target="_self">
-			<svg aria-hidden="true" width="1032" height="548" class="width-full height-auto d-block" role="presentation"></svg>
-			<img width="400" height="212" src="https://github.blog/wp-content/uploads/2026/01/generic-github-security-logo.png?resize=400%2C212" class="d-block cover-image tease-thumbnail__img wp-post-image" alt="An abstract illustration of connected blocks surrounding a central shield with a checkmark representing secure and verified systems." decoding="async" loading="lazy" srcset="https://github.blog/wp-content/uploads/2026/01/generic-github-security-logo.png?w=1600 1600w, https://github.blog/wp-content/uploads/2026/01/generic-github-security-logo.png?w=800 800w, https://github.blog/wp-content/uploads/2026/01/generic-github-security-logo.png?w=400 400w, https://github.blog/wp-content/uploads/2026/01/generic-github-security-logo.png?w=1032 1032w, https://github.blog/wp-content/uploads/2026/01/generic-github-security-logo.png?w=516 516w, https://github.blog/wp-content/uploads/2026/01/generic-github-security-logo.png?zoom=3&amp;resize=400%2C212 1200w" sizes="auto, (max-width: 400px) 100vw, 400px" />					</div>
-		<div class="mb-1"><a href="https://github.blog/ai-and-ml/" class="first-post-category f5-mktg text-gradient-purple-coral text-bold pb-1 position-relative z-2">AI &amp; ML</a></div>		<div class="">
-			<h3 class="h6-mktg mb-2">
-				<a class="Link--primary post-card__link" href="https://github.blog/ai-and-ml/githubs-model-for-secret-detection-finding-more-secrets-with-less-noise/" target="_self">
-					GitHub’s model for secret detection: Finding more secrets with less noise				</a>
-			</h3>
-			<div class="f4-mktg color-fg-muted">
-				<p>GitHub’s context-aware secret classifier improves detection quality, raises weighted acceptance by 11.5%, and reduces median scan execution time by 86%.</p>
-			</div>
-		</div>
-		<footer>
-			<div class="d-flex flex-items-center mb-6px">
-		<span>
-					<span class="text-bold">
-				<a href="https://github.blog/author/batuozt/" title="Posts by Batu Ozturkler" class="author url fn Link--primary no-wrap position-relative z-2" rel="author">Batu Ozturkler</a> & <a href="https://github.blog/author/shengyfu/" title="Posts by Shengyu Fu" class="author url fn Link--primary no-wrap position-relative z-2" rel="author">Shengyu Fu</a>			</span>
 							</span>
 </div>
 		</footer>
@@ -14061,7 +14061,7 @@ wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
 <script type="text/javascript" src="https://github.blog/_static/??/wp-includes/js/dist/private-apis.min.js,/wp-includes/js/dist/url.min.js?m=1793205062j" ></script><script id="wp-api-fetch-js" src="https://github.blog/wp-includes/js/dist/api-fetch.min.js?ver=6f2a4faeee3c722b1e57"></script>
 <script id="wp-api-fetch-js-after">
 wp.apiFetch.use( wp.apiFetch.createRootURLMiddleware( "https://github.blog/wp-json/" ) );
-wp.apiFetch.nonceMiddleware = wp.apiFetch.createNonceMiddleware( "09a345c90c" );
+wp.apiFetch.nonceMiddleware = wp.apiFetch.createNonceMiddleware( "09c121217c" );
 wp.apiFetch.use( wp.apiFetch.nonceMiddleware );
 wp.apiFetch.use( wp.apiFetch.mediaUploadMiddleware );
 wp.apiFetch.nonceEndpoint = "https://github.blog/wp-admin/admin-ajax.php?action=rest-nonce";
@@ -14079,7 +14079,7 @@ _stq.push([ "view", {"v":"ext","blog":"153214340","post":"99258","tz":"-8","srv"
 _stq.push([ "clickTrackerInit", "153214340", "99258" ]);
 //# sourceURL=jetpack-stats-js-before
 </script>
-<script data-wp-strategy="defer" defer fetchpriority="low" id="jetpack-stats-js" src="https://stats.wp.com/e-202645.js"></script>
+<script data-wp-strategy="defer" defer fetchpriority="low" id="jetpack-stats-js" src="https://stats.wp.com/e-202646.js"></script>
 <script id="wp-emoji-settings" type="application/json">
 {"baseUrl":"https://s.w.org/images/core/emoji/17.0.2/72x72/","ext":".png","svgUrl":"https://s.w.org/images/core/emoji/17.0.2/svg/","svgExt":".svg","source":{"concatemoji":"https://github.blog/wp-includes/js/wp-emoji-release.min.js?ver=7.1.4"}}
 </script>

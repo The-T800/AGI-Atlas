@@ -1,6 +1,6 @@
 {
   "version": "v3",
-  "generatedAt": "2026-10-28T16:04:23.366Z",
+  "generatedAt": "2026-11-02T14:21:29.499Z",
   "datasets": [
     {
       "id": "v3_Semi_Private",
@@ -1891,6 +1891,40 @@
       "score": 0.004179823483426319,
       "cost": 2995.96480425,
       "resultsUrl": "/results/meta-muse-spark-open",
+      "display": true,
+      "pointShape": "circle"
+    },
+    {
+      "datasetId": "v3_Semi_Private",
+      "datasetDisplayName": "ARC-AGI-3",
+      "modelId": "deepseek-v4-1-flash-1017-max",
+      "modelDisplayName": "DeepSeek V4.1 Flash 1017 (Max)",
+      "modelType": "CoT",
+      "modelGroup": "deepseek-v4-1-flash-1017",
+      "modelReleaseDate": "2026-10-17T00:00:00.000Z",
+      "providerId": "DeepSeek",
+      "providerDisplayName": "DeepSeek",
+      "providerColor": "#4d6bfeff",
+      "score": 0.0021958291788019067,
+      "cost": 1003.8696329999999,
+      "resultsUrl": "/results/deepseek-v4-1-flash-1017",
+      "display": true,
+      "pointShape": "circle"
+    },
+    {
+      "datasetId": "v3_Semi_Private",
+      "datasetDisplayName": "ARC-AGI-3",
+      "modelId": "deepseek-v4-1-flash-1017-max-provider-adapter",
+      "modelDisplayName": "DeepSeek V4.1 Flash 1017 - Provider Adapter (Max)",
+      "modelType": "CoT",
+      "modelGroup": "deepseek-v4-1-flash-1017-provider-adapter",
+      "modelReleaseDate": "2026-10-17T00:00:00.000Z",
+      "providerId": "DeepSeek",
+      "providerDisplayName": "DeepSeek",
+      "providerColor": "#4d6bfeff",
+      "score": 0.058082710084347296,
+      "cost": 1179.1379751,
+      "resultsUrl": "/results/deepseek-v4-1-flash-1017",
       "display": true,
       "pointShape": "circle"
     }

@@ -1,6 +1,6 @@
 {
   "version": "v2",
-  "generatedAt": "2026-10-28T16:04:23.366Z",
+  "generatedAt": "2026-11-06T14:32:53.860Z",
   "datasets": [
     {
       "id": "v2_Semi_Private",
@@ -1197,7 +1197,7 @@
       "datasetId": "v2_Semi_Private",
       "datasetDisplayName": "ARC-AGI-2",
       "modelId": "jeremy_sept_2025",
-      "modelDisplayName": "Grok 4 (Refine.)",
+      "modelDisplayName": "Grok 4 (Refinement)",
       "modelType": "Refinement",
       "modelGroup": "",
       "modelReleaseDate": "2025-08-07T00:00:00.000Z",
@@ -1213,7 +1213,7 @@
       "datasetId": "v2_Semi_Private",
       "datasetDisplayName": "ARC-AGI-2",
       "modelId": "eric_pang_sept_2025",
-      "modelDisplayName": "Grok 4 (Refine.)",
+      "modelDisplayName": "Grok 4 (Refinement)",
       "modelType": "Refinement",
       "modelGroup": "",
       "modelReleaseDate": "2025-08-07T00:00:00.000Z",
@@ -1631,7 +1631,7 @@
       "datasetId": "v2_Semi_Private",
       "datasetDisplayName": "ARC-AGI-2",
       "modelId": "poetiq-arc-agi-gemini-3-d_v1",
-      "modelDisplayName": "Gemini 3 Pro (Refine.)",
+      "modelDisplayName": "Gemini 3 Pro (Refinement)",
       "modelType": "Refinement",
       "modelGroup": "",
       "modelReleaseDate": "2025-12-04T00:00:00.000Z",
@@ -1842,7 +1842,7 @@
       "datasetId": "v2_Semi_Private",
       "datasetDisplayName": "ARC-AGI-2",
       "modelId": "johan_land_gpt_5_2_refine",
-      "modelDisplayName": "GPT-5.2 (Refine.)",
+      "modelDisplayName": "GPT-5.2 (Refinement)",
       "modelType": "Refinement",
       "modelGroup": "",
       "modelReleaseDate": "2026-02-03T00:00:00.000Z",
@@ -4781,6 +4781,22 @@
       "score": 0.12222222222222222,
       "costPerTask": 0.10650972499999997,
       "resultsUrl": "/results/meta-muse-spark-open",
+      "display": true
+    },
+    {
+      "datasetId": "v2_Semi_Private",
+      "datasetDisplayName": "ARC-AGI-2",
+      "modelId": "thinky-inkling-2-small-xhigh",
+      "modelDisplayName": "Inkling 2 Small (XHigh)",
+      "modelType": "CoT",
+      "modelGroup": "thinky-inkling-2-small",
+      "modelReleaseDate": "2026-11-05T00:00:00.000Z",
+      "providerId": "Thinking Machines",
+      "providerDisplayName": "Thinking Machines",
+      "providerColor": "#ffffff",
+      "score": 0.8166666666666667,
+      "costPerTask": 0.27194635,
+      "resultsUrl": "/results/thinky-inkling-2-small",
       "display": true
     }
   ]

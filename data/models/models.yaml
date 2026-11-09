@@ -738,6 +738,9 @@
 - id: deepseek-v-4-1-flash-1017-none
   name: DeepSeek V4.1 Flash 1017 (None)
   provider: DeepSeek
+- id: deepseek-v-4-1-flash-1017-provider-adapter-max
+  name: DeepSeek V4.1 Flash 1017 - Provider Adapter (Max)
+  provider: DeepSeek
 - id: deepseek-v-4-1-flash-high
   name: DeepSeek V4.1 Flash (High)
   provider: DeepSeek
@@ -846,6 +849,36 @@
 - id: doubao-1-6-thinking
   name: Doubao 1.6 Thinking
   provider: ByteDance
+- id: doubao-seed-1-6-thinking-seed-1-6
+  name: Doubao-Seed-1.6 (thinking) [seed-1.6]
+  provider: ByteDance
+  release_date: '2025-06-11'
+  release_source: https://epoch.ai/data/benchmark_data.zip
+- id: doubao-seed-2-0-lite-apr-2026-high-doubao-seed-2-0-lite-2604
+  name: Doubao Seed 2.0 Lite (Apr 2026, high) [doubao-seed-2.0-lite-260428_high]
+  provider: ByteDance
+  release_date: '2026-04-28'
+  release_source: https://epoch.ai/data/benchmark_data.zip
+- id: doubao-seed-2-0-pro-high-doubao-seed-2-0-pro-260215-high
+  name: Doubao-Seed-2.0 Pro (high) [doubao-seed-2.0-pro-260215_high]
+  provider: ByteDance
+  release_date: '2026-02-14'
+  release_source: https://epoch.ai/data/benchmark_data.zip
+- id: doubao-seed-2-1-pro-high-doubao-seed-2-1-pro-260628-high
+  name: Doubao Seed 2.1 Pro (high) [doubao-seed-2.1-pro-260628_high]
+  provider: ByteDance
+  release_date: '2026-06-23'
+  release_source: https://epoch.ai/data/benchmark_data.zip
+- id: doubao-seed-2-1-turbo-high-doubao-seed-2-1-turbo-260628-high
+  name: Doubao Seed 2.1 Turbo (high) [doubao-seed-2.1-turbo-260628_high]
+  provider: ByteDance
+  release_date: '2026-06-23'
+  release_source: https://epoch.ai/data/benchmark_data.zip
+- id: doubao-seed-evolving-nov-2026-high-doubao-seed-evolving-high
+  name: Doubao Seed Evolving (Nov 2026, high) [doubao-seed-evolving_high]
+  provider: ByteDance
+  release_date: '2026-11-02'
+  release_source: https://epoch.ai/data/benchmark_data.zip
 - id: entropo-r-2-e-qwen-3-coder-30-b-a-3-b-instruct
   name: EntroPO + R2E + Qwen3-Coder-30B-A3B-Instruct
   provider: Qwen
@@ -1173,8 +1206,8 @@
   provider: Google DeepMind
   release_date: '2025-11-18'
   release_source: https://epoch.ai/data/benchmark_data.zip
-- id: gemini-3-pro-refine
-  name: Gemini 3 Pro (Refine.)
+- id: gemini-3-pro-refinement
+  name: Gemini 3 Pro (Refinement)
   provider: Poetiq
 - id: gemini-4-argon-high
   name: Gemini 4 Argon (High)
@@ -1567,8 +1600,8 @@
 - id: gpt-5-2-pro-xhigh
   name: GPT-5.2 Pro (XHigh)
   provider: OpenAI
-- id: gpt-5-2-refine
-  name: GPT-5.2 (Refine.)
+- id: gpt-5-2-refinement
+  name: GPT-5.2 (Refinement)
   provider: Johan Land
 - id: gpt-5-2-xhigh
   name: GPT-5.2 (XHigh)
@@ -2326,8 +2359,8 @@
   provider: xAI
   release_date: '2025-07-10'
   release_source: https://epoch.ai/data/benchmark_data.zip
-- id: grok-4-refine
-  name: Grok 4 (Refine.)
+- id: grok-4-refinement
+  name: Grok 4 (Refinement)
   provider: J. Berman
 - id: grok-4-thinking
   name: Grok 4 (Thinking)
@@ -2357,6 +2390,9 @@
   provider: Thinking Machines
   release_date: '2026-07-15'
   release_source: https://epoch.ai/data/benchmark_data.zip
+- id: inkling-2-small-xhigh
+  name: Inkling 2 Small (XHigh)
+  provider: Thinking Machines
 - id: inkling-small-high
   name: Inkling Small (High)
   provider: Thinking Machines
@@ -2465,6 +2501,11 @@
   name: Kimi K2 Thinking Turbo [kimi-k2-thinking-turbo]
   provider: Moonshot
   release_date: '2025-11-06'
+  release_source: https://epoch.ai/data/benchmark_data.zip
+- id: kimi-k-3-1-pro-together-max-kimi-k-3-1-pro-together-max
+  name: Kimi K3.1 Pro (Together, max) [kimi-k3.1-pro-together_max]
+  provider: Moonshot
+  release_date: '2026-10-23'
   release_source: https://epoch.ai/data/benchmark_data.zip
 - id: kimi-k-3-high
   name: Kimi K3 (High)
@@ -2724,8 +2765,6 @@
 - id: mistral-7-b-v-0-3
   name: Mistral 7B v0.3
   provider: 来源未单独标注
-  release_date: '2024-05-27'
-  release_source: https://epoch.ai/data/eci_scores.csv
 - id: mistral-7-b-v-0-3-mistral-7-b-instruct-v-0-3
   name: Mistral 7B v0.3 [Mistral-7B-Instruct-v0.3]
   provider: Mistral AI
@@ -2740,8 +2779,13 @@
 - id: mistral-large-2-nov-2024-mistral-large-2411
   name: Mistral Large 2 (Nov 2024) [mistral-large-2411]
   provider: Mistral AI
-- id: mistral-large-4-high-mistral-large-4-0-high
-  name: Mistral Large 4 (high) [mistral-large-4-0_high]
+- id: mistral-large-4-high-mistral-large-4-0-oss-high
+  name: Mistral Large 4 (high) [mistral-large-4-0-oss_high]
+  provider: Mistral AI
+  release_date: '2026-10-29'
+  release_source: https://epoch.ai/data/benchmark_data.zip
+- id: mistral-large-4-preview-high-mistral-large-4-0-high
+  name: Mistral Large 4 Preview (high) [mistral-large-4-0_high]
   provider: Mistral AI
   release_date: '2026-10-06'
   release_source: https://epoch.ai/data/benchmark_data.zip
