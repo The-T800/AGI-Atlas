@@ -199,6 +199,46 @@
 - id: claude-fable-5-1-xhigh
   name: Claude Fable 5.1 (XHigh)
   provider: Anthropic
+- id: claude-fable-5-2-high
+  name: Claude Fable 5.2 (High)
+  provider: Anthropic
+- id: claude-fable-5-2-low
+  name: Claude Fable 5.2 (Low)
+  provider: Anthropic
+- id: claude-fable-5-2-max
+  name: Claude Fable 5.2 (Max)
+  provider: Anthropic
+- id: claude-fable-5-2-max-claude-fable-5-2-max
+  name: Claude Fable 5.2 (max) [claude-fable-5-2_max]
+  provider: Anthropic
+  release_date: '2026-11-09'
+  release_source: https://epoch.ai/data/benchmark_data.zip
+- id: claude-fable-5-2-medium
+  name: Claude Fable 5.2 (Medium)
+  provider: Anthropic
+- id: claude-fable-5-2-provider-adapter-high
+  name: Claude Fable 5.2 - Provider Adapter (High)
+  provider: Anthropic
+- id: claude-fable-5-2-provider-adapter-low
+  name: Claude Fable 5.2 - Provider Adapter (Low)
+  provider: Anthropic
+- id: claude-fable-5-2-provider-adapter-max
+  name: Claude Fable 5.2 - Provider Adapter (Max)
+  provider: Anthropic
+- id: claude-fable-5-2-provider-adapter-medium
+  name: Claude Fable 5.2 - Provider Adapter (Medium)
+  provider: Anthropic
+- id: claude-fable-5-2-provider-adapter-xhigh
+  name: Claude Fable 5.2 - Provider Adapter (XHigh)
+  provider: Anthropic
+- id: claude-fable-5-2-with-fallback-max-claude-fable-5-2-fallback
+  name: Claude Fable 5.2 (with fallback, max) [claude-fable-5-2-fallback_max]
+  provider: Anthropic
+  release_date: '2026-11-09'
+  release_source: https://epoch.ai/data/benchmark_data.zip
+- id: claude-fable-5-2-xhigh
+  name: Claude Fable 5.2 (XHigh)
+  provider: Anthropic
 - id: claude-fable-5-high
   name: Claude Fable 5 (High)
   provider: Anthropic
@@ -226,6 +266,11 @@
 - id: claude-fable-5-medium
   name: Claude Fable 5 (Medium)
   provider: Anthropic
+- id: claude-fable-5-with-fallback-max-claude-fable-5-fallback-max
+  name: Claude Fable 5 (with fallback, max) [claude-fable-5-fallback_max]
+  provider: Anthropic
+  release_date: '2026-06-09'
+  release_source: https://epoch.ai/data/benchmark_data.zip
 - id: claude-fable-5-xhigh
   name: Claude Fable 5 (XHigh)
   provider: Anthropic
@@ -437,6 +482,11 @@
 - id: claude-opus-5-5-medium
   name: Claude Opus 5.5 (Medium)
   provider: Anthropic
+- id: claude-opus-5-5-with-fallback-max-claude-opus-5-5-fallback-m
+  name: Claude Opus 5.5 (with fallback, max) [claude-opus-5-5-fallback_max]
+  provider: Anthropic
+  release_date: '2026-09-22'
+  release_source: https://epoch.ai/data/benchmark_data.zip
 - id: claude-opus-5-5-xhigh
   name: Claude Opus 5.5 (XHigh)
   provider: Anthropic
@@ -1215,7 +1265,7 @@
 - id: gemini-4-argon-high-gemini-4-argon-high
   name: Gemini 4 Argon (high) [gemini-4-argon_high]
   provider: Google DeepMind
-  release_date: '2026-09-30'
+  release_date: '2026-10-13'
   release_source: https://epoch.ai/data/benchmark_data.zip
 - id: gemini-4-argon-low
   name: Gemini 4 Argon (Low)
@@ -1232,6 +1282,51 @@
 - id: gemini-4-argon-provider-adapter-medium
   name: Gemini 4 Argon - Provider Adapter (Medium)
   provider: Google
+- id: gemini-4-carbon-high
+  name: Gemini 4 Carbon (High)
+  provider: Google
+- id: gemini-4-carbon-high-gemini-4-carbon-high
+  name: Gemini 4 Carbon (high) [gemini-4-carbon_high]
+  provider: Google DeepMind
+  release_date: '2026-11-10'
+  release_source: https://epoch.ai/data/benchmark_data.zip
+- id: gemini-4-carbon-low
+  name: Gemini 4 Carbon (Low)
+  provider: Google
+- id: gemini-4-carbon-medium
+  name: Gemini 4 Carbon (Medium)
+  provider: Google
+- id: gemini-4-carbon-provider-adapter-high
+  name: Gemini 4 Carbon - Provider Adapter (High)
+  provider: Google
+- id: gemini-4-carbon-provider-adapter-low
+  name: Gemini 4 Carbon - Provider Adapter (Low)
+  provider: Google
+- id: gemini-4-carbon-provider-adapter-medium
+  name: Gemini 4 Carbon - Provider Adapter (Medium)
+  provider: Google
+- id: gemini-4-hydrogen-high
+  name: Gemini 4 Hydrogen (High)
+  provider: Google
+- id: gemini-4-hydrogen-low
+  name: Gemini 4 Hydrogen (Low)
+  provider: Google
+- id: gemini-4-hydrogen-medium
+  name: Gemini 4 Hydrogen (Medium)
+  provider: Google
+- id: gemini-4-hydrogen-xhigh
+  name: Gemini 4 Hydrogen (XHigh)
+  provider: Google
+- id: gemini-4-hydrogen-xhigh-gemini-4-hydrogen-xhigh
+  name: Gemini 4 Hydrogen (xhigh) [gemini-4-hydrogen_xhigh]
+  provider: Google DeepMind
+  release_date: '2026-11-12'
+  release_source: https://epoch.ai/data/benchmark_data.zip
+- id: gemini-4-neon-xhigh-gemini-4-neon-xhigh
+  name: Gemini 4 Neon (xhigh) [gemini-4-neon_xhigh]
+  provider: Google DeepMind
+  release_date: '2026-11-18'
+  release_source: https://epoch.ai/data/benchmark_data.zip
 - id: gemini-pro-v-1-5
   name: Gemini-Pro-V1.5
   provider: Google
@@ -2053,6 +2148,71 @@
   provider: OpenAI
   release_date: '2026-10-26'
   release_source: https://epoch.ai/data/benchmark_data.zip
+- id: gpt-6-2-astra-high
+  name: GPT-6.2 Astra (High)
+  provider: OpenAI
+- id: gpt-6-2-astra-low
+  name: GPT-6.2 Astra (Low)
+  provider: OpenAI
+- id: gpt-6-2-astra-max
+  name: GPT-6.2 Astra (Max)
+  provider: OpenAI
+- id: gpt-6-2-astra-max-gpt-6-2-astra-max
+  name: GPT-6.2 Astra (max) [gpt-6.2-astra_max]
+  provider: OpenAI
+  release_date: '2026-11-17'
+  release_source: https://epoch.ai/data/benchmark_data.zip
+- id: gpt-6-2-astra-medium
+  name: GPT-6.2 Astra (Medium)
+  provider: OpenAI
+- id: gpt-6-2-astra-provider-adapter-high
+  name: GPT-6.2 Astra - Provider Adapter (High)
+  provider: OpenAI
+- id: gpt-6-2-astra-provider-adapter-low
+  name: GPT-6.2 Astra - Provider Adapter (Low)
+  provider: OpenAI
+- id: gpt-6-2-astra-provider-adapter-max
+  name: GPT-6.2 Astra - Provider Adapter (Max)
+  provider: OpenAI
+- id: gpt-6-2-astra-provider-adapter-medium
+  name: GPT-6.2 Astra - Provider Adapter (Medium)
+  provider: OpenAI
+- id: gpt-6-2-astra-provider-adapter-xhigh
+  name: GPT-6.2 Astra - Provider Adapter (XHigh)
+  provider: OpenAI
+- id: gpt-6-2-astra-xhigh
+  name: GPT-6.2 Astra (XHigh)
+  provider: OpenAI
+- id: gpt-6-2-sol-high
+  name: GPT-6.2 Sol (High)
+  provider: OpenAI
+- id: gpt-6-2-sol-low
+  name: GPT-6.2 Sol (Low)
+  provider: OpenAI
+- id: gpt-6-2-sol-max
+  name: GPT-6.2 Sol (Max)
+  provider: OpenAI
+- id: gpt-6-2-sol-medium
+  name: GPT-6.2 Sol (Medium)
+  provider: OpenAI
+- id: gpt-6-2-sol-provider-adapter-high
+  name: GPT-6.2 Sol - Provider Adapter (High)
+  provider: OpenAI
+- id: gpt-6-2-sol-provider-adapter-low
+  name: GPT-6.2 Sol - Provider Adapter (Low)
+  provider: OpenAI
+- id: gpt-6-2-sol-provider-adapter-max
+  name: GPT-6.2 Sol - Provider Adapter (Max)
+  provider: OpenAI
+- id: gpt-6-2-sol-provider-adapter-medium
+  name: GPT-6.2 Sol - Provider Adapter (Medium)
+  provider: OpenAI
+- id: gpt-6-2-sol-provider-adapter-xhigh
+  name: GPT-6.2 Sol - Provider Adapter (XHigh)
+  provider: OpenAI
+- id: gpt-6-2-sol-xhigh
+  name: GPT-6.2 Sol (XHigh)
+  provider: OpenAI
 - id: gpt-6-astra-high
   name: GPT-6 Astra (High)
   provider: OpenAI
@@ -2390,6 +2550,12 @@
   provider: Thinking Machines
   release_date: '2026-07-15'
   release_source: https://epoch.ai/data/benchmark_data.zip
+- id: inkling-2-mini-xhigh
+  name: Inkling 2 Mini (XHigh)
+  provider: Thinking Machines
+- id: inkling-2-small-provider-adapter-xhigh
+  name: Inkling 2 Small - Provider Adapter (XHigh)
+  provider: Thinking Machines
 - id: inkling-2-small-xhigh
   name: Inkling 2 Small (XHigh)
   provider: Thinking Machines
@@ -2715,6 +2881,21 @@
 - id: mdt-scratch-38
   name: MDT (scratch) [38]
   provider: 来源未单独标注
+- id: mercury-3-preview-high
+  name: Mercury 3 Preview (High)
+  provider: Inception
+- id: mercury-3-preview-instant
+  name: Mercury 3 Preview (Instant)
+  provider: Inception
+- id: mercury-3-preview-low
+  name: Mercury 3 Preview (Low)
+  provider: Inception
+- id: mercury-3-preview-medium
+  name: Mercury 3 Preview (Medium)
+  provider: Inception
+- id: mercury-3-preview-provider-adapter-high
+  name: Mercury 3 Preview - Provider Adapter (High)
+  provider: Inception
 - id: mindall-e
   name: minDALL-E
   provider: 来源未单独标注
@@ -3019,9 +3200,6 @@
   provider: OpenAI
   release_date: '2025-04-16'
   release_source: https://epoch.ai/data/benchmark_data.zip
-- id: o-3-mini-high
-  name: o3-mini (High)
-  provider: OpenAI
 - id: o-3-mini-high-o-3-mini-2025-01-31-high
   name: o3-mini (high) [o3-mini-2025-01-31_high]
   provider: OpenAI

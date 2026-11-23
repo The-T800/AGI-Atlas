@@ -1,10 +1,10 @@
 # AGI Atlas · 离 AGI 还差多少？
 
-[English](report.en.md) · 数据快照 2026-11-09 · 本报告由 `uv run agi-atlas report` 生成，请勿手改。
+[English](report.en.md) · 数据快照 2026-11-23 · 本报告由 `uv run agi-atlas report` 生成，请勿手改。
 
 O*NET 职业活动、OpenAlex 科研主题与独立能力标签共同组织评测证据；学科未测项保持未知。
 
-分类版本：2026-10-14 · 分类抓取：2026-10-20 · 评测来源最近抓取：2026-11-09。原始更新时间可在主题中查看。
+分类版本：2026-10-14 · 分类抓取：2026-10-20 · 评测来源最近抓取：2026-11-23。原始更新时间可在主题中查看。
 
 ## 结论
 
@@ -95,7 +95,7 @@ O*NET 职业活动、OpenAlex 科研主题与独立能力标签共同组织评�
 | AGIEval | 知识与专业判断 | AGIEval (Acc.) / deepseek-v3快照 | 79.6 % | DeepSeek-V3-Base | 进行中 | [厂商报告](<https://raw.githubusercontent.com/deepseek-ai/DeepSeek-V3/main/README.md>) |
 | GPQA | 科学与研究 | GPQA / qwen35-card快照 | 92.4 % | GPT5.2 | 接近满分 | [厂商报告](<https://huggingface.co/Qwen/Qwen3.5-397B-A17B/raw/main/README.md>) |
 | Humanity's Last Exam | 科学与研究 | HLE / qwen35-card快照 | 37.5 % | Gemini-3 Pro | 差距明显 | [厂商报告](<https://huggingface.co/Qwen/Qwen3.5-397B-A17B/raw/main/README.md>) |
-| FrontierMath | 数学 | Epoch Hub 快照 / FrontierMath-Tiers-1-3-v2-Private | 93.68 % | GPT-6.1 Sol (max) [gpt-6.1-sol_max] | 接近满分 | [独立评测](<https://epoch.ai/data/benchmark_data.zip>) |
+| FrontierMath | 数学 | Epoch Hub 快照 / FrontierMath-Tiers-1-3-v2-Private | 95.09 % | Claude Fable 5.2 (max) [claude-fable-5-2_max] | 接近满分 | [独立评测](<https://epoch.ai/data/benchmark_data.zip>) |
 | SciCode | 科学与研究 | — | — | — | 暂无成绩 | [原始任务 ↗](<https://scicode-bench.github.io/>) |
 | PaperBench | 科学与研究 | PaperBench / qwen38-card快照 | 93 分 | Qwen3.8-Max | 无上限量尺 | [厂商报告](<https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B/raw/main/README.md>) |
 | ScienceAgentBench | 科学与研究 | — | — | — | 暂无成绩 | [原始任务 ↗](<https://github.com/OSU-NLP-Group/ScienceAgentBench>) |
@@ -137,8 +137,8 @@ O*NET 职业活动、OpenAlex 科研主题与独立能力标签共同组织评�
 | CLUEWSC | 语言与沟通 | CLUEWSC (EM) / deepseek-r1快照 | 92.8 % | DeepSeek R1 | 接近满分 | [厂商报告](<https://raw.githubusercontent.com/deepseek-ai/DeepSeek-R1/main/README.md>) |
 | LogiQA | 推理与问题求解 | — | — | — | 暂无成绩 | [原始任务 ↗](<https://github.com/lgw863/LogiQA-dataset>) |
 | FOLIO | 推理与问题求解 | — | — | — | 暂无成绩 | [原始任务 ↗](<https://github.com/Yale-LILY/FOLIO>) |
-| ARC-AGI | 学习与泛化 | ARC-AGI-2 | 95 % | GPT-6 Astra (Max) | 接近满分 | [官方榜单](<https://arcprize.org/media/data/leaderboard/v2.json>) |
-| ARC-AGI-3 | 学习与泛化 | ARC-AGI-3 | 62.71 分 | GPT-6 Astra (Max) | 无上限量尺 | [官方榜单](<https://arcprize.org/media/data/leaderboard/v3.json>) |
+| ARC-AGI | 学习与泛化 | ARC-AGI-2 | 95.83 % | GPT-6.2 Astra (XHigh) | 接近满分 | [官方榜单](<https://arcprize.org/media/data/leaderboard/v2.json>) |
+| ARC-AGI-3 | 学习与泛化 | ARC-AGI-3 | 81.17 分 | Claude Fable 5.2 (XHigh) | 无上限量尺 | [官方榜单](<https://arcprize.org/media/data/leaderboard/v3.json>) |
 | CL-bench | 学习与泛化 | arXiv:2602.03587v1 | 23.7 % | GPT 5.1 (High) | 差距明显 | [论文](<https://arxiv.org/html/2602.03587v1>) |
 | CL-bench Life | 学习与泛化 | — | — | — | 暂无成绩 | [原始任务 ↗](<https://github.com/Tencent-Hunyuan/CL-bench>) |
 | CHORES | 具身与运动 | — | — | — | 暂无成绩 | [原始任务 ↗](<https://arxiv.org/abs/2312.02976>) |

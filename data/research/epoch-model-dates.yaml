@@ -1,7 +1,7 @@
 source_id: epoch-benchmarks
 source_url: https://epoch.ai/data/benchmark_data.zip
-source_sha256: 9cd361351fe1772b0459d22366565e500dd9ae7dbd66f0c90e573f80d2c536a1
-observed_on: '2026-11-09'
+source_sha256: 0fa2ec1a8ebce6b1a90471cc31ac8d8495cf67b2b80bc230bb5c985d9208e050
+observed_on: '2026-11-23'
 source_file: benchmark_data.zip/model_metadata.csv
 license: CC-BY 4.0（压缩包 README）
 notes: name 为 Epoch 的 model_group；release_date 为模型发布日期，不是评测日期；源表未给出日期或同组版本日期不一致时为
@@ -183,6 +183,7 @@ models:
   release_date: '2026-06-09'
   model_versions:
   - claude-fable-5
+  - claude-fable-5-fallback_max
   - claude-fable-5_high
   - claude-fable-5_low
   - claude-fable-5_max
@@ -199,6 +200,17 @@ models:
   - claude-fable-5-1_medium
   - claude-fable-5-1_unknown
   - claude-fable-5-1_xhigh
+- name: Claude Fable 5.2
+  organization: Anthropic
+  release_date: '2026-11-09'
+  model_versions:
+  - claude-fable-5-2-fallback_max
+  - claude-fable-5-2_high
+  - claude-fable-5-2_low
+  - claude-fable-5-2_max
+  - claude-fable-5-2_medium
+  - claude-fable-5-2_unknown
+  - claude-fable-5-2_xhigh
 - name: Claude Haiku 4.5
   organization: Anthropic
   release_date: '2025-10-15'
@@ -323,6 +335,7 @@ models:
   organization: Anthropic
   release_date: '2026-09-22'
   model_versions:
+  - claude-opus-5-5-fallback_max
   - claude-opus-5-5_high
   - claude-opus-5-5_low
   - claude-opus-5-5_max
@@ -1112,6 +1125,7 @@ models:
   release_date: '2025-11-19'
   model_versions:
   - gpt-5.1-codex-max
+  - gpt-5.1-codex-max_xhigh
 - name: GPT-5.1-Codex-mini
   organization: OpenAI
   release_date: '2025-11-12'
@@ -1322,6 +1336,27 @@ models:
   - gpt-6.1-terra_none
   - gpt-6.1-terra_unknown
   - gpt-6.1-terra_xhigh
+- name: GPT-6.2 Astra
+  organization: OpenAI
+  release_date: '2026-11-17'
+  model_versions:
+  - gpt-6.2-astra_high
+  - gpt-6.2-astra_low
+  - gpt-6.2-astra_max
+  - gpt-6.2-astra_medium
+  - gpt-6.2-astra_promax
+  - gpt-6.2-astra_unknown
+  - gpt-6.2-astra_xhigh
+- name: GPT-6.2 Sol
+  organization: OpenAI
+  release_date: '2026-11-17'
+  model_versions:
+  - gpt-6.2-sol_high
+  - gpt-6.2-sol_low
+  - gpt-6.2-sol_max
+  - gpt-6.2-sol_medium
+  - gpt-6.2-sol_unknown
+  - gpt-6.2-sol_xhigh
 - name: GPT-J-6B
   organization: EleutherAI,LAION
   release_date: '2021-08-05'
@@ -1585,7 +1620,7 @@ models:
   - gemini-3.8-flash_unknown
 - name: Gemini 4 Argon
   organization: Google DeepMind
-  release_date: '2026-09-30'
+  release_date: '2026-10-13'
   model_versions:
   - gemini-4-argon_high
   - gemini-4-argon_low
@@ -1594,10 +1629,30 @@ models:
   - gemini-4-argon_unknown
 - name: Gemini 4 Carbon
   organization: Google DeepMind
-  release_date: '2026-10-28'
+  release_date: '2026-11-10'
   model_versions:
   - gemini-4-carbon_high
+  - gemini-4-carbon_low
+  - gemini-4-carbon_medium
   - gemini-4-carbon_unknown
+- name: Gemini 4 Hydrogen
+  organization: Google DeepMind
+  release_date: '2026-11-12'
+  model_versions:
+  - gemini-4-hydrogen_high
+  - gemini-4-hydrogen_low
+  - gemini-4-hydrogen_medium
+  - gemini-4-hydrogen_unknown
+  - gemini-4-hydrogen_xhigh
+- name: Gemini 4 Neon
+  organization: Google DeepMind
+  release_date: '2026-11-18'
+  model_versions:
+  - gemini-4-neon_high
+  - gemini-4-neon_low
+  - gemini-4-neon_medium
+  - gemini-4-neon_unknown
+  - gemini-4-neon_xhigh
 - name: Gemini Robotics-ER 1.6
   organization: Google
   release_date: '2026-04-14'
@@ -1827,6 +1882,12 @@ models:
   - Inkling
   - Inkling_high
   - Inkling_xhigh
+- name: Inkling 2 Small
+  organization: Thinking Machines
+  release_date: '2026-11-05'
+  model_versions:
+  - inkling-2-small_unknown
+  - inkling-2-small_xhigh
 - name: Inkling-Small
   organization: Thinking Machines
   release_date: '2026-07-15'
@@ -1954,6 +2015,7 @@ models:
   - kimi-k3.1-pro_low
   - kimi-k3.1-pro_max
   - kimi-k3.1-pro_unknown
+  - kimi-k3.1-pro_xhigh
 - name: LLaMA-13B
   organization: Meta AI
   release_date: '2023-02-24'
@@ -2196,7 +2258,7 @@ models:
   - mimo-v2-pro
 - name: MiMo-V2.5
   organization: Xiaomi Corp
-  release_date: '2026-04-23'
+  release_date: '2026-04-22'
   model_versions:
   - mimo-v2.5
 - name: MiMo-V2.5-Pro
@@ -2323,6 +2385,7 @@ models:
   release_date: '2026-10-29'
   model_versions:
   - mistral-large-4-0-oss_high
+  - mistral-large-4-0-oss_medium
   - mistral-large-4-0-oss_unknown
 - name: Mistral Large 4 Preview
   organization: Mistral AI
@@ -2420,6 +2483,17 @@ models:
   - Mixtral-8x7B-Instruct-v0.1
   - Mixtral-8x7B-v0.1
   - open-mixtral-8x7b
+- name: Muse Ember
+  organization: Meta AI
+  release_date: '2026-11-09'
+  model_versions:
+  - muse-ember-1.0_high
+  - muse-ember-1.0_low
+  - muse-ember-1.0_max
+  - muse-ember-1.0_medium
+  - muse-ember-1.0_minimal
+  - muse-ember-1.0_unknown
+  - muse-ember-1.0_xhigh
 - name: Muse Glimmer
   organization: Meta AI
   release_date: '2026-08-10'
@@ -3060,6 +3134,15 @@ models:
   model_versions:
   - qwen3.8-max-0902_unknown
   - qwen3.8-max-0902_xhigh
+- name: Qwen4-Max
+  organization: Alibaba
+  release_date: '2026-11-16'
+  model_versions:
+  - qwen4-max_high
+  - qwen4-max_low
+  - qwen4-max_none
+  - qwen4-max_unknown
+  - qwen4-max_xhigh
 - name: RedPajama-INCITE-7B-Base
   organization: null
   release_date: '2023-05-04'

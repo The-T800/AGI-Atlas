@@ -7,7 +7,7 @@
 	<link rel="icon" type="image/x-icon" href="https://github.githubassets.com/favicon.ico">
 	<meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
 
-	<!-- This site is optimized with the Yoast SEO Premium plugin v28.6 (Yoast SEO v28.6) - https://yoast.com/product/yoast-seo-premium-wordpress/ -->
+	<!-- This site is optimized with the Yoast SEO Premium plugin v28.8 (Yoast SEO v28.8) - https://yoast.com/product/yoast-seo-premium-wordpress/ -->
 	<title>ReviewBench: An open benchmark for AI code review - The GitHub Blog</title>
 	<meta name="description" content="ReviewBench is a benchmark for code review agents built on representative GitHub pull requests, multi-source ground truth, and calibrated evaluation." />
 	<link rel="canonical" href="https://github.blog/ai-and-ml/github-copilot/reviewbench-an-open-benchmark-for-ai-code-review/" />
@@ -95,15 +95,15 @@ ol,ul{box-sizing:border-box}:root :where(.wp-block-list.has-background){padding:
 /*# sourceURL=global-styles-inline-css */
 </style>
 
-<link rel='stylesheet' id='all-css-12' href='https://github.blog/wp-content/plugins/wp-menu-image/assets/css/wmi-front-style.css?m=1792019061g' type='text/css' media='all' />
+<link rel='stylesheet' id='all-css-12' href='https://github.blog/wp-content/plugins/wp-menu-image/assets/css/wmi-front-style.css?m=71626158088bg' type='text/css' media='all' />
 <style id="jetpack-stats-inline-css">
 img#wpstats{display:none}
 /*# sourceURL=jetpack-stats-inline-css */
 </style>
-<link rel='stylesheet' id='all-css-14' href='https://github.blog/_static/??-eJx9yzsOgCAMANALiQUGDYPxLkAjTfjF1ujx1cnN8Q0Pzq5Cq4JVQBIWZNhI0uGV1daokChHiMQCgRkybUl8u8YHA/zWLzEJKg47dXnfWhYzO6uN05O5AXUKLFM=' type='text/css' media='all' />
+<link rel='stylesheet' id='all-css-14' href='https://github.blog/_static/??-eJx9yzEOgCAMAMAPiUXE0fgWgQpNAI2t0eerk5vjDQfnpvxaBauAJCzIEEnS4ZTRplM+UQ4QiAU8M2SKSdx6tQ8a+K1fYhJU7Hfa5H1TGS2GZXa904O2N9eNLdM=' type='text/css' media='all' />
 <link rel='stylesheet' id='highlightjs-css-css' href='https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.11.1/styles/default.min.css?ver=11.4.0' media='all' />
 <link rel="https://api.w.org/" href="https://github.blog/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="https://github.blog/wp-json/wp/v2/posts/99258" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://github.blog/xmlrpc.php?rsd" />
-<meta name="generator" content="WordPress 7.1.4" />
+<meta name="generator" content="WordPress 7.1.5" />
 <link rel='shortlink' href='https://wp.me/pamS32-pOW' />
 <!-- Stream WordPress user activity plugin v4.4.0 -->
 <link rel="llms-sitemap" href="https://github.blog/llms.txt" />
@@ -13741,6 +13741,30 @@ Connection: Uniform labeling to Published agreement.</p></noscript></div>
 	<div class="d-flex flex-column">
 		<div class="d-block col-12 position-relative rounded-2 mb-3 overflow-hidden tease-thumbnail" target="_self">
 			<svg aria-hidden="true" width="1032" height="548" class="width-full height-auto d-block" role="presentation"></svg>
+			<img width="400" height="212" src="https://github.blog/wp-content/uploads/2026/11/5b5fed0ce69f241f469053d4f178383688adb2fb7ef44dff82c1a2dd6a626fa1-1920x1080-1.png?resize=400%2C212" class="d-block cover-image tease-thumbnail__img wp-post-image" alt="Decorative wallpaper featuring Mona moving through pixelated paths." decoding="async" loading="lazy" srcset="https://github.blog/wp-content/uploads/2026/11/5b5fed0ce69f241f469053d4f178383688adb2fb7ef44dff82c1a2dd6a626fa1-1920x1080-1.png?w=1600 1600w, https://github.blog/wp-content/uploads/2026/11/5b5fed0ce69f241f469053d4f178383688adb2fb7ef44dff82c1a2dd6a626fa1-1920x1080-1.png?w=800 800w, https://github.blog/wp-content/uploads/2026/11/5b5fed0ce69f241f469053d4f178383688adb2fb7ef44dff82c1a2dd6a626fa1-1920x1080-1.png?w=400 400w, https://github.blog/wp-content/uploads/2026/11/5b5fed0ce69f241f469053d4f178383688adb2fb7ef44dff82c1a2dd6a626fa1-1920x1080-1.png?w=1032 1032w, https://github.blog/wp-content/uploads/2026/11/5b5fed0ce69f241f469053d4f178383688adb2fb7ef44dff82c1a2dd6a626fa1-1920x1080-1.png?w=516 516w, https://github.blog/wp-content/uploads/2026/11/5b5fed0ce69f241f469053d4f178383688adb2fb7ef44dff82c1a2dd6a626fa1-1920x1080-1.png?zoom=3&amp;resize=400%2C212 1200w" sizes="auto, (max-width: 400px) 100vw, 400px" />					</div>
+		<div class="mb-1"><a href="https://github.blog/ai-and-ml/" class="first-post-category f5-mktg text-gradient-purple-coral text-bold pb-1 position-relative z-2">AI &amp; ML</a></div>		<div class="">
+			<h3 class="h6-mktg mb-2">
+				<a class="Link--primary post-card__link" href="https://github.blog/ai-and-ml/github-copilot/build-once-run-on-any-agent-a-practical-guide-to-agent-skills/" target="_self">
+					Build once, run on any agent: A practical guide to agent skills				</a>
+			</h3>
+			<div class="f4-mktg color-fg-muted">
+				<p>Agent skills capture repeatable engineering work in files teams can review and reuse, while tools, project context, and permissions remain specific to the host that runs them.</p>
+			</div>
+		</div>
+		<footer>
+			<div class="d-flex flex-items-center mb-6px">
+		<span>
+					<span class="text-bold">
+				<a href="https://github.blog/author/andreagriffiths11/" title="Posts by Andrea Griffiths" class="author url fn Link--primary no-wrap position-relative z-2" rel="author">Andrea Griffiths</a>			</span>
+							</span>
+</div>
+		</footer>
+	</div>
+</article>
+<article class="color-border-muted post-card">
+	<div class="d-flex flex-column">
+		<div class="d-block col-12 position-relative rounded-2 mb-3 overflow-hidden tease-thumbnail" target="_self">
+			<svg aria-hidden="true" width="1032" height="548" class="width-full height-auto d-block" role="presentation"></svg>
 			<img width="400" height="212" src="https://github.blog/wp-content/uploads/2026/01/generic-github-copilot-logo-stripe.png?resize=400%2C212" class="d-block cover-image tease-thumbnail__img wp-post-image" alt="Copilot appears against a decorative background with scattered green squares." decoding="async" loading="lazy" srcset="https://github.blog/wp-content/uploads/2026/01/generic-github-copilot-logo-stripe.png?w=1600 1600w, https://github.blog/wp-content/uploads/2026/01/generic-github-copilot-logo-stripe.png?w=800 800w, https://github.blog/wp-content/uploads/2026/01/generic-github-copilot-logo-stripe.png?w=400 400w, https://github.blog/wp-content/uploads/2026/01/generic-github-copilot-logo-stripe.png?w=1032 1032w, https://github.blog/wp-content/uploads/2026/01/generic-github-copilot-logo-stripe.png?w=516 516w, https://github.blog/wp-content/uploads/2026/01/generic-github-copilot-logo-stripe.png?zoom=3&amp;resize=400%2C212 1200w" sizes="auto, (max-width: 400px) 100vw, 400px" />					</div>
 		<div class="mb-1"><a href="https://github.blog/ai-and-ml/" class="first-post-category f5-mktg text-gradient-purple-coral text-bold pb-1 position-relative z-2">AI &amp; ML</a></div>		<div class="">
 			<h3 class="h6-mktg mb-2">
@@ -13780,36 +13804,6 @@ Connection: Uniform labeling to Published agreement.</p></noscript></div>
 		<span>
 					<span class="text-bold">
 				<a href="https://github.blog/author/jdubois/" title="Posts by Julien Dubois" class="author url fn Link--primary no-wrap position-relative z-2" rel="author">Julien Dubois</a>			</span>
-							</span>
-</div>
-		</footer>
-	</div>
-</article>
-<article class="color-border-muted post-card">
-	<div class="d-flex flex-column">
-		<div class="d-block col-12 position-relative rounded-2 mb-3 overflow-hidden tease-thumbnail" target="_self">
-			<svg aria-hidden="true" width="1032" height="548" class="width-full height-auto d-block" role="presentation"></svg>
-			<img width="400" height="212" src="https://github.blog/wp-content/uploads/2026/10/Screenshot-2026-10-15-at-3.11.02-PM.png?resize=400%2C212" class="d-block cover-image tease-thumbnail__img wp-post-image" alt="Copilot app to VS Code and back" decoding="async" loading="lazy" srcset="https://github.blog/wp-content/uploads/2026/10/Screenshot-2026-10-15-at-3.11.02-PM.png?w=800 800w, https://github.blog/wp-content/uploads/2026/10/Screenshot-2026-10-15-at-3.11.02-PM.png?w=400 400w, https://github.blog/wp-content/uploads/2026/10/Screenshot-2026-10-15-at-3.11.02-PM.png?w=1032 1032w, https://github.blog/wp-content/uploads/2026/10/Screenshot-2026-10-15-at-3.11.02-PM.png?w=516 516w, https://github.blog/wp-content/uploads/2026/10/Screenshot-2026-10-15-at-3.11.02-PM.png?zoom=3&amp;resize=400%2C212 1200w" sizes="auto, (max-width: 400px) 100vw, 400px" />			<button class="js-facade position-absolute top-0 left-0 width-full height-full d-flex flex-items-center flex-justify-center color-fg-default border-0 p-0 color-bg-transparent" aria-label="Play video">
-	<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="88" height="88" fill="#fff">
-	<path d="M9.5 15.584V8.416a.5.5 0 0 1 .77-.42l5.576 3.583a.5.5 0 0 1 0 .842l-5.576 3.584a.5.5 0 0 1-.77-.42Z"></path>
-	<path d="M1 12C1 5.925 5.925 1 12 1s11 4.925 11 11-4.925 11-11 11S1 18.075 1 12Zm11-9.5A9.5 9.5 0 0 0 2.5 12a9.5 9.5 0 0 0 9.5 9.5 9.5 9.5 0 0 0 9.5-9.5A9.5 9.5 0 0 0 12 2.5Z"></path>
-	</svg>
-</button>
-<template><iframe class="cover-image" loading="lazy" title="How to continue GitHub Copilot app sessions in VS Code" width="500" height="281" src="https://www.youtube.com/embed/dNCGfpDho0U?feature=oembed&#038;autoplay=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></template>		</div>
-		<div class="mb-1"><a href="https://github.blog/ai-and-ml/" class="first-post-category f5-mktg text-gradient-purple-coral text-bold pb-1 position-relative z-2">AI &amp; ML</a></div>		<div class="position-relative">
-			<h3 class="h6-mktg mb-2">
-				<a class="Link--primary post-card__link" href="https://github.blog/ai-and-ml/github-copilot/how-to-continue-a-github-copilot-app-session-in-vs-code/" target="_self">
-					How to continue a GitHub Copilot app session in VS Code				</a>
-			</h3>
-			<div class="f4-mktg color-fg-muted">
-				<p>Learn how to move an agent session from the GitHub Copilot app into VS Code without losing the conversation, code changes, or working context.</p>
-			</div>
-		</div>
-		<footer>
-			<div class="d-flex flex-items-center mb-6px">
-		<span>
-					<span class="text-bold">
-				<a href="https://github.blog/author/cinnamonmsft/" title="Posts by Kayla Cinnamon" class="author url fn Link--primary no-wrap position-relative z-2" rel="author">Kayla Cinnamon</a>			</span>
 							</span>
 </div>
 		</footer>
@@ -14053,35 +14047,35 @@ Connection: Uniform labeling to Published agreement.</p></noscript></div>
 </script>
 <div id="ghcc" style="position: sticky; bottom: 0; z-index: 99999;"></div><script id="github_cookie_consent-js" src="https://ghcc.githubassets.com/ghcc.min.js"></script>
 <script id="github_microsoft_analytics-js" src="https://js.monitor.azure.com/scripts/c/ms.analytics-web-4.js"></script>
-<script type="text/javascript" src="https://github.blog/_static/??-eJx9jdEOwiAMRX9IVoZR44PxWzYgUAbdYkv0860mGp987Tn3FO6b8StJJIGt9oTEkLKe1gXji7ASM1Ewcpv8gpQgIAsUhj/OUHgHP2XJsUUNo+Q+G2fdaHzGGr6tiinLvD4+QyRfe9CJsreT9RkPDUmNa7uMp/Pe2YM9uvIEio9GHw==" ></script><script id="wp-i18n-js" src="https://github.blog/wp-includes/js/dist/i18n.min.js?ver=1dfe7db3940c23ea9216"></script>
+<script type="text/javascript" src="https://github.blog/_static/??-eJx9jdEOwiAMRX9IVpy66IPxWzZAKINusSX6+VYTjU++9px7CvfVuIUkkMBaWkRiiElPy4zhRViJGckbuY1uRorgkQUywx+ny7yBn7KkUIOGUVKbTG/7rXEJi/+2CsYk0/L4DJFcaV4nyt5O0mfcVSQ1LvVsh6M9Dc4fdvtrfgIaFkci" ></script><script id="wp-i18n-js" src="https://github.blog/wp-includes/js/dist/i18n.min.js?ver=1dfe7db3940c23ea9216"></script>
 <script id="wp-i18n-js-after">
 wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
 //# sourceURL=wp-i18n-js-after
 </script>
-<script type="text/javascript" src="https://github.blog/_static/??/wp-includes/js/dist/private-apis.min.js,/wp-includes/js/dist/url.min.js?m=1793205062j" ></script><script id="wp-api-fetch-js" src="https://github.blog/wp-includes/js/dist/api-fetch.min.js?ver=6f2a4faeee3c722b1e57"></script>
+<script type="text/javascript" src="https://github.blog/_static/??/wp-includes/js/dist/private-apis.min.js,/wp-includes/js/dist/url.min.js?m=6cb1cd94835ej" ></script><script id="wp-api-fetch-js" src="https://github.blog/wp-includes/js/dist/api-fetch.min.js?ver=6f2a4faeee3c722b1e57"></script>
 <script id="wp-api-fetch-js-after">
 wp.apiFetch.use( wp.apiFetch.createRootURLMiddleware( "https://github.blog/wp-json/" ) );
-wp.apiFetch.nonceMiddleware = wp.apiFetch.createNonceMiddleware( "09c121217c" );
+wp.apiFetch.nonceMiddleware = wp.apiFetch.createNonceMiddleware( "617b653eef" );
 wp.apiFetch.use( wp.apiFetch.nonceMiddleware );
 wp.apiFetch.use( wp.apiFetch.mediaUploadMiddleware );
 wp.apiFetch.nonceEndpoint = "https://github.blog/wp-admin/admin-ajax.php?action=rest-nonce";
 //# sourceURL=wp-api-fetch-js-after
 </script>
-<script type="text/javascript" src="https://github.blog/wp-content/themes/github-2021/dist/js/site-script.js?m=1792019061g" ></script><script id="highlightjs-js" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.11.1/highlight.min.js?ver=11.4.0"></script>
+<script type="text/javascript" src="https://github.blog/wp-content/themes/github-2021/dist/js/site-script.js?m=2e333f4b6f09g" ></script><script id="highlightjs-js" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.11.1/highlight.min.js?ver=11.4.0"></script>
 <script id="highlightjs-js-after">
 hljs.highlightAll()
 //# sourceURL=highlightjs-js-after
 </script>
-<script type="text/javascript" src="https://github.blog/wp-content/plugins/page-links-to/dist/new-tab.js?m=1792019061g" ></script><script integrity="sha256-kAnFXX7lCXF9K2o4g5q1lKyk167yRq6C4TiXWtbgvQw=" crossorigin="anonymous" id="hydro-analytics-js" src="https://analytics.githubassets.com/v1.1.0/hydro-marketing.min.js?ver=7.1.4"></script>
+<script type="text/javascript" src="https://github.blog/wp-content/plugins/page-links-to/dist/new-tab.js?m=30e8676d37dcg" ></script><script integrity="sha256-kAnFXX7lCXF9K2o4g5q1lKyk167yRq6C4TiXWtbgvQw=" crossorigin="anonymous" id="hydro-analytics-js" src="https://analytics.githubassets.com/v1.1.0/hydro-marketing.min.js?ver=7.1.5"></script>
 <script id="jetpack-stats-js-before">
 _stq = window._stq || [];
-_stq.push([ "view", {"v":"ext","blog":"153214340","post":"99258","tz":"-8","srv":"github.blog","hp":"vip","j":"1:16.3.1"} ]);
+_stq.push([ "view", {"v":"ext","blog":"153214340","post":"99258","tz":"-8","srv":"github.blog","hp":"vip","j":"1:16.4"} ]);
 _stq.push([ "clickTrackerInit", "153214340", "99258" ]);
 //# sourceURL=jetpack-stats-js-before
 </script>
-<script data-wp-strategy="defer" defer fetchpriority="low" id="jetpack-stats-js" src="https://stats.wp.com/e-202646.js"></script>
+<script data-wp-strategy="defer" defer fetchpriority="low" id="jetpack-stats-js" src="https://stats.wp.com/e-202648.js"></script>
 <script id="wp-emoji-settings" type="application/json">
-{"baseUrl":"https://s.w.org/images/core/emoji/17.0.2/72x72/","ext":".png","svgUrl":"https://s.w.org/images/core/emoji/17.0.2/svg/","svgExt":".svg","source":{"concatemoji":"https://github.blog/wp-includes/js/wp-emoji-release.min.js?ver=7.1.4"}}
+{"baseUrl":"https://s.w.org/images/core/emoji/17.0.2/72x72/","ext":".png","svgUrl":"https://s.w.org/images/core/emoji/17.0.2/svg/","svgExt":".svg","source":{"concatemoji":"https://github.blog/wp-includes/js/wp-emoji-release.min.js?ver=7.1.5"}}
 </script>
 <script type="module">
 /*! This file is auto-generated */
